@@ -1,0 +1,2462 @@
+Date: Sat, 18 Oct 2025 11:02:25 +0000 (UTC)
+Message-ID: <1455583883.1.1760785345904@f9671e8805d9>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_0_1717110963.1760785345883"
+
+------=_Part_0_1717110963.1760785345883
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Artificial Intelligence</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Artificial Intelligence</h1>
+    <div class=3D"Section1">
+        <ol start=3D"1">
+<li>
+<p>Introduction to old and new Al techniques;</p></li>
+<li>
+<p>Knowledge representation;</p></li>
+<li>
+<p>Propositional and first order logic;</p></li>
+<li>
+<p>Search techniques in Al;</p></li>
+<li>
+<p>Probabilistic reasoning;</p></li>
+<li>
+<p>Natural language processing.</p></li>
+<li>
+<p>Introduction to expert system.</p></li>
+<li>
+<p>Introduction to machine learning;</p></li>
+<li>
+<p>Learning algorithms: supervised and Clustering. unsupervised;</p></li>
+<li>
+<p>Practical application of machine learning;</p></li>
+<li>
+<p>Regression;</p></li>
+</ol>
+<p></p>
+<p></p>
+<ol start=3D"1">
+<li>
+<p>Introduction to old and new Al techniques;</p></li>
+</ol>
+<p>Here=E2=80=99s a <strong>concise yet informative overview</strong> of <s=
+trong>Artificial Intelligence (AI) with old and new techniques</strong>:</p=
+>
+<hr>
+<h2 id=3D"ArtificialIntelligence-1=EF=B8=8F=E2=83=A3IntroductiontoArtificia=
+lIntelligence(AI)"><strong>1=EF=B8=8F=E2=83=A3 Introduction to Artificial I=
+ntelligence (AI)</strong></h2>
+<p><strong>Definition:</strong><br>
+Artificial Intelligence is the <strong>branch of computer science that aims=
+ to create machines capable of performing tasks that typically require huma=
+n intelligence</strong>.</p>
+<p><strong>Key Goals of AI:</strong></p>
+<ul>
+<li>
+<p>Problem solving and reasoning</p></li>
+<li>
+<p>Knowledge representation</p></li>
+<li>
+<p>Learning from data and experience</p></li>
+<li>
+<p>Understanding natural language</p></li>
+<li>
+<p>Perception (vision, speech, sensors)</p></li>
+<li>
+<p>Planning and decision making</p></li>
+</ul>
+<p><strong>Applications:</strong> Robotics, autonomous vehicles, expert sys=
+tems, speech recognition, medical diagnosis, recommendation systems.</p>
+<hr>
+<h2 id=3D"ArtificialIntelligence-2=EF=B8=8F=E2=83=A3OldAITechniques(Classic=
+al/SymbolicAI)"><strong>2=EF=B8=8F=E2=83=A3 Old AI Techniques (Classical / =
+Symbolic AI)</strong></h2>
+<p><strong>Timeframe:</strong> 1950s =E2=80=93 1980s</p>
+<p><strong>Characteristics:</strong></p>
+<ul>
+<li>
+<p><strong>Rule-based / Knowledge-based:</strong> Decisions based on <stron=
+g>explicitly programmed rules</strong>.</p></li>
+<li>
+<p>Focused on <strong>symbolic reasoning</strong>, logical inference, and s=
+earch algorithms.</p></li>
+</ul>
+<p><strong>Common Techniques:</strong></p>
+<ol start=3D"1">
+<li>
+<p><strong>Expert Systems</strong></p>
+<ul>
+<li>
+<p>Example: MYCIN (medical diagnosis)</p></li>
+<li>
+<p>Uses <strong>if-then rules</strong> and inference engines</p></li>
+</ul></li>
+<li>
+<p><strong>Search Algorithms</strong></p>
+<ul>
+<li>
+<p>Breadth-First Search (BFS), Depth-First Search (DFS), A* algorithm</p></=
+li>
+</ul></li>
+<li>
+<p><strong>Logic and Reasoning</strong></p>
+<ul>
+<li>
+<p>Propositional logic, predicate logic, theorem proving</p></li>
+</ul></li>
+<li>
+<p><strong>Knowledge Representation</strong></p>
+<ul>
+<li>
+<p>Semantic networks, frames, production rules</p></li>
+</ul></li>
+<li>
+<p><strong>Planning</strong></p>
+<ul>
+<li>
+<p>STRIPS (Stanford Research Institute Problem Solver)</p></li>
+</ul></li>
+</ol>
+<p><strong>Pros:</strong></p>
+<ul>
+<li>
+<p>Explainable, deterministic, good for structured problems.</p></li>
+</ul>
+<p><strong>Cons:</strong></p>
+<ul>
+<li>
+<p>Difficult to scale, brittle with incomplete or noisy data.</p></li>
+</ul>
+<hr>
+<h2 id=3D"ArtificialIntelligence-3=EF=B8=8F=E2=83=A3NewAITechniques(Modern/=
+StatisticalAI)"><strong>3=EF=B8=8F=E2=83=A3 New AI Techniques (Modern / Sta=
+tistical AI)</strong></h2>
+<p><strong>Timeframe:</strong> 1990s =E2=80=93 Present</p>
+<p><strong>Characteristics:</strong></p>
+<ul>
+<li>
+<p><strong>Data-driven</strong>, probabilistic, and adaptive</p></li>
+<li>
+<p>Relies on <strong>machine learning, neural networks, and statistical met=
+hods</strong></p></li>
+<li>
+<p>Can handle <strong>uncertain and unstructured data</strong></p></li>
+</ul>
+<p><strong>Common Techniques:</strong></p>
+<ol start=3D"1">
+<li>
+<p><strong>Machine Learning (ML)</strong></p>
+<ul>
+<li>
+<p>Supervised, unsupervised, reinforcement learning</p></li>
+<li>
+<p>Examples: Decision trees, SVM, k-means clustering</p></li>
+</ul></li>
+<li>
+<p><strong>Deep Learning (DL)</strong></p>
+<ul>
+<li>
+<p>Neural networks with multiple layers (CNN, RNN, Transformers)</p></li>
+<li>
+<p>Applications: Image recognition, NLP, speech processing</p></li>
+</ul></li>
+<li>
+<p><strong>Probabilistic Reasoning</strong></p>
+<ul>
+<li>
+<p>Bayesian networks, Hidden Markov Models (HMM)</p></li>
+</ul></li>
+<li>
+<p><strong>Evolutionary Algorithms</strong></p>
+<ul>
+<li>
+<p>Genetic algorithms for optimization problems</p></li>
+</ul></li>
+<li>
+<p><strong>Natural Language Processing (NLP)</strong></p>
+<ul>
+<li>
+<p>Text analysis, language translation, chatbots</p></li>
+</ul></li>
+</ol>
+<p><strong>Pros:</strong></p>
+<ul>
+<li>
+<p>Can learn from data, adaptable, handles uncertainty and large datasets</=
+p></li>
+</ul>
+<p><strong>Cons:</strong></p>
+<ul>
+<li>
+<p>Less interpretable (=E2=80=9Cblack-box=E2=80=9D), requires large dataset=
+s and computation</p></li>
+</ul>
+<hr>
+<h3 id=3D"ArtificialIntelligence-4=EF=B8=8F=E2=83=A3ComparisonTable:OldvsNe=
+wAITechniques"><strong>4=EF=B8=8F=E2=83=A3 Comparison Table: Old vs New AI =
+Techniques</strong></h3>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"df=
+2e9f4f-909f-4359-bcfd-701aeb77e82a" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Feature</p></th>
+<th class=3D"confluenceTh">
+<p>Old AI (Classical)</p></th>
+<th class=3D"confluenceTh">
+<p>New AI (Modern)</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Approach</p></td>
+<td class=3D"confluenceTd">
+<p>Symbolic, rule-based</p></td>
+<td class=3D"confluenceTd">
+<p>Data-driven, statistical, learning-based</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Knowledge</p></td>
+<td class=3D"confluenceTd">
+<p>Explicit rules</p></td>
+<td class=3D"confluenceTd">
+<p>Learned from data</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Adaptability</p></td>
+<td class=3D"confluenceTd">
+<p>Low</p></td>
+<td class=3D"confluenceTd">
+<p>High (adaptive)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Scalability</p></td>
+<td class=3D"confluenceTd">
+<p>Poor</p></td>
+<td class=3D"confluenceTd">
+<p>High (handles big data)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Examples</p></td>
+<td class=3D"confluenceTd">
+<p>Expert systems, logic, search algorithms</p></td>
+<td class=3D"confluenceTd">
+<p>Machine learning, neural networks, deep learning</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h3 id=3D"ArtificialIntelligence-=E2=9C=85Summary">=E2=9C=85 <strong>Summar=
+y</strong></h3>
+<ul>
+<li>
+<p><strong>Old AI:</strong> Symbolic, rule-based, deterministic, works for =
+structured problems, explainable.</p></li>
+<li>
+<p><strong>New AI:</strong> Data-driven, adaptive, statistical, suitable fo=
+r complex and uncertain environments.</p></li>
+<li>
+<p><strong>Trend:</strong> Modern AI increasingly relies on <strong>learnin=
+g from data</strong> rather than hard-coded rules.</p></li>
+</ul>
+<hr>
+<p>I can also make a <strong>diagram showing the evolution of AI techniques=
+ from old symbolic AI to modern statistical and deep learning methods</stro=
+ng>, which makes the comparison visually clear.</p>
+<p>Do you want me to create that diagram?</p>
+<p></p>
+<p></p>
+<ol start=3D"2">
+<li>
+<p>Knowledge representation;</p></li>
+</ol>
+<p>Here=E2=80=99s a <strong>concise but informative overview</strong> of <s=
+trong>Knowledge Representation in AI</strong>:</p>
+<hr>
+<h2 id=3D"ArtificialIntelligence-1=EF=B8=8F=E2=83=A3Definition"><strong>1=
+=EF=B8=8F=E2=83=A3 Definition</strong></h2>
+<p><strong>Knowledge Representation (KR)</strong> is the <strong>way of for=
+mally encoding information about the world so that an AI system can reason,=
+ learn, and make decisions</strong>.</p>
+<p><strong>Purpose:</strong></p>
+<ul>
+<li>
+<p>Allow machines to <strong>simulate human reasoning</strong>.</p></li>
+<li>
+<p>Make <strong>knowledge explicit</strong> for processing.</p></li>
+<li>
+<p>Enable <strong>problem-solving, inference, and decision-making</strong>.=
+</p></li>
+</ul>
+<hr>
+<h2 id=3D"ArtificialIntelligence-2=EF=B8=8F=E2=83=A3KeyConcepts"><strong>2=
+=EF=B8=8F=E2=83=A3 Key Concepts</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"5c=
+ce543e-a4c8-431f-84f0-cdf141d79ea3" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Concept</p></th>
+<th class=3D"confluenceTh">
+<p>Description</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Fact</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Basic assertion about the world (e.g., =E2=80=9CSocrates is a man=E2=80=
+=9D).</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Rule</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Conditional statement linking facts (e.g., =E2=80=9CIf X is a man, then =
+X is mortal=E2=80=9D).</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Ontology</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Structured representation of concepts and relationships in a domain.</p>=
+</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Inference</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Deriving new knowledge from existing facts and rules.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id=3D"ArtificialIntelligence-3=EF=B8=8F=E2=83=A3MethodsofKnowledgeRepre=
+sentation"><strong>3=EF=B8=8F=E2=83=A3 Methods of Knowledge Representation<=
+/strong></h2>
+<h3 id=3D"ArtificialIntelligence-A)LogicalRepresentation"><strong>A) Logica=
+l Representation</strong></h3>
+<ul>
+<li>
+<p>Uses <strong>propositional and predicate logic</strong>.</p></li>
+<li>
+<p><strong>Propositional logic:</strong> Facts are true or false.</p>
+<ul>
+<li>
+<p>Example: <code>P =E2=86=92 Q</code> (=E2=80=9CIf it rains, the ground is=
+ wet=E2=80=9D).</p></li>
+</ul></li>
+<li>
+<p><strong>Predicate logic:</strong> Represents objects, properties, and re=
+lationships.</p>
+<ul>
+<li>
+<p>Example: <code>Man(Socrates) =E2=86=92 Mortal(Socrates)</code></p></li>
+</ul></li>
+</ul>
+<h3 id=3D"ArtificialIntelligence-B)SemanticNetworks"><strong>B) Semantic Ne=
+tworks</strong></h3>
+<ul>
+<li>
+<p>Graph of <strong>nodes (concepts)</strong> and <strong>edges (relationsh=
+ips)</strong>.</p></li>
+<li>
+<p>Example: <code>Dog =E2=86=92 is a =E2=86=92 Animal</code>.</p></li>
+</ul>
+<h3 id=3D"ArtificialIntelligence-C)Frames"><strong>C) Frames</strong></h3>
+<ul>
+<li>
+<p>Data structures representing <strong>objects, attributes, and values</st=
+rong>.</p></li>
+<li>
+<p>Example:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">Frame: =
+Car
+  Color: Red
+  Wheels: 4
+  Engine: Gas
+</pre>
+</div>
+</div></li>
+</ul>
+<h3 id=3D"ArtificialIntelligence-D)ProductionRules"><strong>D) Production R=
+ules</strong></h3>
+<ul>
+<li>
+<p><strong>IF-THEN rules</strong> for reasoning.</p></li>
+<li>
+<p>Example:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">IF temp=
+erature &gt; 100 THEN alert =3D TRUE
+</pre>
+</div>
+</div></li>
+</ul>
+<h3 id=3D"ArtificialIntelligence-E)Ontologies"><strong>E) Ontologies</stron=
+g></h3>
+<ul>
+<li>
+<p>Formal representation of <strong>concepts and their relationships</stron=
+g> in a domain.</p></li>
+<li>
+<p>Used in semantic web, knowledge graphs.</p></li>
+</ul>
+<h3 id=3D"ArtificialIntelligence-F)Scripts"><strong>F) Scripts</strong></h3=
+>
+<ul>
+<li>
+<p>Represent <strong>sequences of events or actions</strong>.</p></li>
+<li>
+<p>Example: =E2=80=9CRestaurant Script=E2=80=9D =E2=86=92 enter =E2=86=92 o=
+rder =E2=86=92 eat =E2=86=92 pay =E2=86=92 leave</p></li>
+</ul>
+<hr>
+<h2 id=3D"ArtificialIntelligence-4=EF=B8=8F=E2=83=A3DesirablePropertiesofKR=
+"><strong>4=EF=B8=8F=E2=83=A3 Desirable Properties of KR</strong></h2>
+<ul>
+<li>
+<p><strong>Expressiveness:</strong> Can describe complex domains.</p></li>
+<li>
+<p><strong>Inference capability:</strong> Supports automatic reasoning.</p>=
+</li>
+<li>
+<p><strong>Consistency:</strong> Avoid contradictions.</p></li>
+<li>
+<p><strong>Efficiency:</strong> Allows fast retrieval and reasoning.</p></l=
+i>
+<li>
+<p><strong>Understandability:</strong> Human-readable and maintainable.</p>=
+</li>
+</ul>
+<hr>
+<h3 id=3D"ArtificialIntelligence-=E2=9C=85Summary.1">=E2=9C=85 <strong>Summ=
+ary</strong></h3>
+<ul>
+<li>
+<p><strong>Knowledge Representation</strong> encodes facts, rules, relation=
+ships, and concepts for AI systems.</p></li>
+<li>
+<p><strong>Methods:</strong> Logic, semantic networks, frames, production r=
+ules, scripts, ontologies.</p></li>
+<li>
+<p><strong>Goal:</strong> Enable machines to <strong>reason, infer, and act=
+ intelligently</strong>.</p></li>
+</ul>
+<hr>
+<p>I can create a <strong>diagram showing different KR methods (logic, sema=
+ntic networks, frames, rules, ontologies) and how they represent knowledge =
+visually</strong>, which helps in memorizing and understanding.</p>
+<p>Do you want me to make that diagram?</p>
+<p></p>
+<p></p>
+<ol start=3D"3">
+<li>
+<p>Propositional and first order logic;</p></li>
+</ol>
+<p>Here=E2=80=99s a <strong>concise but thorough overview</strong> of <stro=
+ng>Propositional and First-Order Logic (FOL)</strong> in AI:</p>
+<hr>
+<h2 id=3D"ArtificialIntelligence-1=EF=B8=8F=E2=83=A3PropositionalLogic(PL)"=
+><strong>1=EF=B8=8F=E2=83=A3 Propositional Logic (PL)</strong></h2>
+<p><strong>Definition:</strong><br>
+Propositional Logic is a <strong>formal system that uses propositions (stat=
+ements) which are either true or false</strong> and combines them using log=
+ical connectives.</p>
+<p><strong>Key Concepts:</strong></p>
+<ul>
+<li>
+<p><strong>Propositions:</strong> Simple statements that can be true (T) or=
+ false (F).</p>
+<ul>
+<li>
+<p>Example: <code>P =3D "It is raining"</code></p></li>
+</ul></li>
+<li>
+<p><strong>Logical Connectives:</strong> Combine propositions</p>
+<p>Connective Symbol Meaning AND =E2=88=A7 Conjunction: <code>P =E2=88=A7 Q=
+</code> true if both P and Q true OR =E2=88=A8 Disjunction: <code>P =E2=88=
+=A8 Q</code> true if at least one true NOT =C2=AC Negation: <code>=C2=ACP</=
+code> true if P false IMPLIES =E2=86=92 Implication: <code>P =E2=86=92 Q</c=
+ode> false only if P true, Q false BICONDITIONAL =E2=86=94 Equivalence: <co=
+de>P =E2=86=94 Q</code> true if P and Q have same truth value</p></li>
+<li>
+<p><strong>Inference Rules:</strong> Derive new truths from known propositi=
+ons</p>
+<ul>
+<li>
+<p>Examples: Modus Ponens, Modus Tollens</p></li>
+</ul></li>
+</ul>
+<p><strong>Limitations:</strong></p>
+<ul>
+<li>
+<p>Cannot express <strong>relations between objects</strong> or <strong>pro=
+perties of objects</strong>.</p></li>
+<li>
+<p>No quantifiers (like =E2=80=9Call=E2=80=9D or =E2=80=9Csome=E2=80=9D).</=
+p></li>
+</ul>
+<hr>
+<h2 id=3D"ArtificialIntelligence-2=EF=B8=8F=E2=83=A3First-OrderLogic(FOL)">=
+<strong>2=EF=B8=8F=E2=83=A3 First-Order Logic (FOL)</strong></h2>
+<p><strong>Definition:</strong><br>
+First-Order Logic extends propositional logic by <strong>introducing object=
+s, functions, relations, and quantifiers</strong> to describe the world mor=
+e expressively.</p>
+<p><strong>Key Concepts:</strong></p>
+<ul>
+<li>
+<p><strong>Constants:</strong> Represent specific objects (e.g., <code>Alic=
+e</code>)</p></li>
+<li>
+<p><strong>Variables:</strong> Represent arbitrary objects (e.g., <code>x</=
+code>)</p></li>
+<li>
+<p><strong>Functions:</strong> Map objects to objects (e.g., <code>FatherOf=
+(x)</code>)</p></li>
+<li>
+<p><strong>Predicates/Relations:</strong> Represent properties or relations=
+hips (e.g., <code>Loves(Alice, Bob)</code>)</p></li>
+<li>
+<p><strong>Quantifiers:</strong> Express generality</p>
+<p>Quantifier Symbol Meaning Universal =E2=88=80x =E2=80=9CFor all x, =E2=
+=80=A6=E2=80=9D Existential =E2=88=83x =E2=80=9CThere exists x such that =
+=E2=80=A6=E2=80=9D</p></li>
+</ul>
+<p><strong>Example:</strong></p>
+<ul>
+<li>
+<p>=E2=80=9CAll humans are mortal=E2=80=9D =E2=86=92 =E2=88=80x (Human(x) =
+=E2=86=92 Mortal(x))</p></li>
+<li>
+<p>=E2=80=9CSocrates is a human=E2=80=9D =E2=86=92 Human(Socrates)</p></li>
+<li>
+<p>Infer: Mortal(Socrates)</p></li>
+</ul>
+<p><strong>Advantages over Propositional Logic:</strong></p>
+<ul>
+<li>
+<p>Can represent <strong>complex relationships and rules</strong></p></li>
+<li>
+<p>Supports <strong>more powerful reasoning and inference</strong></p></li>
+</ul>
+<hr>
+<h2 id=3D"ArtificialIntelligence-3=EF=B8=8F=E2=83=A3Comparison:PLvsFOL"><st=
+rong>3=EF=B8=8F=E2=83=A3 Comparison: PL vs FOL</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"fc=
+c5a529-493d-426b-8f2a-4e906d5f82c5" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Feature</p></th>
+<th class=3D"confluenceTh">
+<p>Propositional Logic</p></th>
+<th class=3D"confluenceTh">
+<p>First-Order Logic</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Entities</p></td>
+<td class=3D"confluenceTd">
+<p>Simple propositions</p></td>
+<td class=3D"confluenceTd">
+<p>Objects, relations, functions</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Quantifiers</p></td>
+<td class=3D"confluenceTd">
+<p>None</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=88=80 (for all), =E2=88=83 (exists)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Expressiveness</p></td>
+<td class=3D"confluenceTd">
+<p>Limited</p></td>
+<td class=3D"confluenceTd">
+<p>High</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Example</p></td>
+<td class=3D"confluenceTd">
+<p><code>P =E2=86=92 Q</code></p></td>
+<td class=3D"confluenceTd">
+<p>=E2=88=80x (Human(x) =E2=86=92 Mortal(x))</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Usage</p></td>
+<td class=3D"confluenceTd">
+<p>Simple logic puzzles, circuits</p></td>
+<td class=3D"confluenceTd">
+<p>Knowledge representation, AI reasoning, NLP</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h3 id=3D"ArtificialIntelligence-=E2=9C=85Summary.2">=E2=9C=85 <strong>Summ=
+ary</strong></h3>
+<ul>
+<li>
+<p><strong>Propositional Logic:</strong> Deals with <strong>true/false stat=
+ements</strong>, uses connectives, simple but limited.</p></li>
+<li>
+<p><strong>First-Order Logic:</strong> Adds <strong>objects, relations, fun=
+ctions, and quantifiers</strong>; can express complex knowledge and reasoni=
+ng.</p></li>
+<li>
+<p><strong>Use in AI:</strong> FOL is fundamental for <strong>knowledge rep=
+resentation, expert systems, and automated reasoning</strong>.</p></li>
+</ul>
+<hr>
+<p>I can create a <strong>diagram showing propositions vs objects with pred=
+icates, functions, and quantifiers in FOL</strong>, which visually explains=
+ the difference and usage in AI reasoning.</p>
+<p>Do you want me to make that diagram?</p>
+<p></p>
+<p></p>
+<ol start=3D"4">
+<li>
+<p>Search techniques in Al;</p></li>
+</ol>
+<p>Here=E2=80=99s a <strong>structured overview</strong> of <strong>Search =
+Techniques in AI</strong>:</p>
+<hr>
+<h2 id=3D"ArtificialIntelligence-1=EF=B8=8F=E2=83=A3Introduction"><strong>1=
+=EF=B8=8F=E2=83=A3 Introduction</strong></h2>
+<p><strong>Search techniques</strong> in AI are strategies for <strong>find=
+ing a solution to a problem by exploring possible states or actions</strong=
+>.</p>
+<ul>
+<li>
+<p>AI problems are often modeled as <strong>state spaces</strong> (nodes =
+=3D states, edges =3D actions).</p></li>
+<li>
+<p>Search is fundamental to <strong>problem-solving, planning, and reasonin=
+g</strong>.</p></li>
+</ul>
+<hr>
+<h2 id=3D"ArtificialIntelligence-2=EF=B8=8F=E2=83=A3ClassificationofSearchT=
+echniques"><strong>2=EF=B8=8F=E2=83=A3 Classification of Search Techniques<=
+/strong></h2>
+<h3 id=3D"ArtificialIntelligence-A)Uninformed(Blind)Search"><strong>A) Unin=
+formed (Blind) Search</strong></h3>
+<ul>
+<li>
+<p><strong>Does not use domain-specific knowledge</strong>. Explores all po=
+ssibilities systematically.</p></li>
+</ul>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"3e=
+34b601-a521-454b-81b3-c1a41204467e" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Algorithm</p></th>
+<th class=3D"confluenceTh">
+<p>Method</p></th>
+<th class=3D"confluenceTh">
+<p>Characteristics</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Breadth-First Search (BFS)</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Explores all nodes level by level</p></td>
+<td class=3D"confluenceTd">
+<p>Finds shortest path; high memory usage</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Depth-First Search (DFS)</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Explores as deep as possible along a path before backtracking</p></td>
+<td class=3D"confluenceTd">
+<p>Low memory; may get stuck in infinite paths</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Uniform-Cost Search (UCS)</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Explores node with least path cost first</p></td>
+<td class=3D"confluenceTd">
+<p>Optimal for weighted graphs</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Depth-Limited Search</strong></p></td>
+<td class=3D"confluenceTd">
+<p>DFS with depth limit</p></td>
+<td class=3D"confluenceTd">
+<p>Avoids infinite paths</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Iterative Deepening DFS (IDDFS)</strong></p></td>
+<td class=3D"confluenceTd">
+<p>DFS repeated with increasing depth limits</p></td>
+<td class=3D"confluenceTd">
+<p>Combines BFS completeness and DFS memory efficiency</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h3 id=3D"ArtificialIntelligence-B)Informed(Heuristic)Search"><strong>B) In=
+formed (Heuristic) Search</strong></h3>
+<ul>
+<li>
+<p>Uses <strong>domain knowledge (heuristics)</strong> to guide the search =
+toward the goal.</p></li>
+</ul>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"1c=
+dc1035-df0b-489e-9ca1-84d123c4f582" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Algorithm</p></th>
+<th class=3D"confluenceTh">
+<p>Method</p></th>
+<th class=3D"confluenceTh">
+<p>Characteristics</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Greedy Best-First Search</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Chooses node closest to goal based on heuristic h(n)</p></td>
+<td class=3D"confluenceTd">
+<p>Fast, not guaranteed optimal</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><em>A Search</em>*</p></td>
+<td class=3D"confluenceTd">
+<p>Uses f(n) =3D g(n) + h(n) (cost so far + estimated cost)</p></td>
+<td class=3D"confluenceTd">
+<p>Complete and optimal if h(n) is admissible</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Hill Climbing</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Moves to neighbor with best heuristic value</p></td>
+<td class=3D"confluenceTd">
+<p>Simple, can get stuck in local maxima</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Simulated Annealing</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Randomized moves to escape local maxima</p></td>
+<td class=3D"confluenceTd">
+<p>Can reach global optimum probabilistically</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Beam Search</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Expands only k best nodes at each level</p></td>
+<td class=3D"confluenceTd">
+<p>Space-efficient, may miss optimal solution</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h3 id=3D"ArtificialIntelligence-C)AdversarialSearch"><strong>C) Adversaria=
+l Search</strong></h3>
+<ul>
+<li>
+<p>Used in <strong>games</strong> and competitive environments.</p></li>
+</ul>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"2b=
+572fb3-1ce7-4a25-b26e-8f93182f66e0" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Algorithm</p></th>
+<th class=3D"confluenceTh">
+<p>Method</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Minimax</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Evaluates moves assuming optimal play from both sides</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Alpha-Beta Pruning</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Optimized minimax, skips unnecessary branches</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h3 id=3D"ArtificialIntelligence-D)LocalSearch/Optimization"><strong>D) Loc=
+al Search / Optimization</strong></h3>
+<ul>
+<li>
+<p>Works with <strong>large state spaces</strong> without storing all state=
+s.</p></li>
+<li>
+<p>Focuses on <strong>improving a single solution iteratively</strong>.</p>=
+</li>
+<li>
+<p>Examples: Hill climbing, simulated annealing, genetic algorithms.</p></l=
+i>
+</ul>
+<hr>
+<h2 id=3D"ArtificialIntelligence-3=EF=B8=8F=E2=83=A3KeyConceptsinSearch"><s=
+trong>3=EF=B8=8F=E2=83=A3 Key Concepts in Search</strong></h2>
+<ul>
+<li>
+<p><strong>State Space:</strong> All possible states of a problem.</p></li>
+<li>
+<p><strong>Initial State:</strong> Starting point of the search.</p></li>
+<li>
+<p><strong>Goal State:</strong> Desired solution or condition.</p></li>
+<li>
+<p><strong>Operators / Actions:</strong> Transitions between states.</p></l=
+i>
+<li>
+<p><strong>Path Cost:</strong> Cost to reach a state; used in UCS and A*.</=
+p></li>
+<li>
+<p><strong>Heuristic Function (h(n)):</strong> Estimate of cost from curren=
+t state to goal.</p></li>
+</ul>
+<hr>
+<h3 id=3D"ArtificialIntelligence-=E2=9C=85Summary.3">=E2=9C=85 <strong>Summ=
+ary</strong></h3>
+<ul>
+<li>
+<p><strong>Uninformed search:</strong> No knowledge, systematic exploration=
+ (BFS, DFS, UCS).</p></li>
+<li>
+<p><strong>Informed search:</strong> Uses heuristics to guide search (A*, g=
+reedy).</p></li>
+<li>
+<p><strong>Adversarial search:</strong> For games; uses minimax and alpha-b=
+eta pruning.</p></li>
+<li>
+<p><strong>Local search / optimization:</strong> Improves solutions iterati=
+vely, handles large search spaces efficiently.</p></li>
+</ul>
+<hr>
+<p>I can create a <strong>diagram showing different search techniques, thei=
+r categories, and examples</strong>, which makes it visually easy to rememb=
+er.</p>
+<p>Do you want me to make that diagram?</p>
+<p></p>
+<p></p>
+<ol start=3D"5">
+<li>
+<p>Probabilistic reasoning;</p></li>
+</ol>
+<p>Here=E2=80=99s a <strong>clear and informative overview</strong> of <str=
+ong>Probabilistic Reasoning in AI</strong>:</p>
+<hr>
+<h2 id=3D"ArtificialIntelligence-1=EF=B8=8F=E2=83=A3Definition.1"><strong>1=
+=EF=B8=8F=E2=83=A3 Definition</strong></h2>
+<p><strong>Probabilistic reasoning</strong> is the process of <strong>drawi=
+ng conclusions and making decisions under uncertainty</strong> using <stron=
+g>probability theory</strong>.</p>
+<ul>
+<li>
+<p>AI systems often deal with <strong>incomplete, uncertain, or noisy data<=
+/strong>.</p></li>
+<li>
+<p>Probabilistic reasoning allows AI to <strong>quantify uncertainty</stron=
+g> and <strong>make rational decisions</strong>.</p></li>
+</ul>
+<hr>
+<h2 id=3D"ArtificialIntelligence-2=EF=B8=8F=E2=83=A3KeyConcepts.1"><strong>=
+2=EF=B8=8F=E2=83=A3 Key Concepts</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"c4=
+3abd92-2418-4c57-8cb2-de8ed1583ac0" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Concept</p></th>
+<th class=3D"confluenceTh">
+<p>Description</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Random Variable</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Represents uncertain quantities (e.g., Rain =3D Yes/No)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Probability</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Likelihood of an event occurring; P(Event) =E2=88=88 [0,1]</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Conditional Probability</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Probability of an event given another event: P(A</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Joint Probability</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Probability of multiple events occurring together: P(A =E2=88=A7 B)</p><=
+/td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Independence</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Two events are independent if P(A</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id=3D"ArtificialIntelligence-3=EF=B8=8F=E2=83=A3ProbabilisticModelsinAI=
+"><strong>3=EF=B8=8F=E2=83=A3 Probabilistic Models in AI</strong></h2>
+<h3 id=3D"ArtificialIntelligence-A)BayesianNetworks(BeliefNetworks)"><stron=
+g>A) Bayesian Networks (Belief Networks)</strong></h3>
+<ul>
+<li>
+<p><strong>Graphical model</strong> representing variables and their <stron=
+g>conditional dependencies</strong>.</p></li>
+<li>
+<p><strong>Nodes:</strong> Random variables</p></li>
+<li>
+<p><strong>Edges:</strong> Probabilistic dependencies</p></li>
+<li>
+<p><strong>Uses:</strong> Diagnosis, prediction, decision-making</p></li>
+</ul>
+<p><strong>Example:</strong></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">Rain =
+=E2=86=92 WetGrass
+Sprinkler =E2=86=92 WetGrass
+</pre>
+</div>
+</div>
+<ul>
+<li>
+<p>Can compute probability of rain given wet grass using <strong>Bayes=E2=
+=80=99 theorem</strong>.</p></li>
+</ul>
+<hr>
+<h3 id=3D"ArtificialIntelligence-B)HiddenMarkovModels(HMMs)"><strong>B) Hid=
+den Markov Models (HMMs)</strong></h3>
+<ul>
+<li>
+<p>Used for <strong>sequential or temporal data</strong> (speech recognitio=
+n, POS tagging).</p></li>
+<li>
+<p>Models <strong>hidden states</strong> and <strong>observed events</stron=
+g>.</p></li>
+<li>
+<p>Components: States, observations, transition probabilities, emission pro=
+babilities.</p></li>
+</ul>
+<hr>
+<h3 id=3D"ArtificialIntelligence-C)MarkovDecisionProcesses(MDPs)"><strong>C=
+) Markov Decision Processes (MDPs)</strong></h3>
+<ul>
+<li>
+<p>Framework for <strong>decision-making under uncertainty</strong>.</p></l=
+i>
+<li>
+<p>Components: States, actions, transition probabilities, rewards.</p></li>
+<li>
+<p>Goal: <strong>Maximize expected cumulative reward</strong>.</p></li>
+</ul>
+<hr>
+<h2 id=3D"ArtificialIntelligence-4=EF=B8=8F=E2=83=A3KeyTechniques"><strong>=
+4=EF=B8=8F=E2=83=A3 Key Techniques</strong></h2>
+<ul>
+<li>
+<p><strong>Bayesian Inference:</strong> Update probabilities as new evidenc=
+e arrives</p>
+<p>P(H=E2=88=A3E)=3DP(E=E2=88=A3H)P(H)P(E)P(H|E) =3D \frac{P(E|H)P(H)}{P(E)=
+}</p></li>
+<li>
+<p><strong>Maximum Likelihood Estimation (MLE):</strong> Find parameters th=
+at maximize probability of observed data</p></li>
+<li>
+<p><strong>Expectation-Maximization (EM):</strong> Iterative method for lea=
+rning in presence of hidden variables</p></li>
+</ul>
+<hr>
+<h2 id=3D"ArtificialIntelligence-5=EF=B8=8F=E2=83=A3ApplicationsinAI"><stro=
+ng>5=EF=B8=8F=E2=83=A3 Applications in AI</strong></h2>
+<ul>
+<li>
+<p><strong>Expert Systems:</strong> Handling uncertain knowledge (medical d=
+iagnosis)</p></li>
+<li>
+<p><strong>Robotics:</strong> Sensor fusion and navigation under uncertaint=
+y</p></li>
+<li>
+<p><strong>Natural Language Processing:</strong> Speech recognition, part-o=
+f-speech tagging</p></li>
+<li>
+<p><strong>Recommendation Systems:</strong> Predict user preferences probab=
+ilistically</p></li>
+</ul>
+<hr>
+<h3 id=3D"ArtificialIntelligence-=E2=9C=85Summary.4">=E2=9C=85 <strong>Summ=
+ary</strong></h3>
+<ul>
+<li>
+<p><strong>Probabilistic reasoning</strong> allows AI to <strong>reason und=
+er uncertainty</strong>.</p></li>
+<li>
+<p><strong>Models:</strong> Bayesian networks, HMMs, MDPs</p></li>
+<li>
+<p><strong>Techniques:</strong> Bayesian inference, MLE, EM algorithm</p></=
+li>
+<li>
+<p><strong>Applications:</strong> Expert systems, robotics, NLP, recommende=
+r systems</p></li>
+</ul>
+<hr>
+<p>I can create a <strong>diagram showing Bayesian networks, HMMs, and the =
+flow of probabilistic reasoning in AI</strong>, which makes the concept vis=
+ually clear.</p>
+<p>Do you want me to create that diagram?</p>
+<p></p>
+<p></p>
+<ol start=3D"6">
+<li>
+<p>Natural language processing.</p></li>
+</ol>
+<p>Here=E2=80=99s a <strong>structured overview</strong> of <strong>Natural=
+ Language Processing (NLP)</strong>:</p>
+<hr>
+<h2 id=3D"ArtificialIntelligence-1=EF=B8=8F=E2=83=A3Definition.2"><strong>1=
+=EF=B8=8F=E2=83=A3 Definition</strong></h2>
+<p><strong>Natural Language Processing (NLP)</strong> is a field of AI and =
+linguistics that focuses on <strong>enabling computers to understand, inter=
+pret, generate, and respond to human language</strong>.</p>
+<ul>
+<li>
+<p>Goal: Bridge the gap between <strong>human communication</strong> and <s=
+trong>computer understanding</strong>.</p></li>
+<li>
+<p>Combines: <strong>Linguistics, Machine Learning, and AI algorithms</stro=
+ng>.</p></li>
+</ul>
+<hr>
+<h2 id=3D"ArtificialIntelligence-2=EF=B8=8F=E2=83=A3KeyComponentsofNLP"><st=
+rong>2=EF=B8=8F=E2=83=A3 Key Components of NLP</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"5f=
+95bd32-8d43-4400-b5ef-357693323435" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Component</p></th>
+<th class=3D"confluenceTh">
+<p>Function</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Morphological Analysis</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Understand word structure, roots, prefixes, suffixes</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Lexical Analysis</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Tokenization: breaking text into words or symbols</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Syntactic Analysis (Parsing)</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Determine grammatical structure, e.g., parse trees</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Semantic Analysis</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Understand meaning of words and sentences</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Pragmatic Analysis</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Contextual meaning in conversation or situation</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Discourse Analysis</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Understand relationship between sentences and paragraphs</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Speech Processing</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Converting spoken language to text (speech-to-text) and vice versa</p></=
+td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id=3D"ArtificialIntelligence-3=EF=B8=8F=E2=83=A3NLPTasks"><strong>3=EF=
+=B8=8F=E2=83=A3 NLP Tasks</strong></h2>
+<ol start=3D"1">
+<li>
+<p><strong>Text Classification:</strong> Spam detection, sentiment analysis=
+</p></li>
+<li>
+<p><strong>Named Entity Recognition (NER):</strong> Identify proper nouns l=
+ike names, locations</p></li>
+<li>
+<p><strong>Machine Translation:</strong> Translate text between languages (=
+e.g., Google Translate)</p></li>
+<li>
+<p><strong>Part-of-Speech Tagging (POS):</strong> Label words as nouns, ver=
+bs, etc.</p></li>
+<li>
+<p><strong>Question Answering &amp; Chatbots:</strong> Respond to user quer=
+ies</p></li>
+<li>
+<p><strong>Text Summarization:</strong> Generate concise summary of large t=
+exts</p></li>
+<li>
+<p><strong>Information Retrieval:</strong> Search engines and document retr=
+ieval</p></li>
+</ol>
+<hr>
+<h2 id=3D"ArtificialIntelligence-4=EF=B8=8F=E2=83=A3TechniquesinNLP"><stron=
+g>4=EF=B8=8F=E2=83=A3 Techniques in NLP</strong></h2>
+<ul>
+<li>
+<p><strong>Rule-Based Approaches:</strong> Grammar and dictionary-based met=
+hods (early NLP)</p></li>
+<li>
+<p><strong>Statistical Methods:</strong> Probabilistic models like Hidden M=
+arkov Models (HMM)</p></li>
+<li>
+<p><strong>Machine Learning Approaches:</strong></p>
+<ul>
+<li>
+<p>Supervised learning for classification tasks</p></li>
+<li>
+<p>Unsupervised learning for clustering and topic modeling</p></li>
+</ul></li>
+<li>
+<p><strong>Deep Learning Approaches:</strong></p>
+<ul>
+<li>
+<p>Recurrent Neural Networks (RNN), LSTMs for sequential data</p></li>
+<li>
+<p>Transformers (e.g., BERT, GPT) for context-aware understanding</p></li>
+</ul></li>
+</ul>
+<hr>
+<h2 id=3D"ArtificialIntelligence-5=EF=B8=8F=E2=83=A3ChallengesinNLP"><stron=
+g>5=EF=B8=8F=E2=83=A3 Challenges in NLP</strong></h2>
+<ul>
+<li>
+<p>Ambiguity: Words or sentences with multiple meanings</p></li>
+<li>
+<p>Context understanding: Sarcasm, idioms, cultural references</p></li>
+<li>
+<p>Syntax vs. semantics: Grammatical correctness doesn=E2=80=99t always imp=
+ly correct meaning</p></li>
+<li>
+<p>Multilinguality: Handling different languages and scripts</p></li>
+</ul>
+<hr>
+<h3 id=3D"ArtificialIntelligence-=E2=9C=85Summary.5">=E2=9C=85 <strong>Summ=
+ary</strong></h3>
+<ul>
+<li>
+<p><strong>NLP</strong> enables computers to <strong>process and understand=
+ human language</strong>.</p></li>
+<li>
+<p><strong>Components:</strong> Morphology, syntax, semantics, pragmatics, =
+discourse, speech</p></li>
+<li>
+<p><strong>Tasks:</strong> Classification, translation, summarization, ques=
+tion-answering, etc.</p></li>
+<li>
+<p><strong>Techniques:</strong> Rule-based, statistical, machine learning, =
+deep learning</p></li>
+<li>
+<p><strong>Applications:</strong> Chatbots, virtual assistants, translation=
+, sentiment analysis, search engines</p></li>
+</ul>
+<hr>
+<p>I can create a <strong>diagram showing the NLP pipeline from raw text to=
+ understanding and tasks</strong> for better visualization.</p>
+<p>Do you want me to create that diagram?</p>
+<p></p>
+<p></p>
+<ol start=3D"7">
+<li>
+<p>Introduction to expert system.</p></li>
+</ol>
+<p>Here=E2=80=99s a <strong>structured overview</strong> of <strong>Expert =
+Systems in AI</strong>:</p>
+<hr>
+<h2 id=3D"ArtificialIntelligence-1=EF=B8=8F=E2=83=A3Definition.3"><strong>1=
+=EF=B8=8F=E2=83=A3 Definition</strong></h2>
+<p>An <strong>Expert System (ES)</strong> is a <strong>computer program tha=
+t mimics the decision-making ability of a human expert</strong>.</p>
+<ul>
+<li>
+<p>Uses <strong>knowledge and reasoning</strong> to solve problems in a spe=
+cific domain.</p></li>
+<li>
+<p>Provides <strong>advice, diagnosis, or recommendations</strong>.</p></li=
+>
+<li>
+<p>One of the earliest practical applications of AI.</p></li>
+</ul>
+<hr>
+<h2 id=3D"ArtificialIntelligence-2=EF=B8=8F=E2=83=A3ComponentsofanExpertSys=
+tem"><strong>2=EF=B8=8F=E2=83=A3 Components of an Expert System</strong></h=
+2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"47=
+912b6a-50cf-43a5-a0e2-53ddeb85fe90" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Component</p></th>
+<th class=3D"confluenceTh">
+<p>Function</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Knowledge Base</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Stores facts and rules about the domain (e.g., =E2=80=9CIf fever and cou=
+gh, then possible flu=E2=80=9D)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Inference Engine</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Applies reasoning to the knowledge base to deduce new facts or solve pro=
+blems</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Working Memory</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Stores temporary facts about the current problem or session</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>User Interface</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Allows user to interact with the system (input queries, receive advice)<=
+/p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Explanation Facility</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Explains reasoning steps to the user (=E2=80=9CBecause symptom X and Y, =
+the diagnosis is Z=E2=80=9D)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id=3D"ArtificialIntelligence-3=EF=B8=8F=E2=83=A3CharacteristicsofExpert=
+Systems"><strong>3=EF=B8=8F=E2=83=A3 Characteristics of Expert Systems</str=
+ong></h2>
+<ul>
+<li>
+<p><strong>Domain-specific:</strong> Expert in a narrow field (medical diag=
+nosis, engineering, troubleshooting)</p></li>
+<li>
+<p><strong>Rule-based reasoning:</strong> Often uses <strong>IF-THEN rules<=
+/strong></p></li>
+<li>
+<p><strong>Handles uncertainty:</strong> Uses probabilistic or fuzzy logic =
+reasoning</p></li>
+<li>
+<p><strong>Non-learning (usually):</strong> Knowledge is manually input by =
+experts (some modern systems integrate learning)</p></li>
+</ul>
+<hr>
+<h2 id=3D"ArtificialIntelligence-4=EF=B8=8F=E2=83=A3TypesofExpertSystems"><=
+strong>4=EF=B8=8F=E2=83=A3 Types of Expert Systems</strong></h2>
+<ol start=3D"1">
+<li>
+<p><strong>Rule-Based Systems:</strong> Use IF-THEN rules for reasoning</p>=
+</li>
+<li>
+<p><strong>Frame-Based Systems:</strong> Organize knowledge in structures (=
+frames) with slots and values</p></li>
+<li>
+<p><strong>Fuzzy Expert Systems:</strong> Handle uncertainty with fuzzy log=
+ic</p></li>
+<li>
+<p><strong>Case-Based Reasoning Systems:</strong> Solve new problems based =
+on <strong>similar past cases</strong></p></li>
+</ol>
+<hr>
+<h2 id=3D"ArtificialIntelligence-5=EF=B8=8F=E2=83=A3ApplicationsofExpertSys=
+tems"><strong>5=EF=B8=8F=E2=83=A3 Applications of Expert Systems</strong></=
+h2>
+<ul>
+<li>
+<p><strong>Medical Diagnosis:</strong> MYCIN, CADUCEUS</p></li>
+<li>
+<p><strong>Engineering &amp; Troubleshooting:</strong> Fault detection in m=
+achines or circuits</p></li>
+<li>
+<p><strong>Financial Systems:</strong> Loan approval, stock market analysis=
+</p></li>
+<li>
+<p><strong>Process Control:</strong> Chemical plant or nuclear plant monito=
+ring</p></li>
+<li>
+<p><strong>Customer Support &amp; Help Desk Automation</strong></p></li>
+</ul>
+<hr>
+<h2 id=3D"ArtificialIntelligence-6=EF=B8=8F=E2=83=A3Advantages"><strong>6=
+=EF=B8=8F=E2=83=A3 Advantages</strong></h2>
+<ul>
+<li>
+<p>Consistent decision-making</p></li>
+<li>
+<p>Can provide <strong>expert-level advice</strong> in absence of a human e=
+xpert</p></li>
+<li>
+<p>Can store and manage <strong>large volumes of knowledge</strong></p></li=
+>
+<li>
+<p>Explains reasoning to users</p></li>
+</ul>
+<hr>
+<h2 id=3D"ArtificialIntelligence-7=EF=B8=8F=E2=83=A3Limitations"><strong>7=
+=EF=B8=8F=E2=83=A3 Limitations</strong></h2>
+<ul>
+<li>
+<p>Knowledge acquisition is <strong>time-consuming and difficult</strong></=
+p></li>
+<li>
+<p>Limited to <strong>specific domains</strong></p></li>
+<li>
+<p>Cannot handle problems outside its knowledge base</p></li>
+<li>
+<p>Usually lacks <strong>common-sense reasoning</strong></p></li>
+</ul>
+<hr>
+<h3 id=3D"ArtificialIntelligence-=E2=9C=85Summary.6">=E2=9C=85 <strong>Summ=
+ary</strong></h3>
+<ul>
+<li>
+<p>An <strong>Expert System</strong> is a <strong>knowledge-based AI system=
+</strong> that simulates human expertise.</p></li>
+<li>
+<p><strong>Components:</strong> Knowledge base, inference engine, working m=
+emory, user interface, explanation facility</p></li>
+<li>
+<p><strong>Uses:</strong> Medical, engineering, finance, process control</p=
+></li>
+<li>
+<p><strong>Strengths:</strong> Expert advice, consistency, explainability</=
+p></li>
+<li>
+<p><strong>Weaknesses:</strong> Domain-specific, knowledge acquisition, lim=
+ited reasoning</p></li>
+</ul>
+<hr>
+<p>I can create a <strong>diagram showing the structure of an expert system=
+, including the knowledge base, inference engine, and user interface</stron=
+g>, which visually explains how it works.</p>
+<p>Do you want me to make that diagram?</p>
+<p></p>
+<p></p>
+<ol start=3D"8">
+<li>
+<p>Introduction to machine learning;</p></li>
+</ol>
+<p>Here=E2=80=99s a <strong>structured overview</strong> of <strong>Machine=
+ Learning (ML):</strong></p>
+<hr>
+<h2 id=3D"ArtificialIntelligence-1=EF=B8=8F=E2=83=A3Definition.4"><strong>1=
+=EF=B8=8F=E2=83=A3 Definition</strong></h2>
+<p><strong>Machine Learning (ML)</strong> is a <strong>branch of Artificial=
+ Intelligence</strong> that allows computers to <strong>learn from data and=
+ improve performance without being explicitly programmed</strong>.</p>
+<ul>
+<li>
+<p>Goal: Enable systems to <strong>predict, classify, or make decisions</st=
+rong> by <strong>learning patterns from data</strong>.</p></li>
+<li>
+<p>Key idea: <strong>Experience =E2=86=92 Learning =E2=86=92 Improved Perfo=
+rmance</strong></p></li>
+</ul>
+<hr>
+<h2 id=3D"ArtificialIntelligence-2=EF=B8=8F=E2=83=A3KeyConcepts.2"><strong>=
+2=EF=B8=8F=E2=83=A3 Key Concepts</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"50=
+f51ff1-95d5-43ee-8b39-3d88cee33b49" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Concept</p></th>
+<th class=3D"confluenceTh">
+<p>Description</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Data</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Input examples for training (features and labels)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Model</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Mathematical representation that maps inputs to outputs</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Training</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Process of learning the model from data</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Prediction / Inference</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Using the learned model to make decisions on new data</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Feature</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Individual measurable property or characteristic of data</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Label / Target</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Desired output for supervised learning</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id=3D"ArtificialIntelligence-3=EF=B8=8F=E2=83=A3TypesofMachineLearning"=
+><strong>3=EF=B8=8F=E2=83=A3 Types of Machine Learning</strong></h2>
+<h3 id=3D"ArtificialIntelligence-A)SupervisedLearning"><strong>A) Supervise=
+d Learning</strong></h3>
+<ul>
+<li>
+<p>Learn from <strong>labeled data</strong> (input-output pairs).</p></li>
+<li>
+<p>Goal: Predict outputs for new inputs.</p></li>
+<li>
+<p>Examples:</p>
+<ul>
+<li>
+<p>Classification: Email spam detection, image recognition</p></li>
+<li>
+<p>Regression: Predicting house prices, stock trends</p></li>
+</ul></li>
+</ul>
+<h3 id=3D"ArtificialIntelligence-B)UnsupervisedLearning"><strong>B) Unsuper=
+vised Learning</strong></h3>
+<ul>
+<li>
+<p>Learn from <strong>unlabeled data</strong>, discover patterns or structu=
+re.</p></li>
+<li>
+<p>Examples:</p>
+<ul>
+<li>
+<p>Clustering: Customer segmentation, document clustering</p></li>
+<li>
+<p>Dimensionality reduction: PCA for feature compression</p></li>
+</ul></li>
+</ul>
+<h3 id=3D"ArtificialIntelligence-C)ReinforcementLearning"><strong>C) Reinfo=
+rcement Learning</strong></h3>
+<ul>
+<li>
+<p>Learn by <strong>trial and error</strong>, receiving <strong>rewards or =
+penalties</strong>.</p></li>
+<li>
+<p>Goal: Maximize cumulative reward.</p></li>
+<li>
+<p>Examples: Game playing (Chess, Go), robotic control</p></li>
+</ul>
+<hr>
+<h2 id=3D"ArtificialIntelligence-4=EF=B8=8F=E2=83=A3MachineLearningWorkflow=
+"><strong>4=EF=B8=8F=E2=83=A3 Machine Learning Workflow</strong></h2>
+<ol start=3D"1">
+<li>
+<p><strong>Data Collection:</strong> Gather relevant data</p></li>
+<li>
+<p><strong>Data Preprocessing:</strong> Clean, normalize, and prepare data<=
+/p></li>
+<li>
+<p><strong>Feature Selection / Engineering:</strong> Select or create meani=
+ngful features</p></li>
+<li>
+<p><strong>Model Selection:</strong> Choose algorithm (e.g., decision tree,=
+ neural network)</p></li>
+<li>
+<p><strong>Training:</strong> Fit the model on training data</p></li>
+<li>
+<p><strong>Evaluation:</strong> Test model accuracy on unseen data</p></li>
+<li>
+<p><strong>Deployment:</strong> Use the model for real-world predictions</p=
+></li>
+</ol>
+<hr>
+<h2 id=3D"ArtificialIntelligence-5=EF=B8=8F=E2=83=A3CommonAlgorithms"><stro=
+ng>5=EF=B8=8F=E2=83=A3 Common Algorithms</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"09=
+27a852-8db8-4413-9055-d6a99299901f" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Category</p></th>
+<th class=3D"confluenceTh">
+<p>Examples</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Supervised</p></td>
+<td class=3D"confluenceTd">
+<p>Linear Regression, Decision Trees, SVM, Neural Networks</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Unsupervised</p></td>
+<td class=3D"confluenceTd">
+<p>K-Means, Hierarchical Clustering, PCA</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Reinforcement</p></td>
+<td class=3D"confluenceTd">
+<p>Q-Learning, Deep Q-Networks, Policy Gradient</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id=3D"ArtificialIntelligence-6=EF=B8=8F=E2=83=A3Applications"><strong>6=
+=EF=B8=8F=E2=83=A3 Applications</strong></h2>
+<ul>
+<li>
+<p><strong>Healthcare:</strong> Disease diagnosis, drug discovery</p></li>
+<li>
+<p><strong>Finance:</strong> Fraud detection, credit scoring</p></li>
+<li>
+<p><strong>Retail:</strong> Recommendation systems, customer segmentation</=
+p></li>
+<li>
+<p><strong>Autonomous Systems:</strong> Self-driving cars, robotics</p></li=
+>
+<li>
+<p><strong>Natural Language Processing:</strong> Chatbots, sentiment analys=
+is</p></li>
+</ul>
+<hr>
+<h3 id=3D"ArtificialIntelligence-=E2=9C=85Summary.7">=E2=9C=85 <strong>Summ=
+ary</strong></h3>
+<ul>
+<li>
+<p><strong>Machine Learning</strong> allows computers to <strong>learn from=
+ data</strong> and <strong>improve performance</strong>.</p></li>
+<li>
+<p><strong>Types:</strong> Supervised, Unsupervised, Reinforcement</p></li>
+<li>
+<p><strong>Workflow:</strong> Data =E2=86=92 Model =E2=86=92 Training =E2=
+=86=92 Evaluation =E2=86=92 Deployment</p></li>
+<li>
+<p><strong>Applications:</strong> Wide-ranging across healthcare, finance, =
+retail, NLP, and robotics</p></li>
+</ul>
+<hr>
+<p>I can also create a <strong>diagram showing the types of machine learnin=
+g and the workflow from data collection to deployment</strong>, which makes=
+ it visually easy to understand.</p>
+<p>Do you want me to create that diagram?</p>
+<p></p>
+<p></p>
+<ol start=3D"9">
+<li>
+<p>Learning algorithms: supervised and Clustering. unsupervised;</p></li>
+</ol>
+<p>Here=E2=80=99s a <strong>concise yet informative overview</strong> of <s=
+trong>Learning Algorithms in Machine Learning</strong> focusing on <strong>=
+Supervised and Unsupervised (Clustering) methods</strong>:</p>
+<hr>
+<h2 id=3D"ArtificialIntelligence-1=EF=B8=8F=E2=83=A3LearningAlgorithmsOverv=
+iew"><strong>1=EF=B8=8F=E2=83=A3 Learning Algorithms Overview</strong></h2>
+<p><strong>Learning algorithms</strong> are <strong>procedures or methods u=
+sed to train a model</strong> from data.</p>
+<ul>
+<li>
+<p><strong>Input:</strong> Data (labeled or unlabeled)</p></li>
+<li>
+<p><strong>Output:</strong> Model that can make predictions or identify pat=
+terns</p></li>
+<li>
+<p>Categories: <strong>Supervised Learning</strong> and <strong>Unsupervise=
+d Learning</strong> (Clustering)</p></li>
+</ul>
+<hr>
+<h2 id=3D"ArtificialIntelligence-2=EF=B8=8F=E2=83=A3SupervisedLearning"><st=
+rong>2=EF=B8=8F=E2=83=A3 Supervised Learning</strong></h2>
+<p><strong>Definition:</strong></p>
+<ul>
+<li>
+<p>Learns a function from <strong>labeled data</strong> (input-output pairs=
+).</p></li>
+<li>
+<p>Goal: Predict the <strong>output (label)</strong> for new unseen inputs.=
+</p></li>
+</ul>
+<p><strong>Workflow:</strong></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">Data (F=
+eatures + Labels) =E2=86=92 Train Model =E2=86=92 Evaluate =E2=86=92 Predic=
+t
+</pre>
+</div>
+</div>
+<p><strong>Common Algorithms:</strong></p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"62=
+c9aeab-911e-4814-8d0a-7dc2bfd4d267" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Algorithm</p></th>
+<th class=3D"confluenceTh">
+<p>Description</p></th>
+<th class=3D"confluenceTh">
+<p>Example</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Linear Regression</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Predicts continuous values</p></td>
+<td class=3D"confluenceTd">
+<p>House prices</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Logistic Regression</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Predicts probability of a class</p></td>
+<td class=3D"confluenceTd">
+<p>Email spam detection</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Decision Tree</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Tree-based model for classification/regression</p></td>
+<td class=3D"confluenceTd">
+<p>Loan approval</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Support Vector Machine (SVM)</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Separates classes using hyperplane</p></td>
+<td class=3D"confluenceTd">
+<p>Image classification</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Neural Networks</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Complex mapping from input to output</p></td>
+<td class=3D"confluenceTd">
+<p>Handwriting recognition</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Applications:</strong></p>
+<ul>
+<li>
+<p>Email spam detection</p></li>
+<li>
+<p>Credit scoring</p></li>
+<li>
+<p>Stock price prediction</p></li>
+<li>
+<p>Medical diagnosis</p></li>
+</ul>
+<hr>
+<h2 id=3D"ArtificialIntelligence-3=EF=B8=8F=E2=83=A3UnsupervisedLearning(Cl=
+ustering)"><strong>3=EF=B8=8F=E2=83=A3 Unsupervised Learning (Clustering)</=
+strong></h2>
+<p><strong>Definition:</strong></p>
+<ul>
+<li>
+<p>Learns patterns from <strong>unlabeled data</strong>.</p></li>
+<li>
+<p>Goal: <strong>Group similar data points</strong> together (discover hidd=
+en structure).</p></li>
+</ul>
+<p><strong>Key Concept: Clustering</strong></p>
+<ul>
+<li>
+<p>Partition data into <strong>clusters</strong> such that points in the sa=
+me cluster are similar.</p></li>
+</ul>
+<p><strong>Common Algorithms:</strong></p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"22=
+3f51ea-7b86-4e07-bbf6-9f72d8e46476" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Algorithm</p></th>
+<th class=3D"confluenceTh">
+<p>Description</p></th>
+<th class=3D"confluenceTh">
+<p>Example</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>K-Means</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Partitions data into K clusters based on distance</p></td>
+<td class=3D"confluenceTd">
+<p>Customer segmentation</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Hierarchical Clustering</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Builds a tree of clusters (dendrogram)</p></td>
+<td class=3D"confluenceTd">
+<p>Document clustering</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>DBSCAN</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Density-based clustering, handles noise</p></td>
+<td class=3D"confluenceTd">
+<p>Geospatial data analysis</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Gaussian Mixture Model (GMM)</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Probabilistic clustering</p></td>
+<td class=3D"confluenceTd">
+<p>Image segmentation</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Applications:</strong></p>
+<ul>
+<li>
+<p>Market segmentation</p></li>
+<li>
+<p>Anomaly detection (fraud detection)</p></li>
+<li>
+<p>Document or text clustering</p></li>
+<li>
+<p>Image segmentation</p></li>
+</ul>
+<hr>
+<h2 id=3D"ArtificialIntelligence-4=EF=B8=8F=E2=83=A3KeyDifferences:Supervis=
+edvsUnsupervised"><strong>4=EF=B8=8F=E2=83=A3 Key Differences: Supervised v=
+s Unsupervised</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"f7=
+f24cbf-dc74-4ed1-83ea-1e1a83c4ac67" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Feature</p></th>
+<th class=3D"confluenceTh">
+<p>Supervised Learning</p></th>
+<th class=3D"confluenceTh">
+<p>Unsupervised Learning (Clustering)</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Data</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Labeled</p></td>
+<td class=3D"confluenceTd">
+<p>Unlabeled</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Goal</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Predict labels</p></td>
+<td class=3D"confluenceTd">
+<p>Find patterns/structure</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Feedback</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Uses known output for training</p></td>
+<td class=3D"confluenceTd">
+<p>No feedback, discovers hidden patterns</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Algorithms</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Regression, Classification (Decision Trees, SVM)</p></td>
+<td class=3D"confluenceTd">
+<p>K-Means, Hierarchical, DBSCAN</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Applications</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Spam detection, medical diagnosis</p></td>
+<td class=3D"confluenceTd">
+<p>Market segmentation, anomaly detection</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h3 id=3D"ArtificialIntelligence-=E2=9C=85Summary.8">=E2=9C=85 <strong>Summ=
+ary</strong></h3>
+<ul>
+<li>
+<p><strong>Supervised Learning:</strong> Uses labeled data to <strong>predi=
+ct outputs</strong>; includes regression and classification algorithms.</p>=
+</li>
+<li>
+<p><strong>Unsupervised Learning (Clustering):</strong> Uses unlabeled data=
+ to <strong>discover structure</strong>; includes K-Means, Hierarchical, DB=
+SCAN.</p></li>
+<li>
+<p>Both are <strong>foundational in AI and data analysis</strong>, but diff=
+er in <strong>data type and goals</strong>.</p></li>
+</ul>
+<hr>
+<p>I can create a <strong>diagram showing Supervised vs Unsupervised learni=
+ng with examples of algorithms and applications</strong>, which makes it vi=
+sually clear.</p>
+<p>Do you want me to create that diagram?</p>
+<p></p>
+<p></p>
+<ol start=3D"10">
+<li>
+<p>Practical application of machine learning;</p></li>
+</ol>
+<p>Here=E2=80=99s a <strong>concise overview</strong> of <strong>Practical =
+Applications of Machine Learning (ML):</strong></p>
+<hr>
+<h2 id=3D"ArtificialIntelligence-1=EF=B8=8F=E2=83=A3Introduction.1"><strong=
+>1=EF=B8=8F=E2=83=A3 Introduction</strong></h2>
+<p><strong>Machine Learning</strong> is widely used in real-world scenarios=
+ to <strong>automate decision-making, predict outcomes, and extract insight=
+s from data</strong>.</p>
+<ul>
+<li>
+<p>It transforms <strong>raw data</strong> into <strong>actionable intellig=
+ence</strong>.</p></li>
+<li>
+<p>Applications span across <strong>healthcare, finance, retail, robotics, =
+and natural language processing</strong>.</p></li>
+</ul>
+<hr>
+<h2 id=3D"ArtificialIntelligence-2=EF=B8=8F=E2=83=A3KeyPracticalApplication=
+s"><strong>2=EF=B8=8F=E2=83=A3 Key Practical Applications</strong></h2>
+<h3 id=3D"ArtificialIntelligence-A)Healthcare"><strong>A) Healthcare</stron=
+g></h3>
+<ul>
+<li>
+<p><strong>Medical Diagnosis:</strong> Predict diseases from symptoms or me=
+dical images (e.g., detecting tumors in MRI scans using CNNs)</p></li>
+<li>
+<p><strong>Drug Discovery:</strong> Predict effectiveness of compounds</p><=
+/li>
+<li>
+<p><strong>Patient Monitoring:</strong> Predict patient deterioration from =
+sensor data</p></li>
+</ul>
+<h3 id=3D"ArtificialIntelligence-B)Finance"><strong>B) Finance</strong></h3=
+>
+<ul>
+<li>
+<p><strong>Fraud Detection:</strong> Identify fraudulent transactions using=
+ anomaly detection</p></li>
+<li>
+<p><strong>Credit Scoring:</strong> Predict risk for loan approvals</p></li=
+>
+<li>
+<p><strong>Algorithmic Trading:</strong> Predict stock trends using histori=
+cal data</p></li>
+</ul>
+<h3 id=3D"ArtificialIntelligence-C)RetailandE-commerce"><strong>C) Retail a=
+nd E-commerce</strong></h3>
+<ul>
+<li>
+<p><strong>Recommendation Systems:</strong> Suggest products based on user =
+behavior (Amazon, Netflix)</p></li>
+<li>
+<p><strong>Customer Segmentation:</strong> Group similar customers for targ=
+eted marketing</p></li>
+<li>
+<p><strong>Demand Forecasting:</strong> Predict inventory requirements</p><=
+/li>
+</ul>
+<h3 id=3D"ArtificialIntelligence-D)AutonomousSystems"><strong>D) Autonomous=
+ Systems</strong></h3>
+<ul>
+<li>
+<p><strong>Self-driving Cars:</strong> Detect objects, pedestrians, and lan=
+es using computer vision</p></li>
+<li>
+<p><strong>Drones and Robotics:</strong> Navigation and obstacle avoidance<=
+/p></li>
+</ul>
+<h3 id=3D"ArtificialIntelligence-E)NaturalLanguageProcessing"><strong>E) Na=
+tural Language Processing</strong></h3>
+<ul>
+<li>
+<p><strong>Chatbots &amp; Virtual Assistants:</strong> Siri, Alexa, and Goo=
+gle Assistant</p></li>
+<li>
+<p><strong>Sentiment Analysis:</strong> Determine opinion from social media=
+ or reviews</p></li>
+<li>
+<p><strong>Machine Translation:</strong> Translate text between languages (=
+Google Translate)</p></li>
+</ul>
+<h3 id=3D"ArtificialIntelligence-F)IndustrialApplications"><strong>F) Indus=
+trial Applications</strong></h3>
+<ul>
+<li>
+<p><strong>Predictive Maintenance:</strong> Predict machine failures before=
+ they happen</p></li>
+<li>
+<p><strong>Quality Control:</strong> Detect defective products using comput=
+er vision</p></li>
+</ul>
+<h3 id=3D"ArtificialIntelligence-G)Cybersecurity"><strong>G) Cybersecurity<=
+/strong></h3>
+<ul>
+<li>
+<p><strong>Intrusion Detection Systems:</strong> Identify suspicious networ=
+k activity</p></li>
+<li>
+<p><strong>Spam Filtering:</strong> Email and message filtering</p></li>
+</ul>
+<hr>
+<h2 id=3D"ArtificialIntelligence-3=EF=B8=8F=E2=83=A3BenefitsofMachineLearni=
+nginPractice"><strong>3=EF=B8=8F=E2=83=A3 Benefits of Machine Learning in P=
+ractice</strong></h2>
+<ul>
+<li>
+<p>Automates repetitive or complex decision-making</p></li>
+<li>
+<p>Provides <strong>real-time predictions</strong></p></li>
+<li>
+<p>Can process <strong>large volumes of data</strong> efficiently</p></li>
+<li>
+<p>Enhances <strong>accuracy and efficiency</strong> over traditional rule-=
+based systems</p></li>
+</ul>
+<hr>
+<h3 id=3D"ArtificialIntelligence-=E2=9C=85Summary.9">=E2=9C=85 <strong>Summ=
+ary</strong></h3>
+<p>Machine Learning is <strong>practical and pervasive</strong>, transformi=
+ng industries by enabling:</p>
+<ul>
+<li>
+<p><strong>Healthcare:</strong> Diagnosis, monitoring, drug discovery</p></=
+li>
+<li>
+<p><strong>Finance:</strong> Fraud detection, credit scoring, trading</p></=
+li>
+<li>
+<p><strong>Retail:</strong> Recommendations, segmentation, forecasting</p><=
+/li>
+<li>
+<p><strong>Autonomous Systems:</strong> Self-driving vehicles, drones</p></=
+li>
+<li>
+<p><strong>NLP:</strong> Chatbots, sentiment analysis, translation</p></li>
+<li>
+<p><strong>Industrial &amp; Cybersecurity:</strong> Predictive maintenance,=
+ intrusion detection</p></li>
+</ul>
+<hr>
+<p>I can also create a <strong>diagram mapping machine learning application=
+s to industries</strong> for a quick visual summary.</p>
+<p>Do you want me to make that diagram?</p>
+<p></p>
+<p></p>
+<ol start=3D"11">
+<li>
+<p>Regression;</p></li>
+</ol>
+<p>Here=E2=80=99s a <strong>concise and informative overview</strong> of <s=
+trong>Regression in Machine Learning</strong>:</p>
+<hr>
+<h2 id=3D"ArtificialIntelligence-1=EF=B8=8F=E2=83=A3Definition.5"><strong>1=
+=EF=B8=8F=E2=83=A3 Definition</strong></h2>
+<p><strong>Regression</strong> is a <strong>supervised learning technique</=
+strong> used to <strong>predict continuous numerical values</strong> based =
+on input features.</p>
+<ul>
+<li>
+<p>Goal: Model the <strong>relationship between independent variable(s) (X)=
+</strong> and <strong>dependent variable (Y)</strong>.</p></li>
+<li>
+<p>Examples: Predict house prices, stock prices, temperature, sales revenue=
+.</p></li>
+</ul>
+<hr>
+<h2 id=3D"ArtificialIntelligence-2=EF=B8=8F=E2=83=A3KeyConcepts.3"><strong>=
+2=EF=B8=8F=E2=83=A3 Key Concepts</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"4f=
+14d118-e9d4-481a-aaa0-feda1d0acf21" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Concept</p></th>
+<th class=3D"confluenceTh">
+<p>Description</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Dependent Variable (Target)</strong></p></td>
+<td class=3D"confluenceTd">
+<p>The value to be predicted (Y)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Independent Variable (Feature)</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Input variables used for prediction (X)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Regression Function / Model</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Mathematical relation: Y =3D f(X) + =CE=B5</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Error (Residual)</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Difference between predicted and actual values</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Loss Function</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Measure of model performance (e.g., Mean Squared Error)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id=3D"ArtificialIntelligence-3=EF=B8=8F=E2=83=A3TypesofRegression"><str=
+ong>3=EF=B8=8F=E2=83=A3 Types of Regression</strong></h2>
+<h3 id=3D"ArtificialIntelligence-A)LinearRegression"><strong>A) Linear Regr=
+ession</strong></h3>
+<ul>
+<li>
+<p>Predicts <strong>Y</strong> as a <strong>linear combination of input fea=
+tures</strong>:</p></li>
+</ul>
+<p>Y=3D=CE=B20+=CE=B21X1+=CE=B22X2+...+=CE=B2nXn+=CE=B5Y =3D =CE=B2_0 + =CE=
+=B2_1 X_1 + =CE=B2_2 X_2 + ... + =CE=B2_n X_n + =CE=B5</p>
+<ul>
+<li>
+<p><strong>Simple Linear Regression:</strong> One feature</p></li>
+<li>
+<p><strong>Multiple Linear Regression:</strong> Multiple features</p></li>
+<li>
+<p><strong>Goal:</strong> Minimize error (usually using <strong>least squar=
+es</strong> method)</p></li>
+</ul>
+<h3 id=3D"ArtificialIntelligence-B)PolynomialRegression"><strong>B) Polynom=
+ial Regression</strong></h3>
+<ul>
+<li>
+<p>Models <strong>non-linear relationships</strong> by including polynomial=
+ terms:</p></li>
+</ul>
+<p>Y=3D=CE=B20+=CE=B21X+=CE=B22X2+...+=CE=B2nXnY =3D =CE=B2_0 + =CE=B2_1 X =
++ =CE=B2_2 X^2 + ... + =CE=B2_n X^n</p>
+<h3 id=3D"ArtificialIntelligence-C)LogisticRegression"><strong>C) Logistic =
+Regression</strong></h3>
+<ul>
+<li>
+<p>Used for <strong>binary classification</strong> (not truly regression, b=
+ut named regression)</p></li>
+<li>
+<p>Models probability using <strong>sigmoid function</strong>:</p></li>
+</ul>
+<p>P(Y=3D1=E2=88=A3X)=3D11+e=E2=88=92(=CE=B20+=CE=B21X)P(Y=3D1|X) =3D \frac=
+{1}{1 + e^{-(=CE=B2_0 + =CE=B2_1 X)}}</p>
+<h3 id=3D"ArtificialIntelligence-D)OtherTypes"><strong>D) Other Types</stro=
+ng></h3>
+<ul>
+<li>
+<p><strong>Ridge Regression:</strong> Linear regression with L2 regularizat=
+ion</p></li>
+<li>
+<p><strong>Lasso Regression:</strong> Linear regression with L1 regularizat=
+ion</p></li>
+<li>
+<p><strong>Elastic Net:</strong> Combination of L1 and L2</p></li>
+</ul>
+<hr>
+<h2 id=3D"ArtificialIntelligence-4=EF=B8=8F=E2=83=A3EvaluationMetrics"><str=
+ong>4=EF=B8=8F=E2=83=A3 Evaluation Metrics</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"02=
+6c372a-5646-4676-83d8-cc58806b1021" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Metric</p></th>
+<th class=3D"confluenceTh">
+<p>Purpose</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Mean Squared Error (MSE)</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Average squared difference between predicted and actual</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Root Mean Squared Error (RMSE)</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Square root of MSE for interpretability</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Mean Absolute Error (MAE)</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Average absolute difference</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>R-squared (R=C2=B2)</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Proportion of variance explained by model (0=E2=80=931)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id=3D"ArtificialIntelligence-5=EF=B8=8F=E2=83=A3Applications"><strong>5=
+=EF=B8=8F=E2=83=A3 Applications</strong></h2>
+<ul>
+<li>
+<p>Predicting <strong>house or car prices</strong></p></li>
+<li>
+<p><strong>Stock market forecasting</strong></p></li>
+<li>
+<p><strong>Weather prediction</strong></p></li>
+<li>
+<p><strong>Sales forecasting</strong></p></li>
+<li>
+<p><strong>Medical risk prediction</strong></p></li>
+</ul>
+<hr>
+<h3 id=3D"ArtificialIntelligence-=E2=9C=85Summary.10">=E2=9C=85 <strong>Sum=
+mary</strong></h3>
+<ul>
+<li>
+<p><strong>Regression</strong> predicts <strong>continuous outcomes</strong=
+> based on input features.</p></li>
+<li>
+<p><strong>Types:</strong> Linear, Polynomial, Logistic, Ridge, Lasso, Elas=
+tic Net</p></li>
+<li>
+<p><strong>Goal:</strong> Model the relationship and <strong>minimize predi=
+ction error</strong>.</p></li>
+<li>
+<p><strong>Applications:</strong> Finance, healthcare, weather, sales, real=
+ estate</p></li>
+</ul>
+<hr>
+<p>I can create a <strong>diagram showing linear regression, polynomial reg=
+ression, and the concept of predicted vs actual values</strong>, which make=
+s it visually clear.</p>
+<p>Do you want me to create that diagram?</p>
+    </div>
+</body>
+</html>
+------=_Part_0_1717110963.1760785345883--

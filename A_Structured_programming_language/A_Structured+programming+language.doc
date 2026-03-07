@@ -1,0 +1,5382 @@
+Date: Sat, 18 Oct 2025 11:08:57 +0000 (UTC)
+Message-ID: <562738104.5.1760785737818@1b897e82dd59>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_4_1116826261.1760785737818"
+
+------=_Part_4_1116826261.1760785737818
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Structured programming language</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Structured programming language</h1>
+    <div class=3D"Section1">
+        <ol start=3D"1">
+<li>
+<p>data types, operators, expressions, control structures;</p></li>
+<li>
+<p>Functions and program structure: parameter passing conventions, scope ru=
+les and storage classes, recursion;</p></li>
+<li>
+<p>Header files;</p></li>
+<li>
+<p>Preprocessor;</p></li>
+<li>
+<p>Pointers and arrays;</p></li>
+<li>
+<p>Strings;</p></li>
+<li>
+<p>Multidimensional array;</p></li>
+<li>
+<p>User defined data types: structures, unions, enumerations;</p></li>
+<li>
+<p>Input and Output: standard input and output, formatted input and output,=
+ file access;</p></li>
+<li>
+<p>Variable length argument list;</p></li>
+<li>
+<p>Command line parameters;</p></li>
+<li>
+<p>Error Handling;</p></li>
+<li>
+<p>Graphics;</p></li>
+<li>
+<p>Linking;</p></li>
+<li>
+<p>Library functions</p></li>
+</ol>
+<p></p>
+<ol start=3D"1">
+<li>
+<p>data types, operators, expressions, control structures;</p></li>
+</ol>
+<p>Sure =F0=9F=91=8D =E2=80=94 let=E2=80=99s briefly go through each topic =
+one by one. These are <strong>core concepts</strong> of any programming lan=
+guage (like C, C++, Java, or Python).</p>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=A7=A91.DataTypes">=F0=9F=A7=
+=A9 1. <strong>Data Types</strong></h2>
+<p>Data types define <strong>what kind of data</strong> a variable can hold=
+.</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"1e=
+f89012-f5df-4cfb-a3f4-5746fb6f6348" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Type</p></th>
+<th class=3D"confluenceTh">
+<p>Example</p></th>
+<th class=3D"confluenceTh">
+<p>Description</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>int</strong></p></td>
+<td class=3D"confluenceTd">
+<p><code>int age =3D 25;</code></p></td>
+<td class=3D"confluenceTd">
+<p>Stores whole numbers (no decimals)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>float / double</strong></p></td>
+<td class=3D"confluenceTd">
+<p><code>float price =3D 10.5;</code></p></td>
+<td class=3D"confluenceTd">
+<p>Stores numbers with decimals</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>char</strong></p></td>
+<td class=3D"confluenceTd">
+<p><code>char grade =3D 'A';</code></p></td>
+<td class=3D"confluenceTd">
+<p>Stores a single character</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>string</strong></p></td>
+<td class=3D"confluenceTd">
+<p><code>"Hello"</code></p></td>
+<td class=3D"confluenceTd">
+<p>Stores a sequence of characters (text)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>bool</strong></p></td>
+<td class=3D"confluenceTd">
+<p><code>true / false</code></p></td>
+<td class=3D"confluenceTd">
+<p>Logical value (used in conditions)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>=F0=9F=92=A1 Example:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">int mar=
+ks =3D 85;
+float temp =3D 36.5;
+char letter =3D 'A';
+</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=E2=9A=99=EF=B8=8F2.Operators">=E2=
+=9A=99=EF=B8=8F 2. <strong>Operators</strong></h2>
+<p>Operators perform <strong>operations</strong> on variables and values.</=
+p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"00=
+b67df1-705e-46a2-8028-f5e307cdf175" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Type</p></th>
+<th class=3D"confluenceTh">
+<p>Example</p></th>
+<th class=3D"confluenceTh">
+<p>Meaning</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Arithmetic</strong></p></td>
+<td class=3D"confluenceTd">
+<p><code>+</code>, <code>-</code>, <code>*</code>, <code>/</code>, <code>%<=
+/code></p></td>
+<td class=3D"confluenceTd">
+<p>Math operations</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Relational</strong></p></td>
+<td class=3D"confluenceTd">
+<p><code>&gt;</code>, <code>&lt;</code>, <code>&gt;=3D</code>, <code>&lt;=
+=3D</code>, <code>=3D=3D</code>, <code>!=3D</code></p></td>
+<td class=3D"confluenceTd">
+<p>Compare two values</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Logical</strong></p></td>
+<td class=3D"confluenceTd">
+<p><code>&amp;&amp;</code>, `</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Assignment</strong></p></td>
+<td class=3D"confluenceTd">
+<p><code>=3D</code>, <code>+=3D</code>, <code>-=3D</code>, <code>*=3D</code=
+>, <code>/=3D</code></p></td>
+<td class=3D"confluenceTd">
+<p>Assign values</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Increment/Decrement</strong></p></td>
+<td class=3D"confluenceTd">
+<p><code>++</code>, <code>--</code></p></td>
+<td class=3D"confluenceTd">
+<p>Increase or decrease by 1</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>=F0=9F=92=A1 Example:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">int a =
+=3D 10, b =3D 5;
+int sum =3D a + b;        // Arithmetic
+bool check =3D (a &gt; b);   // Relational
+</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=A7=AE3.Expressions">=F0=9F=
+=A7=AE 3. <strong>Expressions</strong></h2>
+<p>An expression is <strong>a combination of variables, constants, and oper=
+ators</strong> that produces a value.</p>
+<p>=F0=9F=92=A1 Example:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">int res=
+ult =3D (a + b) * c - 10;
+</pre>
+</div>
+</div>
+<p>Here, <code>(a + b) * c - 10</code> is an <strong>expression</strong> =
+=E2=80=94 it calculates a value and assigns it to <code>result</code>.</p>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=94=814.ControlStructures">=
+=F0=9F=94=81 4. <strong>Control Structures</strong></h2>
+<p>Control structures <strong>control the flow</strong> of the program =E2=
+=80=94 decide <em>what executes and when</em>.</p>
+<h3 id=3D"Structuredprogramminglanguage-(a)DecisionMaking">(a) <strong>Deci=
+sion Making</strong></h3>
+<p>Used for conditional execution.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">if (mar=
+ks &gt;=3D 40)
+    printf("Pass");
+else
+    printf("Fail");
+</pre>
+</div>
+</div>
+<p>Other types:</p>
+<ul>
+<li>
+<p><code>if...else</code></p></li>
+<li>
+<p><code>else if</code></p></li>
+<li>
+<p><code>switch...case</code></p></li>
+</ul>
+<hr>
+<h3 id=3D"Structuredprogramminglanguage-(b)Loops">(b) <strong>Loops</strong=
+></h3>
+<p>Used for <strong>repeating tasks</strong>.</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"5a=
+3eaa30-8fd3-479f-a8fa-f4ad4de59e91" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Loop Type</p></th>
+<th class=3D"confluenceTh">
+<p>Example</p></th>
+<th class=3D"confluenceTh">
+<p>Purpose</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>for</strong></p></td>
+<td class=3D"confluenceTd">
+<p><code>for(i=3D0;i&lt;5;i++)</code></p></td>
+<td class=3D"confluenceTd">
+<p>Known number of repetitions</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>while</strong></p></td>
+<td class=3D"confluenceTd">
+<p><code>while(i&lt;5)</code></p></td>
+<td class=3D"confluenceTd">
+<p>Unknown repetitions</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>do...while</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Executes at least once</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>=F0=9F=92=A1 Example:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">for (in=
+t i =3D 1; i &lt;=3D 5; i++) {
+    printf("%d ", i);
+}
+</pre>
+</div>
+</div>
+<hr>
+<h3 id=3D"Structuredprogramminglanguage-(c)JumpStatements">(c) <strong>Jump=
+ Statements</strong></h3>
+<p>Used to <strong>change flow suddenly</strong>.</p>
+<ul>
+<li>
+<p><code>break</code> =E2=86=92 exit from loop/switch</p></li>
+<li>
+<p><code>continue</code> =E2=86=92 skip current iteration</p></li>
+<li>
+<p><code>return</code> =E2=86=92 exit from function</p></li>
+</ul>
+<hr>
+<p>=E2=9C=85 <strong>In short:</strong></p>
+<ul>
+<li>
+<p><strong>Data types</strong> =E2=86=92 what kind of data</p></li>
+<li>
+<p><strong>Operators</strong> =E2=86=92 how to process data</p></li>
+<li>
+<p><strong>Expressions</strong> =E2=86=92 combination of data + operators</=
+p></li>
+<li>
+<p><strong>Control structures</strong> =E2=86=92 how the program decides an=
+d repeats actions</p></li>
+</ul>
+<hr>
+<p>Would you like me to give <strong>short MCQs and answers</strong> for th=
+ese topics (for govt job exam style)?</p>
+<ol start=3D"2">
+<li>
+<p>Functions and program structure: parameter passing conventions, scope ru=
+les and storage classes, recursion;</p></li>
+</ol>
+<p>Excellent =F0=9F=91=8F =E2=80=94 this topic is <strong>core programming =
+theory</strong>, and it=E2=80=99s very common in <strong>govt IT exams, =
+ ICT</strong>, and <strong>computer fundamentals tests</strong>.</p>
+<p>Let=E2=80=99s go through each part clearly and simply =E2=80=94 with sho=
+rt examples =F0=9F=91=87</p>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=A7=A91.FunctionsandProgramSt=
+ructure">=F0=9F=A7=A9 <strong>1. Functions and Program Structure</strong></=
+h2>
+<p>A <strong>function</strong> is a <strong>block of code</strong> that per=
+forms a specific task.<br>
+It helps in reusing code, improving readability, and modular programming.</=
+p>
+<h3 id=3D"Structuredprogramminglanguage-=F0=9F=94=B9FunctionSyntax(inC/C++)=
+:">=F0=9F=94=B9 Function Syntax (in C/C++):</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">returnT=
+ype functionName(parameter list) {
+    // body
+    return value;
+}
+</pre>
+</div>
+</div>
+<h3 id=3D"Structuredprogramminglanguage-Example:">Example:</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">int add=
+(int a, int b) {
+    return a + b;
+}
+
+int main() {
+    int result =3D add(5, 3);
+    printf("%d", result);
+}
+</pre>
+</div>
+</div>
+<p>=F0=9F=9F=A2 Output: <code>8</code></p>
+<hr>
+<h3 id=3D"Structuredprogramminglanguage-=F0=9F=A7=B1ProgramStructure">=F0=
+=9F=A7=B1 Program Structure</h3>
+<p>A simple C program has:</p>
+<ol start=3D"1">
+<li>
+<p><strong>Preprocessor directives</strong> =E2=86=92 <code>#include &lt;st=
+dio.h&gt;</code></p></li>
+<li>
+<p><strong>Global declarations</strong> =E2=86=92 global variables or const=
+ants</p></li>
+<li>
+<p><strong>Functions</strong> =E2=86=92 <code>main()</code> and user-define=
+d ones</p></li>
+</ol>
+<p>=F0=9F=92=A1 Example structure:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">#includ=
+e &lt;stdio.h&gt;
+
+int square(int x); // function declaration
+
+int main() {
+    int num =3D 4;
+    printf("%d", square(num));
+    return 0;
+}
+
+int square(int x) {  // function definition
+    return x * x;
+}
+</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=E2=9A=99=EF=B8=8F2.ParameterPassin=
+gConventions">=E2=9A=99=EF=B8=8F <strong>2. Parameter Passing Conventions</=
+strong></h2>
+<p>When we call a function, we can <strong>pass data (arguments)</strong> i=
+n two main ways:</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"99=
+e98609-8ba9-4bca-a7b3-77d3bea3459f" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Type</p></th>
+<th class=3D"confluenceTh">
+<p>Meaning</p></th>
+<th class=3D"confluenceTh">
+<p>Example</p></th>
+<th class=3D"confluenceTh">
+<p>Behavior</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Call by Value</strong></p></td>
+<td class=3D"confluenceTd">
+<p>A <strong>copy</strong> of the variable is sent</p></td>
+<td class=3D"confluenceTd">
+<p><code>add(x, y)</code></p></td>
+<td class=3D"confluenceTd">
+<p>Changes inside function <strong>don=E2=80=99t affect</strong> original v=
+ariables</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Call by Reference</strong></p></td>
+<td class=3D"confluenceTd">
+<p>The <strong>actual variable address</strong> is sent</p></td>
+<td class=3D"confluenceTd">
+<p><code>add(&amp;x, &amp;y)</code></p></td>
+<td class=3D"confluenceTd">
+<p>Changes inside function <strong>affect</strong> original variables</p></=
+td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id=3D"Structuredprogramminglanguage-Example:.1">Example:</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">// Call=
+ by value
+void modify(int a) {
+    a =3D a + 5;
+}
+
+int main() {
+    int x =3D 10;
+    modify(x);
+    printf("%d", x); // Output: 10 (no change)
+}
+</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=A7=A03.ScopeRules">=F0=9F=A7=
+=A0 <strong>3. Scope Rules</strong></h2>
+<p>Scope means <strong>where a variable can be accessed</strong>.</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"df=
+fff3c2-09fc-41d6-9dd0-8b994be8ddb9" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Type</p></th>
+<th class=3D"confluenceTh">
+<p>Description</p></th>
+<th class=3D"confluenceTh">
+<p>Example</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Local Scope</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Declared inside a function/block =E2=80=94 accessible only there</p></td=
+>
+<td class=3D"confluenceTd">
+<p><code>int x</code> inside main()</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Global Scope</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Declared outside all functions =E2=80=94 accessible anywhere</p></td>
+<td class=3D"confluenceTd">
+<p><code>int x</code> outside main()</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Block Scope</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Declared inside <code>{ }</code> =E2=80=94 exists only within that block=
+</p></td>
+<td class=3D"confluenceTd">
+<p><code>for (int i=3D0; i&lt;5; i++)</code></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>=F0=9F=92=A1 Example:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">int g =
+=3D 100; // global
+
+void show() {
+    int x =3D 5; // local
+    printf("%d", x);
+}
+</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=97=82=EF=B8=8F4.StorageClass=
+es">=F0=9F=97=82=EF=B8=8F <strong>4. Storage Classes</strong></h2>
+<p>Storage classes define <strong>how long</strong>, <strong>where</strong>=
+, and <strong>how accessible</strong> a variable is.</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"a2=
+37e820-a669-4fa1-849a-e56b1d342810" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Keyword</p></th>
+<th class=3D"confluenceTh">
+<p>Scope</p></th>
+<th class=3D"confluenceTh">
+<p>Lifetime</p></th>
+<th class=3D"confluenceTh">
+<p>Default Value</p></th>
+<th class=3D"confluenceTh">
+<p>Meaning</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>auto</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Local</p></td>
+<td class=3D"confluenceTd">
+<p>Function/block</p></td>
+<td class=3D"confluenceTd">
+<p>Garbage</p></td>
+<td class=3D"confluenceTd">
+<p>Default for local variables</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>static</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Local/Global</p></td>
+<td class=3D"confluenceTd">
+<p>Program lifetime</p></td>
+<td class=3D"confluenceTd">
+<p>0</p></td>
+<td class=3D"confluenceTd">
+<p>Keeps value between function calls</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>extern</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Global</p></td>
+<td class=3D"confluenceTd">
+<p>Program lifetime</p></td>
+<td class=3D"confluenceTd">
+<p>0</p></td>
+<td class=3D"confluenceTd">
+<p>Declared in another file or outside function</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>register</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Local</p></td>
+<td class=3D"confluenceTd">
+<p>Function/block</p></td>
+<td class=3D"confluenceTd">
+<p>Garbage</p></td>
+<td class=3D"confluenceTd">
+<p>Stored in CPU register (faster access)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>=F0=9F=92=A1 Example:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">void co=
+unter() {
+    static int count =3D 0;
+    count++;
+    printf("%d ", count);
+}
+
+int main() {
+    counter(); // 1
+    counter(); // 2
+    counter(); // 3
+}
+</pre>
+</div>
+</div>
+<p>=F0=9F=9F=A2 <em>Static variable keeps its value between calls.</em></p>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=94=815.Recursion">=F0=9F=94=
+=81 <strong>5. Recursion</strong></h2>
+<p>Recursion means a <strong>function calling itself</strong> directly or i=
+ndirectly.</p>
+<p>It=E2=80=99s used when a problem can be divided into <strong>smaller sub=
+problems</strong> of the same type.</p>
+<h3 id=3D"Structuredprogramminglanguage-Example:Factorialusingrecursion">Ex=
+ample: Factorial using recursion</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">int fac=
+torial(int n) {
+    if (n =3D=3D 1)
+        return 1;          // base case
+    else
+        return n * factorial(n - 1);  // recursive call
+}
+
+int main() {
+    printf("%d", factorial(5));
+}
+</pre>
+</div>
+</div>
+<p>=F0=9F=9F=A2 Output: <code>120</code><br>
+=F0=9F=93=9D Here, <code>factorial(5)</code> =E2=86=92 <code>5 * 4 * 3 * 2 =
+* 1</code>.</p>
+<hr>
+<p>=E2=9C=85 <strong>Summary Table</strong></p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"4a=
+2c6e19-b841-405c-8b4c-72966d024f8a" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Concept</p></th>
+<th class=3D"confluenceTh">
+<p>Description</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Function</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Block of reusable code</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Parameter Passing</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Sending data to function (by value/reference)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Scope</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Where variable is visible</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Storage Class</strong></p></td>
+<td class=3D"confluenceTd">
+<p>How long variable exists &amp; where stored</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Recursion</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Function calling itself</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p>Would you like me to give you <strong>MCQs + answers</strong> on this to=
+pic (like govt job exam style)?</p>
+<ol start=3D"3">
+<li>
+<p>Header files;</p></li>
+</ol>
+<p>Excellent =F0=9F=91=8D =E2=80=94 understanding <strong>header files</str=
+ong> is very important, especially for <strong>C/C++</strong> and <strong>G=
+ovt IT job /  ICT</strong> exams.<br>
+Let=E2=80=99s explain it <strong>simply and clearly</strong> =F0=9F=91=87</=
+p>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=A7=A9WhatisaHeaderFile?">=F0=
+=9F=A7=A9 <strong>What is a Header File?</strong></h2>
+<p>A <strong>header file</strong> is a file that contains <strong>function =
+declarations</strong>, <strong>macros</strong>, <strong>constants</strong>,=
+ and sometimes <strong>data type definitions</strong> that can be used by m=
+any C programs.</p>
+<p>You include it at the beginning of your program using the <code>#include=
+</code> directive.</p>
+<hr>
+<h3 id=3D"Structuredprogramminglanguage-=F0=9F=A7=A0PurposeofHeaderFiles">=
+=F0=9F=A7=A0 <strong>Purpose of Header Files</strong></h3>
+<p>=E2=9C=85 To reuse commonly used functions<br>
+=E2=9C=85 To make code modular and organized<br>
+=E2=9C=85 To avoid rewriting function declarations<br>
+=E2=9C=85 To use predefined library functions (like <code>printf()</code>, =
+<code>scanf()</code>, etc.)</p>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=A7=BEHowtoIncludeHeaderFiles=
+">=F0=9F=A7=BE <strong>How to Include Header Files</strong></h2>
+<p>There are two types of includes:</p>
+<h3 id=3D"Structuredprogramminglanguage-=F0=9F=94=B91.StandardLibraryHeader=
+Files">=F0=9F=94=B9 1. <strong>Standard Library Header Files</strong></h3>
+<ul>
+<li>
+<p>These come with the C/C++ compiler.</p></li>
+<li>
+<p>They are enclosed in <strong>angle brackets </strong><code>&lt; &gt;</co=
+de>.</p></li>
+</ul>
+<p>=F0=9F=92=A1 Example:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">#includ=
+e &lt;stdio.h&gt;   // standard input-output
+#include &lt;math.h&gt;    // math functions
+#include &lt;string.h&gt;  // string operations
+</pre>
+</div>
+</div>
+<p>=F0=9F=9F=A2 Example program:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">#includ=
+e &lt;stdio.h&gt;
+#include &lt;math.h&gt;
+
+int main() {
+    printf("Square root of 16 is %.2f", sqrt(16));
+    return 0;
+}
+</pre>
+</div>
+</div>
+<hr>
+<h3 id=3D"Structuredprogramminglanguage-=F0=9F=94=B92.User-DefinedHeaderFil=
+es">=F0=9F=94=B9 2. <strong>User-Defined Header Files</strong></h3>
+<ul>
+<li>
+<p>Created by the programmer.</p></li>
+<li>
+<p>Used to share your own functions across multiple files.</p></li>
+<li>
+<p>Enclosed in <strong>double quotes </strong><code>" "</code>.</p></li>
+</ul>
+<p>=F0=9F=92=A1 Example:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">#includ=
+e "myheader.h"
+</pre>
+</div>
+</div>
+<p>Suppose you create:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">// myhe=
+ader.h
+void greet() {
+    printf("Hello, User!");
+}
+</pre>
+</div>
+</div>
+<p>and then in main file:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">#includ=
+e &lt;stdio.h&gt;
+#include "myheader.h"
+
+int main() {
+    greet();
+}
+</pre>
+</div>
+</div>
+<p>=F0=9F=9F=A2 Output: <code>Hello, User!</code></p>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=93=9ACommonStandardHeaderFil=
+esinC">=F0=9F=93=9A <strong>Common Standard Header Files in C</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"ef=
+725cd1-9431-4cc8-894d-7e9c57b90dc9" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>Header File</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Used For</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Example Functions</strong></p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>&lt;stdio.h&gt;</code></p></td>
+<td class=3D"confluenceTd">
+<p>Standard Input/Output</p></td>
+<td class=3D"confluenceTd">
+<p><code>printf()</code>, <code>scanf()</code>, <code>gets()</code>, <code>=
+puts()</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>&lt;conio.h&gt;</code></p></td>
+<td class=3D"confluenceTd">
+<p>Console I/O (Turbo C only)</p></td>
+<td class=3D"confluenceTd">
+<p><code>clrscr()</code>, <code>getch()</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>&lt;math.h&gt;</code></p></td>
+<td class=3D"confluenceTd">
+<p>Mathematical functions</p></td>
+<td class=3D"confluenceTd">
+<p><code>sqrt()</code>, <code>pow()</code>, <code>sin()</code>, <code>cos()=
+</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>&lt;string.h&gt;</code></p></td>
+<td class=3D"confluenceTd">
+<p>String handling</p></td>
+<td class=3D"confluenceTd">
+<p><code>strlen()</code>, <code>strcpy()</code>, <code>strcmp()</code>, <co=
+de>strcat()</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>&lt;stdlib.h&gt;</code></p></td>
+<td class=3D"confluenceTd">
+<p>General utilities</p></td>
+<td class=3D"confluenceTd">
+<p><code>malloc()</code>, <code>free()</code>, <code>atoi()</code>, <code>e=
+xit()</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>&lt;ctype.h&gt;</code></p></td>
+<td class=3D"confluenceTd">
+<p>Character handling</p></td>
+<td class=3D"confluenceTd">
+<p><code>toupper()</code>, <code>tolower()</code>, <code>isalpha()</code></=
+p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>&lt;time.h&gt;</code></p></td>
+<td class=3D"confluenceTd">
+<p>Date and time</p></td>
+<td class=3D"confluenceTd">
+<p><code>time()</code>, <code>clock()</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>&lt;stdbool.h&gt;</code></p></td>
+<td class=3D"confluenceTd">
+<p>Boolean data type</p></td>
+<td class=3D"confluenceTd">
+<p><code>true</code>, <code>false</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>&lt;limits.h&gt;</code></p></td>
+<td class=3D"confluenceTd">
+<p>Integer limits</p></td>
+<td class=3D"confluenceTd">
+<p><code>INT_MAX</code>, <code>INT_MIN</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>&lt;float.h&gt;</code></p></td>
+<td class=3D"confluenceTd">
+<p>Floating-point limits</p></td>
+<td class=3D"confluenceTd">
+<p><code>FLT_MAX</code>, <code>FLT_MIN</code></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=E2=9A=99=EF=B8=8FHowHeaderFilesWor=
+kInternally">=E2=9A=99=EF=B8=8F <strong>How Header Files Work Internally</s=
+trong></h2>
+<p>When you write:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">#includ=
+e &lt;stdio.h&gt;
+</pre>
+</div>
+</div>
+<p>=F0=9F=91=89 the <strong>preprocessor</strong> literally copies the cont=
+ents of that header file into your program <strong>before compilation</stro=
+ng>.</p>
+<p>It=E2=80=99s as if the file=E2=80=99s contents are pasted at that line.<=
+/p>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=A7=A0InShort">=F0=9F=A7=A0 <=
+strong>In Short</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"1d=
+34a410-c6b9-43f4-b8b5-b98297f2f540" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Concept</p></th>
+<th class=3D"confluenceTh">
+<p>Explanation</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Header File</strong></p></td>
+<td class=3D"confluenceTd">
+<p>File that contains function declarations and macros</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Include Syntax</strong></p></td>
+<td class=3D"confluenceTd">
+<p><code>#include &lt;filename&gt;</code> or <code>#include "filename"</cod=
+e></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Types</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Standard library &amp; User-defined</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Purpose</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Reuse code, use library functions, organize program</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p>Would you like me to give you <strong>MCQs (two-column format)</strong> =
+on header files next =E2=80=94 just like before?</p>
+<ol start=3D"4">
+<li>
+<p>Preprocessor;</p></li>
+</ol>
+<p>Excellent =F0=9F=91=8F =E2=80=94 the <strong>C Preprocessor</strong> is =
+one of the most <strong>important but often overlooked</strong> topics in I=
+CT/government IT exams.<br>
+Let=E2=80=99s understand it <strong>clearly, step by step</strong>, with ex=
+amples =F0=9F=91=87</p>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=A7=A9WhatisaPreprocessor?">=
+=F0=9F=A7=A9 <strong>What is a Preprocessor?</strong></h2>
+<p>Before a C program is compiled, it first passes through a <strong>Prepro=
+cessor</strong>.</p>
+<p>=F0=9F=A7=A0 The <strong>preprocessor</strong> performs <strong>text sub=
+stitution and file inclusion</strong> <em>before actual compilation starts.=
+</em></p>
+<p>It handles all lines starting with <code>#</code> (hash symbol).</p>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=E2=9A=99=EF=B8=8FRoleofthePreproce=
+ssor">=E2=9A=99=EF=B8=8F <strong>Role of the Preprocessor</strong></h2>
+<p>=E2=9C=85 Includes header files<br>
+=E2=9C=85 Defines constants and macros<br>
+=E2=9C=85 Controls conditional compilation<br>
+=E2=9C=85 Replaces macros and removes comments</p>
+<p>After preprocessing, the <strong>compiler</strong> receives the expanded=
+ source code.</p>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=A7=A0MainPreprocessorDirecti=
+ves">=F0=9F=A7=A0 <strong>Main Preprocessor Directives</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"f7=
+6475fc-679f-4f0b-81d2-21d02e09c007" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Directive</p></th>
+<th class=3D"confluenceTh">
+<p>Purpose</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>#include</code></p></td>
+<td class=3D"confluenceTd">
+<p>Includes header files</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>#define</code></p></td>
+<td class=3D"confluenceTd">
+<p>Defines constants or macros</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>#undef</code></p></td>
+<td class=3D"confluenceTd">
+<p>Undefines a macro</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>#ifdef</code> / <code>#ifndef</code> / <code>#if</code> / <code>#e=
+lse</code> / <code>#endif</code></p></td>
+<td class=3D"confluenceTd">
+<p>Conditional compilation</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>#error</code></p></td>
+<td class=3D"confluenceTd">
+<p>Generates an error message during compilation</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>#pragma</code></p></td>
+<td class=3D"confluenceTd">
+<p>Gives special instructions to the compiler</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h3 id=3D"Structuredprogramminglanguage-=F0=9F=94=B91.#include">=F0=9F=94=
+=B9 1. <code>#include</code></h3>
+<p>Used to include a header file.</p>
+<p>=E2=9C=85 <strong>Example:</strong></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">#includ=
+e &lt;stdio.h&gt;
+#include "myheader.h"
+</pre>
+</div>
+</div>
+<p>=F0=9F=93=98 <code>&lt; &gt;</code><em> for system files, </em><code>" "=
+</code><em> for user-defined files.</em></p>
+<hr>
+<h3 id=3D"Structuredprogramminglanguage-=F0=9F=94=B92.#define=E2=80=94Macro=
+Definition">=F0=9F=94=B9 2. <code>#define</code> =E2=80=94 <strong>Macro De=
+finition</strong></h3>
+<p>Used to define constants or short code replacements.</p>
+<p>=E2=9C=85 <strong>Example 1:</strong></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">#define=
+ PI 3.1416
+
+float area =3D PI * r * r;
+</pre>
+</div>
+</div>
+<p>=E2=9C=85 <strong>Example 2 (macro function):</strong></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">#define=
+ SQUARE(x) (x * x)
+
+int a =3D SQUARE(5);   // expands to (5 * 5)
+</pre>
+</div>
+</div>
+<p>=F0=9F=92=A1 <em>The preprocessor replaces every occurrence of </em><cod=
+e>PI</code><em> or </em><code>SQUARE(x)</code><em> before compilation.</em>=
+</p>
+<hr>
+<h3 id=3D"Structuredprogramminglanguage-=F0=9F=94=B93.#undef">=F0=9F=94=B9 =
+3. <code>#undef</code></h3>
+<p>Used to <strong>cancel</strong> a previous <code>#define</code>.</p>
+<p>=E2=9C=85 Example:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">#define=
+ SIZE 100
+#undef SIZE
+#define SIZE 200
+</pre>
+</div>
+</div>
+<hr>
+<h3 id=3D"Structuredprogramminglanguage-=F0=9F=94=B94.ConditionalCompilatio=
+n">=F0=9F=94=B9 4. <strong>Conditional Compilation</strong></h3>
+<p>Used to compile specific parts of code depending on conditions.</p>
+<p>=E2=9C=85 Example:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">#define=
+ DEBUG 1
+
+#ifdef DEBUG
+    printf("Debug mode ON\n");
+#endif
+</pre>
+</div>
+</div>
+<p>=F0=9F=92=A1 <em>If </em><code>DEBUG</code><em> is defined, that block w=
+ill compile.</em></p>
+<hr>
+<h3 id=3D"Structuredprogramminglanguage-=F0=9F=94=B95.#if,#else,#elif,#endi=
+f">=F0=9F=94=B9 5. <code>#if</code>, <code>#else</code>, <code>#elif</code>=
+, <code>#endif</code></h3>
+<p>Used for advanced conditional compilation.</p>
+<p>=E2=9C=85 Example:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">#define=
+ VERSION 2
+
+#if VERSION =3D=3D 1
+    printf("Old version\n");
+#elif VERSION =3D=3D 2
+    printf("New version\n");
+#else
+    printf("Unknown version\n");
+#endif
+</pre>
+</div>
+</div>
+<hr>
+<h3 id=3D"Structuredprogramminglanguage-=F0=9F=94=B96.#pragma">=F0=9F=94=B9=
+ 6. <code>#pragma</code></h3>
+<p>Used to give special commands to the compiler.</p>
+<p>=E2=9C=85 Example:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">#pragma=
+ startup init
+#pragma exit cleanup
+</pre>
+</div>
+</div>
+<p>=F0=9F=92=A1 These tell the compiler to call <code>init()</code> before =
+<code>main()</code> and <code>cleanup()</code> after <code>main()</code> (d=
+epends on compiler).</p>
+<hr>
+<h3 id=3D"Structuredprogramminglanguage-=F0=9F=94=B97.#error">=F0=9F=94=B9 =
+7. <code>#error</code></h3>
+<p>Used to stop compilation and display a custom error.</p>
+<p>=E2=9C=85 Example:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">#if VER=
+SION &lt; 2
+#error "Version too old!"
+#endif
+</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=94=81OrderofCompilationSteps=
+">=F0=9F=94=81 <strong>Order of Compilation Steps</strong></h2>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">Source =
+Code (.c)
+      =E2=86=93
+Preprocessor (# directives handled)
+      =E2=86=93
+Expanded Source
+      =E2=86=93
+Compiler (converts to object code)
+      =E2=86=93
+Linker (links libraries)
+      =E2=86=93
+Executable (.exe)
+</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=93=9AQuickSummaryTable">=F0=
+=9F=93=9A <strong>Quick Summary Table</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"a5=
+7696be-5ee3-4862-94c9-a023691a2034" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Directive</p></th>
+<th class=3D"confluenceTh">
+<p>Meaning</p></th>
+<th class=3D"confluenceTh">
+<p>Example</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>#include</code></p></td>
+<td class=3D"confluenceTd">
+<p>Include header file</p></td>
+<td class=3D"confluenceTd">
+<p><code>#include &lt;stdio.h&gt;</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>#define</code></p></td>
+<td class=3D"confluenceTd">
+<p>Define macro/constant</p></td>
+<td class=3D"confluenceTd">
+<p><code>#define PI 3.14</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>#undef</code></p></td>
+<td class=3D"confluenceTd">
+<p>Remove macro definition</p></td>
+<td class=3D"confluenceTd">
+<p><code>#undef PI</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>#ifdef</code></p></td>
+<td class=3D"confluenceTd">
+<p>If defined</p></td>
+<td class=3D"confluenceTd">
+<p><code>#ifdef DEBUG</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>#ifndef</code></p></td>
+<td class=3D"confluenceTd">
+<p>If not defined</p></td>
+<td class=3D"confluenceTd">
+<p><code>#ifndef TEST</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>#if / #elif / #else / #endif</code></p></td>
+<td class=3D"confluenceTd">
+<p>Conditional compilation</p></td>
+<td class=3D"confluenceTd">
+<p><code>#if VALUE =3D=3D 10</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>#error</code></p></td>
+<td class=3D"confluenceTd">
+<p>Generate compile-time error</p></td>
+<td class=3D"confluenceTd">
+<p><code>#error "Invalid Input"</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>#pragma</code></p></td>
+<td class=3D"confluenceTd">
+<p>Compiler-specific instruction</p></td>
+<td class=3D"confluenceTd">
+<p><code>#pragma once</code></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p>=E2=9C=85 <strong>In Short:</strong></p>
+<blockquote>
+<p>The <strong>C Preprocessor</strong> prepares your code before compilatio=
+n =E2=80=94 it <strong>includes files, replaces macros, and controls which =
+code gets compiled.</strong></p>
+</blockquote>
+<hr>
+<p>Would you like me to give a <strong>two-column MCQ set</strong> on <em>P=
+reprocessor directives</em> next (exam-style, like before)?</p>
+<ol start=3D"5">
+<li>
+<p>Pointers and arrays;</p></li>
+</ol>
+<p>Excellent =F0=9F=91=8F =E2=80=94 =E2=80=9C<strong>Pointers and Arrays</s=
+trong>=E2=80=9D is one of the <strong>most important &amp; confusing</stron=
+g> chapters in C programming =E2=80=94 but once you understand the relation=
+ship between them, everything becomes very logical and easy.</p>
+<p>Let=E2=80=99s go step-by-step clearly =F0=9F=91=87</p>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=A7=A9WhatisaPointer?">=F0=9F=
+=A7=A9 <strong>What is a Pointer?</strong></h2>
+<p>=F0=9F=91=89 A <strong>pointer</strong> is a <strong>variable that store=
+s the memory address</strong> of another variable.</p>
+<h3 id=3D"Structuredprogramminglanguage-Example:.2">Example:</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">int a =
+=3D 10;
+int *p;      // declare pointer
+p =3D &amp;a;      // assign address of a to pointer p
+</pre>
+</div>
+</div>
+<p>=F0=9F=A7=A0 <strong>Explanation:</strong></p>
+<ul>
+<li>
+<p><code>a</code> holds the value <code>10</code></p></li>
+<li>
+<p><code>&amp;a</code> gives the <strong>address of a</strong></p></li>
+<li>
+<p><code>p</code> holds that address</p></li>
+<li>
+<p><code>*p</code> gives the <strong>value stored at that address</strong><=
+/p></li>
+</ul>
+<p>=E2=9C=85 Example:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">printf(=
+"%d", *p);   // prints 10
+</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=93=A6MemoryConcept">=F0=9F=
+=93=A6 <strong>Memory Concept</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"95=
+95dec6-e025-40b6-a88f-1ad0225de069" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Variable</p></th>
+<th class=3D"confluenceTh">
+<p>Value</p></th>
+<th class=3D"confluenceTh">
+<p>Address (example)</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>a</code></p></td>
+<td class=3D"confluenceTd">
+<p>10</p></td>
+<td class=3D"confluenceTd">
+<p>1000</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>p</code></p></td>
+<td class=3D"confluenceTd">
+<p>1000</p></td>
+<td class=3D"confluenceTd">
+<p>2000</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>=F0=9F=91=89 <code>p</code> =E2=86=92 points to =E2=86=92 <code>a</code>=
+</p>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=A7=A0PointerOperators">=F0=
+=9F=A7=A0 <strong>Pointer Operators</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"38=
+e0bc3d-b051-4569-9f43-22f21447ca0f" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Operator</p></th>
+<th class=3D"confluenceTh">
+<p>Meaning</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>&amp;</code></p></td>
+<td class=3D"confluenceTd">
+<p>Address-of operator</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>*</code></p></td>
+<td class=3D"confluenceTd">
+<p>Value-at (dereference) operator</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>=E2=9C=85 Example:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">int x =
+=3D 5;
+int *ptr =3D &amp;x;
+printf("%d", *ptr); // 5
+</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=94=B9PointertoPointer">=F0=
+=9F=94=B9 <strong>Pointer to Pointer</strong></h2>
+<p>You can have a pointer that stores the address of another pointer.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">int a =
+=3D 10;
+int *p =3D &amp;a;
+int **q =3D &amp;p;
+
+printf("%d", **q); // prints 10
+</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=A7=B1WhatisanArray?">=F0=9F=
+=A7=B1 <strong>What is an Array?</strong></h2>
+<p>=F0=9F=91=89 An <strong>array</strong> is a <strong>collection of elemen=
+ts</strong> of the same type stored in <strong>contiguous memory</strong>.<=
+/p>
+<p>=E2=9C=85 Example:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">int arr=
+[3] =3D {10, 20, 30};
+</pre>
+</div>
+</div>
+<p>=F0=9F=A7=A0 Memory layout:</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"a8=
+570d86-adfe-4bce-8b88-274891c9b0c5" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Index</p></th>
+<th class=3D"confluenceTh">
+<p>Address</p></th>
+<th class=3D"confluenceTh">
+<p>Value</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>0</p></td>
+<td class=3D"confluenceTd">
+<p>1000</p></td>
+<td class=3D"confluenceTd">
+<p>10</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>1</p></td>
+<td class=3D"confluenceTd">
+<p>1004</p></td>
+<td class=3D"confluenceTd">
+<p>20</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>2</p></td>
+<td class=3D"confluenceTd">
+<p>1008</p></td>
+<td class=3D"confluenceTd">
+<p>30</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>(assuming each int =3D 4 bytes)</p>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=92=A1RelationshipBetweenArra=
+ysandPointers">=F0=9F=92=A1 <strong>Relationship Between Arrays and Pointer=
+s</strong></h2>
+<p>=F0=9F=91=89 The <strong>array name itself acts like a pointer</strong> =
+to its first element.</p>
+<p>=E2=9C=85 Example:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">int arr=
+[3] =3D {10, 20, 30};
+printf("%d", *arr);      // prints 10
+printf("%d", *(arr + 1)); // prints 20
+</pre>
+</div>
+</div>
+<p>=F0=9F=92=AC Here:</p>
+<ul>
+<li>
+<p><code>arr</code> =3D address of <code>arr[0]</code></p></li>
+<li>
+<p><code>arr + 1</code> =3D address of <code>arr[1]</code></p></li>
+<li>
+<p><code>*(arr + 1)</code> =3D value at that address =E2=86=92 <code>20</co=
+de></p></li>
+</ul>
+<hr>
+<h3 id=3D"Structuredprogramminglanguage-=F0=9F=94=B9PointerArithmetic">=F0=
+=9F=94=B9 Pointer Arithmetic</h3>
+<p>You can move through an array using pointer arithmetic.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">int arr=
+[3] =3D {10, 20, 30};
+int *p =3D arr;
+
+printf("%d\n", *p);     // 10
+p++;
+printf("%d\n", *p);     // 20
+</pre>
+</div>
+</div>
+<p>=F0=9F=93=98 When you increment a pointer, it moves to the <strong>next =
+element=E2=80=99s address</strong> (not +1 byte, but +sizeof(type)).</p>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=94=81ArrayTraversalUsingPoin=
+ters">=F0=9F=94=81 <strong>Array Traversal Using Pointers</strong></h2>
+<p>=E2=9C=85 Example:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">int arr=
+[] =3D {10, 20, 30, 40, 50};
+int *p =3D arr;
+
+for(int i =3D 0; i &lt; 5; i++) {
+    printf("%d ", *(p + i));
+}
+</pre>
+</div>
+</div>
+<p>Output:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">10 20 3=
+0 40 50
+</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=A7=A0ImportantFacts">=F0=9F=
+=A7=A0 <strong>Important Facts</strong></h2>
+<ol start=3D"1">
+<li>
+<p><code>arr</code> and <code>&amp;arr[0]</code> =E2=86=92 same address</p>=
+</li>
+<li>
+<p>But <code>arr</code> and <code>&amp;arr</code> have <strong>different ty=
+pes</strong>:</p>
+<ul>
+<li>
+<p><code>arr</code> =E2=86=92 pointer to first element</p></li>
+<li>
+<p><code>&amp;arr</code> =E2=86=92 pointer to the entire array</p></li>
+</ul></li>
+<li>
+<p><code>*(arr + i)</code> is same as <code>arr[i]</code></p></li>
+<li>
+<p>Pointer arithmetic depends on the data type.</p></li>
+</ol>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=94=B9PointerandArrayExamplew=
+ithStrings">=F0=9F=94=B9 <strong>Pointer and Array Example with Strings</st=
+rong></h2>
+<p>=E2=9C=85 Example:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">char na=
+me[] =3D "Ruhul";
+char *p =3D name;
+
+while(*p !=3D '\0') {
+    printf("%c", *p);
+    p++;
+}
+</pre>
+</div>
+</div>
+<p>Output:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">Ruhul
+</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=E2=9A=99=EF=B8=8FPointerstoArraysv=
+sArrayofPointers">=E2=9A=99=EF=B8=8F <strong>Pointers to Arrays vs Array of=
+ Pointers</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"7a=
+e00412-8e73-423e-9839-632ef29d5774" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Concept</p></th>
+<th class=3D"confluenceTh">
+<p>Description</p></th>
+<th class=3D"confluenceTh">
+<p>Example</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Pointer to array</p></td>
+<td class=3D"confluenceTd">
+<p>One pointer pointing to an entire array</p></td>
+<td class=3D"confluenceTd">
+<p><code>int (*p)[5];</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Array of pointers</p></td>
+<td class=3D"confluenceTd">
+<p>Multiple pointers stored in an array</p></td>
+<td class=3D"confluenceTd">
+<p><code>int *p[5];</code></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=93=9ASummaryTable">=F0=9F=93=
+=9A <strong>Summary Table</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"d5=
+9442f3-93e6-4e18-aef1-21860a93707e" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Concept</p></th>
+<th class=3D"confluenceTh">
+<p>Example</p></th>
+<th class=3D"confluenceTh">
+<p>Meaning</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Declare pointer</p></td>
+<td class=3D"confluenceTd">
+<p><code>int *p;</code></p></td>
+<td class=3D"confluenceTd">
+<p>p can hold address of int</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Assign address</p></td>
+<td class=3D"confluenceTd">
+<p><code>p =3D &amp;a;</code></p></td>
+<td class=3D"confluenceTd">
+<p>p stores address of a</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Dereference</p></td>
+<td class=3D"confluenceTd">
+<p><code>*p</code></p></td>
+<td class=3D"confluenceTd">
+<p>Value at address</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Pointer to array</p></td>
+<td class=3D"confluenceTd">
+<p><code>int *p =3D arr;</code></p></td>
+<td class=3D"confluenceTd">
+<p>p points to arr[0]</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Access using pointer</p></td>
+<td class=3D"confluenceTd">
+<p><code>*(p+i)</code></p></td>
+<td class=3D"confluenceTd">
+<p>same as <code>arr[i]</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Increment pointer</p></td>
+<td class=3D"confluenceTd">
+<p><code>p++</code></p></td>
+<td class=3D"confluenceTd">
+<p>moves to next element</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p>=E2=9C=85 <strong>In Short:</strong></p>
+<blockquote>
+<ul>
+<li>
+<p>A <strong>pointer</strong> holds a <strong>memory address</strong>.</p><=
+/li>
+<li>
+<p>An <strong>array name</strong> is like a <strong>constant pointer</stron=
+g>.</p></li>
+<li>
+<p>You can access array elements using pointers and pointer arithmetic.</p>=
+</li>
+</ul>
+</blockquote>
+<hr>
+<p>Would you like me to give you an <strong>MCQ practice set (15 questions)=
+</strong> on <em>Pointers &amp; Arrays</em> =E2=80=94 formatted like an ICT=
+ exam sheet (with answers and explanations)?</p>
+<ol start=3D"6">
+<li>
+<p>Strings;</p></li>
+</ol>
+<p>Excellent =F0=9F=91=8F =E2=80=94 now let=E2=80=99s cover <strong>Strings=
+</strong> =E2=80=94 one of the most common C programming topics that freque=
+ntly appears in <strong>Govt IT /  ICT</strong> exams.</p>
+<p>We=E2=80=99ll go step-by-step so you understand it fully =F0=9F=91=87</p=
+>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=A7=A9WhatisaString?">=F0=9F=
+=A7=A9 <strong>What is a String?</strong></h2>
+<p>=F0=9F=91=89 A <strong>string</strong> in C is a <strong>sequence of cha=
+racters</strong> stored in memory <strong>terminated by a null character (<=
+/strong><code>'\0'</code><strong>)</strong>.</p>
+<h3 id=3D"Structuredprogramminglanguage-Example:.3">Example:</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">char na=
+me[] =3D "Ruhul";
+</pre>
+</div>
+</div>
+<p>=F0=9F=A7=A0 Internally it is stored as:</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"c6=
+c1d43e-5880-4521-8360-1401ef90050c" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Index</p></th>
+<th class=3D"confluenceTh">
+<p>0</p></th>
+<th class=3D"confluenceTh">
+<p>1</p></th>
+<th class=3D"confluenceTh">
+<p>2</p></th>
+<th class=3D"confluenceTh">
+<p>3</p></th>
+<th class=3D"confluenceTh">
+<p>4</p></th>
+<th class=3D"confluenceTh">
+<p>5</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Value</p></td>
+<td class=3D"confluenceTd">
+<p>R</p></td>
+<td class=3D"confluenceTd">
+<p>u</p></td>
+<td class=3D"confluenceTd">
+<p>h</p></td>
+<td class=3D"confluenceTd">
+<p>u</p></td>
+<td class=3D"confluenceTd">
+<p>l</p></td>
+<td class=3D"confluenceTd">
+<p><code>\0</code></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>=E2=9C=85 <code>\0</code> =3D null character (marks the <strong>end of s=
+tring</strong>)</p>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=A7=B1StringDeclaration">=F0=
+=9F=A7=B1 <strong>String Declaration</strong></h2>
+<p>There are two main ways to declare strings in C:</p>
+<h3 id=3D"Structuredprogramminglanguage-=F0=9F=94=B91.CharacterArray">=F0=
+=9F=94=B9 1. <strong>Character Array</strong></h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">char st=
+r[6] =3D {'H','e','l','l','o','\0'};
+</pre>
+</div>
+</div>
+<h3 id=3D"Structuredprogramminglanguage-=F0=9F=94=B92.StringLiteral(Shortcu=
+t)">=F0=9F=94=B9 2. <strong>String Literal (Shortcut)</strong></h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">char st=
+r[] =3D "Hello";
+</pre>
+</div>
+</div>
+<p>=F0=9F=92=A1 The compiler automatically adds <code>'\0'</code>.</p>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=93=A5StringInputandOutput">=
+=F0=9F=93=A5 <strong>String Input and Output</strong></h2>
+<h3 id=3D"Structuredprogramminglanguage-=E2=9C=85Usingprintf()andscanf()">=
+=E2=9C=85 Using <code>printf()</code> and <code>scanf()</code></h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">char na=
+me[20];
+printf("Enter your name: ");
+scanf("%s", name);   // input stops at first space
+printf("Hello %s", name);
+</pre>
+</div>
+</div>
+<h3 id=3D"Structuredprogramminglanguage-=E2=9A=A0=EF=B8=8FLimitation:">=E2=
+=9A=A0=EF=B8=8F Limitation:</h3>
+<p><code>scanf()</code> stops reading at space, tab, or newline.<br>
+If you input =E2=80=9CMd Ruhul=E2=80=9D, only =E2=80=9CMd=E2=80=9D will be =
+read.</p>
+<h3 id=3D"Structuredprogramminglanguage-=E2=9C=85Toreadfullline(withspaces)=
+:">=E2=9C=85 To read full line (with spaces):</h3>
+<p>Use <code>gets()</code> or better, <code>fgets()</code>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">char na=
+me[50];
+fgets(name, 50, stdin);
+printf("Hello %s", name);
+</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=94=A7StringFunctions(from<st=
+ring.h>)">=F0=9F=94=A7 <strong>String Functions (from </strong><code>&lt;st=
+ring.h&gt;</code><strong>)</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"5b=
+cf9bb3-d559-4487-932b-3b97adccfb31" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Function</p></th>
+<th class=3D"confluenceTh">
+<p>Description</p></th>
+<th class=3D"confluenceTh">
+<p>Example</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>strlen(str)</code></p></td>
+<td class=3D"confluenceTd">
+<p>Returns length of string (excluding <code>\0</code>)</p></td>
+<td class=3D"confluenceTd">
+<p><code>strlen("Hi") =E2=86=92 2</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>strcpy(dest, src)</code></p></td>
+<td class=3D"confluenceTd">
+<p>Copies string <code>src</code> to <code>dest</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>strcpy(a, b)</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>strcat(s1, s2)</code></p></td>
+<td class=3D"confluenceTd">
+<p>Concatenates two strings</p></td>
+<td class=3D"confluenceTd">
+<p><code>"Hi" + "Bye" =3D "HiBye"</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>strcmp(s1, s2)</code></p></td>
+<td class=3D"confluenceTd">
+<p>Compares two strings</p></td>
+<td class=3D"confluenceTd">
+<p><code>0</code> if equal</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>strupr(str)</code></p></td>
+<td class=3D"confluenceTd">
+<p>Converts to uppercase (compiler-specific)</p></td>
+<td class=3D"confluenceTd">
+<p><code>"abc" =E2=86=92 "ABC"</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>strlwr(str)</code></p></td>
+<td class=3D"confluenceTd">
+<p>Converts to lowercase (compiler-specific)</p></td>
+<td class=3D"confluenceTd">
+<p><code>"ABC" =E2=86=92 "abc"</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>strrev(str)</code></p></td>
+<td class=3D"confluenceTd">
+<p>Reverses string (compiler-specific)</p></td>
+<td class=3D"confluenceTd">
+<p><code>"abc" =E2=86=92 "cba"</code></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=92=A1Examples">=F0=9F=92=A1 =
+<strong>Examples</strong></h2>
+<h3 id=3D"Structuredprogramminglanguage-=F0=9F=94=B91.FindStringLength">=F0=
+=9F=94=B9 1. <strong>Find String Length</strong></h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">#includ=
+e &lt;stdio.h&gt;
+#include &lt;string.h&gt;
+
+int main() {
+    char name[] =3D "Ruhul";
+    printf("Length: %d", strlen(name));
+    return 0;
+}
+</pre>
+</div>
+</div>
+<p>=E2=9C=85 Output: <code>Length: 5</code></p>
+<hr>
+<h3 id=3D"Structuredprogramminglanguage-=F0=9F=94=B92.CopyaString">=F0=9F=
+=94=B9 2. <strong>Copy a String</strong></h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">char sr=
+c[] =3D "Govt Job";
+char dest[20];
+strcpy(dest, src);
+printf("%s", dest);
+</pre>
+</div>
+</div>
+<p>=E2=9C=85 Output: <code>Govt Job</code></p>
+<hr>
+<h3 id=3D"Structuredprogramminglanguage-=F0=9F=94=B93.CompareTwoStrings">=
+=F0=9F=94=B9 3. <strong>Compare Two Strings</strong></h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">char a[=
+] =3D "Hello";
+char b[] =3D "World";
+
+if(strcmp(a,b) =3D=3D 0)
+    printf("Equal");
+else
+    printf("Not Equal");
+</pre>
+</div>
+</div>
+<p>=E2=9C=85 Output: <code>Not Equal</code></p>
+<hr>
+<h3 id=3D"Structuredprogramminglanguage-=F0=9F=94=B94.ConcatenateTwoStrings=
+">=F0=9F=94=B9 4. <strong>Concatenate Two Strings</strong></h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">char s1=
+[20] =3D "Govt ";
+char s2[] =3D "Job";
+strcat(s1, s2);
+printf("%s", s1);
+</pre>
+</div>
+</div>
+<p>=E2=9C=85 Output: <code>Govt Job</code></p>
+<hr>
+<h3 id=3D"Structuredprogramminglanguage-=F0=9F=94=B95.ManualStringTraversal=
+">=F0=9F=94=B9 5. <strong>Manual String Traversal</strong></h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">char st=
+r[] =3D "Hello";
+int i =3D 0;
+
+while(str[i] !=3D '\0') {
+    printf("%c ", str[i]);
+    i++;
+}
+</pre>
+</div>
+</div>
+<p>=E2=9C=85 Output: <code>H e l l o</code></p>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=A7=A0HowStringsWorkinMemory"=
+>=F0=9F=A7=A0 <strong>How Strings Work in Memory</strong></h2>
+<ul>
+<li>
+<p>Strings are <strong>arrays of characters</strong></p></li>
+<li>
+<p>Each character takes <strong>1 byte</strong></p></li>
+<li>
+<p>The last byte is <code>\0</code><strong> (null terminator)</strong></p><=
+/li>
+</ul>
+<h3 id=3D"Structuredprogramminglanguage-Example:.4">Example:</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">char s[=
+] =3D "ICT";
+</pre>
+</div>
+</div>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"0d=
+1e1fb4-b08b-47ca-b69a-2451a1d92633" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Index</p></th>
+<th class=3D"confluenceTh">
+<p>0</p></th>
+<th class=3D"confluenceTh">
+<p>1</p></th>
+<th class=3D"confluenceTh">
+<p>2</p></th>
+<th class=3D"confluenceTh">
+<p>3</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Value</p></td>
+<td class=3D"confluenceTd">
+<p>I</p></td>
+<td class=3D"confluenceTd">
+<p>C</p></td>
+<td class=3D"confluenceTd">
+<p>T</p></td>
+<td class=3D"confluenceTd">
+<p><code>\0</code></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=E2=9A=99=EF=B8=8FDifferenceBetween=
+CharandString">=E2=9A=99=EF=B8=8F <strong>Difference Between Char and Strin=
+g</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"e9=
+c12ed8-a504-49d7-90cc-0c80e24dedb6" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Type</p></th>
+<th class=3D"confluenceTh">
+<p>Example</p></th>
+<th class=3D"confluenceTh">
+<p>Meaning</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>char c =3D 'A';</code></p></td>
+<td class=3D"confluenceTd">
+<p>Single character</p></td>
+<td class=3D"confluenceTd">
+<p><code>'A'</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>char s[] =3D "A";</code></p></td>
+<td class=3D"confluenceTd">
+<p>String (2 chars: 'A' + <code>\0</code>)</p></td>
+<td class=3D"confluenceTd">
+<p><code>"A\0"</code></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=A7=BEStringvsCharacterArray"=
+>=F0=9F=A7=BE <strong>String vs Character Array</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"80=
+1d6d5e-ebb4-4c0f-a171-549e7a3c404f" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Concept</p></th>
+<th class=3D"confluenceTh">
+<p>String</p></th>
+<th class=3D"confluenceTh">
+<p>Character Array</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Declaration</p></td>
+<td class=3D"confluenceTd">
+<p><code>char str[] =3D "Hi";</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>char str[3] =3D {'H','i','\0'};</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Size</p></td>
+<td class=3D"confluenceTd">
+<p>Auto-added <code>\0</code></p></td>
+<td class=3D"confluenceTd">
+<p>Must add <code>\0</code> manually</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Library Support</p></td>
+<td class=3D"confluenceTd">
+<p><code>&lt;string.h&gt;</code></p></td>
+<td class=3D"confluenceTd">
+<p>Manual processing</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Use</p></td>
+<td class=3D"confluenceTd">
+<p>Easier and safer</p></td>
+<td class=3D"confluenceTd">
+<p>Lower-level control</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=A7=A0KeyNotes">=F0=9F=A7=A0 =
+<strong>Key Notes</strong></h2>
+<p>=E2=9C=85 Always ensure your array has space for <code>'\0'</code><br>
+=E2=9C=85 <code>str1 =3D=3D str2</code> <strong>does not compare strings</s=
+trong> =E2=80=94 use <code>strcmp()</code> instead<br>
+=E2=9C=85 String operations require <code>&lt;string.h&gt;</code><br>
+=E2=9C=85 Avoid <code>gets()</code> (unsafe); use <code>fgets()</code></p>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=AA=84SummaryTable">=F0=9F=AA=
+=84 <strong>Summary Table</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"bf=
+d2b9a5-60da-4f21-98f1-9ec9c7564637" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Topic</p></th>
+<th class=3D"confluenceTh">
+<p>Example</p></th>
+<th class=3D"confluenceTh">
+<p>Explanation</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Declaration</p></td>
+<td class=3D"confluenceTd">
+<p><code>char name[] =3D "ICT";</code></p></td>
+<td class=3D"confluenceTd">
+<p>Stores "ICT\0"</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Input</p></td>
+<td class=3D"confluenceTd">
+<p><code>scanf("%s", name);</code></p></td>
+<td class=3D"confluenceTd">
+<p>Reads a single word</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Output</p></td>
+<td class=3D"confluenceTd">
+<p><code>printf("%s", name);</code></p></td>
+<td class=3D"confluenceTd">
+<p>Prints string</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Copy</p></td>
+<td class=3D"confluenceTd">
+<p><code>strcpy(a,b);</code></p></td>
+<td class=3D"confluenceTd">
+<p>Copies b =E2=86=92 a</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Join</p></td>
+<td class=3D"confluenceTd">
+<p><code>strcat(a,b);</code></p></td>
+<td class=3D"confluenceTd">
+<p>Appends b after a</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Compare</p></td>
+<td class=3D"confluenceTd">
+<p><code>strcmp(a,b);</code></p></td>
+<td class=3D"confluenceTd">
+<p>Returns 0 if equal</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Length</p></td>
+<td class=3D"confluenceTd">
+<p><code>strlen(a);</code></p></td>
+<td class=3D"confluenceTd">
+<p>Counts chars before <code>\0</code></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p>Would you like me to give you <strong>10 two-column MCQs with answers an=
+d explanations</strong> on <strong>Strings</strong> next (formatted like IC=
+T exam)?</p>
+<ol start=3D"7">
+<li>
+<p>Multidimensional array;</p></li>
+</ol>
+<p>Perfect =F0=9F=91=8F =E2=80=94 now let=E2=80=99s cover <strong>Multidime=
+nsional Arrays</strong> in C. This is a <strong>key topic</strong> for prog=
+ramming exams like <strong>Govt IT /  ICT</strong>. I=E2=80=99ll explain=
+ it <strong>step by step with examples</strong>.</p>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=A7=A9WhatisaMultidimensional=
+Array?">=F0=9F=A7=A9 <strong>What is a Multidimensional Array?</strong></h2=
+>
+<p>=F0=9F=91=89 A <strong>multidimensional array</strong> is an <strong>arr=
+ay of arrays</strong>.<br>
+It allows you to store data in <strong>rows and columns</strong> (like a ta=
+ble or matrix).</p>
+<h3 id=3D"Structuredprogramminglanguage-Syntax:">Syntax:</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">data_ty=
+pe array_name[size1][size2]...[sizeN];
+</pre>
+</div>
+</div>
+<ul>
+<li>
+<p><code>size1, size2,...</code> =E2=86=92 number of elements in each dimen=
+sion</p></li>
+<li>
+<p>Most common: <strong>2D array</strong> (rows =C3=97 columns)</p></li>
+</ul>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=94=B91.Two-Dimensional(2D)Ar=
+ray">=F0=9F=94=B9 <strong>1. Two-Dimensional (2D) Array</strong></h2>
+<ul>
+<li>
+<p>Think of it as a <strong>table</strong> with <strong>rows and columns</s=
+trong>.</p></li>
+</ul>
+<h3 id=3D"Structuredprogramminglanguage-Example:Declarea2Darray">Example: D=
+eclare a 2D array</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">int mat=
+rix[2][3]; // 2 rows, 3 columns
+</pre>
+</div>
+</div>
+<h3 id=3D"Structuredprogramminglanguage-Assignvalues">Assign values</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">matrix[=
+0][0] =3D 1;
+matrix[0][1] =3D 2;
+matrix[0][2] =3D 3;
+matrix[1][0] =3D 4;
+matrix[1][1] =3D 5;
+matrix[1][2] =3D 6;
+</pre>
+</div>
+</div>
+<h3 id=3D"Structuredprogramminglanguage-MemoryRepresentation">Memory Repres=
+entation</h3>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"d2=
+e392f2-5bfe-4f7e-97b6-20bfa88c0171" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Index</p></th>
+<th class=3D"confluenceTh">
+<p>Value</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>[0][0]</p></td>
+<td class=3D"confluenceTd">
+<p>1</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>[0][1]</p></td>
+<td class=3D"confluenceTd">
+<p>2</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>[0][2]</p></td>
+<td class=3D"confluenceTd">
+<p>3</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>[1][0]</p></td>
+<td class=3D"confluenceTd">
+<p>4</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>[1][1]</p></td>
+<td class=3D"confluenceTd">
+<p>5</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>[1][2]</p></td>
+<td class=3D"confluenceTd">
+<p>6</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h3 id=3D"Structuredprogramminglanguage-=F0=9F=94=B92.InitializationatDecla=
+ration">=F0=9F=94=B9 2. Initialization at Declaration</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">int mat=
+rix[2][3] =3D { {1,2,3}, {4,5,6} };
+</pre>
+</div>
+</div>
+<p>or using <strong>flattened form</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">int mat=
+rix[2][3] =3D {1,2,3,4,5,6};
+</pre>
+</div>
+</div>
+<hr>
+<h3 id=3D"Structuredprogramminglanguage-=F0=9F=94=B93.AccessingElements">=
+=F0=9F=94=B9 3. Accessing Elements</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">printf(=
+"%d", matrix[1][2]); // prints 6
+</pre>
+</div>
+</div>
+<hr>
+<h3 id=3D"Structuredprogramminglanguage-=F0=9F=94=B94.Traversinga2DArray">=
+=F0=9F=94=B9 4. Traversing a 2D Array</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">for(int=
+ i =3D 0; i &lt; 2; i++) {          // rows
+    for(int j =3D 0; j &lt; 3; j++) {      // columns
+        printf("%d ", matrix[i][j]);
+    }
+    printf("\n");
+}
+</pre>
+</div>
+</div>
+<p>=E2=9C=85 Output:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">1 2 3
+4 5 6
+</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=94=B93.Three-Dimensional(3D)=
+Array">=F0=9F=94=B9 <strong>3. Three-Dimensional (3D) Array</strong></h2>
+<ul>
+<li>
+<p>Think of it as a <strong>cube</strong> or <strong>stack of matrices</str=
+ong>.</p></li>
+</ul>
+<h3 id=3D"Structuredprogramminglanguage-Declaration:">Declaration:</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">int arr=
+[2][3][4]; // 2 blocks, 3 rows, 4 columns
+</pre>
+</div>
+</div>
+<h3 id=3D"Structuredprogramminglanguage-Example:.5">Example:</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">int arr=
+[2][2][3] =3D {=20
+    { {1,2,3}, {4,5,6} },=20
+    { {7,8,9}, {10,11,12} }=20
+};
+</pre>
+</div>
+</div>
+<h3 id=3D"Structuredprogramminglanguage-Access:">Access:</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">printf(=
+"%d", arr[1][0][2]); // prints 9
+</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=94=B9ImportantNotes">=F0=9F=
+=94=B9 <strong>Important Notes</strong></h2>
+<ol start=3D"1">
+<li>
+<p><strong>Row-Major Storage</strong>: In C, multidimensional arrays are st=
+ored <strong>row by row</strong> in memory.</p></li>
+<li>
+<p><strong>Index starts at 0</strong>: First row =E2=86=92 0, first column =
+=E2=86=92 0</p></li>
+<li>
+<p><strong>Size must be constant</strong> (for standard C arrays)</p></li>
+<li>
+<p>Can be <strong>partially initialized</strong>: uninitialized elements be=
+come 0.</p></li>
+</ol>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=94=B92DArrayExampleProgram">=
+=F0=9F=94=B9 <strong>2D Array Example Program</strong></h2>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">#includ=
+e &lt;stdio.h&gt;
+
+int main() {
+    int matrix[2][3] =3D { {1,2,3}, {4,5,6} };
+
+    printf("Matrix:\n");
+    for(int i =3D 0; i &lt; 2; i++) {
+        for(int j =3D 0; j &lt; 3; j++) {
+            printf("%d ", matrix[i][j]);
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
+</pre>
+</div>
+</div>
+<p>=E2=9C=85 Output:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">Matrix:
+1 2 3
+4 5 6
+</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=94=B9QuickSummaryTable">=F0=
+=9F=94=B9 <strong>Quick Summary Table</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"b6=
+ee4a21-e8c3-4249-a711-d35d34707b8c" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Concept</p></th>
+<th class=3D"confluenceTh">
+<p>Example</p></th>
+<th class=3D"confluenceTh">
+<p>Explanation</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>2D Array</p></td>
+<td class=3D"confluenceTd">
+<p><code>int a[2][3];</code></p></td>
+<td class=3D"confluenceTd">
+<p>2 rows =C3=97 3 columns</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>3D Array</p></td>
+<td class=3D"confluenceTd">
+<p><code>int a[2][3][4];</code></p></td>
+<td class=3D"confluenceTd">
+<p>2 matrices =C3=97 3 rows =C3=97 4 columns</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Access Element</p></td>
+<td class=3D"confluenceTd">
+<p><code>a[1][2]</code></p></td>
+<td class=3D"confluenceTd">
+<p>Row 1, column 2</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Traverse</p></td>
+<td class=3D"confluenceTd">
+<p>Nested loops</p></td>
+<td class=3D"confluenceTd">
+<p>Outer =E2=86=92 rows, Inner =E2=86=92 columns</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Initialization</p></td>
+<td class=3D"confluenceTd">
+<p><code>int a[2][3] =3D {{1,2,3},{4,5,6}};</code></p></td>
+<td class=3D"confluenceTd">
+<p>Directly assign values</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p>=E2=9C=85 <strong>In Short:</strong></p>
+<blockquote>
+<p>Multidimensional arrays let you store <strong>data in tabular or matrix =
+form</strong>, and you can traverse them using <strong>nested loops</strong=
+>.<br>
+2D arrays =E2=86=92 most common; 3D or higher =E2=86=92 rare, usually for a=
+dvanced problems.</p>
+</blockquote>
+<hr>
+<p>I can make a <strong>two-column MCQ sheet (15 questions) on Multidimensi=
+onal Arrays</strong> next, just like your previous MCQs.</p>
+<p>Do you want me to do that?</p>
+<ol start=3D"8">
+<li>
+<p>User defined data types: structures, unions, enumerations;</p></li>
+</ol>
+<p>Perfect =F0=9F=91=8F =E2=80=94 now let=E2=80=99s cover <strong>User-Defi=
+ned Data Types (UDTs)</strong> in C: <strong>Structures, Unions, and Enumer=
+ations</strong>. These are very important for <strong>Govt IT /  ICT exa=
+ms</strong>. I=E2=80=99ll explain clearly with examples.</p>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=A7=A91.Structures(struct)">=
+=F0=9F=A7=A9 <strong>1. Structures (</strong><code>struct</code><strong>)</=
+strong></h2>
+<h3 id=3D"Structuredprogramminglanguage-=F0=9F=94=B9WhatisaStructure?">=F0=
+=9F=94=B9 <strong>What is a Structure?</strong></h3>
+<p>A <strong>structure</strong> is a <strong>user-defined data type</strong=
+> that can store <strong>different types of data together</strong> under a =
+single name.</p>
+<p>Think of it as a <strong>record</strong> or <strong>object</strong>.</p>
+<h3 id=3D"Structuredprogramminglanguage-Syntax:.1">Syntax:</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">struct =
+structure_name {
+    data_type member1;
+    data_type member2;
+    ...
+};
+</pre>
+</div>
+</div>
+<h3 id=3D"Structuredprogramminglanguage-Example:.6">Example:</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">#includ=
+e &lt;stdio.h&gt;
+
+struct Student {
+    int id;
+    char name[20];
+    float marks;
+};
+
+int main() {
+    struct Student s1;
+
+    s1.id =3D 101;
+    strcpy(s1.name, "Ruhul");
+    s1.marks =3D 85.5;
+
+    printf("ID: %d\nName: %s\nMarks: %.2f\n", s1.id, s1.name, s1.marks);
+    return 0;
+}
+</pre>
+</div>
+</div>
+<p>=E2=9C=85 Output:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">ID: 101
+Name: Ruhul
+Marks: 85.50
+</pre>
+</div>
+</div>
+<h3 id=3D"Structuredprogramminglanguage-KeyPoints:">Key Points:</h3>
+<ul>
+<li>
+<p>Can contain <strong>different data types</strong>.</p></li>
+<li>
+<p>Access members using <strong>dot operator (</strong><code>.</code><stron=
+g>)</strong>.</p></li>
+<li>
+<p>Useful for <strong>grouping related data</strong>.</p></li>
+</ul>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=A7=A92.Unions(union)">=F0=9F=
+=A7=A9 <strong>2. Unions (</strong><code>union</code><strong>)</strong></h2=
+>
+<h3 id=3D"Structuredprogramminglanguage-=F0=9F=94=B9WhatisaUnion?">=F0=9F=
+=94=B9 <strong>What is a Union?</strong></h3>
+<p>A <strong>union</strong> is similar to a structure, but <strong>all memb=
+ers share the same memory location</strong>.</p>
+<ul>
+<li>
+<p>Only <strong>one member</strong> can store a value at a time.</p></li>
+<li>
+<p>Saves memory but overwrites previous value if you assign a new member.</=
+p></li>
+</ul>
+<h3 id=3D"Structuredprogramminglanguage-Syntax:.2">Syntax:</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">union u=
+nion_name {
+    data_type member1;
+    data_type member2;
+    ...
+};
+</pre>
+</div>
+</div>
+<h3 id=3D"Structuredprogramminglanguage-Example:.7">Example:</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">#includ=
+e &lt;stdio.h&gt;
+
+union Data {
+    int i;
+    float f;
+    char str[20];
+};
+
+int main() {
+    union Data d;
+
+    d.i =3D 10;
+    printf("i: %d\n", d.i);
+
+    d.f =3D 3.14;  // overwrites previous i
+    printf("f: %.2f\n", d.f);
+
+    strcpy(d.str, "Hello");  // overwrites previous f
+    printf("str: %s\n", d.str);
+
+    return 0;
+}
+</pre>
+</div>
+</div>
+<p>=E2=9C=85 Output:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">i: 10
+f: 3.14
+str: Hello
+</pre>
+</div>
+</div>
+<h3 id=3D"Structuredprogramminglanguage-KeyPoints:.1">Key Points:</h3>
+<ul>
+<li>
+<p>Saves memory.</p></li>
+<li>
+<p>Only <strong>one member usable at a time</strong>.</p></li>
+<li>
+<p>Access members using <strong>dot operator (</strong><code>.</code><stron=
+g>)</strong>.</p></li>
+</ul>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=A7=A93.Enumerations(enum)">=
+=F0=9F=A7=A9 <strong>3. Enumerations (</strong><code>enum</code><strong>)</=
+strong></h2>
+<h3 id=3D"Structuredprogramminglanguage-=F0=9F=94=B9WhatisanEnumeration?">=
+=F0=9F=94=B9 <strong>What is an Enumeration?</strong></h3>
+<p>An <strong>enumeration</strong> is a user-defined type that consists of =
+a set of <strong>named integer constants</strong>.</p>
+<ul>
+<li>
+<p>Useful for <strong>making code readable</strong>.</p></li>
+<li>
+<p>Each name gets an integer value by default, starting from 0.</p></li>
+</ul>
+<h3 id=3D"Structuredprogramminglanguage-Syntax:.3">Syntax:</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">enum en=
+um_name { name1, name2, ..., nameN };
+</pre>
+</div>
+</div>
+<h3 id=3D"Structuredprogramminglanguage-Example:.8">Example:</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">#includ=
+e &lt;stdio.h&gt;
+
+enum Week { Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday =
+};
+
+int main() {
+    enum Week today;
+    today =3D Wednesday;
+
+    printf("Day number: %d\n", today); // Wednesday =3D 3
+    return 0;
+}
+</pre>
+</div>
+</div>
+<p>=E2=9C=85 Output:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">Day num=
+ber: 3
+</pre>
+</div>
+</div>
+<h3 id=3D"Structuredprogramminglanguage-KeyPoints:.2">Key Points:</h3>
+<ul>
+<li>
+<p>Default values start from <strong>0</strong> and increment by 1.</p></li=
+>
+<li>
+<p>Can <strong>assign custom values</strong>:</p></li>
+</ul>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">enum Mo=
+nth { Jan=3D1, Feb, Mar, Apr };
+</pre>
+</div>
+</div>
+<ul>
+<li>
+<p>Makes code more <strong>readable and maintainable</strong>.</p></li>
+</ul>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=E2=9A=99=EF=B8=8FComparisonTable:s=
+tructvsunionvsenum">=E2=9A=99=EF=B8=8F <strong>Comparison Table: </strong><=
+code>struct</code><strong> vs </strong><code>union</code><strong> vs </stro=
+ng><code>enum</code></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"6d=
+91b35f-c47b-4b6f-9682-d8ab6ec4e596" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Feature</p></th>
+<th class=3D"confluenceTh">
+<p>struct</p></th>
+<th class=3D"confluenceTh">
+<p>union</p></th>
+<th class=3D"confluenceTh">
+<p>enum</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Memory</p></td>
+<td class=3D"confluenceTd">
+<p>Each member gets its own memory</p></td>
+<td class=3D"confluenceTd">
+<p>All members share memory</p></td>
+<td class=3D"confluenceTd">
+<p>Each name =3D int constant</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Use</p></td>
+<td class=3D"confluenceTd">
+<p>Store different types together</p></td>
+<td class=3D"confluenceTd">
+<p>Save memory, one value at a time</p></td>
+<td class=3D"confluenceTd">
+<p>Named constants for readability</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Access</p></td>
+<td class=3D"confluenceTd">
+<p><code>s.member</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>u.member</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>e.value</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Example</p></td>
+<td class=3D"confluenceTd">
+<p><code>struct Student { int id; float marks; };</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>union Data { int i; float f; };</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>enum Week {Sun,Mon,Tue};</code></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p>=E2=9C=85 <strong>In Short:</strong></p>
+<blockquote>
+<ul>
+<li>
+<p><strong>Structure</strong> =E2=86=92 Group different types, each has its=
+ own memory.</p></li>
+<li>
+<p><strong>Union</strong> =E2=86=92 Group different types, share memory, sa=
+ve space.</p></li>
+<li>
+<p><strong>Enumeration</strong> =E2=86=92 Named integer constants, improve =
+readability.</p></li>
+</ul>
+</blockquote>
+<hr>
+<p>I can make a <strong>two-column MCQ sheet (15 questions)</strong> for <s=
+trong>Structures, Unions, and Enumerations</strong>, just like your previou=
+s topics.</p>
+<p>Do you want me to do that next?</p>
+<ol start=3D"9">
+<li>
+<p>Input and Output: standard input and output, formatted input and output,=
+ file access;</p></li>
+</ol>
+<p>Perfect =F0=9F=91=8F =E2=80=94 now let=E2=80=99s cover <strong>Input and=
+ Output (I/O) in C</strong>, including <strong>standard I/O, formatted I/O,=
+ and file access</strong>. This is a <strong>very common topic</strong> in =
+Govt IT /  ICT exams. I=E2=80=99ll explain <strong>step by step with exa=
+mples</strong>.</p>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=A7=A91.StandardInputandOutpu=
+t">=F0=9F=A7=A9 <strong>1. Standard Input and Output</strong></h2>
+<p>C provides <strong>standard input</strong> and <strong>output streams</s=
+trong>:</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"d8=
+74251d-ae55-409e-ac0b-1c42a05d0f2a" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Stream</p></th>
+<th class=3D"confluenceTh">
+<p>Symbol</p></th>
+<th class=3D"confluenceTh">
+<p>Description</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Standard Input</p></td>
+<td class=3D"confluenceTd">
+<p><code>stdin</code></p></td>
+<td class=3D"confluenceTd">
+<p>Keyboard input (<code>scanf()</code>)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Standard Output</p></td>
+<td class=3D"confluenceTd">
+<p><code>stdout</code></p></td>
+<td class=3D"confluenceTd">
+<p>Screen output (<code>printf()</code>)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Standard Error</p></td>
+<td class=3D"confluenceTd">
+<p><code>stderr</code></p></td>
+<td class=3D"confluenceTd">
+<p>Error messages (usually console)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id=3D"Structuredprogramminglanguage-=F0=9F=94=B9a)StandardOutput:printf=
+()">=F0=9F=94=B9 <strong>a) Standard Output: </strong><code>printf()</code>=
+</h3>
+<ul>
+<li>
+<p>Prints data to the screen</p></li>
+<li>
+<p>Can format text using <strong>format specifiers</strong></p></li>
+</ul>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"23=
+60923a-1b13-412e-abba-00b3457285bb" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Specifier</p></th>
+<th class=3D"confluenceTh">
+<p>Data Type</p></th>
+<th class=3D"confluenceTh">
+<p>Example</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>%d</code></p></td>
+<td class=3D"confluenceTd">
+<p>int</p></td>
+<td class=3D"confluenceTd">
+<p><code>printf("%d", 10);</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>%f</code></p></td>
+<td class=3D"confluenceTd">
+<p>float</p></td>
+<td class=3D"confluenceTd">
+<p><code>printf("%.2f", 3.1415);</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>%c</code></p></td>
+<td class=3D"confluenceTd">
+<p>char</p></td>
+<td class=3D"confluenceTd">
+<p><code>printf("%c", 'A');</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>%s</code></p></td>
+<td class=3D"confluenceTd">
+<p>string</p></td>
+<td class=3D"confluenceTd">
+<p><code>printf("%s", "Hello");</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>%u</code></p></td>
+<td class=3D"confluenceTd">
+<p>unsigned int</p></td>
+<td class=3D"confluenceTd">
+<p><code>printf("%u", 100);</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>%x</code></p></td>
+<td class=3D"confluenceTd">
+<p>hexadecimal</p></td>
+<td class=3D"confluenceTd">
+<p><code>printf("%x", 255);</code></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Example:</strong></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">#includ=
+e &lt;stdio.h&gt;
+
+int main() {
+    int a =3D 10;
+    float b =3D 3.14;
+    char c =3D 'R';
+    printf("Int: %d, Float: %.2f, Char: %c\n", a, b, c);
+    return 0;
+}
+</pre>
+</div>
+</div>
+<p>=E2=9C=85 Output:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">Int: 10=
+, Float: 3.14, Char: R
+</pre>
+</div>
+</div>
+<hr>
+<h3 id=3D"Structuredprogramminglanguage-=F0=9F=94=B9b)StandardInput:scanf()=
+">=F0=9F=94=B9 <strong>b) Standard Input: </strong><code>scanf()</code></h3=
+>
+<ul>
+<li>
+<p>Reads input from keyboard</p></li>
+<li>
+<p>Format specifier <strong>must match variable type</strong></p></li>
+</ul>
+<p><strong>Example:</strong></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">#includ=
+e &lt;stdio.h&gt;
+
+int main() {
+    int age;
+    char name[20];
+
+    printf("Enter your name: ");
+    scanf("%s", name);
+
+    printf("Enter your age: ");
+    scanf("%d", &amp;age);
+
+    printf("Name: %s, Age: %d\n", name, age);
+    return 0;
+}
+</pre>
+</div>
+</div>
+<p>=E2=9A=A0=EF=B8=8F <strong>Note:</strong> <code>scanf("%s", name)</code>=
+ stops at the first space. Use <code>fgets()</code> for strings with spaces=
+.</p>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=A7=A92.FormattedInputandOutp=
+ut">=F0=9F=A7=A9 <strong>2. Formatted Input and Output</strong></h2>
+<h3 id=3D"Structuredprogramminglanguage-=F0=9F=94=B9FormattedOutput(printf)=
+">=F0=9F=94=B9 <strong>Formatted Output (</strong><code>printf</code><stron=
+g>)</strong></h3>
+<ul>
+<li>
+<p>Control width, precision, alignment</p></li>
+</ul>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">printf(=
+"%10d", 50);   // prints 50 in a field width of 10
+printf("%.2f", 3.14159); // prints 3.14
+printf("%-10s", "Hi"); // left-align in width 10
+</pre>
+</div>
+</div>
+<h3 id=3D"Structuredprogramminglanguage-=F0=9F=94=B9FormattedInput(scanf)">=
+=F0=9F=94=B9 <strong>Formatted Input (</strong><code>scanf</code><strong>)<=
+/strong></h3>
+<ul>
+<li>
+<p>Read specific types of data</p></li>
+</ul>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">scanf("=
+%d %f %c", &amp;a, &amp;b, &amp;c);
+</pre>
+</div>
+</div>
+<ul>
+<li>
+<p>Can read multiple inputs in a single line</p></li>
+</ul>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=A7=A93.FileAccessinC">=F0=9F=
+=A7=A9 <strong>3. File Access in C</strong></h2>
+<p>C allows <strong>reading from and writing to files</strong> using the <c=
+ode>FILE</code><strong> structure</strong> and functions like <code>fopen()=
+</code>, <code>fclose()</code>, <code>fprintf()</code>, <code>fscanf()</cod=
+e>, <code>fread()</code>, <code>fwrite()</code>.</p>
+<h3 id=3D"Structuredprogramminglanguage-=F0=9F=94=B9a)FileOpening">=F0=9F=
+=94=B9 <strong>a) File Opening</strong></h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">FILE *f=
+p;
+fp =3D fopen("data.txt", "r"); // "r" =3D read, "w" =3D write, "a" =3D appe=
+nd
+if(fp =3D=3D NULL) {
+    printf("File not found!\n");
+}
+</pre>
+</div>
+</div>
+<h3 id=3D"Structuredprogramminglanguage-=F0=9F=94=B9b)WritingtoaFile">=F0=
+=9F=94=B9 <strong>b) Writing to a File</strong></h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">FILE *f=
+p =3D fopen("output.txt", "w"); // write mode
+fprintf(fp, "Hello World!\n");
+fclose(fp);  // Always close file
+</pre>
+</div>
+</div>
+<h3 id=3D"Structuredprogramminglanguage-=F0=9F=94=B9c)ReadingfromaFile">=F0=
+=9F=94=B9 <strong>c) Reading from a File</strong></h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">FILE *f=
+p =3D fopen("input.txt", "r");
+char str[100];
+
+while(fgets(str, 100, fp) !=3D NULL) {
+    printf("%s", str);
+}
+
+fclose(fp);
+</pre>
+</div>
+</div>
+<h3 id=3D"Structuredprogramminglanguage-=F0=9F=94=B9d)FileModes">=F0=9F=94=
+=B9 <strong>d) File Modes</strong></h3>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"e4=
+6428c7-b3ba-4c34-b56f-5534e6998217" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Mode</p></th>
+<th class=3D"confluenceTh">
+<p>Meaning</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>"r"</code></p></td>
+<td class=3D"confluenceTd">
+<p>Open file for reading</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>"w"</code></p></td>
+<td class=3D"confluenceTd">
+<p>Open file for writing (overwrite)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>"a"</code></p></td>
+<td class=3D"confluenceTd">
+<p>Append to file</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>"r+"</code></p></td>
+<td class=3D"confluenceTd">
+<p>Read &amp; write</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>"w+"</code></p></td>
+<td class=3D"confluenceTd">
+<p>Write &amp; read (overwrite)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>"a+"</code></p></td>
+<td class=3D"confluenceTd">
+<p>Append &amp; read</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=94=B9e)Example:FullFileI/O">=
+=F0=9F=94=B9 <strong>e) Example: Full File I/O</strong></h2>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">#includ=
+e &lt;stdio.h&gt;
+
+int main() {
+    FILE *fp;
+    fp =3D fopen("data.txt", "w");
+    fprintf(fp, "C Programming\n");
+    fclose(fp);
+
+    fp =3D fopen("data.txt", "r");
+    char str[50];
+    while(fgets(str, 50, fp) !=3D NULL) {
+        printf("%s", str);
+    }
+    fclose(fp);
+
+    return 0;
+}
+</pre>
+</div>
+</div>
+<p>=E2=9C=85 Output (on screen):</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">C Progr=
+amming
+</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=A7=A0KeyPointstoRemember">=
+=F0=9F=A7=A0 <strong>Key Points to Remember</strong></h2>
+<ol start=3D"1">
+<li>
+<p><strong>Always check</strong> if file opened successfully (<code>fp !=3D=
+ NULL</code>)</p></li>
+<li>
+<p>Use <code>fclose()</code> to release resources</p></li>
+<li>
+<p><code>fprintf</code><strong> / </strong><code>fscanf</code> =E2=86=92 fo=
+rmatted file I/O</p></li>
+<li>
+<p><code>fgets</code><strong> / </strong><code>fputs</code> =E2=86=92 strin=
+g-based file I/O</p></li>
+<li>
+<p>Standard I/O (<code>printf</code>, <code>scanf</code>) =E2=86=92 works w=
+ith console</p></li>
+</ol>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=93=9ASummaryTable.1">=F0=9F=
+=93=9A <strong>Summary Table</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"ef=
+4c2336-9959-4358-987a-71dd64da162c" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Concept</p></th>
+<th class=3D"confluenceTh">
+<p>Function / Example</p></th>
+<th class=3D"confluenceTh">
+<p>Description</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Std Output</p></td>
+<td class=3D"confluenceTd">
+<p><code>printf("%d", x);</code></p></td>
+<td class=3D"confluenceTd">
+<p>Print to screen</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Std Input</p></td>
+<td class=3D"confluenceTd">
+<p><code>scanf("%d", &amp;x);</code></p></td>
+<td class=3D"confluenceTd">
+<p>Read from keyboard</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Formatted Output</p></td>
+<td class=3D"confluenceTd">
+<p><code>printf("%10d", x);</code></p></td>
+<td class=3D"confluenceTd">
+<p>Width &amp; precision control</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>File Write</p></td>
+<td class=3D"confluenceTd">
+<p><code>fprintf(fp, "text");</code></p></td>
+<td class=3D"confluenceTd">
+<p>Write formatted data to file</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>File Read</p></td>
+<td class=3D"confluenceTd">
+<p><code>fgets(str, size, fp);</code></p></td>
+<td class=3D"confluenceTd">
+<p>Read line from file</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>File Open</p></td>
+<td class=3D"confluenceTd">
+<p><code>fopen("file","r/w/a");</code></p></td>
+<td class=3D"confluenceTd">
+<p>Open file in mode</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>File Close</p></td>
+<td class=3D"confluenceTd">
+<p><code>fclose(fp);</code></p></td>
+<td class=3D"confluenceTd">
+<p>Close file to save resources</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p>=E2=9C=85 <strong>In Short:</strong></p>
+<blockquote>
+<ul>
+<li>
+<p><strong>Standard I/O</strong> =E2=86=92 keyboard &amp; screen</p></li>
+<li>
+<p><strong>Formatted I/O</strong> =E2=86=92 control how input/output looks<=
+/p></li>
+<li>
+<p><strong>File I/O</strong> =E2=86=92 read/write data from/to files using =
+<code>FILE*</code> and related functions</p></li>
+</ul>
+</blockquote>
+<hr>
+<ol start=3D"10">
+<li>
+<p>Variable length argument list;</p></li>
+</ol>
+<p>Perfect =F0=9F=91=8F =E2=80=94 now let=E2=80=99s cover <strong>Variable =
+Length Argument Lists (variadic functions)</strong> in C. This is a slightl=
+y advanced topic, but very useful for <strong>Govt IT /  ICT exams</stro=
+ng> and practical programming.</p>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=A7=A9WhatisaVariableLengthAr=
+gumentList?">=F0=9F=A7=A9 <strong>What is a Variable Length Argument List?<=
+/strong></h2>
+<p>A <strong>variadic function</strong> is a function that can accept <stro=
+ng>a variable number of arguments</strong>.</p>
+<ul>
+<li>
+<p>Normally, C functions have a <strong>fixed number of parameters</strong>=
+, but variadic functions allow <strong>flexibility</strong>.</p></li>
+<li>
+<p>Classic example: <code>printf()</code> =E2=80=94 it can take many argume=
+nts depending on the format string.</p></li>
+</ul>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=E2=9A=99=EF=B8=8FHowitWorks">=E2=
+=9A=99=EF=B8=8F <strong>How it Works</strong></h2>
+<p>C provides <code>&lt;stdarg.h&gt;</code> library to handle variable argu=
+ments.</p>
+<h3 id=3D"Structuredprogramminglanguage-=F0=9F=94=B9KeyMacrosin<stdarg.h>">=
+=F0=9F=94=B9 <strong>Key Macros in </strong><code>&lt;stdarg.h&gt;</code></=
+h3>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"74=
+a24e22-c2ef-4998-b610-69f760ab0afe" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Macro</p></th>
+<th class=3D"confluenceTh">
+<p>Purpose</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>va_list</code></p></td>
+<td class=3D"confluenceTd">
+<p>Declare a variable to hold argument list</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>va_start</code></p></td>
+<td class=3D"confluenceTd">
+<p>Initialize the argument list</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>va_arg</code></p></td>
+<td class=3D"confluenceTd">
+<p>Access the next argument</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>va_end</code></p></td>
+<td class=3D"confluenceTd">
+<p>Clean up</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=94=B9SyntaxofaVariadicFuncti=
+on">=F0=9F=94=B9 <strong>Syntax of a Variadic Function</strong></h2>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">return_=
+type function_name(fixed_parameters, ...) {
+    va_list arg;      // declare variable to handle arguments
+    va_start(arg, last_fixed_parameter); // initialize
+
+    // access each argument using va_arg
+    type value =3D va_arg(arg, type);
+
+    va_end(arg);      // clean up
+}
+</pre>
+</div>
+</div>
+<ul>
+<li>
+<p><code>...</code> =E2=86=92 represents <strong>variable arguments</strong=
+></p></li>
+<li>
+<p><code>last_fixed_parameter</code> =E2=86=92 required for <code>va_start<=
+/code></p></li>
+</ul>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=94=B9Example1:SumofNumbers">=
+=F0=9F=94=B9 <strong>Example 1: Sum of Numbers</strong></h2>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">#includ=
+e &lt;stdio.h&gt;
+#include &lt;stdarg.h&gt;
+
+int sum(int count, ...) {
+    va_list args;
+    va_start(args, count);
+
+    int total =3D 0;
+    for(int i =3D 0; i &lt; count; i++) {
+        total +=3D va_arg(args, int);  // access each int argument
+    }
+
+    va_end(args);
+    return total;
+}
+
+int main() {
+    printf("Sum: %d\n", sum(4, 10, 20, 30, 40)); // 4 arguments
+    printf("Sum: %d\n", sum(2, 5, 15));         // 2 arguments
+    return 0;
+}
+</pre>
+</div>
+</div>
+<p>=E2=9C=85 Output:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">Sum: 10=
+0
+Sum: 20
+</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=94=B9Example2:SimplePrintFun=
+ction">=F0=9F=94=B9 <strong>Example 2: Simple Print Function</strong></h2>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">#includ=
+e &lt;stdio.h&gt;
+#include &lt;stdarg.h&gt;
+
+void printNumbers(int n, ...) {
+    va_list args;
+    va_start(args, n);
+
+    for(int i =3D 0; i &lt; n; i++) {
+        printf("%d ", va_arg(args, int));
+    }
+
+    va_end(args);
+    printf("\n");
+}
+
+int main() {
+    printNumbers(3, 10, 20, 30);
+    printNumbers(5, 1, 2, 3, 4, 5);
+    return 0;
+}
+</pre>
+</div>
+</div>
+<p>=E2=9C=85 Output:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">10 20 3=
+0
+1 2 3 4 5
+</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=A7=A0ImportantNotes">=F0=9F=
+=A7=A0 <strong>Important Notes</strong></h2>
+<ol start=3D"1">
+<li>
+<p><strong>At least one fixed argument</strong> is recommended to know how =
+many variable arguments exist (e.g., <code>count</code> in <code>sum()</cod=
+e> example).</p></li>
+<li>
+<p><strong>Type safety is not enforced</strong> =E2=80=94 you must know the=
+ correct type when using <code>va_arg</code>.</p></li>
+<li>
+<p><strong>Always call </strong><code>va_end()</code> to clean up.</p></li>
+<li>
+<p>Variadic functions are <strong>less safe</strong> than fixed-parameter f=
+unctions because of type and argument count issues.</p></li>
+</ol>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=94=B9KeyPointsTable">=F0=9F=
+=94=B9 <strong>Key Points Table</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"42=
+9a5bbc-b93b-4407-8708-65bd899eff07" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Concept</p></th>
+<th class=3D"confluenceTh">
+<p>Example</p></th>
+<th class=3D"confluenceTh">
+<p>Notes</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Header file</p></td>
+<td class=3D"confluenceTd">
+<p><code>&lt;stdarg.h&gt;</code></p></td>
+<td class=3D"confluenceTd">
+<p>Needed for variadic functions</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Declare list</p></td>
+<td class=3D"confluenceTd">
+<p><code>va_list args;</code></p></td>
+<td class=3D"confluenceTd">
+<p>Holds argument list</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Initialize</p></td>
+<td class=3D"confluenceTd">
+<p><code>va_start(args, last_fixed_arg);</code></p></td>
+<td class=3D"confluenceTd">
+<p>Must specify last fixed argument</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Access arg</p></td>
+<td class=3D"confluenceTd">
+<p><code>va_arg(args, type)</code></p></td>
+<td class=3D"confluenceTd">
+<p>Returns next argument of given type</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Clean up</p></td>
+<td class=3D"confluenceTd">
+<p><code>va_end(args)</code></p></td>
+<td class=3D"confluenceTd">
+<p>Free resources</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Example function</p></td>
+<td class=3D"confluenceTd">
+<p><code>int sum(int count, ...)</code></p></td>
+<td class=3D"confluenceTd">
+<p>Returns sum of variable arguments</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p>=E2=9C=85 <strong>In Short:</strong></p>
+<blockquote>
+<p>Variadic functions allow you to pass <strong>any number of arguments</st=
+rong> to a function. They are <strong>flexible but unsafe</strong> unless h=
+andled carefully. <code>printf()</code> is the most famous example.</p>
+</blockquote>
+<hr>
+<p></p>
+<ol start=3D"11">
+<li>
+<p>Command line parameters;</p></li>
+</ol>
+<p>Perfect =F0=9F=91=8F =E2=80=94 now let=E2=80=99s cover <strong>Command L=
+ine Parameters (Arguments)</strong> in C. This is an <strong>important topi=
+c</strong> for exams and practical programming. I=E2=80=99ll explain it <st=
+rong>clearly, step by step</strong>, with examples.</p>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=A7=A9WhatareCommandLineParam=
+eters?">=F0=9F=A7=A9 <strong>What are Command Line Parameters?</strong></h2=
+>
+<p>=F0=9F=91=89 <strong>Command line parameters</strong> are values passed =
+to a program <strong>when it is executed from the terminal or command promp=
+t</strong>.</p>
+<ul>
+<li>
+<p>Allows the program to <strong>receive input without using </strong><code=
+>scanf()</code>.</p></li>
+<li>
+<p>Useful for programs that need <strong>dynamic input</strong>, like filen=
+ames or numbers.</p></li>
+</ul>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=94=B9HowtoReceiveCommandLine=
+Arguments">=F0=9F=94=B9 <strong>How to Receive Command Line Arguments</stro=
+ng></h2>
+<p>In C, the <code>main()</code><strong> function</strong> can be written a=
+s:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">int mai=
+n(int argc, char *argv[])
+</pre>
+</div>
+</div>
+<p>or</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">int mai=
+n(int argc, char **argv)
+</pre>
+</div>
+</div>
+<h3 id=3D"Structuredprogramminglanguage-Explanation:">Explanation:</h3>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"e0=
+a672fc-0493-4971-a480-191c1f8c875c" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Parameter</p></th>
+<th class=3D"confluenceTh">
+<p>Meaning</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>argc</code></p></td>
+<td class=3D"confluenceTd">
+<p>Argument Count =E2=80=94 total number of command line arguments (includi=
+ng program name)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>argv</code></p></td>
+<td class=3D"confluenceTd">
+<p>Argument Vector =E2=80=94 array of strings containing arguments</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h3 id=3D"Structuredprogramminglanguage-=F0=9F=94=B9Example:PrintCommandLin=
+eArguments">=F0=9F=94=B9 <strong>Example: Print Command Line Arguments</str=
+ong></h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">#includ=
+e &lt;stdio.h&gt;
+
+int main(int argc, char *argv[]) {
+    printf("Number of arguments: %d\n", argc);
+    for(int i =3D 0; i &lt; argc; i++) {
+        printf("Argument %d: %s\n", i, argv[i]);
+    }
+    return 0;
+}
+</pre>
+</div>
+</div>
+<p>=E2=9C=85 Example execution in terminal:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">./progr=
+am Hello 123
+</pre>
+</div>
+</div>
+<p>Output:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">Number =
+of arguments: 3
+Argument 0: ./program
+Argument 1: Hello
+Argument 2: 123
+</pre>
+</div>
+</div>
+<p>=F0=9F=92=A1 Note:</p>
+<ul>
+<li>
+<p><code>argv[0]</code> is <strong>always the program name</strong>.</p></l=
+i>
+<li>
+<p>Remaining elements are the arguments.</p></li>
+</ul>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=94=B9Example:SumofNumbersUsi=
+ngCommandLine">=F0=9F=94=B9 <strong>Example: Sum of Numbers Using Command L=
+ine</strong></h2>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">#includ=
+e &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
+
+int main(int argc, char *argv[]) {
+    int sum =3D 0;
+
+    for(int i =3D 1; i &lt; argc; i++) {
+        sum +=3D atoi(argv[i]);  // convert string to integer
+    }
+
+    printf("Sum: %d\n", sum);
+    return 0;
+}
+</pre>
+</div>
+</div>
+<p>=E2=9C=85 Execution:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">./sum 1=
+0 20 30
+</pre>
+</div>
+</div>
+<p>Output:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">Sum: 60
+</pre>
+</div>
+</div>
+<p>=F0=9F=92=A1 <code>atoi()</code> converts <strong>string to integer</str=
+ong>.</p>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=94=B9PointstoRemember">=F0=
+=9F=94=B9 <strong>Points to Remember</strong></h2>
+<ol start=3D"1">
+<li>
+<p><strong>argc</strong> =E2=89=A5 1 always, because program name is counte=
+d.</p></li>
+<li>
+<p><strong>argv</strong> is an array of strings (char pointers).</p></li>
+<li>
+<p>Convert string arguments to numeric types using:</p>
+<ul>
+<li>
+<p><code>atoi()</code> =E2=86=92 integer</p></li>
+<li>
+<p><code>atof()</code> =E2=86=92 float/double</p></li>
+</ul></li>
+<li>
+<p>Command line arguments allow <strong>non-interactive input</strong>, use=
+ful for scripts and automation.</p></li>
+<li>
+<p>Maximum number of arguments depends on the system.</p></li>
+</ol>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=94=B9Example:CheckFileNamefr=
+omCommandLine">=F0=9F=94=B9 <strong>Example: Check File Name from Command L=
+ine</strong></h2>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">#includ=
+e &lt;stdio.h&gt;
+
+int main(int argc, char *argv[]) {
+    if(argc &lt; 2) {
+        printf("Usage: %s filename\n", argv[0]);
+        return 1;
+    }
+
+    printf("File to open: %s\n", argv[1]);
+    return 0;
+}
+</pre>
+</div>
+</div>
+<p>=E2=9C=85 Execution:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">./progr=
+am data.txt
+</pre>
+</div>
+</div>
+<p>Output:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">File to=
+ open: data.txt
+</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=94=B9QuickSummaryTable.1">=
+=F0=9F=94=B9 <strong>Quick Summary Table</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"3f=
+acfe67-ec90-44b3-8f36-e76fcf128c89" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Concept</p></th>
+<th class=3D"confluenceTh">
+<p>Example</p></th>
+<th class=3D"confluenceTh">
+<p>Notes</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>argc</p></td>
+<td class=3D"confluenceTd">
+<p><code>int argc</code></p></td>
+<td class=3D"confluenceTd">
+<p>Number of arguments (including program name)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>argv</p></td>
+<td class=3D"confluenceTd">
+<p><code>char *argv[]</code></p></td>
+<td class=3D"confluenceTd">
+<p>Array of strings (arguments)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Convert string =E2=86=92 int</p></td>
+<td class=3D"confluenceTd">
+<p><code>atoi(argv[1])</code></p></td>
+<td class=3D"confluenceTd">
+<p>Converts argument to integer</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Program name</p></td>
+<td class=3D"confluenceTd">
+<p><code>argv[0]</code></p></td>
+<td class=3D"confluenceTd">
+<p>Always first element</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Usage</p></td>
+<td class=3D"confluenceTd">
+<p><code>./program arg1 arg2 ...</code></p></td>
+<td class=3D"confluenceTd">
+<p>Pass multiple inputs</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p>=E2=9C=85 <strong>In Short:</strong></p>
+<blockquote>
+<p>Command line parameters let a C program <strong>receive input from termi=
+nal at runtime</strong>, making programs more flexible and script-friendly.=
+</p>
+</blockquote>
+<hr>
+<p></p>
+<ol start=3D"12">
+<li>
+<p>Error Handling;</p></li>
+</ol>
+<p>Perfect =F0=9F=91=8F =E2=80=94 now let=E2=80=99s cover <strong>Error Han=
+dling in C</strong>. This is a fundamental topic for <strong>Govt IT /  =
+ICT exams</strong>, especially when working with <strong>file I/O, memory a=
+llocation, or system calls</strong>. I=E2=80=99ll explain it <strong>clearl=
+y, step by step</strong>.</p>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=A7=A9WhatisErrorHandling?">=
+=F0=9F=A7=A9 <strong>What is Error Handling?</strong></h2>
+<p><strong>Error handling</strong> is the process of <strong>detecting and =
+responding to errors</strong> in a program to prevent <strong>crashes or in=
+correct results</strong>.</p>
+<ul>
+<li>
+<p>In C, <strong>errors can occur</strong> due to:</p>
+<ul>
+<li>
+<p>Invalid user input</p></li>
+<li>
+<p>File not found</p></li>
+<li>
+<p>Division by zero</p></li>
+<li>
+<p>Memory allocation failure</p></li>
+</ul></li>
+</ul>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=94=B91.ErrorHandlinginStanda=
+rdI/O">=F0=9F=94=B9 <strong>1. Error Handling in Standard I/O</strong></h2>
+<h3 id=3D"Structuredprogramminglanguage-a)CheckingFileOpening">a) Checking =
+File Opening</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">#includ=
+e &lt;stdio.h&gt;
+
+int main() {
+    FILE *fp =3D fopen("data.txt", "r");
+    if(fp =3D=3D NULL) {
+        printf("Error: File not found!\n");
+        return 1;  // exit program with error
+    }
+    printf("File opened successfully.\n");
+    fclose(fp);
+    return 0;
+}
+</pre>
+</div>
+</div>
+<p>=F0=9F=92=A1 Always check if <code>fopen()</code><strong> returns NULL</=
+strong> before reading or writing a file.</p>
+<hr>
+<h3 id=3D"Structuredprogramminglanguage-b)CheckingUserInput">b) Checking Us=
+er Input</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">#includ=
+e &lt;stdio.h&gt;
+
+int main() {
+    int num;
+    printf("Enter an integer: ");
+    if(scanf("%d", &amp;num) !=3D 1) {
+        printf("Error: Invalid input!\n");
+        return 1;
+    }
+    printf("You entered %d\n", num);
+    return 0;
+}
+</pre>
+</div>
+</div>
+<p>=F0=9F=92=A1 <code>scanf()</code> returns the <strong>number of successf=
+ully read items</strong> =E2=80=94 check it to catch invalid input.</p>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=94=B92.ErrorHandlingwitherrn=
+o">=F0=9F=94=B9 <strong>2. Error Handling with </strong><code>errno</code><=
+/h2>
+<p>C provides <code>errno</code> in <code>&lt;errno.h&gt;</code> to identif=
+y <strong>system-level errors</strong>.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">#includ=
+e &lt;stdio.h&gt;
+#include &lt;errno.h&gt;
+#include &lt;string.h&gt;
+
+int main() {
+    FILE *fp =3D fopen("nofile.txt", "r");
+    if(fp =3D=3D NULL) {
+        printf("Error opening file: %s\n", strerror(errno));
+    }
+    return 0;
+}
+</pre>
+</div>
+</div>
+<ul>
+<li>
+<p><code>errno</code> =E2=86=92 global variable set by system/library funct=
+ions</p></li>
+<li>
+<p><code>strerror(errno)</code> =E2=86=92 human-readable error message</p><=
+/li>
+</ul>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=94=B93.ExitStatusofaProgram"=
+>=F0=9F=94=B9 <strong>3. Exit Status of a Program</strong></h2>
+<ul>
+<li>
+<p>C programs can return an <strong>exit status</strong> using <code>return=
+</code> in <code>main()</code> or <code>exit()</code> from <code>&lt;stdlib=
+.h&gt;</code>.</p></li>
+</ul>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"08=
+4fb7c7-8f48-43c7-82a4-6c47a059dd4e" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Status</p></th>
+<th class=3D"confluenceTh">
+<p>Meaning</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>0</code></p></td>
+<td class=3D"confluenceTd">
+<p>Success</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Non-zero</p></td>
+<td class=3D"confluenceTd">
+<p>Error occurred</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id=3D"Structuredprogramminglanguage-Example:.9">Example:</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">#includ=
+e &lt;stdlib.h&gt;
+#include &lt;stdio.h&gt;
+
+int main() {
+    printf("Exiting with error code 1\n");
+    exit(1);
+}
+</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=94=B94.HandlingDivisionbyZer=
+o">=F0=9F=94=B9 <strong>4. Handling Division by Zero</strong></h2>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">#includ=
+e &lt;stdio.h&gt;
+
+int main() {
+    int a =3D 10, b =3D 0;
+
+    if(b =3D=3D 0) {
+        printf("Error: Division by zero!\n");
+        return 1;
+    }
+
+    printf("Result =3D %d\n", a / b);
+    return 0;
+}
+</pre>
+</div>
+</div>
+<p>=F0=9F=92=A1 Always <strong>check for illegal operations</strong> before=
+ performing them.</p>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=94=B95.Usingassert()forDebug=
+ging">=F0=9F=94=B9 <strong>5. Using </strong><code>assert()</code><strong> =
+for Debugging</strong></h2>
+<ul>
+<li>
+<p><code>assert()</code> from <code>&lt;assert.h&gt;</code> can <strong>ter=
+minate program if a condition is false</strong>.</p></li>
+</ul>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">#includ=
+e &lt;stdio.h&gt;
+#include &lt;assert.h&gt;
+
+int main() {
+    int x =3D -5;
+    assert(x &gt;=3D 0); // program stops if x &lt; 0
+    printf("x =3D %d\n", x);
+    return 0;
+}
+</pre>
+</div>
+</div>
+<ul>
+<li>
+<p>Helpful for <strong>debugging and detecting logic errors</strong> during=
+ development.</p></li>
+</ul>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=94=B96.SummaryTableofErrorHa=
+ndlingTechniques">=F0=9F=94=B9 <strong>6. Summary Table of Error Handling T=
+echniques</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"c0=
+e0e413-bb93-400b-bdab-1e20f6ea23d2" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Technique</p></th>
+<th class=3D"confluenceTh">
+<p>Function / Concept</p></th>
+<th class=3D"confluenceTh">
+<p>Example</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>File Error Check</p></td>
+<td class=3D"confluenceTd">
+<p><code>fopen()</code>, check NULL</p></td>
+<td class=3D"confluenceTd">
+<p><code>if(fp=3D=3DNULL)</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Input Validation</p></td>
+<td class=3D"confluenceTd">
+<p><code>scanf()</code> return</p></td>
+<td class=3D"confluenceTd">
+<p><code>if(scanf("%d",&amp;x)!=3D1)</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>System Errors</p></td>
+<td class=3D"confluenceTd">
+<p><code>errno</code>, <code>strerror(errno)</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>FILE *fp=3Dfopen("nofile","r");</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Program Exit Status</p></td>
+<td class=3D"confluenceTd">
+<p><code>exit()</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>exit(1)</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Logic Assertion</p></td>
+<td class=3D"confluenceTd">
+<p><code>assert()</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>assert(x&gt;=3D0)</code></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p>=E2=9C=85 <strong>In Short:</strong></p>
+<blockquote>
+<p>Error handling in C involves <strong>checking return values</strong>, <s=
+trong>validating inputs</strong>, using <code>errno</code>, and <strong>ass=
+ertions</strong> to prevent crashes and undefined behavior. Proper error ha=
+ndling is <strong>essential for reliable programs</strong>, especially in f=
+ile operations and user input scenarios.</p>
+</blockquote>
+<hr>
+<p></p>
+<ol start=3D"13">
+<li>
+<p>Graphics;</p></li>
+</ol>
+<p>Perfect =F0=9F=91=8F =E2=80=94 now let=E2=80=99s cover <strong>Graphics =
+in C</strong>. While graphics is less common in standard exams, it sometime=
+s appears in <strong>Govt IT /  ICT practicals</strong> or programming q=
+uestions. I=E2=80=99ll explain <strong>step by step</strong>.</p>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=A7=A9WhatisGraphicsinC?">=F0=
+=9F=A7=A9 <strong>What is Graphics in C?</strong></h2>
+<p>Graphics in C is about <strong>drawing images, shapes, and text</strong>=
+ on the screen using functions provided by graphics libraries.</p>
+<ul>
+<li>
+<p>C <strong>itself does not have built-in graphics</strong>.</p></li>
+<li>
+<p>We usually use libraries like:</p>
+<ul>
+<li>
+<p><code>graphics.h</code> (Turbo C / Borland C)</p></li>
+<li>
+<p>Modern alternatives: SDL, OpenGL, or Windows API</p></li>
+</ul></li>
+</ul>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=94=B91.BasicConcepts">=F0=9F=
+=94=B9 <strong>1. Basic Concepts</strong></h2>
+<p><strong>Graphics programs</strong> usually follow these steps:</p>
+<ol start=3D"1">
+<li>
+<p><strong>Initialize graphics mode</strong></p></li>
+<li>
+<p><strong>Draw graphics objects</strong> (line, circle, rectangle, text)</=
+p></li>
+<li>
+<p><strong>Wait for user input or delay</strong></p></li>
+<li>
+<p><strong>Close graphics mode</strong></p></li>
+</ol>
+<hr>
+<h3 id=3D"Structuredprogramminglanguage-=F0=9F=94=B92.Usinggraphics.h(Turbo=
+Cstyle)">=F0=9F=94=B9 <strong>2. Using </strong><code>graphics.h</code><str=
+ong> (Turbo C style)</strong></h3>
+<p><strong>Header file:</strong></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">#includ=
+e &lt;graphics.h&gt;
+#include &lt;conio.h&gt;
+</pre>
+</div>
+</div>
+<h3 id=3D"Structuredprogramminglanguage-a)InitializeGraphics">a) Initialize=
+ Graphics</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">int gd =
+=3D DETECT, gm;
+initgraph(&amp;gd, &amp;gm, "C:\\Turboc3\\BGI");
+</pre>
+</div>
+</div>
+<ul>
+<li>
+<p><code>gd</code> =E2=86=92 Graphics driver</p></li>
+<li>
+<p><code>gm</code> =E2=86=92 Graphics mode</p></li>
+<li>
+<p>Third parameter =E2=86=92 path to BGI driver (Turbo C only)</p></li>
+</ul>
+<hr>
+<h3 id=3D"Structuredprogramminglanguage-b)DrawShapes">b) Draw Shapes</h3>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"2a=
+a8ae62-8fee-4ea9-a4db-f6103f307d1a" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Function</p></th>
+<th class=3D"confluenceTh">
+<p>Description</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>line(x1, y1, x2, y2)</code></p></td>
+<td class=3D"confluenceTd">
+<p>Draw line from (x1,y1) to (x2,y2)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>circle(x, y, r)</code></p></td>
+<td class=3D"confluenceTd">
+<p>Draw circle at (x,y) with radius r</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>rectangle(x1, y1, x2, y2)</code></p></td>
+<td class=3D"confluenceTd">
+<p>Draw rectangle</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>outtextxy(x, y, "text")</code></p></td>
+<td class=3D"confluenceTd">
+<p>Display text at (x,y)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>setcolor(color)</code></p></td>
+<td class=3D"confluenceTd">
+<p>Set color of shape</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id=3D"Structuredprogramminglanguage-Example:.10">Example:</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">#includ=
+e &lt;graphics.h&gt;
+#include &lt;conio.h&gt;
+
+int main() {
+    int gd =3D DETECT, gm;
+    initgraph(&amp;gd, &amp;gm, "");
+
+    setcolor(RED);
+    rectangle(100, 100, 200, 200);
+
+    setcolor(BLUE);
+    circle(150, 150, 50);
+
+    outtextxy(120, 220, "Graphics Example");
+
+    getch();
+    closegraph();
+    return 0;
+}
+</pre>
+</div>
+</div>
+<p>=E2=9C=85 Output:</p>
+<ul>
+<li>
+<p>A red rectangle</p></li>
+<li>
+<p>A blue circle inside it</p></li>
+<li>
+<p>Text below shapes</p></li>
+</ul>
+<hr>
+<h3 id=3D"Structuredprogramminglanguage-c)CloseGraphics">c) Close Graphics<=
+/h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">closegr=
+aph();
+</pre>
+</div>
+</div>
+<ul>
+<li>
+<p>Releases graphics memory</p></li>
+<li>
+<p>Restores normal text mode</p></li>
+</ul>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=94=B93.ColorsinGraphics">=F0=
+=9F=94=B9 <strong>3. Colors in Graphics</strong></h2>
+<ul>
+<li>
+<p>C graphics uses predefined <strong>color constants</strong>:</p></li>
+</ul>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"40=
+264679-73cc-439e-9833-16fff8d6336e" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Color</p></th>
+<th class=3D"confluenceTh">
+<p>Constant</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Black</p></td>
+<td class=3D"confluenceTd">
+<p>BLACK</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>White</p></td>
+<td class=3D"confluenceTd">
+<p>WHITE</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Red</p></td>
+<td class=3D"confluenceTd">
+<p>RED</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Green</p></td>
+<td class=3D"confluenceTd">
+<p>GREEN</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Blue</p></td>
+<td class=3D"confluenceTd">
+<p>BLUE</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Yellow</p></td>
+<td class=3D"confluenceTd">
+<p>YELLOW</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Cyan</p></td>
+<td class=3D"confluenceTd">
+<p>CYAN</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Magenta</p></td>
+<td class=3D"confluenceTd">
+<p>MAGENTA</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=94=B94.ModernGraphicsinC">=
+=F0=9F=94=B9 <strong>4. Modern Graphics in C</strong></h2>
+<ul>
+<li>
+<p>Turbo C graphics is <strong>old</strong> and runs in DOS only</p></li>
+<li>
+<p>Modern alternatives:</p>
+<ul>
+<li>
+<p><strong>SDL</strong> =E2=86=92 Game &amp; graphics development</p></li>
+<li>
+<p><strong>OpenGL</strong> =E2=86=92 2D/3D graphics</p></li>
+<li>
+<p><strong>Windows API</strong> =E2=86=92 GUI applications</p></li>
+<li>
+<p><strong>Qt / GTK</strong> =E2=86=92 Advanced graphics &amp; GUI</p></li>
+</ul></li>
+</ul>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=94=B95.SummaryTable">=F0=9F=
+=94=B9 <strong>5. Summary Table</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"7d=
+75cd14-be56-4864-a48e-46d3c638e495" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Concept</p></th>
+<th class=3D"confluenceTh">
+<p>Function / Example</p></th>
+<th class=3D"confluenceTh">
+<p>Description</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Initialize graphics</p></td>
+<td class=3D"confluenceTd">
+<p><code>initgraph(&amp;gd, &amp;gm, "path")</code></p></td>
+<td class=3D"confluenceTd">
+<p>Start graphics mode</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Draw line</p></td>
+<td class=3D"confluenceTd">
+<p><code>line(x1,y1,x2,y2)</code></p></td>
+<td class=3D"confluenceTd">
+<p>Draws line</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Draw circle</p></td>
+<td class=3D"confluenceTd">
+<p><code>circle(x,y,r)</code></p></td>
+<td class=3D"confluenceTd">
+<p>Draws circle</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Draw rectangle</p></td>
+<td class=3D"confluenceTd">
+<p><code>rectangle(x1,y1,x2,y2)</code></p></td>
+<td class=3D"confluenceTd">
+<p>Draw rectangle</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Display text</p></td>
+<td class=3D"confluenceTd">
+<p><code>outtextxy(x,y,"text")</code></p></td>
+<td class=3D"confluenceTd">
+<p>Show text</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Set color</p></td>
+<td class=3D"confluenceTd">
+<p><code>setcolor(RED)</code></p></td>
+<td class=3D"confluenceTd">
+<p>Set color of shape</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Close graphics</p></td>
+<td class=3D"confluenceTd">
+<p><code>closegraph()</code></p></td>
+<td class=3D"confluenceTd">
+<p>Restore normal mode</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p>=E2=9C=85 <strong>In Short:</strong></p>
+<blockquote>
+<p>Graphics in C allows you to <strong>draw shapes, text, and images</stron=
+g> on the screen.<br><code>graphics.h</code> is the classic library (Turbo =
+C), while <strong>modern libraries like SDL, OpenGL, or Qt</strong> are use=
+d today for real-world applications.</p>
+</blockquote>
+<hr>
+<p></p>
+<ol start=3D"14">
+<li>
+<p>Linking;</p></li>
+</ol>
+<p>Perfect =F0=9F=91=8F =E2=80=94 now let=E2=80=99s cover <strong>Linking i=
+n C</strong>. This is an important topic for <strong>Govt IT /  ICT exam=
+s</strong>, especially when dealing with <strong>program compilation and mu=
+ltiple files</strong>. I=E2=80=99ll explain <strong>step by step</strong>.<=
+/p>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=A7=A9WhatisLinking?">=F0=9F=
+=A7=A9 <strong>What is Linking?</strong></h2>
+<p><strong>Linking</strong> is the process of <strong>combining object file=
+s and libraries</strong> to create a <strong>single executable program</str=
+ong>.</p>
+<ul>
+<li>
+<p>After writing and compiling C code, the compiler produces <strong>object=
+ files (</strong><code>.obj</code><strong> or </strong><code>.o</code><stro=
+ng>)</strong>.</p></li>
+<li>
+<p>The <strong>linker</strong> combines these object files and resolves ref=
+erences to produce the <strong>final executable (</strong><code>.exe</code>=
+<strong> or a.out`)</strong>.</p></li>
+</ul>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=94=B9TypesofLinkinginC">=F0=
+=9F=94=B9 <strong>Types of Linking in C</strong></h2>
+<ol start=3D"1">
+<li>
+<p><strong>Static Linking</strong></p></li>
+<li>
+<p><strong>Dynamic Linking (Shared Libraries)</strong></p></li>
+</ol>
+<hr>
+<h3 id=3D"Structuredprogramminglanguage-=F0=9F=94=B91.StaticLinking">=F0=9F=
+=94=B9 <strong>1. Static Linking</strong></h3>
+<ul>
+<li>
+<p>All required code from <strong>libraries</strong> is copied into the <st=
+rong>final executable</strong> during compile-time.</p></li>
+<li>
+<p>Resulting executable is <strong>larger</strong> but <strong>independent =
+of external libraries at runtime</strong>.</p></li>
+</ul>
+<p><strong>Example:</strong></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">// main=
+.c
+#include &lt;stdio.h&gt;
+#include "mathlib.h"
+
+int main() {
+    printf("Sum: %d\n", add(10, 20));
+    return 0;
+}
+</pre>
+</div>
+</div>
+<ul>
+<li>
+<p>Suppose <code>add()</code> is defined in <code>mathlib.c</code>.</p></li=
+>
+</ul>
+<p><strong>Steps to compile:</strong></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">gcc -c =
+main.c      # produces main.o
+gcc -c mathlib.c   # produces mathlib.o
+gcc main.o mathlib.o -o program   # linker combines both
+./program
+</pre>
+</div>
+</div>
+<ul>
+<li>
+<p><code>-c</code> =E2=86=92 compile only (produces object file)</p></li>
+<li>
+<p>Linking happens in the last step to produce executable</p></li>
+</ul>
+<hr>
+<h3 id=3D"Structuredprogramminglanguage-=F0=9F=94=B92.DynamicLinking(Shared=
+Libraries)">=F0=9F=94=B9 <strong>2. Dynamic Linking (Shared Libraries)</str=
+ong></h3>
+<ul>
+<li>
+<p>Code is <strong>not copied</strong> into executable. Instead, it <strong=
+>links at runtime</strong>.</p></li>
+<li>
+<p>Produces <strong>smaller executable</strong> but requires <strong>librar=
+y present at runtime</strong>.</p></li>
+</ul>
+<p><strong>Example (Linux):</strong></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">gcc mai=
+n.c -lm    # links with math library dynamically
+./a.out
+</pre>
+</div>
+</div>
+<ul>
+<li>
+<p><code>-lm</code> =E2=86=92 links with math library (<code>libm.so</code>=
+) at runtime</p></li>
+</ul>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=94=B93.StepsinCompilation&am=
+p;Linking">=F0=9F=94=B9 <strong>3. Steps in Compilation &amp; Linking</stro=
+ng></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"3d=
+5701be-2c3e-4bbb-bee0-c85132c6ba76" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Step</p></th>
+<th class=3D"confluenceTh">
+<p>Description</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Preprocessing</p></td>
+<td class=3D"confluenceTd">
+<p>Handles <code>#include</code>, <code>#define</code>, macros =E2=86=92 pr=
+oduces <code>.i</code> file</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Compilation</p></td>
+<td class=3D"confluenceTd">
+<p>Converts <code>.i</code> file to assembly =E2=86=92 <code>.s</code> file=
+</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Assembly</p></td>
+<td class=3D"confluenceTd">
+<p>Converts <code>.s</code> to object code =E2=86=92 <code>.o</code> file</=
+p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Linking</p></td>
+<td class=3D"confluenceTd">
+<p>Combines object files &amp; libraries =E2=86=92 executable (<code>.exe</=
+code>)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>=E2=9C=85 Flow:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">Source =
+Code =E2=86=92 Preprocessor =E2=86=92 Compiler =E2=86=92 Assembler =E2=86=
+=92 Linker =E2=86=92 Executable
+</pre>
+</div>
+</div>
+<hr>
+<h3 id=3D"Structuredprogramminglanguage-=F0=9F=94=B94.ExampleofLinkingMulti=
+pleFiles">=F0=9F=94=B9 <strong>4. Example of Linking Multiple Files</strong=
+></h3>
+<p><strong>File1: add.c</strong></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">int add=
+(int a, int b) {
+    return a + b;
+}
+</pre>
+</div>
+</div>
+<p><strong>File2: main.c</strong></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">#includ=
+e &lt;stdio.h&gt;
+
+int add(int, int); // function prototype
+
+int main() {
+    printf("Sum: %d\n", add(5, 10));
+    return 0;
+}
+</pre>
+</div>
+</div>
+<p><strong>Compile &amp; Link:</strong></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">gcc mai=
+n.c add.c -o program
+./program
+</pre>
+</div>
+</div>
+<p>=E2=9C=85 Output:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">Sum: 15
+</pre>
+</div>
+</div>
+<ul>
+<li>
+<p>Both <code>.c</code> files are compiled and linked to form the final pro=
+gram.</p></li>
+</ul>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=94=B95.LinkinginPractice">=
+=F0=9F=94=B9 <strong>5. Linking in Practice</strong></h2>
+<ul>
+<li>
+<p><strong>Header files (</strong><code>.h</code><strong>)</strong> =E2=86=
+=92 tell compiler <strong>what functions exist</strong></p></li>
+<li>
+<p><strong>Source files (</strong><code>.c</code><strong>)</strong> =E2=86=
+=92 contain <strong>actual implementation</strong></p></li>
+<li>
+<p><strong>Linker</strong> resolves <strong>references between files</stron=
+g></p></li>
+<li>
+<p>If linker <strong>cannot find a function</strong>, it gives <strong>=E2=
+=80=9Cundefined reference=E2=80=9D</strong> error.</p></li>
+</ul>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=94=B9QuickSummaryTable.2">=
+=F0=9F=94=B9 <strong>Quick Summary Table</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"d0=
+510004-835a-4c44-b2b1-c7829d71a2dd" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Concept</p></th>
+<th class=3D"confluenceTh">
+<p>Description</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Linking</p></td>
+<td class=3D"confluenceTd">
+<p>Combining object files and libraries to create executable</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Static Linking</p></td>
+<td class=3D"confluenceTd">
+<p>Libraries copied into executable, bigger size, independent</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Dynamic Linking</p></td>
+<td class=3D"confluenceTd">
+<p>Libraries linked at runtime, smaller executable, requires library presen=
+t</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Header Files</p></td>
+<td class=3D"confluenceTd">
+<p>Provide function declarations to compiler</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Object Files</p></td>
+<td class=3D"confluenceTd">
+<p>Compiled <code>.o</code> files ready for linking</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Compilation Flow</p></td>
+<td class=3D"confluenceTd">
+<p>Preprocessing =E2=86=92 Compilation =E2=86=92 Assembly =E2=86=92 Linking=
+ =E2=86=92 Executable</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p>=E2=9C=85 <strong>In Short:</strong></p>
+<blockquote>
+<p><strong>Linking</strong> is the process of <strong>connecting compiled c=
+ode and libraries</strong> to make a complete program.</p>
+<ul>
+<li>
+<p><strong>Static linking</strong> =E2=86=92 compile-time, bigger executabl=
+e</p></li>
+<li>
+<p><strong>Dynamic linking</strong> =E2=86=92 runtime, smaller executable</=
+p></li>
+</ul>
+</blockquote>
+<hr>
+<p></p>
+<ol start=3D"15">
+<li>
+<p>Library functions</p></li>
+</ol>
+<p></p>
+<p>Perfect =F0=9F=91=8F =E2=80=94 now let=E2=80=99s cover <strong>Library F=
+unctions in C</strong>. This is an <strong>important topic</strong> for Gov=
+t IT /  ICT exams because <strong>many programs rely on built-in functio=
+ns</strong>. I=E2=80=99ll explain <strong>step by step with examples</stron=
+g>.</p>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=A7=A9WhatareLibraryFunctions=
+?">=F0=9F=A7=A9 <strong>What are Library Functions?</strong></h2>
+<p><strong>Library functions</strong> are <strong>predefined functions</str=
+ong> in C that you can use <strong>directly</strong> without writing their =
+code.</p>
+<ul>
+<li>
+<p>They are <strong>stored in standard libraries</strong>.</p></li>
+<li>
+<p>They save time and reduce errors.</p></li>
+<li>
+<p>Examples: <code>printf()</code>, <code>scanf()</code>, <code>strlen()</c=
+ode>, <code>sqrt()</code>, etc.</p></li>
+</ul>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=94=B91.CategoriesofLibraryFu=
+nctions">=F0=9F=94=B9 <strong>1. Categories of Library Functions</strong></=
+h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"7a=
+50346f-9570-4f28-a615-1dc9cb04aed2" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Category</p></th>
+<th class=3D"confluenceTh">
+<p>Header File</p></th>
+<th class=3D"confluenceTh">
+<p>Examples</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Input/Output</p></td>
+<td class=3D"confluenceTd">
+<p><code>&lt;stdio.h&gt;</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>printf()</code>, <code>scanf()</code>, <code>fprintf()</code>, <co=
+de>fscanf()</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>String Handling</p></td>
+<td class=3D"confluenceTd">
+<p><code>&lt;string.h&gt;</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>strlen()</code>, <code>strcpy()</code>, <code>strcmp()</code>, <co=
+de>strcat()</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Mathematics</p></td>
+<td class=3D"confluenceTd">
+<p><code>&lt;math.h&gt;</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>sqrt()</code>, <code>pow()</code>, <code>sin()</code>, <code>cos()=
+</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Character Handling</p></td>
+<td class=3D"confluenceTd">
+<p><code>&lt;ctype.h&gt;</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>isalpha()</code>, <code>isdigit()</code>, <code>toupper()</code>, =
+<code>tolower()</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Time Functions</p></td>
+<td class=3D"confluenceTd">
+<p><code>&lt;time.h&gt;</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>time()</code>, <code>clock()</code>, <code>difftime()</code></p></=
+td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Memory Management</p></td>
+<td class=3D"confluenceTd">
+<p><code>&lt;stdlib.h&gt;</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>malloc()</code>, <code>free()</code>, <code>calloc()</code>, <code=
+>realloc()</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Miscellaneous</p></td>
+<td class=3D"confluenceTd">
+<p><code>&lt;stdlib.h&gt;</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>exit()</code>, <code>system()</code>, <code>rand()</code>, <code>a=
+bs()</code></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=94=B92.Example:StringFunctio=
+ns">=F0=9F=94=B9 <strong>2. Example: String Functions</strong></h2>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">#includ=
+e &lt;stdio.h&gt;
+#include &lt;string.h&gt;
+
+int main() {
+    char str1[20] =3D "Hello";
+    char str2[20];
+
+    strcpy(str2, str1);   // Copy str1 into str2
+    printf("Copied string: %s\n", str2);
+
+    printf("Length of str1: %lu\n", strlen(str1));
+
+    return 0;
+}
+</pre>
+</div>
+</div>
+<p>=E2=9C=85 Output:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">Copied =
+string: Hello
+Length of str1: 5
+</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=94=B93.Example:MathFunctions=
+">=F0=9F=94=B9 <strong>3. Example: Math Functions</strong></h2>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">#includ=
+e &lt;stdio.h&gt;
+#include &lt;math.h&gt;
+
+int main() {
+    double x =3D 9.0;
+    double y =3D 2.0;
+
+    printf("Square root of %.1f: %.2f\n", x, sqrt(x));
+    printf("%.1f raised to %.1f: %.2f\n", x, y, pow(x, y));
+
+    return 0;
+}
+</pre>
+</div>
+</div>
+<p>=E2=9C=85 Output:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">Square =
+root of 9.0: 3.00
+9.0 raised to 2.0: 81.00
+</pre>
+</div>
+</div>
+<p>=F0=9F=92=A1 <strong>Note:</strong> Use <code>-lm</code> when compiling =
+math functions in GCC:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">gcc pro=
+gram.c -o program -lm
+</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=94=B94.Example:CharacterFunc=
+tions">=F0=9F=94=B9 <strong>4. Example: Character Functions</strong></h2>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">#includ=
+e &lt;stdio.h&gt;
+#include &lt;ctype.h&gt;
+
+int main() {
+    char c =3D 'a';
+    if(isalpha(c)) {
+        printf("%c is a letter\n", c);
+    }
+
+    printf("Uppercase: %c\n", toupper(c));
+    return 0;
+}
+</pre>
+</div>
+</div>
+<p>=E2=9C=85 Output:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">a is a =
+letter
+Uppercase: A
+</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=94=B95.KeyPoints">=F0=9F=94=
+=B9 <strong>5. Key Points</strong></h2>
+<ol start=3D"1">
+<li>
+<p><strong>Library functions are precompiled</strong> =E2=80=94 no need to =
+write code.</p></li>
+<li>
+<p>Always <strong>include the correct header file</strong>.</p></li>
+<li>
+<p>Can be used for <strong>input/output, math, string manipulation, memory =
+management, etc.</strong></p></li>
+<li>
+<p>Saves <strong>time and reduces errors</strong>.</p></li>
+<li>
+<p>Some require <strong>linking with libraries</strong> (like <code>-lm</co=
+de> for math functions).</p></li>
+</ol>
+<hr>
+<h2 id=3D"Structuredprogramminglanguage-=F0=9F=94=B96.QuickSummaryTable">=
+=F0=9F=94=B9 <strong>6. Quick Summary Table</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"51=
+4fa41e-9e50-445b-83f5-57fb303d424a" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Header File</p></th>
+<th class=3D"confluenceTh">
+<p>Functions</p></th>
+<th class=3D"confluenceTh">
+<p>Use</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>&lt;stdio.h&gt;</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>printf(), scanf()</code></p></td>
+<td class=3D"confluenceTd">
+<p>Input/output</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>&lt;string.h&gt;</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>strlen(), strcpy(), strcmp()</code></p></td>
+<td class=3D"confluenceTd">
+<p>String handling</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>&lt;math.h&gt;</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>sqrt(), pow(), sin(), cos()</code></p></td>
+<td class=3D"confluenceTd">
+<p>Math operations</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>&lt;ctype.h&gt;</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>isalpha(), toupper()</code></p></td>
+<td class=3D"confluenceTd">
+<p>Character handling</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>&lt;stdlib.h&gt;</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>malloc(), free(), rand()</code></p></td>
+<td class=3D"confluenceTd">
+<p>Memory &amp; utility</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p>=E2=9C=85 <strong>In Short:</strong></p>
+<blockquote>
+<p><strong>Library functions</strong> are <strong>ready-to-use functions</s=
+trong> provided by C standard libraries.<br>
+They make programming <strong>faster, easier, and more reliable</strong>.</=
+p>
+</blockquote>
+<hr>
+<p></p>
+    </div>
+</body>
+</html>
+------=_Part_4_1116826261.1760785737818--

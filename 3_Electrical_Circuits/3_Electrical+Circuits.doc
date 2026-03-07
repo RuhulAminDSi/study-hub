@@ -1,0 +1,1766 @@
+Date: Sat, 18 Oct 2025 11:10:14 +0000 (UTC)
+Message-ID: <1079148093.7.1760785814076@f9671e8805d9>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_6_1802889261.1760785814076"
+
+------=_Part_6_1802889261.1760785814076
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Electrical Circuits</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Electrical Circuits</h1>
+    <div class=3D"Section1">
+        <ol start=3D"1">
+<li>
+<p>Circuit variables and elements: voltage, current, power, energy, indepen=
+dent and dependent sources, resistance</p></li>
+<li>
+<p>Basic laws of electrical circuits: Ohm=E2=80=99s law, Kirchoff s current=
+ law (KCL) and Kirchoff s voltage law (KVL)</p></li>
+<li>
+<p>Simple resistive circuits: scries and parallel circuits, voltage and cur=
+rent division, source transformation</p></li>
+<li>
+<p>Methods of analysis: nodal and mesh analysis</p></li>
+<li>
+<p>Circuit theorems: Thevenin=E2=80=99s, Norton=E2=80=99s and superposition=
+ theorems, maximum power transfer and reciprocity theorem</p></li>
+<li>
+<p>Capacitors and inductors: inductors and capacitors, their characteristic=
+s, series-parallel combination of inductors and capacitors; RLC Transients<=
+/p></li>
+<li>
+<p>Series and parallel AC circuits</p></li>
+<li>
+<p>impedance and phasor diagram, series and parallel networks, voltage divi=
+der rule, admittance and susceptance</p></li>
+<li>
+<p>mesh and nodal analysis, wye-delta and delta-wye conversions</p></li>
+<li>
+<p>superposition theorem, Thevenin=E2=80=99s theorem, Norton=E2=80=99s theo=
+rem, maximum power transfer theorem.</p></li>
+</ol>
+<p></p>
+<p></p>
+<ol start=3D"1">
+<li>
+<p>Circuit variables and elements: voltage, current, power, energy, indepen=
+dent and dependent sources, resistance</p></li>
+</ol>
+<p>Here=E2=80=99s a concise guide to <strong>basic circuit variables and el=
+ements</strong> with simple explanations and key formulas:</p>
+<hr>
+<h2 id=3D"ElectricalCircuits-=F0=9F=94=B9FundamentalElectricalQuantities">=
+=F0=9F=94=B9 Fundamental Electrical Quantities</h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"81=
+6f522f-5e3c-4eb6-b901-782d764ff201" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Quantity</p></th>
+<th class=3D"confluenceTh">
+<p>Symbol</p></th>
+<th class=3D"confluenceTh">
+<p>Unit</p></th>
+<th class=3D"confluenceTh">
+<p>Description</p></th>
+<th class=3D"confluenceTh">
+<p>Key Relation</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Voltage</strong></p></td>
+<td class=3D"confluenceTd">
+<p>VV or v(t)v(t)</p></td>
+<td class=3D"confluenceTd">
+<p>Volt (V)</p></td>
+<td class=3D"confluenceTd">
+<p>Electrical =E2=80=9Cpressure=E2=80=9D or potential difference between tw=
+o points.</p></td>
+<td class=3D"confluenceTd">
+<p>V=3DW/QV =3D W/Q (work per charge)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Current</strong></p></td>
+<td class=3D"confluenceTd">
+<p>II or i(t)i(t)</p></td>
+<td class=3D"confluenceTd">
+<p>Ampere (A)</p></td>
+<td class=3D"confluenceTd">
+<p>Rate of flow of electric charge.</p></td>
+<td class=3D"confluenceTd">
+<p>I=3DdQ/dtI =3D dQ/dt</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Power</strong></p></td>
+<td class=3D"confluenceTd">
+<p>PP</p></td>
+<td class=3D"confluenceTd">
+<p>Watt (W)</p></td>
+<td class=3D"confluenceTd">
+<p>Rate of energy transfer or conversion.</p></td>
+<td class=3D"confluenceTd">
+<p>P=3DV=C3=97IP =3D V \times I</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Energy</strong></p></td>
+<td class=3D"confluenceTd">
+<p>WW</p></td>
+<td class=3D"confluenceTd">
+<p>Joule (J)</p></td>
+<td class=3D"confluenceTd">
+<p>Total electrical work done over time.</p></td>
+<td class=3D"confluenceTd">
+<p>W=3D=E2=88=ABP=E2=80=89dtW =3D \int P\, dt</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><em>Time-domain notation:</em> lower-case letters like v(t)v(t), i(t)i(t=
+) indicate instantaneous values.</p>
+<hr>
+<h2 id=3D"ElectricalCircuits-=F0=9F=94=B9CircuitElements">=F0=9F=94=B9 Circ=
+uit Elements</h2>
+<h3 id=3D"ElectricalCircuits-1.Sources">1. <strong>Sources</strong></h3>
+<p>Provide electrical energy to a circuit.</p>
+<p><strong>Independent Sources</strong></p>
+<ul>
+<li>
+<p>Output is <strong>fixed</strong> or set by time, not affected by the cir=
+cuit.</p></li>
+<li>
+<p>Types:</p>
+<ul>
+<li>
+<p><strong>Independent Voltage Source</strong>: delivers a specified voltag=
+e.</p></li>
+<li>
+<p><strong>Independent Current Source</strong>: delivers a specified curren=
+t.</p></li>
+</ul></li>
+</ul>
+<p><strong>Dependent (Controlled) Sources</strong></p>
+<ul>
+<li>
+<p>Output <strong>depends on another circuit variable</strong> (voltage or =
+current elsewhere).</p></li>
+<li>
+<p>Types:</p>
+<ul>
+<li>
+<p><strong>Voltage-Controlled Voltage Source (VCVS)</strong></p></li>
+<li>
+<p><strong>Current-Controlled Voltage Source (CCVS)</strong></p></li>
+<li>
+<p><strong>Voltage-Controlled Current Source (VCCS)</strong></p></li>
+<li>
+<p><strong>Current-Controlled Current Source (CCCS)</strong></p></li>
+</ul></li>
+</ul>
+<p>Symbolically, a dependent source is usually drawn with a diamond shape.<=
+/p>
+<hr>
+<h3 id=3D"ElectricalCircuits-2.PassiveElements">2. <strong>Passive Elements=
+</strong></h3>
+<p>These <strong>consume or store</strong> energy rather than generate it.<=
+/p>
+<p><em>Basic example covered here:</em> <strong>Resistor</strong></p>
+<ul>
+<li>
+<p><strong>Resistance (R)</strong>: Opposition to current flow.</p></li>
+<li>
+<p><strong>Ohm=E2=80=99s Law</strong>: V=3DI=C3=97RV =3D I \times R</p></li=
+>
+<li>
+<p>Units: Ohm (=CE=A9)</p></li>
+<li>
+<p>Power in resistor: P=3DI2R=3DV2RP =3D I^2 R =3D \dfrac{V^2}{R}</p></li>
+</ul>
+<p><em>(Capacitors and inductors are also passive elements, but you asked s=
+pecifically for resistance.)</em></p>
+<hr>
+<h2 id=3D"ElectricalCircuits-=F0=9F=94=B9Relationships&amp;Examples">=F0=9F=
+=94=B9 Relationships &amp; Examples</h2>
+<ul>
+<li>
+<p><strong>Instantaneous Power:</strong> p(t)=3Dv(t)=E2=8B=85i(t)p(t) =3D v=
+(t) \cdot i(t)<br>
+Positive p(t)p(t) =E2=86=92 element absorbs power.<br>
+Negative p(t)p(t) =E2=86=92 element delivers power.</p></li>
+<li>
+<p><strong>Energy in a Time Interval [t=E2=82=81, t=E2=82=82]:</strong><br>
+W=3D=E2=88=ABt1t2v(t)=E2=80=89i(t)=E2=80=89dtW =3D \int_{t_1}^{t_2} v(t) \,=
+ i(t) \, dt</p></li>
+</ul>
+<hr>
+<h2 id=3D"ElectricalCircuits-QuickReal-WorldPicture">Quick Real-World Pictu=
+re</h2>
+<ul>
+<li>
+<p><strong>Voltage:</strong> Like water pressure in a pipe.</p></li>
+<li>
+<p><strong>Current:</strong> The flow of water itself.</p></li>
+<li>
+<p><strong>Resistance:</strong> Narrowness or friction in the pipe.</p></li=
+>
+<li>
+<p><strong>Power:</strong> How fast energy is being delivered (like how qui=
+ckly the water wheel spins).</p></li>
+<li>
+<p><strong>Energy:</strong> Total amount of work done over time (total wate=
+r turned into mechanical work).</p></li>
+<li>
+<p><strong>Independent Source:</strong> A steady water pump.</p></li>
+<li>
+<p><strong>Dependent Source:</strong> A pump whose output changes depending=
+ on another pressure/flow in the system.</p></li>
+</ul>
+<hr>
+<p>These are the foundational concepts you=E2=80=99ll use for analyzing any=
+ DC or AC electrical circuit.</p>
+<p></p>
+<ol start=3D"2">
+<li>
+<p>Basic laws of electrical circuits: Ohm=E2=80=99s law, Kirchoff s current=
+ law (KCL) and Kirchoff s voltage law (KVL)</p></li>
+</ol>
+<p>Here are the <strong>basic electrical circuit laws</strong> explained cl=
+early with formulas and simple examples:</p>
+<hr>
+<h2 id=3D"ElectricalCircuits-1=EF=B8=8F=E2=83=A3Ohm=E2=80=99sLaw">1=EF=B8=
+=8F=E2=83=A3 <strong>Ohm=E2=80=99s Law</strong></h2>
+<p><strong>Statement:</strong><br>
+The voltage (VV) across a resistor is directly proportional to the current =
+(II) through it, if temperature and other physical conditions remain consta=
+nt.</p>
+<p>V=3DI=C3=97R\boxed{ V =3D I \times R }</p>
+<ul>
+<li>
+<p><strong>V</strong>: Voltage (Volts, V)</p></li>
+<li>
+<p><strong>I</strong>: Current (Amperes, A)</p></li>
+<li>
+<p><strong>R</strong>: Resistance (Ohms, =CE=A9)</p></li>
+</ul>
+<p><strong>Rearranged forms:</strong></p>
+<p>I=3DVR,R=3DVII =3D \frac{V}{R}, \qquad R =3D \frac{V}{I}</p>
+<p><strong>Example:</strong><br>
+A 10 =CE=A9 resistor with 5 V across it =E2=87=92 Current =3D 5/10=3D0.55/1=
+0 =3D 0.5 A.</p>
+<hr>
+<h2 id=3D"ElectricalCircuits-2=EF=B8=8F=E2=83=A3Kirchhoff=E2=80=99sCurrentL=
+aw(KCL)">2=EF=B8=8F=E2=83=A3 <strong>Kirchhoff=E2=80=99s Current Law (KCL)<=
+/strong></h2>
+<p><strong>Statement:</strong><br>
+The algebraic sum of currents entering a node (junction) is zero.<br>
+Or: <strong>Total current entering a node =3D Total current leaving that no=
+de.</strong></p>
+<p>=E2=88=91Iin=3D=E2=88=91Iout\boxed{\sum I_{in} =3D \sum I_{out}}</p>
+<p>or equivalently</p>
+<p>=E2=88=91Ik=3D0\boxed{\sum I_k =3D 0}</p>
+<p>(where currents entering are positive and leaving negative, or vice vers=
+a, but keep a consistent sign convention).</p>
+<p><strong>Physical basis:</strong> Conservation of electric charge.</p>
+<p><strong>Example:</strong><br>
+At a junction: 2 A enters from left, 1 A enters from top, and currents leav=
+e through two wires I=E2=82=81 and I=E2=82=82.<br>
+KCL: 2+1=3DI1+I22 + 1 =3D I_1 + I_2.<br>
+If I=E2=82=81 =3D 1.5 A =E2=87=92 I=E2=82=82 =3D 1.5 A.</p>
+<hr>
+<h2 id=3D"ElectricalCircuits-3=EF=B8=8F=E2=83=A3Kirchhoff=E2=80=99sVoltageL=
+aw(KVL)">3=EF=B8=8F=E2=83=A3 <strong>Kirchhoff=E2=80=99s Voltage Law (KVL)<=
+/strong></h2>
+<p><strong>Statement:</strong><br>
+The algebraic sum of all voltages around any closed loop in a circuit is ze=
+ro.<br>
+Or: <strong>Sum of voltage rises =3D Sum of voltage drops</strong>.</p>
+<p>=E2=88=91Vk=3D0\boxed{\sum V_k =3D 0}</p>
+<p><strong>Physical basis:</strong> Conservation of energy in an electrical=
+ loop.</p>
+<p><strong>Example:</strong><br>
+A loop with a 12 V battery and two resistors (4 =CE=A9 and 2 =CE=A9) in ser=
+ies carrying current I:</p>
+<p>Voltage drops: 4I+2I=3D6I4I + 2I =3D 6I.<br>
+KVL: 12=E2=80=936I=3D0=E2=87=92I=3D2A12 =E2=80=93 6I =3D 0 \Rightarrow I =
+=3D 2 A.</p>
+<hr>
+<h2 id=3D"ElectricalCircuits-QuickAnalogy">Quick Analogy</h2>
+<ul>
+<li>
+<p><strong>Ohm=E2=80=99s law</strong>: Like water pressure vs. flow through=
+ a pipe with friction.</p></li>
+<li>
+<p><strong>KCL</strong>: Water flow at a junction=E2=80=94what comes in mus=
+t go out.</p></li>
+<li>
+<p><strong>KVL</strong>: Around a closed pipe loop, all pressure gains and =
+drops balance out.</p></li>
+</ul>
+<hr>
+<p>These three laws=E2=80=94<strong>Ohm=E2=80=99s law, KCL, and KVL</strong=
+>=E2=80=94are the foundation of all circuit analysis techniques such as nod=
+e-voltage method, mesh-current method, and more.</p>
+<p></p>
+<ol start=3D"3">
+<li>
+<p>Simple resistive circuits: scries and parallel circuits, voltage and cur=
+rent division, source transformation</p></li>
+</ol>
+<p>Here=E2=80=99s a clear, step-by-step guide to <strong>simple resistive c=
+ircuits</strong> and the key analysis techniques you asked about.</p>
+<hr>
+<h2 id=3D"ElectricalCircuits-1=EF=B8=8F=E2=83=A3SeriesandParallelCircuits">=
+1=EF=B8=8F=E2=83=A3 Series and Parallel Circuits</h2>
+<h3 id=3D"ElectricalCircuits-=F0=9F=94=B9Series">=F0=9F=94=B9 Series</h3>
+<p><em>Components share the <strong>same current</strong> because there is =
+only one path.</em></p>
+<ul>
+<li>
+<p><strong>Equivalent Resistance</strong></p>
+<p>Req=3DR1+R2+=E2=8B=AF+RnR_\text{eq} =3D R_1 + R_2 + \dots + R_n</p></li>
+<li>
+<p>Voltage divides across each resistor:</p>
+<p>Vk=3DI=C3=97RkV_k =3D I \times R_k</p></li>
+</ul>
+<h3 id=3D"ElectricalCircuits-=F0=9F=94=B9Parallel">=F0=9F=94=B9 Parallel</h=
+3>
+<p><em>Components share the <strong>same voltage</strong> because each end =
+is directly connected.</em></p>
+<ul>
+<li>
+<p><strong>Equivalent Resistance</strong></p>
+<p>1Req=3D1R1+1R2+=E2=8B=AF+1Rn\frac{1}{R_\text{eq}} =3D \frac{1}{R_1} + \f=
+rac{1}{R_2} + \dots + \frac{1}{R_n}</p></li>
+<li>
+<p>Current divides among branches:</p>
+<p>Ik=3DVRkI_k =3D \frac{V}{R_k}</p></li>
+</ul>
+<p><strong>Tip:</strong> Two resistors only:</p>
+<p>Req=3DR1R2R1+R2R_\text{eq} =3D \frac{R_1 R_2}{R_1 + R_2}</p>
+<hr>
+<h2 id=3D"ElectricalCircuits-2=EF=B8=8F=E2=83=A3VoltageDivisionRule">2=EF=
+=B8=8F=E2=83=A3 Voltage Division Rule</h2>
+<p>Used in <strong>series</strong> circuits.</p>
+<p>For total voltage VV across series resistors R1,R2,=E2=80=A6R_1, R_2, \d=
+ots:</p>
+<p>Vk=3DV=C3=97RkR1+R2+=E2=80=A6V_k =3D V \times \frac{R_k}{R_1 + R_2 + \do=
+ts}</p>
+<p><strong>Example:</strong><br>
+10 V across 2 k=CE=A9 and 3 k=CE=A9 in series =E2=86=92<br>
+Voltage across 3 k=CE=A9 =3D 10=C3=9735=3D6V10 \times \frac{3}{5} =3D 6 V.<=
+/p>
+<hr>
+<h2 id=3D"ElectricalCircuits-3=EF=B8=8F=E2=83=A3CurrentDivisionRule">3=EF=
+=B8=8F=E2=83=A3 Current Division Rule</h2>
+<p>Used in <strong>parallel</strong> circuits.</p>
+<p>For total current II entering two parallel resistors R1R_1 and R2R_2:</p=
+>
+<p>I1=3DI=C3=97R2R1+R2,I2=3DI=C3=97R1R1+R2I_1 =3D I \times \frac{R_2}{R_1 +=
+ R_2}, \qquad I_2 =3D I \times \frac{R_1}{R_1 + R_2}</p>
+<p><em>(Notice the current in one branch is proportional to the <strong>oth=
+er</strong> branch=E2=80=99s resistance.)</em></p>
+<hr>
+<h2 id=3D"ElectricalCircuits-4=EF=B8=8F=E2=83=A3SourceTransformation">4=EF=
+=B8=8F=E2=83=A3 Source Transformation</h2>
+<p>Allows you to <strong>replace</strong>:</p>
+<ul>
+<li>
+<p>a <strong>voltage source VsV_s</strong> in series with a resistor RR<br>=
+<strong>=E2=87=84</strong></p></li>
+<li>
+<p>a <strong>current source IsI_s</strong> in parallel with the same resist=
+or RR,</p></li>
+</ul>
+<p>provided:</p>
+<p>Is=3DVsRorVs=3DIs=C3=97RI_s =3D \frac{V_s}{R} \quad\text{or}\quad V_s =
+=3D I_s \times R</p>
+<p>This simplifies circuit analysis=E2=80=94handy for Thevenin/Norton equiv=
+alents.</p>
+<p><strong>Example:</strong><br>
+A 12 V source in series with 4 =CE=A9 =E2=86=92 equivalent to a 3 A current=
+ source in parallel with 4 =CE=A9.</p>
+<hr>
+<h2 id=3D"ElectricalCircuits-QuickDesignIntuition">Quick Design Intuition</=
+h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"43=
+ddbb52-f547-4a0a-849c-35c403721483" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Feature</p></th>
+<th class=3D"confluenceTh">
+<p>Series</p></th>
+<th class=3D"confluenceTh">
+<p>Parallel</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Current</p></td>
+<td class=3D"confluenceTd">
+<p>Same through all elements</p></td>
+<td class=3D"confluenceTd">
+<p>Splits; sum equals source current</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Voltage</p></td>
+<td class=3D"confluenceTd">
+<p>Splits across each element</p></td>
+<td class=3D"confluenceTd">
+<p>Same across all branches</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Equivalent R</p></td>
+<td class=3D"confluenceTd">
+<p>Adds directly</p></td>
+<td class=3D"confluenceTd">
+<p>Inverse-sum formula</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Power Sharing</p></td>
+<td class=3D"confluenceTd">
+<p>Each resistor dissipates I2RI^2 R</p></td>
+<td class=3D"confluenceTd">
+<p>Each dissipates V2R\frac{V^2}{R}</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h3 id=3D"ElectricalCircuits-PuttingItAllTogether">Putting It All Together<=
+/h3>
+<p>To analyze a simple resistive network:</p>
+<ol start=3D"1">
+<li>
+<p><strong>Combine series/parallel</strong> resistors step by step.</p></li=
+>
+<li>
+<p>Apply <strong>Ohm=E2=80=99s law</strong> to find total current or voltag=
+e.</p></li>
+<li>
+<p>Use <strong>voltage division</strong> or <strong>current division</stron=
+g> to find individual branch values.</p></li>
+<li>
+<p>If sources are awkward, perform a <strong>source transformation</strong>=
+ to simplify.</p></li>
+</ol>
+<p>These four tools=E2=80=94<strong>series/parallel reduction, voltage divi=
+sion, current division, and source transformation</strong>=E2=80=94form the=
+ everyday toolkit for DC circuit analysis.</p>
+<p></p>
+<p></p>
+<ol start=3D"4">
+<li>
+<p>Methods of analysis: nodal and mesh analysis</p></li>
+</ol>
+<p>Here=E2=80=99s a <strong>clear guide</strong> to the two fundamental cir=
+cuit=E2=80=93analysis methods:</p>
+<hr>
+<h2 id=3D"ElectricalCircuits-1=EF=B8=8F=E2=83=A3Nodal(Node-Voltage)Analysis=
+">1=EF=B8=8F=E2=83=A3 Nodal (Node-Voltage) Analysis</h2>
+<p><strong>Goal:</strong> Find the <strong>voltage at each node</strong> (r=
+elative to a reference/ground) using <strong>KCL</strong>.</p>
+<h3 id=3D"ElectricalCircuits-Steps">Steps</h3>
+<ol start=3D"1">
+<li>
+<p><strong>Choose a reference node</strong> (ground).</p></li>
+<li>
+<p><strong>Label voltages</strong> V1,V2,=E2=80=A6V_1, V_2, =E2=80=A6 at th=
+e remaining nodes.</p></li>
+<li>
+<p><strong>Write KCL</strong> at each non-reference node:</p>
+<p><em>Sum of currents leaving a node =3D 0.</em></p></li>
+<li>
+<p>Express each branch current as (Vnode=E2=88=92Vneighbor)/R(V_\text{node}=
+ - V_\text{neighbor})/R.</p></li>
+<li>
+<p>Solve the simultaneous equations.</p></li>
+</ol>
+<hr>
+<p><strong>Example</strong></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">   10 V
+(+) =E2=94=80=E2=94=80R1=3D2k=E2=94=80=E2=97=8F=E2=94=80R2=3D3k=E2=94=80(gr=
+ound)
+            |
+           R3=3D6k
+            |
+         (ground)
+</pre>
+</div>
+</div>
+<ul>
+<li>
+<p>Let node voltage =3D V1V_1.</p></li>
+<li>
+<p>KCL at node:</p>
+<p>V1=E2=88=92102000+V1=E2=88=9203000+V1=E2=88=9206000=3D0\frac{V_1 - 10}{2=
+000} + \frac{V_1 - 0}{3000} + \frac{V_1 - 0}{6000} =3D 0</p></li>
+<li>
+<p>Solve:</p>
+<p>V1(12000+13000+16000)=3D102000V_1 \left(\frac{1}{2000}+\frac{1}{3000}+\f=
+rac{1}{6000}\right) =3D \frac{10}{2000}</p>
+<p>=E2=87=92 V1=E2=89=882.7&nbsp;VV_1 =E2=89=88 2.7\ \text{V}.</p></li>
+</ul>
+<hr>
+<h2 id=3D"ElectricalCircuits-2=EF=B8=8F=E2=83=A3Mesh(Loop-Current)Analysis"=
+>2=EF=B8=8F=E2=83=A3 Mesh (Loop-Current) Analysis</h2>
+<p><strong>Goal:</strong> Find the <strong>current in each independent loop=
+</strong> using <strong>KVL</strong>.</p>
+<h3 id=3D"ElectricalCircuits-Steps.1">Steps</h3>
+<ol start=3D"1">
+<li>
+<p><strong>Identify meshes</strong> (smallest closed loops).</p></li>
+<li>
+<p><strong>Assign a mesh current</strong> I1,I2,=E2=80=A6I_1, I_2, =E2=80=
+=A6 clockwise or counter-clockwise.</p></li>
+<li>
+<p><strong>Write KVL</strong> around each mesh:</p>
+<p><em>Sum of voltage rises and drops =3D 0.</em></p></li>
+<li>
+<p>Shared components carry the algebraic difference of mesh currents.</p></=
+li>
+<li>
+<p>Solve the linear equations.</p></li>
+</ol>
+<hr>
+<p><strong>Example</strong></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">   R1=
+=3D4=CE=A9
+ =E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80R2=3D6=CE=A9=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=90
+ |               |
+10V            5V
+ |               |
+ =E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80R3=3D8=CE=A9=E2=94=
+=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=98
+</pre>
+</div>
+</div>
+<ul>
+<li>
+<p>Two meshes: left (I=E2=82=81) and right (I=E2=82=82).</p></li>
+<li>
+<p>KVL:</p>
+<ul>
+<li>
+<p>Left: 10 =E2=88=92 4I=E2=82=81 =E2=88=92 6(I=E2=82=81 =E2=88=92 I=E2=82=
+=82) =3D 0</p></li>
+<li>
+<p>Right: 5 =E2=88=92 8I=E2=82=82 =E2=88=92 6(I=E2=82=82 =E2=88=92 I=E2=82=
+=81) =3D 0</p></li>
+</ul></li>
+<li>
+<p>Solve simultaneously for I=E2=82=81 and I=E2=82=82.</p></li>
+</ul>
+<hr>
+<h2 id=3D"ElectricalCircuits-QuickComparison">Quick Comparison</h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"5c=
+79e8e9-6969-45f5-aabe-404a0b51cd9e" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Feature</p></th>
+<th class=3D"confluenceTh">
+<p>Nodal</p></th>
+<th class=3D"confluenceTh">
+<p>Mesh</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Main Unknowns</p></td>
+<td class=3D"confluenceTd">
+<p>Node <strong>voltages</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Loop <strong>currents</strong></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Fundamental Law</p></td>
+<td class=3D"confluenceTd">
+<p>Kirchhoff=E2=80=99s <strong>Current</strong> Law (KCL)</p></td>
+<td class=3D"confluenceTd">
+<p>Kirchhoff=E2=80=99s <strong>Voltage</strong> Law (KVL)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Best for</p></td>
+<td class=3D"confluenceTd">
+<p>Circuits with <strong>many voltage sources</strong>, few nodes</p></td>
+<td class=3D"confluenceTd">
+<p>Circuits with <strong>many current sources</strong>, few meshes</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Works With</p></td>
+<td class=3D"confluenceTd">
+<p>Any planar circuit (with some tweaks for non-planar)</p></td>
+<td class=3D"confluenceTd">
+<p>Planar circuits only</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h3 id=3D"ElectricalCircuits-PracticalTip">Practical Tip</h3>
+<ul>
+<li>
+<p><strong>Few nodes, many loops? =E2=86=92 Nodal.</strong></p></li>
+<li>
+<p><strong>Few loops, many nodes? =E2=86=92 Mesh.</strong></p></li>
+</ul>
+<p>Both methods are systematic ways to turn a schematic into a set of simul=
+taneous linear equations you can solve by hand or using software.</p>
+<p></p>
+<ol start=3D"5">
+<li>
+<p>Circuit theorems: Thevenin=E2=80=99s, Norton=E2=80=99s and superposition=
+ theorems, maximum power transfer and reciprocity theorem</p></li>
+</ol>
+<p>Here=E2=80=99s a <strong>concise, practical guide</strong> to the most i=
+mportant <strong>circuit theorems</strong> you listed=E2=80=94each with def=
+inition, steps, and a quick example idea.</p>
+<hr>
+<h2 id=3D"ElectricalCircuits-1=EF=B8=8F=E2=83=A3Thevenin=E2=80=99sTheorem">=
+1=EF=B8=8F=E2=83=A3 Thevenin=E2=80=99s Theorem</h2>
+<p><strong>Idea:</strong> Any linear two-terminal network of sources and re=
+sistors can be replaced by an <strong>equivalent voltage source (Vth)</stro=
+ng> in series with an <strong>equivalent resistance (Rth)</strong>.</p>
+<p><strong>Steps</strong></p>
+<ol start=3D"1">
+<li>
+<p><strong>Find Vth</strong>: Open-circuit the load terminals and calculate=
+ the voltage across them.</p></li>
+<li>
+<p><strong>Find Rth</strong>: Deactivate all independent sources</p>
+<ul>
+<li>
+<p>Voltage source =E2=86=92 short circuit</p></li>
+<li>
+<p>Current source =E2=86=92 open circuit<br>
+Then find the resistance seen at the load terminals.</p></li>
+</ul></li>
+<li>
+<p>Replace the whole network with <strong>Vth in series with Rth</strong> a=
+nd reattach the load.</p></li>
+</ol>
+<p><strong>Use:</strong> Simplifies complex networks when you vary the load=
+ resistor.</p>
+<hr>
+<h2 id=3D"ElectricalCircuits-2=EF=B8=8F=E2=83=A3Norton=E2=80=99sTheorem">2=
+=EF=B8=8F=E2=83=A3 Norton=E2=80=99s Theorem</h2>
+<p><strong>Dual of Thevenin:</strong> Any linear two-terminal network can b=
+e replaced by a <strong>current source (In)</strong> in parallel with a <st=
+rong>resistance (Rn)</strong>.</p>
+<ul>
+<li>
+<p><strong>In</strong> =3D short-circuit current through the output termina=
+ls.</p></li>
+<li>
+<p><strong>Rn</strong> =3D same as Rth (because it=E2=80=99s the same netwo=
+rk).</p></li>
+<li>
+<p>Conversion:</p>
+<p>Vth=3DIn=C3=97RnV_{th} =3D I_n \times R_{n}</p></li>
+</ul>
+<hr>
+<h2 id=3D"ElectricalCircuits-3=EF=B8=8F=E2=83=A3SuperpositionTheorem">3=EF=
+=B8=8F=E2=83=A3 Superposition Theorem</h2>
+<p><strong>Idea:</strong> In a linear circuit with <strong>multiple indepen=
+dent sources</strong>, the response (voltage or current) is the <strong>alg=
+ebraic sum</strong> of the responses caused by each source acting <strong>a=
+lone</strong>.</p>
+<p><strong>Steps</strong></p>
+<ol start=3D"1">
+<li>
+<p>Consider <strong>one source at a time</strong>.</p></li>
+<li>
+<p>Deactivate others:</p>
+<ul>
+<li>
+<p>Voltage source =E2=86=92 short circuit</p></li>
+<li>
+<p>Current source =E2=86=92 open circuit</p></li>
+</ul></li>
+<li>
+<p>Calculate the contribution from that source.</p></li>
+<li>
+<p>Add all individual contributions.</p></li>
+</ol>
+<p><strong>Tip:</strong> Only works for <strong>linear</strong> elements (r=
+esistors, capacitors, inductors in linear region).</p>
+<hr>
+<h2 id=3D"ElectricalCircuits-4=EF=B8=8F=E2=83=A3MaximumPowerTransferTheorem=
+">4=EF=B8=8F=E2=83=A3 Maximum Power Transfer Theorem</h2>
+<p><strong>Statement:</strong> A load receives <strong>maximum power</stron=
+g> from a linear source when</p>
+<p>RL=3DRthR_L =3D R_{th}</p>
+<p>(where RthR_{th} is the Thevenin resistance as seen from the load).</p>
+<ul>
+<li>
+<p><strong>Maximum power</strong>:</p>
+<p>Pmax=3DVth24RthP_{max} =3D \frac{V_{th}^2}{4 R_{th}}</p></li>
+<li>
+<p>Useful for <strong>communication circuits</strong> and <strong>impedance=
+ matching</strong>.</p></li>
+</ul>
+<hr>
+<h2 id=3D"ElectricalCircuits-5=EF=B8=8F=E2=83=A3ReciprocityTheorem">5=EF=B8=
+=8F=E2=83=A3 Reciprocity Theorem</h2>
+<p><strong>Statement:</strong> In a linear, bilateral network (no dependent=
+ sources), the current at a point B due to a voltage applied at point A is =
+<strong>the same</strong> as the current at A if the same voltage is applie=
+d at B.</p>
+<p>IA=E2=86=92B=E2=88=A3VA=3DIB=E2=86=92A=E2=88=A3VBI_{A\to B} \big|_{V_A} =
+=3D I_{B\to A} \big|_{V_B}</p>
+<ul>
+<li>
+<p>Mainly used in network verification and antenna/coupling analysis.</p></=
+li>
+</ul>
+<hr>
+<h3 id=3D"ElectricalCircuits-QuickExampleIdeas">Quick Example Ideas</h3>
+<ul>
+<li>
+<p><strong>Thevenin/Norton</strong>: Replace a complicated resistor network=
+ feeding a single load resistor=E2=80=94calculate easy load current.</p></l=
+i>
+<li>
+<p><strong>Superposition</strong>: Circuit with 10 V source and 5 A current=
+ source together=E2=80=94find branch currents by activating each separately=
+.</p></li>
+<li>
+<p><strong>Maximum Power Transfer</strong>: Audio amplifier output matched =
+to speaker impedance.</p></li>
+<li>
+<p><strong>Reciprocity</strong>: Two-port network=E2=80=94swap source and m=
+easurement points and observe same current.</p></li>
+</ul>
+<hr>
+<p>These theorems are standard tools in circuit analysis and design: they s=
+implify networks, help with impedance matching, and verify linear system be=
+havior.</p>
+<p></p>
+<ol start=3D"6">
+<li>
+<p>Capacitors and inductors: inductors and capacitors, their characteristic=
+s, series-parallel combination of inductors and capacitors; RLC Transients<=
+/p></li>
+</ol>
+<p>Here=E2=80=99s a <strong>complete, exam-ready overview</strong> of <stro=
+ng>capacitors, inductors, their combinations, and RLC transients</strong>:<=
+/p>
+<hr>
+<h2 id=3D"ElectricalCircuits-1=EF=B8=8F=E2=83=A3Capacitors">1=EF=B8=8F=E2=
+=83=A3 Capacitors</h2>
+<h3 id=3D"ElectricalCircuits-Characteristics">Characteristics</h3>
+<ul>
+<li>
+<p><strong>Stores energy in an electric field</strong></p>
+<p>i(t)=3DCdv(t)dti(t) =3D C \frac{d v(t)}{dt}</p></li>
+<li>
+<p>Voltage cannot change <strong>instantaneously</strong> (because that wou=
+ld require infinite current).</p></li>
+<li>
+<p>Energy stored:</p>
+<p>W=3D12CV2W =3D \tfrac{1}{2} C V^2</p></li>
+</ul>
+<hr>
+<h2 id=3D"ElectricalCircuits-2=EF=B8=8F=E2=83=A3Inductors">2=EF=B8=8F=E2=83=
+=A3 Inductors</h2>
+<h3 id=3D"ElectricalCircuits-Characteristics.1">Characteristics</h3>
+<ul>
+<li>
+<p><strong>Stores energy in a magnetic field</strong></p>
+<p>v(t)=3DLdi(t)dtv(t) =3D L \frac{d i(t)}{dt}</p></li>
+<li>
+<p>Current cannot change <strong>instantaneously</strong> (would need infin=
+ite voltage).</p></li>
+<li>
+<p>Energy stored:</p>
+<p>W=3D12LI2W =3D \tfrac{1}{2} L I^2</p></li>
+</ul>
+<hr>
+<h2 id=3D"ElectricalCircuits-3=EF=B8=8F=E2=83=A3Series&amp;ParallelCombinat=
+ions">3=EF=B8=8F=E2=83=A3 Series &amp; Parallel Combinations</h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"d9=
+1b98b9-875e-4833-959f-40c826b52eab" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Element</p></th>
+<th class=3D"confluenceTh">
+<p>Series</p></th>
+<th class=3D"confluenceTh">
+<p>Parallel</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Capacitors</strong></p></td>
+<td class=3D"confluenceTd">
+<p>1Ceq=3D=E2=88=911Ck\displaystyle \frac{1}{C_{eq}} =3D \sum \frac{1}{C_k}=
+</p></td>
+<td class=3D"confluenceTd">
+<p>Ceq=3D=E2=88=91CkC_{eq} =3D \sum C_k</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Inductors</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Leq=3D=E2=88=91LkL_{eq} =3D \sum L_k</p></td>
+<td class=3D"confluenceTd">
+<p>1Leq=3D=E2=88=911Lk\displaystyle \frac{1}{L_{eq}} =3D \sum \frac{1}{L_k}=
+</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><em>Opposite patterns:</em></p>
+<ul>
+<li>
+<p>Capacitors add like resistors <strong>in parallel</strong>.</p></li>
+<li>
+<p>Inductors add like resistors <strong>in series</strong>.</p></li>
+</ul>
+<hr>
+<h2 id=3D"ElectricalCircuits-4=EF=B8=8F=E2=83=A3RLCTransients(StepResponse)=
+">4=EF=B8=8F=E2=83=A3 RLC Transients (Step Response)</h2>
+<p>When a switch changes position, voltages and currents <strong>transition=
+</strong> over time.<br>
+Two common circuits:</p>
+<h3 id=3D"ElectricalCircuits-a)RCCircuit(firstorder)">a) <strong>RC Circuit=
+ (first order)</strong></h3>
+<p>Charging a capacitor through R from a DC source VsV_s:</p>
+<p>vC(t)=3DVs(1=E2=88=92e=E2=88=92t/RC)v_C(t) =3D V_s \left(1 - e^{-t/RC}\r=
+ight)</p>
+<p>Discharge:</p>
+<p>vC(t)=3DV0e=E2=88=92t/RCv_C(t) =3D V_0 e^{-t/RC}</p>
+<p>Time constant =CF=84=3DRC\tau =3D R C.</p>
+<hr>
+<h3 id=3D"ElectricalCircuits-b)RLCircuit(firstorder)">b) <strong>RL Circuit=
+ (first order)</strong></h3>
+<p>Current rise with source VsV_s:</p>
+<p>iL(t)=3DVsR(1=E2=88=92e=E2=88=92tR/L)i_L(t) =3D \frac{V_s}{R}\left(1 - e=
+^{-tR/L}\right)</p>
+<p>Decay:</p>
+<p>iL(t)=3DI0e=E2=88=92tR/Li_L(t) =3D I_0 e^{-tR/L}</p>
+<p>Time constant =CF=84=3DLR\tau =3D \frac{L}{R}.</p>
+<hr>
+<h3 id=3D"ElectricalCircuits-c)RLCCircuit(secondorder)">c) <strong>RLC Circ=
+uit (second order)</strong></h3>
+<p>Series R=E2=80=93L=E2=80=93C with step input:</p>
+<p>d2idt2+RLdidt+1LCi=3DVsL=CE=B4(t)\frac{d^2 i}{dt^2} + \frac{R}{L}\frac{d=
+i}{dt} + \frac{1}{LC} i =3D \frac{V_s}{L}\delta(t)</p>
+<p>Define:</p>
+<ul>
+<li>
+<p>Natural frequency: =CF=890=3D1LC\omega_0 =3D \frac{1}{\sqrt{LC}}</p></li=
+>
+<li>
+<p>Damping factor: =CE=B1=3DR2L\alpha =3D \frac{R}{2L}</p></li>
+</ul>
+<p>Cases:</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"eb=
+361a84-cf61-4bb4-8e97-b44869aa7a86" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Condition</p></th>
+<th class=3D"confluenceTh">
+<p>Response</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Underdamped</strong> (=CE=B1&lt;=CF=890\alpha &lt; \omega_0)</p>=
+</td>
+<td class=3D"confluenceTd">
+<p>Oscillatory decay: i(t)=3De=E2=88=92=CE=B1t(Acos=E2=81=A1=CF=89dt+Bsin=
+=E2=81=A1=CF=89dt)i(t) =3D e^{-\alpha t}\left(A\cos \omega_d t + B\sin \ome=
+ga_d t\right), =CF=89d=3D=CF=8902=E2=88=92=CE=B12\omega_d =3D \sqrt{\omega_=
+0^2 - \alpha^2}</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Critically damped</strong> (=CE=B1=3D=CF=890\alpha =3D \omega_0)=
+</p></td>
+<td class=3D"confluenceTd">
+<p>Fastest non-oscillatory return to steady state.</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Overdamped</strong> (=CE=B1&gt;=CF=890\alpha &gt; \omega_0)</p><=
+/td>
+<td class=3D"confluenceTd">
+<p>Two real exponential decays, no oscillation.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id=3D"ElectricalCircuits-KeyTakeaways">Key Takeaways</h2>
+<ul>
+<li>
+<p><strong>Capacitor voltage</strong> and <strong>inductor current</strong>=
+ are continuous across a switching instant.</p></li>
+<li>
+<p>Combine C and L just like resistors but with <em>opposite</em> series/pa=
+rallel rules.</p></li>
+<li>
+<p>RLC transients depend on <strong>damping</strong> and can oscillate if u=
+nderdamped.</p></li>
+</ul>
+<p>This foundation lets you tackle charging/discharging problems, filter de=
+sign, and AC resonance analysis with confidence.</p>
+<p></p>
+<ol start=3D"7">
+<li>
+<p>Series and parallel AC circuits</p></li>
+</ol>
+<p>Here=E2=80=99s a <strong>clear, exam-friendly guide</strong> to <strong>=
+series and parallel AC circuits</strong>=E2=80=94how to analyze them and wh=
+at to watch for.</p>
+<hr>
+<h2 id=3D"ElectricalCircuits-1=EF=B8=8F=E2=83=A3BasicsofACQuantities">1=EF=
+=B8=8F=E2=83=A3 Basics of AC Quantities</h2>
+<ul>
+<li>
+<p><strong>Voltage/Current</strong> are sinusoidal:</p>
+<p>v(t)=3DVmsin=E2=81=A1(=CF=89t+=CE=B8v),i(t)=3DImsin=E2=81=A1(=CF=89t+=CE=
+=B8i)v(t) =3D V_\mathrm{m}\sin(\omega t + \theta_v),\qquad i(t) =3D I_\math=
+rm{m}\sin(\omega t + \theta_i)</p></li>
+<li>
+<p>Use <strong>RMS values</strong> and <strong>phasors</strong> (complex nu=
+mbers) for steady-state analysis.</p></li>
+<li>
+<p><strong>Impedance ZZ</strong> (generalized resistance):</p>
+<ul>
+<li>
+<p>Resistor: ZR=3DRZ_R =3D R (angle 0=C2=B0)</p></li>
+<li>
+<p>Inductor: ZL=3Dj=CF=89LZ_L =3D j\omega L (angle +90=C2=B0)</p></li>
+<li>
+<p>Capacitor: ZC=3D1j=CF=89CZ_C =3D \dfrac{1}{j\omega C} (angle =E2=80=9390=
+=C2=B0)</p></li>
+</ul></li>
+</ul>
+<p>Current=E2=80=93voltage relationship:</p>
+<p>I=E2=80=BE=3DV=E2=80=BEZ=E2=80=BE\underline{I} =3D \frac{\underline{V}}{=
+\underline{Z}}</p>
+<hr>
+<h2 id=3D"ElectricalCircuits-2=EF=B8=8F=E2=83=A3SeriesACCircuits">2=EF=B8=
+=8F=E2=83=A3 Series AC Circuits</h2>
+<p>All elements share <strong>same current</strong>, voltages add <strong>p=
+hasorially</strong>.</p>
+<ul>
+<li>
+<p><strong>Total impedance</strong></p>
+<p>Zeq=3DR+j(=CF=89L=E2=88=921=CF=89C)Z_\text{eq} =3D R + j(\omega L - \tfr=
+ac{1}{\omega C})</p>
+<p>(for an RLC series circuit)</p></li>
+<li>
+<p>Magnitude:</p>
+<p>=E2=88=A3Z=E2=88=A3=3DR2+(=CF=89L=E2=88=921=CF=89C)2|Z| =3D \sqrt{R^2 + =
+\bigl(\omega L - \tfrac{1}{\omega C}\bigr)^2}</p></li>
+<li>
+<p>Phase angle (between voltage and current):</p>
+<p>=CF=95=3Dtan=E2=81=A1=E2=88=921=E2=80=89=E2=81=A3(=CF=89L=E2=88=921=CF=
+=89CR)\phi =3D \tan^{-1}\!\left(\frac{\omega L - \frac{1}{\omega C}}{R}\rig=
+ht)</p>
+<p><em>Positive</em> =E2=87=92 circuit is <strong>inductive</strong> (curre=
+nt lags).<br><em>Negative</em> =E2=87=92 <strong>capacitive</strong> (curre=
+nt leads).</p></li>
+<li>
+<p><strong>Resonance (series)</strong> when =CF=89L=3D1/=CF=89C\omega L =3D=
+ 1/\omega C =E2=86=92 purely resistive, current maximum.</p></li>
+</ul>
+<hr>
+<h2 id=3D"ElectricalCircuits-3=EF=B8=8F=E2=83=A3ParallelACCircuits">3=EF=B8=
+=8F=E2=83=A3 Parallel AC Circuits</h2>
+<p>All elements share <strong>same voltage</strong>, currents add <strong>p=
+hasorially</strong>.</p>
+<ul>
+<li>
+<p>Easier to work with <strong>admittance Y=3D1/ZY =3D 1/Z</strong>:</p>
+<ul>
+<li>
+<p>Resistor: YR=3D1/RY_R =3D 1/R</p></li>
+<li>
+<p>Inductor: YL=3D1/(j=CF=89L)=3D=E2=88=92j/(=CF=89L)Y_L =3D 1/(j\omega L) =
+=3D -j/( \omega L)</p></li>
+<li>
+<p>Capacitor: YC=3Dj=CF=89CY_C =3D j\omega C</p></li>
+</ul></li>
+<li>
+<p><strong>Total admittance</strong></p>
+<p>Yeq=3DYR+YL+YCY_\text{eq} =3D Y_R + Y_L + Y_C</p>
+<p>and</p>
+<p>Zeq=3D1YeqZ_\text{eq} =3D \frac{1}{Y_\text{eq}}</p></li>
+<li>
+<p>Phase angle is determined by the net susceptance (imaginary part of Y).<=
+/p></li>
+<li>
+<p><strong>Parallel resonance (anti-resonance)</strong> occurs when total i=
+maginary part of Y =3D 0 =E2=86=92 current minimum.</p></li>
+</ul>
+<hr>
+<h2 id=3D"ElectricalCircuits-4=EF=B8=8F=E2=83=A3PowerinACCircuits">4=EF=B8=
+=8F=E2=83=A3 Power in AC Circuits</h2>
+<ul>
+<li>
+<p><strong>Real power</strong> P=3DVrmsIrmscos=E2=81=A1=CF=95P =3D V_\text{=
+rms} I_\text{rms} \cos \phi (watts)</p></li>
+<li>
+<p><strong>Reactive power</strong> Q=3DVrmsIrmssin=E2=81=A1=CF=95Q =3D V_\t=
+ext{rms} I_\text{rms} \sin \phi (VAR)</p></li>
+<li>
+<p><strong>Apparent power</strong> S=3DVrmsIrmsS =3D V_\text{rms} I_\text{r=
+ms} (VA)</p></li>
+<li>
+<p><strong>Power factor</strong> =3D cos=E2=81=A1=CF=95\cos \phi (leading i=
+f capacitive, lagging if inductive).</p></li>
+</ul>
+<hr>
+<h2 id=3D"ElectricalCircuits-5=EF=B8=8F=E2=83=A3QuickExample">5=EF=B8=8F=E2=
+=83=A3 Quick Example</h2>
+<p><strong>Series RLC:</strong><br>
+R =3D 20 =CE=A9, L =3D 0.1 H, C =3D 100 =C2=B5F, f =3D 50 Hz.<br>
+=CF=89=3D2=CF=8050=3D314&nbsp;rad/s\omega =3D 2\pi 50 =3D 314\ \text{rad/s}=
+.</p>
+<ul>
+<li>
+<p>XL=3D=CF=89L=3D31.4&nbsp;=CE=A9X_L =3D \omega L =3D 31.4\ =CE=A9</p></li=
+>
+<li>
+<p>XC=3D1/(=CF=89C)=3D31.8&nbsp;=CE=A9X_C =3D 1/(\omega C) =3D 31.8\ =CE=A9=
+</p></li>
+<li>
+<p>Net reactance =E2=89=88 =E2=80=930.4 =CE=A9 (slightly capacitive)</p></l=
+i>
+<li>
+<p>Z=E2=89=88202+0.42=E2=89=8820.0&nbsp;=CE=A9Z =E2=89=88 \sqrt{20^2 + 0.4^=
+2} =E2=89=88 20.0\ =CE=A9<br>
+Nearly at resonance.</p></li>
+</ul>
+<hr>
+<h3 id=3D"ElectricalCircuits-KeyTakeaways.1">Key Takeaways</h3>
+<ul>
+<li>
+<p><strong>Series AC</strong>: Same current, add impedances directly.</p></=
+li>
+<li>
+<p><strong>Parallel AC</strong>: Same voltage, add <strong>admittances</str=
+ong> (or reciprocals of impedances).</p></li>
+<li>
+<p>Use phasor diagrams to visualize phase relationships.</p></li>
+<li>
+<p>Resonance can dramatically change current or voltage depending on config=
+uration.</p></li>
+</ul>
+<p>These tools let you analyze any R, L, C network under sinusoidal steady-=
+state conditions.</p>
+<p></p>
+<ol start=3D"8">
+<li>
+<p>impedance and phasor diagram, series and parallel networks, voltage divi=
+der rule, admittance and susceptance</p></li>
+</ol>
+<p>Here=E2=80=99s a <strong>complete explanation</strong> of the requested =
+AC-circuit concepts, kept clear and practical.</p>
+<hr>
+<h2 id=3D"ElectricalCircuits-1=EF=B8=8F=E2=83=A3Impedance">1=EF=B8=8F=E2=83=
+=A3 Impedance</h2>
+<p>In AC circuits, <strong>impedance ZZ</strong> is the generalized =E2=80=
+=9Cresistance=E2=80=9D to sinusoidal current:</p>
+<p>Z=3DR+jX\boxed{Z =3D R + jX}</p>
+<ul>
+<li>
+<p><strong>R</strong> =3D resistance (real part, in ohms)</p></li>
+<li>
+<p><strong>X</strong> =3D reactance (imaginary part, in ohms)</p>
+<ul>
+<li>
+<p>Inductive reactance XL=3D+=CF=89LX_L =3D +\omega L</p></li>
+<li>
+<p>Capacitive reactance XC=3D=E2=88=921=CF=89CX_C =3D -\dfrac{1}{\omega C}<=
+/p></li>
+</ul></li>
+</ul>
+<p>Magnitude and phase:</p>
+<p>=E2=88=A3Z=E2=88=A3=3DR2+X2,=CE=B8Z=3Dtan=E2=81=A1=E2=88=921=E2=80=89=E2=
+=81=A3(XR)|Z| =3D \sqrt{R^2 + X^2}, \qquad \theta_Z =3D \tan^{-1}\!\left(\f=
+rac{X}{R}\right)</p>
+<p>Voltage=E2=80=93current relationship (phasor form):</p>
+<p>V=E2=80=BE=3DI=E2=80=BE=E2=80=89Z\underline{V} =3D \underline{I} \, Z</p=
+>
+<hr>
+<h2 id=3D"ElectricalCircuits-2=EF=B8=8F=E2=83=A3PhasorDiagram">2=EF=B8=8F=
+=E2=83=A3 Phasor Diagram</h2>
+<p>A <strong>phasor</strong> is a rotating vector representing a sinusoid=
+=E2=80=99s magnitude and phase.</p>
+<ul>
+<li>
+<p>Draw current II as reference (0=C2=B0) or voltage depending on preferenc=
+e.</p></li>
+<li>
+<p>For a series <strong>R=E2=80=93L</strong> circuit:</p>
+<ul>
+<li>
+<p>Voltage across R is in phase with I.</p></li>
+<li>
+<p>Voltage across L leads I by +90=C2=B0.</p></li>
+<li>
+<p>Total voltage =3D vector sum of the two.</p></li>
+</ul></li>
+<li>
+<p>For a series <strong>R=E2=80=93C</strong> circuit:</p>
+<ul>
+<li>
+<p>Capacitor voltage lags I by =E2=80=9390=C2=B0.</p></li>
+</ul></li>
+</ul>
+<p>This vector addition gives the total phase angle of the circuit.</p>
+<hr>
+<h2 id=3D"ElectricalCircuits-3=EF=B8=8F=E2=83=A3SeriesandParallelNetworks">=
+3=EF=B8=8F=E2=83=A3 Series and Parallel Networks</h2>
+<h3 id=3D"ElectricalCircuits-Series">Series</h3>
+<ul>
+<li>
+<p>Same <strong>current</strong> through all components.</p></li>
+<li>
+<p>Total impedance:</p>
+<p>Zeq=3DZ1+Z2+=E2=80=A6Z_{eq} =3D Z_1 + Z_2 + \dots</p></li>
+</ul>
+<h3 id=3D"ElectricalCircuits-Parallel">Parallel</h3>
+<ul>
+<li>
+<p>Same <strong>voltage</strong> across each branch.</p></li>
+<li>
+<p>Total impedance:</p>
+<p>1Zeq=3D1Z1+1Z2+=E2=80=A6\frac{1}{Z_{eq}} =3D \frac{1}{Z_1} + \frac{1}{Z_=
+2} + \dots</p></li>
+<li>
+<p>Often easier to work with <strong>admittance</strong> (see below).</p></=
+li>
+</ul>
+<hr>
+<h2 id=3D"ElectricalCircuits-4=EF=B8=8F=E2=83=A3VoltageDividerRule(ACVersio=
+n)">4=EF=B8=8F=E2=83=A3 Voltage Divider Rule (AC Version)</h2>
+<p>For two or more impedances in <strong>series</strong>:</p>
+<p>Vk=3DVtotal=C3=97ZkZ1+Z2+=E2=80=A6V_k =3D V_{total} \times \frac{Z_k}{Z_=
+1 + Z_2 + \dots}</p>
+<p>Because impedances are complex, this gives both magnitude and phase of e=
+ach branch voltage.</p>
+<hr>
+<h2 id=3D"ElectricalCircuits-5=EF=B8=8F=E2=83=A3AdmittanceandSusceptance">5=
+=EF=B8=8F=E2=83=A3 Admittance and Susceptance</h2>
+<p><strong>Admittance YY</strong> is the reciprocal of impedance:</p>
+<p>Y=3D1Z=3DG+jB\boxed{Y =3D \frac{1}{Z}} =3D G + jB</p>
+<ul>
+<li>
+<p><strong>G</strong> =3D Conductance (real part, in siemens, S)</p></li>
+<li>
+<p><strong>B</strong> =3D Susceptance (imaginary part, in siemens, S)</p></=
+li>
+</ul>
+<p>Where</p>
+<ul>
+<li>
+<p>Inductor susceptance BL=3D=E2=88=921=CF=89LB_L =3D -\dfrac{1}{\omega L}<=
+/p></li>
+<li>
+<p>Capacitor susceptance BC=3D+=CF=89CB_C =3D +\omega C</p></li>
+</ul>
+<p>Parallel circuits add <strong>admittances directly</strong>:</p>
+<p>Yeq=3DY1+Y2+=E2=80=A6Y_{eq} =3D Y_1 + Y_2 + \dots</p>
+<p>then Zeq=3D1/YeqZ_{eq} =3D 1 / Y_{eq}.</p>
+<hr>
+<h3 id=3D"ElectricalCircuits-QuickExample">Quick Example</h3>
+<p>Parallel R=E2=80=93C branch:</p>
+<ul>
+<li>
+<p>R =3D 100 =CE=A9, C =3D 50 =C2=B5F, f =3D 60 Hz</p></li>
+<li>
+<p>YR=3D1/100=3D0.01&nbsp;SY_R =3D 1/100 =3D 0.01\ S</p></li>
+<li>
+<p>BC=3D=CF=89C=3D2=CF=8060=C3=9750=C3=9710=E2=88=926=E2=89=880.0189&nbsp;S=
+B_C =3D \omega C =3D 2\pi 60 =C3=97 50=C3=9710^{-6} =E2=89=88 0.0189\ S</p>=
+</li>
+<li>
+<p>Total admittance: Y=3D0.01+j0.0189&nbsp;SY =3D 0.01 + j0.0189\ S</p></li=
+>
+<li>
+<p>Magnitude |Y| =E2=89=88 0.0215 S =E2=86=92 Z_eq =E2=89=88 46.5 =CE=A9 at=
+ angle =E2=80=9362=C2=B0.</p></li>
+</ul>
+<hr>
+<h3 id=3D"ElectricalCircuits-KeyTakeaways.2">Key Takeaways</h3>
+<ul>
+<li>
+<p><strong>Impedance (Z)</strong> combines resistance and reactance.</p></l=
+i>
+<li>
+<p><strong>Phasor diagrams</strong> visualize magnitude and phase relations=
+hips.</p></li>
+<li>
+<p><strong>Voltage divider</strong> works with complex impedances for AC.</=
+p></li>
+<li>
+<p><strong>Admittance (Y)</strong> is convenient for <strong>parallel</stro=
+ng> networks; its imaginary part is <strong>susceptance (B)</strong>.</p></=
+li>
+</ul>
+<p>Mastering these concepts lets you analyze any AC network quickly and acc=
+urately.</p>
+<p></p>
+<ol start=3D"9">
+<li>
+<p>mesh and nodal analysis, wye-delta and delta-wye conversions</p></li>
+</ol>
+<p>Here=E2=80=99s a <strong>concise, step-by-step guide</strong> to the top=
+ics you asked for:</p>
+<hr>
+<h2 id=3D"ElectricalCircuits-1=EF=B8=8F=E2=83=A3Mesh(Loop-Current)Analysis"=
+>1=EF=B8=8F=E2=83=A3 Mesh (Loop-Current) Analysis</h2>
+<p><strong>Purpose:</strong> Find unknown <strong>currents</strong> in plan=
+ar circuits using <strong>Kirchhoff=E2=80=99s Voltage Law (KVL).</strong></=
+p>
+<h3 id=3D"ElectricalCircuits-Steps.2">Steps</h3>
+<ol start=3D"1">
+<li>
+<p><strong>Identify meshes</strong> (independent loops with no interior bra=
+nches).</p></li>
+<li>
+<p><strong>Assign a mesh current</strong> I1,I2,=E2=80=A6I_1, I_2, =E2=80=
+=A6 (choose clockwise or counter-clockwise).</p></li>
+<li>
+<p><strong>Write KVL</strong> for each mesh:</p>
+<p>=E2=88=91(voltage&nbsp;drops&nbsp;and&nbsp;rises)=3D0\sum (\text{voltage=
+ drops and rises}) =3D 0</p></li>
+<li>
+<p>Shared elements have voltage drop proportional to the <strong>difference=
+</strong> of mesh currents.</p></li>
+<li>
+<p>Solve the simultaneous equations for all IkI_k.</p></li>
+</ol>
+<p><strong>Tip:</strong> Best when the circuit has <strong>fewer meshes tha=
+n nodes</strong>.</p>
+<hr>
+<h2 id=3D"ElectricalCircuits-2=EF=B8=8F=E2=83=A3Nodal(Node-Voltage)Analysis=
+">2=EF=B8=8F=E2=83=A3 Nodal (Node-Voltage) Analysis</h2>
+<p><strong>Purpose:</strong> Find unknown <strong>node voltages</strong> us=
+ing <strong>Kirchhoff=E2=80=99s Current Law (KCL).</strong></p>
+<h3 id=3D"ElectricalCircuits-Steps.3">Steps</h3>
+<ol start=3D"1">
+<li>
+<p>Choose a <strong>reference (ground) node</strong>.</p></li>
+<li>
+<p>Label unknown node voltages V1,V2,=E2=80=A6V_1, V_2, =E2=80=A6.</p></li>
+<li>
+<p>For each node, write KCL:</p>
+<p>=E2=88=91Vnode=E2=88=92VneighborR=3D0\sum \frac{V_\text{node} - V_\text{=
+neighbor}}{R} =3D 0</p></li>
+<li>
+<p>Include current-source contributions as needed.</p></li>
+<li>
+<p>Solve the simultaneous equations for all VkV_k.</p></li>
+</ol>
+<p><strong>Tip:</strong> Best when the circuit has <strong>fewer nodes than=
+ meshes</strong> or many current sources.</p>
+<hr>
+<h2 id=3D"ElectricalCircuits-3=EF=B8=8F=E2=83=A3Wye=E2=80=93Delta(Y=E2=80=
+=93=CE=94)Conversions">3=EF=B8=8F=E2=83=A3 Wye=E2=80=93Delta (Y=E2=80=93=CE=
+=94) Conversions</h2>
+<p>When three resistors (or impedances) form a <strong>three-terminal netwo=
+rk</strong>, you can convert between <strong>star (Y or Wye)</strong> and <=
+strong>triangle (=CE=94 or Delta)</strong> to simplify series/parallel redu=
+ction.</p>
+<h3 id=3D"ElectricalCircuits-a)Delta=E2=86=92Wye">a) Delta =E2=86=92 Wye</h=
+3>
+<p>Given =CE=94 resistors Rab,Rbc,RcaR_{ab}, R_{bc}, R_{ca}:</p>
+<p>Ra=3DRabRcaRab+Rbc+Rca,Rb=3DRabRbcRab+Rbc+Rca,Rc=3DRbcRcaRab+Rbc+Rca.\be=
+gin{aligned} R_a &amp;=3D \frac{R_{ab} R_{ca}}{R_{ab} + R_{bc} + R_{ca}}, \=
+\ R_b &amp;=3D \frac{R_{ab} R_{bc}}{R_{ab} + R_{bc} + R_{ca}}, \\ R_c &amp;=
+=3D \frac{R_{bc} R_{ca}}{R_{ab} + R_{bc} + R_{ca}}. \end{aligned}</p>
+<p>Where RaR_a is the Wye resistor connected to node a, etc.</p>
+<hr>
+<h3 id=3D"ElectricalCircuits-b)Wye=E2=86=92Delta">b) Wye =E2=86=92 Delta</h=
+3>
+<p>Given Y resistors Ra,Rb,RcR_a, R_b, R_c:</p>
+<p>Rab=3DRaRb+RbRc+RcRaRc,Rbc=3DRaRb+RbRc+RcRaRa,Rca=3DRaRb+RbRc+RcRaRb.\be=
+gin{aligned} R_{ab} &amp;=3D \frac{R_a R_b + R_b R_c + R_c R_a}{R_c}, \\ R_=
+{bc} &amp;=3D \frac{R_a R_b + R_b R_c + R_c R_a}{R_a}, \\ R_{ca} &amp;=3D \=
+frac{R_a R_b + R_b R_c + R_c R_a}{R_b}. \end{aligned}</p>
+<hr>
+<h3 id=3D"ElectricalCircuits-WhentoUse">When to Use</h3>
+<ul>
+<li>
+<p>A 3-node network that can=E2=80=99t be simplified by basic series/parall=
+el rules.</p></li>
+<li>
+<p>Common in bridge circuits or unbalanced three-phase loads.</p></li>
+</ul>
+<hr>
+<h3 id=3D"ElectricalCircuits-QuickWorkflowExample">Quick Workflow Example</=
+h3>
+<ol start=3D"1">
+<li>
+<p><strong>Spot</strong> a =CE=94 of three resistors blocking easy simplifi=
+cation.</p></li>
+<li>
+<p><strong>Convert</strong> to Y using the first set of formulas.</p></li>
+<li>
+<p><strong>Combine</strong> the resulting series/parallel resistors.</p></l=
+i>
+<li>
+<p>Optionally <strong>back-convert</strong> if needed for final values.</p>=
+</li>
+</ol>
+<hr>
+<p><strong>Summary Table</strong></p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"8d=
+8e2264-c06f-4791-bd17-ced671c99aed" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Technique</p></th>
+<th class=3D"confluenceTh">
+<p>Find Unknowns</p></th>
+<th class=3D"confluenceTh">
+<p>Governing Law</p></th>
+<th class=3D"confluenceTh">
+<p>Best Use Case</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Mesh</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Loop currents</p></td>
+<td class=3D"confluenceTd">
+<p>KVL</p></td>
+<td class=3D"confluenceTd">
+<p>Fewer meshes, mostly voltage sources</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Nodal</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Node voltages</p></td>
+<td class=3D"confluenceTd">
+<p>KCL</p></td>
+<td class=3D"confluenceTd">
+<p>Fewer nodes, many current sources</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Wye=E2=80=93Delta</strong></p></td>
+<td class=3D"confluenceTd">
+<p>=E2=80=94</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=80=94</p></td>
+<td class=3D"confluenceTd">
+<p>Simplify 3-terminal resistor/impedance clusters</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>These methods are fundamental for systematically solving both DC and AC =
+circuits, including resistive and complex-impedance networks.</p>
+<p></p>
+<ol start=3D"10">
+<li>
+<p>superposition theorem, Thevenin=E2=80=99s theorem, Norton=E2=80=99s theo=
+rem, maximum power transfer theorem.</p></li>
+</ol>
+<p>Here=E2=80=99s a <strong>concise but detailed</strong> guide to the four=
+ major circuit theorems=E2=80=94each with definition, step-by-step method, =
+and a quick example idea.</p>
+<hr>
+<h2 id=3D"ElectricalCircuits-1=EF=B8=8F=E2=83=A3SuperpositionTheorem">1=EF=
+=B8=8F=E2=83=A3 Superposition Theorem</h2>
+<p><strong>Principle:</strong><br>
+In a <em>linear</em> circuit with multiple independent sources, the total c=
+urrent or voltage in any element is the <strong>algebraic sum</strong> of t=
+he effects produced by each source acting <strong>alone</strong>.</p>
+<p><strong>Steps</strong></p>
+<ol start=3D"1">
+<li>
+<p><strong>Choose one independent source</strong> to keep active.</p>
+<ul>
+<li>
+<p>Turn <strong>off</strong> all others:</p>
+<ul>
+<li>
+<p>Voltage source =E2=86=92 replace with a <strong>short circuit</strong>.<=
+/p></li>
+<li>
+<p>Current source =E2=86=92 replace with an <strong>open circuit</strong>.<=
+/p></li>
+</ul></li>
+</ul></li>
+<li>
+<p>Find the voltage or current contribution from that single source.</p></l=
+i>
+<li>
+<p>Repeat for every independent source.</p></li>
+<li>
+<p>Add all contributions (consider sign/phase for AC).</p></li>
+</ol>
+<p><strong>Use Case Example:</strong><br>
+Circuit with a 10 V voltage source and a 5 A current source=E2=80=94calcula=
+te branch currents by activating each source separately and summing the res=
+ults.</p>
+<hr>
+<h2 id=3D"ElectricalCircuits-2=EF=B8=8F=E2=83=A3Thevenin=E2=80=99sTheorem">=
+2=EF=B8=8F=E2=83=A3 Thevenin=E2=80=99s Theorem</h2>
+<p><strong>Principle:</strong><br>
+Any linear two-terminal network of sources and resistors can be replaced by=
+ a <strong>single voltage source VthV_{th}</strong> in series with a <stron=
+g>single resistor RthR_{th}</strong>.</p>
+<p><strong>Steps</strong></p>
+<ol start=3D"1">
+<li>
+<p><strong>Remove the load</strong> across the two terminals of interest.</=
+p></li>
+<li>
+<p><strong>Find VthV_{th}:</strong> the open-circuit voltage across those t=
+erminals.</p></li>
+<li>
+<p><strong>Find RthR_{th}:</strong></p>
+<ul>
+<li>
+<p>Deactivate all independent sources (short voltage sources, open current =
+sources).</p></li>
+<li>
+<p>Compute the equivalent resistance seen from the terminals.</p></li>
+</ul></li>
+<li>
+<p>Re-attach the load as VthV_{th} in series with RthR_{th}.</p></li>
+</ol>
+<p><strong>Example Idea:</strong><br>
+Simplify a bridge network feeding a single load resistor to an easy one-sou=
+rce/one-resistor circuit.</p>
+<hr>
+<h2 id=3D"ElectricalCircuits-3=EF=B8=8F=E2=83=A3Norton=E2=80=99sTheorem">3=
+=EF=B8=8F=E2=83=A3 Norton=E2=80=99s Theorem</h2>
+<p><strong>Principle:</strong><br>
+Any linear two-terminal network can be replaced by a <strong>single current=
+ source INI_{N}</strong> in parallel with a <strong>single resistor RNR_{N}=
+</strong>.</p>
+<ul>
+<li>
+<p>RN=3DRthR_{N} =3D R_{th}.</p></li>
+<li>
+<p>INI_{N} =3D short-circuit current across the output terminals.</p></li>
+</ul>
+<p><strong>Conversion:</strong></p>
+<p>Vth=3DIN=C3=97RNV_{th} =3D I_{N} \times R_{N}</p>
+<p>So you can swap between Thevenin and Norton forms as needed.</p>
+<hr>
+<h2 id=3D"ElectricalCircuits-4=EF=B8=8F=E2=83=A3MaximumPowerTransferTheorem=
+.1">4=EF=B8=8F=E2=83=A3 Maximum Power Transfer Theorem</h2>
+<p><strong>Principle:</strong><br>
+A load receives <strong>maximum power</strong> from a source when the load =
+resistance equals the source=E2=80=99s Thevenin resistance (for AC, complex=
+ conjugate if reactive).</p>
+<p>RL=3DRth\boxed{R_{L} =3D R_{th}}</p>
+<ul>
+<li>
+<p>Maximum power:</p></li>
+</ul>
+<p>Pmax=E2=81=A1=3DVth24RthP_{\max} =3D \frac{V_{th}^2}{4 R_{th}}</p>
+<p><strong>Applications:</strong><br>
+Audio systems, communication links, and impedance matching.</p>
+<hr>
+<h3 id=3D"ElectricalCircuits-QuickComparisonTable">Quick Comparison Table</=
+h3>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"42=
+d57cd4-7efb-4c22-8c55-37e71a70698d" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Theorem</p></th>
+<th class=3D"confluenceTh">
+<p>Replaces Network With</p></th>
+<th class=3D"confluenceTh">
+<p>Goal / Benefit</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Superposition</strong></p></td>
+<td class=3D"confluenceTd">
+<p>=E2=80=94 (analysis method)</p></td>
+<td class=3D"confluenceTd">
+<p>Handle multiple independent sources one at a time.</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Thevenin</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Single voltage source + series resistor</p></td>
+<td class=3D"confluenceTd">
+<p>Simplify network for load analysis.</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Norton</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Single current source + parallel resistor</p></td>
+<td class=3D"confluenceTd">
+<p>Same as Thevenin but convenient for parallel loads.</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Maximum Power Transfer</strong></p></td>
+<td class=3D"confluenceTd">
+<p>=E2=80=94</p></td>
+<td class=3D"confluenceTd">
+<p>Find load resistance for highest power draw.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>These four theorems are core tools for circuit simplification and design=
+, letting you analyze or match loads quickly without repeatedly solving the=
+ full network.</p>
+<p></p>
+    </div>
+</body>
+</html>
+------=_Part_6_1802889261.1760785814076--

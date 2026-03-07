@@ -1,0 +1,4540 @@
+Date: Sat, 18 Oct 2025 11:07:50 +0000 (UTC)
+Message-ID: <1409534350.3.1760785670175@f9671e8805d9>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_2_1982936842.1760785670175"
+
+------=_Part_2_1982936842.1760785670175
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Object Oriented Programming (OOP)</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Object Oriented Programming (OOP)</h1>
+    <div class=3D"Section1">
+        <ol start=3D"1">
+<li>
+<p>Philosophy of Object Oriented Programming (OOP);</p></li>
+<li>
+<p>Advantages of OOP over structured programming;</p></li>
+<li>
+<p>Encapsulation, classes and objects, access specifiers, static and non-st=
+atic members;</p></li>
+<li>
+<p>Constructors, destructors and copy constructors;</p></li>
+<li>
+<p>Array of objects, object pointers, and object references;</p></li>
+<li>
+<p>Inheritance: single and multiple inheritance;</p></li>
+<li>
+<p>Polymorphism: overloading, abstract classes, virtual functions and overr=
+iding;</p></li>
+<li>
+<p>Exceptions; Object Oriented I/O;</p></li>
+<li>
+<p>Template functions and classes;</p></li>
+<li>
+<p>Multi-threaded Programming.</p></li>
+</ol>
+<p></p>
+<p></p>
+<ol start=3D"1">
+<li>
+<p>Philosophy of Object Oriented Programming (OOP);</p></li>
+</ol>
+<p>Nice question =F0=9F=91=8D Let=E2=80=99s go deep into the <strong>Philos=
+ophy of Object-Oriented Programming (OOP)</strong>.</p>
+<hr>
+<h1 id=3D"ObjectOrientedProgramming(OOP)-=F0=9F=93=8CPhilosophyofObject-Ori=
+entedProgramming(OOP)">=F0=9F=93=8C Philosophy of Object-Oriented Programmi=
+ng (OOP)</h1>
+<p>OOP is not just a programming style =E2=80=94 it=E2=80=99s a <strong>way=
+ of thinking about problems</strong> by modeling them as <strong>objects</s=
+trong> that represent real-world entities.</p>
+<hr>
+<h2 id=3D"ObjectOrientedProgramming(OOP)-1=EF=B8=8F=E2=83=A3CorePhilosophy"=
+>1=EF=B8=8F=E2=83=A3 <strong>Core Philosophy</strong></h2>
+<p>=F0=9F=91=89 The <strong>main idea</strong> of OOP is:</p>
+<blockquote>
+<p><em>=E2=80=9CProgram the way we think about the real world.=E2=80=9D</em=
+></p>
+</blockquote>
+<ul>
+<li>
+<p>In the real world, everything is an <strong>object</strong> (a car, a st=
+udent, a bank account).</p></li>
+<li>
+<p>Each object has <strong>data (state)</strong> and <strong>behavior (acti=
+ons/methods)</strong>.</p></li>
+<li>
+<p>OOP tries to bring this <strong>real-world model</strong> into programmi=
+ng.</p></li>
+</ul>
+<hr>
+<h2 id=3D"ObjectOrientedProgramming(OOP)-2=EF=B8=8F=E2=83=A3KeyPrinciplesof=
+OOPPhilosophy">2=EF=B8=8F=E2=83=A3 <strong>Key Principles of OOP Philosophy=
+</strong></h2>
+<h3 id=3D"ObjectOrientedProgramming(OOP)-=F0=9F=94=B9a)Abstraction">=F0=9F=
+=94=B9 a) <strong>Abstraction</strong></h3>
+<ul>
+<li>
+<p>Focus on <strong>what an object does</strong>, not how it works internal=
+ly.</p></li>
+<li>
+<p>Example:</p>
+<ul>
+<li>
+<p>A <strong>Car</strong> object has <code>start()</code>, <code>drive()</c=
+ode>, <code>stop()</code>.</p></li>
+<li>
+<p>We don=E2=80=99t need to know how the engine works internally to use it.=
+</p></li>
+</ul></li>
+</ul>
+<hr>
+<h3 id=3D"ObjectOrientedProgramming(OOP)-=F0=9F=94=B9b)Encapsulation">=F0=
+=9F=94=B9 b) <strong>Encapsulation</strong></h3>
+<ul>
+<li>
+<p>Bundle <strong>data + methods</strong> together in one unit (object).</p=
+></li>
+<li>
+<p>Hide internal details =E2=86=92 expose only necessary parts.</p></li>
+<li>
+<p>Example:</p>
+<ul>
+<li>
+<p>A <strong>BankAccount</strong> object hides the balance (private), but e=
+xposes <code>deposit()</code> and <code>withdraw()</code>.</p></li>
+</ul></li>
+</ul>
+<hr>
+<h3 id=3D"ObjectOrientedProgramming(OOP)-=F0=9F=94=B9c)Inheritance">=F0=9F=
+=94=B9 c) <strong>Inheritance</strong></h3>
+<ul>
+<li>
+<p>Objects can <strong>reuse</strong> features of existing objects.</p></li=
+>
+<li>
+<p>Example:</p>
+<ul>
+<li>
+<p><code>Car</code> and <code>Truck</code> inherit from <code>Vehicle</code=
+>.</p></li>
+<li>
+<p>They share common properties but also have their own unique features.</p=
+></li>
+</ul></li>
+</ul>
+<hr>
+<h3 id=3D"ObjectOrientedProgramming(OOP)-=F0=9F=94=B9d)Polymorphism">=F0=9F=
+=94=B9 d) <strong>Polymorphism</strong></h3>
+<ul>
+<li>
+<p>=E2=80=9COne interface, many forms.=E2=80=9D</p></li>
+<li>
+<p>Different objects can respond to the <strong>same message (method call)<=
+/strong> in different ways.</p></li>
+<li>
+<p>Example:</p>
+<ul>
+<li>
+<p><code>Animal</code> has <code>speak()</code>.</p></li>
+<li>
+<p><code>Dog.speak()</code> =E2=86=92 =E2=80=9CWoof=E2=80=9D</p></li>
+<li>
+<p><code>Cat.speak()</code> =E2=86=92 =E2=80=9CMeow=E2=80=9D</p></li>
+</ul></li>
+</ul>
+<hr>
+<h2 id=3D"ObjectOrientedProgramming(OOP)-3=EF=B8=8F=E2=83=A3WhyOOPPhilosoph=
+yMatters">3=EF=B8=8F=E2=83=A3 <strong>Why OOP Philosophy Matters</strong></=
+h2>
+<ul>
+<li>
+<p>=E2=9C=85 <strong>Models the real world naturally</strong></p></li>
+<li>
+<p>=E2=9C=85 <strong>Code reusability</strong> (via inheritance, polymorphi=
+sm)</p></li>
+<li>
+<p>=E2=9C=85 <strong>Maintainability</strong> (encapsulation hides complexi=
+ty)</p></li>
+<li>
+<p>=E2=9C=85 <strong>Flexibility</strong> (objects can evolve without break=
+ing everything)</p></li>
+<li>
+<p>=E2=9C=85 <strong>Scalability</strong> (large systems can be broken into=
+ modular objects)</p></li>
+</ul>
+<hr>
+<h2 id=3D"ObjectOrientedProgramming(OOP)-4=EF=B8=8F=E2=83=A3AnalogyExample"=
+>4=EF=B8=8F=E2=83=A3 <strong>Analogy Example</strong></h2>
+<p>Think of <strong>a University System</strong>:</p>
+<ul>
+<li>
+<p>Objects: <code>Student</code>, <code>Professor</code>, <code>Course</cod=
+e>.</p></li>
+<li>
+<p>Each has:</p>
+<ul>
+<li>
+<p><strong>State (attributes):</strong> <code>Student</code> =E2=86=92 name=
+, id, GPA</p></li>
+<li>
+<p><strong>Behavior (methods):</strong> <code>enrollCourse()</code>, <code>=
+calculateGPA()</code></p></li>
+</ul></li>
+<li>
+<p>Relationships:</p>
+<ul>
+<li>
+<p><code>Professor</code> teaches <code>Course</code>.</p></li>
+<li>
+<p><code>Student</code> enrolls in <code>Course</code>.</p></li>
+</ul></li>
+<li>
+<p>Inheritance:</p>
+<ul>
+<li>
+<p><code>GraduateStudent</code> and <code>UndergraduateStudent</code> inher=
+it from <code>Student</code>.</p></li>
+</ul></li>
+</ul>
+<hr>
+<h2 id=3D"ObjectOrientedProgramming(OOP)-=E2=9C=85Summary">=E2=9C=85 Summar=
+y</h2>
+<p>The <strong>philosophy of OOP</strong> is about <strong>thinking in obje=
+cts</strong>:</p>
+<ul>
+<li>
+<p>Objects =3D data + behavior</p></li>
+<li>
+<p>Encapsulation hides complexity</p></li>
+<li>
+<p>Inheritance reuses code</p></li>
+<li>
+<p>Polymorphism makes systems flexible</p></li>
+</ul>
+<p>=F0=9F=91=89 It=E2=80=99s a way to <strong>bridge human thinking about r=
+eal-world entities with programming logic</strong>.</p>
+<hr>
+<p>Would you like me to also explain this with a <strong>diagram (real-worl=
+d object =E2=86=92 class =E2=86=92 object in code)</strong> so it=E2=80=99s=
+ easier to visualize?</p>
+<p></p>
+<p></p>
+<ol start=3D"2">
+<li>
+<p>Advantages of OOP over structured programming;</p></li>
+</ol>
+<p>Great question =F0=9F=91=8D Let=E2=80=99s carefully compare <strong>Obje=
+ct-Oriented Programming (OOP)</strong> vs <strong>Structured Programming (p=
+rocedural)</strong> and highlight the <strong>advantages of OOP</strong>.</=
+p>
+<hr>
+<h1 id=3D"ObjectOrientedProgramming(OOP)-=F0=9F=93=8CAdvantagesofOOPoverStr=
+ucturedProgramming">=F0=9F=93=8C Advantages of OOP over Structured Programm=
+ing</h1>
+<hr>
+<h2 id=3D"ObjectOrientedProgramming(OOP)-1=EF=B8=8F=E2=83=A3ProgrammingAppr=
+oach">1=EF=B8=8F=E2=83=A3 <strong>Programming Approach</strong></h2>
+<ul>
+<li>
+<p><strong>Structured Programming (Procedural)</strong> =E2=86=92</p>
+<ul>
+<li>
+<p>Program is divided into <strong>functions/procedures</strong>.</p></li>
+<li>
+<p>Data and functions are <strong>separate</strong>.</p></li>
+<li>
+<p>Example: C language.</p></li>
+</ul></li>
+<li>
+<p><strong>OOP</strong> =E2=86=92</p>
+<ul>
+<li>
+<p>Program is divided into <strong>objects (data + methods)</strong>.</p></=
+li>
+<li>
+<p>Data and behavior are <strong>together</strong>.</p></li>
+<li>
+<p>Example: C++, Java, Python.</p></li>
+</ul></li>
+</ul>
+<hr>
+<h2 id=3D"ObjectOrientedProgramming(OOP)-2=EF=B8=8F=E2=83=A3AdvantagesofOOP=
+">2=EF=B8=8F=E2=83=A3 <strong>Advantages of OOP</strong></h2>
+<h3 id=3D"ObjectOrientedProgramming(OOP)-=F0=9F=94=B91.Encapsulation(DataSe=
+curity)">=F0=9F=94=B9 1. <strong>Encapsulation (Data Security)</strong></h3=
+>
+<ul>
+<li>
+<p>OOP bundles <strong>data + methods</strong> together in classes.</p></li=
+>
+<li>
+<p>Internal details are <strong>hidden</strong> =E2=86=92 only necessary fu=
+nctions are exposed.</p></li>
+<li>
+<p>Structured programming has <strong>global data</strong>, which is riskie=
+r.</p></li>
+</ul>
+<p>=F0=9F=91=89 Example:</p>
+<ul>
+<li>
+<p>In OOP, <code>BankAccount.balance</code> can be private. Only <code>depo=
+sit()</code> / <code>withdraw()</code> methods can change it.</p></li>
+<li>
+<p>In structured programming, functions can directly modify global variable=
+s.</p></li>
+</ul>
+<hr>
+<h3 id=3D"ObjectOrientedProgramming(OOP)-=F0=9F=94=B92.Reusability(Inherita=
+nce)">=F0=9F=94=B9 2. <strong>Reusability (Inheritance)</strong></h3>
+<ul>
+<li>
+<p>OOP supports <strong>inheritance</strong> =E2=86=92 new classes reuse fe=
+atures of existing ones.</p></li>
+<li>
+<p>Structured programming =E2=86=92 must <strong>re-write functions</strong=
+> again and again.</p></li>
+</ul>
+<p>=F0=9F=91=89 Example:</p>
+<ul>
+<li>
+<p><code>Car</code> and <code>Bike</code> can inherit from <code>Vehicle</c=
+ode>.</p></li>
+<li>
+<p>Both reuse <code>start()</code> and <code>stop()</code> methods.</p></li=
+>
+</ul>
+<hr>
+<h3 id=3D"ObjectOrientedProgramming(OOP)-=F0=9F=94=B93.Flexibility(Polymorp=
+hism)">=F0=9F=94=B9 3. <strong>Flexibility (Polymorphism)</strong></h3>
+<ul>
+<li>
+<p>OOP allows <strong>the same function name</strong> to work differently f=
+or different objects.</p></li>
+<li>
+<p>Structured programming =E2=86=92 each function has to be written separat=
+ely.</p></li>
+</ul>
+<p>=F0=9F=91=89 Example:</p>
+<ul>
+<li>
+<p><code>Animal.speak()</code> =E2=86=92 Dog says =E2=80=9CWoof=E2=80=9D, C=
+at says =E2=80=9CMeow=E2=80=9D.</p></li>
+<li>
+<p>In procedural programming, you would need separate functions like <code>=
+dogSpeak()</code>, <code>catSpeak()</code>.</p></li>
+</ul>
+<hr>
+<h3 id=3D"ObjectOrientedProgramming(OOP)-=F0=9F=94=B94.Abstraction(HidingCo=
+mplexity)">=F0=9F=94=B9 4. <strong>Abstraction (Hiding Complexity)</strong>=
+</h3>
+<ul>
+<li>
+<p>OOP allows you to focus on <strong>what an object does</strong>, not how=
+ it does it.</p></li>
+<li>
+<p>Structured programming =E2=86=92 often requires knowing how every functi=
+on works.</p></li>
+</ul>
+<p>=F0=9F=91=89 Example:</p>
+<ul>
+<li>
+<p>To drive a <strong>Car object</strong>, just call <code>car.drive()</cod=
+e>.</p></li>
+<li>
+<p>You don=E2=80=99t need to know how the engine, fuel injection, or brakes=
+ work.</p></li>
+</ul>
+<hr>
+<h3 id=3D"ObjectOrientedProgramming(OOP)-=F0=9F=94=B95.Modularity&amp;Maint=
+ainability">=F0=9F=94=B9 5. <strong>Modularity &amp; Maintainability</stron=
+g></h3>
+<ul>
+<li>
+<p>OOP programs are divided into <strong>independent objects</strong>.</p><=
+/li>
+<li>
+<p>Easier to <strong>debug, test, and update</strong>.</p></li>
+<li>
+<p>Structured programming =E2=86=92 functions are tightly coupled; harder t=
+o maintain large systems.</p></li>
+</ul>
+<hr>
+<h3 id=3D"ObjectOrientedProgramming(OOP)-=F0=9F=94=B96.Scalability(LargePro=
+jects)">=F0=9F=94=B9 6. <strong>Scalability (Large Projects)</strong></h3>
+<ul>
+<li>
+<p>OOP is better for <strong>large and complex systems</strong> (banking sy=
+stems, ERPs, games).</p></li>
+<li>
+<p>Structured programming is suitable for <strong>small-scale programs</str=
+ong>.</p></li>
+</ul>
+<hr>
+<h3 id=3D"ObjectOrientedProgramming(OOP)-=F0=9F=94=B97.Real-worldModeling">=
+=F0=9F=94=B9 7. <strong>Real-world Modeling</strong></h3>
+<ul>
+<li>
+<p>OOP models programs closer to <strong>real-world entities</strong>.</p><=
+/li>
+<li>
+<p>Structured programming models everything as functions =E2=86=92 less int=
+uitive.</p></li>
+</ul>
+<hr>
+<h2 id=3D"ObjectOrientedProgramming(OOP)-3=EF=B8=8F=E2=83=A3ComparisonTable=
+">3=EF=B8=8F=E2=83=A3 <strong>Comparison Table</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"f0=
+673eb0-0fc6-454a-8725-f7bf8d6ea7fa" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Aspect</p></th>
+<th class=3D"confluenceTh">
+<p>Structured Programming (Procedural)</p></th>
+<th class=3D"confluenceTh">
+<p>Object-Oriented Programming (OOP)</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Program Structure</p></td>
+<td class=3D"confluenceTd">
+<p>Functions/Procedures</p></td>
+<td class=3D"confluenceTd">
+<p>Classes &amp; Objects</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Data &amp; Functions</p></td>
+<td class=3D"confluenceTd">
+<p>Separate</p></td>
+<td class=3D"confluenceTd">
+<p>Combined (Encapsulation)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Reusability</p></td>
+<td class=3D"confluenceTd">
+<p>Limited (copy-paste functions)</p></td>
+<td class=3D"confluenceTd">
+<p>High (Inheritance)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Flexibility</p></td>
+<td class=3D"confluenceTd">
+<p>Low</p></td>
+<td class=3D"confluenceTd">
+<p>High (Polymorphism)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Complexity Handling</p></td>
+<td class=3D"confluenceTd">
+<p>Harder for large systems</p></td>
+<td class=3D"confluenceTd">
+<p>Easier (Abstraction &amp; Modularity)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Real-world Representation</p></td>
+<td class=3D"confluenceTd">
+<p>Weak</p></td>
+<td class=3D"confluenceTd">
+<p>Strong (objects map to entities)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Best suited for</p></td>
+<td class=3D"confluenceTd">
+<p>Small projects</p></td>
+<td class=3D"confluenceTd">
+<p>Medium to large systems</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id=3D"ObjectOrientedProgramming(OOP)-=E2=9C=85Summary.1">=E2=9C=85 Summ=
+ary</h2>
+<ul>
+<li>
+<p><strong>Structured programming</strong> =E2=86=92 simple, function-drive=
+n, good for small tasks.</p></li>
+<li>
+<p><strong>OOP</strong> =E2=86=92 modular, reusable, secure, scalable =E2=
+=86=92 better for <strong>large, real-world systems</strong>.</p></li>
+</ul>
+<p>=F0=9F=91=89 So the <strong>main advantages of OOP</strong> over structu=
+red programming are:</p>
+<ul>
+<li>
+<p><strong>Encapsulation</strong> =E2=86=92 security</p></li>
+<li>
+<p><strong>Inheritance</strong> =E2=86=92 reusability</p></li>
+<li>
+<p><strong>Polymorphism</strong> =E2=86=92 flexibility</p></li>
+<li>
+<p><strong>Abstraction</strong> =E2=86=92 simplicity</p></li>
+<li>
+<p><strong>Better scalability &amp; maintainability</strong></p></li>
+</ul>
+<hr>
+<p>Would you like me to also show this with a <strong>real example</strong>=
+ (same problem solved in structured C style vs OOP style in C++/Java) for c=
+larity?</p>
+<p></p>
+<p></p>
+<ol start=3D"3">
+<li>
+<p>Encapsulation, classes and objects, access specifiers, static and non-st=
+atic members;</p></li>
+</ol>
+<p>Perfect =F0=9F=91=8D Let=E2=80=99s break down these <strong>OOP concepts=
+</strong> clearly with examples.</p>
+<hr>
+<h1 id=3D"ObjectOrientedProgramming(OOP)-=F0=9F=93=8CObject-OrientedProgram=
+mingConcepts">=F0=9F=93=8C Object-Oriented Programming Concepts</h1>
+<hr>
+<h2 id=3D"ObjectOrientedProgramming(OOP)-1=EF=B8=8F=E2=83=A3Encapsulation">=
+1=EF=B8=8F=E2=83=A3 <strong>Encapsulation</strong></h2>
+<p><strong>Definition:</strong></p>
+<ul>
+<li>
+<p>Encapsulation is the <strong>wrapping of data (attributes) and methods (=
+functions) together in a single unit</strong> (class).</p></li>
+<li>
+<p>It also <strong>hides internal details</strong> and exposes only necessa=
+ry parts via methods.</p></li>
+</ul>
+<p><strong>Benefits:</strong></p>
+<ul>
+<li>
+<p>Data security (prevents unauthorized access)</p></li>
+<li>
+<p>Better maintainability</p></li>
+<li>
+<p>Control over data (validation before changing)</p></li>
+</ul>
+<p>=E2=9C=85 Example in Java:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">class B=
+ankAccount {
+    private double balance; // private =E2=86=92 hidden from outside
+
+    // Constructor
+    BankAccount(double initialBalance) {
+        balance =3D initialBalance;
+    }
+
+    // Public method to deposit money
+    public void deposit(double amount) {
+        if(amount &gt; 0) balance +=3D amount;
+    }
+
+    // Public method to withdraw money
+    public void withdraw(double amount) {
+        if(amount &gt; 0 &amp;&amp; amount &lt;=3D balance) balance -=3D am=
+ount;
+    }
+
+    // Public method to check balance
+    public double getBalance() {
+        return balance;
+    }
+}
+</pre>
+</div>
+</div>
+<ul>
+<li>
+<p>Here, <code>balance</code> is <strong>encapsulated</strong>.</p></li>
+<li>
+<p>Outside code cannot access it directly (<code>account.balance =3D 1000</=
+code> would fail).</p></li>
+</ul>
+<hr>
+<h2 id=3D"ObjectOrientedProgramming(OOP)-2=EF=B8=8F=E2=83=A3ClassesandObjec=
+ts">2=EF=B8=8F=E2=83=A3 <strong>Classes and Objects</strong></h2>
+<h3 id=3D"ObjectOrientedProgramming(OOP)-Class:"><strong>Class:</strong></h=
+3>
+<ul>
+<li>
+<p>A <strong>blueprint/template</strong> for creating objects.</p></li>
+<li>
+<p>Defines <strong>attributes (state)</strong> and <strong>methods (behavio=
+r)</strong>.</p></li>
+</ul>
+<h3 id=3D"ObjectOrientedProgramming(OOP)-Object:"><strong>Object:</strong><=
+/h3>
+<ul>
+<li>
+<p>A <strong>specific instance of a class</strong>.</p></li>
+<li>
+<p>Has its own copy of attributes.</p></li>
+</ul>
+<p>=E2=9C=85 Example:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">// Clas=
+s definition
+class Student {
+    String name;
+    int age;
+
+    void display() {
+        System.out.println("Name: " + name + ", Age: " + age);
+    }
+}
+
+// Creating objects
+Student s1 =3D new Student();
+s1.name =3D "Alice";
+s1.age =3D 20;
+s1.display(); // Name: Alice, Age: 20
+
+Student s2 =3D new Student();
+s2.name =3D "Bob";
+s2.age =3D 22;
+s2.display(); // Name: Bob, Age: 22
+</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"ObjectOrientedProgramming(OOP)-3=EF=B8=8F=E2=83=A3AccessSpecifier=
+s">3=EF=B8=8F=E2=83=A3 <strong>Access Specifiers</strong></h2>
+<p><strong>Access specifiers</strong> control <strong>visibility of class m=
+embers</strong>.</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"3b=
+1f1e85-9161-43fa-91b5-0c0695f93e38" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Specifier</p></th>
+<th class=3D"confluenceTh">
+<p>Access Level</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>private</code></p></td>
+<td class=3D"confluenceTd">
+<p>Only within the same class</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>default</code> (no keyword)</p></td>
+<td class=3D"confluenceTd">
+<p>Within the same package</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>protected</code></p></td>
+<td class=3D"confluenceTd">
+<p>Same package + subclasses</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>public</code></p></td>
+<td class=3D"confluenceTd">
+<p>Accessible from anywhere</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>=E2=9C=85 Example:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">class E=
+xample {
+    private int privateVar;    // only inside class
+    int defaultVar;            // same package
+    protected int protectedVar; // subclass + package
+    public int publicVar;       // anywhere
+}
+</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"ObjectOrientedProgramming(OOP)-4=EF=B8=8F=E2=83=A3StaticandNon-St=
+aticMembers">4=EF=B8=8F=E2=83=A3 <strong>Static and Non-Static Members</str=
+ong></h2>
+<h3 id=3D"ObjectOrientedProgramming(OOP)-StaticMembers:"><strong>Static Mem=
+bers:</strong></h3>
+<ul>
+<li>
+<p>Belong to <strong>class</strong>, not to any object.</p></li>
+<li>
+<p>Shared across all objects of that class.</p></li>
+<li>
+<p>Accessed using <code>ClassName.memberName</code>.</p></li>
+</ul>
+<h3 id=3D"ObjectOrientedProgramming(OOP)-Non-StaticMembers:"><strong>Non-St=
+atic Members:</strong></h3>
+<ul>
+<li>
+<p>Belong to <strong>individual object</strong>.</p></li>
+<li>
+<p>Each object has its own copy.</p></li>
+</ul>
+<p>=E2=9C=85 Example:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">class C=
+ounter {
+    static int count =3D 0; // static =E2=86=92 shared
+    int id;               // non-static =E2=86=92 unique for each object
+
+    Counter() {
+        count++;        // increment shared counter
+        id =3D count;     // assign unique id to object
+    }
+
+    void display() {
+        System.out.println("Object ID: " + id + ", Total count: " + count);
+    }
+}
+
+// Test
+Counter c1 =3D new Counter();
+Counter c2 =3D new Counter();
+c1.display(); // Object ID: 1, Total count: 2
+c2.display(); // Object ID: 2, Total count: 2
+</pre>
+</div>
+</div>
+<ul>
+<li>
+<p><code>count</code> is <strong>static</strong> =E2=86=92 shared between <=
+code>c1</code> and <code>c2</code>.</p></li>
+<li>
+<p><code>id</code> is <strong>non-static</strong> =E2=86=92 unique for each=
+ object.</p></li>
+</ul>
+<hr>
+<h2 id=3D"ObjectOrientedProgramming(OOP)-=E2=9C=85Summary.2">=E2=9C=85 Summ=
+ary</h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"fc=
+d574c7-8f72-4a13-a116-748130b57640" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Concept</p></th>
+<th class=3D"confluenceTh">
+<p>Meaning / Use</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Encapsulation</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Bundle data + methods, hide internal details</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Class</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Blueprint / template</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Object</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Instance of class</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Access Specifiers</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Control visibility: private, default, protected, public</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Static Members</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Belong to class, shared across objects</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Non-Static Members</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Belong to individual object, unique for each</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p>If you want, I can <strong>draw a simple diagram</strong> showing <stron=
+g>Class =E2=86=92 Objects + Static vs Non-Static Members + Encapsulation</s=
+trong> to make it visually clear.</p>
+<p>Do you want me to do that?</p>
+<p></p>
+<p>Sure! Here=E2=80=99s a <strong>clear table of access modifiers</strong> =
+in OOP (Java-style), showing <strong>visibility and usage</strong>:</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"37=
+c62c9c-4ce3-4c66-b2bb-ae5f2baff7f3" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>Access Modifier</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Keyword</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Visibility / Scope</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Example Use</strong></p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Private</strong></p></td>
+<td class=3D"confluenceTd">
+<p><code>private</code></p></td>
+<td class=3D"confluenceTd">
+<p>Accessible <strong>only within the same class</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Hiding data members (<code>balance</code> in BankAccount)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Default / Package-Private</strong></p></td>
+<td class=3D"confluenceTd">
+<p><em>(no keyword)</em></p></td>
+<td class=3D"confluenceTd">
+<p>Accessible <strong>within the same package</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Classes in the same package can use it</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Protected</strong></p></td>
+<td class=3D"confluenceTd">
+<p><code>protected</code></p></td>
+<td class=3D"confluenceTd">
+<p>Accessible <strong>within the same package + subclasses</strong></p></td=
+>
+<td class=3D"confluenceTd">
+<p>Parent class wants children to access members</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Public</strong></p></td>
+<td class=3D"confluenceTd">
+<p><code>public</code></p></td>
+<td class=3D"confluenceTd">
+<p>Accessible <strong>from anywhere</strong></p></td>
+<td class=3D"confluenceTd">
+<p>API methods meant to be used by all classes</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h3 id=3D"ObjectOrientedProgramming(OOP)-=F0=9F=94=B9QuickNotes:">=F0=9F=94=
+=B9 Quick Notes:</h3>
+<ul>
+<li>
+<p><strong>Private</strong> =E2=86=92 highest level of encapsulation (data =
+hiding).</p></li>
+<li>
+<p><strong>Default</strong> =E2=86=92 used when no modifier is written; pac=
+kage-level access.</p></li>
+<li>
+<p><strong>Protected</strong> =E2=86=92 useful for inheritance, allows chil=
+d classes to access members.</p></li>
+<li>
+<p><strong>Public</strong> =E2=86=92 no restrictions, everyone can access.<=
+/p></li>
+</ul>
+<hr>
+<p>If you want, I can also make a <strong>diagram showing a class, package,=
+ subclass, and which modifier can access what</strong> =E2=80=94 it makes i=
+t very easy to visualize.</p>
+<p>Do you want me to do that?</p>
+<p>Sure! Here=E2=80=99s a <strong>clear table of access modifiers</strong> =
+in OOP (Java-style), showing <strong>visibility and usage</strong>:</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"13=
+58836a-e93c-4643-8586-50b04f36656c" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>Access Modifier</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Keyword</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Visibility / Scope</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Example Use</strong></p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Private</strong></p></td>
+<td class=3D"confluenceTd">
+<p><code>private</code></p></td>
+<td class=3D"confluenceTd">
+<p>Accessible <strong>only within the same class</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Hiding data members (<code>balance</code> in BankAccount)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Default / Package-Private</strong></p></td>
+<td class=3D"confluenceTd">
+<p><em>(no keyword)</em></p></td>
+<td class=3D"confluenceTd">
+<p>Accessible <strong>within the same package</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Classes in the same package can use it</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Protected</strong></p></td>
+<td class=3D"confluenceTd">
+<p><code>protected</code></p></td>
+<td class=3D"confluenceTd">
+<p>Accessible <strong>within the same package + subclasses</strong></p></td=
+>
+<td class=3D"confluenceTd">
+<p>Parent class wants children to access members</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Public</strong></p></td>
+<td class=3D"confluenceTd">
+<p><code>public</code></p></td>
+<td class=3D"confluenceTd">
+<p>Accessible <strong>from anywhere</strong></p></td>
+<td class=3D"confluenceTd">
+<p>API methods meant to be used by all classes</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h3 id=3D"ObjectOrientedProgramming(OOP)-=F0=9F=94=B9QuickNotes:.1">=F0=9F=
+=94=B9 Quick Notes:</h3>
+<ul>
+<li>
+<p><strong>Private</strong> =E2=86=92 highest level of encapsulation (data =
+hiding).</p></li>
+<li>
+<p><strong>Default</strong> =E2=86=92 used when no modifier is written; pac=
+kage-level access.</p></li>
+<li>
+<p><strong>Protected</strong> =E2=86=92 useful for inheritance, allows chil=
+d classes to access members.</p></li>
+<li>
+<p><strong>Public</strong> =E2=86=92 no restrictions, everyone can access.<=
+/p></li>
+</ul>
+<hr>
+<p>If you want, I can also make a <strong>diagram showing a class, package,=
+ subclass, and which modifier can access what</strong> =E2=80=94 it makes i=
+t very easy to visualize.</p>
+<p>Do you want me to do that?</p>
+<p></p>
+<ol start=3D"4">
+<li>
+<p>Constructors, destructors and copy constructors;</p></li>
+</ol>
+<p>Perfect =F0=9F=91=8D Let=E2=80=99s break down <strong>Constructors, Dest=
+ructors, and Copy Constructors</strong> clearly with examples.</p>
+<hr>
+<h1 id=3D"ObjectOrientedProgramming(OOP)-=F0=9F=93=8CConstructors,Destructo=
+rs,CopyConstructors">=F0=9F=93=8C Constructors, Destructors, Copy Construct=
+ors</h1>
+<hr>
+<h2 id=3D"ObjectOrientedProgramming(OOP)-1=EF=B8=8F=E2=83=A3Constructors">1=
+=EF=B8=8F=E2=83=A3 <strong>Constructors</strong></h2>
+<p><strong>Definition:</strong></p>
+<ul>
+<li>
+<p>A <strong>special member function</strong> that is automatically called =
+when an <strong>object is created</strong>.</p></li>
+<li>
+<p>Used to <strong>initialize the object</strong>.</p></li>
+<li>
+<p>Name is <strong>same as the class</strong>.</p></li>
+<li>
+<p>No return type, not even <code>void</code>.</p></li>
+</ul>
+<p><strong>Types of Constructors:</strong></p>
+<ol start=3D"1">
+<li>
+<p><strong>Default Constructor</strong> =E2=86=92 no parameters</p></li>
+<li>
+<p><strong>Parameterized Constructor</strong> =E2=86=92 with parameters</p>=
+</li>
+<li>
+<p><strong>Copy Constructor</strong> =E2=86=92 explained later</p></li>
+</ol>
+<p>=E2=9C=85 Example (C++):</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">#includ=
+e &lt;iostream&gt;
+using namespace std;
+
+class Student {
+public:
+    string name;
+    int age;
+
+    // Default Constructor
+    Student() {
+        name =3D "Unknown";
+        age =3D 0;
+        cout &lt;&lt; "Default Constructor called" &lt;&lt; endl;
+    }
+
+    // Parameterized Constructor
+    Student(string n, int a) {
+        name =3D n;
+        age =3D a;
+        cout &lt;&lt; "Parameterized Constructor called" &lt;&lt; endl;
+    }
+
+    void display() {
+        cout &lt;&lt; "Name: " &lt;&lt; name &lt;&lt; ", Age: " &lt;&lt; ag=
+e &lt;&lt; endl;
+    }
+};
+
+int main() {
+    Student s1;             // Default constructor
+    Student s2("Alice", 20); // Parameterized constructor
+
+    s1.display();
+    s2.display();
+}
+</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"ObjectOrientedProgramming(OOP)-2=EF=B8=8F=E2=83=A3Destructors">2=
+=EF=B8=8F=E2=83=A3 <strong>Destructors</strong></h2>
+<p><strong>Definition:</strong></p>
+<ul>
+<li>
+<p>A <strong>special member function</strong> automatically called when an =
+<strong>object is destroyed</strong>.</p></li>
+<li>
+<p>Used to <strong>release resources</strong> (memory, file handles, etc.)<=
+/p></li>
+<li>
+<p>Name is <strong>same as class</strong>, preceded by <code>~</code>.</p><=
+/li>
+<li>
+<p><strong>No parameters, no return type</strong>.</p></li>
+</ul>
+<p>=E2=9C=85 Example (C++):</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">class S=
+tudent {
+public:
+    Student() { cout &lt;&lt; "Constructor called" &lt;&lt; endl; }
+    ~Student() { cout &lt;&lt; "Destructor called" &lt;&lt; endl; }
+};
+
+int main() {
+    Student s1;  // Constructor called
+}               // Destructor called automatically at end of scope
+</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"ObjectOrientedProgramming(OOP)-3=EF=B8=8F=E2=83=A3CopyConstructor=
+s">3=EF=B8=8F=E2=83=A3 <strong>Copy Constructors</strong></h2>
+<p><strong>Definition:</strong></p>
+<ul>
+<li>
+<p>A <strong>special constructor</strong> that initializes a new object as =
+a <strong>copy of an existing object</strong>.</p></li>
+<li>
+<p>Automatically called when:</p>
+<ul>
+<li>
+<p>An object is passed by value</p></li>
+<li>
+<p>An object is returned by value</p></li>
+<li>
+<p>A new object is initialized from another object</p></li>
+</ul></li>
+</ul>
+<p>=E2=9C=85 Example (C++):</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">#includ=
+e &lt;iostream&gt;
+using namespace std;
+
+class Student {
+public:
+    string name;
+    int age;
+
+    // Parameterized Constructor
+    Student(string n, int a) {
+        name =3D n;
+        age =3D a;
+        cout &lt;&lt; "Parameterized Constructor called" &lt;&lt; endl;
+    }
+
+    // Copy Constructor
+    Student(const Student &amp;s) {
+        name =3D s.name;
+        age =3D s.age;
+        cout &lt;&lt; "Copy Constructor called" &lt;&lt; endl;
+    }
+
+    void display() {
+        cout &lt;&lt; "Name: " &lt;&lt; name &lt;&lt; ", Age: " &lt;&lt; ag=
+e &lt;&lt; endl;
+    }
+};
+
+int main() {
+    Student s1("Alice", 20);
+    Student s2 =3D s1; // Copy constructor called
+    s2.display();
+}
+</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"ObjectOrientedProgramming(OOP)-4=EF=B8=8F=E2=83=A3QuickSummaryTab=
+le">4=EF=B8=8F=E2=83=A3 <strong>Quick Summary Table</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"0a=
+3e29bb-c17d-4680-b1af-115ee4c5a15d" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Feature</p></th>
+<th class=3D"confluenceTh">
+<p>Constructor</p></th>
+<th class=3D"confluenceTh">
+<p>Destructor</p></th>
+<th class=3D"confluenceTh">
+<p>Copy Constructor</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Purpose</p></td>
+<td class=3D"confluenceTd">
+<p>Initialize object</p></td>
+<td class=3D"confluenceTd">
+<p>Cleanup object before destruction</p></td>
+<td class=3D"confluenceTd">
+<p>Initialize object as a copy</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Name</p></td>
+<td class=3D"confluenceTd">
+<p>Same as class</p></td>
+<td class=3D"confluenceTd">
+<p><code>~ClassName</code></p></td>
+<td class=3D"confluenceTd">
+<p>Same as class</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Parameters</p></td>
+<td class=3D"confluenceTd">
+<p>Optional</p></td>
+<td class=3D"confluenceTd">
+<p>None</p></td>
+<td class=3D"confluenceTd">
+<p>Reference to object (<code>const Class &amp;</code>)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Return Type</p></td>
+<td class=3D"confluenceTd">
+<p>None</p></td>
+<td class=3D"confluenceTd">
+<p>None</p></td>
+<td class=3D"confluenceTd">
+<p>None</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Called Automatically</p></td>
+<td class=3D"confluenceTd">
+<p>On object creation</p></td>
+<td class=3D"confluenceTd">
+<p>On object destruction</p></td>
+<td class=3D"confluenceTd">
+<p>On object copy or initialization</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Example Usage</p></td>
+<td class=3D"confluenceTd">
+<p><code>Student s1("Alice", 20);</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>~Student()</code> called automatically</p></td>
+<td class=3D"confluenceTd">
+<p><code>Student s2 =3D s1;</code></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p>=E2=9C=85 <strong>Key Notes:</strong></p>
+<ul>
+<li>
+<p><strong>Constructor</strong> =E2=86=92 set initial values</p></li>
+<li>
+<p><strong>Destructor</strong> =E2=86=92 free memory/resources</p></li>
+<li>
+<p><strong>Copy Constructor</strong> =E2=86=92 make exact copy of object</p=
+></li>
+</ul>
+<hr>
+<p>If you want, I can also make a <strong>diagram showing the lifecycle of =
+an object</strong> with <strong>constructor =E2=86=92 copy constructor =E2=
+=86=92 destructor</strong> for clarity.</p>
+<p>Do you want me to do that?</p>
+<p>Perfect =F0=9F=91=8D Let=E2=80=99s break down <strong>Constructors, Dest=
+ructors, and Copy Constructors</strong> clearly with examples.</p>
+<hr>
+<h1 id=3D"ObjectOrientedProgramming(OOP)-=F0=9F=93=8CConstructors,Destructo=
+rs,CopyConstructors.1">=F0=9F=93=8C Constructors, Destructors, Copy Constru=
+ctors</h1>
+<hr>
+<h2 id=3D"ObjectOrientedProgramming(OOP)-1=EF=B8=8F=E2=83=A3Constructors.1"=
+>1=EF=B8=8F=E2=83=A3 <strong>Constructors</strong></h2>
+<p><strong>Definition:</strong></p>
+<ul>
+<li>
+<p>A <strong>special member function</strong> that is automatically called =
+when an <strong>object is created</strong>.</p></li>
+<li>
+<p>Used to <strong>initialize the object</strong>.</p></li>
+<li>
+<p>Name is <strong>same as the class</strong>.</p></li>
+<li>
+<p>No return type, not even <code>void</code>.</p></li>
+</ul>
+<p><strong>Types of Constructors:</strong></p>
+<ol start=3D"1">
+<li>
+<p><strong>Default Constructor</strong> =E2=86=92 no parameters</p></li>
+<li>
+<p><strong>Parameterized Constructor</strong> =E2=86=92 with parameters</p>=
+</li>
+<li>
+<p><strong>Copy Constructor</strong> =E2=86=92 explained later</p></li>
+</ol>
+<p>=E2=9C=85 Example (C++):</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">#includ=
+e &lt;iostream&gt;
+using namespace std;
+
+class Student {
+public:
+    string name;
+    int age;
+
+    // Default Constructor
+    Student() {
+        name =3D "Unknown";
+        age =3D 0;
+        cout &lt;&lt; "Default Constructor called" &lt;&lt; endl;
+    }
+
+    // Parameterized Constructor
+    Student(string n, int a) {
+        name =3D n;
+        age =3D a;
+        cout &lt;&lt; "Parameterized Constructor called" &lt;&lt; endl;
+    }
+
+    void display() {
+        cout &lt;&lt; "Name: " &lt;&lt; name &lt;&lt; ", Age: " &lt;&lt; ag=
+e &lt;&lt; endl;
+    }
+};
+
+int main() {
+    Student s1;             // Default constructor
+    Student s2("Alice", 20); // Parameterized constructor
+
+    s1.display();
+    s2.display();
+}
+</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"ObjectOrientedProgramming(OOP)-2=EF=B8=8F=E2=83=A3Destructors.1">=
+2=EF=B8=8F=E2=83=A3 <strong>Destructors</strong></h2>
+<p><strong>Definition:</strong></p>
+<ul>
+<li>
+<p>A <strong>special member function</strong> automatically called when an =
+<strong>object is destroyed</strong>.</p></li>
+<li>
+<p>Used to <strong>release resources</strong> (memory, file handles, etc.)<=
+/p></li>
+<li>
+<p>Name is <strong>same as class</strong>, preceded by <code>~</code>.</p><=
+/li>
+<li>
+<p><strong>No parameters, no return type</strong>.</p></li>
+</ul>
+<p>=E2=9C=85 Example (C++):</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">class S=
+tudent {
+public:
+    Student() { cout &lt;&lt; "Constructor called" &lt;&lt; endl; }
+    ~Student() { cout &lt;&lt; "Destructor called" &lt;&lt; endl; }
+};
+
+int main() {
+    Student s1;  // Constructor called
+}               // Destructor called automatically at end of scope
+</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"ObjectOrientedProgramming(OOP)-3=EF=B8=8F=E2=83=A3CopyConstructor=
+s.1">3=EF=B8=8F=E2=83=A3 <strong>Copy Constructors</strong></h2>
+<p><strong>Definition:</strong></p>
+<ul>
+<li>
+<p>A <strong>special constructor</strong> that initializes a new object as =
+a <strong>copy of an existing object</strong>.</p></li>
+<li>
+<p>Automatically called when:</p>
+<ul>
+<li>
+<p>An object is passed by value</p></li>
+<li>
+<p>An object is returned by value</p></li>
+<li>
+<p>A new object is initialized from another object</p></li>
+</ul></li>
+</ul>
+<p>=E2=9C=85 Example (C++):</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">#includ=
+e &lt;iostream&gt;
+using namespace std;
+
+class Student {
+public:
+    string name;
+    int age;
+
+    // Parameterized Constructor
+    Student(string n, int a) {
+        name =3D n;
+        age =3D a;
+        cout &lt;&lt; "Parameterized Constructor called" &lt;&lt; endl;
+    }
+
+    // Copy Constructor
+    Student(const Student &amp;s) {
+        name =3D s.name;
+        age =3D s.age;
+        cout &lt;&lt; "Copy Constructor called" &lt;&lt; endl;
+    }
+
+    void display() {
+        cout &lt;&lt; "Name: " &lt;&lt; name &lt;&lt; ", Age: " &lt;&lt; ag=
+e &lt;&lt; endl;
+    }
+};
+
+int main() {
+    Student s1("Alice", 20);
+    Student s2 =3D s1; // Copy constructor called
+    s2.display();
+}
+</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"ObjectOrientedProgramming(OOP)-4=EF=B8=8F=E2=83=A3QuickSummaryTab=
+le.1">4=EF=B8=8F=E2=83=A3 <strong>Quick Summary Table</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"10=
+fa1e4c-8efb-4b77-82ca-500089bc0cfc" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Feature</p></th>
+<th class=3D"confluenceTh">
+<p>Constructor</p></th>
+<th class=3D"confluenceTh">
+<p>Destructor</p></th>
+<th class=3D"confluenceTh">
+<p>Copy Constructor</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Purpose</p></td>
+<td class=3D"confluenceTd">
+<p>Initialize object</p></td>
+<td class=3D"confluenceTd">
+<p>Cleanup object before destruction</p></td>
+<td class=3D"confluenceTd">
+<p>Initialize object as a copy</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Name</p></td>
+<td class=3D"confluenceTd">
+<p>Same as class</p></td>
+<td class=3D"confluenceTd">
+<p><code>~ClassName</code></p></td>
+<td class=3D"confluenceTd">
+<p>Same as class</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Parameters</p></td>
+<td class=3D"confluenceTd">
+<p>Optional</p></td>
+<td class=3D"confluenceTd">
+<p>None</p></td>
+<td class=3D"confluenceTd">
+<p>Reference to object (<code>const Class &amp;</code>)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Return Type</p></td>
+<td class=3D"confluenceTd">
+<p>None</p></td>
+<td class=3D"confluenceTd">
+<p>None</p></td>
+<td class=3D"confluenceTd">
+<p>None</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Called Automatically</p></td>
+<td class=3D"confluenceTd">
+<p>On object creation</p></td>
+<td class=3D"confluenceTd">
+<p>On object destruction</p></td>
+<td class=3D"confluenceTd">
+<p>On object copy or initialization</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Example Usage</p></td>
+<td class=3D"confluenceTd">
+<p><code>Student s1("Alice", 20);</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>~Student()</code> called automatically</p></td>
+<td class=3D"confluenceTd">
+<p><code>Student s2 =3D s1;</code></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p>=E2=9C=85 <strong>Key Notes:</strong></p>
+<ul>
+<li>
+<p><strong>Constructor</strong> =E2=86=92 set initial values</p></li>
+<li>
+<p><strong>Destructor</strong> =E2=86=92 free memory/resources</p></li>
+<li>
+<p><strong>Copy Constructor</strong> =E2=86=92 make exact copy of object</p=
+></li>
+</ul>
+<hr>
+<p>If you want, I can also make a <strong>diagram showing the lifecycle of =
+an object</strong> with <strong>constructor =E2=86=92 copy constructor =E2=
+=86=92 destructor</strong> for clarity.</p>
+<p>Do you want me to do that?</p>
+<p></p>
+<ol start=3D"5">
+<li>
+<p>Array of objects, object pointers, and object references;</p></li>
+</ol>
+<p>Perfect =F0=9F=91=8D Let=E2=80=99s go step by step and explain <strong>A=
+rray of Objects, Object Pointers, and Object References</strong> in C++ sty=
+le OOP.</p>
+<hr>
+<h1 id=3D"ObjectOrientedProgramming(OOP)-=F0=9F=93=8CObject-OrientedConcept=
+s:Arrays,Pointers,andReferences">=F0=9F=93=8C Object-Oriented Concepts: Arr=
+ays, Pointers, and References</h1>
+<hr>
+<h2 id=3D"ObjectOrientedProgramming(OOP)-1=EF=B8=8F=E2=83=A3ArrayofObjects"=
+>1=EF=B8=8F=E2=83=A3 <strong>Array of Objects</strong></h2>
+<p><strong>Definition:</strong></p>
+<ul>
+<li>
+<p>An <strong>array where each element is an object</strong> of a class.</p=
+></li>
+<li>
+<p>Useful to <strong>store multiple objects together</strong> and access th=
+em using an index.</p></li>
+</ul>
+<p>=E2=9C=85 Example (C++):</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">#includ=
+e &lt;iostream&gt;
+using namespace std;
+
+class Student {
+public:
+    string name;
+    int age;
+
+    void display() {
+        cout &lt;&lt; "Name: " &lt;&lt; name &lt;&lt; ", Age: " &lt;&lt; ag=
+e &lt;&lt; endl;
+    }
+};
+
+int main() {
+    // Array of 3 Student objects
+    Student students[3];
+
+    // Initialize objects
+    students[0].name =3D "Alice"; students[0].age =3D 20;
+    students[1].name =3D "Bob";   students[1].age =3D 22;
+    students[2].name =3D "Carol"; students[2].age =3D 21;
+
+    // Display all students
+    for(int i =3D 0; i &lt; 3; i++)
+        students[i].display();
+}
+</pre>
+</div>
+</div>
+<p><strong>Key Point:</strong></p>
+<ul>
+<li>
+<p>Each element is a <strong>full object</strong>, not just a reference.</p=
+></li>
+</ul>
+<hr>
+<h2 id=3D"ObjectOrientedProgramming(OOP)-2=EF=B8=8F=E2=83=A3ObjectPointers"=
+>2=EF=B8=8F=E2=83=A3 <strong>Object Pointers</strong></h2>
+<p><strong>Definition:</strong></p>
+<ul>
+<li>
+<p>A <strong>pointer that stores the address of an object</strong>.</p></li=
+>
+<li>
+<p>Allows <strong>dynamic allocation</strong>, runtime polymorphism, and ef=
+ficient object handling.</p></li>
+</ul>
+<p>=E2=9C=85 Example (C++):</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">#includ=
+e &lt;iostream&gt;
+using namespace std;
+
+class Student {
+public:
+    string name;
+    int age;
+
+    void display() {
+        cout &lt;&lt; "Name: " &lt;&lt; name &lt;&lt; ", Age: " &lt;&lt; ag=
+e &lt;&lt; endl;
+    }
+};
+
+int main() {
+    // Pointer to object
+    Student *s =3D new Student();
+
+    // Access members using pointer
+    s-&gt;name =3D "Alice";
+    s-&gt;age =3D 20;
+    s-&gt;display();
+
+    delete s; // free memory
+}
+</pre>
+</div>
+</div>
+<p><strong>Key Points:</strong></p>
+<ul>
+<li>
+<p>Use <code>-&gt;</code> to access members through pointer.</p></li>
+<li>
+<p>Can create <strong>array of object pointers</strong> dynamically.</p></l=
+i>
+</ul>
+<p>=E2=9C=85 Example: Array of object pointers:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">Student=
+* students[3];
+for(int i =3D 0; i &lt; 3; i++)
+    students[i] =3D new Student(); // dynamic objects
+</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"ObjectOrientedProgramming(OOP)-3=EF=B8=8F=E2=83=A3ObjectReference=
+s">3=EF=B8=8F=E2=83=A3 <strong>Object References</strong></h2>
+<p><strong>Definition:</strong></p>
+<ul>
+<li>
+<p>A <strong>reference is an alias for an existing object</strong>.</p></li=
+>
+<li>
+<p>Cannot be <code>null</code>.</p></li>
+<li>
+<p>Must be initialized at declaration.</p></li>
+</ul>
+<p>=E2=9C=85 Example (C++):</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">#includ=
+e &lt;iostream&gt;
+using namespace std;
+
+class Student {
+public:
+    string name;
+    int age;
+
+    void display() {
+        cout &lt;&lt; "Name: " &lt;&lt; name &lt;&lt; ", Age: " &lt;&lt; ag=
+e &lt;&lt; endl;
+    }
+};
+
+int main() {
+    Student s1;
+    s1.name =3D "Alice";
+    s1.age =3D 20;
+
+    // Reference to object
+    Student &amp;ref =3D s1;
+
+    ref.display(); // accesses s1
+    ref.age =3D 21;  // modifies s1
+    s1.display();  // Age: 21
+}
+</pre>
+</div>
+</div>
+<p><strong>Key Points:</strong></p>
+<ul>
+<li>
+<p>References are <strong>aliases</strong>, not separate objects.</p></li>
+<li>
+<p>Use <code>.</code> operator (like normal object) to access members.</p><=
+/li>
+</ul>
+<hr>
+<h2 id=3D"ObjectOrientedProgramming(OOP)-4=EF=B8=8F=E2=83=A3QuickComparison=
+Table">4=EF=B8=8F=E2=83=A3 <strong>Quick Comparison Table</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"cc=
+bdf5cb-9c1a-4dd1-9f4e-07e07d2c5672" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Concept</p></th>
+<th class=3D"confluenceTh">
+<p>Definition</p></th>
+<th class=3D"confluenceTh">
+<p>Syntax / Access</p></th>
+<th class=3D"confluenceTh">
+<p>Notes</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Array of Objects</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Array storing multiple <strong>objects</strong></p></td>
+<td class=3D"confluenceTd">
+<p><code>obj[i].member</code></p></td>
+<td class=3D"confluenceTd">
+<p>Each element is a full object</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Object Pointers</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Pointer storing <strong>address of an object</strong></p></td>
+<td class=3D"confluenceTd">
+<p><code>ptr-&gt;member</code></p></td>
+<td class=3D"confluenceTd">
+<p>Can use dynamic memory; access with <code>-&gt;</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Object References</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Alias for an existing object</p></td>
+<td class=3D"confluenceTd">
+<p><code>ref.member</code></p></td>
+<td class=3D"confluenceTd">
+<p>Cannot be null; always refers to an object</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p>=E2=9C=85 <strong>Summary:</strong></p>
+<ul>
+<li>
+<p><strong>Array of Objects</strong> =E2=86=92 multiple objects in fixed ar=
+ray</p></li>
+<li>
+<p><strong>Object Pointers</strong> =E2=86=92 addresses, dynamic allocation=
+, flexible</p></li>
+<li>
+<p><strong>Object References</strong> =E2=86=92 alias for existing objects,=
+ easier syntax</p></li>
+</ul>
+<hr>
+<p>If you want, I can also make a <strong>diagram showing Array of Objects,=
+ Pointers, and References</strong> to make it visually clear how they diffe=
+r in memory.</p>
+<p>Do you want me to do that?</p>
+<p></p>
+<ol start=3D"6">
+<li>
+<p>Inheritance: single and multiple inheritance;</p></li>
+</ol>
+<p>Perfect =F0=9F=91=8D Let=E2=80=99s explain <strong>Inheritance</strong> =
+clearly with <strong>Single and Multiple Inheritance</strong>.</p>
+<hr>
+<h1 id=3D"ObjectOrientedProgramming(OOP)-=F0=9F=93=8CInheritanceinOOP">=F0=
+=9F=93=8C <strong>Inheritance in OOP</strong></h1>
+<p><strong>Definition:</strong></p>
+<ul>
+<li>
+<p>Inheritance is an OOP concept where a <strong>class (child/subclass) acq=
+uires properties and behavior</strong> from another <strong>class (parent/s=
+uperclass)</strong>.</p></li>
+<li>
+<p>Helps in <strong>code reusability</strong> and <strong>hierarchical mode=
+ling</strong>.</p></li>
+</ul>
+<p><strong>Key Points:</strong></p>
+<ul>
+<li>
+<p><strong>Parent class</strong> =E2=86=92 Base class / Superclass</p></li>
+<li>
+<p><strong>Child class</strong> =E2=86=92 Derived class / Subclass</p></li>
+<li>
+<p>Child inherits <strong>attributes and methods</strong> of parent.</p></l=
+i>
+</ul>
+<hr>
+<h2 id=3D"ObjectOrientedProgramming(OOP)-1=EF=B8=8F=E2=83=A3SingleInheritan=
+ce">1=EF=B8=8F=E2=83=A3 <strong>Single Inheritance</strong></h2>
+<p><strong>Definition:</strong></p>
+<ul>
+<li>
+<p>A <strong>child class inherits from only one parent class</strong>.</p><=
+/li>
+</ul>
+<p>=E2=9C=85 Example (C++):</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">#includ=
+e &lt;iostream&gt;
+using namespace std;
+
+// Parent class
+class Vehicle {
+public:
+    void start() {
+        cout &lt;&lt; "Vehicle started" &lt;&lt; endl;
+    }
+};
+
+// Child class
+class Car : public Vehicle {
+public:
+    void honk() {
+        cout &lt;&lt; "Car honks" &lt;&lt; endl;
+    }
+};
+
+int main() {
+    Car c;
+    c.start();  // inherited from Vehicle
+    c.honk();   // own method
+}
+</pre>
+</div>
+</div>
+<p><strong>Key Point:</strong></p>
+<ul>
+<li>
+<p>Child class <code>Car</code> <strong>inherits </strong><code>start()</co=
+de> method from <code>Vehicle</code>.</p></li>
+</ul>
+<p><strong>Diagram:</strong></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">Vehicle
+   |
+   v
+  Car
+</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"ObjectOrientedProgramming(OOP)-2=EF=B8=8F=E2=83=A3MultipleInherit=
+ance">2=EF=B8=8F=E2=83=A3 <strong>Multiple Inheritance</strong></h2>
+<p><strong>Definition:</strong></p>
+<ul>
+<li>
+<p>A <strong>child class inherits from more than one parent class</strong>.=
+</p></li>
+<li>
+<p>Used when a class needs features from <strong>multiple classes</strong>.=
+</p></li>
+</ul>
+<p>=E2=9C=85 Example (C++):</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">#includ=
+e &lt;iostream&gt;
+using namespace std;
+
+// Parent class 1
+class Vehicle {
+public:
+    void start() { cout &lt;&lt; "Vehicle started" &lt;&lt; endl; }
+};
+
+// Parent class 2
+class Horn {
+public:
+    void honk() { cout &lt;&lt; "Horn sound" &lt;&lt; endl; }
+};
+
+// Child class inherits from both Vehicle and Horn
+class Car : public Vehicle, public Horn {
+public:
+    void show() { cout &lt;&lt; "Car is ready" &lt;&lt; endl; }
+};
+
+int main() {
+    Car c;
+    c.start();  // from Vehicle
+    c.honk();   // from Horn
+    c.show();   // own method
+}
+</pre>
+</div>
+</div>
+<p><strong>Key Points:</strong></p>
+<ul>
+<li>
+<p><code>Car</code> inherits from <strong>both </strong><code>Vehicle</code=
+><strong> and </strong><code>Horn</code>.</p></li>
+<li>
+<p>C++ supports multiple inheritance, but <strong>Java does not</strong> (u=
+ses interfaces instead).</p></li>
+</ul>
+<p><strong>Diagram:</strong></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">Vehicle=
+      Horn
+   \          /
+    \        /
+       Car
+</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"ObjectOrientedProgramming(OOP)-3=EF=B8=8F=E2=83=A3QuickComparison=
+Table">3=EF=B8=8F=E2=83=A3 <strong>Quick Comparison Table</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"b0=
+241f43-ef68-496c-9a00-3414c24301d5" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Feature</p></th>
+<th class=3D"confluenceTh">
+<p>Single Inheritance</p></th>
+<th class=3D"confluenceTh">
+<p>Multiple Inheritance</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Number of Parent Classes</p></td>
+<td class=3D"confluenceTd">
+<p>One</p></td>
+<td class=3D"confluenceTd">
+<p>More than one</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Complexity</p></td>
+<td class=3D"confluenceTd">
+<p>Simple</p></td>
+<td class=3D"confluenceTd">
+<p>Can be complex (diamond problem)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Example Use</p></td>
+<td class=3D"confluenceTd">
+<p>Car inherits Vehicle</p></td>
+<td class=3D"confluenceTd">
+<p>Car inherits Vehicle + Horn</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Supported in Java</p></td>
+<td class=3D"confluenceTd">
+<p>Yes</p></td>
+<td class=3D"confluenceTd">
+<p>No (use interfaces instead)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Supported in C++</p></td>
+<td class=3D"confluenceTd">
+<p>Yes</p></td>
+<td class=3D"confluenceTd">
+<p>Yes</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p>=E2=9C=85 <strong>Summary:</strong></p>
+<ul>
+<li>
+<p><strong>Single inheritance</strong> =E2=86=92 simple hierarchy, one pare=
+nt</p></li>
+<li>
+<p><strong>Multiple inheritance</strong> =E2=86=92 complex, multiple parent=
+s, powerful but careful with ambiguity</p></li>
+</ul>
+<hr>
+<p>If you want, I can also <strong>draw a visual diagram showing single vs =
+multiple inheritance with real-world examples</strong> like <code>Car</code=
+> and <code>ElectricCar</code>.</p>
+<p>Do you want me to do that?</p>
+<p></p>
+<ol start=3D"7">
+<li>
+<p>Polymorphism: overloading, abstract classes, virtual functions and overr=
+iding;</p></li>
+</ol>
+<p>Perfect =F0=9F=91=8D Let=E2=80=99s carefully break down <strong>Polymorp=
+hism</strong> in OOP and its types with examples.</p>
+<hr>
+<h1 id=3D"ObjectOrientedProgramming(OOP)-=F0=9F=93=8CPolymorphisminOOP">=F0=
+=9F=93=8C <strong>Polymorphism in OOP</strong></h1>
+<p><strong>Definition:</strong></p>
+<ul>
+<li>
+<p>Polymorphism means <strong>=E2=80=9Cone interface, many forms=E2=80=9D</=
+strong>.</p></li>
+<li>
+<p>It allows objects of <strong>different classes</strong> to be treated as=
+ objects of a <strong>common superclass</strong>, or <strong>methods with s=
+ame name</strong> to behave differently.</p></li>
+</ul>
+<p><strong>Types of Polymorphism:</strong></p>
+<ol start=3D"1">
+<li>
+<p><strong>Compile-time (Static) Polymorphism</strong> =E2=86=92 Method/Ope=
+rator Overloading</p></li>
+<li>
+<p><strong>Run-time (Dynamic) Polymorphism</strong> =E2=86=92 Virtual Funct=
+ions &amp; Method Overriding</p></li>
+</ol>
+<hr>
+<h2 id=3D"ObjectOrientedProgramming(OOP)-1=EF=B8=8F=E2=83=A3Function/Method=
+Overloading">1=EF=B8=8F=E2=83=A3 <strong>Function / Method Overloading</str=
+ong></h2>
+<p><strong>Definition:</strong></p>
+<ul>
+<li>
+<p><strong>Same function name</strong> with <strong>different parameter lis=
+ts</strong> in the <strong>same class</strong>.</p></li>
+<li>
+<p>Resolved at <strong>compile time</strong>.</p></li>
+</ul>
+<p>=E2=9C=85 Example (C++):</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">#includ=
+e &lt;iostream&gt;
+using namespace std;
+
+class Calculator {
+public:
+    int add(int a, int b) {
+        return a + b;
+    }
+
+    double add(double a, double b) {
+        return a + b;
+    }
+};
+
+int main() {
+    Calculator c;
+    cout &lt;&lt; c.add(2, 3) &lt;&lt; endl;      // calls int version
+    cout &lt;&lt; c.add(2.5, 3.5) &lt;&lt; endl;  // calls double version
+}
+</pre>
+</div>
+</div>
+<p><strong>Key Point:</strong></p>
+<ul>
+<li>
+<p>Same name, <strong>different parameters</strong> =E2=86=92 compile-time =
+polymorphism</p></li>
+</ul>
+<hr>
+<h2 id=3D"ObjectOrientedProgramming(OOP)-2=EF=B8=8F=E2=83=A3AbstractClasses=
+">2=EF=B8=8F=E2=83=A3 <strong>Abstract Classes</strong></h2>
+<p><strong>Definition:</strong></p>
+<ul>
+<li>
+<p>A class that <strong>cannot be instantiated</strong>.</p></li>
+<li>
+<p>Used to <strong>define an interface</strong> for derived classes.</p></l=
+i>
+<li>
+<p>Contains <strong>pure virtual functions</strong> (C++) / abstract method=
+s (Java).</p></li>
+</ul>
+<p>=E2=9C=85 Example (C++):</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">#includ=
+e &lt;iostream&gt;
+using namespace std;
+
+class Shape {
+public:
+    virtual void draw() =3D 0; // pure virtual function
+};
+
+class Circle : public Shape {
+public:
+    void draw() {
+        cout &lt;&lt; "Drawing Circle" &lt;&lt; endl;
+    }
+};
+
+int main() {
+    // Shape s; // ERROR: cannot instantiate abstract class
+    Circle c;
+    c.draw();
+}
+</pre>
+</div>
+</div>
+<p><strong>Key Point:</strong></p>
+<ul>
+<li>
+<p>Abstract class defines <strong>what</strong> a class should do, not <str=
+ong>how</strong>.</p></li>
+</ul>
+<hr>
+<h2 id=3D"ObjectOrientedProgramming(OOP)-3=EF=B8=8F=E2=83=A3VirtualFunction=
+s">3=EF=B8=8F=E2=83=A3 <strong>Virtual Functions</strong></h2>
+<p><strong>Definition:</strong></p>
+<ul>
+<li>
+<p>A function in the <strong>base class</strong> that can be <strong>overri=
+dden in derived class</strong>.</p></li>
+<li>
+<p>Declared with <code>virtual</code> keyword in C++.</p></li>
+<li>
+<p>Enables <strong>run-time polymorphism</strong>.</p></li>
+</ul>
+<p>=E2=9C=85 Example (C++):</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">#includ=
+e &lt;iostream&gt;
+using namespace std;
+
+class Vehicle {
+public:
+    virtual void start() {
+        cout &lt;&lt; "Vehicle starts" &lt;&lt; endl;
+    }
+};
+
+class Car : public Vehicle {
+public:
+    void start() {
+        cout &lt;&lt; "Car starts" &lt;&lt; endl;
+    }
+};
+
+int main() {
+    Vehicle *v =3D new Car();
+    v-&gt;start();  // Run-time polymorphism: calls Car's start()
+}
+</pre>
+</div>
+</div>
+<p><strong>Key Point:</strong></p>
+<ul>
+<li>
+<p><strong>Pointer or reference</strong> to base class calls <strong>derive=
+d class method</strong> at runtime.</p></li>
+</ul>
+<hr>
+<h2 id=3D"ObjectOrientedProgramming(OOP)-4=EF=B8=8F=E2=83=A3MethodOverridin=
+g">4=EF=B8=8F=E2=83=A3 <strong>Method Overriding</strong></h2>
+<p><strong>Definition:</strong></p>
+<ul>
+<li>
+<p><strong>Derived class</strong> provides a <strong>new implementation</st=
+rong> of a function in <strong>base class</strong> with the same <strong>na=
+me and parameters</strong>.</p></li>
+<li>
+<p>Requires <strong>inheritance</strong>.</p></li>
+</ul>
+<p>=E2=9C=85 Example (C++):</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">class A=
+nimal {
+public:
+    void speak() {
+        cout &lt;&lt; "Animal speaks" &lt;&lt; endl;
+    }
+};
+
+class Dog : public Animal {
+public:
+    void speak() {  // overrides base class method
+        cout &lt;&lt; "Dog barks" &lt;&lt; endl;
+    }
+};
+
+int main() {
+    Dog d;
+    d.speak(); // Dog barks
+}
+</pre>
+</div>
+</div>
+<p><strong>Difference from Overloading:</strong></p>
+<ul>
+<li>
+<p><strong>Overloading</strong> =E2=86=92 same class, different parameters =
+(compile-time)</p></li>
+<li>
+<p><strong>Overriding</strong> =E2=86=92 derived class changes base class m=
+ethod (run-time with virtual function)</p></li>
+</ul>
+<hr>
+<h2 id=3D"ObjectOrientedProgramming(OOP)-5=EF=B8=8F=E2=83=A3QuickSummaryTab=
+le">5=EF=B8=8F=E2=83=A3 <strong>Quick Summary Table</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"bc=
+bddf21-337e-46ad-9b40-9d6fd30662e9" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Concept</p></th>
+<th class=3D"confluenceTh">
+<p>Type</p></th>
+<th class=3D"confluenceTh">
+<p>Key Idea</p></th>
+<th class=3D"confluenceTh">
+<p>Example Usage</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Overloading</p></td>
+<td class=3D"confluenceTd">
+<p>Compile-time</p></td>
+<td class=3D"confluenceTd">
+<p>Same method name, different parameters</p></td>
+<td class=3D"confluenceTd">
+<p><code>add(int a,b)</code> vs <code>add(double a,b)</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Abstract Class</p></td>
+<td class=3D"confluenceTd">
+<p>N/A</p></td>
+<td class=3D"confluenceTd">
+<p>Cannot instantiate, contains pure virtual functions</p></td>
+<td class=3D"confluenceTd">
+<p><code>Shape</code> class with <code>draw()</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Virtual Function</p></td>
+<td class=3D"confluenceTd">
+<p>Run-time</p></td>
+<td class=3D"confluenceTd">
+<p>Base class function that can be overridden</p></td>
+<td class=3D"confluenceTd">
+<p><code>Vehicle::start()</code> virtual</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Overriding</p></td>
+<td class=3D"confluenceTd">
+<p>Run-time</p></td>
+<td class=3D"confluenceTd">
+<p>Derived class redefines base class method</p></td>
+<td class=3D"confluenceTd">
+<p><code>Dog::speak()</code></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p>=E2=9C=85 <strong>In short:</strong></p>
+<ul>
+<li>
+<p><strong>Compile-time Polymorphism:</strong> Method/Operator overloading<=
+/p></li>
+<li>
+<p><strong>Run-time Polymorphism:</strong> Virtual functions + method overr=
+iding + abstract classes</p></li>
+<li>
+<p>Makes code <strong>flexible, reusable, and maintainable</strong></p></li=
+>
+</ul>
+<hr>
+<p>If you want, I can also make a <strong>diagram showing Overloading vs Ov=
+erriding vs Abstract Classes vs Virtual Functions</strong> so it=E2=80=99s =
+easier to visualize.</p>
+<p>Do you want me to do that?</p>
+<p></p>
+<ol start=3D"8">
+<li>
+<p>Exceptions; Object Oriented I/O;</p></li>
+</ol>
+<p>Perfect! Let=E2=80=99s carefully explain <strong>Exceptions</strong> and=
+ <strong>Object-Oriented I/O (Input/Output)</strong> in C++ style.</p>
+<hr>
+<h1 id=3D"ObjectOrientedProgramming(OOP)-=F0=9F=93=8CExceptionsinC++(ErrorH=
+andling)">=F0=9F=93=8C <strong>Exceptions in C++ (Error Handling)</strong><=
+/h1>
+<p><strong>Definition:</strong></p>
+<ul>
+<li>
+<p>Exceptions are used to <strong>handle runtime errors</strong> in a progr=
+am.</p></li>
+<li>
+<p>Instead of crashing, the program can <strong>catch and respond</strong> =
+to errors gracefully.</p></li>
+</ul>
+<p><strong>Keywords:</strong></p>
+<ul>
+<li>
+<p><code>try</code> =E2=86=92 block of code to monitor for exceptions</p></=
+li>
+<li>
+<p><code>throw</code> =E2=86=92 signal that an exception occurred</p></li>
+<li>
+<p><code>catch</code> =E2=86=92 block to handle the exception</p></li>
+</ul>
+<p>=E2=9C=85 Example (C++):</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">#includ=
+e &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    int a =3D 10, b =3D 0;
+
+    try {
+        if(b =3D=3D 0) {
+            throw "Division by zero error!";
+        }
+        cout &lt;&lt; "Result: " &lt;&lt; a / b &lt;&lt; endl;
+    }
+    catch(const char* msg) {
+        cout &lt;&lt; "Exception caught: " &lt;&lt; msg &lt;&lt; endl;
+    }
+
+    cout &lt;&lt; "Program continues..." &lt;&lt; endl;
+}
+</pre>
+</div>
+</div>
+<p><strong>Key Points:</strong></p>
+<ul>
+<li>
+<p>Code inside <code>try</code> is monitored.</p></li>
+<li>
+<p>If an exception occurs, control jumps to <code>catch</code>.</p></li>
+<li>
+<p>Program continues after handling the exception.</p></li>
+</ul>
+<hr>
+<h2 id=3D"ObjectOrientedProgramming(OOP)-=E2=9C=85AdvantagesofExceptions">=
+=E2=9C=85 Advantages of Exceptions</h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"14=
+766187-29ae-4bd1-80c6-4761a3c884ed" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Advantage</p></th>
+<th class=3D"confluenceTh">
+<p>Explanation</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Clean error handling</p></td>
+<td class=3D"confluenceTd">
+<p>Avoids using return codes everywhere</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Separation of normal &amp; error code</p></td>
+<td class=3D"confluenceTd">
+<p><code>try-catch</code> separates regular logic from error handling</p></=
+td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Stack unwinding</p></td>
+<td class=3D"confluenceTd">
+<p>Automatically destroys local objects during exception propagation</p></t=
+d>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Flexibility</p></td>
+<td class=3D"confluenceTd">
+<p>Different exception types can be caught separately</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h1 id=3D"ObjectOrientedProgramming(OOP)-=F0=9F=93=8CObject-OrientedI/O(OOP=
+I/OinC++)">=F0=9F=93=8C <strong>Object-Oriented I/O (OOP I/O in C++)</stron=
+g></h1>
+<p><strong>Definition:</strong></p>
+<ul>
+<li>
+<p>In C++, <strong>streams</strong> are objects used for input/output opera=
+tions.</p></li>
+<li>
+<p>Part of <strong>iostream library</strong>.</p></li>
+<li>
+<p>Enables <strong>operator overloading</strong>, making I/O <strong>natura=
+l with objects</strong>.</p></li>
+</ul>
+<p><strong>Key Streams:</strong></p>
+<ul>
+<li>
+<p><code>cin</code> =E2=86=92 standard input (keyboard)</p></li>
+<li>
+<p><code>cout</code> =E2=86=92 standard output (screen)</p></li>
+<li>
+<p><code>cerr</code> =E2=86=92 standard error (unbuffered)</p></li>
+<li>
+<p><code>clog</code> =E2=86=92 standard error (buffered)</p></li>
+</ul>
+<hr>
+<h3 id=3D"ObjectOrientedProgramming(OOP)-Example:BasicI/OwithObjects"><stro=
+ng>Example: Basic I/O with Objects</strong></h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">#includ=
+e &lt;iostream&gt;
+using namespace std;
+
+class Student {
+public:
+    string name;
+    int age;
+
+    void input() {
+        cout &lt;&lt; "Enter name: ";
+        cin &gt;&gt; name;
+        cout &lt;&lt; "Enter age: ";
+        cin &gt;&gt; age;
+    }
+
+    void display() {
+        cout &lt;&lt; "Name: " &lt;&lt; name &lt;&lt; ", Age: " &lt;&lt; ag=
+e &lt;&lt; endl;
+    }
+};
+
+int main() {
+    Student s;
+    s.input();
+    s.display();
+}
+</pre>
+</div>
+</div>
+<p><strong>Key Points:</strong></p>
+<ul>
+<li>
+<p>I/O is <strong>object-oriented</strong>: <code>cin</code> and <code>cout=
+</code> are objects of class <code>istream</code> and <code>ostream</code>.=
+</p></li>
+<li>
+<p>You can <strong>overload </strong><code>&gt;&gt;</code><strong> and </st=
+rong><code>&lt;&lt;</code><strong> operators</strong> for your classes to s=
+upport custom I/O.</p></li>
+</ul>
+<hr>
+<h3 id=3D"ObjectOrientedProgramming(OOP)-Example:OverloadingI/OOperators"><=
+strong>Example: Overloading I/O Operators</strong></h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">#includ=
+e &lt;iostream&gt;
+using namespace std;
+
+class Student {
+public:
+    string name;
+    int age;
+
+    // Overload &gt;&gt; for input
+    friend istream&amp; operator&gt;&gt;(istream &amp;in, Student &amp;s) {
+        cout &lt;&lt; "Enter name: ";
+        in &gt;&gt; s.name;
+        cout &lt;&lt; "Enter age: ";
+        in &gt;&gt; s.age;
+        return in;
+    }
+
+    // Overload &lt;&lt; for output
+    friend ostream&amp; operator&lt;&lt;(ostream &amp;out, const Student &a=
+mp;s) {
+        out &lt;&lt; "Name: " &lt;&lt; s.name &lt;&lt; ", Age: " &lt;&lt; s=
+.age;
+        return out;
+    }
+};
+
+int main() {
+    Student s;
+    cin &gt;&gt; s;        // uses overloaded &gt;&gt;
+    cout &lt;&lt; s &lt;&lt; endl; // uses overloaded &lt;&lt;
+}
+</pre>
+</div>
+</div>
+<p><strong>Advantages of OOP I/O:</strong></p>
+<ul>
+<li>
+<p>Cleaner syntax (<code>cin &gt;&gt; obj</code>, <code>cout &lt;&lt; obj</=
+code>)</p></li>
+<li>
+<p>Custom I/O for objects possible using operator overloading</p></li>
+<li>
+<p>Consistent with C++ object-oriented design</p></li>
+</ul>
+<hr>
+<p>=E2=9C=85 <strong>Summary Table: Exceptions vs Object-Oriented I/O</stro=
+ng></p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"ea=
+02fb6c-7bfe-48ce-8513-05947ea068fa" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Concept</p></th>
+<th class=3D"confluenceTh">
+<p>Purpose</p></th>
+<th class=3D"confluenceTh">
+<p>Key Features</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Exceptions</p></td>
+<td class=3D"confluenceTd">
+<p>Handle runtime errors gracefully</p></td>
+<td class=3D"confluenceTd">
+<p><code>try</code>, <code>throw</code>, <code>catch</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Object-Oriented I/O</p></td>
+<td class=3D"confluenceTd">
+<p>Input/output using streams and objects</p></td>
+<td class=3D"confluenceTd">
+<p><code>cin</code>, <code>cout</code>, <code>cerr</code>, operator overloa=
+ding</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p>If you want, I can also make a <strong>diagram showing Exception flow an=
+d Object-Oriented I/O with operator overloading</strong> for easier visuali=
+zation.</p>
+<p>Do you want me to do that?</p>
+<p></p>
+<p>Perfect! Let=E2=80=99s explain <strong>Exceptions</strong> and <strong>O=
+bject-Oriented I/O</strong> in <strong>Java</strong>.</p>
+<hr>
+<h1 id=3D"ObjectOrientedProgramming(OOP)-=F0=9F=93=8CExceptionsinJava">=F0=
+=9F=93=8C <strong>Exceptions in Java</strong></h1>
+<p><strong>Definition:</strong></p>
+<ul>
+<li>
+<p>Exceptions are <strong>runtime errors</strong> that can be <strong>caugh=
+t and handled</strong> to prevent program crashes.</p></li>
+</ul>
+<p><strong>Keywords:</strong></p>
+<ul>
+<li>
+<p><code>try</code> =E2=86=92 block of code to monitor for exceptions</p></=
+li>
+<li>
+<p><code>catch</code> =E2=86=92 block to handle exceptions</p></li>
+<li>
+<p><code>throw</code> =E2=86=92 signal an exception</p></li>
+<li>
+<p><code>throws</code> =E2=86=92 declares that a method may throw an except=
+ion</p></li>
+<li>
+<p><code>finally</code> =E2=86=92 block executed <strong>always</strong>, u=
+sed for cleanup</p></li>
+</ul>
+<hr>
+<h3 id=3D"ObjectOrientedProgramming(OOP)-Example:JavaExceptionHandling"><st=
+rong>Example: Java Exception Handling</strong></h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">public =
+class Main {
+    public static void main(String[] args) {
+        int a =3D 10, b =3D 0;
+
+        try {
+            int result =3D a / b; // may throw ArithmeticException
+            System.out.println("Result: " + result);
+        } catch (ArithmeticException e) {
+            System.out.println("Exception caught: " + e.getMessage());
+        } finally {
+            System.out.println("Finally block executed.");
+        }
+
+        System.out.println("Program continues...");
+    }
+}
+</pre>
+</div>
+</div>
+<p><strong>Key Points:</strong></p>
+<ul>
+<li>
+<p><code>try</code> monitors code for errors.</p></li>
+<li>
+<p><code>catch</code> handles specific exceptions.</p></li>
+<li>
+<p><code>finally</code> runs whether or not an exception occurs.</p></li>
+</ul>
+<hr>
+<h3 id=3D"ObjectOrientedProgramming(OOP)-AdvantagesofExceptionsinJava"><str=
+ong>Advantages of Exceptions in Java</strong></h3>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"66=
+d2c80b-030c-4d2a-b19f-b189df0600d7" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Advantage</p></th>
+<th class=3D"confluenceTh">
+<p>Explanation</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Clean error handling</p></td>
+<td class=3D"confluenceTd">
+<p>Avoids error codes everywhere</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Separation of concerns</p></td>
+<td class=3D"confluenceTd">
+<p>Keeps normal logic separate from error handling</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Resource management</p></td>
+<td class=3D"confluenceTd">
+<p><code>finally</code> ensures cleanup (files, streams, etc.)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Multiple exception types</p></td>
+<td class=3D"confluenceTd">
+<p>Different exceptions can be caught differently</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h1 id=3D"ObjectOrientedProgramming(OOP)-=F0=9F=93=8CObject-OrientedI/OinJa=
+va">=F0=9F=93=8C <strong>Object-Oriented I/O in Java</strong></h1>
+<p><strong>Definition:</strong></p>
+<ul>
+<li>
+<p>Java uses <strong>classes and objects</strong> for input/output.</p></li=
+>
+<li>
+<p>Part of <a href=3D"http://java.io" data-card-appearance=3D"inline" class=
+=3D"external-link" rel=3D"nofollow">http://java.io</a> and <strong>java.uti=
+l</strong> packages.</p></li>
+<li>
+<p>Streams are objects for <strong>reading and writing data</strong>.</p></=
+li>
+</ul>
+<hr>
+<h3 id=3D"ObjectOrientedProgramming(OOP)-Example:BasicI/OusingScanner(Conso=
+leInput)"><strong>Example: Basic I/O using Scanner (Console Input)</strong>=
+</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">import =
+java.util.Scanner;
+
+class Student {
+    String name;
+    int age;
+
+    void input() {
+        Scanner sc =3D new Scanner(System.in);
+        System.out.print("Enter name: ");
+        name =3D sc.nextLine();
+        System.out.print("Enter age: ");
+        age =3D sc.nextInt();
+    }
+
+    void display() {
+        System.out.println("Name: " + name + ", Age: " + age);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Student s =3D new Student();
+        s.input();
+        s.display();
+    }
+}
+</pre>
+</div>
+</div>
+<p><strong>Key Points:</strong></p>
+<ul>
+<li>
+<p><code>Scanner</code> is an <strong>object for input</strong>.</p></li>
+<li>
+<p><code>System.out</code> is an <strong>object for output</strong>.</p></l=
+i>
+</ul>
+<hr>
+<h3 id=3D"ObjectOrientedProgramming(OOP)-Object-OrientedI/OwithFileStreams"=
+><strong>Object-Oriented I/O with File Streams</strong></h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">import =
+java.io.*;
+
+public class Main {
+    public static void main(String[] args) {
+        try {
+            // Create file writer object
+            FileWriter writer =3D new FileWriter("example.txt");
+            writer.write("Hello, Java OOP I/O!\n");
+            writer.close();
+
+            // Read the file
+            FileReader reader =3D new FileReader("example.txt");
+            BufferedReader br =3D new BufferedReader(reader);
+            String line;
+            while((line =3D br.readLine()) !=3D null) {
+                System.out.println(line);
+            }
+            br.close();
+        } catch(IOException e) {
+            System.out.println("Exception caught: " + e.getMessage());
+        }
+    }
+}
+</pre>
+</div>
+</div>
+<p><strong>Key Points:</strong></p>
+<ul>
+<li>
+<p><strong>Streams</strong> (<code>FileWriter</code>, <code>FileReader</cod=
+e>, <code>BufferedReader</code>) are <strong>objects</strong>.</p></li>
+<li>
+<p>Supports <strong>OOP design</strong>, operator overloading is not in Jav=
+a but object methods achieve the same.</p></li>
+</ul>
+<hr>
+<h3 id=3D"ObjectOrientedProgramming(OOP)-=E2=9C=85SummaryTable">=E2=9C=85 <=
+strong>Summary Table</strong></h3>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"45=
+90b5fc-4f89-4331-8503-d244bde36c57" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Concept</p></th>
+<th class=3D"confluenceTh">
+<p>Purpose</p></th>
+<th class=3D"confluenceTh">
+<p>Key Features / Classes</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Exceptions</p></td>
+<td class=3D"confluenceTd">
+<p>Handle runtime errors</p></td>
+<td class=3D"confluenceTd">
+<p><code>try</code>, <code>catch</code>, <code>throw</code>, <code>finally<=
+/code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Object-Oriented I/O</p></td>
+<td class=3D"confluenceTd">
+<p>Read/write data using objects</p></td>
+<td class=3D"confluenceTd">
+<p><code>Scanner</code>, <code>System.out</code>, <code>FileReader/Writer</=
+code></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p>If you want, I can make a <strong>diagram showing Exception flow and OOP=
+ I/O in Java</strong> for easier visualization.</p>
+<p>Do you want me to do that?</p>
+<p></p>
+<p></p>
+<ol start=3D"9">
+<li>
+<p>Template functions and classes;</p></li>
+</ol>
+<p>Perfect! Let=E2=80=99s go step by step and explain <strong>Template Func=
+tions and Template Classes</strong> in C++.</p>
+<hr>
+<h1 id=3D"ObjectOrientedProgramming(OOP)-=F0=9F=93=8CTemplatesinC++">=F0=9F=
+=93=8C <strong>Templates in C++</strong></h1>
+<p><strong>Definition:</strong></p>
+<ul>
+<li>
+<p>Templates allow you to write <strong>generic code</strong> that works wi=
+th <strong>any data type</strong>.</p></li>
+<li>
+<p>Instead of writing the same function/class for <code>int</code>, <code>f=
+loat</code>, <code>double</code>, etc., you can use <strong>templates</stro=
+ng>.</p></li>
+</ul>
+<p><strong>Types:</strong></p>
+<ol start=3D"1">
+<li>
+<p><strong>Function Templates</strong></p></li>
+<li>
+<p><strong>Class Templates</strong></p></li>
+</ol>
+<hr>
+<h2 id=3D"ObjectOrientedProgramming(OOP)-1=EF=B8=8F=E2=83=A3FunctionTemplat=
+es">1=EF=B8=8F=E2=83=A3 <strong>Function Templates</strong></h2>
+<p><strong>Definition:</strong></p>
+<ul>
+<li>
+<p>A <strong>generic function</strong> that works with multiple data types.=
+</p></li>
+</ul>
+<p>=E2=9C=85 Example:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">#includ=
+e &lt;iostream&gt;
+using namespace std;
+
+// Function template
+template &lt;typename T&gt;
+T add(T a, T b) {
+    return a + b;
+}
+
+int main() {
+    cout &lt;&lt; add&lt;int&gt;(5, 10) &lt;&lt; endl;        // works with=
+ int
+    cout &lt;&lt; add&lt;double&gt;(2.5, 3.5) &lt;&lt; endl;  // works with=
+ double
+}
+</pre>
+</div>
+</div>
+<p><strong>Key Points:</strong></p>
+<ul>
+<li>
+<p><code>template &lt;typename T&gt;</code> declares a generic type <code>T=
+</code>.</p></li>
+<li>
+<p><code>T</code> is replaced with the <strong>actual type</strong> during =
+compilation.</p></li>
+<li>
+<p>Can also use <code>template &lt;class T&gt;</code> instead of <code>type=
+name</code>.</p></li>
+</ul>
+<hr>
+<h3 id=3D"ObjectOrientedProgramming(OOP)-=F0=9F=94=B9FunctionTemplatewithMu=
+ltipleTypes">=F0=9F=94=B9 Function Template with Multiple Types</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">templat=
+e &lt;typename T1, typename T2&gt;
+void display(T1 a, T2 b) {
+    cout &lt;&lt; a &lt;&lt; " and " &lt;&lt; b &lt;&lt; endl;
+}
+
+int main() {
+    display&lt;int, double&gt;(10, 3.14);
+}
+</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"ObjectOrientedProgramming(OOP)-2=EF=B8=8F=E2=83=A3ClassTemplates"=
+>2=EF=B8=8F=E2=83=A3 <strong>Class Templates</strong></h2>
+<p><strong>Definition:</strong></p>
+<ul>
+<li>
+<p>A <strong>generic class</strong> that can work with <strong>any data typ=
+e</strong>.</p></li>
+</ul>
+<p>=E2=9C=85 Example:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">#includ=
+e &lt;iostream&gt;
+using namespace std;
+
+// Class template
+template &lt;typename T&gt;
+class Box {
+    T content;
+public:
+    void setContent(T value) {
+        content =3D value;
+    }
+    T getContent() {
+        return content;
+    }
+};
+
+int main() {
+    Box&lt;int&gt; intBox;
+    intBox.setContent(123);
+    cout &lt;&lt; "Int Box: " &lt;&lt; intBox.getContent() &lt;&lt; endl;
+
+    Box&lt;string&gt; strBox;
+    strBox.setContent("Hello");
+    cout &lt;&lt; "String Box: " &lt;&lt; strBox.getContent() &lt;&lt; endl=
+;
+}
+</pre>
+</div>
+</div>
+<p><strong>Key Points:</strong></p>
+<ul>
+<li>
+<p><code>Box&lt;int&gt;</code> =E2=86=92 object for integer</p></li>
+<li>
+<p><code>Box&lt;string&gt;</code> =E2=86=92 object for string</p></li>
+<li>
+<p>Same <strong>class template</strong> works for multiple types.</p></li>
+</ul>
+<hr>
+<h3 id=3D"ObjectOrientedProgramming(OOP)-3=EF=B8=8F=E2=83=A3AdvantagesofTem=
+plates">3=EF=B8=8F=E2=83=A3 <strong>Advantages of Templates</strong></h3>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"b6=
+b1f105-34ec-48c6-a4ef-8d2420cccfdc" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Advantage</p></th>
+<th class=3D"confluenceTh">
+<p>Explanation</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Code Reusability</p></td>
+<td class=3D"confluenceTd">
+<p>Same function/class works with multiple types</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Type Safety</p></td>
+<td class=3D"confluenceTd">
+<p>Compiler checks types at compile time</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Maintainability</p></td>
+<td class=3D"confluenceTd">
+<p>Avoids writing multiple versions of functions/classes</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Generic Programming</p></td>
+<td class=3D"confluenceTd">
+<p>Supports <strong>generic algorithms</strong> like STL in C++</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h3 id=3D"ObjectOrientedProgramming(OOP)-=E2=9C=85QuickSummaryTable">=E2=9C=
+=85 Quick Summary Table</h3>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"56=
+37f869-dce6-4151-8e25-d27f7ff2963b" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Feature</p></th>
+<th class=3D"confluenceTh">
+<p>Function Template</p></th>
+<th class=3D"confluenceTh">
+<p>Class Template</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Purpose</p></td>
+<td class=3D"confluenceTd">
+<p>Generic functions</p></td>
+<td class=3D"confluenceTd">
+<p>Generic classes</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Syntax</p></td>
+<td class=3D"confluenceTd">
+<p><code>template &lt;typename T&gt;</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>template &lt;typename T&gt;</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Example Use</p></td>
+<td class=3D"confluenceTd">
+<p><code>add&lt;int&gt;(5,10)</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>Box&lt;int&gt; intBox;</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Multiple Types</p></td>
+<td class=3D"confluenceTd">
+<p>Yes (T1, T2, =E2=80=A6)</p></td>
+<td class=3D"confluenceTd">
+<p>Yes</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Compile-time Checking</p></td>
+<td class=3D"confluenceTd">
+<p>Yes</p></td>
+<td class=3D"confluenceTd">
+<p>Yes</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p>If you want, I can also <strong>draw a diagram showing function template=
+ and class template workflow</strong> for easier visualization.</p>
+<p>Do you want me to do that?</p>
+<p>Got it! From now on, I=E2=80=99ll explain <strong>everything in Java</st=
+rong> unless you specify otherwise.</p>
+<p>Let=E2=80=99s now explain <strong>Template Functions and Classes in Java=
+</strong>=E2=80=94in Java, this concept is implemented as <strong>Generics<=
+/strong>.</p>
+<hr>
+<h1 id=3D"ObjectOrientedProgramming(OOP)-=F0=9F=93=8CGenericsinJava">=F0=9F=
+=93=8C <strong>Generics in Java</strong></h1>
+<p><strong>Definition:</strong></p>
+<ul>
+<li>
+<p>Generics allow you to write <strong>type-safe, reusable code</strong> th=
+at works with <strong>different data types</strong>.</p></li>
+<li>
+<p>Similar to C++ templates, but Java uses <strong>type parameters</strong>=
+.</p></li>
+</ul>
+<p><strong>Types:</strong></p>
+<ol start=3D"1">
+<li>
+<p><strong>Generic Methods (Function Templates)</strong></p></li>
+<li>
+<p><strong>Generic Classes (Class Templates)</strong></p></li>
+</ol>
+<hr>
+<h2 id=3D"ObjectOrientedProgramming(OOP)-1=EF=B8=8F=E2=83=A3GenericMethods"=
+>1=EF=B8=8F=E2=83=A3 <strong>Generic Methods</strong></h2>
+<p><strong>Definition:</strong></p>
+<ul>
+<li>
+<p>A method that can operate on <strong>different types</strong> using a <s=
+trong>type parameter</strong>.</p></li>
+</ul>
+<p>=E2=9C=85 Example:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">public =
+class Main {
+
+    // Generic method
+    public static &lt;T&gt; T add(T a, T b) {
+        // For demonstration, assuming T is Number
+        return (T) (Double.valueOf(a.toString()) + Double.valueOf(b.toStrin=
+g()));
+    }
+
+    public static void main(String[] args) {
+        System.out.println(add(5, 10));         // Integer
+        System.out.println(add(2.5, 3.5));      // Double
+    }
+}
+</pre>
+</div>
+</div>
+<p><strong>Key Points:</strong></p>
+<ul>
+<li>
+<p><code>&lt;T&gt;</code> declares a <strong>type parameter</strong>.</p></=
+li>
+<li>
+<p><code>T</code> can be <strong>Integer, Double, String</strong>, etc., de=
+pending on usage.</p></li>
+</ul>
+<hr>
+<h3 id=3D"ObjectOrientedProgramming(OOP)-=F0=9F=94=B9GenericMethodwithMulti=
+pleTypeParameters">=F0=9F=94=B9 Generic Method with Multiple Type Parameter=
+s</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">public =
+class Main {
+
+    public static &lt;T, U&gt; void display(T a, U b) {
+        System.out.println(a + " and " + b);
+    }
+
+    public static void main(String[] args) {
+        display(10, "Hello");  // T=3DInteger, U=3DString
+    }
+}
+</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"ObjectOrientedProgramming(OOP)-2=EF=B8=8F=E2=83=A3GenericClasses"=
+>2=EF=B8=8F=E2=83=A3 <strong>Generic Classes</strong></h2>
+<p><strong>Definition:</strong></p>
+<ul>
+<li>
+<p>A class with <strong>type parameters</strong> that can work with multipl=
+e types.</p></li>
+</ul>
+<p>=E2=9C=85 Example:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">// Gene=
+ric class
+class Box&lt;T&gt; {
+    private T content;
+
+    public void setContent(T content) {
+        this.content =3D content;
+    }
+
+    public T getContent() {
+        return content;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Box&lt;Integer&gt; intBox =3D new Box&lt;&gt;();
+        intBox.setContent(123);
+        System.out.println("Int Box: " + intBox.getContent());
+
+        Box&lt;String&gt; strBox =3D new Box&lt;&gt;();
+        strBox.setContent("Hello");
+        System.out.println("String Box: " + strBox.getContent());
+    }
+}
+</pre>
+</div>
+</div>
+<p><strong>Key Points:</strong></p>
+<ul>
+<li>
+<p><code>Box&lt;Integer&gt;</code> =E2=86=92 works with Integer</p></li>
+<li>
+<p><code>Box&lt;String&gt;</code> =E2=86=92 works with String</p></li>
+<li>
+<p>Same class works for <strong>any type safely</strong></p></li>
+</ul>
+<hr>
+<h3 id=3D"ObjectOrientedProgramming(OOP)-3=EF=B8=8F=E2=83=A3AdvantagesofGen=
+ericsinJava">3=EF=B8=8F=E2=83=A3 <strong>Advantages of Generics in Java</st=
+rong></h3>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"a4=
+aff264-eb2a-401a-ae39-5bb780b11429" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Advantage</p></th>
+<th class=3D"confluenceTh">
+<p>Explanation</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Code Reusability</p></td>
+<td class=3D"confluenceTd">
+<p>Same method/class works with multiple types</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Type Safety</p></td>
+<td class=3D"confluenceTd">
+<p>Compiler ensures correct types</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Maintainability</p></td>
+<td class=3D"confluenceTd">
+<p>Avoids writing multiple versions of functions/classes</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Works with Collections</p></td>
+<td class=3D"confluenceTd">
+<p>E.g., <code>ArrayList&lt;T&gt;</code>, <code>HashMap&lt;K,V&gt;</code> u=
+se generics</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h3 id=3D"ObjectOrientedProgramming(OOP)-=E2=9C=85QuickSummaryTable.1">=E2=
+=9C=85 Quick Summary Table</h3>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"d9=
+6b39c0-cc07-4479-baba-4be78e1b216f" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Feature</p></th>
+<th class=3D"confluenceTh">
+<p>Generic Method</p></th>
+<th class=3D"confluenceTh">
+<p>Generic Class</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Purpose</p></td>
+<td class=3D"confluenceTd">
+<p>Generic functions</p></td>
+<td class=3D"confluenceTd">
+<p>Generic classes</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Syntax</p></td>
+<td class=3D"confluenceTd">
+<p><code>&lt;T&gt;</code> before return type</p></td>
+<td class=3D"confluenceTd">
+<p><code>class Box&lt;T&gt;</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Example Use</p></td>
+<td class=3D"confluenceTd">
+<p><code>display(10, "Hello")</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>Box&lt;Integer&gt; intBox =3D new Box&lt;&gt;()</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Multiple Types</p></td>
+<td class=3D"confluenceTd">
+<p>Yes (T, U, =E2=80=A6)</p></td>
+<td class=3D"confluenceTd">
+<p>Yes (T, K, V, =E2=80=A6)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Type Checking</p></td>
+<td class=3D"confluenceTd">
+<p>Compile-time</p></td>
+<td class=3D"confluenceTd">
+<p>Compile-time</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p>If you want, I can also <strong>draw a diagram showing generic methods a=
+nd generic classes in Java</strong> for easier visualization.</p>
+<p>Do you want me to do that?</p>
+<p>Perfect! In <strong>Java</strong>, <strong>Template Functions and Classe=
+s</strong> are implemented as <strong>Generics</strong>. Let=E2=80=99s expl=
+ain clearly.</p>
+<hr>
+<h1 id=3D"ObjectOrientedProgramming(OOP)-=F0=9F=93=8CGenericsinJava.1">=F0=
+=9F=93=8C <strong>Generics in Java</strong></h1>
+<p><strong>Definition:</strong></p>
+<ul>
+<li>
+<p>Generics allow you to write <strong>type-safe, reusable code</strong> th=
+at works with <strong>different data types</strong>.</p></li>
+<li>
+<p>Equivalent to C++ templates.</p></li>
+</ul>
+<p><strong>Types:</strong></p>
+<ol start=3D"1">
+<li>
+<p><strong>Generic Methods (Template Functions)</strong></p></li>
+<li>
+<p><strong>Generic Classes (Template Classes)</strong></p></li>
+</ol>
+<hr>
+<h2 id=3D"ObjectOrientedProgramming(OOP)-1=EF=B8=8F=E2=83=A3GenericMethods(=
+TemplateFunctions)">1=EF=B8=8F=E2=83=A3 <strong>Generic Methods (Template F=
+unctions)</strong></h2>
+<p><strong>Definition:</strong></p>
+<ul>
+<li>
+<p>A method that works with <strong>different types</strong> using a <stron=
+g>type parameter</strong>.</p></li>
+</ul>
+<p>=E2=9C=85 Example:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">public =
+class Main {
+
+    // Generic method
+    public static &lt;T&gt; void display(T value) {
+        System.out.println("Value: " + value);
+    }
+
+    public static void main(String[] args) {
+        display(100);       // Integer
+        display(3.14);      // Double
+        display("Hello");   // String
+    }
+}
+</pre>
+</div>
+</div>
+<p><strong>Key Points:</strong></p>
+<ul>
+<li>
+<p><code>&lt;T&gt;</code> before return type declares a <strong>type parame=
+ter</strong>.</p></li>
+<li>
+<p>Works with <strong>any type</strong>.</p></li>
+</ul>
+<hr>
+<h3 id=3D"ObjectOrientedProgramming(OOP)-=F0=9F=94=B9GenericMethodwithMulti=
+pleTypeParameters.1">=F0=9F=94=B9 Generic Method with Multiple Type Paramet=
+ers</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">public =
+class Main {
+
+    public static &lt;T, U&gt; void show(T a, U b) {
+        System.out.println(a + " and " + b);
+    }
+
+    public static void main(String[] args) {
+        show(10, "Java"); // T=3DInteger, U=3DString
+    }
+}
+</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"ObjectOrientedProgramming(OOP)-2=EF=B8=8F=E2=83=A3GenericClasses(=
+TemplateClasses)">2=EF=B8=8F=E2=83=A3 <strong>Generic Classes (Template Cla=
+sses)</strong></h2>
+<p><strong>Definition:</strong></p>
+<ul>
+<li>
+<p>A class that can work with <strong>any data type</strong> using a <stron=
+g>type parameter</strong>.</p></li>
+</ul>
+<p>=E2=9C=85 Example:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">// Gene=
+ric class
+class Box&lt;T&gt; {
+    private T content;
+
+    public void setContent(T content) {
+        this.content =3D content;
+    }
+
+    public T getContent() {
+        return content;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Box&lt;Integer&gt; intBox =3D new Box&lt;&gt;();
+        intBox.setContent(123);
+        System.out.println("Int Box: " + intBox.getContent());
+
+        Box&lt;String&gt; strBox =3D new Box&lt;&gt;();
+        strBox.setContent("Hello");
+        System.out.println("String Box: " + strBox.getContent());
+    }
+}
+</pre>
+</div>
+</div>
+<p><strong>Key Points:</strong></p>
+<ul>
+<li>
+<p><code>Box&lt;Integer&gt;</code> =E2=86=92 works with <strong>Integer</st=
+rong></p></li>
+<li>
+<p><code>Box&lt;String&gt;</code> =E2=86=92 works with <strong>String</stro=
+ng></p></li>
+<li>
+<p><strong>Same class</strong> works for multiple types safely</p></li>
+</ul>
+<hr>
+<h2 id=3D"ObjectOrientedProgramming(OOP)-3=EF=B8=8F=E2=83=A3AdvantagesofGen=
+ericsinJava.1">3=EF=B8=8F=E2=83=A3 <strong>Advantages of Generics in Java</=
+strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"0b=
+17e459-c1bd-4da4-a93a-181529c32688" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Advantage</p></th>
+<th class=3D"confluenceTh">
+<p>Explanation</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Code Reusability</p></td>
+<td class=3D"confluenceTd">
+<p>Same method/class works with multiple types</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Type Safety</p></td>
+<td class=3D"confluenceTd">
+<p>Compiler checks type correctness at compile-time</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Maintainability</p></td>
+<td class=3D"confluenceTd">
+<p>Avoids writing multiple versions of functions/classes</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Supports Collections</p></td>
+<td class=3D"confluenceTd">
+<p>E.g., <code>ArrayList&lt;T&gt;</code>, <code>HashMap&lt;K,V&gt;</code></=
+p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h3 id=3D"ObjectOrientedProgramming(OOP)-=E2=9C=85QuickSummaryTable.2">=E2=
+=9C=85 Quick Summary Table</h3>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"6b=
+87b635-47fd-4ba7-bc54-b1838ed51ef5" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Feature</p></th>
+<th class=3D"confluenceTh">
+<p>Generic Method</p></th>
+<th class=3D"confluenceTh">
+<p>Generic Class</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Purpose</p></td>
+<td class=3D"confluenceTd">
+<p>Generic functions</p></td>
+<td class=3D"confluenceTd">
+<p>Generic classes</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Syntax</p></td>
+<td class=3D"confluenceTd">
+<p><code>&lt;T&gt;</code> before return type</p></td>
+<td class=3D"confluenceTd">
+<p><code>class Box&lt;T&gt;</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Example Usage</p></td>
+<td class=3D"confluenceTd">
+<p><code>display(10);</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>Box&lt;Integer&gt; intBox =3D new Box&lt;&gt;();</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Multiple Types</p></td>
+<td class=3D"confluenceTd">
+<p>Yes (T, U, etc.)</p></td>
+<td class=3D"confluenceTd">
+<p>Yes (T, K, V, etc.)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Type Checking</p></td>
+<td class=3D"confluenceTd">
+<p>Compile-time</p></td>
+<td class=3D"confluenceTd">
+<p>Compile-time</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p>If you want, I can also <strong>draw a simple diagram showing Generic Me=
+thods and Classes in Java</strong> for visual clarity.</p>
+<p>Do you want me to do that?</p>
+<p>Perfect! Let=E2=80=99s go step by step and explain <strong>Multi-threade=
+d Programming in Java</strong> clearly.</p>
+<hr>
+<h1 id=3D"ObjectOrientedProgramming(OOP)-=F0=9F=93=8CMulti-threadedProgramm=
+inginJava">=F0=9F=93=8C <strong>Multi-threaded Programming in Java</strong>=
+</h1>
+<p><strong>Definition:</strong></p>
+<ul>
+<li>
+<p>Multi-threading is a <strong>Java feature that allows concurrent executi=
+on of two or more threads</strong> (lightweight processes) within a program=
+.</p></li>
+<li>
+<p>Each thread has its <strong>own flow of control</strong>, but shares mem=
+ory with other threads of the same process.</p></li>
+<li>
+<p>Useful for <strong>parallelism</strong>, improving performance and respo=
+nsiveness.</p></li>
+</ul>
+<hr>
+<h2 id=3D"ObjectOrientedProgramming(OOP)-1=EF=B8=8F=E2=83=A3ThreadBasics">1=
+=EF=B8=8F=E2=83=A3 <strong>Thread Basics</strong></h2>
+<ul>
+<li>
+<p><strong>Thread</strong>: a small unit of a process that can run independ=
+ently.</p></li>
+<li>
+<p><strong>Main Thread</strong>: Java program starts with a main thread.</p=
+></li>
+<li>
+<p><strong>Java Thread Class</strong>: <code>java.lang.Thread</code></p></l=
+i>
+<li>
+<p><strong>Runnable Interface</strong>: <code>java.lang.Runnable</code></p>=
+</li>
+</ul>
+<hr>
+<h2 id=3D"ObjectOrientedProgramming(OOP)-2=EF=B8=8F=E2=83=A3CreatingThreads=
+inJava">2=EF=B8=8F=E2=83=A3 <strong>Creating Threads in Java</strong></h2>
+<h3 id=3D"ObjectOrientedProgramming(OOP)-Method1:ExtendingThreadClass"><str=
+ong>Method 1: Extending Thread Class</strong></h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">class M=
+yThread extends Thread {
+    public void run() { // This code runs in a new thread
+        for(int i=3D1; i&lt;=3D5; i++) {
+            System.out.println("Thread: " + i);
+        }
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        MyThread t1 =3D new MyThread();
+        t1.start(); // start() creates a new thread and calls run()
+       =20
+        for(int i=3D1; i&lt;=3D5; i++) {
+            System.out.println("Main: " + i);
+        }
+    }
+}
+</pre>
+</div>
+</div>
+<p><strong>Key Points:</strong></p>
+<ul>
+<li>
+<p><code>start()</code> =E2=86=92 starts a new thread</p></li>
+<li>
+<p><code>run()</code> =E2=86=92 defines the thread=E2=80=99s task</p></li>
+</ul>
+<hr>
+<h3 id=3D"ObjectOrientedProgramming(OOP)-Method2:ImplementingRunnableInterf=
+ace"><strong>Method 2: Implementing Runnable Interface</strong></h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">class M=
+yRunnable implements Runnable {
+    public void run() {
+        for(int i=3D1; i&lt;=3D5; i++) {
+            System.out.println("Runnable Thread: " + i);
+        }
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Thread t =3D new Thread(new MyRunnable());
+        t.start(); // starts new thread
+    }
+}
+</pre>
+</div>
+</div>
+<p><strong>Key Points:</strong></p>
+<ul>
+<li>
+<p>Runnable separates <strong>thread logic from thread control</strong>.</p=
+></li>
+<li>
+<p>Preferred when the class already <strong>extends another class</strong>.=
+</p></li>
+</ul>
+<hr>
+<h2 id=3D"ObjectOrientedProgramming(OOP)-3=EF=B8=8F=E2=83=A3ThreadMethodsin=
+Java">3=EF=B8=8F=E2=83=A3 <strong>Thread Methods in Java</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"8e=
+c2dc0a-d485-45d3-ada2-7ab8d3fde5d5" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Method</p></th>
+<th class=3D"confluenceTh">
+<p>Description</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>start()</code></p></td>
+<td class=3D"confluenceTd">
+<p>Starts a new thread and calls <code>run()</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>run()</code></p></td>
+<td class=3D"confluenceTd">
+<p>Contains the code executed by the thread</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>sleep(ms)</code></p></td>
+<td class=3D"confluenceTd">
+<p>Pauses thread for given milliseconds</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>join()</code></p></td>
+<td class=3D"confluenceTd">
+<p>Waits for thread to finish before continuing main thread</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>setPriority()</code></p></td>
+<td class=3D"confluenceTd">
+<p>Sets thread priority (1 to 10)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>getName()</code></p></td>
+<td class=3D"confluenceTd">
+<p>Returns thread name</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>setName()</code></p></td>
+<td class=3D"confluenceTd">
+<p>Sets thread name</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>isAlive()</code></p></td>
+<td class=3D"confluenceTd">
+<p>Checks if thread is running</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id=3D"ObjectOrientedProgramming(OOP)-4=EF=B8=8F=E2=83=A3ThreadSynchroni=
+zation">4=EF=B8=8F=E2=83=A3 <strong>Thread Synchronization</strong></h2>
+<ul>
+<li>
+<p><strong>Problem</strong>: Multiple threads accessing shared resources ca=
+n cause <strong>data inconsistency</strong>.</p></li>
+<li>
+<p><strong>Solution</strong>: Use <strong>synchronized methods/blocks</stro=
+ng>.</p></li>
+</ul>
+<p>=E2=9C=85 Example:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">class C=
+ounter {
+    private int count =3D 0;
+
+    public synchronized void increment() { // synchronized method
+        count++;
+    }
+
+    public int getCount() {
+        return count;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) throws InterruptedException {
+        Counter c =3D new Counter();
+
+        Thread t1 =3D new Thread(() -&gt; {
+            for(int i=3D0; i&lt;1000; i++) c.increment();
+        });
+
+        Thread t2 =3D new Thread(() -&gt; {
+            for(int i=3D0; i&lt;1000; i++) c.increment();
+        });
+
+        t1.start();
+        t2.start();
+
+        t1.join();
+        t2.join();
+
+        System.out.println("Count: " + c.getCount()); // Always 2000
+    }
+}
+</pre>
+</div>
+</div>
+<p><strong>Key Points:</strong></p>
+<ul>
+<li>
+<p><code>synchronized</code> ensures <strong>only one thread accesses the m=
+ethod at a time</strong>.</p></li>
+</ul>
+<hr>
+<h2 id=3D"ObjectOrientedProgramming(OOP)-5=EF=B8=8F=E2=83=A3ThreadStatesinJ=
+ava">5=EF=B8=8F=E2=83=A3 <strong>Thread States in Java</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"1f=
+5d815c-6139-41a0-bc4d-aac53a6c4706" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>State</p></th>
+<th class=3D"confluenceTh">
+<p>Description</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>New</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Thread object created but <code>start()</code> not called</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Runnable</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Ready to run, waiting for CPU scheduler</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Running</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Thread is executing</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Waiting</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Thread waits indefinitely until notified</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Timed Waiting</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Waiting for specified time</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Terminated</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Thread finished execution</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id=3D"ObjectOrientedProgramming(OOP)-6=EF=B8=8F=E2=83=A3AdvantagesofMul=
+ti-threading">6=EF=B8=8F=E2=83=A3 <strong>Advantages of Multi-threading</st=
+rong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"d7=
+820b66-ff30-4f04-8480-3032110f518f" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Advantage</p></th>
+<th class=3D"confluenceTh">
+<p>Explanation</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Parallel execution</p></td>
+<td class=3D"confluenceTd">
+<p>Runs multiple tasks simultaneously</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Better resource utilization</p></td>
+<td class=3D"confluenceTd">
+<p>CPU idle time minimized</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Improved responsiveness</p></td>
+<td class=3D"confluenceTd">
+<p>UI programs remain responsive</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Scalability</p></td>
+<td class=3D"confluenceTd">
+<p>Can handle multiple users or tasks efficiently</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h3 id=3D"ObjectOrientedProgramming(OOP)-=E2=9C=85QuickSummaryTable.3">=E2=
+=9C=85 Quick Summary Table</h3>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"8e=
+b63811-883e-40b8-b213-1483ba8c62bf" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Concept</p></th>
+<th class=3D"confluenceTh">
+<p>Description</p></th>
+<th class=3D"confluenceTh">
+<p>Example Method/Class</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Thread creation</p></td>
+<td class=3D"confluenceTd">
+<p>Extend <code>Thread</code> or implement <code>Runnable</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>class MyThread extends Thread</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Start thread</p></td>
+<td class=3D"confluenceTd">
+<p>Begin execution of thread</p></td>
+<td class=3D"confluenceTd">
+<p><code>start()</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Synchronization</p></td>
+<td class=3D"confluenceTd">
+<p>Avoid concurrent access issues</p></td>
+<td class=3D"confluenceTd">
+<p><code>synchronized</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Sleep/Delay</p></td>
+<td class=3D"confluenceTd">
+<p>Pause thread</p></td>
+<td class=3D"confluenceTd">
+<p><code>sleep(ms)</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Wait/Notify</p></td>
+<td class=3D"confluenceTd">
+<p>Thread communication</p></td>
+<td class=3D"confluenceTd">
+<p><code>wait()</code>, <code>notify()</code></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p>If you want, I can also make a <strong>diagram showing Java thread lifec=
+ycle with creation, running, waiting, and termination</strong> for better u=
+nderstanding.</p>
+<p>Do you want me to do that?</p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<ol start=3D"10">
+<li>
+<p>Multi-threaded Programming.</p></li>
+</ol>
+<p>Perfect! Let=E2=80=99s go step by step and explain <strong>Multi-threade=
+d Programming in Java</strong> clearly.</p>
+<hr>
+<h1 id=3D"ObjectOrientedProgramming(OOP)-=F0=9F=93=8CMulti-threadedProgramm=
+inginJava.1">=F0=9F=93=8C <strong>Multi-threaded Programming in Java</stron=
+g></h1>
+<p><strong>Definition:</strong></p>
+<ul>
+<li>
+<p>Multi-threading is a <strong>Java feature that allows concurrent executi=
+on of two or more threads</strong> (lightweight processes) within a program=
+.</p></li>
+<li>
+<p>Each thread has its <strong>own flow of control</strong>, but shares mem=
+ory with other threads of the same process.</p></li>
+<li>
+<p>Useful for <strong>parallelism</strong>, improving performance and respo=
+nsiveness.</p></li>
+</ul>
+<hr>
+<h2 id=3D"ObjectOrientedProgramming(OOP)-1=EF=B8=8F=E2=83=A3ThreadBasics.1"=
+>1=EF=B8=8F=E2=83=A3 <strong>Thread Basics</strong></h2>
+<ul>
+<li>
+<p><strong>Thread</strong>: a small unit of a process that can run independ=
+ently.</p></li>
+<li>
+<p><strong>Main Thread</strong>: Java program starts with a main thread.</p=
+></li>
+<li>
+<p><strong>Java Thread Class</strong>: <code>java.lang.Thread</code></p></l=
+i>
+<li>
+<p><strong>Runnable Interface</strong>: <code>java.lang.Runnable</code></p>=
+</li>
+</ul>
+<hr>
+<h2 id=3D"ObjectOrientedProgramming(OOP)-2=EF=B8=8F=E2=83=A3CreatingThreads=
+inJava.1">2=EF=B8=8F=E2=83=A3 <strong>Creating Threads in Java</strong></h2=
+>
+<h3 id=3D"ObjectOrientedProgramming(OOP)-Method1:ExtendingThreadClass.1"><s=
+trong>Method 1: Extending Thread Class</strong></h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">class M=
+yThread extends Thread {
+    public void run() { // This code runs in a new thread
+        for(int i=3D1; i&lt;=3D5; i++) {
+            System.out.println("Thread: " + i);
+        }
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        MyThread t1 =3D new MyThread();
+        t1.start(); // start() creates a new thread and calls run()
+       =20
+        for(int i=3D1; i&lt;=3D5; i++) {
+            System.out.println("Main: " + i);
+        }
+    }
+}
+</pre>
+</div>
+</div>
+<p><strong>Key Points:</strong></p>
+<ul>
+<li>
+<p><code>start()</code> =E2=86=92 starts a new thread</p></li>
+<li>
+<p><code>run()</code> =E2=86=92 defines the thread=E2=80=99s task</p></li>
+</ul>
+<hr>
+<h3 id=3D"ObjectOrientedProgramming(OOP)-Method2:ImplementingRunnableInterf=
+ace.1"><strong>Method 2: Implementing Runnable Interface</strong></h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">class M=
+yRunnable implements Runnable {
+    public void run() {
+        for(int i=3D1; i&lt;=3D5; i++) {
+            System.out.println("Runnable Thread: " + i);
+        }
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Thread t =3D new Thread(new MyRunnable());
+        t.start(); // starts new thread
+    }
+}
+</pre>
+</div>
+</div>
+<p><strong>Key Points:</strong></p>
+<ul>
+<li>
+<p>Runnable separates <strong>thread logic from thread control</strong>.</p=
+></li>
+<li>
+<p>Preferred when the class already <strong>extends another class</strong>.=
+</p></li>
+</ul>
+<hr>
+<h2 id=3D"ObjectOrientedProgramming(OOP)-3=EF=B8=8F=E2=83=A3ThreadMethodsin=
+Java.1">3=EF=B8=8F=E2=83=A3 <strong>Thread Methods in Java</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"f6=
+b595cc-7e03-4b21-813f-2dee2ffba5fc" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Method</p></th>
+<th class=3D"confluenceTh">
+<p>Description</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>start()</code></p></td>
+<td class=3D"confluenceTd">
+<p>Starts a new thread and calls <code>run()</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>run()</code></p></td>
+<td class=3D"confluenceTd">
+<p>Contains the code executed by the thread</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>sleep(ms)</code></p></td>
+<td class=3D"confluenceTd">
+<p>Pauses thread for given milliseconds</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>join()</code></p></td>
+<td class=3D"confluenceTd">
+<p>Waits for thread to finish before continuing main thread</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>setPriority()</code></p></td>
+<td class=3D"confluenceTd">
+<p>Sets thread priority (1 to 10)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>getName()</code></p></td>
+<td class=3D"confluenceTd">
+<p>Returns thread name</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>setName()</code></p></td>
+<td class=3D"confluenceTd">
+<p>Sets thread name</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>isAlive()</code></p></td>
+<td class=3D"confluenceTd">
+<p>Checks if thread is running</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id=3D"ObjectOrientedProgramming(OOP)-4=EF=B8=8F=E2=83=A3ThreadSynchroni=
+zation.1">4=EF=B8=8F=E2=83=A3 <strong>Thread Synchronization</strong></h2>
+<ul>
+<li>
+<p><strong>Problem</strong>: Multiple threads accessing shared resources ca=
+n cause <strong>data inconsistency</strong>.</p></li>
+<li>
+<p><strong>Solution</strong>: Use <strong>synchronized methods/blocks</stro=
+ng>.</p></li>
+</ul>
+<p>=E2=9C=85 Example:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">class C=
+ounter {
+    private int count =3D 0;
+
+    public synchronized void increment() { // synchronized method
+        count++;
+    }
+
+    public int getCount() {
+        return count;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) throws InterruptedException {
+        Counter c =3D new Counter();
+
+        Thread t1 =3D new Thread(() -&gt; {
+            for(int i=3D0; i&lt;1000; i++) c.increment();
+        });
+
+        Thread t2 =3D new Thread(() -&gt; {
+            for(int i=3D0; i&lt;1000; i++) c.increment();
+        });
+
+        t1.start();
+        t2.start();
+
+        t1.join();
+        t2.join();
+
+        System.out.println("Count: " + c.getCount()); // Always 2000
+    }
+}
+</pre>
+</div>
+</div>
+<p><strong>Key Points:</strong></p>
+<ul>
+<li>
+<p><code>synchronized</code> ensures <strong>only one thread accesses the m=
+ethod at a time</strong>.</p></li>
+</ul>
+<hr>
+<h2 id=3D"ObjectOrientedProgramming(OOP)-5=EF=B8=8F=E2=83=A3ThreadStatesinJ=
+ava.1">5=EF=B8=8F=E2=83=A3 <strong>Thread States in Java</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"43=
+601d90-dbbb-49a2-a959-aaaffa137184" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>State</p></th>
+<th class=3D"confluenceTh">
+<p>Description</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>New</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Thread object created but <code>start()</code> not called</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Runnable</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Ready to run, waiting for CPU scheduler</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Running</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Thread is executing</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Waiting</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Thread waits indefinitely until notified</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Timed Waiting</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Waiting for specified time</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Terminated</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Thread finished execution</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id=3D"ObjectOrientedProgramming(OOP)-6=EF=B8=8F=E2=83=A3AdvantagesofMul=
+ti-threading.1">6=EF=B8=8F=E2=83=A3 <strong>Advantages of Multi-threading</=
+strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"71=
+d1fc44-85fb-407c-98b2-03a78d79d539" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Advantage</p></th>
+<th class=3D"confluenceTh">
+<p>Explanation</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Parallel execution</p></td>
+<td class=3D"confluenceTd">
+<p>Runs multiple tasks simultaneously</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Better resource utilization</p></td>
+<td class=3D"confluenceTd">
+<p>CPU idle time minimized</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Improved responsiveness</p></td>
+<td class=3D"confluenceTd">
+<p>UI programs remain responsive</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Scalability</p></td>
+<td class=3D"confluenceTd">
+<p>Can handle multiple users or tasks efficiently</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h3 id=3D"ObjectOrientedProgramming(OOP)-=E2=9C=85QuickSummaryTable.4">=E2=
+=9C=85 Quick Summary Table</h3>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"ad=
+eeceb4-bde1-4bb5-a4db-680b6f940678" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Concept</p></th>
+<th class=3D"confluenceTh">
+<p>Description</p></th>
+<th class=3D"confluenceTh">
+<p>Example Method/Class</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Thread creation</p></td>
+<td class=3D"confluenceTd">
+<p>Extend <code>Thread</code> or implement <code>Runnable</code></p></td>
+<td class=3D"confluenceTd">
+<p><code>class MyThread extends Thread</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Start thread</p></td>
+<td class=3D"confluenceTd">
+<p>Begin execution of thread</p></td>
+<td class=3D"confluenceTd">
+<p><code>start()</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Synchronization</p></td>
+<td class=3D"confluenceTd">
+<p>Avoid concurrent access issues</p></td>
+<td class=3D"confluenceTd">
+<p><code>synchronized</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Sleep/Delay</p></td>
+<td class=3D"confluenceTd">
+<p>Pause thread</p></td>
+<td class=3D"confluenceTd">
+<p><code>sleep(ms)</code></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Wait/Notify</p></td>
+<td class=3D"confluenceTd">
+<p>Thread communication</p></td>
+<td class=3D"confluenceTd">
+<p><code>wait()</code>, <code>notify()</code></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p>If you want, I can also make a <strong>diagram showing Java thread lifec=
+ycle with creation, running, waiting, and termination</strong> for better u=
+nderstanding.</p>
+<p>Do you want me to do that?</p>
+<p></p>
+<p></p>
+<p></p>
+<p>class Student {<br>
+ String name;<br>
+ int age;</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">void di=
+splay() {
+    System.out.println("Name: " + name + ", Age: " + age);
+}</pre>
+</div>
+</div>
+<p>}</p>
+<p>public class Main {<br>
+ public static void main(String[] args) {<br>
+ // Array of 3 Student objects<br>
+ Student[] students =3D new Student[3];</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">    // =
+Initialize objects
+    students[0] =3D new Student();
+    students[0].name =3D "Alice";
+    students[0].age =3D 20;
+
+    students[1] =3D new Student();
+    students[1].name =3D "Bob";
+    students[1].age =3D 22;
+
+    students[2] =3D new Student();
+    students[2].name =3D "Carol";
+    students[2].age =3D 21;
+
+    // Display all students
+    for(int i =3D 0; i &lt; students.length; i++) {
+        students[i].display();
+    }
+}</pre>
+</div>
+</div>
+<p>}</p>
+<p></p>
+<p></p>
+<p></p>
+    </div>
+</body>
+</html>
+------=_Part_2_1982936842.1760785670175--

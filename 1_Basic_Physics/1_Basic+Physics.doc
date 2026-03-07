@@ -1,0 +1,1600 @@
+Date: Sat, 18 Oct 2025 11:34:04 +0000 (UTC)
+Message-ID: <1931217944.613.1760787244971@baf9d7eff5c1>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_612_764337739.1760787244971"
+
+------=_Part_612_764337739.1760787244971
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>1_Basic Physics</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>1_Basic Physics</h1>
+    <div class=3D"Section1">
+        <p></p>
+<ol start=3D"1">
+<li>
+<p>Basic elements: charge, Coulomb=E2=80=99s law, electric field, Gauss=E2=
+=80=99s law, electric potential, magnetic field; Faraday=E2=80=99s law, Max=
+well=E2=80=99s equations</p></li>
+<li>
+<p>Waves and oscillations</p></li>
+<li>
+<p>Theory of special relativity</p></li>
+<li>
+<p>Electromagnetic waves, Photoelectric effect, Quantum theory of light, X-=
+ray and X-ray diffraction, Compton effect</p></li>
+<li>
+<p>De Broglie waves, Phase and group velocity, Wave function and wave equat=
+ion.</p></li>
+</ol>
+<p></p>
+<p></p>
+<p></p>
+<ol start=3D"1">
+<li>
+<p>Basic elements: charge, Coulomb=E2=80=99s law, electric field, Gauss=E2=
+=80=99s law, electric potential, magnetic field; Faraday=E2=80=99s law, Max=
+well=E2=80=99s equations</p></li>
+</ol>
+<p>Perfect =F0=9F=91=8F =E2=80=94 now let=E2=80=99s explain <strong>Basic E=
+lements of Electromagnetism</strong>, which include <strong>charge, electri=
+c &amp; magnetic fields, and Maxwell=E2=80=99s equations</strong> =E2=80=94=
+ key concepts in <strong>electronics and physics for IT/Govt exams</strong>=
+.</p>
+<hr>
+<h2 id=3D"id-1_BasicPhysics-=E2=9A=A11.Charge">=E2=9A=A1 <strong>1. Charge<=
+/strong></h2>
+<ul>
+<li>
+<p><strong>Definition:</strong> Charge is a <strong>fundamental property of=
+ matter</strong> that causes <strong>electromagnetic interaction</strong>.<=
+/p></li>
+<li>
+<p><strong>Types:</strong></p>
+<ul>
+<li>
+<p>Positive charge (+) =E2=80=94 e.g., proton</p></li>
+<li>
+<p>Negative charge (=E2=88=92) =E2=80=94 e.g., electron</p></li>
+</ul></li>
+<li>
+<p><strong>Unit:</strong> Coulomb (C)</p></li>
+<li>
+<p><strong>Law of conservation:</strong> Charge can neither be created nor =
+destroyed; it can only be transferred.</p></li>
+</ul>
+<hr>
+<h2 id=3D"id-1_BasicPhysics-=E2=9A=A12.Coulomb=E2=80=99sLaw">=E2=9A=A1 <str=
+ong>2. Coulomb=E2=80=99s Law</strong></h2>
+<ul>
+<li>
+<p>Describes the <strong>force between two electric charges</strong>.<br>
+[<br>
+F =3D k \frac{q_1 q_2}{r^2}<br>
+]<br>
+Where:</p></li>
+<li>
+<p>( F ) =3D force between charges</p></li>
+<li>
+<p>( q_1, q_2 ) =3D magnitudes of charges</p></li>
+<li>
+<p>( r ) =3D distance between them</p></li>
+<li>
+<p>( k =3D \frac{1}{4\pi \varepsilon_0} ) =3D proportionality constant</p><=
+/li>
+</ul>
+<p>=F0=9F=A7=A0 <strong>Key Point:</strong><br>
+Force is <strong>attractive</strong> for opposite charges and <strong>repul=
+sive</strong> for like charges.</p>
+<hr>
+<h2 id=3D"id-1_BasicPhysics-=E2=9A=A13.ElectricField(E)">=E2=9A=A1 <strong>=
+3. Electric Field (E)</strong></h2>
+<ul>
+<li>
+<p><strong>Definition:</strong> The region around a charged particle where =
+it exerts a force on other charges.<br>
+[<br>
+E =3D \frac{F}{q}<br>
+]</p></li>
+<li>
+<p>Unit: <strong>N/C (Newton per Coulomb)</strong> or <strong>V/m (Volt per=
+ meter)</strong></p></li>
+<li>
+<p><strong>Direction:</strong> Away from positive, toward negative charge</=
+p></li>
+</ul>
+<hr>
+<h2 id=3D"id-1_BasicPhysics-=E2=9A=A14.Gauss=E2=80=99sLaw">=E2=9A=A1 <stron=
+g>4. Gauss=E2=80=99s Law</strong></h2>
+<ul>
+<li>
+<p>Relates the <strong>electric flux</strong> through a closed surface to t=
+he <strong>charge enclosed</strong>.<br>
+[<br>
+\oint E \cdot dA =3D \frac{Q_{enclosed}}{\varepsilon_0}<br>
+]</p></li>
+</ul>
+<p>=F0=9F=93=98 <strong>Meaning:</strong><br>
+The total electric flux through a closed surface is <strong>proportional to=
+ the total charge enclosed</strong> by it.</p>
+<p>=F0=9F=94=B9 <strong>Used to calculate:</strong></p>
+<ul>
+<li>
+<p>Electric field of <strong>symmetric charge distributions</strong> (spher=
+ical, cylindrical, planar).</p></li>
+</ul>
+<hr>
+<h2 id=3D"id-1_BasicPhysics-=E2=9A=A15.ElectricPotential(V)">=E2=9A=A1 <str=
+ong>5. Electric Potential (V)</strong></h2>
+<ul>
+<li>
+<p><strong>Definition:</strong> Work done in bringing a unit positive charg=
+e from infinity to a point in an electric field.<br>
+[<br>
+V =3D \frac{W}{q}<br>
+]</p></li>
+<li>
+<p>Unit: <strong>Volt (V)</strong></p></li>
+<li>
+<p><strong>Relation with electric field:</strong><br>
+[<br>
+E =3D -\frac{dV}{dx}<br>
+]</p></li>
+</ul>
+<hr>
+<h2 id=3D"id-1_BasicPhysics-=F0=9F=A7=B26.MagneticField(B)">=F0=9F=A7=B2 <s=
+trong>6. Magnetic Field (B)</strong></h2>
+<ul>
+<li>
+<p><strong>Definition:</strong> The region around a moving charge or magnet=
+ where magnetic forces act.</p></li>
+<li>
+<p><strong>Unit:</strong> Tesla (T)</p></li>
+<li>
+<p><strong>Right-Hand Rule:</strong></p>
+<ul>
+<li>
+<p>Thumb =E2=86=92 Current direction</p></li>
+<li>
+<p>Fingers =E2=86=92 Magnetic field direction</p></li>
+</ul></li>
+</ul>
+<p>=F0=9F=A7=A0 <strong>Created by:</strong></p>
+<ul>
+<li>
+<p>Moving charges (current-carrying wires)</p></li>
+<li>
+<p>Permanent magnets</p></li>
+</ul>
+<hr>
+<h2 id=3D"id-1_BasicPhysics-=F0=9F=A7=B27.Faraday=E2=80=99sLawofElectromagn=
+eticInduction">=F0=9F=A7=B2 <strong>7. Faraday=E2=80=99s Law of Electromagn=
+etic Induction</strong></h2>
+<ul>
+<li>
+<p><strong>Definition:</strong> A changing magnetic field induces an <stron=
+g>electromotive force (EMF)</strong> in a conductor.<br>
+[<br>
+\text{EMF} =3D -\frac{d\Phi_B}{dt}<br>
+]<br>
+Where ( \Phi_B ) =3D magnetic flux =3D ( B \cdot A )</p></li>
+</ul>
+<p>=E2=9A=A1 <strong>Key Idea:</strong><br>
+Changing magnetic field =E2=86=92 Induced voltage =E2=86=92 Induced current=
+</p>
+<hr>
+<h2 id=3D"id-1_BasicPhysics-=F0=9F=8C=908.Maxwell=E2=80=99sEquations">=F0=
+=9F=8C=90 <strong>8. Maxwell=E2=80=99s Equations</strong></h2>
+<p>These are the <strong>four fundamental laws</strong> that describe all c=
+lassical electromagnetism.</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"c51ccc1e-1e51-411a-a5b8-6e2=
+626704f60" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Equation</p></th>
+<th class=3D"confluenceTh">
+<p>Name</p></th>
+<th class=3D"confluenceTh">
+<p>Description</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>( \nabla \cdot E =3D \frac{\rho}{\varepsilon_0} )</p></li>
+</ol></td>
+<td class=3D"confluenceTd">
+<p><strong>Gauss=E2=80=99s Law for Electricity</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Electric field originates from electric charges</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<ol start=3D"2">
+<li>
+<p>( \nabla \cdot B =3D 0 )</p></li>
+</ol></td>
+<td class=3D"confluenceTd">
+<p><strong>Gauss=E2=80=99s Law for Magnetism</strong></p></td>
+<td class=3D"confluenceTd">
+<p>No magnetic monopoles exist</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<ol start=3D"3">
+<li>
+<p>( \nabla \times E =3D -\frac{\partial B}{\partial t} )</p></li>
+</ol></td>
+<td class=3D"confluenceTd">
+<p><strong>Faraday=E2=80=99s Law</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Changing magnetic field induces electric field</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<ol start=3D"4">
+<li>
+<p>( \nabla \times B =3D \mu_0 J + \mu_0 \varepsilon_0 \frac{\partial E}{\p=
+artial t} )</p></li>
+</ol></td>
+<td class=3D"confluenceTd">
+<p><strong>Ampere-Maxwell Law</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Electric current and changing electric field create magnetic field</p></=
+td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id=3D"id-1_BasicPhysics-=F0=9F=94=B99.QuickSummaryTable">=F0=9F=94=B9 <=
+strong>9. Quick Summary Table</strong></h2>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"44ca38bd-aa6c-4a0b-96d3-b2b=
+6ab87ab24" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Concept</p></th>
+<th class=3D"confluenceTh">
+<p>Definition</p></th>
+<th class=3D"confluenceTh">
+<p>Unit / Formula</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Charge</p></td>
+<td class=3D"confluenceTd">
+<p>Property causing electric force</p></td>
+<td class=3D"confluenceTd">
+<p>Coulomb (C)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Coulomb=E2=80=99s Law</p></td>
+<td class=3D"confluenceTd">
+<p>Force between charges</p></td>
+<td class=3D"confluenceTd">
+<p>( F =3D k q_1 q_2 / r^2 )</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Electric Field</p></td>
+<td class=3D"confluenceTd">
+<p>Force per unit charge</p></td>
+<td class=3D"confluenceTd">
+<p>( E =3D F/q )</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Gauss=E2=80=99s Law</p></td>
+<td class=3D"confluenceTd">
+<p>Electric flux =3D enclosed charge / =CE=B5=E2=82=80</p></td>
+<td class=3D"confluenceTd">
+<p>( \oint E=C2=B7dA =3D Q/=CE=B5=E2=82=80 )</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Electric Potential</p></td>
+<td class=3D"confluenceTd">
+<p>Work done per unit charge</p></td>
+<td class=3D"confluenceTd">
+<p>Volt (V)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Magnetic Field</p></td>
+<td class=3D"confluenceTd">
+<p>Force field due to moving charges</p></td>
+<td class=3D"confluenceTd">
+<p>Tesla (T)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Faraday=E2=80=99s Law</p></td>
+<td class=3D"confluenceTd">
+<p>Induced EMF from changing flux</p></td>
+<td class=3D"confluenceTd">
+<p>( EMF =3D -d=CE=A6/dt )</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Maxwell=E2=80=99s Equations</p></td>
+<td class=3D"confluenceTd">
+<p>Unified electromagnetism laws</p></td>
+<td class=3D"confluenceTd">
+<p>4 vector equations</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p>=E2=9C=85 <strong>In Short:</strong></p>
+<blockquote>
+<p>Electric and magnetic fields are created by <strong>charges and their mo=
+tion</strong>.<br><strong>Coulomb=E2=80=99s law</strong> defines force betw=
+een charges, <strong>Gauss=E2=80=99s law</strong> links field and charge, <=
+strong>Faraday=E2=80=99s law</strong> links changing magnetic fields to ele=
+ctric effects, and <strong>Maxwell=E2=80=99s equations</strong> unify all o=
+f these into the complete theory of <strong>electromagnetism</strong>.</p>
+</blockquote>
+<ol start=3D"2">
+<li>
+<p>Waves and oscillations</p></li>
+</ol>
+<p>Perfect =F0=9F=91=8F =E2=80=94 now let=E2=80=99s clearly explain <strong=
+>Waves and Oscillations</strong>, a very common topic in <strong>physics an=
+d electronics fundamentals</strong> for IT and engineering exams.</p>
+<hr>
+<h2 id=3D"id-1_BasicPhysics-=F0=9F=8C=8A1.WhatareOscillations?">=F0=9F=8C=
+=8A <strong>1. What are Oscillations?</strong></h2>
+<ul>
+<li>
+<p><strong>Definition:</strong><br>
+Oscillation means a <strong>back-and-forth (repetitive) motion</strong> of =
+a body around a <strong>mean or equilibrium position</strong>.</p></li>
+<li>
+<p><strong>Examples:</strong></p>
+<ul>
+<li>
+<p>Pendulum swinging</p></li>
+<li>
+<p>Mass attached to a spring</p></li>
+<li>
+<p>Alternating current (AC) in an electrical circuit</p></li>
+</ul></li>
+</ul>
+<hr>
+<h3 id=3D"id-1_BasicPhysics-=F0=9F=A7=A9TypesofOscillations">=F0=9F=A7=A9 <=
+strong>Types of Oscillations</strong></h3>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"be36b008-cad9-4c16-966e-830=
+b29870477" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Type</p></th>
+<th class=3D"confluenceTh">
+<p>Description</p></th>
+<th class=3D"confluenceTh">
+<p>Example</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Free Oscillation</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Body oscillates naturally without external force</p></td>
+<td class=3D"confluenceTd">
+<p>Pendulum swinging freely</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Forced Oscillation</strong></p></td>
+<td class=3D"confluenceTd">
+<p>An external periodic force keeps it oscillating</p></td>
+<td class=3D"confluenceTd">
+<p>Sound from loudspeaker</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Damped Oscillation</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Amplitude gradually decreases due to friction/resistance</p></td>
+<td class=3D"confluenceTd">
+<p>Motion of pendulum in air</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Undamped Oscillation</strong></p></td>
+<td class=3D"confluenceTd">
+<p>No energy loss, amplitude remains constant</p></td>
+<td class=3D"confluenceTd">
+<p>Ideal spring in vacuum</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Resonance</strong></p></td>
+<td class=3D"confluenceTd">
+<p>When the external frequency =3D natural frequency =E2=86=92 Maximum ampl=
+itude</p></td>
+<td class=3D"confluenceTd">
+<p>Tuning fork resonance</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h3 id=3D"id-1_BasicPhysics-=F0=9F=94=B9KeyTerms">=F0=9F=94=B9 <strong>Key =
+Terms</strong></h3>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"20660a09-7188-434d-a9fb-20e=
+c9a1a652c" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Term</p></th>
+<th class=3D"confluenceTh">
+<p>Meaning</p></th>
+<th class=3D"confluenceTh">
+<p>Formula / Unit</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Amplitude (A)</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Maximum displacement from mean position</p></td>
+<td class=3D"confluenceTd">
+<p>meter (m)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Time Period (T)</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Time for one complete oscillation</p></td>
+<td class=3D"confluenceTd">
+<p>seconds (s)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Frequency (f)</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Number of oscillations per second</p></td>
+<td class=3D"confluenceTd">
+<p>( f =3D 1/T ), Hertz (Hz)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Angular Frequency (=CF=89)</strong></p></td>
+<td class=3D"confluenceTd">
+<p>( =CF=89 =3D 2=CF=80f )</p></td>
+<td class=3D"confluenceTd">
+<p>radians/sec</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Phase (=CF=95)</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Describes position of oscillation at any instant</p></td>
+<td class=3D"confluenceTd">
+<p>radians</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h3 id=3D"id-1_BasicPhysics-=E2=9A=99=EF=B8=8FSimpleHarmonicMotion(SHM)">=
+=E2=9A=99=EF=B8=8F <strong>Simple Harmonic Motion (SHM)</strong></h3>
+<ul>
+<li>
+<p>The simplest form of oscillation.</p></li>
+<li>
+<p><strong>Restoring force</strong> is directly proportional to displacemen=
+t and opposite in direction.<br>
+[<br>
+F =3D -kx<br>
+]<br>
+where ( k ) =3D spring constant, ( x ) =3D displacement</p></li>
+<li>
+<p><strong>Equation of SHM:</strong><br>
+[<br>
+x(t) =3D A \sin(=CF=89t + =CF=95)<br>
+]</p></li>
+<li>
+<p><strong>Velocity and acceleration:</strong><br>
+[<br>
+v =3D =CF=89A \cos(=CF=89t + =CF=95)<br>
+]<br>
+[<br>
+a =3D -=CF=89^2A \sin(=CF=89t + =CF=95)<br>
+]</p></li>
+</ul>
+<hr>
+<h2 id=3D"id-1_BasicPhysics-=F0=9F=8C=8A2.WhatareWaves?">=F0=9F=8C=8A <stro=
+ng>2. What are Waves?</strong></h2>
+<ul>
+<li>
+<p><strong>Definition:</strong><br>
+A <strong>wave</strong> is a <strong>disturbance</strong> that <strong>tran=
+sfers energy</strong> from one point to another <strong>without transferrin=
+g matter</strong>.</p></li>
+</ul>
+<hr>
+<h3 id=3D"id-1_BasicPhysics-=F0=9F=A7=A9TypesofWaves">=F0=9F=A7=A9 <strong>=
+Types of Waves</strong></h3>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"c1584142-fc3e-40e1-976d-34f=
+ae990e22a" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Type</p></th>
+<th class=3D"confluenceTh">
+<p>Description</p></th>
+<th class=3D"confluenceTh">
+<p>Example</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Mechanical Waves</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Require a medium to travel</p></td>
+<td class=3D"confluenceTd">
+<p>Sound waves, water waves</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Electromagnetic Waves</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Do <strong>not</strong> need a medium</p></td>
+<td class=3D"confluenceTd">
+<p>Light, radio, microwaves</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Transverse Waves</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Particle motion =E2=9F=82 direction of wave</p></td>
+<td class=3D"confluenceTd">
+<p>Light wave, wave on string</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Longitudinal Waves</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Particle motion =E2=88=A5 direction of wave</p></td>
+<td class=3D"confluenceTd">
+<p>Sound wave</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h3 id=3D"id-1_BasicPhysics-=F0=9F=93=98WaveProperties">=F0=9F=93=98 <stron=
+g>Wave Properties</strong></h3>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"1df256e8-6aee-4bd7-8c68-e72=
+5ff1c79e2" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Property</p></th>
+<th class=3D"confluenceTh">
+<p>Description</p></th>
+<th class=3D"confluenceTh">
+<p>Formula</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Wavelength (=CE=BB)</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Distance between two crests or compressions</p></td>
+<td class=3D"confluenceTd">
+<p>meter (m)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Frequency (f)</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Number of cycles per second</p></td>
+<td class=3D"confluenceTd">
+<p>Hertz (Hz)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Wave speed (v)</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Rate of wave propagation</p></td>
+<td class=3D"confluenceTd">
+<p>( v =3D f=CE=BB )</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Amplitude (A)</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Height of crest (energy level)</p></td>
+<td class=3D"confluenceTd">
+<p>meter (m)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Phase difference (=CE=94=CF=95)</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Difference between two wave phases</p></td>
+<td class=3D"confluenceTd">
+<p>radians</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h3 id=3D"id-1_BasicPhysics-=E2=9A=A1EnergyinWaves">=E2=9A=A1 <strong>Energ=
+y in Waves</strong></h3>
+<ul>
+<li>
+<p>Energy carried by a wave is <strong>proportional to the square of amplit=
+ude (A=C2=B2)</strong>.</p></li>
+<li>
+<p>Larger amplitude =E2=86=92 higher energy.</p></li>
+</ul>
+<hr>
+<h3 id=3D"id-1_BasicPhysics-=F0=9F=8C=90WavePhenomena">=F0=9F=8C=90 <strong=
+>Wave Phenomena</strong></h3>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"690e3bc7-74e4-40b3-b61d-484=
+1fd7e3bef" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Phenomenon</p></th>
+<th class=3D"confluenceTh">
+<p>Description</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Reflection</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Wave bounces back from surface</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Refraction</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Wave bends as it passes into another medium</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Diffraction</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Wave bends around obstacles</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Interference</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Two waves overlap to form resultant wave</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Standing Waves</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Waves appear stationary due to interference of identical waves moving in=
+ opposite directions</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id=3D"id-1_BasicPhysics-=F0=9F=94=B93.RelationshipBetweenWavesandOscill=
+ations">=F0=9F=94=B9 <strong>3. Relationship Between Waves and Oscillations=
+</strong></h2>
+<ul>
+<li>
+<p><strong>Oscillation:</strong> Local vibration (like a particle moving ba=
+ck and forth).</p></li>
+<li>
+<p><strong>Wave:</strong> Propagation of that oscillation through space or =
+medium.<br>
+=E2=9E=9C In short:</p>
+<p>Oscillations at one point =E2=86=92 produce waves through the medium.</p=
+></li>
+</ul>
+<hr>
+<h2 id=3D"id-1_BasicPhysics-=F0=9F=A7=BEQuickSummaryTable">=F0=9F=A7=BE <st=
+rong>Quick Summary Table</strong></h2>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"f913cbb7-4a3f-4029-93ea-5d6=
+1acabbf0d" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Concept</p></th>
+<th class=3D"confluenceTh">
+<p>Formula / Definition</p></th>
+<th class=3D"confluenceTh">
+<p>Example</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Simple Harmonic Motion</p></td>
+<td class=3D"confluenceTd">
+<p>( F =3D -kx )</p></td>
+<td class=3D"confluenceTd">
+<p>Spring, pendulum</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Frequency</p></td>
+<td class=3D"confluenceTd">
+<p>( f =3D 1/T )</p></td>
+<td class=3D"confluenceTd">
+<p>Hz</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Wave Speed</p></td>
+<td class=3D"confluenceTd">
+<p>( v =3D f=CE=BB )</p></td>
+<td class=3D"confluenceTd">
+<p>Sound, light</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Transverse Wave</p></td>
+<td class=3D"confluenceTd">
+<p>Motion =E2=9F=82 wave direction</p></td>
+<td class=3D"confluenceTd">
+<p>Light wave</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Longitudinal Wave</p></td>
+<td class=3D"confluenceTd">
+<p>Motion =E2=88=A5 wave direction</p></td>
+<td class=3D"confluenceTd">
+<p>Sound wave</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Resonance</p></td>
+<td class=3D"confluenceTd">
+<p>Forced freq. =3D natural freq.</p></td>
+<td class=3D"confluenceTd">
+<p>Tuning fork</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p>=E2=9C=85 <strong>In Short:</strong></p>
+<blockquote>
+<p><strong>Oscillations</strong> are periodic back-and-forth motions, while=
+ <strong>waves</strong> are disturbances that transfer energy through space=
+.<br>
+Together, they explain how <strong>energy, sound, and light</strong> propag=
+ate in nature and in electrical/electromagnetic systems.</p>
+</blockquote>
+<ol start=3D"3">
+<li>
+<p>Theory of special relativity</p></li>
+</ol>
+<p>Let=E2=80=99s clearly explain <strong>Theory of Special Relativity</stro=
+ng> =E2=80=94 one of the most important topics in modern physics developed =
+by <strong>Albert Einstein (1905)</strong>.</p>
+<hr>
+<h2 id=3D"id-1_BasicPhysics-=E2=9A=A11.Introduction">=E2=9A=A1 <strong>1. I=
+ntroduction</strong></h2>
+<p>The <strong>Theory of Special Relativity</strong> explains how <strong>s=
+pace, time, and motion</strong> are related, especially when objects move <=
+strong>at or near the speed of light</strong>.</p>
+<p>It <strong>replaced Newton=E2=80=99s classical mechanics</strong> for hi=
+gh-speed motion (close to light speed).</p>
+<hr>
+<h2 id=3D"id-1_BasicPhysics-=F0=9F=A7=AD2.BasicIdea">=F0=9F=A7=AD <strong>2=
+. Basic Idea</strong></h2>
+<p>Einstein proposed that <strong>the laws of physics are the same for all =
+observers</strong> moving at constant speed (inertial frames), and that <st=
+rong>the speed of light is always constant</strong>, no matter how fast the=
+ observer is moving.</p>
+<p>This led to revolutionary changes in how we understand <strong>time</str=
+ong>, <strong>distance</strong>, <strong>mass</strong>, and <strong>energy<=
+/strong>.</p>
+<hr>
+<h2 id=3D"id-1_BasicPhysics-=F0=9F=93=983.TwoPostulatesofSpecialRelativity"=
+>=F0=9F=93=98 <strong>3. Two Postulates of Special Relativity</strong></h2>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"7e028db8-7320-47c1-9ece-47d=
+3ad85d171" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Postulate</p></th>
+<th class=3D"confluenceTh">
+<p>Description</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p><strong>Principle of Relativity</strong></p></li>
+</ol></td>
+<td class=3D"confluenceTd">
+<p>The laws of physics are identical in all inertial frames (i.e., frames m=
+oving at constant velocity). There is no =E2=80=9Cabsolute rest=E2=80=9D.</=
+p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<ol start=3D"2">
+<li>
+<p><strong>Constancy of Speed of Light</strong></p></li>
+</ol></td>
+<td class=3D"confluenceTd">
+<p>The speed of light in a vacuum, ( c =3D 3 \times 10^8 ) m/s, is the same=
+ for all observers, regardless of their motion or the light source=E2=80=99=
+s motion.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id=3D"id-1_BasicPhysics-=E2=8F=B34.ConsequencesofSpecialRelativity">=E2=
+=8F=B3 <strong>4. Consequences of Special Relativity</strong></h2>
+<p>Einstein=E2=80=99s postulates led to several surprising results:</p>
+<hr>
+<h3 id=3D"id-1_BasicPhysics-=F0=9F=94=B9a)TimeDilation">=F0=9F=94=B9 <stron=
+g>a) Time Dilation</strong></h3>
+<ul>
+<li>
+<p>Moving clocks run <strong>slower</strong> compared to stationary ones.</=
+p></li>
+<li>
+<p>Formula:<br>
+[<br>
+t =3D \frac{t_0}{\sqrt{1 - \frac{v^2}{c^2}}}<br>
+]<br>
+where:<br>
+( t_0 ) =3D proper time (time measured by stationary observer)<br>
+( t ) =3D time measured by moving observer<br>
+( v ) =3D velocity of moving object<br>
+( c ) =3D speed of light</p></li>
+</ul>
+<p>=F0=9F=95=92 <strong>Example:</strong><br>
+Astronauts traveling at very high speeds will age more slowly than people o=
+n Earth.</p>
+<hr>
+<h3 id=3D"id-1_BasicPhysics-=F0=9F=94=B9b)LengthContraction">=F0=9F=94=B9 <=
+strong>b) Length Contraction</strong></h3>
+<ul>
+<li>
+<p>Moving objects <strong>appear shorter</strong> in the direction of motio=
+n.</p></li>
+<li>
+<p>Formula:<br>
+[<br>
+L =3D L_0 \sqrt{1 - \frac{v^2}{c^2}}<br>
+]<br>
+where:<br>
+( L_0 ) =3D proper length (rest length)<br>
+( L ) =3D observed length when moving at speed ( v )</p></li>
+</ul>
+<p>=F0=9F=93=8F <strong>Example:</strong><br>
+A spaceship traveling close to light speed will appear shorter to an observ=
+er on Earth.</p>
+<hr>
+<h3 id=3D"id-1_BasicPhysics-=F0=9F=94=B9c)RelativityofSimultaneity">=F0=9F=
+=94=B9 <strong>c) Relativity of Simultaneity</strong></h3>
+<ul>
+<li>
+<p>Two events that occur <strong>simultaneously</strong> in one frame of re=
+ference may <strong>not be simultaneous</strong> in another frame moving re=
+lative to it.</p></li>
+</ul>
+<p>=E2=8C=9B <strong>Meaning:</strong> Time is not absolute =E2=80=94 it de=
+pends on the observer=E2=80=99s motion.</p>
+<hr>
+<h3 id=3D"id-1_BasicPhysics-=F0=9F=94=B9d)Mass-EnergyEquivalence">=F0=9F=94=
+=B9 <strong>d) Mass-Energy Equivalence</strong></h3>
+<ul>
+<li>
+<p>Mass and energy are related =E2=80=94 they are <strong>interchangeable</=
+strong>.</p></li>
+<li>
+<p>Formula:<br>
+[<br>
+E =3D mc^2<br>
+]<br>
+where:<br>
+( E ) =3D energy<br>
+( m ) =3D mass<br>
+( c ) =3D speed of light</p></li>
+</ul>
+<p>=F0=9F=92=A5 <strong>Example:</strong><br>
+Nuclear reactions convert a small amount of mass into a huge amount of ener=
+gy (basis of atomic bombs and nuclear power).</p>
+<hr>
+<h3 id=3D"id-1_BasicPhysics-=F0=9F=94=B9e)IncreaseofMasswithVelocity">=F0=
+=9F=94=B9 <strong>e) Increase of Mass with Velocity</strong></h3>
+<ul>
+<li>
+<p>As an object moves faster, its <strong>mass increases</strong> with spee=
+d.</p></li>
+<li>
+<p>Formula:<br>
+[<br>
+m =3D \frac{m_0}{\sqrt{1 - \frac{v^2}{c^2}}}<br>
+]<br>
+where ( m_0 ) =3D rest mass.</p></li>
+</ul>
+<p>This is why <strong>no object with mass can reach the speed of light</st=
+rong>, because its mass would become infinite.</p>
+<hr>
+<h2 id=3D"id-1_BasicPhysics-=F0=9F=8C=8C5.SpacetimeConcept">=F0=9F=8C=8C <s=
+trong>5. Spacetime Concept</strong></h2>
+<p>Einstein combined <strong>space and time</strong> into a single 4-dimens=
+ional entity called <strong>spacetime</strong>.</p>
+<ul>
+<li>
+<p>Events are described by 4 coordinates: ( (x, y, z, t) ).</p></li>
+<li>
+<p>Motion and gravity are seen as <strong>curvatures in spacetime</strong> =
+(further developed in General Relativity).</p></li>
+</ul>
+<hr>
+<h2 id=3D"id-1_BasicPhysics-=F0=9F=A7=BE6.ImportantResultsSummary">=F0=9F=
+=A7=BE <strong>6. Important Results Summary</strong></h2>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"53884410-2d05-4790-9136-81b=
+94e78b2e3" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Concept</p></th>
+<th class=3D"confluenceTh">
+<p>Formula</p></th>
+<th class=3D"confluenceTh">
+<p>Meaning</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Time Dilation</p></td>
+<td class=3D"confluenceTd">
+<p>( t =3D \frac{t_0}{\sqrt{1 - v^2/c^2}} )</p></td>
+<td class=3D"confluenceTd">
+<p>Moving clocks run slower</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Length Contraction</p></td>
+<td class=3D"confluenceTd">
+<p>( L =3D L_0\sqrt{1 - v^2/c^2} )</p></td>
+<td class=3D"confluenceTd">
+<p>Moving lengths shorten</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Mass-Energy Relation</p></td>
+<td class=3D"confluenceTd">
+<p>( E =3D mc^2 )</p></td>
+<td class=3D"confluenceTd">
+<p>Energy and mass are equivalent</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Relativistic Mass</p></td>
+<td class=3D"confluenceTd">
+<p>( m =3D \frac{m_0}{\sqrt{1 - v^2/c^2}} )</p></td>
+<td class=3D"confluenceTd">
+<p>Mass increases with speed</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Speed of Light</p></td>
+<td class=3D"confluenceTd">
+<p>Constant for all observers</p></td>
+<td class=3D"confluenceTd">
+<p>( c =3D 3=C3=9710^8 , m/s )</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id=3D"id-1_BasicPhysics-=E2=9A=99=EF=B8=8F7.Applications">=E2=9A=99=EF=
+=B8=8F <strong>7. Applications</strong></h2>
+<ul>
+<li>
+<p>GPS systems (account for time dilation)</p></li>
+<li>
+<p>Particle accelerators (relativistic mass increase)</p></li>
+<li>
+<p>Nuclear energy (E =3D mc=C2=B2)</p></li>
+<li>
+<p>Cosmic ray physics</p></li>
+<li>
+<p>Space-time navigation and astrophysics</p></li>
+</ul>
+<hr>
+<p>=E2=9C=85 <strong>In Short:</strong></p>
+<blockquote>
+<p>Einstein=E2=80=99s <strong>Special Relativity</strong> shows that <stron=
+g>space and time are not absolute</strong> =E2=80=94 they change with motio=
+n.<br>
+It revolutionized physics by linking <strong>energy, mass, and motion</stro=
+ng> under a single framework and is the foundation of <strong>modern physic=
+s and cosmology</strong>.</p>
+</blockquote>
+<ol start=3D"4">
+<li>
+<p>Electromagnetic waves, Photoelectric effect, Quantum theory of light, X-=
+ray and X-ray diffraction, Compton effect</p></li>
+</ol>
+<p>Let=E2=80=99s go through each of these fundamental physics concepts =E2=
+=80=94 they all relate to <strong>light as an electromagnetic wave and as p=
+hotons (quantum particles)</strong>.</p>
+<hr>
+<h2 id=3D"id-1_BasicPhysics-=E2=9A=A11.ElectromagneticWaves">=E2=9A=A1 <str=
+ong>1. Electromagnetic Waves</strong></h2>
+<h3 id=3D"id-1_BasicPhysics-=F0=9F=94=B9Definition">=F0=9F=94=B9 Definition=
+</h3>
+<p>Electromagnetic (EM) waves are <strong>oscillations of electric and magn=
+etic fields</strong> that <strong>travel through space</strong> carrying en=
+ergy.</p>
+<p>These waves do <strong>not require any medium</strong> =E2=80=94 they ca=
+n travel in a <strong>vacuum</strong>.</p>
+<hr>
+<h3 id=3D"id-1_BasicPhysics-=F0=9F=94=B9Properties">=F0=9F=94=B9 Properties=
+</h3>
+<ul>
+<li>
+<p>Produced by <strong>accelerating electric charges</strong>.</p></li>
+<li>
+<p><strong>Electric (E)</strong> and <strong>Magnetic (B)</strong> fields a=
+re <strong>perpendicular</strong> to each other and to the direction of wav=
+e travel.</p></li>
+<li>
+<p><strong>Transverse waves</strong> =E2=80=94 both fields oscillate at rig=
+ht angles to motion.</p></li>
+</ul>
+<hr>
+<h3 id=3D"id-1_BasicPhysics-=F0=9F=94=B9Equation">=F0=9F=94=B9 Equation</h3=
+>
+<p>[<br>
+c =3D \lambda \nu<br>
+]<br>
+where<br>
+( c ) =3D speed of light (3=C3=9710=E2=81=B8 m/s)<br>
+( \lambda ) =3D wavelength<br>
+( \nu ) =3D frequency</p>
+<hr>
+<h3 id=3D"id-1_BasicPhysics-=F0=9F=94=B9Spectrum">=F0=9F=94=B9 Spectrum</h3=
+>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"128892e5-7ca8-4462-a7f3-5cf=
+0224b908b" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Type</p></th>
+<th class=3D"confluenceTh">
+<p>Wavelength Range</p></th>
+<th class=3D"confluenceTh">
+<p>Example</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Radio waves</p></td>
+<td class=3D"confluenceTd">
+<p>&gt; 1 m</p></td>
+<td class=3D"confluenceTd">
+<p>Broadcasting</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Microwaves</p></td>
+<td class=3D"confluenceTd">
+<p>1 m =E2=80=93 1 mm</p></td>
+<td class=3D"confluenceTd">
+<p>Ovens, radar</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Infrared</p></td>
+<td class=3D"confluenceTd">
+<p>1 mm =E2=80=93 700 nm</p></td>
+<td class=3D"confluenceTd">
+<p>Heat radiation</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Visible light</p></td>
+<td class=3D"confluenceTd">
+<p>700=E2=80=93400 nm</p></td>
+<td class=3D"confluenceTd">
+<p>Human vision</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Ultraviolet</p></td>
+<td class=3D"confluenceTd">
+<p>400=E2=80=9310 nm</p></td>
+<td class=3D"confluenceTd">
+<p>Sterilization</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>X-rays</p></td>
+<td class=3D"confluenceTd">
+<p>10=E2=80=930.01 nm</p></td>
+<td class=3D"confluenceTd">
+<p>Medical imaging</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Gamma rays</p></td>
+<td class=3D"confluenceTd">
+<p>&lt; 0.01 nm</p></td>
+<td class=3D"confluenceTd">
+<p>Nuclear radiation</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id=3D"id-1_BasicPhysics-=E2=98=80=EF=B8=8F2.PhotoelectricEffect">=E2=98=
+=80=EF=B8=8F <strong>2. Photoelectric Effect</strong></h2>
+<h3 id=3D"id-1_BasicPhysics-=F0=9F=94=B9Observation">=F0=9F=94=B9 Observati=
+on</h3>
+<p>When <strong>light shines on a metal surface</strong>, electrons are <st=
+rong>emitted</strong> from the surface.</p>
+<p>These electrons are called <strong>photoelectrons</strong>.</p>
+<hr>
+<h3 id=3D"id-1_BasicPhysics-=F0=9F=94=B9ExperimentalFacts">=F0=9F=94=B9 Exp=
+erimental Facts</h3>
+<ul>
+<li>
+<p>No electrons are emitted below a <strong>certain minimum frequency</stro=
+ng> (threshold frequency).</p></li>
+<li>
+<p><strong>Intensity</strong> affects the <strong>number</strong> of electr=
+ons, not their <strong>energy</strong>.</p></li>
+<li>
+<p><strong>Energy</strong> of emitted electrons depends on <strong>frequenc=
+y</strong>, not on intensity.</p></li>
+</ul>
+<hr>
+<h3 id=3D"id-1_BasicPhysics-=F0=9F=94=B9Einstein=E2=80=99sExplanation(1905)=
+">=F0=9F=94=B9 Einstein=E2=80=99s Explanation (1905)</h3>
+<p>Light behaves as <strong>particles (photons)</strong>, each carrying ene=
+rgy:<br>
+[<br>
+E =3D h\nu<br>
+]<br>
+where ( h =3D 6.626 =C3=97 10^{-34} , J=C2=B7s ) is Planck=E2=80=99s consta=
+nt.</p>
+<p>If photon energy exceeds the metal=E2=80=99s <strong>work function (=CF=
+=95)</strong>, electrons are emitted:<br>
+[<br>
+h\nu =3D \phi + \frac{1}{2}mv^2<br>
+]<br>
+=E2=86=92 Kinetic energy of photoelectron =3D ( h\nu - \phi )</p>
+<p>=E2=9C=85 <strong>Proved the particle nature of light.</strong></p>
+<hr>
+<h2 id=3D"id-1_BasicPhysics-=F0=9F=8C=883.QuantumTheoryofLight">=F0=9F=8C=
+=88 <strong>3. Quantum Theory of Light</strong></h2>
+<h3 id=3D"id-1_BasicPhysics-=F0=9F=94=B9DualNatureofLight">=F0=9F=94=B9 Dua=
+l Nature of Light</h3>
+<p>Light has <strong>both wave and particle properties</strong>:</p>
+<ul>
+<li>
+<p><strong>Wave nature</strong> =E2=86=92 interference, diffraction, polari=
+zation</p></li>
+<li>
+<p><strong>Particle nature</strong> =E2=86=92 photoelectric effect, Compton=
+ effect</p></li>
+</ul>
+<p>This dual behavior is called <strong>wave=E2=80=93particle duality</stro=
+ng>.</p>
+<hr>
+<h3 id=3D"id-1_BasicPhysics-=F0=9F=94=B9PhotonConcept">=F0=9F=94=B9 Photon =
+Concept</h3>
+<ul>
+<li>
+<p>A photon is a <strong>quantum (packet)</strong> of electromagnetic energ=
+y.</p></li>
+<li>
+<p>Energy of each photon:<br>
+[<br>
+E =3D h\nu<br>
+]</p></li>
+<li>
+<p>Momentum of photon:<br>
+[<br>
+p =3D \frac{h}{\lambda}<br>
+]</p></li>
+<li>
+<p>Photons have <strong>no rest mass</strong> but carry <strong>energy and =
+momentum</strong>.</p></li>
+</ul>
+<hr>
+<h2 id=3D"id-1_BasicPhysics-=F0=9F=92=8E4.X-raysandX-rayDiffraction">=F0=9F=
+=92=8E <strong>4. X-rays and X-ray Diffraction</strong></h2>
+<h3 id=3D"id-1_BasicPhysics-=F0=9F=94=B9X-rays">=F0=9F=94=B9 X-rays</h3>
+<ul>
+<li>
+<p>Discovered by <strong>Wilhelm R=C3=B6ntgen (1895)</strong>.</p></li>
+<li>
+<p>Produced when <strong>high-speed electrons</strong> strike a <strong>met=
+al target</strong> (like tungsten).</p></li>
+</ul>
+<h3 id=3D"id-1_BasicPhysics-=F0=9F=94=B9Properties.1">=F0=9F=94=B9 Properti=
+es</h3>
+<ul>
+<li>
+<p>High-energy electromagnetic waves.</p></li>
+<li>
+<p>Can penetrate matter.</p></li>
+<li>
+<p>Used in medical imaging, crystallography, and material testing.</p></li>
+</ul>
+<hr>
+<h3 id=3D"id-1_BasicPhysics-=F0=9F=94=B9X-rayDiffraction(XRD)">=F0=9F=94=B9=
+ X-ray Diffraction (XRD)</h3>
+<ul>
+<li>
+<p>X-rays interacting with <strong>crystals</strong> produce <strong>diffra=
+ction patterns</strong> due to regular atomic spacing.</p></li>
+</ul>
+<p><strong>Bragg=E2=80=99s Law:</strong><br>
+[<br>
+n\lambda =3D 2d \sin\theta<br>
+]<br>
+where<br>
+( n ) =3D order of reflection,<br>
+( \lambda ) =3D X-ray wavelength,<br>
+( d ) =3D distance between atomic planes,<br>
+( \theta ) =3D diffraction angle.</p>
+<p>=E2=9C=85 Used to determine <strong>atomic structure</strong> of crystal=
+s (e.g., DNA structure discovery).</p>
+<hr>
+<h2 id=3D"id-1_BasicPhysics-=F0=9F=94=865.ComptonEffect">=F0=9F=94=86 <stro=
+ng>5. Compton Effect</strong></h2>
+<h3 id=3D"id-1_BasicPhysics-=F0=9F=94=B9Discovery">=F0=9F=94=B9 Discovery</=
+h3>
+<p>Observed by <strong>Arthur Compton (1923)</strong> =E2=80=94 scattering =
+of X-rays by electrons results in <strong>change in wavelength</strong>.</p=
+>
+<hr>
+<h3 id=3D"id-1_BasicPhysics-=F0=9F=94=B9Explanation">=F0=9F=94=B9 Explanati=
+on</h3>
+<p>When a photon collides with an electron:</p>
+<ul>
+<li>
+<p>It transfers part of its energy to the electron.</p></li>
+<li>
+<p>Scattered photon has <strong>lower energy (longer wavelength)</strong>.<=
+/p></li>
+</ul>
+<p><strong>Formula:</strong><br>
+[<br>
+\Delta\lambda =3D \lambda' - \lambda =3D \frac{h}{m_e c}(1 - \cos\theta)<br=
+>
+]<br>
+where<br>
+( m_e ) =3D electron mass,<br>
+( c ) =3D speed of light,<br>
+( \theta ) =3D scattering angle.</p>
+<p>=E2=9C=85 <strong>Confirmed that light has particle-like momentum.</stro=
+ng></p>
+<hr>
+<h2 id=3D"id-1_BasicPhysics-=F0=9F=93=98SummaryTable">=F0=9F=93=98 <strong>=
+Summary Table</strong></h2>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"74df46ea-c16f-42f2-90a9-d9b=
+1e6f5ac0e" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Concept</p></th>
+<th class=3D"confluenceTh">
+<p>Key Idea</p></th>
+<th class=3D"confluenceTh">
+<p>Equation</p></th>
+<th class=3D"confluenceTh">
+<p>Proved</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Electromagnetic Waves</p></td>
+<td class=3D"confluenceTd">
+<p>Oscillating E and B fields</p></td>
+<td class=3D"confluenceTd">
+<p>( c =3D \lambda\nu )</p></td>
+<td class=3D"confluenceTd">
+<p>Maxwell</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Photoelectric Effect</p></td>
+<td class=3D"confluenceTd">
+<p>Photon ejects electrons</p></td>
+<td class=3D"confluenceTd">
+<p>( h\nu =3D \phi + \frac{1}{2}mv^2 )</p></td>
+<td class=3D"confluenceTd">
+<p>Einstein</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Quantum Theory</p></td>
+<td class=3D"confluenceTd">
+<p>Light =3D wave + particle</p></td>
+<td class=3D"confluenceTd">
+<p>( E =3D h\nu ), ( p =3D h/\lambda )</p></td>
+<td class=3D"confluenceTd">
+<p>Planck &amp; Einstein</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>X-ray Diffraction</p></td>
+<td class=3D"confluenceTd">
+<p>X-rays diffract in crystals</p></td>
+<td class=3D"confluenceTd">
+<p>( n\lambda =3D 2d\sin\theta )</p></td>
+<td class=3D"confluenceTd">
+<p>Bragg</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Compton Effect</p></td>
+<td class=3D"confluenceTd">
+<p>Photon loses energy in scattering</p></td>
+<td class=3D"confluenceTd">
+<p>( \Delta\lambda =3D \frac{h}{m_ec}(1 - \cos\theta) )</p></td>
+<td class=3D"confluenceTd">
+<p>Compton</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p>=E2=9C=85 <strong>In Short:</strong></p>
+<blockquote>
+<p>Light behaves both as a <strong>wave</strong> and a <strong>particle</st=
+rong>.<br>
+Phenomena like <strong>photoelectric effect</strong>, <strong>Compton scatt=
+ering</strong>, and <strong>X-ray diffraction</strong> show its <strong>qua=
+ntum nature</strong>, while <strong>electromagnetic wave theory</strong> de=
+scribes its <strong>continuous field behavior</strong>.</p>
+</blockquote>
+<ol start=3D"5">
+<li>
+<p>De Broglie waves, Phase and group velocity, Wave function and wave equat=
+ion.</p></li>
+</ol>
+<p></p>
+<p></p>
+<p></p>
+    </div>
+</body>
+</html>
+------=_Part_612_764337739.1760787244971--
