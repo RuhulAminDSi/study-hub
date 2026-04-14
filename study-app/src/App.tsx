@@ -64,9 +64,9 @@ const modules: Module[] = [
         id: "bp1",
         title: "Electromagnetism Basics",
         titleBn: "তড়িৎচুম্বকত্বের মূল ধারণা",
-        content: "Charge, Coulomb's law, electric field, Gauss's law, electric potential, magnetic field, Faraday's law, Maxwell's equations.\n\n⚡ Charge: Fundamental property of matter causing electromagnetic interaction. Types: Positive (+) and Negative (-). Unit: Coulomb (C). Conservation: Charge cannot be created/destroyed, only transferred.\n\n⚡ Coulomb's Law: Force between two electric charges: F = k(q1×q2)/r². Force is attractive for opposite charges, repulsive for like charges.\n\n⚡ Electric Field (E): Region around charged particle where it exerts force on other charges. E = F/q. Unit: N/C or V/m.\n\n⚡ Gauss's Law: Electric flux through closed surface = enclosed charge/ε₀. Used to calculate electric field of symmetric charge distributions.\n\n⚡ Electric Potential (V): Work done bringing unit positive charge from infinity to a point. V = W/q. Unit: Volt (V).\n\n🧲 Magnetic Field: Region around moving charge or magnet where magnetic forces act. Unit: Tesla (T). Created by moving charges and permanent magnets.\n\n🧲 Faraday's Law: Changing magnetic field induces EMF. EMF = -dΦB/dt.\n\n🌐 Maxwell's Equations: 4 fundamental laws describing all classical electromagnetism.",
-        contentBn: "আধান, কুলম্বের সূত্র, তড়িৎক্ষেত্র, গাউসের সূত্র, তড়িৎবিভব, চুম্বকক্ষেত্র, ফ্যারাডের সূত্র, ম্যাক্সওয়েলের সমীকরণ।\n\n⚡ আধান: পদার্থের একটি মৌলিক ধর্ম যা তড়িৎচুম্বকীয় মিথস্ক্রিয়া সৃষ্টি করে। প্রকার: ধনবাহী (+) এবং ঋণবাহী (-)। একক: কুলম্ব (C)। সংরক্ষণ: আধান তৈরি বা ধ্বংস করা যায় না, শুধু স্থানান্তর করা যায়।\n\n⚡ কুলম্বের সূত্র: দুটি তড়িৎআধানের মধ্যে বল: F = k(q1×q2)/r²। বল বিপরীত আধানের জন্য আকর্ষণকারক, একই রকম আধানের জন্য বিকর্ষণকারক।\n\n⚡ তড়িৎক্ষেত্র (E): চার্জযুক্ত কণার চারপাশে অঞ্চল যেখানে এটি অন্যান্য আধানের উপর বল প্রয়োগ করে। E = F/q। একক: N/C বা V/m।\n\n⚡ গাউসের সূত্র: বদ্ধ পৃষ্ঠের মধ্য দিয়ে তড়িৎফ্লাক্স = আবদ্ধ আধান/ε₀। প্রতিসম আধান বিতরণের তড়িৎক্ষেত্র গণনা করতে ব্যবহৃত হয়।\n\n⚡ তড়িৎবিভব (V): অসীম থেকে একটি বিন্দুতে একক ধনবাহী আধান আনতে করা কাজ। V = W/q। একক: ভোল্ট (V)।\n\n🧲 চুম্বকক্ষেত্র: চলমান আধান ব চুম্বকের চারপাশে অঞ্চল যেখানে চুম্বকীয় বল কাজ করে। একক: টেসলা (T)। চলমান আধান এবং স্থায়ী চুম্বক দ্বারা তৈরি।\n\n🧲 ফ্যারাডের সূত্র: পরিবর্তনশীল চুম্বকক্ষেত্র EMF প্রবর্তন করে। EMF = -dΦB/dt।\n\n🌐 ম্যাক্সওয়েলের সমীকরণ: সমস্ত ক্লাসিক্যাল তড়িৎচুম্বকত্ব বর্ণনা করে ৪টি মৌলিক সূত্র।",
-        code: "F = k × (q1 × q2) / r²\nE = F/q\nV = W/q\nEMF = -dΦB/dt",
+        content: "Charge, Coulomb's law, electric field, Gauss's law, electric potential, magnetic field, Faraday's law, Maxwell's equations.\n\n⚡ Charge: Fundamental property of matter causing electromagnetic interaction. Types: Positive (+) and Negative (-). Unit: Coulomb (C). Conservation: Charge cannot be created/destroyed, only transferred.\n\n⚡ Coulomb's Law: Force between two electric charges: F = k(q1×q2)/r². Force is attractive for opposite charges, repulsive for like charges.\n\n⚡ Electric Field (E): Region around charged particle where it exerts force on other charges. E = F/q. Unit: N/C or V/m. Direction: Away from positive, toward negative charge.\n\n⚡ Gauss's Law: Electric flux through closed surface = enclosed charge/ε₀. Used to calculate electric field of symmetric charge distributions.\n\n⚡ Electric Potential (V): Work done bringing unit positive charge from infinity to a point. V = W/q. Unit: Volt (V). Relation: E = -dV/dx.\n\n🧲 Magnetic Field: Region around moving charge or magnet where magnetic forces act. Unit: Tesla (T). Created by moving charges and permanent magnets. Right-Hand Rule: Thumb = Current direction, Fingers = Magnetic field direction.\n\n🧲 Faraday's Law: Changing magnetic field induces EMF. EMF = -dΦB/dt. Key: Changing magnetic field → Induced voltage → Induced current.\n\n🌐 Maxwell's Equations (4 fundamental laws):\n1. ∇·E = ρ/ε₀ (Gauss's Law for Electricity)\n2. ∇·B = 0 (Gauss's Law for Magnetism - no monopoles)\n3. ∇×E = -∂B/∂t (Faraday's Law)\n4. ∇×B = μ₀J + μ₀ε₀(∂E/∂t) (Ampere-Maxwell Law)",
+        contentBn: "আধান, কুলম্বের সূত্র, তড়িৎক্ষেত্র, গাউসের সূত্র, তড়িৎবিভব, চুম্বকক্ষেত্র, ফ্যারাডের সূত্র, ম্যাক্সওয়েলের সমীকরণ।\n\n⚡ আধান: পদার্থের একটি মৌলিক ধর্ম যা তড়িৎচুম্বকীয় মিথস্ক্রিয়া সৃষ্টি করে। প্রকার: ধনবাহী (+) এবং ঋণবাহী (-)। একক: কুলম্ব (C)। সংরক্ষণ: আ��ান তৈরি বা ধ্বংস করা যায় না, শুধু স্থানান্তর করা যায়।\n\n⚡ কুলম্বের সূত্র: দুটি তড়িৎআধানের মধ্যে বল: F = k(q1×q2)/r²। বল বিপরীত আধানের জন্য আকর্ষণকারক, একই রকম আধানের জন্য বিকর্ষণকারক।\n\n⚡ তড়িৎক্ষেত্র (E): চার্জযুক্ত কণার চারপাশে অঞ্চল যেখানে এটি অন্যান্য আধানের উপর বল প্রয়োগ করে। E = F/q। একক: N/C বা V/m। দিক: ধনবাহী থেকে দূরে, ঋণবাহীর দিকে।\n\n⚡ গাউসের সূত্র: বদ্ধ পৃষ্ঠের মধ্য দিয়ে তড়িৎফ্লাক্স = আবদ্ধ আধান/ε₀। প্রতিসম আধান বিতরণের তড়িৎক্ষেত্র গণনা করতে ব্যবহৃত হয়।\n\n⚡ তড়িৎবিভব (V): অসীম থেকে একটি বিন্দুতে একক ধনবাহী আধান আনতে করা কাজ। V = W/q। একক: ভোল্ট (V)। সম্পর্ক: E = -dV/dx।\n\n🧲 চুম্বকক্ষেত্র: চলমান আধান ব চুম্বকের চারপাশে অঞ্চল যেখানে চুম্বকীয় বল কাজ করে। একক: টেসলা (T)। চলমান আধান এবং স্থায়ী চুম্বক দ্বারা তৈরি। ডান-হাতের নিয়ম: বুড়ো = প্রবাহের দিক, আঙুল = চুম্বকক্ষেত্রের দিক।\n\n🧲 ফ্যারাডের সূত্র: পরিবর্তনশীল চুম্বকক্ষেত্র EMF প্রবর্তন করে। EMF = -dΦB/dt। মূল: পরিবর্তনশীল চুম্বকক্ষেত্র → আবিষ্ট ভোল্টেজ → আবিষ্ট প্রবাহ।\n\n🌐 ম্যাক্সওয়েলের সমীকরণ (৪টি মৌলিক সূত্র):\n১. ∇·E = ρ/ε₀ (বিদ্যুতের জন্য গাউসের সূত্র)\n২. ∇·B = ০ (চুম্বকত্বের জন্য গাউসের সূত্র - একক চুম্বক নেই)\n৩. ∇×E = -∂B/∂t (ফ্যারাডের সূত্র)\n৪. ∇×B = μ₀J + μ₀ε₀(∂E/∂t) (অ্যাম্পিয়ার-ম্যাক্সওয়েল সূত্র)",
+        code: "F = k × (q1 × q2) / r²\nE = F/q\nV = W/q\nEMF = -dΦB/dt\n∇·E = ρ/ε₀\n∇×B = μ₀J + μ₀ε₀(∂E/∂t)",
         takeaways: [
           "Charge is fundamental property with + and - types",
           "Coulomb's law defines force between charges",
@@ -84,8 +84,8 @@ const modules: Module[] = [
       {
         id: "bp2",
         title: "Waves and Oscillations",
-        content: "Oscillation: Back-and-forth repetitive motion around mean position. Examples: pendulum, mass on spring, AC current.\n\nTypes of Oscillations:\n• Free: Body oscillates without external force\n• Forced: External periodic force keeps it oscillating\n• Damped: Amplitude decreases due to friction\n• Undamped: No energy loss, constant amplitude\n• Resonance: External frequency = natural frequency → maximum amplitude\n\nKey Terms:\n• Amplitude (A): Maximum displacement from mean\n• Time Period (T): Time for one complete oscillation\n• Frequency (f): Number of oscillations per second. f = 1/T in Hz\n• Angular Frequency (ω): ω = 2πf\n\nSimple Harmonic Motion (SHM): Simplest oscillation. Restoring force F = -kx. Equation: x(t) = A×sin(ωt + φ).\n\nWave: Disturbance transferring energy without transferring matter.\n\nTypes:\n• Mechanical (require medium): sound, water waves\n• Electromagnetic (no medium): light, radio\n• Transverse: particle motion ⟂ wave direction\n• Longitudinal: particle motion ∥ wave direction\n\nWave Properties: Wavelength (λ), Frequency (f), Wave speed (v = fλ), Amplitude (A).\n\nWave Phenomena: Reflection, Refraction, Diffraction, Interference, Standing Waves.",
-        code: "f = 1/T\nv = fλ\nx(t) = A × sin(ωt + φ)\nF = -kx (SHM)",
+        content: "Oscillation: Back-and-forth repetitive motion around mean position. Examples: pendulum, mass on spring, AC current.\n\nTypes of Oscillations:\n• Free: Body oscillates without external force\n• Forced: External periodic force keeps it oscillating\n• Damped: Amplitude decreases due to friction/resistance\n• Undamped: No energy loss, constant amplitude\n• Resonance: External frequency = natural frequency → maximum amplitude\n\nKey Terms:\n• Amplitude (A): Maximum displacement from mean position (meter)\n• Time Period (T): Time for one complete oscillation (seconds)\n• Frequency (f): Number of oscillations per second. f = 1/T in Hz\n• Angular Frequency (ω): ω = 2πf (radians/sec)\n• Phase (φ): Position of oscillation at any instant (radians)\n\nSimple Harmonic Motion (SHM): Simplest oscillation. Restoring force proportional to displacement: F = -kx. Equation: x(t) = A×sin(ωt + φ).\n\n\nWave: Disturbance transferring energy without transferring matter.\n\nTypes:\n• Mechanical (require medium): sound, water waves\n• Electromagnetic (no medium): light, radio\n• Transverse: particle motion ⟂ wave direction\n• Longitudinal: particle motion ∥ wave direction\n\nWave Properties:\n• Wavelength (λ): Distance between two crests (meter)\n• Frequency (f): Number of cycles per second (Hertz)\n• Wave speed (v): v = fλ (m/s)\n• Amplitude (A): Height of crest (energy level)\n\n\nWave Phenomena:\n• Reflection: Wave bounces back from surface\n• Refraction: Wave bends passing into another medium\n• Diffraction: Wave bends around obstacles\n• Interference: Two waves overlap to form resultant wave\n• Standing Waves: Appear stationary due to interference",
+        code: "f = 1/T\nv = fλ\nx(t) = A × sin(ωt + φ)\nF = -kx (SHM)\nω = 2πf",
         takeaways: [
           "Oscillation is repetitive back-and-forth motion",
           "Wave transfers energy without matter transfer",
@@ -110,8 +110,8 @@ const modules: Module[] = [
       {
         id: "bp4",
         title: "Quantum Physics & EM Waves",
-        content: "Electromagnetic Waves: Oscillations of electric and magnetic fields traveling through space. Don't require medium. Produced by accelerating charges. E and B fields perpendicular to each other and wave direction.\n\nPhotoelectric Effect: Light shining on metal surface emits electrons (photoelectrons). Facts:\n• No electrons below threshold frequency\n• Intensity affects number, not energy\n• Energy depends on frequency, not intensity\n\nEinstein's Explanation: Light behaves as particles (photons). Energy: E = hν. If photon energy > work function, electrons emitted: hν = φ + ½mv²\n\nQuantum Theory: Light has dual nature (wave-particle duality). Photon: quantum of EM energy. E = hν, p = h/λ.\n\nX-rays: High-energy EM waves produced when high-speed electrons strike metal. Used in medical imaging, crystallography.\n\nX-ray Diffraction: Bragg's Law: nλ = 2d×sinθ\n\nCompton Effect: X-ray scattering by electrons causes wavelength change. Δλ = h/(mₑc) × (1 - cosθ)",
-        code: "c = fλ\nE = hν\nhν = φ + ½mv²\nΔλ = h/(mₑc)(1 - cosθ)",
+        content: "Electromagnetic Waves: Oscillations of electric and magnetic fields traveling through space. Don't require medium. Produced by accelerating charges. E and B fields perpendicular to each other and wave direction. Formula: c = λν.\n\nEM Spectrum:\n• Radio waves: λ > 1m\n• Microwaves: 1m - 1mm\n• Infrared: 1mm - 700nm\n• Visible light: 700-400nm\n• Ultraviolet: 400-10nm\n• X-rays: 10-0.01nm\n• Gamma rays: < 0.01nm\n\nPhotoelectric Effect: Light shining on metal surface emits electrons (photoelectrons).\nFacts:\n• No electrons below threshold frequency\n• Intensity affects number, not energy\n• Energy depends on frequency, not intensity\n\nEinstein's Explanation: Light behaves as particles (photons). Energy: E = hν (h = 6.626 × 10⁻³⁴ Js). If photon energy > work function, electrons emitted: hν = φ + ½mv²\n\nQuantum Theory: Light has dual nature (wave-particle duality). Photon: quantum of EM energy. E = hν, p = h/λ.\n\nX-rays: High-energy EM waves produced when high-speed electrons strike metal. Used in medical imaging, crystallography.\nX-ray Diffraction: Bragg's Law: nλ = 2d×sinθ\nCompton Effect: X-ray scattering by electrons causes wavelength change. Δλ = h/(mₑc) × (1 - cosθ)\n\nDe Broglie Waves: Particles have wave-like properties. Formula: λ = h/p (p = momentum)\nPhase velocity: vₚ = ω/k\nGroup velocity: vg = dω/dk",
+        code: "c = fλ\nE = hν\nhν = φ + ½mv²\nΔλ = h/(mₑc)(1 - cosθ)\nλ = h/p",
         takeaways: [
           "Light has both wave and particle properties",
           "Photoelectric effect proves particle nature",
@@ -917,46 +917,41 @@ function App() {
         </button>
         <h1 className="navbar-brand">StudyHub</h1>
         <div className="navbar-actions">
-          <div className="search-box">
-            <svg className="search-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <button onClick={() => setShowSearch(!showSearch)} className="theme-toggle" title="Search">
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
             </svg>
-            <input
-              type="text"
-              className="search-input"
-              placeholder={t.search}
-              value={searchQuery}
-              onChange={(e) => { setSearchQuery(e.target.value); setShowSearch(true); }}
-              onFocus={() => setShowSearch(true)}
-            />
-            {showSearch && searchQuery.length >= 2 && (
-              <div className="search-results">
-                {searchResults.length > 0 ? searchResults.map((result, i) => (
-                  <div
-                    key={i}
-                    className="search-result-item"
-                    onClick={() => { setCurrentModule(result.moduleIndex); setCurrentLesson(result.lessonIndex); setSearchQuery(''); setShowSearch(false); }}
-                  >
-                    <div className="search-result-title">{language === 'bn' && result.titleBn ? result.titleBn : result.title}</div>
-                    <div className="search-result-module">{result.moduleTitle}</div>
-                  </div>
-                )) : (
-                  <div className="search-result-item">
-                    <div className="search-result-title">{t.noResults}</div>
-                  </div>
-                )}
-              </div>
-            )}
-          </div>
-          <button onClick={() => setShowSearch(false)} className="theme-toggle">
-            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              {showSearch ? (
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-              ) : (
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-              )}
-            </svg>
           </button>
+          {showSearch && (
+            <div className="search-dropdown">
+              <input
+                type="text"
+                className="search-input"
+                placeholder={t.search}
+                value={searchQuery}
+                onChange={(e) => { setSearchQuery(e.target.value); }}
+                autoFocus
+              />
+              {searchQuery.length >= 2 && (
+                <div className="search-results">
+                  {searchResults.length > 0 ? searchResults.map((result, i) => (
+                    <div
+                      key={i}
+                      className="search-result-item"
+                      onClick={() => { setCurrentModule(result.moduleIndex); setCurrentLesson(result.lessonIndex); setSearchQuery(''); setShowSearch(false); }}
+                    >
+                      <div className="search-result-title">{language === 'bn' && result.titleBn ? result.titleBn : result.title}</div>
+                      <div className="search-result-module">{result.moduleTitle}</div>
+                    </div>
+                  )) : (
+                    <div className="search-result-item">
+                      <div className="search-result-title">{t.noResults}</div>
+                    </div>
+                  )}
+                </div>
+              )}
+            </div>
+          )}
           <button onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')} className="theme-toggle" title={theme === 'dark' ? t.lightMode : t.darkMode}>
             {theme === 'dark' ? (
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -976,15 +971,14 @@ function App() {
           </button>
           <svg className="progress-ring" viewBox="0 0 36 36">
             <path
-              className="text-gray-700"
-              stroke="currentColor"
+              stroke="var(--text-dim)"
               strokeWidth="3"
               fill="none"
               d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
             />
             <path
               className="progress-ring-circle"
-              stroke="#f59e0b"
+              stroke="var(--accent)"
               strokeWidth="3"
               fill="none"
               strokeLinecap="round"
@@ -992,7 +986,7 @@ function App() {
               d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
             />
           </svg>
-          <span className="text-sm text-gray-400">{progress}%</span>
+          <span className="nav-counter">{progress}%</span>
         </div>
       </nav>
 

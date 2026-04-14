@@ -56,6 +56,67 @@
   color: #3f3f3f;
 }
 
+.light-theme .takeaway-dot,
+.light-theme .sidebar-number {
+  background: var(--accent);
+}
+
+.light-theme .takeaways-title,
+.light-theme .code-label {
+  color: var(--accent);
+}
+
+.light-theme .takeaway-item,
+.light-theme .code-header {
+  border-color: var(--border);
+}
+
+.light-theme .lesson-title {
+  color: #171717;
+}
+
+.light-theme .nav-buttons {
+  border-color: var(--border);
+}
+
+.light-theme .search-input {
+  background: var(--bg-card);
+  color: var(--text-main);
+}
+
+.light-theme .search-result-title {
+  color: var(--text-main);
+}
+
+.light-theme .search-result-module {
+  color: var(--text-dim);
+}
+
+.light-theme .level-tag {
+  background: var(--accent-glow);
+  color: var(--accent);
+}
+
+.light-theme .language-toggle,
+.light-theme .theme-toggle {
+  background: var(--bg-hover);
+  color: var(--text-main);
+}
+
+.light-theme .language-toggle:hover,
+.light-theme .theme-toggle:hover {
+  background: var(--accent);
+  color: var(--bg-main);
+}
+
+.light-theme .progress-ring-circle {
+  stroke: var(--accent);
+}
+
+.light-theme .nav-counter {
+  color: var(--text-muted);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -386,7 +447,7 @@ body {
 }
 
 .nav-counter {
-  color: var(--text-dim);
+  color: var(--text-muted);
   font-size: 0.85rem;
   font-weight: 500;
 }
@@ -448,7 +509,7 @@ body {
 
 .search-input {
   width: 100%;
-  padding: 10px 16px 10px 40px;
+  padding: 10px 16px;
   border-radius: 12px;
   background: var(--bg-card);
   border: 1px solid var(--border);
@@ -465,28 +526,22 @@ body {
   border-color: var(--accent);
 }
 
-.search-icon {
+.search-dropdown {
   position: absolute;
-  left: 12px;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 18px;
-  height: 18px;
-  color: var(--text-dim);
+  top: 100%;
+  right: 12px;
+  width: 280px;
+  z-index: 1000;
+  margin-top: 8px;
 }
 
 .search-results {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  right: 0;
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: 12px;
   margin-top: 8px;
   max-height: 300px;
   overflow-y: auto;
-  z-index: 1000;
   box-shadow: 0 10px 40px rgba(0,0,0,0.3);
 }
 
