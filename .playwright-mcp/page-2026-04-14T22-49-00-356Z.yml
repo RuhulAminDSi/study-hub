@@ -1,0 +1,119 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - heading "StudyHub" [level=1] [ref=e5]
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - img [ref=e8]
+        - textbox "পাঠ খুজুন..." [ref=e10]
+      - button [ref=e11] [cursor=pointer]:
+        - img [ref=e12]
+      - button "লাইট" [ref=e14] [cursor=pointer]:
+        - img [ref=e15]
+      - button "English" [ref=e17] [cursor=pointer]
+      - img [ref=e18]
+      - generic [ref=e21]: 10%
+  - complementary [ref=e22]:
+    - generic [ref=e23]:
+      - heading "মডিউল" [level=2] [ref=e24]
+      - generic [ref=e25] [cursor=pointer]:
+        - generic [ref=e26]: "1"
+        - generic [ref=e27]: ১. পদার্থবিদ্যার মূল ধারণা
+      - generic [ref=e28] [cursor=pointer]:
+        - generic [ref=e29]: "2"
+        - generic [ref=e30]: ২. কম্পিউটার সিস্টেমের পরিচিতি
+      - generic [ref=e31] [cursor=pointer]:
+        - generic [ref=e32]: "3"
+        - generic [ref=e33]: ৩. তড়িৎ সার্কিট
+      - generic [ref=e34] [cursor=pointer]:
+        - generic [ref=e35]: "4"
+        - generic [ref=e36]: ৪. ডিজিটাল লজিক ডিজাইন
+      - generic [ref=e37] [cursor=pointer]:
+        - generic [ref=e38]: "5"
+        - generic [ref=e39]: ৫. মৌলিক ইলেকট্রনিক্স
+      - generic [ref=e40] [cursor=pointer]:
+        - generic [ref=e41]: "6"
+        - generic [ref=e42]: ৬. মাইক্রোপ্রসেসর ও ইন্টারফেসিং
+      - generic [ref=e43] [cursor=pointer]:
+        - generic [ref=e44]: "7"
+        - generic [ref=e45]: ৭. কম্পিউটার আর্কিটেকচার
+      - generic [ref=e46] [cursor=pointer]:
+        - generic [ref=e47]: "8"
+        - generic [ref=e48]: ৮. যোগাযোগ তত্ত্ব
+      - generic [ref=e49] [cursor=pointer]:
+        - generic [ref=e50]: "9"
+        - generic [ref=e51]: ৯. কম্পিউটার নেটওয়ার্কিং ও নিরাপত্তা
+      - generic [ref=e52] [cursor=pointer]:
+        - generic [ref=e53]: "10"
+        - generic [ref=e54]: ১০. স্ট্রাকচার্ড প্রোগ্রামিং ল্যাংগুয়েজ (C)
+      - generic [ref=e55] [cursor=pointer]:
+        - generic [ref=e56]: "11"
+        - generic [ref=e57]: ১১. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (OOP)
+      - generic [ref=e58] [cursor=pointer]:
+        - generic [ref=e59]: "12"
+        - generic [ref=e60]: ১২. ডিসক্রিট গণিত
+      - generic [ref=e61] [cursor=pointer]:
+        - generic [ref=e62]: "13"
+        - generic [ref=e63]: ১৩. গ্রাফ তত্ত্ব
+      - generic [ref=e64] [cursor=pointer]:
+        - generic [ref=e65]: "14"
+        - generic [ref=e66]: ১৪. গণনার তত্ত্ব
+      - generic [ref=e67] [cursor=pointer]:
+        - generic [ref=e68]: "15"
+        - generic [ref=e69]: ১৫. ডেটা স্ট্রাকচার ও অ্যালগরিদম
+      - generic [ref=e70] [cursor=pointer]:
+        - generic [ref=e71]: "16"
+        - generic [ref=e72]: ১৬. ডেটাবেস সিস্টেম
+      - generic [ref=e73] [cursor=pointer]:
+        - generic [ref=e74]: "17"
+        - generic [ref=e75]: ১৭. সফটওয়্যার ইঞ্জিনিয়ারিং
+      - generic [ref=e76] [cursor=pointer]:
+        - generic [ref=e77]: "18"
+        - generic [ref=e78]: ১৮. অপারেটিং সিস্টেম
+      - generic [ref=e79] [cursor=pointer]:
+        - generic [ref=e80]: "19"
+        - generic [ref=e81]: ১৯. আর্টিফিসিয়াল ইন্টেলিজেন্স
+  - main [ref=e82]:
+    - generic [ref=e83]:
+      - generic [ref=e84]:
+        - generic [ref=e85]: শুরু
+        - generic [ref=e86]: ২. কম্পিউটার সিস্টেমের পরিচিতি • পাঠ 1 / 6
+      - heading "গণনার পরিচিতি" [level=1] [ref=e126]
+    - generic [ref=e89]:
+      - paragraph [ref=e90]: "গণনা: সুসংজ্ঞায়িত নিয়ম ব্যবহার করে সমস্যা সমাধান, গণনা বা তথ্য প্রক্রিয়াকরণের প্রক্রিয়া।"
+      - paragraph
+      - paragraph [ref=e91]: "মূল উপাদান:"
+      - paragraph [ref=e127]: "• ইনপুট: গণনায় প্রদত্ত তথ্য"
+      - paragraph [ref=e92]: "• প্রক্রিয়া: প্রয়োগকৃত অপারেশন/অ্যালগরিদম"
+      - paragraph [ref=e128]: "• আউটপুট: উৎপাদিত ফলাফল"
+      - paragraph
+      - paragraph [ref=e129]: "গণনার প্রকার:"
+      - paragraph [ref=e94]: "• সঠিক: নির্দিষ্ট, নির্ণায়ক ফলাফল"
+      - paragraph [ref=e130]: "• আসন্ন: সঠিক মানের কাছে"
+      - paragraph [ref=e95]: "• প্রতীকী: প্রতীক/অভিব্যক্তি হেরফের করে"
+      - paragraph [ref=e131]: "• যৌক্তিক/বুলিয়ান: সত্য/মিথ্যা মান ব্যবহার করে"
+      - paragraph
+      - paragraph [ref=e132]: "গণনার মডেল:"
+      - paragraph [ref=e97]: "• টিউরিং মেশিন: গণনাযোগ্যতা সংজ্ঞায়িত করে বিমূর্ত মডেল"
+      - paragraph [ref=e133]: "• ফাইনিট অটোমাটা: সীমিত স্মৃতি, প্যাটার্ন চেনাশোনা"
+      - paragraph [ref=e98]: "• ল্যাম্ডা ক্যালকুলাস: গাণিতিক ফাংশন মডেল"
+      - paragraph
+      - paragraph [ref=e134]: গণনা প্রোগ্রামিং, অ্যালগরিদম এবং গণনা তত্ত্বের মূল ভিত্তি।
+    - generic [ref=e99]:
+      - heading "গুরুত্বপূর্ণ বিষয়" [level=3] [ref=e100]
+      - generic [ref=e103]: গণনা অ্যালগরিদমের মাধ্যমে ইনপুটকে আউটপুটে রূপান্তর করে
+      - generic [ref=e106]: "একাধিক প্রকার: সঠিক, আসন্ন, প্রতীকী, যৌক্ত���ক"
+      - generic [ref=e109]: টিউরিং মেশিন কোন সমস্যা গণনাযোগ্য তা সংজ্ঞায়িত করে
+      - generic [ref=e112]: প্রোগ্রামিং এবং অ্যালগরিদমের ভিত্তি
+    - generic [ref=e113]:
+      - generic [ref=e114]:
+        - generic [ref=e115]: গুরুত্বপূর্ণ সূত্র
+        - button "কপি" [ref=e116] [cursor=pointer]
+      - generic [ref=e117]: "Computation: Input → Algorithm → Output"
+    - generic [ref=e118]:
+      - button "Previous" [ref=e119] [cursor=pointer]:
+        - img [ref=e120]
+        - text: Previous
+      - generic [ref=e122]: 5 / 50
+      - button "Next" [ref=e123] [cursor=pointer]:
+        - text: Next
+        - img [ref=e124]

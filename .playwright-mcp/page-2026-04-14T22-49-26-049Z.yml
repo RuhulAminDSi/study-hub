@@ -1,0 +1,326 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - heading "StudyHub" [level=1] [ref=e5]
+    - generic [ref=e6]:
+      - button "Search" [ref=e7] [cursor=pointer]:
+        - img [ref=e8]
+      - button "লাইট" [ref=e10] [cursor=pointer]:
+        - img [ref=e11]
+      - button "English" [ref=e13] [cursor=pointer]
+      - img [ref=e14]:
+        - generic [ref=e17]: 4%
+  - complementary [ref=e18]:
+    - generic [ref=e19]:
+      - heading "মডিউল" [level=2] [ref=e20]
+      - generic [ref=e21]:
+        - generic [ref=e22] [cursor=pointer]:
+          - generic [ref=e23]: "1"
+          - generic [ref=e24]: ১. পদার্থবিদ্যার মূল ধারণা
+          - button [ref=e25]:
+            - img [ref=e26]
+        - generic [ref=e28]:
+          - generic [ref=e29] [cursor=pointer]:
+            - generic [ref=e30]: "1."
+            - generic [ref=e31]: তড়িৎচুম্বকত্বের মূল ধারণা
+          - generic [ref=e32] [cursor=pointer]:
+            - generic [ref=e33]: "2."
+            - generic [ref=e34]: Waves and Oscillations
+          - generic [ref=e35] [cursor=pointer]:
+            - generic [ref=e36]: "3."
+            - generic [ref=e37]: Special Relativity
+          - generic [ref=e38] [cursor=pointer]:
+            - generic [ref=e39]: "4."
+            - generic [ref=e40]: Quantum Physics & EM Waves
+      - generic [ref=e42] [cursor=pointer]:
+        - generic [ref=e43]: "2"
+        - generic [ref=e44]: ২. কম্পিউটার সিস্টেমের পরিচিতি
+        - button [ref=e45]:
+          - img [ref=e46]
+      - generic [ref=e49] [cursor=pointer]:
+        - generic [ref=e50]: "3"
+        - generic [ref=e51]: ৩. তড়িৎ সার্কিট
+        - button [ref=e52]:
+          - img [ref=e53]
+      - generic [ref=e56] [cursor=pointer]:
+        - generic [ref=e57]: "4"
+        - generic [ref=e58]: ৪. ডিজিটাল লজিক ডিজাইন
+        - button [ref=e59]:
+          - img [ref=e60]
+      - generic [ref=e63] [cursor=pointer]:
+        - generic [ref=e64]: "5"
+        - generic [ref=e65]: ৫. মৌলিক ইলেকট্রনিক্স
+        - button [ref=e66]:
+          - img [ref=e67]
+      - generic [ref=e70] [cursor=pointer]:
+        - generic [ref=e71]: "6"
+        - generic [ref=e72]: ৬. মাইক্রোপ্রসেসর ও ইন্টারফেসিং
+        - button [ref=e73]:
+          - img [ref=e74]
+      - generic [ref=e77] [cursor=pointer]:
+        - generic [ref=e78]: "7"
+        - generic [ref=e79]: ৭. কম্পিউটার আর্কিটেকচার
+        - button [ref=e80]:
+          - img [ref=e81]
+      - generic [ref=e84] [cursor=pointer]:
+        - generic [ref=e85]: "8"
+        - generic [ref=e86]: ৮. যোগাযোগ তত্ত্ব
+        - button [ref=e87]:
+          - img [ref=e88]
+      - generic [ref=e91] [cursor=pointer]:
+        - generic [ref=e92]: "9"
+        - generic [ref=e93]: ৯. কম্পিউটার নেটওয়ার্কিং ও নিরাপত্তা
+        - button [ref=e94]:
+          - img [ref=e95]
+      - generic [ref=e98] [cursor=pointer]:
+        - generic [ref=e99]: "10"
+        - generic [ref=e100]: ১০. স্ট্রাকচার্ড প্রোগ্রামিং ল্যাংগুয়েজ (C)
+        - button [ref=e101]:
+          - img [ref=e102]
+      - generic [ref=e105] [cursor=pointer]:
+        - generic [ref=e106]: "11"
+        - generic [ref=e107]: ১১. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (OOP)
+        - button [ref=e108]:
+          - img [ref=e109]
+      - generic [ref=e112] [cursor=pointer]:
+        - generic [ref=e113]: "12"
+        - generic [ref=e114]: ১২. ডিসক্রিট গণিত
+        - button [ref=e115]:
+          - img [ref=e116]
+      - generic [ref=e119] [cursor=pointer]:
+        - generic [ref=e120]: "13"
+        - generic [ref=e121]: ১৩. গ্রাফ তত্ত্ব
+        - button [ref=e122]:
+          - img [ref=e123]
+      - generic [ref=e126] [cursor=pointer]:
+        - generic [ref=e127]: "14"
+        - generic [ref=e128]: ১৪. গণনার তত্ত্ব
+        - button [ref=e129]:
+          - img [ref=e130]
+      - generic [ref=e133] [cursor=pointer]:
+        - generic [ref=e134]: "15"
+        - generic [ref=e135]: ১৫. ডেটা স্ট্রাকচার ও অ্যালগরিদম
+        - button [ref=e136]:
+          - img [ref=e137]
+      - generic [ref=e140] [cursor=pointer]:
+        - generic [ref=e141]: "16"
+        - generic [ref=e142]: ১৬. ডেটাবেস সিস্টেম
+        - button [ref=e143]:
+          - img [ref=e144]
+      - generic [ref=e147] [cursor=pointer]:
+        - generic [ref=e148]: "17"
+        - generic [ref=e149]: ১৭. সফটওয়্যার ইঞ্জিনিয়ারিং
+        - button [ref=e150]:
+          - img [ref=e151]
+      - generic [ref=e154] [cursor=pointer]:
+        - generic [ref=e155]: "18"
+        - generic [ref=e156]: ১৮. অপারেটিং সিস্টেম
+        - button [ref=e157]:
+          - img [ref=e158]
+      - generic [ref=e161] [cursor=pointer]:
+        - generic [ref=e162]: "19"
+        - generic [ref=e163]: ১৯. আর্টিফিসিয়াল ইন্টেলিজেন্স
+        - button [ref=e164]:
+          - img [ref=e165]
+  - main [ref=e167]:
+    - generic [ref=e168]:
+      - generic [ref=e169]:
+        - generic [ref=e170]: শুরু
+        - generic [ref=e171]: 4 Lessons
+      - heading "১. পদার্থবিদ্যার মূল ধারণা" [level=1] [ref=e172]
+    - generic [ref=e173]:
+      - generic [ref=e174]:
+        - generic [ref=e175]:
+          - generic [ref=e176]: "1"
+          - heading "তড়িৎচুম্বকত্বের মূল ধারণা" [level=2] [ref=e177]
+          - generic [ref=e178]: শুরু
+        - generic [ref=e180]:
+          - paragraph [ref=e181]: আধান, কুলম্বের সূত্র, তড়িৎক্ষেত্র, গাউসের সূত্র, তড়িৎবিভব, চুম্বকক্ষেত্র, ফ্যারাডের সূত্র, ম্যাক্সওয়েলের সমীকরণ।
+          - paragraph
+          - paragraph [ref=e182]: "⚡ আধান: পদার্থের একটি মৌলিক ধর্ম যা তড়িৎচুম্বকীয় মিথস্ক্রিয়া সৃষ্টি করে। প্রকার: ধনবাহী (+) এবং ঋণবাহী (-)। একক: কুলম্ব (C)। সংরক্ষণ: আ��ান তৈরি বা ধ্বংস করা যায় না, শুধু স্থানান্তর করা যায়।"
+          - paragraph
+          - paragraph [ref=e183]: "⚡ কুলম্বের সূত্র: দুটি তড়িৎআধানের মধ্যে বল: F = k(q1×q2)/r²। বল বিপরীত আধানের জন্য আকর্ষণকারক, একই রকম আধানের জন্য বিকর্ষণকারক।"
+          - paragraph
+          - paragraph [ref=e184]: "⚡ তড়িৎক্ষেত্র (E): চার্জযুক্ত কণার চারপাশে অঞ্চল যেখানে এটি অন্যান্য আধানের উপর বল প্রয়োগ করে। E = F/q। একক: N/C বা V/m। দিক: ধনবাহী থেকে দূরে, ঋণবাহীর দিকে।"
+          - paragraph
+          - paragraph [ref=e185]: "⚡ গাউসের সূত্র: বদ্ধ পৃষ্ঠের মধ্য দিয়ে তড়িৎফ্লাক্স = আবদ্ধ আধান/ε₀। প্রতিসম আধান বিতরণের তড়িৎক্ষেত্র গণনা করতে ব্যবহৃত হয়।"
+          - paragraph
+          - paragraph [ref=e186]: "⚡ তড়িৎবিভব (V): অসীম থেকে একটি বিন্দুতে একক ধনবাহী আধান আনতে করা কাজ। V = W/q। একক: ভোল্ট (V)। সম্পর্ক: E = -dV/dx।"
+          - paragraph
+          - paragraph [ref=e187]: "🧲 চুম্বকক্ষেত্র: চলমান আধান ব চুম্বকের চারপাশে অঞ্চল যেখানে চুম্বকীয় বল কাজ করে। একক: টেসলা (T)। চলমান আধান এবং স্থায়ী চুম্বক দ্বারা তৈরি। ডান-হাতের নিয়ম: বুড়ো = প্রবাহের দিক, আঙুল = চুম্বকক্ষেত্রের দিক।"
+          - paragraph
+          - paragraph [ref=e188]: "🧲 ফ্যারাডের সূত্র: পরিবর্তনশীল চুম্বকক্ষেত্র EMF প্রবর্তন করে। EMF = -dΦB/dt। মূল: পরিবর্তনশীল চুম্বকক্ষেত্র → আবিষ্ট ভোল্টেজ → আবিষ্ট প্রবাহ।"
+          - paragraph
+          - paragraph [ref=e189]: "🌐 ম্যাক্সওয়েলের সমীকরণ (৪টি মৌলিক সূত্র):"
+          - paragraph [ref=e190]: ১. ∇·E = ρ/ε₀ (বিদ্যুতের জন্য গাউসের সূত্র)
+          - paragraph [ref=e191]: ২. ∇·B = ০ (চুম্বকত্বের জন্য গাউসের সূত্র - একক চুম্বক নেই)
+          - paragraph [ref=e192]: ৩. ∇×E = -∂B/∂t (ফ্যারাডের সূত্র)
+          - paragraph [ref=e193]: ৪. ∇×B = μ₀J + μ₀ε₀(∂E/∂t) (অ্যাম্পিয়ার-ম্যাক্সওয়েল সূত্র)
+        - generic [ref=e194]:
+          - heading "গুরুত্বপূর্ণ বিষয়" [level=3] [ref=e195]
+          - generic [ref=e196]:
+            - generic [ref=e199]: আধান + এবং - প্রকার সহ মৌলিক ধর্ম
+            - generic [ref=e202]: কুলম্বের সূত্র আধানের মধ্যে বল সংজ্ঞায়িত করে
+            - generic [ref=e205]: তড়িৎক্ষেত্র = একক আধান প্রতি বল
+            - generic [ref=e208]: ম্যাক্সওয়েলের সমীকরণ সমস্ত তড়িৎচুম্বকত্ব একত্রিত করে
+        - generic [ref=e209]:
+          - generic [ref=e210]:
+            - generic [ref=e211]: গুরুত্বপূর্ণ সূত্র
+            - button "কপি" [ref=e212] [cursor=pointer]
+          - generic [ref=e213]: F = k × (q1 × q2) / r² E = F/q V = W/q EMF = -dΦB/dt ∇·E = ρ/ε₀ ∇×B = μ₀J + μ₀ε₀(∂E/∂t)
+      - generic [ref=e214]:
+        - generic [ref=e215]:
+          - generic [ref=e216]: "2"
+          - heading "Waves and Oscillations" [level=2] [ref=e217]
+          - generic [ref=e218]: শুরু
+        - generic [ref=e220]:
+          - paragraph [ref=e221]: "Oscillation: Back-and-forth repetitive motion around mean position. Examples: pendulum, mass on spring, AC current."
+          - paragraph
+          - paragraph [ref=e222]: "Types of Oscillations:"
+          - paragraph [ref=e223]: "• Free: Body oscillates without external force"
+          - paragraph [ref=e224]: "• Forced: External periodic force keeps it oscillating"
+          - paragraph [ref=e225]: "• Damped: Amplitude decreases due to friction/resistance"
+          - paragraph [ref=e226]: "• Undamped: No energy loss, constant amplitude"
+          - paragraph [ref=e227]: "• Resonance: External frequency = natural frequency → maximum amplitude"
+          - paragraph
+          - paragraph [ref=e228]: "Key Terms:"
+          - paragraph [ref=e229]: "• Amplitude (A): Maximum displacement from mean position (meter)"
+          - paragraph [ref=e230]: "• Time Period (T): Time for one complete oscillation (seconds)"
+          - paragraph [ref=e231]: "• Frequency (f): Number of oscillations per second. f = 1/T in Hz"
+          - paragraph [ref=e232]: "• Angular Frequency (ω): ω = 2πf (radians/sec)"
+          - paragraph [ref=e233]: "• Phase (φ): Position of oscillation at any instant (radians)"
+          - paragraph
+          - paragraph [ref=e234]: "Simple Harmonic Motion (SHM): Simplest oscillation. Restoring force proportional to displacement: F = -kx. Equation: x(t) = A×sin(ωt + φ)."
+          - paragraph
+          - paragraph
+          - paragraph [ref=e235]: "Wave: Disturbance transferring energy without transferring matter."
+          - paragraph
+          - paragraph [ref=e236]: "Types:"
+          - paragraph [ref=e237]: "• Mechanical (require medium): sound, water waves"
+          - paragraph [ref=e238]: "• Electromagnetic (no medium): light, radio"
+          - paragraph [ref=e239]: "• Transverse: particle motion ⟂ wave direction"
+          - paragraph [ref=e240]: "• Longitudinal: particle motion ∥ wave direction"
+          - paragraph
+          - paragraph [ref=e241]: "Wave Properties:"
+          - paragraph [ref=e242]: "• Wavelength (λ): Distance between two crests (meter)"
+          - paragraph [ref=e243]: "• Frequency (f): Number of cycles per second (Hertz)"
+          - paragraph [ref=e244]: "• Wave speed (v): v = fλ (m/s)"
+          - paragraph [ref=e245]: "• Amplitude (A): Height of crest (energy level)"
+          - paragraph
+          - paragraph
+          - paragraph [ref=e246]: "Wave Phenomena:"
+          - paragraph [ref=e247]: "• Reflection: Wave bounces back from surface"
+          - paragraph [ref=e248]: "• Refraction: Wave bends passing into another medium"
+          - paragraph [ref=e249]: "• Diffraction: Wave bends around obstacles"
+          - paragraph [ref=e250]: "• Interference: Two waves overlap to form resultant wave"
+          - paragraph [ref=e251]: "• Standing Waves: Appear stationary due to interference"
+        - generic [ref=e252]:
+          - heading "গুরুত্বপূর্ণ বিষয়" [level=3] [ref=e253]
+          - generic [ref=e254]:
+            - generic [ref=e257]: Oscillation is repetitive back-and-forth motion
+            - generic [ref=e260]: Wave transfers energy without matter transfer
+            - generic [ref=e263]: v = fλ relates speed, frequency, wavelength
+            - generic [ref=e266]: Resonance occurs when frequencies match
+        - generic [ref=e267]:
+          - generic [ref=e268]:
+            - generic [ref=e269]: গুরুত্বপূর্ণ সূত্র
+            - button "কপি" [ref=e270] [cursor=pointer]
+          - generic [ref=e271]: f = 1/T v = fλ x(t) = A × sin(ωt + φ) F = -kx (SHM) ω = 2πf
+      - generic [ref=e272]:
+        - generic [ref=e273]:
+          - generic [ref=e274]: "3"
+          - heading "Special Relativity" [level=2] [ref=e275]
+          - generic [ref=e276]: শুরু
+        - generic [ref=e278]:
+          - paragraph [ref=e279]: Theory of Special Relativity (Einstein, 1905) explains how space, time, and motion relate at speeds near light.
+          - paragraph
+          - paragraph [ref=e280]: "Two Postulates:"
+          - paragraph [ref=e281]: "1. Principle of Relativity: Laws of physics identical in all inertial frames. No absolute rest."
+          - paragraph [ref=e282]: "2. Constancy of Speed of Light: c = 3×10⁸ m/s same for all observers."
+          - paragraph
+          - paragraph [ref=e283]: "Consequences:"
+          - paragraph
+          - paragraph [ref=e284]: "a) Time Dilation: Moving clocks run slower."
+          - paragraph [ref=e285]: t = t₀ / √(1 - v²/c²)
+          - paragraph
+          - paragraph [ref=e286]: "b) Length Contraction: Moving objects appear shorter."
+          - paragraph [ref=e287]: L = L₀ × √(1 - v²/c²)
+          - paragraph
+          - paragraph [ref=e288]: "c) Relativity of Simultaneity: Events simultaneous in one frame may not be in another."
+          - paragraph
+          - paragraph [ref=e289]: "d) Mass-Energy Equivalence: E = mc² (mass and energy interchangeable)"
+          - paragraph
+          - paragraph [ref=e290]: "e) Mass Increase with Velocity: m = m₀ / √(1 - v²/c²)"
+          - paragraph
+          - paragraph [ref=e291]: "Spacetime: 4-dimensional entity with coordinates (x, y, z, t)."
+          - paragraph
+          - paragraph [ref=e292]: "Applications: GPS (time dilation), particle accelerators, nuclear energy, astrophysics."
+        - generic [ref=e293]:
+          - heading "গুরুত্বপূর্ণ বিষয়" [level=3] [ref=e294]
+          - generic [ref=e295]:
+            - generic [ref=e298]: Speed of light is constant for all observers
+            - generic [ref=e301]: "Time dilation: moving clocks run slower"
+            - generic [ref=e304]: "Length contraction: moving objects shorten"
+            - generic [ref=e307]: E = mc² shows mass-energy equivalence
+        - generic [ref=e308]:
+          - generic [ref=e309]:
+            - generic [ref=e310]: গুরুত্বপূর্ণ সূত্র
+            - button "কপি" [ref=e311] [cursor=pointer]
+          - generic [ref=e312]: t = t₀ / √(1 - v²/c²) L = L₀ × √(1 - v²/c²) E = mc² m = m₀ / √(1 - v²/c²)
+      - generic [ref=e313]:
+        - generic [ref=e314]:
+          - generic [ref=e315]: "4"
+          - heading "Quantum Physics & EM Waves" [level=2] [ref=e316]
+          - generic [ref=e317]: শুরু
+        - generic [ref=e319]:
+          - paragraph [ref=e320]: "Electromagnetic Waves: Oscillations of electric and magnetic fields traveling through space. Don't require medium. Produced by accelerating charges. E and B fields perpendicular to each other and wave direction. Formula: c = λν."
+          - paragraph
+          - paragraph [ref=e321]: "EM Spectrum:"
+          - paragraph [ref=e322]: "• Radio waves: λ > 1m"
+          - paragraph [ref=e323]: "• Microwaves: 1m - 1mm"
+          - paragraph [ref=e324]: "• Infrared: 1mm - 700nm"
+          - paragraph [ref=e325]: "• Visible light: 700-400nm"
+          - paragraph [ref=e326]: "• Ultraviolet: 400-10nm"
+          - paragraph [ref=e327]: "• X-rays: 10-0.01nm"
+          - paragraph [ref=e328]: "• Gamma rays: < 0.01nm"
+          - paragraph
+          - paragraph [ref=e329]: "Photoelectric Effect: Light shining on metal surface emits electrons (photoelectrons)."
+          - paragraph [ref=e330]: "Facts:"
+          - paragraph [ref=e331]: • No electrons below threshold frequency
+          - paragraph [ref=e332]: • Intensity affects number, not energy
+          - paragraph [ref=e333]: • Energy depends on frequency, not intensity
+          - paragraph
+          - paragraph [ref=e334]: "Einstein's Explanation: Light behaves as particles (photons). Energy: E = hν (h = 6.626 × 10⁻³⁴ Js). If photon energy > work function, electrons emitted: hν = φ + ½mv²"
+          - paragraph
+          - paragraph [ref=e335]: "Quantum Theory: Light has dual nature (wave-particle duality). Photon: quantum of EM energy. E = hν, p = h/λ."
+          - paragraph
+          - paragraph [ref=e336]: "X-rays: High-energy EM waves produced when high-speed electrons strike metal. Used in medical imaging, crystallography."
+          - paragraph [ref=e337]: "X-ray Diffraction: Bragg's Law: nλ = 2d×sinθ"
+          - paragraph [ref=e338]: "Compton Effect: X-ray scattering by electrons causes wavelength change. Δλ = h/(mₑc) × (1 - cosθ)"
+          - paragraph
+          - paragraph [ref=e339]: "De Broglie Waves: Particles have wave-like properties. Formula: λ = h/p (p = momentum)"
+          - paragraph [ref=e340]: "Phase velocity: vₚ = ω/k"
+          - paragraph [ref=e341]: "Group velocity: vg = dω/dk"
+        - generic [ref=e342]:
+          - heading "গুরুত্বপূর্ণ বিষয়" [level=3] [ref=e343]
+          - generic [ref=e344]:
+            - generic [ref=e347]: Light has both wave and particle properties
+            - generic [ref=e350]: Photoelectric effect proves particle nature
+            - generic [ref=e353]: X-ray diffraction reveals crystal structure
+            - generic [ref=e356]: Compton effect confirms photon momentum
+        - generic [ref=e357]:
+          - generic [ref=e358]:
+            - generic [ref=e359]: গুরুত্বপূর্ণ সূত্র
+            - button "কপি" [ref=e360] [cursor=pointer]
+          - generic [ref=e361]: c = fλ E = hν hν = φ + ½mv² Δλ = h/(mₑc)(1 - cosθ) λ = h/p
+    - generic [ref=e362]:
+      - button "Previous Module" [disabled] [ref=e363]:
+        - img [ref=e364]
+        - text: Previous Module
+      - generic [ref=e366]: 1 / 19
+      - button "Next Module" [ref=e367] [cursor=pointer]:
+        - text: Next Module
+        - img [ref=e368]
+    - button "Go to bottom" [ref=e371] [cursor=pointer]:
+      - img [ref=e372]
+    - button "Go to top" [ref=e375] [cursor=pointer]:
+      - img [ref=e376]

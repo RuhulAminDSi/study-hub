@@ -1,0 +1,363 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - heading "StudyHub" [level=1] [ref=e5]
+    - generic [ref=e6]:
+      - button "Search" [ref=e7] [cursor=pointer]:
+        - img [ref=e8]
+      - button "লাইট" [ref=e10] [cursor=pointer]:
+        - img [ref=e11]
+      - button "English" [ref=e13] [cursor=pointer]
+      - img [ref=e14]:
+        - generic [ref=e17]: 20%
+  - complementary [ref=e18]:
+    - generic [ref=e19]:
+      - heading "মডিউল" [level=2] [ref=e20]
+      - generic [ref=e22] [cursor=pointer]:
+        - generic [ref=e23]: "1"
+        - generic [ref=e24]: ১. পদার্থবিদ্যার মূল ধারণা
+        - button [ref=e25]:
+          - img [ref=e26]
+      - generic [ref=e41]:
+        - generic [ref=e42] [cursor=pointer]:
+          - generic [ref=e43]: "2"
+          - generic [ref=e44]: ২. কম্পিউটার সিস্টেমের পরিচিতি
+          - button [ref=e45]:
+            - img [ref=e46]
+        - generic [ref=e378]:
+          - generic [ref=e379] [cursor=pointer]:
+            - generic [ref=e380]: "1."
+            - generic [ref=e381]: গণনার পরিচিতি
+          - generic [ref=e382] [cursor=pointer]:
+            - generic [ref=e383]: "2."
+            - generic [ref=e384]: গণনা যন্ত্রের ইতিহাস
+          - generic [ref=e385] [cursor=pointer]:
+            - generic [ref=e386]: "3."
+            - generic [ref=e387]: কম্পিউটারের মৌলিক ধারণা
+          - generic [ref=e388] [cursor=pointer]:
+            - generic [ref=e389]: "4."
+            - generic [ref=e390]: Hardware Components
+          - generic [ref=e391] [cursor=pointer]:
+            - generic [ref=e392]: "5."
+            - generic [ref=e393]: Software Overview
+          - generic [ref=e394] [cursor=pointer]:
+            - generic [ref=e395]: "6."
+            - generic [ref=e396]: Computer Architecture
+      - generic [ref=e49] [cursor=pointer]:
+        - generic [ref=e50]: "3"
+        - generic [ref=e51]: ৩. তড়িৎ সার্কিট
+        - button [ref=e52]:
+          - img [ref=e53]
+      - generic [ref=e56] [cursor=pointer]:
+        - generic [ref=e57]: "4"
+        - generic [ref=e58]: ৪. ডিজিটাল লজিক ডিজাইন
+        - button [ref=e59]:
+          - img [ref=e60]
+      - generic [ref=e63] [cursor=pointer]:
+        - generic [ref=e64]: "5"
+        - generic [ref=e65]: ৫. মৌলিক ইলেকট্রনিক্স
+        - button [ref=e66]:
+          - img [ref=e67]
+      - generic [ref=e70] [cursor=pointer]:
+        - generic [ref=e71]: "6"
+        - generic [ref=e72]: ৬. মাইক্রোপ্রসেসর ও ইন্টারফেসিং
+        - button [ref=e73]:
+          - img [ref=e74]
+      - generic [ref=e77] [cursor=pointer]:
+        - generic [ref=e78]: "7"
+        - generic [ref=e79]: ৭. কম্পিউটার আর্কিটেকচার
+        - button [ref=e80]:
+          - img [ref=e81]
+      - generic [ref=e84] [cursor=pointer]:
+        - generic [ref=e85]: "8"
+        - generic [ref=e86]: ৮. যোগাযোগ তত্ত্ব
+        - button [ref=e87]:
+          - img [ref=e88]
+      - generic [ref=e91] [cursor=pointer]:
+        - generic [ref=e92]: "9"
+        - generic [ref=e93]: ৯. কম্পিউটার নেটওয়ার্কিং ও নিরাপত্তা
+        - button [ref=e94]:
+          - img [ref=e95]
+      - generic [ref=e98] [cursor=pointer]:
+        - generic [ref=e99]: "10"
+        - generic [ref=e100]: ১০. স্ট্রাকচার্ড প্রোগ্রামিং ল্যাংগুয়েজ (C)
+        - button [ref=e101]:
+          - img [ref=e102]
+      - generic [ref=e105] [cursor=pointer]:
+        - generic [ref=e106]: "11"
+        - generic [ref=e107]: ১১. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (OOP)
+        - button [ref=e108]:
+          - img [ref=e109]
+      - generic [ref=e112] [cursor=pointer]:
+        - generic [ref=e113]: "12"
+        - generic [ref=e114]: ১২. ডিসক্রিট গণিত
+        - button [ref=e115]:
+          - img [ref=e116]
+      - generic [ref=e119] [cursor=pointer]:
+        - generic [ref=e120]: "13"
+        - generic [ref=e121]: ১৩. গ্রাফ তত্ত্ব
+        - button [ref=e122]:
+          - img [ref=e123]
+      - generic [ref=e126] [cursor=pointer]:
+        - generic [ref=e127]: "14"
+        - generic [ref=e128]: ১৪. গণনার তত্ত্ব
+        - button [ref=e129]:
+          - img [ref=e130]
+      - generic [ref=e133] [cursor=pointer]:
+        - generic [ref=e134]: "15"
+        - generic [ref=e135]: ১৫. ডেটা স্ট্রাকচার ও অ্যালগরিদম
+        - button [ref=e136]:
+          - img [ref=e137]
+      - generic [ref=e140] [cursor=pointer]:
+        - generic [ref=e141]: "16"
+        - generic [ref=e142]: ১৬. ডেটাবেস সিস্টেম
+        - button [ref=e143]:
+          - img [ref=e144]
+      - generic [ref=e147] [cursor=pointer]:
+        - generic [ref=e148]: "17"
+        - generic [ref=e149]: ১৭. সফটওয়্যার ইঞ্জিনিয়ারিং
+        - button [ref=e150]:
+          - img [ref=e151]
+      - generic [ref=e154] [cursor=pointer]:
+        - generic [ref=e155]: "18"
+        - generic [ref=e156]: ১৮. অপারেটিং সিস্টেম
+        - button [ref=e157]:
+          - img [ref=e158]
+      - generic [ref=e161] [cursor=pointer]:
+        - generic [ref=e162]: "19"
+        - generic [ref=e163]: ১৯. আর্টিফিসিয়াল ইন্টেলিজেন্স
+        - button [ref=e164]:
+          - img [ref=e165]
+  - main [ref=e167]:
+    - generic [ref=e168]:
+      - generic [ref=e169]:
+        - generic [ref=e170]: শুরু
+        - generic [ref=e171]: 6 Lessons
+      - heading "২. কম্পিউটার সিস্টেমের পরিচিতি" [level=1] [ref=e397]
+    - generic [ref=e173]:
+      - generic [ref=e174]:
+        - generic [ref=e175]:
+          - generic [ref=e176]: "1"
+          - heading "গণনার পরিচিতি" [level=2] [ref=e398]
+          - generic [ref=e178]: শুরু
+        - generic [ref=e180]:
+          - paragraph [ref=e181]: "গণনা: সুসংজ্ঞায়িত নিয়ম ব্যবহার করে সমস্যা সমাধান, গণনা বা তথ্য প্রক্রিয়াকরণের প্রক্রিয়া।"
+          - paragraph
+          - paragraph [ref=e182]: "মূল উপাদান:"
+          - paragraph [ref=e399]: "• ইনপুট: গণনায় প্রদত্ত তথ্য"
+          - paragraph [ref=e183]: "• প্রক্রিয়া: প্রয়োগকৃত অপারেশন/অ্যালগরিদম"
+          - paragraph [ref=e400]: "• আউটপুট: উৎপাদিত ফলাফল"
+          - paragraph
+          - paragraph [ref=e401]: "গণনার প্রকার:"
+          - paragraph [ref=e185]: "• সঠিক: নির্দিষ্ট, নির্ণায়ক ফলাফল"
+          - paragraph [ref=e402]: "• আসন্ন: সঠিক মানের কাছে"
+          - paragraph [ref=e186]: "• প্রতীকী: প্রতীক/অভিব্যক্তি হেরফের করে"
+          - paragraph [ref=e403]: "• যৌক্তিক/বুলিয়ান: সত্য/মিথ্যা মান ব্যবহার করে"
+          - paragraph
+          - paragraph [ref=e404]: "গণনার মডেল:"
+          - paragraph [ref=e188]: "• টিউরিং মেশিন: গণনাযোগ্যতা সংজ্ঞায়িত করে বিমূর্ত মডেল"
+          - paragraph [ref=e405]: "• ফাইনিট অটোমাটা: সীমিত স্মৃতি, প্যাটার্ন চেনাশোনা"
+          - paragraph [ref=e189]: "• ল্যাম্ডা ক্যালকুলাস: গাণিতিক ফাংশন মডেল"
+          - paragraph
+          - paragraph [ref=e191]: গণনা প্রোগ্রামিং, অ্যালগরিদম এবং গণনা তত্ত্বের মূল ভিত্তি।
+        - generic [ref=e194]:
+          - heading "গুরুত্বপূর্ণ বিষয়" [level=3] [ref=e195]
+          - generic [ref=e196]:
+            - generic [ref=e199]: গণনা অ্যালগরিদমের মাধ্যমে ইনপুটকে আউটপুটে রূপান্তর করে
+            - generic [ref=e202]: "একাধিক প্রকার: সঠিক, আসন্ন, প্রতীকী, যৌক্ত���ক"
+            - generic [ref=e205]: টিউরিং মেশিন কোন সমস্যা গণনাযোগ্য তা সংজ্ঞায়িত করে
+            - generic [ref=e208]: প্রোগ্রামিং এবং অ্যালগরিদমের ভিত্তি
+        - generic [ref=e209]:
+          - generic [ref=e210]:
+            - generic [ref=e211]: গুরুত্বপূর্ণ সূত্র
+            - button "কপি" [ref=e212] [cursor=pointer]
+          - generic [ref=e213]: "Computation: Input → Algorithm → Output"
+      - generic [ref=e214]:
+        - generic [ref=e215]:
+          - generic [ref=e216]: "2"
+          - heading "গণনা যন্ত্রের ইতিহাস" [level=2] [ref=e406]
+          - generic [ref=e218]: শুরু
+        - generic [ref=e220]:
+          - paragraph [ref=e221]: "প্রাচীন ও প্রাগৈতিহাসিক সরঞ্জাম:"
+          - paragraph [ref=e407]: "• ট্যালি স্টিক: গণনার জন্য খাঁজ।"
+          - paragraph [ref=e222]: "• কুইপুস (ইনকা): সংখ্যার জন্য গিঁট দেওয়া সুতা"
+          - paragraph [ref=e223]: "• অ্যাব্যাকাস (২৪০০ BCE): গাণিতিকের জন্য দণ্ডে পুঁতি"
+          - paragraph
+          - paragraph [ref=e225]: "যান্ত্রিক গণনা:"
+          - paragraph [ref=e226]: "• অ্যান্টিকিথেরা মেকানিজম (১০০ BCE): প্রাচীনতম অ্যানালগ যন্ত্র, গ্রহের অবস্থান গণনা করত"
+          - paragraph [ref=e227]: "• নেপিয়ারের হাড় (1617): গুণন/ভাগের দণ্ড"
+          - paragraph [ref=e408]: "• স্লাইড রুল (1620s): লগারিদম ভিত্তিক গণনা"
+          - paragraph [ref=e228]: "• পাস্কেলিন (1642): যান্ত্রিক যোগযন্ত্র"
+          - paragraph [ref=e229]: "• লাইবনিৎজের স্টেপ রেকনার (1673): গুণন/ভাগ সহ উন্নত ক্যালকুলেটর"
+          - paragraph
+          - paragraph [ref=e231]: "১৯শ শতাব্দী - অ্যানালিটিক্যাল ইঞ্জিন:"
+          - paragraph [ref=e232]: "• চার্লস ব্যাবেজ: ডিফারেন্স ইঞ্জিন, অ্যানালিটিক্যাল ইঞ্জিন"
+          - paragraph [ref=e233]: "• উপাদান: ইনপুট (পাঞ্চড কার্ড), প্রসেসিং (ALU), মেমরি, আউটপুট"
+          - paragraph [ref=e409]: "• অ্যাডা লাভলেস: প্রথম প্রোগ্রামার, অ্যালগরিদম লিখেছিলেন"
+          - paragraph
+          - paragraph [ref=e410]: "শেষ ১৯শ শতাব্দী:"
+          - paragraph [ref=e411]: "• পাঞ্চড কার্ড সিস্টেম (হলারিথ): যুক্তরাষ্ট্রের জনগণনা, IBM এর পূর্বসূরি"
+          - paragraph [ref=e235]: "• অ্যানালগ কম্পিউটার: সমীকরণ সমাধানে অবিচ্চিন্ন ভৌত পরিমাণ"
+        - generic [ref=e252]:
+          - heading "গুরুত্বপূর্ণ বিষয়" [level=3] [ref=e253]
+          - generic [ref=e254]:
+            - generic [ref=e257]: ম্যানুয়াল গণনা থেকে যান্ত্রিক যন্ত্রে অগ্রগতি হয়েছে
+            - generic [ref=e260]: ব্যাবেজের অ্যানালিটিক্যাল ইঞ্জিন আধুনিক কম্পিউটারের পূর্বসূরি
+            - generic [ref=e263]: অ্যাডা লাভলেস প্রথম প্রোগ্রাম লিখেছিলেন
+            - generic [ref=e266]: পাঞ্চড কার্ড ডেটা প্রসেসিংয়ে অটোমেশন সক্ষম করেছে
+      - generic [ref=e272]:
+        - generic [ref=e273]:
+          - generic [ref=e274]: "3"
+          - heading "কম্পিউটারের মৌলিক ধারণা" [level=2] [ref=e412]
+          - generic [ref=e276]: শুরু
+        - generic [ref=e278]:
+          - paragraph [ref=e279]: "কম্পিউটার: ইনপুট গ্রহণ, ডেটা প্রসেসিং, তথ্য সংরক্ষণ এবং আউটপুট উৎপাদনকারী ইলেকট্রনিক যন্ত্র।"
+          - paragraph
+          - paragraph [ref=e280]: "মূল বৈশিষ্ট��য:"
+          - paragraph [ref=e281]: "• গতি: মানুষের চেয়ে অনেক দ্রুত"
+          - paragraph [ref=e282]: "• নির্ভুলতা: উচ্চ সঠিকতা"
+          - paragraph [ref=e413]: "• অটোমেশন: স্বয়ংক্রিয়ভাবে নির্দেশনা বাস্তবায়ন করে"
+          - paragraph [ref=e283]: "• সংরক্ষণ: প্রচুর পরিমাণ ডেটা সংরক্ষণ করে"
+          - paragraph [ref=e414]: "• বহুমুখীতা: একাধিক কাজ"
+          - paragraph
+          - paragraph [ref=e285]: "মূল উপাদান:"
+          - paragraph [ref=e415]: "• ইনপুট ডিভাইস: কীবোর্ড, মাউস, স্ক্যানার"
+          - paragraph [ref=e286]: "• আউটপুট ডিভাইস: মনিটর, প্রিন্টার, স্পিকার"
+          - paragraph [ref=e287]: "• CPU: মস্তিষ্ক, নির্দেশনা বাস্তবায়ন ও উপাদান নিয়ন্ত্রণ করে"
+          - paragraph [ref=e416]: "• মেমরি: RAM (অস্থায়ী), HDD/SSD (স্থায়ী)"
+          - paragraph [ref=e288]: "• মাদারবোর্ড ও বাস: উপাদান সংযুক্ত করে"
+          - paragraph
+          - paragraph [ref=e289]: "কম্পিউটারের প্রকার:"
+          - paragraph [ref=e417]: "• সুপারকম্পিউটার: জটিল গণনা (আবহাওয়া, সিমুলেশন)"
+          - paragraph [ref=e290]: "• মেইনফ্রেম: বড়, সংস্থার জন্য বহু-ব্যবহারকারী"
+          - paragraph [ref=e418]: "• মিনিকম্পিউটার: মাঝারি শক্তি, বিভাগীয়"
+          - paragraph [ref=e291]: "• ব্যক্তিগত কম্পিউটার: একক ব্যবহার"
+          - paragraph [ref=e419]: "• ওয়ার্কস্টেশন: প্রকৌশলের জন্য উচ্চ-পারফরম্যান্স"
+          - paragraph [ref=e292]: "• এম্বেডেড সিস্টেম: যন্ত্রে সংহত"
+        - generic [ref=e293]:
+          - heading "গুরুত্বপূর্ণ বিষয়" [level=3] [ref=e294]
+          - generic [ref=e295]:
+            - generic [ref=e298]: কম্পিউটার ইনপুট থেকে আউটপুট প্রসেস করে
+            - generic [ref=e301]: CPU নির্দেশনা বাস্তবায়নকারী মস্তিষ্ক
+            - generic [ref=e304]: বিভিন্ন প্রয়োজনে একাধিক কম্পিউটার প্রকার
+            - generic [ref=e307]: "প্রজন্ম: ভ্যাক্যুম টিউব → ট্রানজিস্টর → IC → মাইক্রোপ্রসেসর"
+      - generic [ref=e313]:
+        - generic [ref=e314]:
+          - generic [ref=e315]: "4"
+          - heading "Hardware Components" [level=2] [ref=e420]
+          - generic [ref=e317]: শুরু
+        - generic [ref=e319]:
+          - paragraph [ref=e320]: "Processor (CPU): Brain of computer, executes instructions."
+          - paragraph
+          - paragraph [ref=e321]: "Parts:"
+          - paragraph [ref=e322]: "• ALU: Arithmetic and Logic operations"
+          - paragraph [ref=e323]: "• Control Unit: Directs data flow, decodes instructions"
+          - paragraph [ref=e324]: "• Registers: High-speed temporary storage"
+          - paragraph
+          - paragraph [ref=e326]: "Instruction Cycle: Fetch → Decode → Execute → Store"
+          - paragraph
+          - paragraph [ref=e328]: "Memory:"
+          - paragraph [ref=e421]: "• Primary (Volatile): RAM, Cache, Registers"
+          - paragraph [ref=e329]: "• Secondary (Non-volatile): HDD, SSD, Optical disks"
+          - paragraph
+          - paragraph [ref=e331]: "Input/Output Devices:"
+          - paragraph [ref=e332]: "• Input: Keyboard, mouse, scanner, microphone"
+          - paragraph [ref=e333]: "• Output: Monitor, printer, speakers"
+          - paragraph [ref=e422]: "• I/O: Touchscreen, network cards, USB"
+          - paragraph
+          - paragraph [ref=e423]: "System Bus:"
+          - paragraph [ref=e335]: "• Data Bus: Transfers actual data"
+          - paragraph [ref=e424]: "• Address Bus: Specifies memory/I/O addresses"
+          - paragraph [ref=e336]: "• Control Bus: Control signals (read/write, interrupt)"
+        - generic [ref=e342]:
+          - heading "গুরুত্বপূর্ণ বিষয়" [level=3] [ref=e343]
+          - generic [ref=e344]:
+            - generic [ref=e347]: CPU has ALU, Control Unit, and Registers
+            - generic [ref=e350]: Primary memory is volatile, secondary is permanent
+            - generic [ref=e353]: I/O devices connect computer to external world
+            - generic [ref=e356]: Buses transfer data, addresses, and control signals
+        - generic [ref=e357]:
+          - generic [ref=e358]:
+            - generic [ref=e359]: গুরুত্বপূর্ণ সূত্র
+            - button "কপি" [ref=e360] [cursor=pointer]
+          - generic [ref=e361]: "Instruction Cycle: Fetch → Decode → Execute → Store"
+      - generic [ref=e425]:
+        - generic [ref=e426]:
+          - generic [ref=e427]: "5"
+          - heading "Software Overview" [level=2] [ref=e428]
+          - generic [ref=e429]: শুরু
+        - generic [ref=e431]:
+          - paragraph [ref=e432]: "Software: Set of instructions telling computer how to perform tasks."
+          - paragraph
+          - paragraph [ref=e433]: "Types:"
+          - paragraph [ref=e434]: "• System Software: Manages hardware, provides platform"
+          - paragraph [ref=e435]: "• Application Software: Specific user tasks"
+          - paragraph
+          - paragraph [ref=e436]: "Operating System (OS): Interface between user and hardware."
+          - paragraph
+          - paragraph [ref=e437]: "Key Functions:"
+          - paragraph [ref=e438]: "• Process Management: Creates, schedules, terminates processes"
+          - paragraph [ref=e439]: "• Memory Management: Allocates RAM, manages virtual memory"
+          - paragraph [ref=e440]: "• File System: Organizes, stores, retrieves, protects data"
+          - paragraph [ref=e441]: "• Device Management: Controls I/O devices using drivers"
+          - paragraph [ref=e442]: "• User Interface: CLI or GUI"
+          - paragraph
+          - paragraph [ref=e443]: "Examples: Windows, Linux, macOS, Android, iOS"
+          - paragraph
+          - paragraph [ref=e444]: "Application Software:"
+          - paragraph [ref=e445]: "• Productivity: MS Office, Google Docs"
+          - paragraph [ref=e446]: "• Graphics: Photoshop, CorelDRAW"
+          - paragraph [ref=e447]: "• Web Browsers: Chrome, Firefox"
+          - paragraph [ref=e448]: "• Educational: Duolingo, Khan Academy"
+          - paragraph [ref=e449]: "• Enterprise: SAP, Oracle ERP"
+        - generic [ref=e450]:
+          - heading "গুরুত্বপূর্ণ বিষয়" [level=3] [ref=e451]
+          - generic [ref=e452]:
+            - generic [ref=e455]: OS manages hardware and provides user interface
+            - generic [ref=e458]: Application software performs specific user tasks
+            - generic [ref=e461]: Process, memory, and file management are OS functions
+            - generic [ref=e464]: Application software requires OS to run
+      - generic [ref=e465]:
+        - generic [ref=e466]:
+          - generic [ref=e467]: "6"
+          - heading "Computer Architecture" [level=2] [ref=e468]
+          - generic [ref=e469]: শুরু
+        - generic [ref=e471]:
+          - paragraph [ref=e472]: "Computer Architecture: Organization and interconnection of hardware components determining how system functions."
+          - paragraph
+          - paragraph [ref=e473]: "Components:"
+          - paragraph [ref=e474]: "• CPU: Executes instructions, controls components"
+          - paragraph [ref=e475]: "- ALU: Arithmetic and logical operations"
+          - paragraph [ref=e476]: "- Control Unit: Fetches, decodes, executes instructions"
+          - paragraph [ref=e477]: "- Registers: High-speed temporary storage"
+          - paragraph
+          - paragraph [ref=e478]: "• Memory: Stores instructions/data"
+          - paragraph [ref=e479]: "- Primary: RAM, Cache (volatile)"
+          - paragraph [ref=e480]: "- Secondary: HDD, SSD (non-volatile)"
+          - paragraph
+          - paragraph [ref=e481]: "• I/O Devices: Input (keyboard, mouse), Output (monitor, printer)"
+          - paragraph
+          - paragraph [ref=e482]: "• System Bus: Parallel wires connecting components"
+          - paragraph [ref=e483]: "- Data Bus: Actual data transfer"
+          - paragraph [ref=e484]: "- Address Bus: Memory/I/O addresses"
+          - paragraph [ref=e485]: "- Control Bus: Control signals"
+          - paragraph
+          - paragraph [ref=e486]: "Instruction Cycle: CU fetches from memory → decodes → ALU executes → stores result"
+        - generic [ref=e487]:
+          - heading "গুরুত্বপূর্ণ বিষয়" [level=3] [ref=e488]
+          - generic [ref=e489]:
+            - generic [ref=e492]: Architecture defines how components work together
+            - generic [ref=e495]: CPU executes instructions in fetch-decode-execute cycle
+            - generic [ref=e498]: "Memory hierarchy: Registers → Cache → RAM → Secondary"
+            - generic [ref=e501]: System bus connects all components
+    - generic [ref=e362]:
+      - button "Previous Module" [ref=e363] [cursor=pointer]:
+        - img [ref=e364]
+        - text: Previous Module
+      - generic [ref=e366]: 2 / 19
+      - button "Next Module" [ref=e367] [cursor=pointer]:
+        - text: Next Module
+        - img [ref=e368]
+    - button "Go to bottom" [ref=e371] [cursor=pointer]:
+      - img [ref=e372]
+    - button "Go to top" [ref=e375] [cursor=pointer]:
+      - img [ref=e376]
