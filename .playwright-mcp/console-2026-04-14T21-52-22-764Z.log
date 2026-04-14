@@ -1,0 +1,145 @@
+[      86ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=72448ba6:14336
+[   20408ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=72448ba6:14336
+[   21041ms] [LOG] HTML bg: rgba(0, 0, 0, 0) @ :4
+[   21041ms] [LOG] HEAD bg: rgba(0, 0, 0, 0) @ :4
+[   21041ms] [LOG] SCRIPT bg: rgba(0, 0, 0, 0) @ :4
+[   21041ms] [LOG] SCRIPT bg: rgba(0, 0, 0, 0) @ :4
+[   21041ms] [LOG] META bg: rgba(0, 0, 0, 0) @ :4
+[   21041ms] [LOG] LINK bg: rgba(0, 0, 0, 0) @ :4
+[   21042ms] [LOG] META bg: rgba(0, 0, 0, 0) @ :4
+[   21042ms] [LOG] TITLE bg: rgba(0, 0, 0, 0) @ :4
+[   21042ms] [LOG] STYLE bg: rgba(0, 0, 0, 0) @ :4
+[   21042ms] [LOG] BODY bg: rgb(13, 13, 13) @ :4
+[   21042ms] [LOG] DIV bg: rgba(0, 0, 0, 0) @ :4
+[   21042ms] [LOG] DIV bg: rgba(0, 0, 0, 0) @ :4
+[   21042ms] [LOG] DIV bg: rgb(13, 13, 13) @ :4
+[   21042ms] [LOG] NAV bg: rgb(17, 17, 17) @ :4
+[   21042ms] [LOG] BUTTON bg: rgb(22, 22, 22) @ :4
+[   21042ms] [LOG] svg bg: rgba(0, 0, 0, 0) @ :4
+[   21042ms] [LOG] path bg: rgba(0, 0, 0, 0) @ :4
+[   21042ms] [LOG] H1 bg: rgba(0, 0, 0, 0) @ :4
+[   21042ms] [LOG] DIV bg: rgba(0, 0, 0, 0) @ :4
+[   21042ms] [LOG] BUTTON bg: rgb(22, 22, 22) @ :4
+[   21042ms] [LOG] svg bg: rgba(0, 0, 0, 0) @ :4
+[   21043ms] [LOG] path bg: rgba(0, 0, 0, 0) @ :4
+[   21043ms] [LOG] BUTTON bg: rgb(22, 22, 22) @ :4
+[   21043ms] [LOG] svg bg: rgba(0, 0, 0, 0) @ :4
+[   21043ms] [LOG] path bg: rgba(0, 0, 0, 0) @ :4
+[   21043ms] [LOG] BUTTON bg: rgb(22, 22, 22) @ :4
+[   21043ms] [LOG] svg bg: rgba(0, 0, 0, 0) @ :4
+[   21043ms] [LOG] path bg: rgba(0, 0, 0, 0) @ :4
+[   21043ms] [LOG] path bg: rgba(0, 0, 0, 0) @ :4
+[   21043ms] [LOG] SPAN bg: rgba(0, 0, 0, 0) @ :4
+[   21043ms] [LOG] ASIDE bg: rgb(17, 17, 17) @ :4
+[   21043ms] [LOG] DIV bg: rgba(0, 0, 0, 0) @ :4
+[   21043ms] [LOG] H2 bg: rgba(0, 0, 0, 0) @ :4
+[   21043ms] [LOG] DIV bg: rgba(245, 158, 11, 0.1) @ :4
+[   21043ms] [LOG] SPAN bg: rgb(245, 158, 11) @ :4
+[   21043ms] [LOG] SPAN bg: rgba(0, 0, 0, 0) @ :4
+[   21043ms] [LOG] DIV bg: rgba(0, 0, 0, 0) @ :4
+[   21043ms] [LOG] SPAN bg: rgb(22, 22, 22) @ :4
+[   21043ms] [LOG] SPAN bg: rgba(0, 0, 0, 0) @ :4
+[   21043ms] [LOG] DIV bg: rgba(0, 0, 0, 0) @ :4
+[   21044ms] [LOG] SPAN bg: rgb(22, 22, 22) @ :4
+[   21044ms] [LOG] SPAN bg: rgba(0, 0, 0, 0) @ :4
+[   21044ms] [LOG] DIV bg: rgba(0, 0, 0, 0) @ :4
+[   21044ms] [LOG] SPAN bg: rgb(22, 22, 22) @ :4
+[   21044ms] [LOG] SPAN bg: rgba(0, 0, 0, 0) @ :4
+[   21044ms] [LOG] DIV bg: rgba(0, 0, 0, 0) @ :4
+[   21044ms] [LOG] SPAN bg: rgb(22, 22, 22) @ :4
+[   21044ms] [LOG] SPAN bg: rgba(0, 0, 0, 0) @ :4
+[   21044ms] [LOG] DIV bg: rgba(0, 0, 0, 0) @ :4
+[   21044ms] [LOG] SPAN bg: rgb(22, 22, 22) @ :4
+[   21044ms] [LOG] SPAN bg: rgba(0, 0, 0, 0) @ :4
+[   21044ms] [LOG] DIV bg: rgba(0, 0, 0, 0) @ :4
+[   21044ms] [LOG] SPAN bg: rgb(22, 22, 22) @ :4
+[   21044ms] [LOG] SPAN bg: rgba(0, 0, 0, 0) @ :4
+[   21044ms] [LOG] DIV bg: rgba(0, 0, 0, 0) @ :4
+[   21044ms] [LOG] SPAN bg: rgb(22, 22, 22) @ :4
+[   21044ms] [LOG] SPAN bg: rgba(0, 0, 0, 0) @ :4
+[   21044ms] [LOG] DIV bg: rgba(0, 0, 0, 0) @ :4
+[   21044ms] [LOG] SPAN bg: rgb(22, 22, 22) @ :4
+[   21044ms] [LOG] SPAN bg: rgba(0, 0, 0, 0) @ :4
+[   21044ms] [LOG] DIV bg: rgba(0, 0, 0, 0) @ :4
+[   21044ms] [LOG] SPAN bg: rgb(22, 22, 22) @ :4
+[   21044ms] [LOG] SPAN bg: rgba(0, 0, 0, 0) @ :4
+[   21044ms] [LOG] DIV bg: rgba(0, 0, 0, 0) @ :4
+[   21045ms] [LOG] SPAN bg: rgb(22, 22, 22) @ :4
+[   21045ms] [LOG] SPAN bg: rgba(0, 0, 0, 0) @ :4
+[   21045ms] [LOG] DIV bg: rgba(0, 0, 0, 0) @ :4
+[   21045ms] [LOG] SPAN bg: rgb(22, 22, 22) @ :4
+[   21045ms] [LOG] SPAN bg: rgba(0, 0, 0, 0) @ :4
+[   21045ms] [LOG] DIV bg: rgba(0, 0, 0, 0) @ :4
+[   21045ms] [LOG] SPAN bg: rgb(22, 22, 22) @ :4
+[   21045ms] [LOG] SPAN bg: rgba(0, 0, 0, 0) @ :4
+[   21045ms] [LOG] DIV bg: rgba(0, 0, 0, 0) @ :4
+[   21045ms] [LOG] SPAN bg: rgb(22, 22, 22) @ :4
+[   21045ms] [LOG] SPAN bg: rgba(0, 0, 0, 0) @ :4
+[   21045ms] [LOG] DIV bg: rgba(0, 0, 0, 0) @ :4
+[   21045ms] [LOG] SPAN bg: rgb(22, 22, 22) @ :4
+[   21045ms] [LOG] SPAN bg: rgba(0, 0, 0, 0) @ :4
+[   21045ms] [LOG] DIV bg: rgba(0, 0, 0, 0) @ :4
+[   21045ms] [LOG] SPAN bg: rgb(22, 22, 22) @ :4
+[   21045ms] [LOG] SPAN bg: rgba(0, 0, 0, 0) @ :4
+[   21045ms] [LOG] DIV bg: rgba(0, 0, 0, 0) @ :4
+[   21045ms] [LOG] SPAN bg: rgb(22, 22, 22) @ :4
+[   21045ms] [LOG] SPAN bg: rgba(0, 0, 0, 0) @ :4
+[   21045ms] [LOG] DIV bg: rgba(0, 0, 0, 0) @ :4
+[   21045ms] [LOG] SPAN bg: rgb(22, 22, 22) @ :4
+[   21045ms] [LOG] SPAN bg: rgba(0, 0, 0, 0) @ :4
+[   21046ms] [LOG] DIV bg: rgba(0, 0, 0, 0) @ :4
+[   21046ms] [LOG] SPAN bg: rgb(22, 22, 22) @ :4
+[   21046ms] [LOG] SPAN bg: rgba(0, 0, 0, 0) @ :4
+[   21046ms] [LOG] MAIN bg: rgba(0, 0, 0, 0) @ :4
+[   21046ms] [LOG] DIV bg: rgba(0, 0, 0, 0) @ :4
+[   21046ms] [LOG] DIV bg: rgba(0, 0, 0, 0) @ :4
+[   21046ms] [LOG] SPAN bg: oklch(0.769 0.188 70.08) @ :4
+[   21046ms] [LOG] SPAN bg: rgba(0, 0, 0, 0) @ :4
+[   21046ms] [LOG] H1 bg: rgba(0, 0, 0, 0) @ :4
+[   21046ms] [LOG] DIV bg: rgb(22, 22, 22) @ :4
+[   21046ms] [LOG] DIV bg: rgba(0, 0, 0, 0) @ :4
+[   21046ms] [LOG] P bg: rgba(0, 0, 0, 0) @ :4
+[   21046ms] [LOG] P bg: rgba(0, 0, 0, 0) @ :4
+[   21046ms] [LOG] P bg: rgba(0, 0, 0, 0) @ :4
+[   21046ms] [LOG] P bg: rgba(0, 0, 0, 0) @ :4
+[   21046ms] [LOG] P bg: rgba(0, 0, 0, 0) @ :4
+[   21046ms] [LOG] P bg: rgba(0, 0, 0, 0) @ :4
+[   21046ms] [LOG] P bg: rgba(0, 0, 0, 0) @ :4
+[   21046ms] [LOG] P bg: rgba(0, 0, 0, 0) @ :4
+[   21046ms] [LOG] P bg: rgba(0, 0, 0, 0) @ :4
+[   21047ms] [LOG] P bg: rgba(0, 0, 0, 0) @ :4
+[   21047ms] [LOG] P bg: rgba(0, 0, 0, 0) @ :4
+[   21047ms] [LOG] P bg: rgba(0, 0, 0, 0) @ :4
+[   21047ms] [LOG] P bg: rgba(0, 0, 0, 0) @ :4
+[   21047ms] [LOG] P bg: rgba(0, 0, 0, 0) @ :4
+[   21047ms] [LOG] P bg: rgba(0, 0, 0, 0) @ :4
+[   21047ms] [LOG] P bg: rgba(0, 0, 0, 0) @ :4
+[   21047ms] [LOG] P bg: rgba(0, 0, 0, 0) @ :4
+[   21047ms] [LOG] DIV bg: rgba(0, 0, 0, 0) @ :4
+[   21047ms] [LOG] H3 bg: rgba(0, 0, 0, 0) @ :4
+[   21047ms] [LOG] DIV bg: rgba(0, 0, 0, 0) @ :4
+[   21047ms] [LOG] SPAN bg: rgb(245, 158, 11) @ :4
+[   21047ms] [LOG] SPAN bg: rgba(0, 0, 0, 0) @ :4
+[   21047ms] [LOG] DIV bg: rgba(0, 0, 0, 0) @ :4
+[   21047ms] [LOG] SPAN bg: rgb(245, 158, 11) @ :4
+[   21047ms] [LOG] SPAN bg: rgba(0, 0, 0, 0) @ :4
+[   21047ms] [LOG] DIV bg: rgba(0, 0, 0, 0) @ :4
+[   21047ms] [LOG] SPAN bg: rgb(245, 158, 11) @ :4
+[   21047ms] [LOG] SPAN bg: rgba(0, 0, 0, 0) @ :4
+[   21047ms] [LOG] DIV bg: rgba(0, 0, 0, 0) @ :4
+[   21047ms] [LOG] SPAN bg: rgb(245, 158, 11) @ :4
+[   21047ms] [LOG] SPAN bg: rgba(0, 0, 0, 0) @ :4
+[   21047ms] [LOG] DIV bg: rgb(22, 22, 22) @ :4
+[   21047ms] [LOG] DIV bg: rgba(0, 0, 0, 0.2) @ :4
+[   21048ms] [LOG] SPAN bg: rgba(0, 0, 0, 0) @ :4
+[   21048ms] [LOG] BUTTON bg: rgb(30, 30, 30) @ :4
+[   21048ms] [LOG] PRE bg: rgba(0, 0, 0, 0) @ :4
+[   21048ms] [LOG] DIV bg: rgba(0, 0, 0, 0) @ :4
+[   21048ms] [LOG] BUTTON bg: rgb(22, 22, 22) @ :4
+[   21048ms] [LOG] svg bg: rgba(0, 0, 0, 0) @ :4
+[   21048ms] [LOG] path bg: rgba(0, 0, 0, 0) @ :4
+[   21048ms] [LOG] SPAN bg: rgba(0, 0, 0, 0) @ :4
+[   21048ms] [LOG] BUTTON bg: rgb(245, 158, 11) @ :4
+[   21048ms] [LOG] svg bg: rgba(0, 0, 0, 0) @ :4
+[   21048ms] [LOG] path bg: rgba(0, 0, 0, 0) @ :4
+[   21048ms] [LOG] SCRIPT bg: rgba(0, 0, 0, 0) @ :4

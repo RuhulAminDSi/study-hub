@@ -1128,22 +1128,24 @@ function App() {
         </div>
 
         {/* Go Top / Go Bottom Buttons */}
-        <div className="scroll-buttons scroll-buttons-top">
+        <div className="scroll-buttons scroll-buttons-top" style={{ position: 'fixed', top: '5rem', right: '1rem', zIndex: 30, display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
           <button 
             onClick={() => window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })} 
             className="scroll-btn"
             title="Go to bottom"
+            style={{ width: 48, height: 48, borderRadius: '50%', background: '#f59e0b', color: '#000', display: 'flex', alignItems: 'center', justifyContent: 'center', cursor: 'pointer', boxShadow: '0 4px 12px rgba(0,0,0,0.3)' }}
           >
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
             </svg>
           </button>
         </div>
-        <div className="scroll-buttons scroll-buttons-bottom">
+        <div className="scroll-buttons scroll-buttons-bottom" style={{ position: 'fixed', bottom: '2rem', right: '1rem', zIndex: 30, display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
           <button 
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} 
             className="scroll-btn"
             title="Go to top"
+            style={{ width: 48, height: 48, borderRadius: '50%', background: '#f59e0b', color: '#000', display: 'flex', alignItems: 'center', justifyContent: 'center', cursor: 'pointer', boxShadow: '0 4px 12px rgba(0,0,0,0.3)' }}
           >
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 15l7-7 7 7" />
