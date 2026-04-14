@@ -950,81 +950,83 @@ function App() {
       
       {/* Navbar */}
       <nav className="navbar">
-        <button 
-          className="mobile-menu-btn"
-          onClick={() => setSidebarOpen(!sidebarOpen)}
-        >
-          <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-          </svg>
-        </button>
-        <h1 className="navbar-brand">StudyHub</h1>
-        <div className="navbar-actions">
-          <div className="search-box-mobile">
-            <input
-              type="text"
-              className="search-input-mobile"
-              placeholder={t.search}
-              value={searchQuery}
-              onChange={(e) => { setSearchQuery(e.target.value); }}
-            />
-            {searchQuery.length >= 2 && (
-              <div className="search-results-mobile">
-                {searchResults.length > 0 ? searchResults.map((result, i) => (
-                  <div
-                    key={i}
-                    className="search-result-item"
-                    onClick={() => { setCurrentModule(result.moduleIndex); setCurrentLesson(result.lessonIndex); setExpandedModule(result.moduleIndex); setSearchQuery(''); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
-                  >
-                    <div className="search-result-title">{language === 'bn' && result.titleBn ? result.titleBn : result.title}</div>
-                    <div className="search-result-module">{result.moduleTitle}</div>
-                  </div>
-                )) : (
-                  <div className="search-result-item">
-                    <div className="search-result-title">{t.noResults}</div>
-                  </div>
-                )}
-              </div>
-            )}
-          </div>
-          <button onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')} className="theme-toggle" title={theme === 'dark' ? t.lightMode : t.darkMode}>
-            {theme === 'dark' ? (
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
-              </svg>
-            ) : (
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20.354 15.354A9 9 0 018.646 3.646 9.75 9.75 0 0012 21.75 9.75 9.75 0 0020.354 15.354z" />
-              </svg>
-            )}
-          </button>
-          <button
-            onClick={() => setLanguage(language === 'en' ? 'bn' : 'en')}
-            className="language-toggle"
+        <div className="navbar-top">
+          <button 
+            className="mobile-menu-btn"
+            onClick={() => setSidebarOpen(!sidebarOpen)}
           >
-            {language === 'en' ? 'বাংলা' : 'English'}
-          </button>
-          <div className="navbar-progress">
-            <svg className="progress-ring" viewBox="0 0 36 36">
-              <path
-                stroke="var(--text-dim)"
-                strokeWidth="3"
-                fill="none"
-                d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
-              />
-              <path
-                className="progress-ring-circle"
-                stroke="var(--accent)"
-                strokeWidth="3"
-                fill="none"
-                strokeLinecap="round"
-                strokeDasharray={`${progress}, 100`}
-                d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
-              />
-              <text x="18" y="20.5" textAnchor="middle" fill="var(--text-main)" fontSize="9" fontWeight="600" dominantBaseline="middle">{progress}%</text>
+            <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
             </svg>
-            <span className="progress-text-mobile">{progress}%</span>
+          </button>
+          <h1 className="navbar-brand">StudyHub</h1>
+          <div className="navbar-actions">
+            <button onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')} className="theme-toggle" title={theme === 'dark' ? t.lightMode : t.darkMode}>
+              {theme === 'dark' ? (
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+                </svg>
+              ) : (
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20.354 15.354A9 9 0 018.646 3.646 9.75 9.75 0 0012 21.75 9.75 9.75 0 0020.354 15.354z" />
+                </svg>
+              )}
+            </button>
+            <button
+              onClick={() => setLanguage(language === 'en' ? 'bn' : 'en')}
+              className="language-toggle"
+            >
+              {language === 'en' ? 'বাংলা' : 'English'}
+            </button>
+            <div className="navbar-progress">
+              <svg className="progress-ring" viewBox="0 0 36 36">
+                <path
+                  stroke="var(--text-dim)"
+                  strokeWidth="3"
+                  fill="none"
+                  d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
+                />
+                <path
+                  className="progress-ring-circle"
+                  stroke="var(--accent)"
+                  strokeWidth="3"
+                  fill="none"
+                  strokeLinecap="round"
+                  strokeDasharray={`${progress}, 100`}
+                  d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
+                />
+                <text x="18" y="20.5" textAnchor="middle" fill="var(--text-main)" fontSize="9" fontWeight="600" dominantBaseline="middle">{progress}%</text>
+              </svg>
+              <span className="progress-text-mobile">{progress}%</span>
+            </div>
           </div>
+        </div>
+        <div className="navbar-search">
+          <input
+            type="text"
+            className="search-input-mobile"
+            placeholder={t.search}
+            value={searchQuery}
+            onChange={(e) => { setSearchQuery(e.target.value); }}
+          />
+          {searchQuery.length >= 2 && (
+            <div className="search-results-mobile">
+              {searchResults.length > 0 ? searchResults.map((result, i) => (
+                <div
+                  key={i}
+                  className="search-result-item"
+                  onClick={() => { setCurrentModule(result.moduleIndex); setCurrentLesson(result.lessonIndex); setExpandedModule(result.moduleIndex); setSearchQuery(''); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
+                >
+                  <div className="search-result-title">{language === 'bn' && result.titleBn ? result.titleBn : result.title}</div>
+                  <div className="search-result-module">{result.moduleTitle}</div>
+                </div>
+              )) : (
+                <div className="search-result-item">
+                  <div className="search-result-title">{t.noResults}</div>
+                </div>
+              )}
+            </div>
+          )}
         </div>
       </nav>
 

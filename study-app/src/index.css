@@ -833,7 +833,7 @@ body {
   
   .sidebar {
     position: fixed;
-    top: 64px;
+    top: 100px;
     left: 0;
     bottom: 0;
     width: 280px;
@@ -880,6 +880,7 @@ body {
 @media (max-width: 640px) {
   .main-content {
     padding: 16px;
+    margin-top: 110px;
   }
   
   .lesson-title {
@@ -896,39 +897,47 @@ body {
     justify-content: center;
   }
 
+  .navbar-top {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    width: 100%;
+  }
+
+  .navbar-search {
+    width: 100%;
+    position: relative;
+    margin-top: 6px;
+  }
+
   .navbar {
-    padding: 0 12px;
-    gap: 8px;
+    padding: 8px;
+    gap: 0;
+    flex-direction: column;
+    height: auto;
+    min-height: 100px;
   }
 
   .navbar-brand {
-    font-size: 1.125rem;
-    order: 2;
-  }
-
-  .navbar-actions {
-    order: 3;
-    gap: 4px;
+    font-size: 1.1rem;
+    flex: 1;
   }
 
   .mobile-menu-btn {
-    order: 1;
     display: flex;
-    margin-left: -4px;
-    padding: 6px;
+    padding: 4px;
   }
 
   .search-box-mobile {
-    order: 2;
-    display: block;
-    position: relative;
+    display: none;
   }
 
   .search-input-mobile {
     display: block;
-    width: 90px;
-    padding: 6px 8px;
-    font-size: 0.7rem;
+    width: 100%;
+    padding: 8px 12px;
+    font-size: 0.8rem;
+    border-radius: 8px;
   }
 
   .search-results-mobile {
@@ -940,37 +949,44 @@ body {
     border: 1px solid var(--border);
     border-radius: 8px;
     margin-top: 4px;
-    max-height: 200px;
+    max-height: 250px;
     overflow-y: auto;
     z-index: 1000;
     box-shadow: 0 10px 40px rgba(0,0,0,0.3);
   }
 
-  .navbar-progress {
+  .navbar-actions {
     display: flex;
     align-items: center;
     gap: 6px;
-    margin-left: auto;
-  }
-
-  .progress-text-mobile {
-    display: block;
-    font-size: 0.7rem;
-    font-weight: 600;
-    color: var(--accent);
-  }
-
-  .language-toggle, .theme-toggle {
-    padding: 6px;
-    font-size: 0.6rem;
   }
 
   .language-toggle {
-    display: none;
+    display: block;
+    padding: 4px 8px;
+    font-size: 0.65rem;
+    white-space: nowrap;
+  }
+
+  .theme-toggle {
+    padding: 4px;
+  }
+
+  .navbar-progress {
+    display: flex;
+    align-items: center;
+    gap: 4px;
   }
 
   .progress-ring {
     display: none;
+  }
+
+  .progress-text-mobile {
+    display: block;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--accent);
   }
 
   .scroll-buttons {
