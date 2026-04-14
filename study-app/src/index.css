@@ -1063,7 +1063,7 @@ body {
     gap: 8px;
     height: auto;
     min-height: auto;
-    position: relative;
+    position: fixed;
   }
 
   .navbar-brand {
