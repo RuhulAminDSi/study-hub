@@ -963,7 +963,7 @@ body {
   
   .sidebar {
     position: fixed;
-    top: 100px;
+    top: 64px;
     left: 0;
     bottom: 0;
     width: 280px;
@@ -1001,8 +1001,12 @@ body {
 
 @media (max-width: 640px) {
   .main-content {
-    padding: 16px;
-    margin-top: 110px;
+    padding: 12px;
+    margin-top: 70px;
+  }
+  
+  .sidebar {
+    top: 70px;
   }
   
   .lesson-title {
