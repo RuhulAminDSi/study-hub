@@ -873,7 +873,8 @@ function App() {
 
   const module = modules[currentModule]
   const totalLessons = modules.reduce((acc, m) => acc + m.lessons.length, 0)
-  const currentPosition = modules.slice(0, currentModule).reduce((acc, m) => acc + m.lessons.length, 0) + 1
+  const currentLesson = module.lessons.length > 0 ? 1 : 0
+const currentPosition = ((modules.slice(0, currentModule).reduce((acc, m) => acc + m.lessons.length, 0) + currentLesson) / totalLessons) * 100
   const progress = Math.round((currentPosition / totalLessons) * 100)
 
   const navigate = (dir: 'prev' | 'next') => {
