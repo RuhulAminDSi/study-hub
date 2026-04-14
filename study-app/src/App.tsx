@@ -1042,6 +1042,7 @@ function App() {
                       className="sidebar-subitem"
                       onClick={() => { 
                         setCurrentModule(idx); 
+                        setExpandedModule(idx);
                         setSidebarOpen(false); 
                         const lessonEl = document.getElementById(`lesson-${idx}-${lIdx}`);
                         if (lessonEl) {
