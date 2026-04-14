@@ -1,0 +1,6 @@
+{
+  "buildCommand": "cd study-app && npm run build",
+  "outputDirectory": "study-app/dist",
+  "framework": "vite",
+  "installCommand": "cd study-app && npm install"
+}
