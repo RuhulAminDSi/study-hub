@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import './index.css'
 
 interface Lesson {
@@ -850,6 +850,7 @@ const modules: Module[] = [
 
 function App() {
   const [currentModule, setCurrentModule] = useState(0)
+  const [currentLesson, setCurrentLesson] = useState(0)
   const [expandedModule, setExpandedModule] = useState<number | null>(0)
   const [sidebarOpen, setSidebarOpen] = useState(false)
   const [language, setLanguage] = useState<'en' | 'bn'>('bn')
@@ -874,13 +875,41 @@ function App() {
   const module = modules[currentModule]
   const totalLessons = modules.reduce((acc, m) => acc + m.lessons.length, 0)
   const lessonsBefore = modules.slice(0, currentModule).reduce((acc, m) => acc + m.lessons.length, 0)
-  const progress = Math.round(((lessonsBefore + 1) / totalLessons) * 100)
+  const progress = Math.round(((lessonsBefore + currentLesson + 1) / totalLessons) * 100)
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const lessonElements = document.querySelectorAll('[id^="lesson-"]')
+      const navbarHeight = 70
+      
+      for (let i = lessonElements.length - 1; i >= 0; i--) {
+        const el = lessonElements[i] as HTMLElement
+        const rect = el.getBoundingClientRect()
+        if (rect.top <= navbarHeight) {
+          const id = el.id.match(/lesson-(\d+)-(\d+)/)
+          if (id) {
+            const modIdx = parseInt(id[1])
+            const lesIdx = parseInt(id[2])
+            if (modIdx !== currentModule || lesIdx !== currentLesson) {
+              setCurrentModule(modIdx)
+              setCurrentLesson(lesIdx)
+              setExpandedModule(modIdx)
+            }
+          }
+          break
+        }
+      }
+    }
+    window.addEventListener('scroll', handleScroll)
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [currentModule, currentLesson])
 
   const navigate = (dir: 'prev' | 'next') => {
     if (dir === 'next') {
       if (currentModule < modules.length - 1) {
         const next = currentModule + 1
         setCurrentModule(next)
+        setCurrentLesson(0)
         setExpandedModule(next)
         window.scrollTo({ top: 0, behavior: 'smooth' })
       }
@@ -888,6 +917,7 @@ function App() {
       if (currentModule > 0) {
         const prev = currentModule - 1
         setCurrentModule(prev)
+        setCurrentLesson(0)
         setExpandedModule(prev)
         window.scrollTo({ top: 0, behavior: 'smooth' })
       }
@@ -961,7 +991,7 @@ function App() {
                     <div
                       key={i}
                       className="search-result-item"
-                      onClick={() => { setCurrentModule(result.moduleIndex); setExpandedModule(result.moduleIndex); setSearchQuery(''); setShowSearch(false); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
+                      onClick={() => { setCurrentModule(result.moduleIndex); setCurrentLesson(result.lessonIndex); setExpandedModule(result.moduleIndex); setSearchQuery(''); setShowSearch(false); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
                     >
                       <div className="search-result-title">{language === 'bn' && result.titleBn ? result.titleBn : result.title}</div>
                       <div className="search-result-module">{result.moduleTitle}</div>
@@ -1020,7 +1050,7 @@ function App() {
           {modules.map((m, idx) => (
             <div key={idx} className="sidebar-module">
               <div
-                onClick={() => { setCurrentModule(idx); setExpandedModule(idx); setSidebarOpen(false); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
+                onClick={() => { setCurrentModule(idx); setCurrentLesson(0); setExpandedModule(idx); setSidebarOpen(false); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
                 className={`sidebar-item ${currentModule === idx ? 'active' : ''}`}
               >
                 <span className="sidebar-number">{idx + 1}</span>
@@ -1042,6 +1072,7 @@ function App() {
                       className="sidebar-subitem"
                       onClick={() => { 
                         setCurrentModule(idx); 
+                        setCurrentLesson(lIdx);
                         setExpandedModule(idx);
                         setSidebarOpen(false); 
                         const lessonEl = document.getElementById(`lesson-${idx}-${lIdx}`);
