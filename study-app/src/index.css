@@ -1007,12 +1007,11 @@ body {
   
   .sidebar {
     top: 64px;
+    left: 0;
     width: 85%;
     max-width: 300px;
-    right: 0;
-    left: auto;
-    transform: translateX(100%);
-    -webkit-transform: translateX(100%);
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
   }
   
   .sidebar.open {
