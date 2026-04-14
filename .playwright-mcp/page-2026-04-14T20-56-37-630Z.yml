@@ -1,0 +1,78 @@
+- generic [ref=e3]:
+  - generic [ref=e7]:
+    - heading "IT Study Guide" [level=1] [ref=e8]
+    - button "1. Basic Physics" [ref=e10]
+    - button "2. Introduction to Computer Systems" [ref=e12]
+    - button "3. Electrical Circuits" [ref=e14]
+    - button "4. Digital Logic Design" [ref=e16]
+    - button "5. Basic Electronics" [ref=e18]
+    - button "6. Microprocessor and Interfacing" [ref=e20]
+    - button "7. Computer Architecture" [ref=e22]
+    - button "8. Communication Theory" [ref=e24]
+    - button "9. Computer Networking and Security" [ref=e26]
+    - button "10. Structured Programming Language (C)" [ref=e28]
+    - button "11. Object Oriented Programming (OOP)" [ref=e30]
+    - button "12. Discrete Mathematics" [ref=e32]
+    - button "13. Graphs" [ref=e34]
+    - button "14. Theory of Computation" [ref=e36]
+    - button "15. Data Structures and Algorithms" [ref=e38]
+    - button "16. Database Systems" [ref=e40]
+    - button "17. Software Engineering" [ref=e42]
+    - button "18. Operating System" [ref=e44]
+    - button "19. Artificial Intelligence" [ref=e46]
+  - generic [ref=e48]:
+    - generic [ref=e49]:
+      - generic [ref=e50]: Beginner
+      - generic [ref=e51]: 1. Basic Physics • Lesson 2 of 4
+    - heading "Waves and Oscillations" [level=2] [ref=e90]
+    - generic [ref=e53]:
+      - paragraph [ref=e54]: "Oscillation: Back-and-forth repetitive motion around mean position. Examples: pendulum, mass on spring, AC current."
+      - paragraph
+      - paragraph [ref=e55]: "Types of Oscillations:"
+      - paragraph [ref=e91]: "• Free: Body oscillates without external force"
+      - paragraph [ref=e56]: "• Forced: External periodic force keeps it oscillating"
+      - paragraph [ref=e92]: "• Damped: Amplitude decreases due to friction"
+      - paragraph [ref=e57]: "• Undamped: No energy loss, constant amplitude"
+      - paragraph [ref=e93]: "• Resonance: External frequency = natural frequency → maximum amplitude"
+      - paragraph
+      - paragraph [ref=e94]: "Key Terms:"
+      - paragraph [ref=e59]: "• Amplitude (A): Maximum displacement from mean"
+      - paragraph [ref=e95]: "• Time Period (T): Time for one complete oscillation"
+      - paragraph [ref=e60]: "• Frequency (f): Number of oscillations per second. f = 1/T in Hz"
+      - paragraph [ref=e96]: "• Angular Frequency (ω): ω = 2πf"
+      - paragraph
+      - paragraph [ref=e97]: "Simple Harmonic Motion (SHM): Simplest oscillation. Restoring force F = -kx. Equation: x(t) = A×sin(ωt + φ)."
+      - paragraph
+      - paragraph [ref=e98]: "Wave: Disturbance transferring energy without transferring matter."
+      - paragraph
+      - paragraph [ref=e99]: "Types:"
+      - paragraph [ref=e100]: "• Mechanical (require medium): sound, water waves"
+      - paragraph [ref=e101]: "• Electromagnetic (no medium): light, radio"
+      - paragraph [ref=e102]: "• Transverse: particle motion ⟂ wave direction"
+      - paragraph [ref=e103]: "• Longitudinal: particle motion ∥ wave direction"
+      - paragraph
+      - paragraph [ref=e104]: "Wave Properties: Wavelength (λ), Frequency (f), Wave speed (v = fλ), Amplitude (A)."
+      - paragraph
+      - paragraph [ref=e105]: "Wave Phenomena: Reflection, Refraction, Diffraction, Interference, Standing Waves."
+    - generic [ref=e63]:
+      - heading "Key Takeaways" [level=3] [ref=e64]
+      - list [ref=e65]:
+        - listitem [ref=e66]: Oscillation is repetitive back-and-forth motion
+        - listitem [ref=e68]: Wave transfers energy without matter transfer
+        - listitem [ref=e70]: v = fλ relates speed, frequency, wavelength
+        - listitem [ref=e72]: Resonance occurs when frequencies match
+    - generic [ref=e74]:
+      - generic [ref=e75]:
+        - generic [ref=e76]: Key Formula
+        - button "Copy" [ref=e77]:
+          - img [ref=e78]
+          - text: Copy
+      - code [ref=e81]: f = 1/T v = fλ x(t) = A × sin(ωt + φ) F = -kx (SHM)
+    - generic [ref=e82]:
+      - button "Previous" [ref=e83]:
+        - img [ref=e84]
+        - text: Previous
+      - generic [ref=e86]: 2 / 50
+      - button "Next" [active] [ref=e87]:
+        - text: Next
+        - img [ref=e88]

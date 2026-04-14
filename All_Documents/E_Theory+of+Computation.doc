@@ -1,0 +1,838 @@
+Date: Sat, 18 Oct 2025 11:48:31 +0000 (UTC)
+Message-ID: <1360706643.615.1760788111213@baf9d7eff5c1>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_614_1176300863.1760788111212"
+
+------=_Part_614_1176300863.1760788111212
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>E_Theory of Computation</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>E_Theory of Computation</h1>
+    <div class=3D"Section1">
+        <ol start=3D"1">
+<li>
+<p>Language theory;</p></li>
+<li>
+<p>Finite automata: deterministic finite automata, nondeterministic finite =
+automata, equivalence and conversion of deterministic and nondeterministic =
+finite automata, pushdown automata; </p></li>
+<li>
+<p>Context free languages;</p></li>
+<li>
+<p>Context free grammars;</p></li>
+<li>
+<p>Turing Machines: basic machines, configuration, computing with Turing ma=
+chines</p></li>
+</ol>
+<p></p>
+<p></p>
+<p></p>
+<ol start=3D"1">
+<li>
+<p>Language theory;</p></li>
+</ol>
+<p>Let=E2=80=99s explain <strong>Language Theory</strong> in the context of=
+ <strong>Theory of Computation</strong>, which is a core topic in computer =
+science.</p>
+<hr>
+<h2 id=3D"E_TheoryofComputation-=F0=9F=A7=A91.LanguageTheory=E2=80=93Overvi=
+ew">=F0=9F=A7=A9 <strong>1. Language Theory =E2=80=93 Overview</strong></h2=
+>
+<p><strong>Language Theory</strong> studies <strong>formal languages</stron=
+g>, which are sets of <strong>strings over an alphabet</strong>.</p>
+<ul>
+<li>
+<p><strong>Alphabet (=CE=A3)</strong>: A finite set of symbols.</p>
+<ul>
+<li>
+<p>Example: =CE=A3 =3D {0,1} (binary alphabet)</p></li>
+</ul></li>
+<li>
+<p><strong>String (w)</strong>: Finite sequence of symbols from the alphabe=
+t.</p>
+<ul>
+<li>
+<p>Example: w =3D "1010"</p></li>
+</ul></li>
+<li>
+<p><strong>Language (L)</strong>: A set of strings over an alphabet.</p>
+<ul>
+<li>
+<p>Example: L =3D {w | w has even number of 0s}</p></li>
+</ul></li>
+</ul>
+<p><strong>Goal:</strong> Classify and analyze languages based on how they =
+can be <strong>generated or recognized</strong>.</p>
+<hr>
+<h2 id=3D"E_TheoryofComputation-=F0=9F=94=B92.TypesofLanguages">=F0=9F=94=
+=B9 <strong>2. Types of Languages</strong></h2>
+<p>The <strong>Chomsky Hierarchy</strong> classifies languages into four ty=
+pes:</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"ea3c1938-c03f-4548-95b2-b1c=
+24cb4870c" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Type</p></th>
+<th class=3D"confluenceTh">
+<p>Name</p></th>
+<th class=3D"confluenceTh">
+<p>Grammar</p></th>
+<th class=3D"confluenceTh">
+<p>Recognizer/Automaton</p></th>
+<th class=3D"confluenceTh">
+<p>Example</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Type 0</p></td>
+<td class=3D"confluenceTd">
+<p><strong>Recursively Enumerable</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Unrestricted</p></td>
+<td class=3D"confluenceTd">
+<p>Turing Machine</p></td>
+<td class=3D"confluenceTd">
+<p>L =3D { w#w</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Type 1</p></td>
+<td class=3D"confluenceTd">
+<p><strong>Context-Sensitive</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Context-sensitive</p></td>
+<td class=3D"confluenceTd">
+<p>Linear Bounded Automaton</p></td>
+<td class=3D"confluenceTd">
+<p>L =3D { a^n b^n c^n</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Type 2</p></td>
+<td class=3D"confluenceTd">
+<p><strong>Context-Free</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Context-free</p></td>
+<td class=3D"confluenceTd">
+<p>Pushdown Automaton</p></td>
+<td class=3D"confluenceTd">
+<p>L =3D { a^n b^n</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Type 3</p></td>
+<td class=3D"confluenceTd">
+<p><strong>Regular</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Regular</p></td>
+<td class=3D"confluenceTd">
+<p>Finite Automaton</p></td>
+<td class=3D"confluenceTd">
+<p>L =3D { w</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id=3D"E_TheoryofComputation-=F0=9F=94=B93.FormalGrammar">=F0=9F=94=B9 <=
+strong>3. Formal Grammar</strong></h2>
+<p>A <strong>formal grammar</strong> generates strings in a language.</p>
+<h3 id=3D"E_TheoryofComputation-Components:">Components:</h3>
+<ol start=3D"1">
+<li>
+<p><strong>V</strong>: Set of variables (non-terminal symbols)</p></li>
+<li>
+<p><strong>=CE=A3</strong>: Alphabet (terminal symbols)</p></li>
+<li>
+<p><strong>P</strong>: Set of production rules (substitutions)</p></li>
+<li>
+<p><strong>S</strong>: Start symbol</p></li>
+</ol>
+<p><strong>Example:</strong></p>
+<ul>
+<li>
+<p>Grammar for L =3D { a^n b^n | n =E2=89=A5 0 }</p>
+<ul>
+<li>
+<p>V =3D {S}, =CE=A3 =3D {a,b}</p></li>
+<li>
+<p>P =3D { S =E2=86=92 aSb, S =E2=86=92 =CE=B5 }</p></li>
+<li>
+<p>S =3D start symbol</p></li>
+</ul></li>
+</ul>
+<hr>
+<h2 id=3D"E_TheoryofComputation-=F0=9F=94=B94.AutomataandLanguageRecognitio=
+n">=F0=9F=94=B9 <strong>4. Automata and Language Recognition</strong></h2>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"2da41353-b2e8-464c-96cf-4e5=
+3c6760707" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Automaton</p></th>
+<th class=3D"confluenceTh">
+<p>Recognizes</p></th>
+<th class=3D"confluenceTh">
+<p>Key Feature</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Finite Automaton (FA)</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Regular languages</p></td>
+<td class=3D"confluenceTd">
+<p>No memory beyond current state</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Pushdown Automaton (PDA)</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Context-free languages</p></td>
+<td class=3D"confluenceTd">
+<p>Stack memory for nested structures</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Linear Bounded Automaton (LBA)</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Context-sensitive</p></td>
+<td class=3D"confluenceTd">
+<p>Tape length limited by input size</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Turing Machine (TM)</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Recursively enumerable</p></td>
+<td class=3D"confluenceTd">
+<p>Unlimited memory and computational power</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id=3D"E_TheoryofComputation-=F0=9F=94=B95.OperationsonLanguages">=F0=9F=
+=94=B9 <strong>5. Operations on Languages</strong></h2>
+<ul>
+<li>
+<p><strong>Union:</strong> (L_1 =E2=88=AA L_2 =3D { w | w =E2=88=88 L_1 \te=
+xt{ or } w =E2=88=88 L_2 })</p></li>
+<li>
+<p><strong>Concatenation:</strong> (L_1 L_2 =3D { xy | x =E2=88=88 L_1, y =
+=E2=88=88 L_2 })</p></li>
+<li>
+<p><strong>Kleene Star:</strong> (L^* =3D { x_1 x_2 =E2=80=A6 x_n | n =E2=
+=89=A5 0, x_i =E2=88=88 L })</p></li>
+<li>
+<p><strong>Intersection, Complement, Difference</strong> also used</p></li>
+</ul>
+<hr>
+<h2 id=3D"E_TheoryofComputation-=F0=9F=94=B96.ExamplesofLanguages">=F0=9F=
+=94=B9 <strong>6. Examples of Languages</strong></h2>
+<ol start=3D"1">
+<li>
+<p><strong>Regular Language:</strong> L =3D {w | w contains an even number =
+of 0s}</p></li>
+<li>
+<p><strong>Context-Free Language:</strong> L =3D { a^n b^n | n =E2=89=A5 0 =
+}</p></li>
+<li>
+<p><strong>Context-Sensitive Language:</strong> L =3D { a^n b^n c^n | n =E2=
+=89=A5 1 }</p></li>
+<li>
+<p><strong>Recursively Enumerable:</strong> L =3D { w#w | w =E2=88=88 {0,1}=
+* }</p></li>
+</ol>
+<hr>
+<h2 id=3D"E_TheoryofComputation-=E2=9C=857.SummaryTable">=E2=9C=85 <strong>=
+7. Summary Table</strong></h2>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"68ef9346-468c-4459-91ff-50c=
+9f2af30b5" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Concept</p></th>
+<th class=3D"confluenceTh">
+<p>Definition</p></th>
+<th class=3D"confluenceTh">
+<p>Example</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Alphabet</p></td>
+<td class=3D"confluenceTd">
+<p>Finite set of symbols</p></td>
+<td class=3D"confluenceTd">
+<p>=CE=A3 =3D {0,1}</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>String</p></td>
+<td class=3D"confluenceTd">
+<p>Sequence of symbols</p></td>
+<td class=3D"confluenceTd">
+<p>"1010"</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Language</p></td>
+<td class=3D"confluenceTd">
+<p>Set of strings</p></td>
+<td class=3D"confluenceTd">
+<p>L =3D { w</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Grammar</p></td>
+<td class=3D"confluenceTd">
+<p>Rules to generate strings</p></td>
+<td class=3D"confluenceTd">
+<p>S =E2=86=92 aSb, S =E2=86=92 =CE=B5</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Automaton</p></td>
+<td class=3D"confluenceTd">
+<p>Machine to recognize language</p></td>
+<td class=3D"confluenceTd">
+<p>FA, PDA, TM</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Regular</p></td>
+<td class=3D"confluenceTd">
+<p>Recognized by FA</p></td>
+<td class=3D"confluenceTd">
+<p>L ends with 01</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Context-Free</p></td>
+<td class=3D"confluenceTd">
+<p>Recognized by PDA</p></td>
+<td class=3D"confluenceTd">
+<p>L =3D {a^n b^n}</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Context-Sensitive</p></td>
+<td class=3D"confluenceTd">
+<p>Recognized by LBA</p></td>
+<td class=3D"confluenceTd">
+<p>L =3D {a^n b^n c^n}</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Recursively Enumerable</p></td>
+<td class=3D"confluenceTd">
+<p>Recognized by TM</p></td>
+<td class=3D"confluenceTd">
+<p>L =3D {w#w}</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p><strong>In short:</strong></p>
+<ul>
+<li>
+<p><strong>Language theory</strong> formalizes strings, languages, and gram=
+mars.</p></li>
+<li>
+<p><strong>Automata</strong> are used to recognize different classes of lan=
+guages.</p></li>
+<li>
+<p>Understanding languages is crucial for <strong>parsers, compilers, and c=
+omputational theory</strong>.</p></li>
+</ul>
+<hr>
+<p>If you want, I can next explain <strong>Finite Automata and Regular Expr=
+essions</strong>, which are directly linked to regular languages in languag=
+e theory.</p>
+<ol start=3D"2">
+<li>
+<p>Finite automata: deterministic finite automata, nondeterministic finite =
+automata, equivalence and conversion of deterministic and nondeterministic =
+finite automata, pushdown automata; </p></li>
+</ol>
+<p>Here=E2=80=99s a detailed explanation of <strong>Finite Automata (FA)</s=
+trong> and <strong>Pushdown Automata (PDA)</strong>, which are essential in=
+ <strong>Theory of Computation</strong> ( syllabus).</p>
+<hr>
+<h2 id=3D"E_TheoryofComputation-=F0=9F=A7=A91.FiniteAutomata(FA)">=F0=9F=A7=
+=A9 <strong>1. Finite Automata (FA)</strong></h2>
+<h3 id=3D"E_TheoryofComputation-Definition">Definition</h3>
+<p>A <strong>finite automaton</strong> is a <strong>mathematical model of a=
+ machine</strong> that recognizes <strong>regular languages</strong>.</p>
+<ul>
+<li>
+<p>Consists of <strong>finite states</strong></p></li>
+<li>
+<p>Reads input symbols <strong>one by one</strong></p></li>
+<li>
+<p>Changes state according to a <strong>transition function</strong></p></l=
+i>
+<li>
+<p>Accepts or rejects a string based on <strong>final state</strong></p></l=
+i>
+</ul>
+<hr>
+<h3 id=3D"E_TheoryofComputation-=F0=9F=94=B9ComponentsofFA">=F0=9F=94=B9 Co=
+mponents of FA</h3>
+<p>An FA is defined as a 5-tuple:</p>
+<p>[<br>
+M =3D (Q, \Sigma, \delta, q_0, F)<br>
+]</p>
+<p>Where:</p>
+<ul>
+<li>
+<p>(Q) =3D finite set of states</p></li>
+<li>
+<p>(\Sigma) =3D input alphabet</p></li>
+<li>
+<p>(\delta) =3D transition function ((\delta: Q =C3=97 =CE=A3 =E2=86=92 Q))=
+</p></li>
+<li>
+<p>(q_0) =3D start state</p></li>
+<li>
+<p>(F \subseteq Q) =3D set of accepting (final) states</p></li>
+</ul>
+<hr>
+<h2 id=3D"E_TheoryofComputation-=F0=9F=94=B92.DeterministicFiniteAutomaton(=
+DFA)">=F0=9F=94=B9 <strong>2. Deterministic Finite Automaton (DFA)</strong>=
+</h2>
+<h3 id=3D"E_TheoryofComputation-Definition.1">Definition</h3>
+<ul>
+<li>
+<p>For <strong>every state</strong> and <strong>input symbol</strong>, ther=
+e is <strong>exactly one next state</strong>.</p></li>
+<li>
+<p>No ambiguity in transitions.</p></li>
+</ul>
+<h3 id=3D"E_TheoryofComputation-Example">Example</h3>
+<ul>
+<li>
+<p>Language L =3D {w | w ends with 0} over =CE=A3=3D{0,1}</p></li>
+<li>
+<p>DFA has states Q=3D{q0,q1}</p>
+<ul>
+<li>
+<p>q0 =3D start, not ending with 0</p></li>
+<li>
+<p>q1 =3D ending with 0</p></li>
+</ul></li>
+<li>
+<p>=CE=B4(q0,0)=3Dq1, =CE=B4(q0,1)=3Dq0, =CE=B4(q1,0)=3Dq1, =CE=B4(q1,1)=3D=
+q0</p></li>
+</ul>
+<hr>
+<h2 id=3D"E_TheoryofComputation-=F0=9F=94=B93.NondeterministicFiniteAutomat=
+on(NFA)">=F0=9F=94=B9 <strong>3. Nondeterministic Finite Automaton (NFA)</s=
+trong></h2>
+<h3 id=3D"E_TheoryofComputation-Definition.2">Definition</h3>
+<ul>
+<li>
+<p>For <strong>a state and input</strong>, the next state can be <strong>mu=
+ltiple possibilities</strong> (including none).</p></li>
+<li>
+<p>Can have <strong>=CE=B5-transitions</strong> (move without input).</p></=
+li>
+</ul>
+<h3 id=3D"E_TheoryofComputation-Example.1">Example</h3>
+<ul>
+<li>
+<p>L =3D {w | w contains 01}</p></li>
+<li>
+<p>NFA may move from a state to multiple next states on input 0 or 1.</p></=
+li>
+</ul>
+<h3 id=3D"E_TheoryofComputation-KeyPoints">Key Points</h3>
+<ul>
+<li>
+<p>NFA is <strong>easier to design</strong> than DFA.</p></li>
+<li>
+<p>Both DFA and NFA recognize <strong>exactly the same class of languages (=
+regular languages)</strong>.</p></li>
+</ul>
+<hr>
+<h2 id=3D"E_TheoryofComputation-=F0=9F=94=B94.EquivalenceandConversion(NFA=
+=E2=86=94DFA)">=F0=9F=94=B9 <strong>4. Equivalence and Conversion (NFA =E2=
+=86=94 DFA)</strong></h2>
+<ul>
+<li>
+<p><strong>Subset Construction (Power Set Method):</strong> Converts <stron=
+g>NFA to DFA</strong></p>
+<ul>
+<li>
+<p>Each DFA state represents a <strong>set of NFA states</strong></p></li>
+</ul></li>
+<li>
+<p>DFA =E2=86=92 NFA: trivial, DFA is a special case of NFA</p></li>
+<li>
+<p><strong>Equivalence:</strong> DFA and NFA <strong>accept the same langua=
+ge</strong></p></li>
+</ul>
+<hr>
+<h2 id=3D"E_TheoryofComputation-=F0=9F=94=B95.PushdownAutomata(PDA)">=F0=9F=
+=94=B9 <strong>5. Pushdown Automata (PDA)</strong></h2>
+<h3 id=3D"E_TheoryofComputation-Definition.3">Definition</h3>
+<ul>
+<li>
+<p>A <strong>PDA</strong> is like an NFA <strong>with a stack memory</stron=
+g>.</p></li>
+<li>
+<p>Recognizes <strong>context-free languages</strong> (CFL)</p></li>
+<li>
+<p>Can <strong>push/pop symbols</strong> on the stack for matching patterns=
+ like parentheses, a^n b^n, etc.</p></li>
+</ul>
+<h3 id=3D"E_TheoryofComputation-Components">Components</h3>
+<p>[<br>
+M =3D (Q, =CE=A3, =CE=93, =CE=B4, q_0, Z_0, F)<br>
+]<br>
+Where:</p>
+<ul>
+<li>
+<p>Q =3D states</p></li>
+<li>
+<p>=CE=A3 =3D input alphabet</p></li>
+<li>
+<p>=CE=93 =3D stack alphabet</p></li>
+<li>
+<p>=CE=B4 =3D transition function ((Q =C3=97 (=CE=A3 =E2=88=AA =CE=B5) =C3=
+=97 =CE=93 =E2=86=92 P(Q =C3=97 =CE=93^*)))</p></li>
+<li>
+<p>q0 =3D start state</p></li>
+<li>
+<p>Z0 =3D initial stack symbol</p></li>
+<li>
+<p>F =3D set of accepting states</p></li>
+</ul>
+<h3 id=3D"E_TheoryofComputation-Example.2">Example</h3>
+<ul>
+<li>
+<p>Language L =3D { a^n b^n | n =E2=89=A5 0 }</p></li>
+<li>
+<p>PDA pushes =E2=80=98a=E2=80=99 for every input a</p></li>
+<li>
+<p>Pops =E2=80=98a=E2=80=99 for every input b</p></li>
+<li>
+<p>Accepts if stack empty at end</p></li>
+</ul>
+<hr>
+<h2 id=3D"E_TheoryofComputation-=E2=9C=856.SummaryTable">=E2=9C=85 <strong>=
+6. Summary Table</strong></h2>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"7ed73af2-4f01-41b7-8859-d7f=
+2d9c6bbf1" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Concept</p></th>
+<th class=3D"confluenceTh">
+<p>Definition</p></th>
+<th class=3D"confluenceTh">
+<p>Key Points</p></th>
+<th class=3D"confluenceTh">
+<p>Example</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>DFA</p></td>
+<td class=3D"confluenceTd">
+<p>Deterministic Finite Automaton</p></td>
+<td class=3D"confluenceTd">
+<p>One next state per input</p></td>
+<td class=3D"confluenceTd">
+<p>L =3D {w ends with 0}</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>NFA</p></td>
+<td class=3D"confluenceTd">
+<p>Nondeterministic Finite Automaton</p></td>
+<td class=3D"confluenceTd">
+<p>Multiple possible next states, =CE=B5-transitions allowed</p></td>
+<td class=3D"confluenceTd">
+<p>L =3D {w contains 01}</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Equivalence</p></td>
+<td class=3D"confluenceTd">
+<p>DFA and NFA recognize same languages</p></td>
+<td class=3D"confluenceTd">
+<p>Convert NFA =E2=86=92 DFA using subset construction</p></td>
+<td class=3D"confluenceTd">
+<p>Any regular language</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>PDA</p></td>
+<td class=3D"confluenceTd">
+<p>Finite automaton + stack</p></td>
+<td class=3D"confluenceTd">
+<p>Recognizes context-free languages</p></td>
+<td class=3D"confluenceTd">
+<p>L =3D {a^n b^n}</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p><strong>In short:</strong></p>
+<ul>
+<li>
+<p><strong>DFA</strong>: single next state, deterministic</p></li>
+<li>
+<p><strong>NFA</strong>: multiple next states, nondeterministic, =CE=B5-tra=
+nsitions allowed</p></li>
+<li>
+<p><strong>Equivalence</strong>: DFA and NFA accept same languages</p></li>
+<li>
+<p><strong>PDA</strong>: adds stack, handles context-free languages like ba=
+lanced parentheses</p></li>
+</ul>
+<hr>
+<p>If you want, I can next explain <strong>Regular Expressions and their eq=
+uivalence with Finite Automata</strong>, which is directly linked to FA the=
+ory.</p>
+<ol start=3D"3">
+<li>
+<p>Context free languages; Context free grammars;</p></li>
+</ol>
+<p></p>
+<ol start=3D"4">
+<li>
+<p>Turing Machines: basic machines, configuration, computing with Turing ma=
+chines</p></li>
+</ol>
+    </div>
+</body>
+</html>
+------=_Part_614_1176300863.1760788111212--

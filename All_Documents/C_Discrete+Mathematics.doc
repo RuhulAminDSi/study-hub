@@ -1,0 +1,2156 @@
+Date: Sat, 18 Oct 2025 11:42:22 +0000 (UTC)
+Message-ID: <470217383.15.1760787742914@1b897e82dd59>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_14_1997427641.1760787742913"
+
+------=_Part_14_1997427641.1760787742913
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>C_Discrete Mathematics</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>C_Discrete Mathematics</h1>
+    <div class=3D"Section1">
+        <h2 id=3D"C_DiscreteMathematics-Theory"><code>Theory</code></h2>
+<ol start=3D"1">
+<li>
+<p>Discrete Mathematics, Theory of Computation and Basic Graph Theory Set t=
+heory;</p></li>
+<li>
+<p>Relations;</p></li>
+<li>
+<p>Functions;</p></li>
+<li>
+<p>Graph theory;</p></li>
+<li>
+<p>Propositional calculus and predicate calculus;</p></li>
+<li>
+<p>Mathematical reasoning: induction, contradiction and recursion;</p></li>
+<li>
+<p>Counting; Principles of inclusion and exclusion;</p></li>
+<li>
+<p>Recurrence relations;</p></li>
+<li>
+<p>Algebraic structures: rings and groups.</p></li>
+</ol>
+<p></p>
+<ol start=3D"1">
+<li>
+<p>Discrete Mathematics, Theory of Computation and Basic Graph Theory Set t=
+heory;</p></li>
+</ol>
+<p>Let=E2=80=99s break down and explain the first topic from <strong>Discre=
+te Mathematics, Theory of Computation, and Basic Graph Theory</strong> =E2=
+=80=94 starting with <strong>Set Theory</strong> =F0=9F=91=87</p>
+<hr>
+<h2 id=3D"C_DiscreteMathematics-=F0=9F=A7=A91.SetTheory=E2=80=93Overview">=
+=F0=9F=A7=A9 <strong>1. Set Theory =E2=80=93 Overview</strong></h2>
+<p><strong>Set Theory</strong> is the foundation of discrete mathematics.<b=
+r>
+A <strong>set</strong> is a <strong>collection of distinct, well-defined ob=
+jects</strong> (called <em>elements</em> or <em>members</em>).</p>
+<p>Example:<br>
+A =3D {1, 2, 3, 4}<br>
+Here, the numbers 1, 2, 3, and 4 are <strong>elements</strong> of the set <=
+strong>A</strong>.</p>
+<hr>
+<h2 id=3D"C_DiscreteMathematics-=E2=9C=B3=EF=B8=8F2.RepresentationofSets">=
+=E2=9C=B3=EF=B8=8F <strong>2. Representation of Sets</strong></h2>
+<ol start=3D"1">
+<li>
+<p><strong>Roster form:</strong> Listing all elements<br>
+=E2=86=92 A =3D {2, 4, 6, 8}</p></li>
+<li>
+<p><strong>Set-builder form:</strong> Describes elements using a property<b=
+r>
+=E2=86=92 A =3D {x | x is an even number less than 10}</p></li>
+</ol>
+<hr>
+<h2 id=3D"C_DiscreteMathematics-=E2=9A=99=EF=B8=8F3.TypesofSets">=E2=9A=99=
+=EF=B8=8F <strong>3. Types of Sets</strong></h2>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"b9fa86e3-b7f3-43f2-86e2-e5d=
+f31e4ba17" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Type</p></th>
+<th class=3D"confluenceTh">
+<p>Example</p></th>
+<th class=3D"confluenceTh">
+<p>Description</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Finite set</strong></p></td>
+<td class=3D"confluenceTd">
+<p>{1, 2, 3}</p></td>
+<td class=3D"confluenceTd">
+<p>Limited number of elements</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Infinite set</strong></p></td>
+<td class=3D"confluenceTd">
+<p>{1, 2, 3, =E2=80=A6}</p></td>
+<td class=3D"confluenceTd">
+<p>Unlimited elements</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Null (empty) set</strong></p></td>
+<td class=3D"confluenceTd">
+<p>{ } or =C3=98</p></td>
+<td class=3D"confluenceTd">
+<p>No elements</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Singleton set</strong></p></td>
+<td class=3D"confluenceTd">
+<p>{a}</p></td>
+<td class=3D"confluenceTd">
+<p>Only one element</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Equal sets</strong></p></td>
+<td class=3D"confluenceTd">
+<p>{1, 2, 3} =3D {3, 2, 1}</p></td>
+<td class=3D"confluenceTd">
+<p>Same elements</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Subset</strong></p></td>
+<td class=3D"confluenceTd">
+<p>A =E2=8A=86 B</p></td>
+<td class=3D"confluenceTd">
+<p>All elements of A are in B</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Proper subset</strong></p></td>
+<td class=3D"confluenceTd">
+<p>A =E2=8A=82 B</p></td>
+<td class=3D"confluenceTd">
+<p>A =E2=8A=86 B but A =E2=89=A0 B</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Universal set (U)</strong></p></td>
+<td class=3D"confluenceTd">
+<p>All possible elements under discussion</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Complement (A=E2=80=B2)</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Elements not in A but in U</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id=3D"C_DiscreteMathematics-=F0=9F=94=814.SetOperations">=F0=9F=94=81 <=
+strong>4. Set Operations</strong></h2>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"c709e02c-f253-4d41-a254-0a5=
+872c46e0c" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Operation</p></th>
+<th class=3D"confluenceTh">
+<p>Symbol</p></th>
+<th class=3D"confluenceTh">
+<p>Description</p></th>
+<th class=3D"confluenceTh">
+<p>Example</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Union</strong></p></td>
+<td class=3D"confluenceTd">
+<p>A =E2=88=AA B</p></td>
+<td class=3D"confluenceTd">
+<p>All elements in A or B or both</p></td>
+<td class=3D"confluenceTd">
+<p>{1,2} =E2=88=AA {2,3} =3D {1,2,3}</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Intersection</strong></p></td>
+<td class=3D"confluenceTd">
+<p>A =E2=88=A9 B</p></td>
+<td class=3D"confluenceTd">
+<p>Elements common to A and B</p></td>
+<td class=3D"confluenceTd">
+<p>{1,2} =E2=88=A9 {2,3} =3D {2}</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Difference</strong></p></td>
+<td class=3D"confluenceTd">
+<p>A =E2=80=93 B</p></td>
+<td class=3D"confluenceTd">
+<p>Elements in A but not in B</p></td>
+<td class=3D"confluenceTd">
+<p>{1,2,3} =E2=80=93 {2,3} =3D {1}</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Complement</strong></p></td>
+<td class=3D"confluenceTd">
+<p>A=E2=80=B2</p></td>
+<td class=3D"confluenceTd">
+<p>Elements not in A</p></td>
+<td class=3D"confluenceTd">
+<p>If U =3D {1,2,3,4}, A=3D{1,2} =E2=86=92 A=E2=80=B2=3D{3,4}</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id=3D"C_DiscreteMathematics-=F0=9F=A7=AE5.LawsofSetAlgebra">=F0=9F=A7=
+=AE <strong>5. Laws of Set Algebra</strong></h2>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"ddbdc756-911e-42be-9ef7-cef=
+2eb330616" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Law</p></th>
+<th class=3D"confluenceTh">
+<p>Expression</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Commutative Law</strong></p></td>
+<td class=3D"confluenceTd">
+<p>A =E2=88=AA B =3D B =E2=88=AA A, =E2=80=83A =E2=88=A9 B =3D B =E2=88=A9 =
+A</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Associative Law</strong></p></td>
+<td class=3D"confluenceTd">
+<p>(A =E2=88=AA B) =E2=88=AA C =3D A =E2=88=AA (B =E2=88=AA C)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Distributive Law</strong></p></td>
+<td class=3D"confluenceTd">
+<p>A =E2=88=A9 (B =E2=88=AA C) =3D (A =E2=88=A9 B) =E2=88=AA (A =E2=88=A9 C=
+)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Identity Law</strong></p></td>
+<td class=3D"confluenceTd">
+<p>A =E2=88=AA =E2=88=85 =3D A,=E2=80=83A =E2=88=A9 U =3D A</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Complement Law</strong></p></td>
+<td class=3D"confluenceTd">
+<p>A =E2=88=AA A=E2=80=B2 =3D U,=E2=80=83A =E2=88=A9 A=E2=80=B2 =3D =E2=88=
+=85</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Idempotent Law</strong></p></td>
+<td class=3D"confluenceTd">
+<p>A =E2=88=AA A =3D A,=E2=80=83A =E2=88=A9 A =3D A</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>De Morgan=E2=80=99s Laws</strong></p></td>
+<td class=3D"confluenceTd">
+<p>(A =E2=88=AA B)=E2=80=B2 =3D A=E2=80=B2 =E2=88=A9 B=E2=80=B2,=E2=80=83(A=
+ =E2=88=A9 B)=E2=80=B2 =3D A=E2=80=B2 =E2=88=AA B=E2=80=B2</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id=3D"C_DiscreteMathematics-=F0=9F=94=B96.VennDiagrams">=F0=9F=94=B9 <s=
+trong>6. Venn Diagrams</strong></h2>
+<ul>
+<li>
+<p>A <strong>Venn Diagram</strong> visually represents the relationships be=
+tween sets using circles.</p></li>
+<li>
+<p>It helps understand <strong>union, intersection, difference,</strong> an=
+d <strong>complement</strong> operations.</p></li>
+</ul>
+<hr>
+<h2 id=3D"C_DiscreteMathematics-=F0=9F=93=987.CartesianProductofSets">=F0=
+=9F=93=98 <strong>7. Cartesian Product of Sets</strong></h2>
+<p>If <strong>A</strong> and <strong>B</strong> are two sets, then<br>
+[<br>
+A =C3=97 B =3D { (a, b) | a =E2=88=88 A, b =E2=88=88 B }<br>
+]<br>
+Example:<br>
+A =3D {1, 2}, B =3D {x, y}<br>
+=E2=86=92 A =C3=97 B =3D {(1, x), (1, y), (2, x), (2, y)}</p>
+<hr>
+<h2 id=3D"C_DiscreteMathematics-=E2=9C=858.ApplicationsofSetTheory">=E2=9C=
+=85 <strong>8. Applications of Set Theory</strong></h2>
+<ul>
+<li>
+<p>Database management (relations, queries)</p></li>
+<li>
+<p>Logic circuits (AND =3D =E2=88=A9, OR =3D =E2=88=AA, NOT =3D complement)=
+</p></li>
+<li>
+<p>Probability and statistics</p></li>
+<li>
+<p>Computer programming (collections, arrays)</p></li>
+<li>
+<p>Artificial intelligence and automata theory</p></li>
+</ul>
+<hr>
+<h3 id=3D"C_DiscreteMathematics-Inshort:"><strong>In short:</strong></h3>
+<ul>
+<li>
+<p><strong>Set theory</strong> provides the foundation for all mathematical=
+ logic and computation.</p></li>
+<li>
+<p>Operations like <strong>union</strong>, <strong>intersection</strong>, a=
+nd <strong>complement</strong> are similar to logical <strong>OR</strong>, =
+<strong>AND</strong>, and <strong>NOT</strong>.</p></li>
+<li>
+<p>Widely used in algorithms, databases, and theoretical computer science.<=
+/p></li>
+</ul>
+<ol start=3D"2">
+<li>
+<p>Relations; Functions;</p></li>
+</ol>
+<p>Let=E2=80=99s explain <strong>Relations</strong> and <strong>Functions</=
+strong>, which are fundamental topics in <strong>Discrete Mathematics</stro=
+ng>.</p>
+<hr>
+<h2 id=3D"C_DiscreteMathematics-=F0=9F=A7=A91.Relations">=F0=9F=A7=A9 <stro=
+ng>1. Relations</strong></h2>
+<h3 id=3D"C_DiscreteMathematics-=F0=9F=94=B9Definition">=F0=9F=94=B9 Defini=
+tion</h3>
+<p>A <strong>relation</strong> from set <strong>A</strong> to set <strong>B=
+</strong> is a <strong>subset of the Cartesian product</strong> (A \times B=
+).</p>
+<ul>
+<li>
+<p>It shows how elements of <strong>A</strong> are related to elements of <=
+strong>B</strong>.</p></li>
+</ul>
+<p>[<br>
+R \subseteq A \times B<br>
+]</p>
+<p><strong>Example:</strong><br>
+A =3D {1, 2, 3}, B =3D {x, y}<br>
+R =3D {(1, x), (2, y)} =E2=86=92 a relation from A to B</p>
+<hr>
+<h3 id=3D"C_DiscreteMathematics-=F0=9F=94=B9TypesofRelations">=F0=9F=94=B9 =
+Types of Relations</h3>
+<ol start=3D"1">
+<li>
+<p><strong>Reflexive:</strong> Every element relates to itself</p>
+<ul>
+<li>
+<p>(a, a) =E2=88=88 R for all a =E2=88=88 A</p></li>
+</ul></li>
+<li>
+<p><strong>Symmetric:</strong> If (a, b) =E2=88=88 R =E2=86=92 (b, a) =E2=
+=88=88 R</p></li>
+<li>
+<p><strong>Transitive:</strong> If (a, b) =E2=88=88 R and (b, c) =E2=88=88 =
+R =E2=86=92 (a, c) =E2=88=88 R</p></li>
+<li>
+<p><strong>Antisymmetric:</strong> If (a, b) =E2=88=88 R and (b, a) =E2=88=
+=88 R =E2=86=92 a =3D b</p></li>
+<li>
+<p><strong>Equivalence Relation:</strong> Reflexive, symmetric, and transit=
+ive</p></li>
+</ol>
+<hr>
+<h3 id=3D"C_DiscreteMathematics-=F0=9F=94=B9RepresentationofRelations">=F0=
+=9F=94=B9 Representation of Relations</h3>
+<ul>
+<li>
+<p><strong>Set of ordered pairs:</strong> R =3D {(1, x), (2, y)}</p></li>
+<li>
+<p><strong>Matrix representation:</strong> R is represented as a 0-1 matrix=
+</p></li>
+<li>
+<p><strong>Graphical representation:</strong> Elements are vertices; relati=
+ons are edges</p></li>
+</ul>
+<hr>
+<h2 id=3D"C_DiscreteMathematics-=E2=9A=A12.Functions">=E2=9A=A1 <strong>2. =
+Functions</strong></h2>
+<h3 id=3D"C_DiscreteMathematics-=F0=9F=94=B9Definition.1">=F0=9F=94=B9 Defi=
+nition</h3>
+<p>A <strong>function (or mapping)</strong> f from set <strong>A</strong> t=
+o set <strong>B</strong> is a relation where <strong>every element of A map=
+s to exactly one element of B</strong>.<br>
+[<br>
+f: A =E2=86=92 B<br>
+]</p>
+<ul>
+<li>
+<p><strong>Domain:</strong> Set A</p></li>
+<li>
+<p><strong>Codomain:</strong> Set B</p></li>
+<li>
+<p><strong>Range:</strong> Actual set of elements in B mapped from A</p></l=
+i>
+</ul>
+<p><strong>Example:</strong><br>
+A =3D {1, 2, 3}, B =3D {x, y, z}<br>
+f =3D { (1, x), (2, y), (3, z) } =E2=86=92 function from A to B</p>
+<hr>
+<h3 id=3D"C_DiscreteMathematics-=F0=9F=94=B9TypesofFunctions">=F0=9F=94=B9 =
+Types of Functions</h3>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"0628e796-9c81-4a07-a2e1-e65=
+eac49c77d" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Type</p></th>
+<th class=3D"confluenceTh">
+<p>Description</p></th>
+<th class=3D"confluenceTh">
+<p>Example</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>One-to-One (Injective)</strong></p></td>
+<td class=3D"confluenceTd">
+<p>No two elements of A map to the same element of B</p></td>
+<td class=3D"confluenceTd">
+<p>f(1)=3Dx, f(2)=3Dy</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Onto (Surjective)</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Every element of B is mapped by some element of A</p></td>
+<td class=3D"confluenceTd">
+<p>f: A=3D{1,2,3}, B=3D{x,y} (needs at least two A elements mapping to one =
+B)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Bijective</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Both one-to-one and onto</p></td>
+<td class=3D"confluenceTd">
+<p>Perfect pairing: each element maps uniquely and all B covered</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h3 id=3D"C_DiscreteMathematics-=F0=9F=94=B9FunctionOperations">=F0=9F=94=
+=B9 Function Operations</h3>
+<ol start=3D"1">
+<li>
+<p><strong>Composition:</strong> (f =E2=88=98 g)(x) =3D f(g(x))</p></li>
+<li>
+<p><strong>Inverse function:</strong> f=E2=81=BB=C2=B9(y) =3D x if f(x) =3D=
+ y</p></li>
+<li>
+<p><strong>Identity function:</strong> I(x) =3D x</p></li>
+</ol>
+<hr>
+<h3 id=3D"C_DiscreteMathematics-=F0=9F=94=B9RepresentationofFunctions">=F0=
+=9F=94=B9 Representation of Functions</h3>
+<ul>
+<li>
+<p><strong>Set of ordered pairs:</strong> f =3D {(1, x), (2, y)}</p></li>
+<li>
+<p><strong>Mapping diagram:</strong> Arrows from elements of A to B</p></li=
+>
+<li>
+<p><strong>Graphical:</strong> Plotting y =3D f(x)</p></li>
+</ul>
+<hr>
+<h2 id=3D"C_DiscreteMathematics-=E2=9C=85KeyPoints">=E2=9C=85 <strong>Key P=
+oints</strong></h2>
+<ul>
+<li>
+<p><strong>Relation:</strong> Any association between elements of two sets.=
+</p></li>
+<li>
+<p><strong>Function:</strong> Special relation where <strong>each input has=
+ exactly one output</strong>.</p></li>
+<li>
+<p><strong>Function types</strong>: Injective, Surjective, Bijective.</p></=
+li>
+<li>
+<p><strong>Applications:</strong> Databases, algorithms, discrete math prob=
+lems, computer programming.</p></li>
+</ul>
+<hr>
+<p>If you want, I can next explain <strong>Propositional Logic and Predicat=
+e Logic</strong>, which is usually the continuation after Sets, Relations, =
+and Functions.</p>
+<ol start=3D"3">
+<li>
+<p>Graph theory;</p></li>
+</ol>
+<p>Let=E2=80=99s explain <strong>Graph Theory</strong>, which is a key part=
+ of <strong>Discrete Mathematics</strong>.</p>
+<hr>
+<h2 id=3D"C_DiscreteMathematics-=F0=9F=A7=A91.Graph=E2=80=93BasicDefinition=
+">=F0=9F=A7=A9 <strong>1. Graph =E2=80=93 Basic Definition</strong></h2>
+<p>A <strong>graph</strong> (G) is a pair of sets:</p>
+<p>[<br>
+G =3D (V, E)<br>
+]</p>
+<ul>
+<li>
+<p><strong>V</strong> =3D set of vertices (nodes)</p></li>
+<li>
+<p><strong>E</strong> =3D set of edges (connections between vertices)</p></=
+li>
+</ul>
+<p>An <strong>edge</strong> connects two vertices, represented as ( (u, v) =
+) or ( u \sim v ).</p>
+<hr>
+<h2 id=3D"C_DiscreteMathematics-=F0=9F=94=B92.TypesofGraphs">=F0=9F=94=B9 <=
+strong>2. Types of Graphs</strong></h2>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"b1297f00-46b0-451b-84ef-d19=
+82556076b" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Type</p></th>
+<th class=3D"confluenceTh">
+<p>Description</p></th>
+<th class=3D"confluenceTh">
+<p>Example</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Undirected Graph</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Edges have no direction</p></td>
+<td class=3D"confluenceTd">
+<p>Friendship network</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Directed Graph (Digraph)</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Edges have a direction</p></td>
+<td class=3D"confluenceTd">
+<p>Twitter follow network</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Weighted Graph</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Edges carry weights</p></td>
+<td class=3D"confluenceTd">
+<p>Road map with distances</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Unweighted Graph</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Edges have no weight</p></td>
+<td class=3D"confluenceTd">
+<p>Simple connections</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Simple Graph</strong></p></td>
+<td class=3D"confluenceTd">
+<p>No loops or multiple edges</p></td>
+<td class=3D"confluenceTd">
+<p>Standard graph</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Multigraph</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Multiple edges allowed between vertices</p></td>
+<td class=3D"confluenceTd">
+<p>Transportation routes</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Complete Graph (Kn)</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Every vertex connected to every other</p></td>
+<td class=3D"confluenceTd">
+<p>Small network</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Bipartite Graph</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Vertex set divided into two, edges only between sets</p></td>
+<td class=3D"confluenceTd">
+<p>Job assignment problem</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Cyclic Graph</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Contains at least one cycle</p></td>
+<td class=3D"confluenceTd">
+<p>Polygon-like graph</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Acyclic Graph</strong></p></td>
+<td class=3D"confluenceTd">
+<p>No cycles</p></td>
+<td class=3D"confluenceTd">
+<p>Tree</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id=3D"C_DiscreteMathematics-=E2=9A=A13.GraphTerminology">=E2=9A=A1 <str=
+ong>3. Graph Terminology</strong></h2>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"ffd30b0e-af50-493b-b25d-472=
+d1e89ff11" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Term</p></th>
+<th class=3D"confluenceTh">
+<p>Definition</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Vertex (Node)</strong></p></td>
+<td class=3D"confluenceTd">
+<p>A point in a graph</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Edge (Link)</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Connection between vertices</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Degree</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Number of edges incident to a vertex</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>In-degree / Out-degree</strong></p></td>
+<td class=3D"confluenceTd">
+<p>For directed graphs, incoming/outgoing edges</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Path</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Sequence of edges connecting vertices</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Cycle</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Path that starts and ends at same vertex</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Connected Graph</strong></p></td>
+<td class=3D"confluenceTd">
+<p>There is a path between any two vertices</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Disconnected Graph</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Some vertices cannot be reached from others</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Subgraph</strong></p></td>
+<td class=3D"confluenceTd">
+<p>A graph formed from a subset of vertices and edges</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Adjacency</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Two vertices are adjacent if they share an edge</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id=3D"C_DiscreteMathematics-=F0=9F=94=B94.SpecialGraphs">=F0=9F=94=B9 <=
+strong>4. Special Graphs</strong></h2>
+<ol start=3D"1">
+<li>
+<p><strong>Tree</strong></p>
+<ul>
+<li>
+<p>A connected, acyclic graph</p></li>
+<li>
+<p>Properties:</p>
+<ul>
+<li>
+<p>n vertices =E2=86=92 n-1 edges</p></li>
+<li>
+<p>One unique path between any two vertices</p></li>
+</ul></li>
+</ul></li>
+<li>
+<p><strong>Spanning Tree</strong></p>
+<ul>
+<li>
+<p>A subgraph that includes all vertices of original graph and is a tree</p=
+></li>
+</ul></li>
+<li>
+<p><strong>Complete Graph</strong></p>
+<ul>
+<li>
+<p>Every pair of vertices is connected by an edge</p></li>
+<li>
+<p>Number of edges: ( E =3D \frac{n(n-1)}{2} )</p></li>
+</ul></li>
+<li>
+<p><strong>Bipartite Graph</strong></p>
+<ul>
+<li>
+<p>Vertex set divided into two disjoint sets U and V</p></li>
+<li>
+<p>No edge connects vertices within the same set</p></li>
+</ul></li>
+</ol>
+<hr>
+<h2 id=3D"C_DiscreteMathematics-=E2=9A=A15.RepresentationofGraphs">=E2=9A=
+=A1 <strong>5. Representation of Graphs</strong></h2>
+<ol start=3D"1">
+<li>
+<p><strong>Adjacency Matrix</strong></p>
+<ul>
+<li>
+<p>n =C3=97 n matrix A</p></li>
+<li>
+<p>A[i][j] =3D 1 if edge exists between vertex i and j, else 0</p></li>
+</ul></li>
+<li>
+<p><strong>Adjacency List</strong></p>
+<ul>
+<li>
+<p>Each vertex has a list of connected vertices</p></li>
+</ul></li>
+<li>
+<p><strong>Incidence Matrix</strong></p>
+<ul>
+<li>
+<p>Rows =3D vertices, columns =3D edges</p></li>
+<li>
+<p>A[i][j] =3D 1 if vertex i is incident on edge j</p></li>
+</ul></li>
+</ol>
+<hr>
+<h2 id=3D"C_DiscreteMathematics-=F0=9F=94=B96.GraphOperationsandConcepts">=
+=F0=9F=94=B9 <strong>6. Graph Operations and Concepts</strong></h2>
+<ul>
+<li>
+<p><strong>Degree of a vertex:</strong> number of edges connected</p></li>
+<li>
+<p><strong>Path:</strong> sequence of edges from one vertex to another</p><=
+/li>
+<li>
+<p><strong>Cycle:</strong> path starting and ending at same vertex</p></li>
+<li>
+<p><strong>Connectedness:</strong> whether all vertices are reachable</p></=
+li>
+<li>
+<p><strong>Components:</strong> maximal connected subgraphs in a disconnect=
+ed graph</p></li>
+</ul>
+<hr>
+<h2 id=3D"C_DiscreteMathematics-=E2=9C=857.ApplicationsofGraphTheory">=E2=
+=9C=85 <strong>7. Applications of Graph Theory</strong></h2>
+<ul>
+<li>
+<p>Computer networks (routing, packet delivery)</p></li>
+<li>
+<p>Social networks (friendship, followers)</p></li>
+<li>
+<p>Circuit design</p></li>
+<li>
+<p>Scheduling problems</p></li>
+<li>
+<p>Shortest path algorithms (Dijkstra, Bellman-Ford)</p></li>
+<li>
+<p>Compiler design, dependency graphs</p></li>
+</ul>
+<hr>
+<h3 id=3D"C_DiscreteMathematics-Inshort:.1"><strong>In short:</strong></h3>
+<ul>
+<li>
+<p>A <strong>graph</strong> is a collection of vertices and edges.</p></li>
+<li>
+<p>Graphs can be <strong>directed, undirected, weighted, or unweighted</str=
+ong>.</p></li>
+<li>
+<p>Trees, bipartite graphs, and complete graphs are special types of graphs=
+.</p></li>
+<li>
+<p><strong>Representation</strong>: adjacency matrix, adjacency list, incid=
+ence matrix.</p></li>
+<li>
+<p>Widely used in <strong>algorithms, networking, and computer science prob=
+lems</strong>.</p></li>
+</ul>
+<hr>
+<p>If you want, I can next explain <strong>Propositional Logic, Predicate L=
+ogic, and Boolean Algebra</strong>, which are also core parts of <strong>Di=
+screte Mathematics</strong> for government IT exams.</p>
+<ol start=3D"4">
+<li>
+<p>Propositional calculus and predicate calculus;</p></li>
+</ol>
+<p>Let=E2=80=99s explain <strong>Propositional Calculus</strong> and <stron=
+g>Predicate Calculus</strong>, which are fundamental in <strong>Discrete Ma=
+thematics and Logic</strong>.</p>
+<hr>
+<h2 id=3D"C_DiscreteMathematics-=F0=9F=A7=A91.PropositionalCalculus(Proposi=
+tionalLogic)">=F0=9F=A7=A9 <strong>1. Propositional Calculus (Propositional=
+ Logic)</strong></h2>
+<h3 id=3D"C_DiscreteMathematics-=F0=9F=94=B9Definition.2">=F0=9F=94=B9 Defi=
+nition</h3>
+<p>Propositional logic deals with <strong>propositions</strong> =E2=80=94 s=
+tatements that are <strong>either true or false</strong>.</p>
+<ul>
+<li>
+<p>Example:</p>
+<ul>
+<li>
+<p>=E2=80=9CIt is raining=E2=80=9D =E2=86=92 proposition P</p></li>
+<li>
+<p>=E2=80=9C2 + 2 =3D 4=E2=80=9D =E2=86=92 proposition Q</p></li>
+</ul></li>
+</ul>
+<p><strong>Connectives</strong> are used to form complex statements from si=
+mple propositions.</p>
+<hr>
+<h3 id=3D"C_DiscreteMathematics-=F0=9F=94=B9LogicalConnectives">=F0=9F=94=
+=B9 Logical Connectives</h3>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"da30d524-c460-41ba-9979-b83=
+ee3b52bc5" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Connective</p></th>
+<th class=3D"confluenceTh">
+<p>Symbol</p></th>
+<th class=3D"confluenceTh">
+<p>Meaning</p></th>
+<th class=3D"confluenceTh">
+<p>Truth Table</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Negation</strong></p></td>
+<td class=3D"confluenceTd">
+<p>=C2=ACP</p></td>
+<td class=3D"confluenceTd">
+<p>NOT P</p></td>
+<td class=3D"confluenceTd">
+<p>T=E2=86=92F, F=E2=86=92T</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Conjunction</strong></p></td>
+<td class=3D"confluenceTd">
+<p>P =E2=88=A7 Q</p></td>
+<td class=3D"confluenceTd">
+<p>AND</p></td>
+<td class=3D"confluenceTd">
+<p>T=E2=88=A7T=3DT, else F</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Disjunction</strong></p></td>
+<td class=3D"confluenceTd">
+<p>P =E2=88=A8 Q</p></td>
+<td class=3D"confluenceTd">
+<p>OR</p></td>
+<td class=3D"confluenceTd">
+<p>F=E2=88=A7F=3DF, else T</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Exclusive OR</strong></p></td>
+<td class=3D"confluenceTd">
+<p>P =E2=8A=95 Q</p></td>
+<td class=3D"confluenceTd">
+<p>XOR</p></td>
+<td class=3D"confluenceTd">
+<p>True if exactly one is true</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Implication</strong></p></td>
+<td class=3D"confluenceTd">
+<p>P =E2=86=92 Q</p></td>
+<td class=3D"confluenceTd">
+<p>IF P THEN Q</p></td>
+<td class=3D"confluenceTd">
+<p>F=E2=86=92T=3DT, T=E2=86=92F=3DF</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Biconditional</strong></p></td>
+<td class=3D"confluenceTd">
+<p>P =E2=86=94 Q</p></td>
+<td class=3D"confluenceTd">
+<p>P IF AND ONLY IF Q</p></td>
+<td class=3D"confluenceTd">
+<p>T=E2=86=94T=3DT, F=E2=86=94F=3DT, else F</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h3 id=3D"C_DiscreteMathematics-=F0=9F=94=B9LawsofPropositionalLogic">=F0=
+=9F=94=B9 Laws of Propositional Logic</h3>
+<ol start=3D"1">
+<li>
+<p><strong>Commutative Law:</strong> P =E2=88=A7 Q =3D Q =E2=88=A7 P; P =E2=
+=88=A8 Q =3D Q =E2=88=A8 P</p></li>
+<li>
+<p><strong>Associative Law:</strong> (P =E2=88=A7 Q) =E2=88=A7 R =3D P =E2=
+=88=A7 (Q =E2=88=A7 R)</p></li>
+<li>
+<p><strong>Distributive Law:</strong> P =E2=88=A7 (Q =E2=88=A8 R) =3D (P =
+=E2=88=A7 Q) =E2=88=A8 (P =E2=88=A7 R)</p></li>
+<li>
+<p><strong>Identity Law:</strong> P =E2=88=A7 T =3D P; P =E2=88=A8 F =3D P<=
+/p></li>
+<li>
+<p><strong>Domination Law:</strong> P =E2=88=A7 F =3D F; P =E2=88=A8 T =3D =
+T</p></li>
+<li>
+<p><strong>De Morgan=E2=80=99s Laws:</strong></p>
+<ul>
+<li>
+<p>=C2=AC(P =E2=88=A7 Q) =3D =C2=ACP =E2=88=A8 =C2=ACQ</p></li>
+<li>
+<p>=C2=AC(P =E2=88=A8 Q) =3D =C2=ACP =E2=88=A7 =C2=ACQ</p></li>
+</ul></li>
+</ol>
+<hr>
+<h3 id=3D"C_DiscreteMathematics-=F0=9F=94=B9Applications">=F0=9F=94=B9 Appl=
+ications</h3>
+<ul>
+<li>
+<p>Digital circuits (AND, OR, NOT gates)</p></li>
+<li>
+<p>Programming conditions (if-else statements)</p></li>
+<li>
+<p>Proving logical equivalence and correctness of algorithms</p></li>
+</ul>
+<hr>
+<h2 id=3D"C_DiscreteMathematics-=F0=9F=A7=A92.PredicateCalculus(First-Order=
+Logic)">=F0=9F=A7=A9 <strong>2. Predicate Calculus (First-Order Logic)</str=
+ong></h2>
+<h3 id=3D"C_DiscreteMathematics-=F0=9F=94=B9Definition.3">=F0=9F=94=B9 Defi=
+nition</h3>
+<p>Predicate logic extends propositional logic by including <strong>quantif=
+iers, variables, and predicates</strong>.</p>
+<ul>
+<li>
+<p>Predicate: Property or relation involving variables</p>
+<ul>
+<li>
+<p>Example: P(x): =E2=80=9Cx is even=E2=80=9D</p></li>
+</ul></li>
+<li>
+<p>Quantifiers: express statements over <strong>all</strong> or <strong>som=
+e elements</strong> of a domain</p></li>
+</ul>
+<hr>
+<h3 id=3D"C_DiscreteMathematics-=F0=9F=94=B9Quantifiers">=F0=9F=94=B9 Quant=
+ifiers</h3>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"330365fb-8196-43c0-96ff-08d=
+ad4436466" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Quantifier</p></th>
+<th class=3D"confluenceTh">
+<p>Symbol</p></th>
+<th class=3D"confluenceTh">
+<p>Meaning</p></th>
+<th class=3D"confluenceTh">
+<p>Example</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Universal</strong></p></td>
+<td class=3D"confluenceTd">
+<p>=E2=88=80x</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=80=9CFor all x=E2=80=9D</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=88=80x =E2=88=88 =E2=84=95, x+0 =3D x</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Existential</strong></p></td>
+<td class=3D"confluenceTd">
+<p>=E2=88=83x</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=80=9CThere exists x=E2=80=9D</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=88=83x =E2=88=88 =E2=84=95, x=C2=B2 =3D 4</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h3 id=3D"C_DiscreteMathematics-=F0=9F=94=B9PredicateLogicStatementExample"=
+>=F0=9F=94=B9 Predicate Logic Statement Example</h3>
+<ul>
+<li>
+<p>=E2=80=9CAll humans are mortal=E2=80=9D =E2=86=92 =E2=88=80x (Human(x) =
+=E2=86=92 Mortal(x))</p></li>
+<li>
+<p>=E2=80=9CThere exists a prime number greater than 100=E2=80=9D =E2=86=92=
+ =E2=88=83x (Prime(x) =E2=88=A7 x &gt; 100)</p></li>
+</ul>
+<hr>
+<h3 id=3D"C_DiscreteMathematics-=F0=9F=94=B9DifferencefromPropositionalLogi=
+c">=F0=9F=94=B9 Difference from Propositional Logic</h3>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"a76b3cd0-8e13-44a9-8507-04f=
+97a8bd5d1" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Aspect</p></th>
+<th class=3D"confluenceTh">
+<p>Propositional Logic</p></th>
+<th class=3D"confluenceTh">
+<p>Predicate Logic</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Deals with</p></td>
+<td class=3D"confluenceTd">
+<p>Whole statements</p></td>
+<td class=3D"confluenceTd">
+<p>Internal structure of statements</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Variables</p></td>
+<td class=3D"confluenceTd">
+<p>No variables</p></td>
+<td class=3D"confluenceTd">
+<p>Uses variables (x, y, =E2=80=A6)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Quantifiers</p></td>
+<td class=3D"confluenceTd">
+<p>Not used</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=88=80 (for all), =E2=88=83 (exists)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Expressiveness</p></td>
+<td class=3D"confluenceTd">
+<p>Limited</p></td>
+<td class=3D"confluenceTd">
+<p>Much more expressive</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h3 id=3D"C_DiscreteMathematics-=F0=9F=94=B9Applications.1">=F0=9F=94=B9 Ap=
+plications</h3>
+<ul>
+<li>
+<p>Database queries (SQL uses predicates)</p></li>
+<li>
+<p>Artificial intelligence (knowledge representation)</p></li>
+<li>
+<p>Formal verification of algorithms</p></li>
+<li>
+<p>Mathematical proofs</p></li>
+</ul>
+<hr>
+<h3 id=3D"C_DiscreteMathematics-=E2=9C=85Summary">=E2=9C=85 <strong>Summary=
+</strong></h3>
+<ul>
+<li>
+<p><strong>Propositional calculus:</strong> True/false statements + logical=
+ connectives.</p></li>
+<li>
+<p><strong>Predicate calculus:</strong> Adds variables, predicates, and qua=
+ntifiers for detailed reasoning.</p></li>
+<li>
+<p><strong>Applications:</strong> Logic circuits, algorithms, AI, formal pr=
+oofs.</p></li>
+</ul>
+<hr>
+<p>If you want, I can next explain <strong>Boolean Algebra and Logic Simpli=
+fication</strong>, which naturally follows propositional and predicate logi=
+c for computing applications.</p>
+<ol start=3D"5">
+<li>
+<p>Mathematical reasoning: induction, contradiction and recursion;</p></li>
+</ol>
+<p>Let=E2=80=99s explain <strong>Mathematical Reasoning</strong>, focusing =
+on <strong>Induction, Contradiction, and Recursion</strong>, which are fund=
+amental for discrete mathematics and algorithm design.</p>
+<hr>
+<h2 id=3D"C_DiscreteMathematics-=F0=9F=A7=A91.MathematicalReasoning=E2=80=
+=93Overview">=F0=9F=A7=A9 <strong>1. Mathematical Reasoning =E2=80=93 Overv=
+iew</strong></h2>
+<p>Mathematical reasoning is the <strong>logical process of deducing conclu=
+sions from given statements or premises</strong>.<br>
+It is used to <strong>prove theorems, validate algorithms, and reason about=
+ discrete structures</strong>.</p>
+<hr>
+<h2 id=3D"C_DiscreteMathematics-=F0=9F=94=B92.MathematicalInduction">=F0=9F=
+=94=B9 <strong>2. Mathematical Induction</strong></h2>
+<h3 id=3D"C_DiscreteMathematics-Definition">Definition</h3>
+<p><strong>Mathematical induction</strong> is a technique to prove statemen=
+ts <strong>about natural numbers</strong>.<br>
+It consists of two steps:</p>
+<ol start=3D"1">
+<li>
+<p><strong>Base Case:</strong> Verify the statement is true for the first v=
+alue (usually n =3D 0 or 1).</p></li>
+<li>
+<p><strong>Induction Step:</strong> Assume the statement is true for n =3D =
+k (<strong>induction hypothesis</strong>) and prove it is true for n =3D k =
++ 1.</p></li>
+</ol>
+<p>If both steps are valid, the statement holds for all n =E2=89=A5 base va=
+lue.</p>
+<h3 id=3D"C_DiscreteMathematics-Example">Example</h3>
+<p>Prove that (1 + 2 + 3 + =E2=80=A6 + n =3D \frac{n(n+1)}{2}).</p>
+<ol start=3D"1">
+<li>
+<p><strong>Base Case:</strong> n =3D 1 =E2=86=92 LHS =3D 1, RHS =3D 1(1+1)/=
+2 =3D 1 =E2=9C=85</p></li>
+<li>
+<p><strong>Induction Hypothesis:</strong> Assume true for n =3D k =E2=86=92=
+ 1 + =E2=80=A6 + k =3D k(k+1)/2</p></li>
+<li>
+<p><strong>Induction Step:</strong> For n =3D k+1 =E2=86=92<br>
+[<br>
+1 + 2 + =E2=80=A6 + k + (k+1) =3D \frac{k(k+1)}{2} + (k+1) =3D \frac{(k+1)(=
+k+2)}{2}<br>
+]<br>
+=E2=9C=85 Statement proven.</p></li>
+</ol>
+<hr>
+<h2 id=3D"C_DiscreteMathematics-=F0=9F=94=B93.ProofbyContradiction">=F0=9F=
+=94=B9 <strong>3. Proof by Contradiction</strong></h2>
+<h3 id=3D"C_DiscreteMathematics-Definition.1">Definition</h3>
+<p><strong>Proof by contradiction</strong> assumes that the statement to be=
+ proven is <strong>false</strong> and shows that this assumption <strong>le=
+ads to a contradiction</strong>.</p>
+<ul>
+<li>
+<p>If assuming =C2=ACP leads to a logical inconsistency, then P must be tru=
+e.</p></li>
+</ul>
+<h3 id=3D"C_DiscreteMathematics-Example.1">Example</h3>
+<p>Prove: (\sqrt{2}) is irrational.</p>
+<ol start=3D"1">
+<li>
+<p>Assume (\sqrt{2}) is rational =E2=86=92 (\sqrt{2} =3D p/q), where gcd(p,=
+ q) =3D 1</p></li>
+<li>
+<p>Square both sides =E2=86=92 2 =3D p=C2=B2/q=C2=B2 =E2=86=92 p=C2=B2 =3D =
+2q=C2=B2 =E2=86=92 p=C2=B2 is even =E2=86=92 p is even =E2=86=92 p =3D 2k</=
+p></li>
+<li>
+<p>Substitute back =E2=86=92 (2k)=C2=B2 =3D 2q=C2=B2 =E2=86=92 4k=C2=B2 =3D=
+ 2q=C2=B2 =E2=86=92 q=C2=B2 =3D 2k=C2=B2 =E2=86=92 q=C2=B2 even =E2=86=92 q=
+ even</p></li>
+<li>
+<p>Both p and q even =E2=86=92 gcd(p, q) =E2=89=A0 1 =E2=9D=8C Contradictio=
+n<br>
+=E2=9C=85 Hence, (\sqrt{2}) is irrational.</p></li>
+</ol>
+<hr>
+<h2 id=3D"C_DiscreteMathematics-=F0=9F=94=B94.Recursion">=F0=9F=94=B9 <stro=
+ng>4. Recursion</strong></h2>
+<h3 id=3D"C_DiscreteMathematics-Definition.2">Definition</h3>
+<p><strong>Recursion</strong> is a method of defining <strong>functions or =
+sequences</strong> in terms of <strong>smaller instances of themselves</str=
+ong>.</p>
+<ul>
+<li>
+<p>It is widely used in algorithms, programming, and mathematical proofs.</=
+p></li>
+</ul>
+<h3 id=3D"C_DiscreteMathematics-Example.2">Example</h3>
+<p><strong>Factorial function</strong>:<br>
+[<br>
+n! =3D \begin{cases}<br>
+1 &amp; \text{if } n =3D 0 \<br>
+n \cdot (n-1)! &amp; \text{if } n &gt; 0<br>
+\end{cases}<br>
+]</p>
+<p><strong>Fibonacci sequence:</strong><br>
+[<br>
+F(n) =3D \begin{cases}<br>
+0 &amp; n=3D0 \<br>
+1 &amp; n=3D1 \<br>
+F(n-1) + F(n-2) &amp; n&gt;1<br>
+\end{cases}<br>
+]</p>
+<h3 id=3D"C_DiscreteMathematics-RelationwithInduction">Relation with Induct=
+ion</h3>
+<ul>
+<li>
+<p>Recursive definitions often lead to <strong>proofs by mathematical induc=
+tion</strong>, since each step depends on previous cases.</p></li>
+</ul>
+<hr>
+<h2 id=3D"C_DiscreteMathematics-=E2=9C=855.SummaryTable">=E2=9C=85 <strong>=
+5. Summary Table</strong></h2>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"bdeea0fd-592d-4e07-a270-095=
+d30ea87af" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Concept</p></th>
+<th class=3D"confluenceTh">
+<p>Key Idea</p></th>
+<th class=3D"confluenceTh">
+<p>Example</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Induction</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Prove true for all n by base + step</p></td>
+<td class=3D"confluenceTd">
+<p>Sum of first n numbers</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Contradiction</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Assume false =E2=86=92 show impossible</p></td>
+<td class=3D"confluenceTd">
+<p>(\sqrt{2}) is irrational</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Recursion</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Define in terms of smaller instances</p></td>
+<td class=3D"confluenceTd">
+<p>Factorial, Fibonacci sequence</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p><strong>In short:</strong></p>
+<ul>
+<li>
+<p><strong>Induction</strong>: Build proof step-by-step.</p></li>
+<li>
+<p><strong>Contradiction</strong>: Prove by showing false assumption fails.=
+</p></li>
+<li>
+<p><strong>Recursion</strong>: Define sequences/functions in terms of thems=
+elves.</p></li>
+</ul>
+<hr>
+<p>If you want, I can next explain <strong>Combinatorics: Permutations and =
+Combinations</strong>, which is another key topic in discrete mathematics f=
+or IT exams.</p>
+<ol start=3D"6">
+<li>
+<p>Counting; Principles of inclusion and exclusion;</p></li>
+</ol>
+<p>Let=E2=80=99s explain <strong>Counting</strong> and <strong>Principles o=
+f Inclusion and Exclusion (PIE)</strong>, which are core topics in <strong>=
+Discrete Mathematics</strong>.</p>
+<hr>
+<h2 id=3D"C_DiscreteMathematics-=F0=9F=A7=A91.Counting(Combinatorics)">=F0=
+=9F=A7=A9 <strong>1. Counting (Combinatorics)</strong></h2>
+<h3 id=3D"C_DiscreteMathematics-=F0=9F=94=B9Definition.4">=F0=9F=94=B9 Defi=
+nition</h3>
+<p><strong>Counting</strong> or <strong>combinatorics</strong> is the study=
+ of <strong>ways to select or arrange objects</strong>.<br>
+It helps in <strong>enumerating possibilities</strong>, which is essential =
+for probability, algorithms, and discrete structures.</p>
+<hr>
+<h3 id=3D"C_DiscreteMathematics-=F0=9F=94=B9BasicCountingPrinciples">=F0=9F=
+=94=B9 Basic Counting Principles</h3>
+<ol start=3D"1">
+<li>
+<p><strong>Addition Principle</strong></p>
+<ul>
+<li>
+<p>If there are <strong>m ways</strong> to do task A and <strong>n ways</st=
+rong> to do task B, and tasks cannot occur together:<br>
+[<br>
+\text{Total ways} =3D m + n<br>
+]</p></li>
+</ul></li>
+<li>
+<p><strong>Multiplication Principle</strong></p>
+<ul>
+<li>
+<p>If task A can be done in <strong>m ways</strong> and task B can be done =
+in <strong>n ways</strong>, done sequentially:<br>
+[<br>
+\text{Total ways} =3D m \cdot n<br>
+]</p></li>
+</ul></li>
+</ol>
+<hr>
+<h3 id=3D"C_DiscreteMathematics-=F0=9F=94=B9PermutationsandCombinations">=
+=F0=9F=94=B9 Permutations and Combinations</h3>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"37012908-bcf0-4897-bb71-d54=
+afbde11df" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Concept</p></th>
+<th class=3D"confluenceTh">
+<p>Meaning</p></th>
+<th class=3D"confluenceTh">
+<p>Formula</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Permutation (nPr)</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Arrangements of n objects taken r at a time</p></td>
+<td class=3D"confluenceTd">
+<p>( nPr =3D \frac{n!}{(n-r)!} )</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Combination (nCr)</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Selections of r objects from n (order does not matter)</p></td>
+<td class=3D"confluenceTd">
+<p>( nCr =3D \frac{n!}{r!(n-r)!} )</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h3 id=3D"C_DiscreteMathematics-=F0=9F=94=B9Example">=F0=9F=94=B9 Example</=
+h3>
+<ul>
+<li>
+<p>5 books, choose 2:</p>
+<ul>
+<li>
+<p>Permutation: 5P2 =3D 5=C3=974 =3D 20 (arrangement matters)</p></li>
+<li>
+<p>Combination: 5C2 =3D 5=C3=974/2 =3D 10 (arrangement doesn=E2=80=99t matt=
+er)</p></li>
+</ul></li>
+</ul>
+<hr>
+<h2 id=3D"C_DiscreteMathematics-=F0=9F=A7=A92.PrincipleofInclusionandExclus=
+ion(PIE)">=F0=9F=A7=A9 <strong>2. Principle of Inclusion and Exclusion (PIE=
+)</strong></h2>
+<h3 id=3D"C_DiscreteMathematics-=F0=9F=94=B9Definition.5">=F0=9F=94=B9 Defi=
+nition</h3>
+<p><strong>PIE</strong> is used to <strong>count the number of elements in =
+the union of overlapping sets</strong>.</p>
+<ul>
+<li>
+<p>Direct addition of sizes <strong>overcounts elements in the intersection=
+</strong>, so we subtract appropriately.</p></li>
+</ul>
+<h3 id=3D"C_DiscreteMathematics-=F0=9F=94=B9TwoSets">=F0=9F=94=B9 Two Sets<=
+/h3>
+<p>For sets A and B:<br>
+[<br>
+|A \cup B| =3D |A| + |B| - |A \cap B|<br>
+]</p>
+<h3 id=3D"C_DiscreteMathematics-=F0=9F=94=B9ThreeSets">=F0=9F=94=B9 Three S=
+ets</h3>
+<p>For sets A, B, C:<br>
+[<br>
+|A \cup B \cup C| =3D |A| + |B| + |C| - |A \cap B| - |A \cap C| - |B \cap C=
+| + |A \cap B \cap C|<br>
+]</p>
+<h3 id=3D"C_DiscreteMathematics-=F0=9F=94=B9GeneralIdea">=F0=9F=94=B9 Gener=
+al Idea</h3>
+<ul>
+<li>
+<p><strong>Add sizes of individual sets</strong></p></li>
+<li>
+<p><strong>Subtract sizes of pairwise intersections</strong></p></li>
+<li>
+<p><strong>Add sizes of triple intersections</strong></p></li>
+<li>
+<p>Continue alternating =C2=B1 for higher intersections</p></li>
+</ul>
+<hr>
+<h3 id=3D"C_DiscreteMathematics-=F0=9F=94=B9Example.1">=F0=9F=94=B9 Example=
+</h3>
+<p>In a class of 50 students:</p>
+<ul>
+<li>
+<p>30 study Math (M), 25 study Physics (P), 10 study both (M=E2=88=A9P)</p>=
+</li>
+<li>
+<p>How many study at least one?</p></li>
+</ul>
+<p>[<br>
+|M \cup P| =3D |M| + |P| - |M \cap P| =3D 30 + 25 - 10 =3D 45<br>
+]</p>
+<hr>
+<h3 id=3D"C_DiscreteMathematics-=F0=9F=94=B9Applications.2">=F0=9F=94=B9 Ap=
+plications</h3>
+<ul>
+<li>
+<p>Counting students in overlapping groups</p></li>
+<li>
+<p>Probability calculations</p></li>
+<li>
+<p>Solving combinatorial problems</p></li>
+<li>
+<p>Inclusion-exclusion principle is widely used in <strong>set theory, numb=
+er theory, and computer science</strong>.</p></li>
+</ul>
+<hr>
+<h3 id=3D"C_DiscreteMathematics-=E2=9C=85SummaryTable">=E2=9C=85 <strong>Su=
+mmary Table</strong></h3>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"06d93cc2-fefe-465f-951c-410=
+06703a622" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Topic</p></th>
+<th class=3D"confluenceTh">
+<p>Key Formula</p></th>
+<th class=3D"confluenceTh">
+<p>Key Idea</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Counting</strong></p></td>
+<td class=3D"confluenceTd">
+<p>m+n, m=C3=97n</p></td>
+<td class=3D"confluenceTd">
+<p>Addition and multiplication principles</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Permutation</strong></p></td>
+<td class=3D"confluenceTd">
+<p>nPr =3D n!/(n-r)!</p></td>
+<td class=3D"confluenceTd">
+<p>Arrangement matters</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Combination</strong></p></td>
+<td class=3D"confluenceTd">
+<p>nCr =3D n!/(r!(n-r)!)</p></td>
+<td class=3D"confluenceTd">
+<p>Arrangement doesn=E2=80=99t matter</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>PIE (2 sets)</strong></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p>A=E2=88=AAB</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>PIE (3 sets)</strong></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p>A=E2=88=AAB=E2=88=AAC</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p>If you want, I can next explain <strong>Recurrence Relations</strong>, w=
+hich often follows counting and inclusion-exclusion in discrete mathematics=
+.</p>
+<ol start=3D"7">
+<li>
+<p>Recurrence relations;</p></li>
+</ol>
+<p>Let=E2=80=99s explain <strong>Recurrence Relations</strong>, which is an=
+ important topic in <strong>Discrete Mathematics and Algorithm Analysis</st=
+rong>.</p>
+<hr>
+<h2 id=3D"C_DiscreteMathematics-=F0=9F=A7=A91.RecurrenceRelations=E2=80=93D=
+efinition">=F0=9F=A7=A9 <strong>1. Recurrence Relations =E2=80=93 Definitio=
+n</strong></h2>
+<p>A <strong>recurrence relation</strong> is an equation that <strong>defin=
+es a sequence in terms of its previous terms</strong>.</p>
+<ul>
+<li>
+<p>Example: Fibonacci sequence:<br>
+[<br>
+F(n) =3D F(n-1) + F(n-2), \quad F(0)=3D0, F(1)=3D1<br>
+]</p></li>
+</ul>
+<p>Here, each term is defined based on <strong>previous terms</strong>, mak=
+ing it a recurrence relation.</p>
+<hr>
+<h2 id=3D"C_DiscreteMathematics-=F0=9F=94=B92.GeneralForm">=F0=9F=94=B9 <st=
+rong>2. General Form</strong></h2>
+<p>A recurrence relation expresses (a_n) as a function of previous terms:</=
+p>
+<p>[<br>
+a_n =3D f(a_{n-1}, a_{n-2}, ..., a_{n-k}) + g(n)<br>
+]</p>
+<ul>
+<li>
+<p>(f(\cdot)) =E2=86=92 function of previous terms</p></li>
+<li>
+<p>(g(n)) =E2=86=92 function of n (optional)</p></li>
+<li>
+<p>(k) =E2=86=92 order of the recurrence</p></li>
+</ul>
+<hr>
+<h2 id=3D"C_DiscreteMathematics-=F0=9F=94=B93.TypesofRecurrenceRelations">=
+=F0=9F=94=B9 <strong>3. Types of Recurrence Relations</strong></h2>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"f209bf98-5e75-45e0-8695-daf=
+e5cbf74e5" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Type</p></th>
+<th class=3D"confluenceTh">
+<p>Description</p></th>
+<th class=3D"confluenceTh">
+<p>Example</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Linear</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Relation is a linear combination of previous terms</p></td>
+<td class=3D"confluenceTd">
+<p>(a_n =3D 2a_{n-1} + 3)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Homogeneous</strong></p></td>
+<td class=3D"confluenceTd">
+<p>No extra function term (g(n) =3D 0)</p></td>
+<td class=3D"confluenceTd">
+<p>(a_n =3D a_{n-1} + a_{n-2})</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Non-homogeneous</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Has extra function term (g(n) =E2=89=A0 0)</p></td>
+<td class=3D"confluenceTd">
+<p>(a_n =3D 2a_{n-1} + n)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>First-order</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Depends only on one previous term</p></td>
+<td class=3D"confluenceTd">
+<p>(a_n =3D 2a_{n-1} + 1)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Higher-order</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Depends on two or more previous terms</p></td>
+<td class=3D"confluenceTd">
+<p>Fibonacci: (F_n =3D F_{n-1}+F_{n-2})</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id=3D"C_DiscreteMathematics-=F0=9F=94=B94.MethodstoSolveRecurrenceRelat=
+ions">=F0=9F=94=B9 <strong>4. Methods to Solve Recurrence Relations</strong=
+></h2>
+<h3 id=3D"C_DiscreteMathematics-(a)IterationMethod">(a) <strong>Iteration M=
+ethod</strong></h3>
+<ul>
+<li>
+<p>Expand the recurrence step by step to find a pattern.</p></li>
+<li>
+<p>Example: (a_n =3D a_{n-1} + 3, a_0=3D2)</p>
+<ul>
+<li>
+<p>(a_1 =3D 2+3 =3D 5)</p></li>
+<li>
+<p>(a_2 =3D 5+3 =3D 8)</p></li>
+<li>
+<p>Pattern: (a_n =3D 2 + 3n)</p></li>
+</ul></li>
+</ul>
+<h3 id=3D"C_DiscreteMathematics-(b)CharacteristicEquationMethod(forlinearho=
+mogeneousrecurrences)">(b) <strong>Characteristic Equation Method (for line=
+ar homogeneous recurrences)</strong></h3>
+<ul>
+<li>
+<p>Assume solution of the form (a_n =3D r^n)</p></li>
+<li>
+<p>Solve characteristic equation:<br>
+[<br>
+r^k + c_1 r^{k-1} + ... + c_k =3D 0<br>
+]</p></li>
+<li>
+<p>General solution depends on roots of the equation.</p></li>
+</ul>
+<p><strong>Example:</strong> Fibonacci recurrence (F_n =3D F_{n-1} + F_{n-2=
+})</p>
+<ul>
+<li>
+<p>Characteristic equation: (r^2 - r - 1 =3D 0) =E2=86=92 roots (r_1, r_2)<=
+/p></li>
+<li>
+<p>Solution: (F_n =3D A r_1^n + B r_2^n)</p></li>
+</ul>
+<h3 id=3D"C_DiscreteMathematics-(c)GeneratingFunctions">(c) <strong>Generat=
+ing Functions</strong></h3>
+<ul>
+<li>
+<p>Convert recurrence into a <strong>power series</strong> and solve algebr=
+aically.</p></li>
+<li>
+<p>Useful for complex sequences.</p></li>
+</ul>
+<hr>
+<h2 id=3D"C_DiscreteMathematics-=F0=9F=94=B95.Examples">=F0=9F=94=B9 <stron=
+g>5. Examples</strong></h2>
+<ol start=3D"1">
+<li>
+<p><strong>Arithmetic Sequence:</strong><br>
+[<br>
+a_n =3D a_{n-1} + d, \quad a_0 =3D a<br>
+]<br>
+Solution: (a_n =3D a + nd)</p></li>
+<li>
+<p><strong>Geometric Sequence:</strong><br>
+[<br>
+a_n =3D r a_{n-1}, \quad a_0 =3D a<br>
+]<br>
+Solution: (a_n =3D a r^n)</p></li>
+<li>
+<p><strong>Fibonacci Sequence:</strong><br>
+[<br>
+F_0=3D0, F_1=3D1, F_n =3D F_{n-1}+F_{n-2}<br>
+]<br>
+Solution using characteristic roots:<br>
+[<br>
+F_n =3D \frac{1}{\sqrt{5}} \left( \left(\frac{1+\sqrt{5}}{2}\right)^n - \le=
+ft(\frac{1-\sqrt{5}}{2}\right)^n \right)<br>
+]</p></li>
+</ol>
+<hr>
+<h2 id=3D"C_DiscreteMathematics-=E2=9C=856.Applications">=E2=9C=85 <strong>=
+6. Applications</strong></h2>
+<ul>
+<li>
+<p>Analyzing <strong>algorithms</strong> (time complexity of recursive func=
+tions)</p></li>
+<li>
+<p>Counting problems in combinatorics</p></li>
+<li>
+<p>Modeling <strong>population growth</strong> and financial sequences</p><=
+/li>
+<li>
+<p>Dynamic programming problems</p></li>
+</ul>
+<hr>
+<h3 id=3D"C_DiscreteMathematics-Inshort:.2"><strong>In short:</strong></h3>
+<ul>
+<li>
+<p><strong>Recurrence relation:</strong> Defines each term of a sequence in=
+ terms of previous terms.</p></li>
+<li>
+<p><strong>Types:</strong> Linear, homogeneous, non-homogeneous, first-orde=
+r, higher-order.</p></li>
+<li>
+<p><strong>Solving methods:</strong> Iteration, characteristic equation, ge=
+nerating functions.</p></li>
+<li>
+<p>Widely used in <strong>algorithm design, combinatorics, and computer sci=
+ence</strong>.</p></li>
+</ul>
+<hr>
+<p>If you want, I can next explain <strong>Graph Traversal Techniques and T=
+opological Sorting</strong>, which naturally follow recurrence and counting=
+ in discrete math.</p>
+<ol start=3D"8">
+<li>
+<p>Algebraic structures: rings and groups.</p></li>
+</ol>
+<p>Let=E2=80=99s explain <strong>Recurrence Relations</strong>, which is an=
+ important topic in <strong>Discrete Mathematics and Algorithm Analysis</st=
+rong>.</p>
+<hr>
+<h2 id=3D"C_DiscreteMathematics-=F0=9F=A7=A91.RecurrenceRelations=E2=80=93D=
+efinition.1">=F0=9F=A7=A9 <strong>1. Recurrence Relations =E2=80=93 Definit=
+ion</strong></h2>
+<p>A <strong>recurrence relation</strong> is an equation that <strong>defin=
+es a sequence in terms of its previous terms</strong>.</p>
+<ul>
+<li>
+<p>Example: Fibonacci sequence:<br>
+[<br>
+F(n) =3D F(n-1) + F(n-2), \quad F(0)=3D0, F(1)=3D1<br>
+]</p></li>
+</ul>
+<p>Here, each term is defined based on <strong>previous terms</strong>, mak=
+ing it a recurrence relation.</p>
+<hr>
+<h2 id=3D"C_DiscreteMathematics-=F0=9F=94=B92.GeneralForm.1">=F0=9F=94=B9 <=
+strong>2. General Form</strong></h2>
+<p>A recurrence relation expresses (a_n) as a function of previous terms:</=
+p>
+<p>[<br>
+a_n =3D f(a_{n-1}, a_{n-2}, ..., a_{n-k}) + g(n)<br>
+]</p>
+<ul>
+<li>
+<p>(f(\cdot)) =E2=86=92 function of previous terms</p></li>
+<li>
+<p>(g(n)) =E2=86=92 function of n (optional)</p></li>
+<li>
+<p>(k) =E2=86=92 order of the recurrence</p></li>
+</ul>
+<hr>
+<h2 id=3D"C_DiscreteMathematics-=F0=9F=94=B93.TypesofRecurrenceRelations.1"=
+>=F0=9F=94=B9 <strong>3. Types of Recurrence Relations</strong></h2>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"d490693f-2e5c-4002-a5d4-2d1=
+d33cfac47" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Type</p></th>
+<th class=3D"confluenceTh">
+<p>Description</p></th>
+<th class=3D"confluenceTh">
+<p>Example</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Linear</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Relation is a linear combination of previous terms</p></td>
+<td class=3D"confluenceTd">
+<p>(a_n =3D 2a_{n-1} + 3)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Homogeneous</strong></p></td>
+<td class=3D"confluenceTd">
+<p>No extra function term (g(n) =3D 0)</p></td>
+<td class=3D"confluenceTd">
+<p>(a_n =3D a_{n-1} + a_{n-2})</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Non-homogeneous</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Has extra function term (g(n) =E2=89=A0 0)</p></td>
+<td class=3D"confluenceTd">
+<p>(a_n =3D 2a_{n-1} + n)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>First-order</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Depends only on one previous term</p></td>
+<td class=3D"confluenceTd">
+<p>(a_n =3D 2a_{n-1} + 1)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Higher-order</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Depends on two or more previous terms</p></td>
+<td class=3D"confluenceTd">
+<p>Fibonacci: (F_n =3D F_{n-1}+F_{n-2})</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id=3D"C_DiscreteMathematics-=F0=9F=94=B94.MethodstoSolveRecurrenceRelat=
+ions.1">=F0=9F=94=B9 <strong>4. Methods to Solve Recurrence Relations</stro=
+ng></h2>
+<h3 id=3D"C_DiscreteMathematics-(a)IterationMethod.1">(a) <strong>Iteration=
+ Method</strong></h3>
+<ul>
+<li>
+<p>Expand the recurrence step by step to find a pattern.</p></li>
+<li>
+<p>Example: (a_n =3D a_{n-1} + 3, a_0=3D2)</p>
+<ul>
+<li>
+<p>(a_1 =3D 2+3 =3D 5)</p></li>
+<li>
+<p>(a_2 =3D 5+3 =3D 8)</p></li>
+<li>
+<p>Pattern: (a_n =3D 2 + 3n)</p></li>
+</ul></li>
+</ul>
+<h3 id=3D"C_DiscreteMathematics-(b)CharacteristicEquationMethod(forlinearho=
+mogeneousrecurrences).1">(b) <strong>Characteristic Equation Method (for li=
+near homogeneous recurrences)</strong></h3>
+<ul>
+<li>
+<p>Assume solution of the form (a_n =3D r^n)</p></li>
+<li>
+<p>Solve characteristic equation:<br>
+[<br>
+r^k + c_1 r^{k-1} + ... + c_k =3D 0<br>
+]</p></li>
+<li>
+<p>General solution depends on roots of the equation.</p></li>
+</ul>
+<p><strong>Example:</strong> Fibonacci recurrence (F_n =3D F_{n-1} + F_{n-2=
+})</p>
+<ul>
+<li>
+<p>Characteristic equation: (r^2 - r - 1 =3D 0) =E2=86=92 roots (r_1, r_2)<=
+/p></li>
+<li>
+<p>Solution: (F_n =3D A r_1^n + B r_2^n)</p></li>
+</ul>
+<h3 id=3D"C_DiscreteMathematics-(c)GeneratingFunctions.1">(c) <strong>Gener=
+ating Functions</strong></h3>
+<ul>
+<li>
+<p>Convert recurrence into a <strong>power series</strong> and solve algebr=
+aically.</p></li>
+<li>
+<p>Useful for complex sequences.</p></li>
+</ul>
+<hr>
+<h2 id=3D"C_DiscreteMathematics-=F0=9F=94=B95.Examples.1">=F0=9F=94=B9 <str=
+ong>5. Examples</strong></h2>
+<ol start=3D"1">
+<li>
+<p><strong>Arithmetic Sequence:</strong><br>
+[<br>
+a_n =3D a_{n-1} + d, \quad a_0 =3D a<br>
+]<br>
+Solution: (a_n =3D a + nd)</p></li>
+<li>
+<p><strong>Geometric Sequence:</strong><br>
+[<br>
+a_n =3D r a_{n-1}, \quad a_0 =3D a<br>
+]<br>
+Solution: (a_n =3D a r^n)</p></li>
+<li>
+<p><strong>Fibonacci Sequence:</strong><br>
+[<br>
+F_0=3D0, F_1=3D1, F_n =3D F_{n-1}+F_{n-2}<br>
+]<br>
+Solution using characteristic roots:<br>
+[<br>
+F_n =3D \frac{1}{\sqrt{5}} \left( \left(\frac{1+\sqrt{5}}{2}\right)^n - \le=
+ft(\frac{1-\sqrt{5}}{2}\right)^n \right)<br>
+]</p></li>
+</ol>
+<hr>
+<h2 id=3D"C_DiscreteMathematics-=E2=9C=856.Applications.1">=E2=9C=85 <stron=
+g>6. Applications</strong></h2>
+<ul>
+<li>
+<p>Analyzing <strong>algorithms</strong> (time complexity of recursive func=
+tions)</p></li>
+<li>
+<p>Counting problems in combinatorics</p></li>
+<li>
+<p>Modeling <strong>population growth</strong> and financial sequences</p><=
+/li>
+<li>
+<p>Dynamic programming problems</p></li>
+</ul>
+<hr>
+<h3 id=3D"C_DiscreteMathematics-Inshort:.3"><strong>In short:</strong></h3>
+<ul>
+<li>
+<p><strong>Recurrence relation:</strong> Defines each term of a sequence in=
+ terms of previous terms.</p></li>
+<li>
+<p><strong>Types:</strong> Linear, homogeneous, non-homogeneous, first-orde=
+r, higher-order.</p></li>
+<li>
+<p><strong>Solving methods:</strong> Iteration, characteristic equation, ge=
+nerating functions.</p></li>
+<li>
+<p>Widely used in <strong>algorithm design, combinatorics, and computer sci=
+ence</strong>.</p></li>
+</ul>
+<hr>
+<p>If you want, I can next explain <strong>Graph Traversal Techniques and T=
+opological Sorting</strong>, which naturally follow recurrence and counting=
+ in discrete math.</p>
+    </div>
+</body>
+</html>
+------=_Part_14_1997427641.1760787742913--

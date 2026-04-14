@@ -1,0 +1,70 @@
+- generic [ref=e3]:
+  - generic [ref=e7]:
+    - heading "IT Study Guide" [level=1] [ref=e8]
+    - generic [ref=e9]:
+      - button "1. Basic Physics" [ref=e10]
+      - button "2. Introduction to Computer Systems" [active] [ref=e11]
+      - button "3. Electrical Circuits" [ref=e12]
+      - button "4. Digital Logic Design" [ref=e13]
+      - button "5. Basic Electronics" [ref=e14]
+      - button "6. Microprocessor and Interfacing" [ref=e15]
+      - button "7. Computer Architecture" [ref=e16]
+      - button "8. Communication Theory" [ref=e17]
+      - button "9. Computer Networking and Security" [ref=e18]
+      - button "10. Structured Programming Language (C)" [ref=e19]
+      - button "11. Object Oriented Programming (OOP)" [ref=e20]
+      - button "12. Discrete Mathematics" [ref=e21]
+      - button "13. Graphs" [ref=e22]
+      - button "14. Theory of Computation" [ref=e23]
+      - button "15. Data Structures and Algorithms" [ref=e24]
+      - button "16. Database Systems" [ref=e25]
+      - button "17. Software Engineering" [ref=e26]
+      - button "18. Operating System" [ref=e27]
+      - button "19. Artificial Intelligence" [ref=e28]
+  - generic [ref=e30]:
+    - generic [ref=e31]:
+      - generic [ref=e32]: Beginner
+      - generic [ref=e33]: 2. Introduction to Computer Systems • Lesson 1 of 6
+    - heading "Introduction to Computation" [level=2] [ref=e72]
+    - generic [ref=e35]:
+      - paragraph [ref=e36]: "Computation: Process of solving problems, performing calculations, or processing information using well-defined rules."
+      - paragraph
+      - paragraph [ref=e37]: "Key Components:"
+      - paragraph [ref=e73]: "• Input: Data provided to computation"
+      - paragraph [ref=e38]: "• Process: Operations/algorithms applied"
+      - paragraph [ref=e74]: "• Output: Result produced"
+      - paragraph
+      - paragraph [ref=e75]: "Types of Computation:"
+      - paragraph [ref=e40]: "• Exact: Precise, deterministic results"
+      - paragraph [ref=e76]: "• Approximate: Close to exact value"
+      - paragraph [ref=e41]: "• Symbolic: Manipulates symbols/expressions"
+      - paragraph [ref=e77]: "• Logical/Boolean: Uses true/false values"
+      - paragraph
+      - paragraph [ref=e78]: "Models of Computation:"
+      - paragraph [ref=e43]: "• Turing Machine: Abstract model defining computability"
+      - paragraph [ref=e79]: "• Finite Automata: Limited memory, pattern recognition"
+      - paragraph [ref=e44]: "• Lambda Calculus: Mathematical function model"
+      - paragraph
+      - paragraph [ref=e80]: Computation is fundamental to programming, algorithms, and computational theory.
+    - generic [ref=e45]:
+      - heading "Key Takeaways" [level=3] [ref=e46]
+      - list [ref=e47]:
+        - listitem [ref=e48]: Computation transforms input to output via algorithm
+        - listitem [ref=e50]: "Multiple types: exact, approximate, symbolic, logical"
+        - listitem [ref=e52]: Turing Machine defines what problems are computable
+        - listitem [ref=e54]: Foundation for programming and algorithms
+    - generic [ref=e56]:
+      - generic [ref=e57]:
+        - generic [ref=e58]: Key Formula
+        - button "Copy" [ref=e59]:
+          - img [ref=e60]
+          - text: Copy
+      - code [ref=e63]: "Computation: Input → Algorithm → Output"
+    - generic [ref=e64]:
+      - button "Previous" [ref=e65]:
+        - img [ref=e66]
+        - text: Previous
+      - generic [ref=e68]: 5 / 50
+      - button "Next" [ref=e69]:
+        - text: Next
+        - img [ref=e70]

@@ -1,0 +1,1315 @@
+Date: Sat, 18 Oct 2025 11:36:57 +0000 (UTC)
+Message-ID: <533102444.557.1760787417706@b63882b768ac>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_556_328965946.1760787417705"
+
+------=_Part_556_328965946.1760787417705
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>5_Basic Electronics</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>5_Basic Electronics</h1>
+    <div class=3D"Section1">
+        <ol start=3D"1">
+<li>
+<p>Diode circuit: current-voltage characteristics of a diode, DC and AC mod=
+els, dynamic resistance and capacitance, load line, Zener regulator, half w=
+ave and full wave rectifier, voltage multiplier, clipper and clamper;</p></=
+li>
+<li>
+<p>Bipolar junction transistors: construction and operation, amplifying act=
+ion, common base, common emitter, common collector, load line, different bi=
+asing, stability factor, small signal equivalent circuit models, BJT as a s=
+witch;</p></li>
+<li>
+<p>Single stage amplifier: voltage and current gain, input and output imped=
+ance of a common base, common emitter and common collector, h-parameter;</p=
+></li>
+<li>
+<p>Field effect transistor (FET): JFET structure, operation and characteris=
+tics. MOSFET construction, operation and characteristics.</p></li>
+</ol>
+<p></p>
+<ol start=3D"1">
+<li>
+<p>Diode circuit: current-voltage characteristics of a diode, DC and AC mod=
+els, dynamic resistance and capacitance, load line, Zener regulator, half w=
+ave and full wave rectifier, voltage multiplier, clipper and clamper;</p></=
+li>
+</ol>
+<p>Let=E2=80=99s go through all topics under <strong>Diode Circuits</strong=
+> =E2=80=94 a very important part of <strong>electronics</strong> (used in =
+power supplies, signal processing, and voltage regulation).</p>
+<hr>
+<h2 id=3D"id-5_BasicElectronics-=F0=9F=92=A11.Diode=E2=80=94BasicConcept">=
+=F0=9F=92=A1 <strong>1. Diode =E2=80=94 Basic Concept</strong></h2>
+<p>A <strong>diode</strong> is a semiconductor device that allows <strong>c=
+urrent to flow in only one direction</strong>.</p>
+<h3 id=3D"id-5_BasicElectronics-=F0=9F=94=B9Construction">=F0=9F=94=B9 Cons=
+truction</h3>
+<ul>
+<li>
+<p>Made from <strong>p=E2=80=93n junction</strong> (p-type and n-type semic=
+onductor).</p></li>
+<li>
+<p><strong>p-side =E2=86=92 Anode</strong>, <strong>n-side =E2=86=92 Cathod=
+e</strong>.</p></li>
+</ul>
+<hr>
+<h2 id=3D"id-5_BasicElectronics-=E2=9A=A12.Current=E2=80=93Voltage(I=E2=80=
+=93V)CharacteristicsofaDiode">=E2=9A=A1 <strong>2. Current=E2=80=93Voltage =
+(I=E2=80=93V) Characteristics of a Diode</strong></h2>
+<h3 id=3D"id-5_BasicElectronics-=F0=9F=94=B9(a)ForwardBias">=F0=9F=94=B9 (a=
+) Forward Bias</h3>
+<ul>
+<li>
+<p>p-side connected to positive terminal of battery.</p></li>
+<li>
+<p>The potential barrier is reduced =E2=86=92 current flows easily.</p></li=
+>
+<li>
+<p>Current increases <strong>exponentially</strong> after threshold voltage=
+:</p>
+<ul>
+<li>
+<p>~0.7 V for <strong>Silicon diode</strong></p></li>
+<li>
+<p>~0.3 V for <strong>Germanium diode</strong></p></li>
+</ul></li>
+</ul>
+<p>[<br>
+I =3D I_s (e^{V/V_T} - 1)<br>
+]<br>
+where<br>
+( I_s ) =3D reverse saturation current,<br>
+( V_T =3D kT/q \approx 26 , mV ) at room temperature.</p>
+<hr>
+<h3 id=3D"id-5_BasicElectronics-=F0=9F=94=B9(b)ReverseBias">=F0=9F=94=B9 (b=
+) Reverse Bias</h3>
+<ul>
+<li>
+<p>p-side connected to negative terminal.</p></li>
+<li>
+<p>Barrier potential increases =E2=86=92 <strong>very small current</strong=
+> flows (reverse saturation current ( I_s )).</p></li>
+<li>
+<p>Beyond a point (breakdown voltage), <strong>large reverse current</stron=
+g> flows =E2=86=92 diode may be damaged (except Zener).</p></li>
+</ul>
+<hr>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"7b7124f4-8532-471f-893a-d16=
+d7128705d" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Bias Type</p></th>
+<th class=3D"confluenceTh">
+<p>Current Flow</p></th>
+<th class=3D"confluenceTh">
+<p>Voltage Drop (Si)</p></th>
+<th class=3D"confluenceTh">
+<p>Current Direction</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Forward</p></td>
+<td class=3D"confluenceTd">
+<p>High</p></td>
+<td class=3D"confluenceTd">
+<p>~0.7 V</p></td>
+<td class=3D"confluenceTd">
+<p>Anode =E2=86=92 Cathode</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Reverse</p></td>
+<td class=3D"confluenceTd">
+<p>Very Low</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=80=93</p></td>
+<td class=3D"confluenceTd">
+<p>Negligible</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id=3D"id-5_BasicElectronics-=F0=9F=94=B93.DCandACModelsofaDiode">=F0=9F=
+=94=B9 <strong>3. DC and AC Models of a Diode</strong></h2>
+<h3 id=3D"id-5_BasicElectronics-(a)DCorStaticModel">(a) <strong>DC or Stati=
+c Model</strong></h3>
+<p>Used for <strong>constant voltages</strong> (steady-state).<br>
+Approximations:</p>
+<ol start=3D"1">
+<li>
+<p><strong>Ideal diode</strong> =E2=80=94 forward drop =3D 0 V, reverse =3D=
+ open.</p></li>
+<li>
+<p><strong>Practical diode</strong> =E2=80=94 0.7 V drop (Si).</p></li>
+</ol>
+<hr>
+<h3 id=3D"id-5_BasicElectronics-(b)ACorSmall-SignalModel">(b) <strong>AC or=
+ Small-Signal Model</strong></h3>
+<p>Used for <strong>AC signals (small variations)</strong> around a DC bias=
+ point.</p>
+<p>In AC analysis, diode is replaced by:</p>
+<ul>
+<li>
+<p>A <strong>dynamic resistance</strong> ( r_d )</p></li>
+<li>
+<p>Sometimes <strong>junction capacitance</strong> ( C_j )</p></li>
+</ul>
+<p>[<br>
+r_d =3D \frac{nV_T}{I_D}<br>
+]<br>
+where ( I_D ) =3D DC bias current, ( n =E2=89=88 1 ).</p>
+<hr>
+<h2 id=3D"id-5_BasicElectronics-=E2=9A=99=EF=B8=8F4.DynamicResistanceandCap=
+acitance">=E2=9A=99=EF=B8=8F <strong>4. Dynamic Resistance and Capacitance<=
+/strong></h2>
+<ul>
+<li>
+<p><strong>Dynamic (AC) resistance (r_d):</strong> resistance offered to sm=
+all AC signals.<br>
+[<br>
+r_d =3D \frac{dV}{dI} =3D \frac{nV_T}{I_D}<br>
+]</p></li>
+<li>
+<p><strong>Junction Capacitance (C_j):</strong> due to charge storage in de=
+pletion region.<br>
+[<br>
+C_j =3D \frac{\varepsilon A}{W}<br>
+]<br>
+where ( W ) =3D depletion width.</p></li>
+</ul>
+<p>Capacitance decreases as reverse voltage increases.</p>
+<hr>
+<h2 id=3D"id-5_BasicElectronics-=F0=9F=93=895.LoadLineAnalysis">=F0=9F=93=
+=89 <strong>5. Load Line Analysis</strong></h2>
+<p>Used to determine <strong>operating point (Q-point)</strong> of a diode =
+circuit.</p>
+<h3 id=3D"id-5_BasicElectronics-Equation:">Equation:</h3>
+<p>[<br>
+V_D + I_D R =3D V_{supply}<br>
+]</p>
+<p>Plot this line on the diode I=E2=80=93V curve.</p>
+<ul>
+<li>
+<p>Intersection point =3D <strong>Q-point</strong> (actual voltage and curr=
+ent).</p></li>
+</ul>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"8394b17c-819a-48bc-9e7d-f34=
+ab6c862df" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Type</p></th>
+<th class=3D"confluenceTh">
+<p>Description</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>DC Load Line</strong></p></td>
+<td class=3D"confluenceTd">
+<p>For steady operation</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>AC Load Line</strong></p></td>
+<td class=3D"confluenceTd">
+<p>For signal variations</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id=3D"id-5_BasicElectronics-=E2=9A=99=EF=B8=8F6.ZenerDiodeandZenerRegul=
+ator">=E2=9A=99=EF=B8=8F <strong>6. Zener Diode and Zener Regulator</strong=
+></h2>
+<h3 id=3D"id-5_BasicElectronics-=F0=9F=94=B9ZenerDiode">=F0=9F=94=B9 Zener =
+Diode</h3>
+<ul>
+<li>
+<p>Designed to operate in <strong>reverse breakdown region</strong> safely.=
+</p></li>
+<li>
+<p>Maintains <strong>constant voltage</strong> even if current or load chan=
+ges.</p></li>
+</ul>
+<h3 id=3D"id-5_BasicElectronics-=F0=9F=94=B9ZenerVoltageRegulator">=F0=9F=
+=94=B9 Zener Voltage Regulator</h3>
+<ul>
+<li>
+<p>Used in power supplies to provide <strong>stable DC output</strong>.</p>=
+</li>
+</ul>
+<p><strong>Working:</strong><br>
+When input voltage increases =E2=86=92 Zener conducts more =E2=86=92 keeps =
+output constant.<br>
+When input decreases =E2=86=92 conducts less =E2=86=92 again keeps voltage =
+constant.</p>
+<p>[<br>
+V_{out} =E2=89=88 V_Z<br>
+]</p>
+<hr>
+<h2 id=3D"id-5_BasicElectronics-=E2=9A=A17.Rectifiers(AC=E2=86=92DCconversi=
+on)">=E2=9A=A1 <strong>7. Rectifiers (AC =E2=86=92 DC conversion)</strong><=
+/h2>
+<h3 id=3D"id-5_BasicElectronics-=F0=9F=94=B9(a)Half-WaveRectifier">=F0=9F=
+=94=B9 (a) Half-Wave Rectifier</h3>
+<ul>
+<li>
+<p>Uses <strong>one diode</strong>.</p></li>
+<li>
+<p>Conducts only during <strong>positive half cycle</strong>.</p></li>
+<li>
+<p>Output: Pulsating DC</p></li>
+<li>
+<p>Efficiency =E2=89=88 40.6%</p></li>
+<li>
+<p>Ripple Factor =E2=89=88 1.21</p></li>
+</ul>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence"> AC =E2=
+=86=92 |&gt;| =E2=86=92 Load
+</pre>
+</div>
+</div>
+<hr>
+<h3 id=3D"id-5_BasicElectronics-=F0=9F=94=B9(b)Full-WaveRectifier">=F0=9F=
+=94=B9 (b) Full-Wave Rectifier</h3>
+<ul>
+<li>
+<p>Uses <strong>two diodes</strong> with center-tapped transformer<br>
+or <strong>four diodes</strong> (Bridge Rectifier).</p></li>
+<li>
+<p>Converts both half cycles into DC.</p></li>
+<li>
+<p>Efficiency =E2=89=88 81.2%</p></li>
+<li>
+<p>Ripple Factor =E2=89=88 0.48</p></li>
+</ul>
+<p>=E2=9C=85 Output smoother than half-wave.</p>
+<hr>
+<h2 id=3D"id-5_BasicElectronics-=E2=9A=A18.VoltageMultiplierCircuits">=E2=
+=9A=A1 <strong>8. Voltage Multiplier Circuits</strong></h2>
+<p>Used to generate <strong>high DC voltages</strong> from low AC input.</p=
+>
+<h3 id=3D"id-5_BasicElectronics-Types:">Types:</h3>
+<ul>
+<li>
+<p><strong>Voltage Doubler:</strong> Output =E2=89=88 2 =C3=97 peak input</=
+p></li>
+<li>
+<p><strong>Tripler / Quadrupler:</strong> Output =E2=89=88 3=C3=97 / 4=C3=
+=97 input</p></li>
+</ul>
+<p>Applications: CRTs, photocopiers, X-ray tubes.</p>
+<hr>
+<h2 id=3D"id-5_BasicElectronics-=F0=9F=93=889.ClippersandClampers">=F0=9F=
+=93=88 <strong>9. Clippers and Clampers</strong></h2>
+<h3 id=3D"id-5_BasicElectronics-=F0=9F=94=B9Clipper">=F0=9F=94=B9 Clipper</=
+h3>
+<p>Removes (clips) <strong>part of input waveform</strong> above or below a=
+ reference level.</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"8459a0f8-0dd9-4c51-8000-5db=
+abedefd1d" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Type</p></th>
+<th class=3D"confluenceTh">
+<p>Function</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Series clipper</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Removes one part of waveform directly</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Parallel clipper</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Uses reference voltage to clip</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Biased clipper</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Clips using DC bias + diode</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Used for wave shaping in communication circuits.</p>
+<hr>
+<h3 id=3D"id-5_BasicElectronics-=F0=9F=94=B9Clamper">=F0=9F=94=B9 Clamper</=
+h3>
+<p>Shifts the <strong>entire waveform</strong> up or down without changing =
+its shape.</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"9323e0fe-0b89-4faf-bacc-f6d=
+78dd7ead6" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Type</p></th>
+<th class=3D"confluenceTh">
+<p>Function</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Positive clamper</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Shifts signal upward</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Negative clamper</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Shifts signal downward</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Used in TV receivers, oscilloscopes, and signal processing.</p>
+<hr>
+<h2 id=3D"id-5_BasicElectronics-=F0=9F=93=98SummaryTable">=F0=9F=93=98 <str=
+ong>Summary Table</strong></h2>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"06ac7bda-6f1b-4a47-9ea4-bc8=
+184cd74ee" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Concept</p></th>
+<th class=3D"confluenceTh">
+<p>Key Idea</p></th>
+<th class=3D"confluenceTh">
+<p>Formula / Note</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>I=E2=80=93V Characteristics</p></td>
+<td class=3D"confluenceTd">
+<p>Shows diode behavior</p></td>
+<td class=3D"confluenceTd">
+<p>( I =3D I_s(e^{V/V_T}-1) )</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>DC Model</p></td>
+<td class=3D"confluenceTd">
+<p>Constant voltage drop</p></td>
+<td class=3D"confluenceTd">
+<p>( V_D =E2=89=88 0.7 V ) (Si)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>AC Model</p></td>
+<td class=3D"confluenceTd">
+<p>Small signal</p></td>
+<td class=3D"confluenceTd">
+<p>( r_d =3D nV_T / I_D )</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Load Line</p></td>
+<td class=3D"confluenceTd">
+<p>Operating point</p></td>
+<td class=3D"confluenceTd">
+<p>( V + IR =3D V_s )</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Zener Regulator</p></td>
+<td class=3D"confluenceTd">
+<p>Constant output</p></td>
+<td class=3D"confluenceTd">
+<p>( V_{out} =E2=89=88 V_Z )</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Half-Wave Rectifier</p></td>
+<td class=3D"confluenceTd">
+<p>1 diode</p></td>
+<td class=3D"confluenceTd">
+<p>40.6% efficiency</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Full-Wave Rectifier</p></td>
+<td class=3D"confluenceTd">
+<p>2 or 4 diodes</p></td>
+<td class=3D"confluenceTd">
+<p>81.2% efficiency</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Voltage Multiplier</p></td>
+<td class=3D"confluenceTd">
+<p>Increases DC level</p></td>
+<td class=3D"confluenceTd">
+<p>Doubler, Tripler, etc.</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Clipper</p></td>
+<td class=3D"confluenceTd">
+<p>Cuts waveform portion</p></td>
+<td class=3D"confluenceTd">
+<p>Wave shaping</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Clamper</p></td>
+<td class=3D"confluenceTd">
+<p>Shifts waveform level</p></td>
+<td class=3D"confluenceTd">
+<p>DC restoration</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p>=E2=9C=85 <strong>In Short:</strong></p>
+<blockquote>
+<p>A <strong>diode</strong> allows current in one direction and forms the b=
+asis of <strong>rectifiers</strong>, <strong>regulators</strong>, and <stro=
+ng>wave-shaping circuits</strong>.<br>
+Understanding <strong>I=E2=80=93V characteristics</strong>, <strong>load li=
+nes</strong>, <strong>Zener regulation</strong>, and <strong>clipper/clampe=
+r</strong> functions is essential in <strong>electronics circuit design</st=
+rong>.</p>
+</blockquote>
+<ol start=3D"2">
+<li>
+<p>Bipolar junction transistors: construction and operation, amplifying act=
+ion, common base, common emitter, common collector, load line, different bi=
+asing, stability factor, small signal equivalent circuit models, BJT as a s=
+witch;</p></li>
+</ol>
+<p>Let=E2=80=99s explain <strong>Bipolar Junction Transistors (BJT)</strong=
+> and all related concepts one by one =F0=9F=91=87</p>
+<hr>
+<h3 id=3D"id-5_BasicElectronics-1.ConstructionandOperation"><strong>1. Cons=
+truction and Operation</strong></h3>
+<p>A <strong>BJT (Bipolar Junction Transistor)</strong> is a three-layer, t=
+wo-junction semiconductor device that can amplify or switch electrical sign=
+als.<br>
+It has <strong>three terminals</strong>:</p>
+<ul>
+<li>
+<p><strong>Emitter (E)</strong> =E2=80=93 Heavily doped; emits charge carri=
+ers.</p></li>
+<li>
+<p><strong>Base (B)</strong> =E2=80=93 Very thin and lightly doped.</p></li=
+>
+<li>
+<p><strong>Collector (C)</strong> =E2=80=93 Moderately doped; collects carr=
+iers.</p></li>
+</ul>
+<p>There are two types:</p>
+<ul>
+<li>
+<p><strong>NPN transistor:</strong> Current flows from collector =E2=86=92 =
+emitter when base is positive.</p></li>
+<li>
+<p><strong>PNP transistor:</strong> Current flows from emitter =E2=86=92 co=
+llector when base is negative.</p></li>
+</ul>
+<p><strong>Operation principle:</strong><br>
+A small base current controls a large collector current.<br>
+When base-emitter junction is <strong>forward biased</strong> and collector=
+-base junction is <strong>reverse biased</strong>, transistor works in the =
+<strong>active region (amplification)</strong>.</p>
+<hr>
+<h3 id=3D"id-5_BasicElectronics-2.AmplifyingAction"><strong>2. Amplifying A=
+ction</strong></h3>
+<p>A BJT can amplify because:</p>
+<ul>
+<li>
+<p>Small input current at the base controls large output current at the col=
+lector.<br>
+The current gain (=CE=B2) =3D <strong>IC / IB</strong><br>
+Hence, a small base signal produces a large collector output =E2=80=94 that=
+=E2=80=99s <strong>amplification</strong>.</p></li>
+</ul>
+<hr>
+<h3 id=3D"id-5_BasicElectronics-3.Configurations"><strong>3. Configurations=
+</strong></h3>
+<p>There are three basic transistor configurations:</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"b9a155c4-c825-499e-8575-0de=
+153a984cf" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Configuration</p></th>
+<th class=3D"confluenceTh">
+<p>Input</p></th>
+<th class=3D"confluenceTh">
+<p>Output</p></th>
+<th class=3D"confluenceTh">
+<p>Use</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Common Base (CB)</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Base common to both input &amp; output</p></td>
+<td class=3D"confluenceTd">
+<p>Low input impedance, high output impedance</p></td>
+<td class=3D"confluenceTd">
+<p>High-frequency amplifiers</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Common Emitter (CE)</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Emitter common</p></td>
+<td class=3D"confluenceTd">
+<p>High voltage &amp; current gain</p></td>
+<td class=3D"confluenceTd">
+<p>General purpose amplifiers</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Common Collector (CC)</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Collector common</p></td>
+<td class=3D"confluenceTd">
+<p>High input impedance, unity voltage gain</p></td>
+<td class=3D"confluenceTd">
+<p>Buffer or impedance matching</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h3 id=3D"id-5_BasicElectronics-4.LoadLine"><strong>4. Load Line</strong></=
+h3>
+<p>The <strong>load line</strong> represents all possible combinations of c=
+ollector current (IC) and collector-emitter voltage (VCE) for a given load =
+resistance.</p>
+<ul>
+<li>
+<p><strong>DC Load Line:</strong> Drawn on transistor output characteristic=
+s to determine Q-point (quiescent point).</p></li>
+<li>
+<p><strong>Q-point:</strong> Represents steady-state operating condition of=
+ transistor (no input signal).</p></li>
+</ul>
+<hr>
+<h3 id=3D"id-5_BasicElectronics-5.BiasingMethods"><strong>5. Biasing Method=
+s</strong></h3>
+<p>Biasing means providing proper DC voltage to operate the transistor in t=
+he desired region.</p>
+<p><strong>Types of Biasing:</strong></p>
+<ol start=3D"1">
+<li>
+<p>Fixed bias</p></li>
+<li>
+<p>Collector-to-base bias</p></li>
+<li>
+<p>Voltage divider bias (most stable)</p></li>
+<li>
+<p>Emitter bias</p></li>
+</ol>
+<p><strong>Purpose:</strong> Maintain the transistor in the <strong>active =
+region</strong> for linear amplification.</p>
+<hr>
+<h3 id=3D"id-5_BasicElectronics-6.StabilityFactor"><strong>6. Stability Fac=
+tor</strong></h3>
+<p>Indicates how stable the collector current (IC) remains despite temperat=
+ure changes or variations in transistor parameters.<br>
+Lower the <strong>stability factor</strong>, the more stable the biasing.</=
+p>
+<hr>
+<h3 id=3D"id-5_BasicElectronics-7.SmallSignalEquivalentCircuitModels"><stro=
+ng>7. Small Signal Equivalent Circuit Models</strong></h3>
+<p>Used to analyze transistor amplifiers for small AC signals.</p>
+<p>Two models are common:</p>
+<ol start=3D"1">
+<li>
+<p><strong>Hybrid (h-parameter) model</strong></p>
+<ul>
+<li>
+<p>Expresses transistor behavior using h-parameters (hie, hre, hfe, hoe).</=
+p></li>
+</ul></li>
+<li>
+<p><strong>r-parameter model</strong></p>
+<ul>
+<li>
+<p>Uses input resistance (r=CF=80) and transconductance (gm).</p></li>
+</ul></li>
+</ol>
+<p>These models help calculate <strong>voltage gain, input impedance, outpu=
+t impedance</strong>, etc.</p>
+<hr>
+<h3 id=3D"id-5_BasicElectronics-8.BJTasaSwitch"><strong>8. BJT as a Switch<=
+/strong></h3>
+<p>BJT can operate in two extreme modes:</p>
+<ol start=3D"1">
+<li>
+<p><strong>Cutoff region</strong> =E2=80=93 Both junctions reverse-biased =
+=E2=86=92 <strong>transistor OFF</strong> (no current).</p></li>
+<li>
+<p><strong>Saturation region</strong> =E2=80=93 Both junctions forward-bias=
+ed =E2=86=92 <strong>transistor ON</strong> (max current).</p></li>
+</ol>
+<p>This behavior is used in <strong>digital circuits</strong> to implement =
+logic gates, relays, or LED drivers.</p>
+<hr>
+<h3 id=3D"id-5_BasicElectronics-=E2=9C=85SummaryTable">=E2=9C=85 <strong>Su=
+mmary Table</strong></h3>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"74ef2588-2cd4-4c6f-a8f9-430=
+b0cebe445" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Mode</p></th>
+<th class=3D"confluenceTh">
+<p>E-B Junction</p></th>
+<th class=3D"confluenceTh">
+<p>C-B Junction</p></th>
+<th class=3D"confluenceTh">
+<p>Transistor State</p></th>
+<th class=3D"confluenceTh">
+<p>Use</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Cutoff</p></td>
+<td class=3D"confluenceTd">
+<p>Reverse</p></td>
+<td class=3D"confluenceTd">
+<p>Reverse</p></td>
+<td class=3D"confluenceTd">
+<p>OFF</p></td>
+<td class=3D"confluenceTd">
+<p>Switch OFF</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Active</p></td>
+<td class=3D"confluenceTd">
+<p>Forward</p></td>
+<td class=3D"confluenceTd">
+<p>Reverse</p></td>
+<td class=3D"confluenceTd">
+<p>Amplifier</p></td>
+<td class=3D"confluenceTd">
+<p>Amplification</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Saturation</p></td>
+<td class=3D"confluenceTd">
+<p>Forward</p></td>
+<td class=3D"confluenceTd">
+<p>Forward</p></td>
+<td class=3D"confluenceTd">
+<p>ON</p></td>
+<td class=3D"confluenceTd">
+<p>Switch ON</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p>Would you like me to make a <strong>2-column MCQ sheet (10=E2=80=9315 qu=
+estions)</strong> for this =E2=80=9CBJT=E2=80=9D topic next?</p>
+<ol start=3D"3">
+<li>
+<p>Single stage amplifier: voltage and current gain, input and output imped=
+ance of a common base, common emitter and common collector, h-parameter;</p=
+></li>
+</ol>
+<p>Let=E2=80=99s explain the topic <strong>Single Stage Amplifier</strong> =
+and all its parts clearly =F0=9F=91=87</p>
+<hr>
+<h2 id=3D"id-5_BasicElectronics-=F0=9F=A7=A91.SingleStageAmplifier=E2=80=93=
+Overview">=F0=9F=A7=A9 <strong>1. Single Stage Amplifier =E2=80=93 Overview=
+</strong></h2>
+<p>A <strong>single-stage amplifier</strong> uses <strong>one transistor</s=
+trong> (BJT or FET) and related resistors and capacitors to amplify a weak =
+input signal.</p>
+<ul>
+<li>
+<p>The <strong>AC signal</strong> is applied to the input.</p></li>
+<li>
+<p>The <strong>amplified output</strong> is taken from the output circuit.<=
+/p></li>
+<li>
+<p>Capacitors are used for <strong>coupling</strong> and <strong>bypassing<=
+/strong> to separate AC and DC.</p></li>
+</ul>
+<hr>
+<h2 id=3D"id-5_BasicElectronics-=E2=9A=99=EF=B8=8F2.TypesofSingleStageAmpli=
+fiers(byTransistorConfiguration)">=E2=9A=99=EF=B8=8F <strong>2. Types of Si=
+ngle Stage Amplifiers (by Transistor Configuration)</strong></h2>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"80e8cfb4-499c-427d-8e7e-542=
+28951e68c" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Type</p></th>
+<th class=3D"confluenceTh">
+<p>Common Terminal</p></th>
+<th class=3D"confluenceTh">
+<p>Main Features</p></th>
+<th class=3D"confluenceTh">
+<p>Symbol</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Common Base (CB)</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Base</p></td>
+<td class=3D"confluenceTd">
+<p>Low input impedance, high output impedance, voltage gain &gt; 1, current=
+ gain &lt; 1</p></td>
+<td class=3D"confluenceTd">
+<p>=F0=9F=93=89</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Common Emitter (CE)</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Emitter</p></td>
+<td class=3D"confluenceTd">
+<p>High voltage &amp; current gain, moderate input/output impedance</p></td=
+>
+<td class=3D"confluenceTd">
+<p>=F0=9F=94=BA</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Common Collector (CC)</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Collector</p></td>
+<td class=3D"confluenceTd">
+<p>High input impedance, low output impedance, unity voltage gain</p></td>
+<td class=3D"confluenceTd">
+<p>=F0=9F=94=84</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id=3D"id-5_BasicElectronics-=E2=9A=A13.VoltageandCurrentGain">=E2=9A=A1=
+ <strong>3. Voltage and Current Gain</strong></h2>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"de0b8647-dbf9-4b98-ab05-93a=
+98269cedb" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Configuration</p></th>
+<th class=3D"confluenceTh">
+<p>Voltage Gain (Av)</p></th>
+<th class=3D"confluenceTh">
+<p>Current Gain (Ai)</p></th>
+<th class=3D"confluenceTh">
+<p>Power Gain</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>CB</strong></p></td>
+<td class=3D"confluenceTd">
+<p>High</p></td>
+<td class=3D"confluenceTd">
+<p>&lt; 1</p></td>
+<td class=3D"confluenceTd">
+<p>Medium</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>CE</strong></p></td>
+<td class=3D"confluenceTd">
+<p>High</p></td>
+<td class=3D"confluenceTd">
+<p>High</p></td>
+<td class=3D"confluenceTd">
+<p>Very High</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>CC</strong></p></td>
+<td class=3D"confluenceTd">
+<p>=E2=89=88 1</p></td>
+<td class=3D"confluenceTd">
+<p>High</p></td>
+<td class=3D"confluenceTd">
+<p>Moderate</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id=3D"id-5_BasicElectronics-Formulas(approximate)">Formulas (approximat=
+e)</h3>
+<ul>
+<li>
+<p><strong>Voltage Gain (Av) =3D Vout / Vin</strong></p></li>
+<li>
+<p><strong>Current Gain (Ai) =3D Iout / Iin =3D =CE=B2 (for CE configuratio=
+n)</strong></p></li>
+<li>
+<p><strong>Power Gain (Ap) =3D Av =C3=97 Ai</strong></p></li>
+</ul>
+<hr>
+<h2 id=3D"id-5_BasicElectronics-=F0=9F=94=8C4.InputandOutputImpedance">=F0=
+=9F=94=8C <strong>4. Input and Output Impedance</strong></h2>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"b6f2481d-e632-4f2f-8338-176=
+378b4a756" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Configuration</p></th>
+<th class=3D"confluenceTh">
+<p>Input Impedance</p></th>
+<th class=3D"confluenceTh">
+<p>Output Impedance</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>CB</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Low (50=E2=80=93500 =CE=A9)</p></td>
+<td class=3D"confluenceTd">
+<p>High (k=CE=A9 range)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>CE</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Medium (1 k=CE=A9 =E2=80=93 5 k=CE=A9)</p></td>
+<td class=3D"confluenceTd">
+<p>Medium (10 k=CE=A9 =E2=80=93 50 k=CE=A9)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>CC</strong></p></td>
+<td class=3D"confluenceTd">
+<p>High (hundreds of k=CE=A9)</p></td>
+<td class=3D"confluenceTd">
+<p>Low (tens of =CE=A9)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id=3D"id-5_BasicElectronics-=F0=9F=94=8D5.h-ParameterModel(HybridModel)=
+">=F0=9F=94=8D <strong>5. h-Parameter Model (Hybrid Model)</strong></h2>
+<p>The <strong>h-parameter (hybrid parameter)</strong> model represents the=
+ small-signal behavior of a transistor using four parameters.<br>
+It is very useful for analyzing <strong>voltage gain</strong>, <strong>curr=
+ent gain</strong>, and <strong>impedance</strong> in different configuratio=
+ns.</p>
+<h3 id=3D"id-5_BasicElectronics-Basich-parameterequations:">Basic h-paramet=
+er equations:</h3>
+<p>[<br>
+V_1 =3D h_{11} I_1 + h_{12} V_2<br>
+]<br>
+[<br>
+I_2 =3D h_{21} I_1 + h_{22} V_2<br>
+]</p>
+<p>Where:</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"d12d5f45-4ecb-4516-90d9-784=
+71c2fbc69" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Parameter</p></th>
+<th class=3D"confluenceTh">
+<p>Meaning</p></th>
+<th class=3D"confluenceTh">
+<p>Typical Unit</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>h=E2=82=81=E2=82=81</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Input impedance (hie)</p></td>
+<td class=3D"confluenceTd">
+<p>Ohm (=CE=A9)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>h=E2=82=81=E2=82=82</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Reverse voltage gain (hre)</p></td>
+<td class=3D"confluenceTd">
+<p>Dimensionless</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>h=E2=82=82=E2=82=81</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Forward current gain (hfe or =CE=B2)</p></td>
+<td class=3D"confluenceTd">
+<p>Dimensionless</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>h=E2=82=82=E2=82=82</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Output admittance (hoe)</p></td>
+<td class=3D"confluenceTd">
+<p>Siemens (S)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Each transistor configuration has its own h-parameter set:</p>
+<ul>
+<li>
+<p><strong>Common Emitter:</strong> hie, hre, hfe, hoe</p></li>
+<li>
+<p><strong>Common Base:</strong> hib, hrb, hfb, hob</p></li>
+<li>
+<p><strong>Common Collector:</strong> hic, hrc, hfc, hoc</p></li>
+</ul>
+<hr>
+<h2 id=3D"id-5_BasicElectronics-=E2=9A=99=EF=B8=8F6.ComparisonSummary">=E2=
+=9A=99=EF=B8=8F <strong>6. Comparison Summary</strong></h2>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"1d1a60f3-40c9-4911-8869-f78=
+3147b5cad" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Property</p></th>
+<th class=3D"confluenceTh">
+<p>CB</p></th>
+<th class=3D"confluenceTh">
+<p>CE</p></th>
+<th class=3D"confluenceTh">
+<p>CC</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Voltage Gain</p></td>
+<td class=3D"confluenceTd">
+<p>High</p></td>
+<td class=3D"confluenceTd">
+<p>High</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=89=88 1</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Current Gain</p></td>
+<td class=3D"confluenceTd">
+<p>&lt; 1</p></td>
+<td class=3D"confluenceTd">
+<p>High</p></td>
+<td class=3D"confluenceTd">
+<p>High</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Input Impedance</p></td>
+<td class=3D"confluenceTd">
+<p>Low</p></td>
+<td class=3D"confluenceTd">
+<p>Medium</p></td>
+<td class=3D"confluenceTd">
+<p>High</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Output Impedance</p></td>
+<td class=3D"confluenceTd">
+<p>High</p></td>
+<td class=3D"confluenceTd">
+<p>Medium</p></td>
+<td class=3D"confluenceTd">
+<p>Low</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Phase Shift</p></td>
+<td class=3D"confluenceTd">
+<p>0=C2=B0</p></td>
+<td class=3D"confluenceTd">
+<p>180=C2=B0</p></td>
+<td class=3D"confluenceTd">
+<p>0=C2=B0</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Application</p></td>
+<td class=3D"confluenceTd">
+<p>High-frequency amplifiers</p></td>
+<td class=3D"confluenceTd">
+<p>General purpose</p></td>
+<td class=3D"confluenceTd">
+<p>Buffer stage</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id=3D"id-5_BasicElectronics-=E2=9C=85InShort">=E2=9C=85 <strong>In Shor=
+t</strong></h2>
+<ul>
+<li>
+<p><strong>Single-stage amplifier</strong>: One transistor amplifies signal=
+.</p></li>
+<li>
+<p><strong>CB</strong> =E2=86=92 High voltage gain, no phase shift.</p></li=
+>
+<li>
+<p><strong>CE</strong> =E2=86=92 High power gain, 180=C2=B0 phase shift.</p=
+></li>
+<li>
+<p><strong>CC</strong> =E2=86=92 Voltage follower, impedance matching.</p><=
+/li>
+<li>
+<p><strong>h-parameter model</strong> =E2=86=92 Simplifies AC analysis and =
+design.</p></li>
+</ul>
+<hr>
+<ol start=3D"4">
+<li>
+<p>Field effect transistor (FET): JFET structure, operation and characteris=
+tics. MOSFET construction, operation and characteristics.</p></li>
+</ol>
+<p></p>
+    </div>
+</body>
+</html>
+------=_Part_556_328965946.1760787417705--

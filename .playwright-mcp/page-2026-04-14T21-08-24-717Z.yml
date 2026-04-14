@@ -1,0 +1,75 @@
+- generic [ref=e3]:
+  - generic [ref=e7]:
+    - heading "IT Study" [level=1] [ref=e8]
+    - paragraph [ref=e9]: Learning Portfolio
+    - generic [ref=e10]:
+      - button "1. Basic Physics" [ref=e11]
+      - button "2. Introduction to Computer Systems" [ref=e12]
+      - button "3. Electrical Circuits" [ref=e13]
+      - button "4. Digital Logic Design" [ref=e14]
+      - button "5. Basic Electronics" [ref=e15]
+      - button "6. Microprocessor and Interfacing" [ref=e16]
+      - button "7. Computer Architecture" [ref=e17]
+      - button "8. Communication Theory" [ref=e18]
+      - button "9. Computer Networking and Security" [ref=e19]
+      - button "10. Structured Programming Language (C)" [ref=e20]
+      - button "11. Object Oriented Programming (OOP)" [ref=e21]
+      - button "12. Discrete Mathematics" [ref=e22]
+      - button "13. Graphs" [ref=e23]
+      - button "14. Theory of Computation" [ref=e24]
+      - button "15. Data Structures and Algorithms" [ref=e25]
+      - button "16. Database Systems" [ref=e26]
+      - button "17. Software Engineering" [ref=e27]
+      - button "18. Operating System" [ref=e28]
+      - button "19. Artificial Intelligence" [ref=e29]
+  - generic [ref=e31]:
+    - generic [ref=e32]:
+      - generic [ref=e33]: Beginner
+      - generic [ref=e34]: 1. Basic Physics
+      - generic [ref=e35]: •
+      - generic [ref=e36]: Lesson 1 of 4
+    - heading "Electromagnetism Basics" [level=2] [ref=e37]
+    - generic [ref=e38]:
+      - paragraph [ref=e39]: Charge, Coulomb's law, electric field, Gauss's law, electric potential, magnetic field, Faraday's law, Maxwell's equations.
+      - paragraph
+      - paragraph [ref=e40]: "⚡ Charge: Fundamental property of matter causing electromagnetic interaction. Types: Positive (+) and Negative (-). Unit: Coulomb (C). Conservation: Charge cannot be created/destroyed, only transferred."
+      - paragraph
+      - paragraph [ref=e41]: "⚡ Coulomb's Law: Force between two electric charges: F = k(q1×q2)/r². Force is attractive for opposite charges, repulsive for like charges."
+      - paragraph
+      - paragraph [ref=e42]: "⚡ Electric Field (E): Region around charged particle where it exerts force on other charges. E = F/q. Unit: N/C or V/m."
+      - paragraph
+      - paragraph [ref=e43]: "⚡ Gauss's Law: Electric flux through closed surface = enclosed charge/ε₀. Used to calculate electric field of symmetric charge distributions."
+      - paragraph
+      - paragraph [ref=e44]: "⚡ Electric Potential (V): Work done bringing unit positive charge from infinity to a point. V = W/q. Unit: Volt (V)."
+      - paragraph
+      - paragraph [ref=e45]: "🧲 Magnetic Field: Region around moving charge or magnet where magnetic forces act. Unit: Tesla (T). Created by moving charges and permanent magnets."
+      - paragraph
+      - paragraph [ref=e46]: "🧲 Faraday's Law: Changing magnetic field induces EMF. EMF = -dΦB/dt."
+      - paragraph
+      - paragraph [ref=e47]: "🌐 Maxwell's Equations: 4 fundamental laws describing all classical electromagnetism."
+    - generic [ref=e48]:
+      - heading "Key Takeaways" [level=3] [ref=e49]
+      - list [ref=e50]:
+        - listitem [ref=e51]:
+          - generic [ref=e53]: Charge is fundamental property with + and - types
+        - listitem [ref=e54]:
+          - generic [ref=e56]: Coulomb's law defines force between charges
+        - listitem [ref=e57]:
+          - generic [ref=e59]: Electric field = force per unit charge
+        - listitem [ref=e60]:
+          - generic [ref=e62]: Maxwell's equations unify all electromagnetism
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e65]: Key Formula
+        - button "Copy" [ref=e66]:
+          - img [ref=e67]
+          - text: Copy
+      - code [ref=e70]: F = k × (q1 × q2) / r² E = F/q V = W/q EMF = -dΦB/dt
+    - generic [ref=e71]:
+      - button "Previous" [disabled] [ref=e72]:
+        - img [ref=e73]
+        - text: Previous
+      - generic [ref=e75]: 1 / 50
+      - button "Next" [ref=e76]:
+        - text: Next
+        - img [ref=e77]

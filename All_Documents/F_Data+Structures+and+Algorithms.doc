@@ -1,0 +1,3463 @@
+Date: Sat, 18 Oct 2025 11:08:36 +0000 (UTC)
+Message-ID: <1620390076.599.1760785716625@baf9d7eff5c1>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_598_548379211.1760785716625"
+
+------=_Part_598_548379211.1760785716625
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Data Structures and Algorithms</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Data Structures and Algorithms</h1>
+    <div class=3D"Section1">
+        <ol start=3D"1">
+<li>
+<p>Internal data representation;</p></li>
+<li>
+<p>Abstract data types;</p></li>
+<li>
+<p>Elementary data structures: arrays, lists, stacks, queues, trees, graphs=
+; </p></li>
+<li>
+<p>Advanced data Structures: heaps, Fibonacci heaps, B-trees;</p></li>
+<li>
+<p>Recursion, sorting, searching, hashing, storage management. Techniques f=
+or analysis of algorithms; </p></li>
+<li>
+<p>Methods for the design of efficient algorithms: divide and conquer, gree=
+dy method, dynamic programming, back tracking, branch and bound; <code><=
+/code></p></li>
+<li>
+<p>Basic search and traversal techniques;</p></li>
+<li>
+<p>Topological sorting;</p></li>
+<li>
+<p>Connected components, spanning trees, shortest paths; </=
+p></li>
+<li>
+<p>Flow algorithms;</p></li>
+<li>
+<p>Approximation algorithms;</p></li>
+<li>
+<p>Parallel algorithms;</p></li>
+<li>
+<p>Algebraic simplification and transformations;</p></li>
+<li>
+<p>Lower bound theory;</p></li>
+<li>
+<p>NP-completeness, NP-hard and NP- complete problems. </p>=
+</li>
+</ol>
+<p></p>
+<p></p>
+<ol start=3D"1">
+<li>
+<p>Internal data representation;</p></li>
+</ol>
+<p></p>
+<ol start=3D"2">
+<li>
+<p>Perfect =F0=9F=91=8F =E2=80=94 now let=E2=80=99s cover <strong>Internal =
+Data Representation</strong>, a key topic in <strong>computer organization =
+and digital systems</strong>. I=E2=80=99ll explain step by step.</p></li>
+</ol>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A91.WhatisInternalDataRepre=
+sentation?">=F0=9F=A7=A9 <strong>1. What is Internal Data Representation?</=
+strong></h2>
+<ul>
+<li>
+<p><strong>Internal data representation</strong> refers to <strong>how comp=
+uters store and manipulate data</strong> internally.</p></li>
+<li>
+<p>All data (numbers, characters, instructions) must be <strong>represented=
+ in binary</strong> for the digital system.</p></li>
+<li>
+<p><strong>Main idea:</strong> Computers understand only <strong>0s and 1s<=
+/strong>, so everything is stored in <strong>binary form</strong>.</p></li>
+</ul>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A92.NumberRepresentation">=
+=F0=9F=A7=A9 <strong>2. Number Representation</strong></h2>
+<h3 id=3D"DataStructuresandAlgorithms-a)BinaryNumberSystem"><strong>a) Bina=
+ry Number System</strong></h3>
+<ul>
+<li>
+<p>Base-2 system: digits are <strong>0 or 1</strong></p></li>
+<li>
+<p>Example: <code>1011=E2=82=82 =3D 1=C3=972=C2=B3 + 0=C3=972=C2=B2 + 1=C3=
+=972=C2=B9 + 1=C3=972=E2=81=B0 =3D 11=E2=82=81=E2=82=80</code></p></li>
+</ul>
+<h3 id=3D"DataStructuresandAlgorithms-b)SignedNumbers"><strong>b) Signed Nu=
+mbers</strong></h3>
+<ol start=3D"1">
+<li>
+<p><strong>Sign-Magnitude Representation</strong></p>
+<ul>
+<li>
+<p>First bit =3D sign (0 for +, 1 for =E2=88=92)</p></li>
+<li>
+<p>Rest =3D magnitude</p></li>
+<li>
+<p>Example: +5 =E2=86=92 <code>0101</code>, =E2=88=925 =E2=86=92 <code>1101=
+</code></p></li>
+</ul></li>
+<li>
+<p><strong>One=E2=80=99s Complement</strong></p>
+<ul>
+<li>
+<p>Negative number =3D <strong>invert all bits of positive number</strong><=
+/p></li>
+<li>
+<p>Example: +5 =E2=86=92 <code>0101</code>, =E2=88=925 =E2=86=92 <code>1010=
+</code></p></li>
+</ul></li>
+<li>
+<p><strong>Two=E2=80=99s Complement</strong></p>
+<ul>
+<li>
+<p>Negative number =3D <strong>invert bits + 1</strong></p></li>
+<li>
+<p>Example: +5 =E2=86=92 <code>0101</code>, =E2=88=925 =E2=86=92 <code>1011=
+</code></p></li>
+<li>
+<p>Most commonly used in computers</p></li>
+</ul></li>
+</ol>
+<hr>
+<h3 id=3D"DataStructuresandAlgorithms-c)FractionalNumbers(FloatingPoint)"><=
+strong>c) Fractional Numbers (Floating Point)</strong></h3>
+<ul>
+<li>
+<p>Represent <strong>real numbers</strong> using <strong>mantissa and expon=
+ent</strong></p></li>
+<li>
+<p>Standard: <strong>IEEE 754 format</strong></p>
+<ul>
+<li>
+<p><strong>Single precision:</strong> 32 bits</p></li>
+<li>
+<p><strong>Double precision:</strong> 64 bits</p></li>
+</ul></li>
+</ul>
+<hr>
+<h3 id=3D"DataStructuresandAlgorithms-d)OtherRepresentations"><strong>d) Ot=
+her Representations</strong></h3>
+<ol start=3D"1">
+<li>
+<p><strong>BCD (Binary-Coded Decimal)</strong></p>
+<ul>
+<li>
+<p>Each decimal digit stored as <strong>4-bit binary</strong></p></li>
+<li>
+<p>Example: 59 =E2=86=92 <code>0101 1001</code></p></li>
+</ul></li>
+<li>
+<p><strong>ASCII / Unicode</strong></p>
+<ul>
+<li>
+<p>Characters encoded in binary</p></li>
+<li>
+<p>ASCII =E2=86=92 7/8 bits, Unicode =E2=86=92 16 or 32 bits</p></li>
+</ul></li>
+<li>
+<p><strong>Packed / Unpacked Data</strong></p>
+<ul>
+<li>
+<p>Packed: multiple digits in one word</p></li>
+<li>
+<p>Unpacked: each digit occupies one word</p></li>
+</ul></li>
+</ol>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A93.WhyInternalRepresentati=
+onMatters">=F0=9F=A7=A9 <strong>3. Why Internal Representation Matters</str=
+ong></h2>
+<ol start=3D"1">
+<li>
+<p>Determines <strong>range of numbers</strong></p></li>
+<li>
+<p>Affects <strong>arithmetic operations</strong> (add, subtract, multiply)=
+</p></li>
+<li>
+<p>Affects <strong>memory usage</strong></p></li>
+<li>
+<p>Crucial for <strong>efficient computing and data transfer</strong></p></=
+li>
+</ol>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=94=B94.QuickSummaryTable">=F0=
+=9F=94=B9 <strong>4. Quick Summary Table</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"fc=
+62560c-3a5d-4f3a-951d-50867e404400" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Data Type</p></th>
+<th class=3D"confluenceTh">
+<p>Representation</p></th>
+<th class=3D"confluenceTh">
+<p>Notes</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Integer</p></td>
+<td class=3D"confluenceTd">
+<p>Binary, Sign-Magnitude, One=E2=80=99s Complement, Two=E2=80=99s Compleme=
+nt</p></td>
+<td class=3D"confluenceTd">
+<p>Two=E2=80=99s complement widely used</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Real Numbers</p></td>
+<td class=3D"confluenceTd">
+<p>Floating Point (IEEE 754)</p></td>
+<td class=3D"confluenceTd">
+<p>Mantissa + Exponent</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Decimal</p></td>
+<td class=3D"confluenceTd">
+<p>BCD</p></td>
+<td class=3D"confluenceTd">
+<p>Each decimal digit =E2=86=92 4 bits</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Characters</p></td>
+<td class=3D"confluenceTd">
+<p>ASCII, Unicode</p></td>
+<td class=3D"confluenceTd">
+<p>Encode letters, symbols, etc.</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Packed Data</p></td>
+<td class=3D"confluenceTd">
+<p>Multiple digits in one word</p></td>
+<td class=3D"confluenceTd">
+<p>Saves memory</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Unpacked Data</p></td>
+<td class=3D"confluenceTd">
+<p>Each digit in separate word</p></td>
+<td class=3D"confluenceTd">
+<p>Simple but uses more memory</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p>=E2=9C=85 <strong>In Short:</strong></p>
+<blockquote>
+<p><strong>Internal data representation</strong> is how computers <strong>s=
+tore and manipulate numbers, characters, and instructions</strong> in <stro=
+ng>binary form</strong>.<br>
+Understanding this is crucial for <strong>arithmetic operations, memory man=
+agement, and efficient program execution</strong>.Abstract data types;</p>
+</blockquote>
+<p></p>
+<ol start=3D"3">
+<li>
+<p>Elementary data structures: arrays, lists, stacks, queues, trees, graphs=
+; </p></li>
+</ol>
+<p>Perfect =F0=9F=91=8F =E2=80=94 now let=E2=80=99s cover <strong>Elementar=
+y Data Structures</strong>, a core topic in <strong>computer science and pr=
+ogramming</strong>. I=E2=80=99ll explain clearly and step by step.</p>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A91.WhatareDataStructures?"=
+>=F0=9F=A7=A9 <strong>1. What are Data Structures?</strong></h2>
+<ul>
+<li>
+<p><strong>Data structures</strong> are <strong>ways of organizing and stor=
+ing data</strong> in memory so that it can be <strong>used efficiently</str=
+ong>.</p></li>
+<li>
+<p>They provide <strong>efficient access, insertion, deletion, and traversa=
+l</strong> of data.</p></li>
+</ul>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A92.Arrays">=F0=9F=A7=A9 <s=
+trong>2. Arrays</strong></h2>
+<ul>
+<li>
+<p><strong>Definition:</strong> Collection of <strong>elements of the same =
+type</strong>, stored <strong>contiguously</strong> in memory.</p></li>
+<li>
+<p><strong>Access:</strong> Using <strong>index</strong></p></li>
+<li>
+<p><strong>Operations:</strong></p>
+<ul>
+<li>
+<p>Access: <code>arr[i]</code> =E2=86=92 O(1)</p></li>
+<li>
+<p>Insertion/Deletion: O(n)</p></li>
+</ul></li>
+<li>
+<p><strong>Example:</strong> <code>int arr[5] =3D {1,2,3,4,5}</code></p></l=
+i>
+</ul>
+<p><strong>Pros:</strong> Fast access by index<br><strong>Cons:</strong> Fi=
+xed size, costly insertion/deletion</p>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A93.Lists">=F0=9F=A7=A9 <st=
+rong>3. Lists</strong></h2>
+<ul>
+<li>
+<p><strong>Definition:</strong> Collection of elements connected by <strong=
+>links/pointers</strong>.</p></li>
+<li>
+<p><strong>Types:</strong></p>
+<ol start=3D"1">
+<li>
+<p><strong>Singly Linked List</strong> =E2=80=93 Each node points to next n=
+ode</p></li>
+<li>
+<p><strong>Doubly Linked List</strong> =E2=80=93 Each node points to next a=
+nd previous</p></li>
+<li>
+<p><strong>Circular Linked List</strong> =E2=80=93 Last node points back to=
+ first</p></li>
+</ol></li>
+</ul>
+<p><strong>Operations:</strong></p>
+<ul>
+<li>
+<p>Traversal: O(n)</p></li>
+<li>
+<p>Insertion/Deletion: O(1) if position known</p></li>
+</ul>
+<p><strong>Pros:</strong> Dynamic size, easy insertion/deletion<br><strong>=
+Cons:</strong> Slower access by index</p>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A94.Stack">=F0=9F=A7=A9 <st=
+rong>4. Stack</strong></h2>
+<ul>
+<li>
+<p><strong>Definition:</strong> Linear structure following <strong>LIFO (La=
+st In, First Out)</strong> principle.</p></li>
+<li>
+<p><strong>Operations:</strong></p>
+<ul>
+<li>
+<p><code>push(x)</code> =E2=86=92 insert at top</p></li>
+<li>
+<p><code>pop()</code> =E2=86=92 remove top</p></li>
+<li>
+<p><code>peek()</code> =E2=86=92 view top without removing</p></li>
+</ul></li>
+</ul>
+<p><strong>Applications:</strong></p>
+<ul>
+<li>
+<p>Expression evaluation (infix =E2=86=92 postfix)</p></li>
+<li>
+<p>Undo/Redo operations</p></li>
+<li>
+<p>Function call management (recursion)</p></li>
+</ul>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A95.Queue">=F0=9F=A7=A9 <st=
+rong>5. Queue</strong></h2>
+<ul>
+<li>
+<p><strong>Definition:</strong> Linear structure following <strong>FIFO (Fi=
+rst In, First Out)</strong> principle.</p></li>
+<li>
+<p><strong>Types:</strong></p>
+<ol start=3D"1">
+<li>
+<p><strong>Simple Queue</strong> =E2=80=93 Enqueue at rear, dequeue at fron=
+t</p></li>
+<li>
+<p><strong>Circular Queue</strong> =E2=80=93 Efficient memory use</p></li>
+<li>
+<p><strong>Priority Queue</strong> =E2=80=93 Element with highest priority =
+dequeued first</p></li>
+<li>
+<p><strong>Deque</strong> =E2=80=93 Double-ended queue</p></li>
+</ol></li>
+</ul>
+<p><strong>Applications:</strong></p>
+<ul>
+<li>
+<p>CPU scheduling</p></li>
+<li>
+<p>Printer queue</p></li>
+<li>
+<p>Network packet management</p></li>
+</ul>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A96.Trees">=F0=9F=A7=A9 <st=
+rong>6. Trees</strong></h2>
+<ul>
+<li>
+<p><strong>Definition:</strong> Hierarchical structure with <strong>nodes</=
+strong> connected by <strong>edges</strong>.</p></li>
+<li>
+<p><strong>Components:</strong></p>
+<ul>
+<li>
+<p><strong>Root:</strong> Top node</p></li>
+<li>
+<p><strong>Parent/Child nodes</strong></p></li>
+<li>
+<p><strong>Leaves:</strong> Nodes with no children</p></li>
+</ul></li>
+<li>
+<p><strong>Types:</strong></p>
+<ul>
+<li>
+<p>Binary Tree, Binary Search Tree (BST), AVL Tree, Heap, etc.</p></li>
+</ul></li>
+<li>
+<p><strong>Applications:</strong></p>
+<ul>
+<li>
+<p>Hierarchical data representation</p></li>
+<li>
+<p>Searching and sorting (BST)</p></li>
+<li>
+<p>Expression parsing (expression tree)</p></li>
+</ul></li>
+</ul>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A97.Graphs">=F0=9F=A7=A9 <s=
+trong>7. Graphs</strong></h2>
+<ul>
+<li>
+<p><strong>Definition:</strong> Set of <strong>vertices (nodes)</strong> co=
+nnected by <strong>edges</strong>.</p></li>
+<li>
+<p><strong>Types:</strong></p>
+<ol start=3D"1">
+<li>
+<p><strong>Directed / Undirected</strong></p></li>
+<li>
+<p><strong>Weighted / Unweighted</strong></p></li>
+<li>
+<p><strong>Cyclic / Acyclic</strong></p></li>
+</ol></li>
+<li>
+<p><strong>Representation:</strong></p>
+<ul>
+<li>
+<p><strong>Adjacency Matrix</strong></p></li>
+<li>
+<p><strong>Adjacency List</strong></p></li>
+</ul></li>
+<li>
+<p><strong>Applications:</strong></p>
+<ul>
+<li>
+<p>Social networks</p></li>
+<li>
+<p>Routing algorithms (shortest path)</p></li>
+<li>
+<p>Dependency resolution</p></li>
+</ul></li>
+</ul>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=94=B98.QuickSummaryTable">=F0=
+=9F=94=B9 <strong>8. Quick Summary Table</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"be=
+0b3702-56a3-4455-a584-43f810f62ebb" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Data Structure</p></th>
+<th class=3D"confluenceTh">
+<p>Organization</p></th>
+<th class=3D"confluenceTh">
+<p>Access</p></th>
+<th class=3D"confluenceTh">
+<p>Key Operations</p></th>
+<th class=3D"confluenceTh">
+<p>Applications</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Array</p></td>
+<td class=3D"confluenceTd">
+<p>Contiguous</p></td>
+<td class=3D"confluenceTd">
+<p>Index</p></td>
+<td class=3D"confluenceTd">
+<p>Access, insert, delete</p></td>
+<td class=3D"confluenceTd">
+<p>Lookup tables, matrices</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>List</p></td>
+<td class=3D"confluenceTd">
+<p>Linked nodes</p></td>
+<td class=3D"confluenceTd">
+<p>Sequential</p></td>
+<td class=3D"confluenceTd">
+<p>Insert, delete, traverse</p></td>
+<td class=3D"confluenceTd">
+<p>Dynamic memory, undo/redo</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Stack</p></td>
+<td class=3D"confluenceTd">
+<p>LIFO</p></td>
+<td class=3D"confluenceTd">
+<p>Top</p></td>
+<td class=3D"confluenceTd">
+<p>Push, Pop, Peek</p></td>
+<td class=3D"confluenceTd">
+<p>Expression evaluation, recursion</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Queue</p></td>
+<td class=3D"confluenceTd">
+<p>FIFO</p></td>
+<td class=3D"confluenceTd">
+<p>Front/Rear</p></td>
+<td class=3D"confluenceTd">
+<p>Enqueue, Dequeue</p></td>
+<td class=3D"confluenceTd">
+<p>Scheduling, buffering</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Tree</p></td>
+<td class=3D"confluenceTd">
+<p>Hierarchical</p></td>
+<td class=3D"confluenceTd">
+<p>Parent/Child</p></td>
+<td class=3D"confluenceTd">
+<p>Traverse, insert, delete</p></td>
+<td class=3D"confluenceTd">
+<p>Hierarchical data, searching</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Graph</p></td>
+<td class=3D"confluenceTd">
+<p>Nodes &amp; edges</p></td>
+<td class=3D"confluenceTd">
+<p>Vertex/Edge</p></td>
+<td class=3D"confluenceTd">
+<p>BFS, DFS, shortest path</p></td>
+<td class=3D"confluenceTd">
+<p>Networks, routing, social graphs</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p>=E2=9C=85 <strong>In Short:</strong></p>
+<blockquote>
+<p>Elementary data structures provide <strong>efficient ways to store, acce=
+ss, and manipulate data</strong>.<br>
+Arrays and lists handle <strong>linear collections</strong>, stacks and que=
+ues manage <strong>order-based access</strong>, and trees and graphs repres=
+ent <strong>hierarchical and networked data</strong>.</p>
+</blockquote>
+<ol start=3D"4">
+<li>
+<p>Advanced data Structures: heaps, Fibonacci heaps, B-trees;</p></li>
+</ol>
+<p>Perfect =F0=9F=91=8F =E2=80=94 now let=E2=80=99s cover <strong>Advanced =
+Data Structures</strong>, a topic essential for <strong>efficient algorithm=
+s and large-scale data management</strong>. I=E2=80=99ll explain clearly.</=
+p>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A91.Heaps">=F0=9F=A7=A9 <st=
+rong>1. Heaps</strong></h2>
+<ul>
+<li>
+<p><strong>Definition:</strong> A <strong>complete binary tree</strong> tha=
+t satisfies the <strong>heap property</strong>.</p></li>
+<li>
+<p><strong>Heap Property:</strong></p>
+<ul>
+<li>
+<p><strong>Max-Heap:</strong> Parent =E2=89=A5 Children</p></li>
+<li>
+<p><strong>Min-Heap:</strong> Parent =E2=89=A4 Children</p></li>
+</ul></li>
+</ul>
+<h3 id=3D"DataStructuresandAlgorithms-Operations"><strong>Operations</stron=
+g></h3>
+<ol start=3D"1">
+<li>
+<p><strong>Insert:</strong> Add element and heapify =E2=86=92 O(log n)</p><=
+/li>
+<li>
+<p><strong>Delete (usually root):</strong> Remove root, replace with last e=
+lement, heapify =E2=86=92 O(log n)</p></li>
+<li>
+<p><strong>Peek:</strong> Access root =E2=86=92 O(1)</p></li>
+</ol>
+<h3 id=3D"DataStructuresandAlgorithms-Applications"><strong>Applications</s=
+trong></h3>
+<ul>
+<li>
+<p>Priority queues</p></li>
+<li>
+<p>Heap sort</p></li>
+<li>
+<p>Scheduling algorithms</p></li>
+</ul>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A92.FibonacciHeaps">=F0=9F=
+=A7=A9 <strong>2. Fibonacci Heaps</strong></h2>
+<ul>
+<li>
+<p><strong>Definition:</strong> A <strong>heap-based data structure</strong=
+> optimized for <strong>decrease-key and merge operations</strong>.</p></li=
+>
+<li>
+<p><strong>Structure:</strong> Collection of <strong>heap-ordered trees</st=
+rong> with <strong>lazy consolidation</strong></p></li>
+<li>
+<p><strong>Operations:</strong></p>
+<ul>
+<li>
+<p>Insert: O(1) amortized</p></li>
+<li>
+<p>Find-min: O(1)</p></li>
+<li>
+<p>Extract-min: O(log n) amortized</p></li>
+<li>
+<p>Decrease-key: O(1) amortized</p></li>
+</ul></li>
+</ul>
+<h3 id=3D"DataStructuresandAlgorithms-Applications.1"><strong>Applications<=
+/strong></h3>
+<ul>
+<li>
+<p>Graph algorithms: <strong>Dijkstra=E2=80=99s shortest path</strong>, <st=
+rong>Prim=E2=80=99s MST</strong></p></li>
+<li>
+<p>Priority queue with <strong>frequent key decreases</strong></p></li>
+</ul>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A93.B-Trees">=F0=9F=A7=A9 <=
+strong>3. B-Trees</strong></h2>
+<ul>
+<li>
+<p><strong>Definition:</strong> A <strong>balanced search tree</strong> opt=
+imized for <strong>disk storage</strong>.</p></li>
+<li>
+<p><strong>Properties:</strong></p>
+<ol start=3D"1">
+<li>
+<p>All leaves at the same level</p></li>
+<li>
+<p>Each node can have <strong>multiple keys and children</strong></p></li>
+<li>
+<p>Maintains <strong>sorted order</strong> for fast search, insert, delete<=
+/p></li>
+</ol></li>
+</ul>
+<h3 id=3D"DataStructuresandAlgorithms-Operations.1"><strong>Operations</str=
+ong></h3>
+<ul>
+<li>
+<p>Search: O(log n)</p></li>
+<li>
+<p>Insert: O(log n)</p></li>
+<li>
+<p>Delete: O(log n)</p></li>
+</ul>
+<h3 id=3D"DataStructuresandAlgorithms-Applications.2"><strong>Applications<=
+/strong></h3>
+<ul>
+<li>
+<p>Databases and file systems</p></li>
+<li>
+<p>Indexing large datasets</p></li>
+<li>
+<p>Multi-level storage systems</p></li>
+</ul>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A94.B+Trees">=F0=9F=A7=A9 <=
+strong>4. B+ Trees</strong></h2>
+<ul>
+<li>
+<p><strong>Definition:</strong> Variant of B-Tree with <strong>all values s=
+tored in leaf nodes</strong> and <strong>internal nodes store only keys</st=
+rong>.</p></li>
+<li>
+<p><strong>Features:</strong></p>
+<ol start=3D"1">
+<li>
+<p>Leaf nodes linked =E2=86=92 fast <strong>range queries</strong></p></li>
+<li>
+<p>Internal nodes only guide search =E2=86=92 efficient <strong>disk access=
+</strong></p></li>
+</ol></li>
+</ul>
+<h3 id=3D"DataStructuresandAlgorithms-Applications.3"><strong>Applications<=
+/strong></h3>
+<ul>
+<li>
+<p>Database indexing</p></li>
+<li>
+<p>File systems (e.g., NTFS, Oracle, MySQL)</p></li>
+<li>
+<p>Efficient range queries and sequential access</p></li>
+</ul>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=94=B95.QuickComparisonTable">=
+=F0=9F=94=B9 <strong>5. Quick Comparison Table</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"45=
+fc7578-534d-490a-a604-833da57cfd68" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Data Structure</p></th>
+<th class=3D"confluenceTh">
+<p>Key Feature</p></th>
+<th class=3D"confluenceTh">
+<p>Time Complexity (Search/Insert/Delete)</p></th>
+<th class=3D"confluenceTh">
+<p>Applications</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Heap</p></td>
+<td class=3D"confluenceTd">
+<p>Complete binary tree, heap property</p></td>
+<td class=3D"confluenceTd">
+<p>O(log n)</p></td>
+<td class=3D"confluenceTd">
+<p>Priority queue, heap sort</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Fibonacci Heap</p></td>
+<td class=3D"confluenceTd">
+<p>Collection of trees, fast decrease-key</p></td>
+<td class=3D"confluenceTd">
+<p>Amortized O(1)/O(log n)</p></td>
+<td class=3D"confluenceTd">
+<p>Graph algorithms (Dijkstra, Prim)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>B-Tree</p></td>
+<td class=3D"confluenceTd">
+<p>Balanced multiway tree, all leaves same level</p></td>
+<td class=3D"confluenceTd">
+<p>O(log n)</p></td>
+<td class=3D"confluenceTd">
+<p>Database indexing, file systems</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>B+ Tree</p></td>
+<td class=3D"confluenceTd">
+<p>B-Tree variant, data in leaves, linked leaves</p></td>
+<td class=3D"confluenceTd">
+<p>O(log n)</p></td>
+<td class=3D"confluenceTd">
+<p>Range queries, database indexing, file systems</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p>=E2=9C=85 <strong>In Short:</strong></p>
+<blockquote>
+<p>Advanced data structures like <strong>Heaps, Fibonacci Heaps, B-Trees, a=
+nd B+ Trees</strong> are used for <strong>efficient priority management, fa=
+st searching, and disk-based storage</strong>.<br>
+They are widely applied in <strong>databases, file systems, graph algorithm=
+s, and large-scale applications</strong>.</p>
+</blockquote>
+<ol start=3D"5">
+<li>
+<p>Recursion, sorting, searching, hashing, storage management. Techniques f=
+or analysis of algorithms; </p></li>
+</ol>
+<p>Perfect =F0=9F=91=8F =E2=80=94 now let=E2=80=99s cover <strong>Recursion=
+, Sorting, Searching, Hashing, Storage Management, and Techniques for Analy=
+sis of Algorithms</strong> =E2=80=94 key topics in <strong>data structures =
+and algorithms</strong>. I=E2=80=99ll explain step by step.</p>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A91.Recursion">=F0=9F=A7=A9=
+ <strong>1. Recursion</strong></h2>
+<ul>
+<li>
+<p><strong>Definition:</strong> A function that <strong>calls itself</stron=
+g> directly or indirectly to solve a problem.</p></li>
+<li>
+<p><strong>Components of a Recursive Function:</strong></p>
+<ol start=3D"1">
+<li>
+<p><strong>Base Case:</strong> Stops recursion</p></li>
+<li>
+<p><strong>Recursive Case:</strong> Breaks problem into smaller subproblems=
+</p></li>
+</ol></li>
+</ul>
+<h3 id=3D"DataStructuresandAlgorithms-Examples:"><strong>Examples:</strong>=
+</h3>
+<ul>
+<li>
+<p>Factorial: <code>n! =3D n =C3=97 (n-1)!</code></p></li>
+<li>
+<p>Fibonacci series: <code>F(n) =3D F(n-1) + F(n-2)</code></p></li>
+</ul>
+<h3 id=3D"DataStructuresandAlgorithms-Advantages:"><strong>Advantages:</str=
+ong></h3>
+<ul>
+<li>
+<p>Simplifies code for <strong>divide-and-conquer problems</strong></p></li=
+>
+<li>
+<p>Easier to write for <strong>tree/graph traversal</strong></p></li>
+</ul>
+<h3 id=3D"DataStructuresandAlgorithms-Disadvantages:"><strong>Disadvantages=
+:</strong></h3>
+<ul>
+<li>
+<p>Higher <strong>memory usage</strong> (stack)</p></li>
+<li>
+<p>Can lead to <strong>stack overflow</strong> if not properly designed</p>=
+</li>
+</ul>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A92.Sorting">=F0=9F=A7=A9 <=
+strong>2. Sorting</strong></h2>
+<p><strong>Sorting</strong> =3D arranging data in a particular order (ascen=
+ding/descending).</p>
+<h3 id=3D"DataStructuresandAlgorithms-CommonSortingAlgorithms:"><strong>Com=
+mon Sorting Algorithms:</strong></h3>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"2b=
+6de096-42f0-4599-8d0f-d48368ada517" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Algorithm</p></th>
+<th class=3D"confluenceTh">
+<p>Type</p></th>
+<th class=3D"confluenceTh">
+<p>Time Complexity</p></th>
+<th class=3D"confluenceTh">
+<p>Notes</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Bubble Sort</p></td>
+<td class=3D"confluenceTd">
+<p>Simple</p></td>
+<td class=3D"confluenceTd">
+<p>O(n=C2=B2)</p></td>
+<td class=3D"confluenceTd">
+<p>Compare adjacent elements</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Selection Sort</p></td>
+<td class=3D"confluenceTd">
+<p>Simple</p></td>
+<td class=3D"confluenceTd">
+<p>O(n=C2=B2)</p></td>
+<td class=3D"confluenceTd">
+<p>Select min/max and swap</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Insertion Sort</p></td>
+<td class=3D"confluenceTd">
+<p>Simple</p></td>
+<td class=3D"confluenceTd">
+<p>O(n=C2=B2)</p></td>
+<td class=3D"confluenceTd">
+<p>Insert elements into sorted subarray</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Merge Sort</p></td>
+<td class=3D"confluenceTd">
+<p>Divide &amp; Conquer</p></td>
+<td class=3D"confluenceTd">
+<p>O(n log n)</p></td>
+<td class=3D"confluenceTd">
+<p>Stable, recursive</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Quick Sort</p></td>
+<td class=3D"confluenceTd">
+<p>Divide &amp; Conquer</p></td>
+<td class=3D"confluenceTd">
+<p>O(n log n) avg</p></td>
+<td class=3D"confluenceTd">
+<p>Unstable, recursive</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Heap Sort</p></td>
+<td class=3D"confluenceTd">
+<p>Heap-based</p></td>
+<td class=3D"confluenceTd">
+<p>O(n log n)</p></td>
+<td class=3D"confluenceTd">
+<p>In-place, not stable</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Applications:</strong> Searching optimization, data organization=
+, databases</p>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A93.Searching">=F0=9F=A7=A9=
+ <strong>3. Searching</strong></h2>
+<p><strong>Searching</strong> =3D finding an element in a dataset.</p>
+<h3 id=3D"DataStructuresandAlgorithms-CommonSearchingAlgorithms:"><strong>C=
+ommon Searching Algorithms:</strong></h3>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"64=
+3a2ee2-91ef-4685-99a0-1f9a4bc2553d" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Algorithm</p></th>
+<th class=3D"confluenceTh">
+<p>Type</p></th>
+<th class=3D"confluenceTh">
+<p>Time Complexity</p></th>
+<th class=3D"confluenceTh">
+<p>Notes</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Linear Search</p></td>
+<td class=3D"confluenceTd">
+<p>Sequential</p></td>
+<td class=3D"confluenceTd">
+<p>O(n)</p></td>
+<td class=3D"confluenceTd">
+<p>No pre-sorting required</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Binary Search</p></td>
+<td class=3D"confluenceTd">
+<p>Divide &amp; Conquer</p></td>
+<td class=3D"confluenceTd">
+<p>O(log n)</p></td>
+<td class=3D"confluenceTd">
+<p>Requires <strong>sorted array</strong></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Hashing</p></td>
+<td class=3D"confluenceTd">
+<p>Direct access</p></td>
+<td class=3D"confluenceTd">
+<p>O(1) avg</p></td>
+<td class=3D"confluenceTd">
+<p>Uses hash functions to locate data</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A94.Hashing">=F0=9F=A7=A9 <=
+strong>4. Hashing</strong></h2>
+<ul>
+<li>
+<p><strong>Definition:</strong> Technique to map <strong>keys to memory loc=
+ations</strong> using a <strong>hash function</strong>.</p></li>
+<li>
+<p><strong>Hash Function:</strong> Converts key =E2=86=92 index in hash tab=
+le</p></li>
+</ul>
+<h3 id=3D"DataStructuresandAlgorithms-CollisionHandlingTechniques:"><strong=
+>Collision Handling Techniques:</strong></h3>
+<ol start=3D"1">
+<li>
+<p><strong>Chaining:</strong> Store multiple elements in a linked list at s=
+ame index</p></li>
+<li>
+<p><strong>Open Addressing:</strong> Probe for next available slot (Linear,=
+ Quadratic, Double Hashing)</p></li>
+</ol>
+<h3 id=3D"DataStructuresandAlgorithms-Applications:"><strong>Applications:<=
+/strong></h3>
+<ul>
+<li>
+<p>Database indexing</p></li>
+<li>
+<p>Symbol tables in compilers</p></li>
+<li>
+<p>Caching</p></li>
+</ul>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A95.StorageManagement">=F0=
+=9F=A7=A9 <strong>5. Storage Management</strong></h2>
+<ul>
+<li>
+<p><strong>Definition:</strong> Efficient use of <strong>primary memory</st=
+rong> (RAM) to store data and programs.</p></li>
+</ul>
+<h3 id=3D"DataStructuresandAlgorithms-Techniques:"><strong>Techniques:</str=
+ong></h3>
+<ol start=3D"1">
+<li>
+<p><strong>Contiguous Allocation:</strong> Fixed block of memory</p></li>
+<li>
+<p><strong>Linked Allocation:</strong> Data blocks linked via pointers</p><=
+/li>
+<li>
+<p><strong>Indexed Allocation:</strong> Use an index table for block addres=
+ses</p></li>
+</ol>
+<h3 id=3D"DataStructuresandAlgorithms-MemoryManagementConcepts:"><strong>Me=
+mory Management Concepts:</strong></h3>
+<ul>
+<li>
+<p><strong>Stack vs Heap:</strong> Function calls vs dynamic allocation</p>=
+</li>
+<li>
+<p><strong>Garbage Collection:</strong> Automatic memory reclaiming</p></li=
+>
+<li>
+<p><strong>Virtual Memory:</strong> Simulate larger memory using disk</p></=
+li>
+</ul>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A96.TechniquesforAnalysisof=
+Algorithms">=F0=9F=A7=A9 <strong>6. Techniques for Analysis of Algorithms</=
+strong></h2>
+<p><strong>Algorithm analysis</strong> =3D studying <strong>performance in =
+terms of time and space</strong>.</p>
+<h3 id=3D"DataStructuresandAlgorithms-Techniques:.1"><strong>Techniques:</s=
+trong></h3>
+<ol start=3D"1">
+<li>
+<p><strong>Big-O Notation (Worst Case):</strong> Upper bound of time/space<=
+/p></li>
+<li>
+<p><strong>Big-Theta (Average Case):</strong> Tight bound</p></li>
+<li>
+<p><strong>Big-Omega (Best Case):</strong> Lower bound</p></li>
+<li>
+<p><strong>Recurrence Relations:</strong> For recursive algorithms (e.g., M=
+erge Sort T(n) =3D 2T(n/2) + O(n))</p></li>
+<li>
+<p><strong>Amortized Analysis:</strong> Average time per operation over seq=
+uence of operations (e.g., dynamic array resizing)</p></li>
+</ol>
+<p><strong>Purpose:</strong></p>
+<ul>
+<li>
+<p>Compare algorithms</p></li>
+<li>
+<p>Predict performance</p></li>
+<li>
+<p>Optimize resource usage</p></li>
+</ul>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=94=B97.QuickSummaryTable">=F0=
+=9F=94=B9 <strong>7. Quick Summary Table</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"58=
+5507e7-643d-474b-bfd9-5e675b4e5162" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Topic</p></th>
+<th class=3D"confluenceTh">
+<p>Key Points</p></th>
+<th class=3D"confluenceTh">
+<p>Examples/Applications</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Recursion</p></td>
+<td class=3D"confluenceTd">
+<p>Function calls itself, base &amp; recursive case</p></td>
+<td class=3D"confluenceTd">
+<p>Factorial, Fibonacci, tree traversal</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Sorting</p></td>
+<td class=3D"confluenceTd">
+<p>Arrange data</p></td>
+<td class=3D"confluenceTd">
+<p>Bubble, Merge, Quick, Heap Sort</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Searching</p></td>
+<td class=3D"confluenceTd">
+<p>Find element</p></td>
+<td class=3D"confluenceTd">
+<p>Linear, Binary, Hashing</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Hashing</p></td>
+<td class=3D"confluenceTd">
+<p>Key =E2=86=92 memory index</p></td>
+<td class=3D"confluenceTd">
+<p>Symbol tables, caching, DB indexing</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Storage Management</p></td>
+<td class=3D"confluenceTd">
+<p>Efficient memory usage</p></td>
+<td class=3D"confluenceTd">
+<p>Stack, Heap, Contiguous, Linked</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Algorithm Analysis</p></td>
+<td class=3D"confluenceTd">
+<p>Time &amp; space complexity</p></td>
+<td class=3D"confluenceTd">
+<p>Big-O, Recurrence, Amortized</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p>=E2=9C=85 <strong>In Short:</strong></p>
+<blockquote>
+<p><strong>Recursion</strong> simplifies divide-and-conquer problems.<br><s=
+trong>Sorting and searching</strong> organize and find data efficiently.<br=
+><strong>Hashing</strong> provides near-constant time access.<br><strong>St=
+orage management</strong> optimizes memory use.<br><strong>Algorithm analys=
+is</strong> predicts efficiency and helps choose optimal solutions.</p>
+</blockquote>
+<ol start=3D"6">
+<li>
+<p>Methods for the design of efficient algorithms: divide and conquer, gree=
+dy method, dynamic programming, back tracking, branch and bound; <code><=
+/code></p></li>
+</ol>
+<p>Perfect =F0=9F=91=8F =E2=80=94 now let=E2=80=99s cover <strong>Methods f=
+or Designing Efficient Algorithms</strong>, a core topic in <strong>algorit=
+hm design</strong>. I=E2=80=99ll explain step by step.</p>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A91.DivideandConquer">=F0=
+=9F=A7=A9 <strong>1. Divide and Conquer</strong></h2>
+<ul>
+<li>
+<p><strong>Definition:</strong> Break a problem into <strong>smaller subpro=
+blems</strong>, solve them <strong>recursively</strong>, and <strong>combin=
+e their solutions</strong>.</p></li>
+</ul>
+<h3 id=3D"DataStructuresandAlgorithms-Steps:"><strong>Steps:</strong></h3>
+<ol start=3D"1">
+<li>
+<p>Divide the problem into subproblems</p></li>
+<li>
+<p>Conquer each subproblem recursively</p></li>
+<li>
+<p>Combine results to form the solution</p></li>
+</ol>
+<h3 id=3D"DataStructuresandAlgorithms-Examples:.1"><strong>Examples:</stron=
+g></h3>
+<ul>
+<li>
+<p>Merge Sort</p></li>
+<li>
+<p>Quick Sort</p></li>
+<li>
+<p>Binary Search</p></li>
+<li>
+<p>Strassen=E2=80=99s Matrix Multiplication</p></li>
+</ul>
+<h3 id=3D"DataStructuresandAlgorithms-Advantages:.1"><strong>Advantages:</s=
+trong></h3>
+<ul>
+<li>
+<p>Reduces problem size</p></li>
+<li>
+<p>Often leads to <strong>logarithmic or linearithmic complexity</strong></=
+p></li>
+</ul>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A92.GreedyMethod">=F0=9F=A7=
+=A9 <strong>2. Greedy Method</strong></h2>
+<ul>
+<li>
+<p><strong>Definition:</strong> Build a solution <strong>step by step</stro=
+ng>, always choosing the <strong>best option at the current step</strong> (=
+local optimum).</p></li>
+</ul>
+<h3 id=3D"DataStructuresandAlgorithms-Characteristics:"><strong>Characteris=
+tics:</strong></h3>
+<ul>
+<li>
+<p>Works well when <strong>local optimum =3D global optimum</strong></p></l=
+i>
+<li>
+<p>Simple and fast</p></li>
+<li>
+<p>Not guaranteed to work for all problems</p></li>
+</ul>
+<h3 id=3D"DataStructuresandAlgorithms-Examples:.2"><strong>Examples:</stron=
+g></h3>
+<ul>
+<li>
+<p>Minimum Spanning Tree (Prim=E2=80=99s, Kruskal=E2=80=99s algorithms)</p>=
+</li>
+<li>
+<p>Dijkstra=E2=80=99s Shortest Path Algorithm</p></li>
+<li>
+<p>Fractional Knapsack Problem</p></li>
+</ul>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A93.DynamicProgramming(DP)"=
+>=F0=9F=A7=A9 <strong>3. Dynamic Programming (DP)</strong></h2>
+<ul>
+<li>
+<p><strong>Definition:</strong> Solve <strong>complex problems by breaking =
+them into overlapping subproblems</strong> and <strong>storing results</str=
+ong> to avoid recomputation.</p></li>
+</ul>
+<h3 id=3D"DataStructuresandAlgorithms-Steps:.1"><strong>Steps:</strong></h3=
+>
+<ol start=3D"1">
+<li>
+<p>Identify <strong>subproblems</strong></p></li>
+<li>
+<p>Solve each subproblem <strong>once</strong></p></li>
+<li>
+<p>Store results in <strong>table (memoization or tabulation)</strong></p><=
+/li>
+<li>
+<p>Use stored results to solve bigger problem</p></li>
+</ol>
+<h3 id=3D"DataStructuresandAlgorithms-Examples:.3"><strong>Examples:</stron=
+g></h3>
+<ul>
+<li>
+<p>Fibonacci series (optimized)</p></li>
+<li>
+<p>Longest Common Subsequence (LCS)</p></li>
+<li>
+<p>Knapsack Problem (0/1)</p></li>
+<li>
+<p>Matrix Chain Multiplication</p></li>
+</ul>
+<h3 id=3D"DataStructuresandAlgorithms-Advantages:.2"><strong>Advantages:</s=
+trong></h3>
+<ul>
+<li>
+<p>Optimizes <strong>recursive solutions</strong></p></li>
+<li>
+<p>Reduces <strong>time complexity</strong> significantly</p></li>
+</ul>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A94.Backtracking">=F0=9F=A7=
+=A9 <strong>4. Backtracking</strong></h2>
+<ul>
+<li>
+<p><strong>Definition:</strong> Solve problems by <strong>exploring all pos=
+sible solutions</strong> and <strong>discarding infeasible solutions</stron=
+g> early.</p></li>
+</ul>
+<h3 id=3D"DataStructuresandAlgorithms-Characteristics:.1"><strong>Character=
+istics:</strong></h3>
+<ul>
+<li>
+<p>Explore all <strong>candidate solutions</strong> recursively</p></li>
+<li>
+<p><strong>Prune</strong> paths that cannot lead to a solution</p></li>
+<li>
+<p>Often used for <strong>constraint satisfaction problems</strong></p></li=
+>
+</ul>
+<h3 id=3D"DataStructuresandAlgorithms-Examples:.4"><strong>Examples:</stron=
+g></h3>
+<ul>
+<li>
+<p>N-Queens Problem</p></li>
+<li>
+<p>Sudoku Solver</p></li>
+<li>
+<p>Graph Coloring</p></li>
+<li>
+<p>Hamiltonian Path Problem</p></li>
+</ul>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A95.BranchandBound">=F0=9F=
+=A7=A9 <strong>5. Branch and Bound</strong></h2>
+<ul>
+<li>
+<p><strong>Definition:</strong> Systematically explore <strong>solution spa=
+ce</strong> using a <strong>state-space tree</strong>, and <strong>discard =
+branches</strong> that cannot yield better solution than current best.</p><=
+/li>
+</ul>
+<h3 id=3D"DataStructuresandAlgorithms-Characteristics:.2"><strong>Character=
+istics:</strong></h3>
+<ul>
+<li>
+<p>Uses <strong>upper and lower bounds</strong></p></li>
+<li>
+<p>Prunes <strong>unpromising branches</strong></p></li>
+<li>
+<p>Often used for <strong>optimization problems</strong></p></li>
+</ul>
+<h3 id=3D"DataStructuresandAlgorithms-Examples:.5"><strong>Examples:</stron=
+g></h3>
+<ul>
+<li>
+<p>Traveling Salesman Problem (TSP)</p></li>
+<li>
+<p>0/1 Knapsack Problem</p></li>
+<li>
+<p>Job Scheduling Problem</p></li>
+</ul>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=94=B96.ComparisonTable">=F0=9F=
+=94=B9 <strong>6. Comparison Table</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"f1=
+0c6d71-dab5-4581-b88e-4cc032833e6e" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Method</p></th>
+<th class=3D"confluenceTh">
+<p>Key Idea</p></th>
+<th class=3D"confluenceTh">
+<p>Example</p></th>
+<th class=3D"confluenceTh">
+<p>Use Case</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Divide &amp; Conquer</p></td>
+<td class=3D"confluenceTd">
+<p>Break into subproblems &amp; combine</p></td>
+<td class=3D"confluenceTd">
+<p>Merge Sort, Quick Sort</p></td>
+<td class=3D"confluenceTd">
+<p>Sorting, Searching, Multiplication</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Greedy</p></td>
+<td class=3D"confluenceTd">
+<p>Take best option at each step</p></td>
+<td class=3D"confluenceTd">
+<p>Prim=E2=80=99s, Fractional Knapsack</p></td>
+<td class=3D"confluenceTd">
+<p>Optimization where local opt =3D global opt</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Dynamic Programming</p></td>
+<td class=3D"confluenceTd">
+<p>Store results of overlapping subproblems</p></td>
+<td class=3D"confluenceTd">
+<p>LCS, 0/1 Knapsack</p></td>
+<td class=3D"confluenceTd">
+<p>Optimization, DP problems</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Backtracking</p></td>
+<td class=3D"confluenceTd">
+<p>Explore all solutions &amp; prune infeasible</p></td>
+<td class=3D"confluenceTd">
+<p>N-Queens, Sudoku</p></td>
+<td class=3D"confluenceTd">
+<p>Constraint satisfaction</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Branch &amp; Bound</p></td>
+<td class=3D"confluenceTd">
+<p>Use bounds to prune solution space</p></td>
+<td class=3D"confluenceTd">
+<p>TSP, Knapsack</p></td>
+<td class=3D"confluenceTd">
+<p>Combinatorial optimization</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p>=E2=9C=85 <strong>In Short:</strong></p>
+<blockquote>
+<p>Efficient algorithm design relies on different strategies:</p>
+<ul>
+<li>
+<p><strong>Divide and Conquer:</strong> split &amp; combine</p></li>
+<li>
+<p><strong>Greedy:</strong> choose best local option</p></li>
+<li>
+<p><strong>Dynamic Programming:</strong> reuse subproblem results</p></li>
+<li>
+<p><strong>Backtracking:</strong> explore &amp; prune solutions</p></li>
+<li>
+<p><strong>Branch and Bound:</strong> prune using bounds</p></li>
+</ul>
+</blockquote>
+<p>These methods help solve problems <strong>efficiently in time and memory=
+</strong>.</p>
+<ol start=3D"7">
+<li>
+<p>Basic search and traversal techniques;</p></li>
+</ol>
+<p>Perfect =F0=9F=91=8F =E2=80=94 now let=E2=80=99s cover <strong>Basic Sea=
+rch and Traversal Techniques</strong>, which are essential in <strong>data =
+structures and algorithms</strong>. I=E2=80=99ll explain step by step.</p>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A91.SearchTechniques">=F0=
+=9F=A7=A9 <strong>1. Search Techniques</strong></h2>
+<p><strong>Searching</strong> =3D finding a specific element in a data stru=
+cture.</p>
+<h3 id=3D"DataStructuresandAlgorithms-a)LinearSearch(SequentialSearch)"><st=
+rong>a) Linear Search (Sequential Search)</strong></h3>
+<ul>
+<li>
+<p><strong>Definition:</strong> Check each element <strong>one by one</stro=
+ng> until the target is found.</p></li>
+<li>
+<p><strong>Time Complexity:</strong> O(n)</p></li>
+<li>
+<p><strong>Use Case:</strong> Small datasets or <strong>unsorted arrays</st=
+rong></p></li>
+</ul>
+<p><strong>Example:</strong></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">arr =3D=
+ [3, 7, 1, 9], target =3D 7 =20
+Check arr[0] =E2=86=92 3 (no) =20
+Check arr[1] =E2=86=92 7 (yes) =20
+</pre>
+</div>
+</div>
+<hr>
+<h3 id=3D"DataStructuresandAlgorithms-b)BinarySearch"><strong>b) Binary Sea=
+rch</strong></h3>
+<ul>
+<li>
+<p><strong>Definition:</strong> Efficient search for <strong>sorted arrays<=
+/strong>.</p></li>
+<li>
+<p><strong>Algorithm:</strong></p>
+<ol start=3D"1">
+<li>
+<p>Compare target with <strong>middle element</strong></p></li>
+<li>
+<p>If equal =E2=86=92 found</p></li>
+<li>
+<p>If smaller =E2=86=92 search left half</p></li>
+<li>
+<p>If larger =E2=86=92 search right half</p></li>
+</ol></li>
+<li>
+<p><strong>Time Complexity:</strong> O(log n)</p></li>
+<li>
+<p><strong>Requirement:</strong> Array must be <strong>sorted</strong></p><=
+/li>
+</ul>
+<hr>
+<h3 id=3D"DataStructuresandAlgorithms-c)Hash-BasedSearch"><strong>c) Hash-B=
+ased Search</strong></h3>
+<ul>
+<li>
+<p><strong>Definition:</strong> Use a <strong>hash function</strong> to fin=
+d elements directly.</p></li>
+<li>
+<p><strong>Time Complexity:</strong> O(1) on average</p></li>
+<li>
+<p><strong>Use Case:</strong> Fast lookup in <strong>databases, symbol tabl=
+es</strong></p></li>
+</ul>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A92.TraversalTechniques">=
+=F0=9F=A7=A9 <strong>2. Traversal Techniques</strong></h2>
+<p><strong>Traversal</strong> =3D visiting all nodes/elements of a data str=
+ucture <strong>systematically</strong>.</p>
+<h3 id=3D"DataStructuresandAlgorithms-a)LinearDataStructures"><strong>a) Li=
+near Data Structures</strong></h3>
+<ol start=3D"1">
+<li>
+<p><strong>Array / List:</strong></p>
+<ul>
+<li>
+<p>Traverse using <strong>loop</strong></p></li>
+<li>
+<p>Time Complexity: O(n)</p></li>
+</ul></li>
+<li>
+<p><strong>Stack / Queue:</strong></p>
+<ul>
+<li>
+<p>Traverse by <strong>popping/dequeueing</strong> elements</p></li>
+</ul></li>
+</ol>
+<hr>
+<h3 id=3D"DataStructuresandAlgorithms-b)Trees"><strong>b) Trees</strong></h=
+3>
+<ol start=3D"1">
+<li>
+<p><strong>Depth-First Traversal (DFS):</strong> Explore as deep as possibl=
+e before backtracking</p>
+<ul>
+<li>
+<p><strong>Preorder:</strong> Root =E2=86=92 Left =E2=86=92 Right</p></li>
+<li>
+<p><strong>Inorder:</strong> Left =E2=86=92 Root =E2=86=92 Right</p></li>
+<li>
+<p><strong>Postorder:</strong> Left =E2=86=92 Right =E2=86=92 Root</p></li>
+<li>
+<p>Implemented <strong>recursively or using stack</strong></p></li>
+</ul></li>
+<li>
+<p><strong>Breadth-First Traversal (BFS):</strong> Explore <strong>level by=
+ level</strong></p>
+<ul>
+<li>
+<p>Implemented using <strong>queue</strong></p></li>
+<li>
+<p>Example: Level order traversal</p></li>
+</ul></li>
+</ol>
+<hr>
+<h3 id=3D"DataStructuresandAlgorithms-c)Graphs"><strong>c) Graphs</strong><=
+/h3>
+<ol start=3D"1">
+<li>
+<p><strong>Depth-First Search (DFS):</strong></p>
+<ul>
+<li>
+<p>Visit node =E2=86=92 recursively visit neighbors</p></li>
+<li>
+<p>Useful for <strong>path finding, cycle detection</strong></p></li>
+</ul></li>
+<li>
+<p><strong>Breadth-First Search (BFS):</strong></p>
+<ul>
+<li>
+<p>Visit all neighbors =E2=86=92 then next level neighbors</p></li>
+<li>
+<p>Useful for <strong>shortest path in unweighted graphs</strong></p></li>
+</ul></li>
+</ol>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=94=B93.QuickSummaryTable">=F0=
+=9F=94=B9 <strong>3. Quick Summary Table</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"46=
+26cd49-47ab-4341-8355-ba02ee262c4e" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Technique</p></th>
+<th class=3D"confluenceTh">
+<p>Applicable To</p></th>
+<th class=3D"confluenceTh">
+<p>Key Idea</p></th>
+<th class=3D"confluenceTh">
+<p>Time Complexity</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Linear Search</p></td>
+<td class=3D"confluenceTd">
+<p>Arrays, Lists</p></td>
+<td class=3D"confluenceTd">
+<p>Check one by one</p></td>
+<td class=3D"confluenceTd">
+<p>O(n)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Binary Search</p></td>
+<td class=3D"confluenceTd">
+<p>Sorted Arrays</p></td>
+<td class=3D"confluenceTd">
+<p>Divide &amp; conquer</p></td>
+<td class=3D"confluenceTd">
+<p>O(log n)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Hash Search</p></td>
+<td class=3D"confluenceTd">
+<p>Arrays, Hash Tables</p></td>
+<td class=3D"confluenceTd">
+<p>Direct access via key</p></td>
+<td class=3D"confluenceTd">
+<p>O(1) avg</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>DFS Traversal</p></td>
+<td class=3D"confluenceTd">
+<p>Trees, Graphs</p></td>
+<td class=3D"confluenceTd">
+<p>Go deep first</p></td>
+<td class=3D"confluenceTd">
+<p>O(V+E) for graph</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>BFS Traversal</p></td>
+<td class=3D"confluenceTd">
+<p>Trees, Graphs</p></td>
+<td class=3D"confluenceTd">
+<p>Go level by level</p></td>
+<td class=3D"confluenceTd">
+<p>O(V+E) for graph</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p>=E2=9C=85 <strong>In Short:</strong></p>
+<blockquote>
+<p><strong>Search techniques</strong> locate elements (linear, binary, hash=
+).<br><strong>Traversal techniques</strong> systematically visit all elemen=
+ts or nodes (DFS, BFS).<br>
+Choosing the right method <strong>depends on data structure and application=
+</strong>.</p>
+</blockquote>
+<ol start=3D"8">
+<li>
+<p>Topological sorting;</p></li>
+</ol>
+<p>Perfect =F0=9F=91=8F =E2=80=94 now let=E2=80=99s cover <strong>Topologic=
+al Sorting</strong>, an important topic in <strong>graph algorithms</strong=
+>. I=E2=80=99ll explain step by step.</p>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A91.WhatisTopologicalSortin=
+g?">=F0=9F=A7=A9 <strong>1. What is Topological Sorting?</strong></h2>
+<ul>
+<li>
+<p><strong>Definition:</strong> A <strong>linear ordering of vertices</stro=
+ng> in a <strong>directed acyclic graph (DAG)</strong> such that for every =
+directed edge <strong>u =E2=86=92 v</strong>, vertex <strong>u</strong> com=
+es <strong>before v</strong> in the ordering.</p></li>
+<li>
+<p><strong>Purpose:</strong> Represents <strong>dependencies between tasks<=
+/strong>.</p></li>
+</ul>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A92.KeyPoints">=F0=9F=A7=A9=
+ <strong>2. Key Points</strong></h2>
+<ol start=3D"1">
+<li>
+<p>Works <strong>only for DAGs</strong> (no cycles allowed)</p></li>
+<li>
+<p><strong>Multiple valid topological orders</strong> may exist</p></li>
+<li>
+<p>Useful in <strong>scheduling, task ordering, and build systems</strong><=
+/p></li>
+</ol>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A93.Applications">=F0=9F=A7=
+=A9 <strong>3. Applications</strong></h2>
+<ul>
+<li>
+<p>Task scheduling with dependencies</p></li>
+<li>
+<p>Course prerequisite ordering</p></li>
+<li>
+<p>Build systems (compilation order)</p></li>
+<li>
+<p>Data serialization</p></li>
+</ul>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A94.AlgorithmsforTopologica=
+lSorting">=F0=9F=A7=A9 <strong>4. Algorithms for Topological Sorting</stron=
+g></h2>
+<h3 id=3D"DataStructuresandAlgorithms-a)Kahn=E2=80=99sAlgorithm(BFS-Based)"=
+><strong>a) Kahn=E2=80=99s Algorithm (BFS-Based)</strong></h3>
+<p><strong>Steps:</strong></p>
+<ol start=3D"1">
+<li>
+<p>Compute <strong>in-degree</strong> (number of incoming edges) for each v=
+ertex</p></li>
+<li>
+<p>Initialize a <strong>queue</strong> with vertices having <strong>in-degr=
+ee =3D 0</strong></p></li>
+<li>
+<p>While queue not empty:</p>
+<ul>
+<li>
+<p>Remove vertex <code>u</code> from queue</p></li>
+<li>
+<p>Add <code>u</code> to topological order</p></li>
+<li>
+<p>Decrease in-degree of all neighbors of <code>u</code></p></li>
+<li>
+<p>If in-degree of a neighbor becomes 0 =E2=86=92 enqueue it</p></li>
+</ul></li>
+</ol>
+<p><strong>Time Complexity:</strong> O(V + E)<br><strong>Space Complexity:<=
+/strong> O(V)</p>
+<hr>
+<h3 id=3D"DataStructuresandAlgorithms-b)DFS-BasedAlgorithm"><strong>b) DFS-=
+Based Algorithm</strong></h3>
+<p><strong>Steps:</strong></p>
+<ol start=3D"1">
+<li>
+<p>Perform <strong>DFS traversal</strong> of the graph</p></li>
+<li>
+<p>After visiting all neighbors of a vertex <code>v</code>, <strong>push </=
+strong><code>v</code><strong> onto a stack</strong></p></li>
+<li>
+<p>Once DFS completes for all vertices, <strong>pop vertices from the stack=
+</strong> =E2=86=92 gives topological order</p></li>
+</ol>
+<p><strong>Time Complexity:</strong> O(V + E)<br><strong>Space Complexity:<=
+/strong> O(V)</p>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A95.Example">=F0=9F=A7=A9 <=
+strong>5. Example</strong></h2>
+<p><strong>Graph (DAG):</strong></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">A =E2=
+=86=92 B =E2=86=92 D =20
+A =E2=86=92 C =E2=86=92 D
+</pre>
+</div>
+</div>
+<p><strong>Topological Orders:</strong></p>
+<ul>
+<li>
+<p><code>A, B, C, D</code></p></li>
+<li>
+<p><code>A, C, B, D</code></p></li>
+</ul>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=94=B96.QuickSummaryTable">=F0=
+=9F=94=B9 <strong>6. Quick Summary Table</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"3b=
+be00d6-32c1-4abb-a4b2-dae40803ed69" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Feature</p></th>
+<th class=3D"confluenceTh">
+<p>Kahn=E2=80=99s Algorithm</p></th>
+<th class=3D"confluenceTh">
+<p>DFS-Based Algorithm</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Approach</p></td>
+<td class=3D"confluenceTd">
+<p>BFS</p></td>
+<td class=3D"confluenceTd">
+<p>DFS</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Mechanism</p></td>
+<td class=3D"confluenceTd">
+<p>In-degree &amp; queue</p></td>
+<td class=3D"confluenceTd">
+<p>Recursive DFS &amp; stack</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Complexity</p></td>
+<td class=3D"confluenceTd">
+<p>O(V+E)</p></td>
+<td class=3D"confluenceTd">
+<p>O(V+E)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Requirement</p></td>
+<td class=3D"confluenceTd">
+<p>DAG</p></td>
+<td class=3D"confluenceTd">
+<p>DAG</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Applications</p></td>
+<td class=3D"confluenceTd">
+<p>Task scheduling, build systems</p></td>
+<td class=3D"confluenceTd">
+<p>Task ordering, dependency resolution</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p>=E2=9C=85 <strong>In Short:</strong></p>
+<blockquote>
+<p><strong>Topological sorting</strong> produces a <strong>linear ordering =
+of DAG vertices</strong> respecting dependencies.<br>
+It is widely used in <strong>scheduling, compilation, and task management</=
+strong>, and can be implemented using <strong>Kahn=E2=80=99s algorithm (BFS=
+)</strong> or <strong>DFS with a stack</strong>.</p>
+</blockquote>
+<ol start=3D"9">
+<li>
+<p>Connected components, spanning trees, shortest paths; </=
+p></li>
+</ol>
+<p>Perfect =F0=9F=91=8F =E2=80=94 now let=E2=80=99s cover <strong>Connected=
+ Components, Spanning Trees, and Shortest Paths</strong>, which are fundame=
+ntal in <strong>graph theory and algorithms</strong>. I=E2=80=99ll explain =
+step by step.</p>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A91.ConnectedComponents">=
+=F0=9F=A7=A9 <strong>1. Connected Components</strong></h2>
+<ul>
+<li>
+<p><strong>Definition:</strong> A <strong>connected component</strong> of a=
+ graph is a <strong>maximal set of vertices</strong> such that there exists=
+ a <strong>path between every pair of vertices</strong> in the set.</p></li=
+>
+<li>
+<p><strong>Types of Graphs:</strong></p>
+<ol start=3D"1">
+<li>
+<p><strong>Undirected Graphs:</strong> A connected component is a set of ve=
+rtices where every vertex is reachable from every other vertex in the set.<=
+/p></li>
+<li>
+<p><strong>Directed Graphs:</strong> Strongly connected components (SCC) ar=
+e subsets of vertices where <strong>every vertex is reachable from every ot=
+her vertex</strong> in the subset.</p></li>
+</ol></li>
+</ul>
+<h3 id=3D"DataStructuresandAlgorithms-AlgorithmstoFindConnectedComponents">=
+<strong>Algorithms to Find Connected Components</strong></h3>
+<ul>
+<li>
+<p><strong>DFS / BFS:</strong></p>
+<ul>
+<li>
+<p>Start DFS/BFS from an unvisited vertex</p></li>
+<li>
+<p>All reachable vertices form a connected component</p></li>
+</ul></li>
+<li>
+<p><strong>Kosaraju=E2=80=99s / Tarjan=E2=80=99s Algorithm:</strong> For <s=
+trong>strongly connected components in directed graphs</strong></p></li>
+</ul>
+<h3 id=3D"DataStructuresandAlgorithms-Applications.4"><strong>Applications<=
+/strong></h3>
+<ul>
+<li>
+<p>Social networks (groups of friends)</p></li>
+<li>
+<p>Image processing (connected regions)</p></li>
+<li>
+<p>Network connectivity analysis</p></li>
+</ul>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A92.SpanningTrees">=F0=9F=
+=A7=A9 <strong>2. Spanning Trees</strong></h2>
+<ul>
+<li>
+<p><strong>Definition:</strong> A <strong>spanning tree</strong> of a conne=
+cted graph is a <strong>subgraph that includes all vertices</strong>, is <s=
+trong>connected</strong>, and has <strong>no cycles</strong>.</p></li>
+</ul>
+<h3 id=3D"DataStructuresandAlgorithms-Types"><strong>Types</strong></h3>
+<ol start=3D"1">
+<li>
+<p><strong>Minimum Spanning Tree (MST):</strong> Spanning tree with <strong=
+>minimum total edge weight</strong></p></li>
+<li>
+<p><strong>Algorithms to Find MST:</strong></p>
+<ul>
+<li>
+<p><strong>Kruskal=E2=80=99s Algorithm</strong>: Sort edges by weight, add =
+edges avoiding cycles</p></li>
+<li>
+<p><strong>Prim=E2=80=99s Algorithm</strong>: Start from a vertex, add the =
+<strong>minimum weight edge</strong> connecting tree to remaining vertices<=
+/p></li>
+</ul></li>
+</ol>
+<h3 id=3D"DataStructuresandAlgorithms-Properties"><strong>Properties</stron=
+g></h3>
+<ul>
+<li>
+<p>A graph with <strong>V vertices</strong> =E2=86=92 spanning tree has <st=
+rong>V-1 edges</strong></p></li>
+<li>
+<p>Useful in <strong>network design, routing, and clustering</strong></p></=
+li>
+</ul>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A93.ShortestPaths">=F0=9F=
+=A7=A9 <strong>3. Shortest Paths</strong></h2>
+<ul>
+<li>
+<p><strong>Definition:</strong> Find the <strong>minimum-cost path</strong>=
+ between two vertices in a graph.</p></li>
+</ul>
+<h3 id=3D"DataStructuresandAlgorithms-Algorithms"><strong>Algorithms</stron=
+g></h3>
+<ol start=3D"1">
+<li>
+<p><strong>Dijkstra=E2=80=99s Algorithm</strong> (for non-negative weights)=
+</p>
+<ul>
+<li>
+<p>Uses a <strong>priority queue</strong> to pick vertex with minimum dista=
+nce</p></li>
+<li>
+<p>Time Complexity: O(V + E log V) using min-heap</p></li>
+</ul></li>
+<li>
+<p><strong>Bellman-Ford Algorithm</strong> (for negative weights)</p>
+<ul>
+<li>
+<p>Can handle <strong>negative edge weights</strong>, detects negative cycl=
+es</p></li>
+<li>
+<p>Time Complexity: O(V =C3=97 E)</p></li>
+</ul></li>
+<li>
+<p><strong>Floyd-Warshall Algorithm</strong> (All-pairs shortest path)</p>
+<ul>
+<li>
+<p>Dynamic programming approach</p></li>
+<li>
+<p>Time Complexity: O(V=C2=B3)</p></li>
+</ul></li>
+</ol>
+<h3 id=3D"DataStructuresandAlgorithms-Applications.5"><strong>Applications<=
+/strong></h3>
+<ul>
+<li>
+<p>GPS navigation</p></li>
+<li>
+<p>Network routing (Internet packet routing)</p></li>
+<li>
+<p>Traffic and logistics optimization</p></li>
+</ul>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=94=B94.QuickSummaryTable.1">=
+=F0=9F=94=B9 <strong>4. Quick Summary Table</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"7a=
+902e73-6b3b-4a92-94e9-bbd6194b491b" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Concept</p></th>
+<th class=3D"confluenceTh">
+<p>Definition</p></th>
+<th class=3D"confluenceTh">
+<p>Key Algorithms</p></th>
+<th class=3D"confluenceTh">
+<p>Applications</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Connected Components</p></td>
+<td class=3D"confluenceTd">
+<p>Maximal set of vertices where each pair is reachable</p></td>
+<td class=3D"confluenceTd">
+<p>DFS/BFS, Kosaraju, Tarjan</p></td>
+<td class=3D"confluenceTd">
+<p>Social networks, network analysis</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Spanning Tree</p></td>
+<td class=3D"confluenceTd">
+<p>Subgraph connecting all vertices with no cycles</p></td>
+<td class=3D"confluenceTd">
+<p>Prim=E2=80=99s, Kruskal=E2=80=99s</p></td>
+<td class=3D"confluenceTd">
+<p>Network design, clustering</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Shortest Path</p></td>
+<td class=3D"confluenceTd">
+<p>Minimum-cost path between vertices</p></td>
+<td class=3D"confluenceTd">
+<p>Dijkstra, Bellman-Ford, Floyd-Warshall</p></td>
+<td class=3D"confluenceTd">
+<p>Routing, GPS, traffic optimization</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p>=E2=9C=85 <strong>In Short:</strong></p>
+<blockquote>
+<p><strong>Connected components</strong> identify separate clusters in a gr=
+aph.<br><strong>Spanning trees</strong> connect all vertices without cycles=
+, and <strong>minimum spanning trees</strong> minimize cost.<br><strong>Sho=
+rtest path algorithms</strong> compute the least-cost path between vertices=
+ for efficient routing and navigation.</p>
+</blockquote>
+<ol start=3D"10">
+<li>
+<p>Flow algorithms;</p></li>
+</ol>
+<p>Perfect =F0=9F=91=8F =E2=80=94 now let=E2=80=99s cover <strong>Flow Algo=
+rithms</strong>, a key topic in <strong>graph theory and network optimizati=
+on</strong>. I=E2=80=99ll explain step by step.</p>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A91.WhatareFlowAlgorithms?"=
+>=F0=9F=A7=A9 <strong>1. What are Flow Algorithms?</strong></h2>
+<ul>
+<li>
+<p><strong>Definition:</strong> Flow algorithms deal with <strong>networks =
+where resources flow from a source to a sink</strong> through edges with <s=
+trong>capacities</strong>.</p></li>
+<li>
+<p><strong>Goal:</strong> Find <strong>maximum flow</strong>, <strong>minim=
+um cut</strong>, or optimize the flow in a network.</p></li>
+<li>
+<p><strong>Applications:</strong> Transportation, logistics, network routin=
+g, and supply chain problems.</p></li>
+</ul>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A92.BasicConcepts">=F0=9F=
+=A7=A9 <strong>2. Basic Concepts</strong></h2>
+<ol start=3D"1">
+<li>
+<p><strong>Flow Network:</strong> A <strong>directed graph</strong> G =3D (=
+V, E) where each edge (u, v) has a <strong>capacity c(u, v)</strong></p></l=
+i>
+<li>
+<p><strong>Source (s):</strong> Node where flow originates</p></li>
+<li>
+<p><strong>Sink (t):</strong> Node where flow terminates</p></li>
+<li>
+<p><strong>Flow (f(u, v))</strong> must satisfy:</p>
+<ul>
+<li>
+<p><strong>Capacity constraint:</strong> 0 =E2=89=A4 f(u, v) =E2=89=A4 c(u,=
+ v)</p></li>
+<li>
+<p><strong>Flow conservation:</strong> For all nodes except s and t, <stron=
+g>incoming flow =3D outgoing flow</strong></p></li>
+</ul></li>
+</ol>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A93.MaximumFlowProblem">=F0=
+=9F=A7=A9 <strong>3. Maximum Flow Problem</strong></h2>
+<ul>
+<li>
+<p><strong>Objective:</strong> Maximize the total flow from <strong>source =
+to sink</strong>.</p></li>
+</ul>
+<h3 id=3D"DataStructuresandAlgorithms-KeyAlgorithms"><strong>Key Algorithms=
+</strong></h3>
+<ol start=3D"1">
+<li>
+<p><strong>Ford-Fulkerson Algorithm</strong></p>
+<ul>
+<li>
+<p>Find <strong>augmenting paths</strong> from s =E2=86=92 t in the residua=
+l graph</p></li>
+<li>
+<p>Increase flow along the path until no more augmenting paths exist</p></l=
+i>
+<li>
+<p><strong>Time Complexity:</strong> O(E =C3=97 max_flow) (depends on capac=
+ities)</p></li>
+</ul></li>
+<li>
+<p><strong>Edmonds-Karp Algorithm</strong></p>
+<ul>
+<li>
+<p>Implementation of Ford-Fulkerson using <strong>BFS</strong> for finding =
+shortest augmenting paths</p></li>
+<li>
+<p><strong>Time Complexity:</strong> O(V =C3=97 E=C2=B2)</p></li>
+</ul></li>
+<li>
+<p><strong>Push-Relabel Algorithm</strong></p>
+<ul>
+<li>
+<p>Maintains a <strong>preflow</strong> and pushes excess flow from overflo=
+wing nodes</p></li>
+<li>
+<p><strong>Time Complexity:</strong> O(V=C2=B2 =C3=97 E)</p></li>
+</ul></li>
+</ol>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A94.MinimumCut">=F0=9F=A7=
+=A9 <strong>4. Minimum Cut</strong></h2>
+<ul>
+<li>
+<p><strong>Definition:</strong> Partition the graph into two disjoint sets =
+(S, T) such that <strong>source s =E2=88=88 S</strong> and <strong>sink t =
+=E2=88=88 T</strong>, minimizing <strong>sum of capacities from S to T</str=
+ong>.</p></li>
+<li>
+<p><strong>Max-Flow Min-Cut Theorem:</strong> Maximum flow =3D Capacity of =
+minimum cut</p></li>
+</ul>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A95.Applications">=F0=9F=A7=
+=A9 <strong>5. Applications</strong></h2>
+<ul>
+<li>
+<p>Network routing (Internet traffic)</p></li>
+<li>
+<p>Transportation and logistics (max load through roads/pipes)</p></li>
+<li>
+<p>Bipartite matching (job assignment problems)</p></li>
+<li>
+<p>Project scheduling (resource allocation)</p></li>
+</ul>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=94=B96.QuickSummaryTable.1">=
+=F0=9F=94=B9 <strong>6. Quick Summary Table</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"6a=
+b6f7b1-6e2b-45b7-b19c-3f0057b756b3" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Concept</p></th>
+<th class=3D"confluenceTh">
+<p>Definition</p></th>
+<th class=3D"confluenceTh">
+<p>Key Algorithm</p></th>
+<th class=3D"confluenceTh">
+<p>Applications</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Flow Network</p></td>
+<td class=3D"confluenceTd">
+<p>Directed graph with capacities</p></td>
+<td class=3D"confluenceTd">
+<p>Ford-Fulkerson, Edmonds-Karp, Push-Relabel</p></td>
+<td class=3D"confluenceTd">
+<p>Network routing, transportation</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Maximum Flow</p></td>
+<td class=3D"confluenceTd">
+<p>Max total flow from source to sink</p></td>
+<td class=3D"confluenceTd">
+<p>Ford-Fulkerson, Edmonds-Karp</p></td>
+<td class=3D"confluenceTd">
+<p>Logistics, resource allocation</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Minimum Cut</p></td>
+<td class=3D"confluenceTd">
+<p>Partition minimizing capacity between source and sink</p></td>
+<td class=3D"confluenceTd">
+<p>Derived from max-flow</p></td>
+<td class=3D"confluenceTd">
+<p>Network reliability, bottleneck analysis</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p>=E2=9C=85 <strong>In Short:</strong></p>
+<blockquote>
+<p><strong>Flow algorithms</strong> model the movement of resources in netw=
+orks.<br><strong>Maximum flow</strong> finds the most resource that can flo=
+w from source to sink.<br><strong>Minimum cut</strong> identifies bottlenec=
+ks.<br>
+Ford-Fulkerson, Edmonds-Karp, and Push-Relabel are the main algorithms used=
+ in <strong>network optimization and resource management</strong>.</p>
+</blockquote>
+<ol start=3D"11">
+<li>
+<p>Approximation algorithms;</p></li>
+</ol>
+<p>Perfect =F0=9F=91=8F =E2=80=94 now let=E2=80=99s cover <strong>Approxima=
+tion Algorithms</strong>, an important topic in <strong>algorithm design fo=
+r hard problems</strong>. I=E2=80=99ll explain step by step.</p>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A91.WhatareApproximationAlg=
+orithms?">=F0=9F=A7=A9 <strong>1. What are Approximation Algorithms?</stron=
+g></h2>
+<ul>
+<li>
+<p><strong>Definition:</strong> Algorithms that find <strong>near-optimal s=
+olutions</strong> for problems where finding the exact solution is <strong>=
+computationally hard (NP-hard)</strong>.</p></li>
+<li>
+<p><strong>Goal:</strong> Get a solution <strong>close to optimal</strong> =
+in <strong>polynomial time</strong>.</p></li>
+<li>
+<p>Trade-off: <strong>Accuracy vs Efficiency</strong></p></li>
+</ul>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A92.KeyConcepts">=F0=9F=A7=
+=A9 <strong>2. Key Concepts</strong></h2>
+<ol start=3D"1">
+<li>
+<p><strong>Approximation Ratio / Factor (=CF=81)</strong></p>
+<ul>
+<li>
+<p>Measures how close the solution is to optimal</p></li>
+<li>
+<p>For <strong>minimization problems:</strong><br>
+[<br>
+\rho =3D \frac{\text{Algorithm Solution}}{\text{Optimal Solution}} \ge 1<br=
+>
+]</p></li>
+<li>
+<p>For <strong>maximization problems:</strong><br>
+[<br>
+\rho =3D \frac{\text{Optimal Solution}}{\text{Algorithm Solution}} \ge 1<br=
+>
+]</p></li>
+</ul></li>
+<li>
+<p><strong>Polynomial-Time Approximation Scheme (PTAS)</strong></p>
+<ul>
+<li>
+<p>Produces a solution <strong>within (1 + =CE=B5) factor</strong> of optim=
+al for any =CE=B5 &gt; 0</p></li>
+<li>
+<p>Runtime depends on =CE=B5</p></li>
+</ul></li>
+</ol>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A93.CommonProblemsandAlgori=
+thms">=F0=9F=A7=A9 <strong>3. Common Problems and Algorithms</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"56=
+ed9e6d-c17a-4127-8ba5-2ac18f0fad17" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Problem</p></th>
+<th class=3D"confluenceTh">
+<p>Approximation Algorithm</p></th>
+<th class=3D"confluenceTh">
+<p>Approximation Ratio</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Vertex Cover</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Greedy algorithm: Pick edge, add both vertices, remove incident edges</p=
+></td>
+<td class=3D"confluenceTd">
+<p>2</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Traveling Salesman Problem (TSP, metric)</strong></p></td>
+<td class=3D"confluenceTd">
+<p>MST-based algorithm: build MST, perform DFS traversal</p></td>
+<td class=3D"confluenceTd">
+<p>2</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Knapsack Problem</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Greedy fractional approach</p></td>
+<td class=3D"confluenceTd">
+<p>1 (for fractional), PTAS for 0/1 Knapsack</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Set Cover</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Greedy approach: pick set covering most uncovered elements</p></td>
+<td class=3D"confluenceTd">
+<p>ln(n)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A94.StepstoDesignanApproxim=
+ationAlgorithm">=F0=9F=A7=A9 <strong>4. Steps to Design an Approximation Al=
+gorithm</strong></h2>
+<ol start=3D"1">
+<li>
+<p><strong>Understand problem constraints</strong> and <strong>optimal solu=
+tion definition</strong></p></li>
+<li>
+<p><strong>Simplify the problem</strong> or use <strong>greedy/heuristic st=
+rategies</strong></p></li>
+<li>
+<p><strong>Analyze approximation ratio</strong> to guarantee closeness to o=
+ptimal</p></li>
+<li>
+<p><strong>Implement efficiently</strong> in polynomial time</p></li>
+</ol>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A95.Applications.1">=F0=9F=
+=A7=A9 <strong>5. Applications</strong></h2>
+<ul>
+<li>
+<p>Network design (e.g., cable layout)</p></li>
+<li>
+<p>Scheduling problems (jobs, tasks)</p></li>
+<li>
+<p>Resource allocation and load balancing</p></li>
+<li>
+<p>Combinatorial optimization problems</p></li>
+</ul>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=94=B96.QuickSummaryTable.2">=
+=F0=9F=94=B9 <strong>6. Quick Summary Table</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"73=
+b8388f-4c2c-4b2b-8705-033f8a12c790" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Concept</p></th>
+<th class=3D"confluenceTh">
+<p>Definition</p></th>
+<th class=3D"confluenceTh">
+<p>Example</p></th>
+<th class=3D"confluenceTh">
+<p>Approx. Factor</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Approximation Algorithm</p></td>
+<td class=3D"confluenceTd">
+<p>Finds near-optimal solution for hard problems</p></td>
+<td class=3D"confluenceTd">
+<p>Vertex Cover, TSP, Knapsack</p></td>
+<td class=3D"confluenceTd">
+<p>2, ln(n), etc.</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>PTAS</p></td>
+<td class=3D"confluenceTd">
+<p>Polynomial-Time Approximation Scheme</p></td>
+<td class=3D"confluenceTd">
+<p>0/1 Knapsack</p></td>
+<td class=3D"confluenceTd">
+<p>(1 + =CE=B5)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Greedy Approach</p></td>
+<td class=3D"confluenceTd">
+<p>Stepwise local optimum choices</p></td>
+<td class=3D"confluenceTd">
+<p>Set Cover, MST-based TSP</p></td>
+<td class=3D"confluenceTd">
+<p>Problem-dependent</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p>=E2=9C=85 <strong>In Short:</strong></p>
+<blockquote>
+<p><strong>Approximation algorithms</strong> provide <strong>efficient, nea=
+r-optimal solutions</strong> for <strong>NP-hard problems</strong>, where e=
+xact solutions are infeasible.<br>
+They use <strong>greedy, heuristic, or polynomial-time schemes</strong> wit=
+h a guaranteed <strong>approximation ratio</strong> to balance <strong>accu=
+racy and efficiency</strong>.</p>
+</blockquote>
+<ol start=3D"12">
+<li>
+<p>Parallel algorithms;</p></li>
+</ol>
+<p>Perfect =F0=9F=91=8F =E2=80=94 now let=E2=80=99s cover <strong>Parallel =
+Algorithms</strong>, an important topic in <strong>advanced algorithm desig=
+n and computing</strong>. I=E2=80=99ll explain step by step.</p>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A91.WhatareParallelAlgorith=
+ms?">=F0=9F=A7=A9 <strong>1. What are Parallel Algorithms?</strong></h2>
+<ul>
+<li>
+<p><strong>Definition:</strong> Algorithms designed to <strong>divide a pro=
+blem into subproblems</strong> that can be solved <strong>simultaneously</s=
+trong> using multiple processors.</p></li>
+<li>
+<p><strong>Goal:</strong> Reduce <strong>execution time</strong> by perform=
+ing multiple computations at once.</p></li>
+<li>
+<p>Used in <strong>high-performance computing, multi-core processors, and d=
+istributed systems</strong>.</p></li>
+</ul>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A92.KeyConcepts.1">=F0=9F=
+=A7=A9 <strong>2. Key Concepts</strong></h2>
+<ol start=3D"1">
+<li>
+<p><strong>Parallelism:</strong> Performing multiple operations <strong>at =
+the same time</strong></p></li>
+<li>
+<p><strong>Speedup (S):</strong><br>
+[<br>
+S =3D \frac{\text{Time taken by sequential algorithm}}{\text{Time taken by =
+parallel algorithm}}<br>
+]</p></li>
+<li>
+<p><strong>Efficiency (E):</strong><br>
+[<br>
+E =3D \frac{\text{Speedup}}{\text{Number of processors}}<br>
+]</p></li>
+<li>
+<p><strong>Granularity:</strong> Size of subproblems;</p>
+<ul>
+<li>
+<p><strong>Fine-grained:</strong> Many small tasks</p></li>
+<li>
+<p><strong>Coarse-grained:</strong> Few large tasks</p></li>
+</ul></li>
+</ol>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A93.TypesofParallelism">=F0=
+=9F=A7=A9 <strong>3. Types of Parallelism</strong></h2>
+<ol start=3D"1">
+<li>
+<p><strong>Data Parallelism:</strong> Same operation on <strong>different p=
+ieces of data</strong> simultaneously</p>
+<ul>
+<li>
+<p>Example: Vector addition, matrix multiplication</p></li>
+</ul></li>
+<li>
+<p><strong>Task Parallelism:</strong> Different tasks executed <strong>in p=
+arallel</strong></p>
+<ul>
+<li>
+<p>Example: Pipeline processing, independent function execution</p></li>
+</ul></li>
+</ol>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A94.CommonParallelAlgorithm=
+s">=F0=9F=A7=A9 <strong>4. Common Parallel Algorithms</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"4c=
+b6e2ed-5821-403b-ad60-4138fda9dd3a" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Problem</p></th>
+<th class=3D"confluenceTh">
+<p>Algorithm / Technique</p></th>
+<th class=3D"confluenceTh">
+<p>Notes</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Sorting</p></td>
+<td class=3D"confluenceTd">
+<p>Parallel Merge Sort, Bitonic Sort</p></td>
+<td class=3D"confluenceTd">
+<p>Divide array among processors, merge results</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Searching</p></td>
+<td class=3D"confluenceTd">
+<p>Parallel Binary Search</p></td>
+<td class=3D"confluenceTd">
+<p>Split array, search independently</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Graph Algorithms</p></td>
+<td class=3D"confluenceTd">
+<p>Parallel BFS/DFS, Parallel Dijkstra</p></td>
+<td class=3D"confluenceTd">
+<p>Exploit multiple processors for level or node exploration</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Matrix Operations</p></td>
+<td class=3D"confluenceTd">
+<p>Parallel Matrix Multiplication</p></td>
+<td class=3D"confluenceTd">
+<p>Distribute rows/columns among processors</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A95.ChallengesinParallelAlg=
+orithms">=F0=9F=A7=A9 <strong>5. Challenges in Parallel Algorithms</strong>=
+</h2>
+<ol start=3D"1">
+<li>
+<p><strong>Synchronization:</strong> Ensuring tasks coordinate correctly</p=
+></li>
+<li>
+<p><strong>Communication Overhead:</strong> Time spent exchanging data betw=
+een processors</p></li>
+<li>
+<p><strong>Load Balancing:</strong> Distribute work evenly to avoid idle pr=
+ocessors</p></li>
+<li>
+<p><strong>Deadlocks / Race Conditions:</strong> Avoid conflicts while acce=
+ssing shared resources</p></li>
+</ol>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A96.Applications">=F0=9F=A7=
+=A9 <strong>6. Applications</strong></h2>
+<ul>
+<li>
+<p>Scientific simulations (weather, physics)</p></li>
+<li>
+<p>Big data processing (Hadoop, Spark)</p></li>
+<li>
+<p>Graphics rendering and image processing</p></li>
+<li>
+<p>Real-time systems and robotics</p></li>
+</ul>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=94=B97.QuickSummaryTable.1">=
+=F0=9F=94=B9 <strong>7. Quick Summary Table</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"4a=
+529105-bf3e-4623-889a-7908b88f35b1" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Concept</p></th>
+<th class=3D"confluenceTh">
+<p>Definition / Idea</p></th>
+<th class=3D"confluenceTh">
+<p>Example / Use Case</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Parallel Algorithm</p></td>
+<td class=3D"confluenceTd">
+<p>Solve problem using multiple processors simultaneously</p></td>
+<td class=3D"confluenceTd">
+<p>Matrix multiplication, BFS/DFS</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Data Parallelism</p></td>
+<td class=3D"confluenceTd">
+<p>Same operation on different data</p></td>
+<td class=3D"confluenceTd">
+<p>Vector addition, array operations</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Task Parallelism</p></td>
+<td class=3D"confluenceTd">
+<p>Different tasks in parallel</p></td>
+<td class=3D"confluenceTd">
+<p>Pipeline processing, multi-task execution</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Speedup &amp; Efficiency</p></td>
+<td class=3D"confluenceTd">
+<p>Measure performance gains</p></td>
+<td class=3D"confluenceTd">
+<p>Evaluate processor utilization</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Challenges</p></td>
+<td class=3D"confluenceTd">
+<p>Synchronization, communication, load balancing</p></td>
+<td class=3D"confluenceTd">
+<p>Avoid race conditions, deadlocks</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p>=E2=9C=85 <strong>In Short:</strong></p>
+<blockquote>
+<p><strong>Parallel algorithms</strong> divide a problem into subproblems t=
+hat can be solved <strong>simultaneously</strong> on multiple processors.<b=
+r>
+They aim to <strong>reduce execution time</strong>, improve <strong>efficie=
+ncy</strong>, and are widely used in <strong>high-performance computing, bi=
+g data, and scientific simulations</strong>.</p>
+</blockquote>
+<ol start=3D"13">
+<li>
+<p>Algebraic simplification and transformations;</p></li>
+</ol>
+<p>Perfect =F0=9F=91=8F =E2=80=94 now let=E2=80=99s cover <strong>Algebraic=
+ Simplification and Transformations</strong>, a fundamental topic in <stron=
+g>digital logic and Boolean algebra</strong>. I=E2=80=99ll explain step by =
+step.</p>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A91.WhatisAlgebraicSimplifi=
+cation?">=F0=9F=A7=A9 <strong>1. What is Algebraic Simplification?</strong>=
+</h2>
+<ul>
+<li>
+<p><strong>Definition:</strong> The process of <strong>reducing a Boolean e=
+xpression</strong> to its <strong>simplest or minimal form</strong> using <=
+strong>Boolean algebra rules</strong>.</p></li>
+<li>
+<p><strong>Goal:</strong> Reduce the number of <strong>gates, inputs, and c=
+omplexity</strong> in digital circuits.</p></li>
+</ul>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A92.BasicBooleanAlgebraLaws=
+">=F0=9F=A7=A9 <strong>2. Basic Boolean Algebra Laws</strong></h2>
+<ol start=3D"1">
+<li>
+<p><strong>Identity Law:</strong></p>
+<ul>
+<li>
+<p>( A + 0 =3D A )</p></li>
+<li>
+<p>( A \cdot 1 =3D A )</p></li>
+</ul></li>
+<li>
+<p><strong>Null Law:</strong></p>
+<ul>
+<li>
+<p>( A + 1 =3D 1 )</p></li>
+<li>
+<p>( A \cdot 0 =3D 0 )</p></li>
+</ul></li>
+<li>
+<p><strong>Idempotent Law:</strong></p>
+<ul>
+<li>
+<p>( A + A =3D A )</p></li>
+<li>
+<p>( A \cdot A =3D A )</p></li>
+</ul></li>
+<li>
+<p><strong>Complement Law:</strong></p>
+<ul>
+<li>
+<p>( A + A' =3D 1 )</p></li>
+<li>
+<p>( A \cdot A' =3D 0 )</p></li>
+</ul></li>
+<li>
+<p><strong>Commutative Law:</strong></p>
+<ul>
+<li>
+<p>( A + B =3D B + A )</p></li>
+<li>
+<p>( A \cdot B =3D B \cdot A )</p></li>
+</ul></li>
+<li>
+<p><strong>Associative Law:</strong></p>
+<ul>
+<li>
+<p>( (A + B) + C =3D A + (B + C) )</p></li>
+<li>
+<p>( (A \cdot B) \cdot C =3D A \cdot (B \cdot C) )</p></li>
+</ul></li>
+<li>
+<p><strong>Distributive Law:</strong></p>
+<ul>
+<li>
+<p>( A \cdot (B + C) =3D A \cdot B + A \cdot C )</p></li>
+<li>
+<p>( A + (B \cdot C) =3D (A + B) \cdot (A + C) )</p></li>
+</ul></li>
+</ol>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A93.BooleanTransformations"=
+>=F0=9F=A7=A9 <strong>3. Boolean Transformations</strong></h2>
+<ul>
+<li>
+<p><strong>Purpose:</strong> Convert Boolean expressions into <strong>diffe=
+rent equivalent forms</strong> to simplify or implement circuits efficientl=
+y.</p></li>
+</ul>
+<h3 id=3D"DataStructuresandAlgorithms-CommonTransformations:"><strong>Commo=
+n Transformations:</strong></h3>
+<ol start=3D"1">
+<li>
+<p><strong>De Morgan=E2=80=99s Theorems</strong></p>
+<ul>
+<li>
+<p>( (A \cdot B)' =3D A' + B' )</p></li>
+<li>
+<p>( (A + B)' =3D A' \cdot B' )</p></li>
+</ul></li>
+<li>
+<p><strong>Absorption Law:</strong></p>
+<ul>
+<li>
+<p>( A + A \cdot B =3D A )</p></li>
+<li>
+<p>( A \cdot (A + B) =3D A )</p></li>
+</ul></li>
+<li>
+<p><strong>Consensus Theorem:</strong></p>
+<ul>
+<li>
+<p>( AB + A'C + BC =3D AB + A'C )</p></li>
+</ul></li>
+<li>
+<p><strong>Double Negation:</strong></p>
+<ul>
+<li>
+<p>( (A')' =3D A )</p></li>
+</ul></li>
+</ol>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A94.StepsinAlgebraicSimplif=
+ication">=F0=9F=A7=A9 <strong>4. Steps in Algebraic Simplification</strong>=
+</h2>
+<ol start=3D"1">
+<li>
+<p><strong>Identify terms that can be combined</strong> using basic laws</p=
+></li>
+<li>
+<p><strong>Apply De Morgan=E2=80=99s Theorem</strong> if complemented expre=
+ssions exist</p></li>
+<li>
+<p><strong>Use distributive, associative, and commutative laws</strong> to =
+rearrange terms</p></li>
+<li>
+<p><strong>Eliminate redundant terms</strong> using absorption and idempote=
+nt laws</p></li>
+<li>
+<p><strong>Check if further reduction</strong> is possible</p></li>
+</ol>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A95.Example.1">=F0=9F=A7=A9=
+ <strong>5. Example</strong></h2>
+<p>Simplify:<br>
+[<br>
+F =3D A \cdot B + A \cdot B'<br>
+]</p>
+<p><strong>Solution:</strong><br>
+[<br>
+F =3D A \cdot (B + B') \quad \text{(Distributive Law)}<br>
+]<br>
+[<br>
+F =3D A \cdot 1 \quad \text{(Complement Law)}<br>
+]<br>
+[<br>
+F =3D A \quad \text{(Identity Law)}<br>
+]</p>
+<p>=E2=9C=85 Result: <strong>F =3D A</strong></p>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=94=B96.QuickSummaryTable.3">=
+=F0=9F=94=B9 <strong>6. Quick Summary Table</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"52=
+f834a9-d767-4f99-9275-0323d92c6a47" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Concept</p></th>
+<th class=3D"confluenceTh">
+<p>Key Idea</p></th>
+<th class=3D"confluenceTh">
+<p>Example</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Algebraic Simplification</p></td>
+<td class=3D"confluenceTd">
+<p>Reduce Boolean expressions</p></td>
+<td class=3D"confluenceTd">
+<p>( AB + AB' =3D A )</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>De Morgan=E2=80=99s Theorem</p></td>
+<td class=3D"confluenceTd">
+<p>Transform complements</p></td>
+<td class=3D"confluenceTd">
+<p>( (A + B)' =3D A'B' )</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Absorption Law</p></td>
+<td class=3D"confluenceTd">
+<p>Remove redundant terms</p></td>
+<td class=3D"confluenceTd">
+<p>( A + AB =3D A )</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Consensus Theorem</p></td>
+<td class=3D"confluenceTd">
+<p>Simplify 3-variable terms</p></td>
+<td class=3D"confluenceTd">
+<p>( AB + A'C + BC =3D AB + A'C )</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Basic Laws</p></td>
+<td class=3D"confluenceTd">
+<p>Identity, Null, Idempotent, Complement</p></td>
+<td class=3D"confluenceTd">
+<p>( A + 0 =3D A, A \cdot 1 =3D A )</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p>=E2=9C=85 <strong>In Short:</strong></p>
+<blockquote>
+<p><strong>Algebraic simplification and transformations</strong> help reduc=
+e Boolean expressions to <strong>minimal form</strong>, saving <strong>hard=
+ware resources</strong> and improving <strong>digital circuit efficiency</s=
+trong>.<br>
+Techniques include <strong>Boolean laws, De Morgan=E2=80=99s theorems, abso=
+rption, and consensus</strong>.</p>
+</blockquote>
+<ol start=3D"14">
+<li>
+<p>Lower bound theory;</p></li>
+</ol>
+<p>Perfect =F0=9F=91=8F =E2=80=94 now let=E2=80=99s cover <strong>Lower Bou=
+nd Theory</strong>, an important topic in <strong>algorithm analysis and co=
+mputational complexity</strong>. I=E2=80=99ll explain step by step.</p>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A91.WhatisLowerBoundTheory?=
+">=F0=9F=A7=A9 <strong>1. What is Lower Bound Theory?</strong></h2>
+<ul>
+<li>
+<p><strong>Definition:</strong> The <strong>lower bound</strong> of a probl=
+em is the <strong>minimum number of steps or operations any algorithm must =
+take</strong> to solve the problem in the worst case.</p></li>
+<li>
+<p><strong>Purpose:</strong> Determines <strong>theoretical limits</strong>=
+ of algorithm efficiency.</p></li>
+<li>
+<p>Helps to <strong>prove that no algorithm can solve the problem faster</s=
+trong> than the lower bound.</p></li>
+</ul>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A92.KeyConcepts.2">=F0=9F=
+=A7=A9 <strong>2. Key Concepts</strong></h2>
+<ol start=3D"1">
+<li>
+<p><strong>Lower Bound:</strong> Minimum computational effort required</p>
+<ul>
+<li>
+<p>Example: Sorting <strong>n elements</strong> requires at least <strong>=
+=CE=A9(n log n)</strong> comparisons in the comparison model.</p></li>
+</ul></li>
+<li>
+<p><strong>Upper Bound:</strong> Maximum steps an algorithm might take</p><=
+/li>
+<li>
+<p><strong>Tight Bound:</strong> When <strong>upper bound =3D lower bound</=
+strong>, the algorithm is <strong>optimal</strong></p></li>
+<li>
+<p><strong>Asymptotic Notation:</strong></p>
+<ul>
+<li>
+<p><strong>=CE=A9(f(n))</strong> =E2=86=92 Lower bound</p></li>
+<li>
+<p><strong>O(f(n))</strong> =E2=86=92 Upper bound</p></li>
+<li>
+<p><strong>=CE=98(f(n))</strong> =E2=86=92 Tight bound</p></li>
+</ul></li>
+</ol>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A93.ExamplesofLowerBound">=
+=F0=9F=A7=A9 <strong>3. Examples of Lower Bound</strong></h2>
+<ol start=3D"1">
+<li>
+<p><strong>Comparison-Based Sorting:</strong></p>
+<ul>
+<li>
+<p>Any algorithm that sorts by <strong>comparing elements</strong> must mak=
+e at least <strong>=CE=A9(n log n)</strong> comparisons.</p></li>
+<li>
+<p>Proof: Based on <strong>decision tree model</strong></p></li>
+</ul></li>
+<li>
+<p><strong>Searching in Unsorted Array:</strong></p>
+<ul>
+<li>
+<p>Any algorithm must check <strong>all n elements in worst case</strong> =
+=E2=86=92 <strong>=CE=A9(n)</strong></p></li>
+</ul></li>
+<li>
+<p><strong>Graph Connectivity:</strong></p>
+<ul>
+<li>
+<p>Checking connectivity requires <strong>=CE=A9(V + E)</strong> time</p></=
+li>
+</ul></li>
+</ol>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A94.TechniquestoDetermineLo=
+werBounds">=F0=9F=A7=A9 <strong>4. Techniques to Determine Lower Bounds</st=
+rong></h2>
+<ol start=3D"1">
+<li>
+<p><strong>Decision Tree Model:</strong></p>
+<ul>
+<li>
+<p>Represent all possible outcomes of comparisons as a <strong>binary tree<=
+/strong></p></li>
+<li>
+<p>Height of the tree =E2=86=92 minimum comparisons</p></li>
+</ul></li>
+<li>
+<p><strong>Adversary Argument:</strong></p>
+<ul>
+<li>
+<p>Assume an <strong>adversary</strong> gives inputs that <strong>maximize =
+algorithm steps</strong></p></li>
+</ul></li>
+<li>
+<p><strong>Information-Theoretic Argument:</strong></p>
+<ul>
+<li>
+<p>Count <strong>number of possible outcomes</strong> and compute <strong>m=
+inimum information needed</strong></p></li>
+</ul></li>
+</ol>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A95.Importance">=F0=9F=A7=
+=A9 <strong>5. Importance</strong></h2>
+<ul>
+<li>
+<p>Provides <strong>benchmark for optimality</strong></p></li>
+<li>
+<p>Helps <strong>design efficient algorithms</strong></p></li>
+<li>
+<p>Shows <strong>limitations</strong> of algorithmic approaches</p></li>
+<li>
+<p>Avoids unnecessary attempts to <strong>beat theoretical limits</strong><=
+/p></li>
+</ul>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=94=B96.QuickSummaryTable.4">=
+=F0=9F=94=B9 <strong>6. Quick Summary Table</strong></h2>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"183505bc-accb-4704-9cac-da0=
+12e2416b6" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Concept</p></th>
+<th class=3D"confluenceTh">
+<p>Definition</p></th>
+<th class=3D"confluenceTh">
+<p>Example</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Lower Bound</p></td>
+<td class=3D"confluenceTd">
+<p>Minimum steps required for any algorithm</p></td>
+<td class=3D"confluenceTd">
+<p>Sorting: =CE=A9(n log n)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Upper Bound</p></td>
+<td class=3D"confluenceTd">
+<p>Maximum steps algorithm might take</p></td>
+<td class=3D"confluenceTd">
+<p>Merge Sort: O(n log n)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Tight Bound</p></td>
+<td class=3D"confluenceTd">
+<p>When upper =3D lower bound</p></td>
+<td class=3D"confluenceTd">
+<p>Merge Sort: =CE=98(n log n)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Techniques</p></td>
+<td class=3D"confluenceTd">
+<p>Decision tree, adversary, info-theoretic</p></td>
+<td class=3D"confluenceTd">
+<p>Comparison-based sorting</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p>=E2=9C=85 <strong>In Short:</strong></p>
+<blockquote>
+<p><strong>Lower bound theory</strong> defines the <strong>minimum computat=
+ional steps</strong> required to solve a problem.<br>
+It helps determine the <strong>efficiency limits of algorithms</strong>, en=
+sures that algorithm designs are <strong>realistically optimal</strong>, an=
+d prevents wasting effort trying to beat impossible bounds.</p>
+</blockquote>
+<ol start=3D"15">
+<li>
+<p>NP-completeness, NP-hard and NP- complete problems. </p>=
+</li>
+</ol>
+<p>Perfect =F0=9F=91=8F =E2=80=94 now let=E2=80=99s cover <strong>NP-Comple=
+teness, NP-Hard, and NP-Complete Problems</strong>, fundamental topics in <=
+strong>computational complexity theory</strong>. I=E2=80=99ll explain clear=
+ly.</p>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A91.BasicConcepts">=F0=9F=
+=A7=A9 <strong>1. Basic Concepts</strong></h2>
+<ol start=3D"1">
+<li>
+<p><strong>P (Polynomial Time):</strong></p>
+<ul>
+<li>
+<p>Class of problems that can be <strong>solved in polynomial time</strong>=
+ by a <strong>deterministic algorithm</strong>.</p></li>
+<li>
+<p>Example: Sorting, shortest path in weighted graph (Dijkstra)</p></li>
+</ul></li>
+<li>
+<p><strong>NP (Non-deterministic Polynomial Time):</strong></p>
+<ul>
+<li>
+<p>Class of problems for which a <strong>given solution can be verified in =
+polynomial time</strong>, even if finding it may be hard.</p></li>
+<li>
+<p>Example: Subset sum, Hamiltonian path verification</p></li>
+</ul></li>
+<li>
+<p><strong>NP-Hard:</strong></p>
+<ul>
+<li>
+<p>Class of problems that are <strong>at least as hard as the hardest probl=
+ems in NP</strong>.</p></li>
+<li>
+<p><strong>No known polynomial-time algorithm exists</strong> (assuming P =
+=E2=89=A0 NP).</p></li>
+<li>
+<p><strong>Not necessarily in NP</strong> (solution may not be verifiable i=
+n polynomial time).</p></li>
+<li>
+<p>Example: Halting problem, optimization version of TSP</p></li>
+</ul></li>
+<li>
+<p><strong>NP-Complete:</strong></p>
+<ul>
+<li>
+<p>Problems that are <strong>both in NP and NP-Hard</strong>.</p></li>
+<li>
+<p>If a <strong>polynomial-time solution exists</strong> for one NP-Complet=
+e problem, <strong>all NP problems can be solved in polynomial time</strong=
+>.</p></li>
+<li>
+<p>Example: 3-SAT, Knapsack (0/1), Hamiltonian Cycle, Clique Problem</p></l=
+i>
+</ul></li>
+</ol>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A92.Relationships">=F0=9F=
+=A7=A9 <strong>2. Relationships</strong></h2>
+<ul>
+<li>
+<p><strong>P =E2=8A=86 NP =E2=8A=86 NP-Hard</strong></p></li>
+<li>
+<p><strong>NP-Complete</strong> problems are <strong>a subset of NP-Hard</s=
+trong></p></li>
+<li>
+<p><strong>Venn Diagram View:</strong></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">     NP=
+-Hard
+    -------------
+    |  NP-Complete |
+    |    NP        |
+    |    P         |
+    -------------
+</pre>
+</div>
+</div></li>
+<li>
+<p>If P =3D NP =E2=86=92 All NP-Complete problems can be solved in polynomi=
+al time</p></li>
+</ul>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A93.HowtoProveNP-Completene=
+ss">=F0=9F=A7=A9 <strong>3. How to Prove NP-Completeness</strong></h2>
+<ol start=3D"1">
+<li>
+<p><strong>Problem is in NP:</strong></p>
+<ul>
+<li>
+<p>Any proposed solution can be <strong>verified in polynomial time</strong=
+></p></li>
+</ul></li>
+<li>
+<p><strong>Reduction from known NP-Complete problem:</strong></p>
+<ul>
+<li>
+<p>Show that a known NP-Complete problem can be <strong>reduced to this pro=
+blem</strong> in polynomial time</p></li>
+</ul></li>
+</ol>
+<p><strong>Example:</strong></p>
+<ul>
+<li>
+<p>3-SAT is NP-Complete</p></li>
+<li>
+<p>Vertex Cover is NP-Complete by reducing 3-SAT =E2=86=92 Vertex Cover</p>=
+</li>
+</ul>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=A7=A94.ExamplesofNP-CompletePr=
+oblems">=F0=9F=A7=A9 <strong>4. Examples of NP-Complete Problems</strong></=
+h2>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"67decf50-10d8-4f8d-a573-825=
+ccdab8181" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Problem</p></th>
+<th class=3D"confluenceTh">
+<p>Description</p></th>
+<th class=3D"confluenceTh">
+<p>Notes</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>3-SAT</p></td>
+<td class=3D"confluenceTd">
+<p>Boolean formula in CNF, each clause has 3 literals</p></td>
+<td class=3D"confluenceTd">
+<p>Decision problem</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Hamiltonian Cycle</p></td>
+<td class=3D"confluenceTd">
+<p>Does a graph have a cycle visiting all vertices exactly once?</p></td>
+<td class=3D"confluenceTd">
+<p>Graph problem</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>0/1 Knapsack</p></td>
+<td class=3D"confluenceTd">
+<p>Can subset of items satisfy weight =E2=89=A4 W and value =E2=89=A5 V?</p=
+></td>
+<td class=3D"confluenceTd">
+<p>Optimization/Decision</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Clique Problem</p></td>
+<td class=3D"confluenceTd">
+<p>Is there a clique of size k in a graph?</p></td>
+<td class=3D"confluenceTd">
+<p>Graph problem</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id=3D"DataStructuresandAlgorithms-=F0=9F=94=B95.QuickSummaryTable">=F0=
+=9F=94=B9 <strong>5. Quick Summary Table</strong></h2>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"0a3877ac-705b-4d20-9c39-771=
+bb1a812df" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Term</p></th>
+<th class=3D"confluenceTh">
+<p>Definition</p></th>
+<th class=3D"confluenceTh">
+<p>Key Point</p></th>
+<th class=3D"confluenceTh">
+<p>Example</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>NP</p></td>
+<td class=3D"confluenceTd">
+<p>Solutions verifiable in poly-time</p></td>
+<td class=3D"confluenceTd">
+<p>May not be solvable in poly-time</p></td>
+<td class=3D"confluenceTd">
+<p>Subset sum</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>NP-Hard</p></td>
+<td class=3D"confluenceTd">
+<p>At least as hard as hardest NP problems</p></td>
+<td class=3D"confluenceTd">
+<p>Not necessarily in NP</p></td>
+<td class=3D"confluenceTd">
+<p>Halting problem</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>NP-Complete</p></td>
+<td class=3D"confluenceTd">
+<p>In NP and NP-Hard</p></td>
+<td class=3D"confluenceTd">
+<p>Solving one =E2=86=92 solve all NP</p></td>
+<td class=3D"confluenceTd">
+<p>3-SAT, Vertex Cover</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p>=E2=9C=85 <strong>In Short:</strong></p>
+<blockquote>
+<p><strong>NP-Complete problems</strong> are the hardest problems in NP; so=
+lutions can be verified quickly but not necessarily found quickly.<br><stro=
+ng>NP-Hard problems</strong> may be even harder and are not guaranteed to b=
+e verifiable in polynomial time.<br>
+Understanding these classes is crucial for <strong>algorithm design and com=
+putational feasibility</strong>.</p>
+</blockquote>
+    </div>
+</body>
+</html>
+------=_Part_598_548379211.1760785716625--

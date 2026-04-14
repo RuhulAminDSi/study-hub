@@ -1,0 +1,2141 @@
+Date: Sat, 18 Oct 2025 11:09:23 +0000 (UTC)
+Message-ID: <243279262.531.1760785763236@d4b9214b222c>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_530_1687388221.1760785763235"
+
+------=_Part_530_1687388221.1760785763235
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Introduction to Computer Systems</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Introduction to Computer Systems</h1>
+    <div class=3D"Section1">
+        <ol start=3D"1">
+<li>
+<p>Introduction to computations</p></li>
+<li>
+<p>Early history of computing devices;</p></li>
+<li>
+<p>Computers;</p></li>
+<li>
+<p>Major components of a computer; Hardware: processor, memory, I/O devices=
+ </p></li>
+<li>
+<p>Software: Operating system, application software</p></li>
+<li>
+<p>Basic architecture of a computer</p></li>
+<li>
+<p>Basic Information Technology</p></li>
+<li>
+<p>The Internet</p></li>
+<li>
+<p>Number system: binary, octal, hexadecimal, binary arithmetic</p></li>
+</ol>
+<p></p>
+<p></p>
+<ol start=3D"1">
+<li>
+<p>Introduction to computations</p></li>
+</ol>
+<p>Here=E2=80=99s a <strong>clear introduction to computations</strong> fro=
+m a fundamental perspective:</p>
+<hr>
+<h2 id=3D"IntroductiontoComputerSystems-1=EF=B8=8F=E2=83=A3WhatisComputatio=
+n?">1=EF=B8=8F=E2=83=A3 What is Computation?</h2>
+<p><strong>Computation</strong> is the process of solving problems, perform=
+ing calculations, or processing information using a <strong>well-defined se=
+t of rules or instructions</strong>.</p>
+<ul>
+<li>
+<p>Essentially, it=E2=80=99s <strong>transforming input into output</strong=
+> using a method or algorithm.</p></li>
+<li>
+<p>Can be done by <strong>humans, machines, or both</strong>.</p></li>
+</ul>
+<p><strong>Examples:</strong></p>
+<ul>
+<li>
+<p>Adding two numbers (2 + 3 =E2=86=92 5)</p></li>
+<li>
+<p>Sorting a list of names alphabetically</p></li>
+<li>
+<p>Searching for a word in a document</p></li>
+</ul>
+<hr>
+<h2 id=3D"IntroductiontoComputerSystems-2=EF=B8=8F=E2=83=A3KeyComponentsofC=
+omputation">2=EF=B8=8F=E2=83=A3 Key Components of Computation</h2>
+<ol start=3D"1">
+<li>
+<p><strong>Input</strong> =E2=80=93 The data provided to the computation.</=
+p></li>
+<li>
+<p><strong>Process</strong> =E2=80=93 The set of operations, rules, or algo=
+rithms applied to the input.</p></li>
+<li>
+<p><strong>Output</strong> =E2=80=93 The result produced by the computation=
+.</p></li>
+</ol>
+<p><strong>Formulaically:</strong></p>
+<p>Computation:Input=E2=86=92AlgorithmOutput\text{Computation} : \text{Inpu=
+t} \xrightarrow{\text{Algorithm}} \text{Output}</p>
+<hr>
+<h2 id=3D"IntroductiontoComputerSystems-3=EF=B8=8F=E2=83=A3TypesofComputati=
+on">3=EF=B8=8F=E2=83=A3 Types of Computation</h2>
+<ol start=3D"1">
+<li>
+<p><strong>Exact Computation</strong> =E2=80=93 Produces precise, determini=
+stic results.</p>
+<ul>
+<li>
+<p>Example: Calculating 5 =C3=97 7 =3D 35</p></li>
+</ul></li>
+<li>
+<p><strong>Approximate Computation</strong> =E2=80=93 Produces results clos=
+e to the exact value, useful for complex or large problems.</p>
+<ul>
+<li>
+<p>Example: Numerical solutions to differential equations</p></li>
+</ul></li>
+<li>
+<p><strong>Symbolic Computation</strong> =E2=80=93 Manipulates symbols or e=
+xpressions rather than numbers.</p>
+<ul>
+<li>
+<p>Example: Simplifying algebraic expressions</p></li>
+</ul></li>
+<li>
+<p><strong>Logical/Boolean Computation</strong> =E2=80=93 Uses true/false o=
+r yes/no values.</p>
+<ul>
+<li>
+<p>Example: Decision-making in algorithms</p></li>
+</ul></li>
+</ol>
+<hr>
+<h2 id=3D"IntroductiontoComputerSystems-4=EF=B8=8F=E2=83=A3ModelsofComputat=
+ion">4=EF=B8=8F=E2=83=A3 Models of Computation</h2>
+<ul>
+<li>
+<p><strong>Turing Machine</strong> =E2=80=93 Abstract model defining what p=
+roblems are computable.</p></li>
+<li>
+<p><strong>Finite Automata</strong> =E2=80=93 Computation with limited memo=
+ry, used in pattern recognition.</p></li>
+<li>
+<p><strong>Lambda Calculus</strong> =E2=80=93 Mathematical model for defini=
+ng functions and transformations.</p></li>
+</ul>
+<hr>
+<h2 id=3D"IntroductiontoComputerSystems-5=EF=B8=8F=E2=83=A3WhyComputationis=
+Important">5=EF=B8=8F=E2=83=A3 Why Computation is Important</h2>
+<ul>
+<li>
+<p><strong>Problem Solving:</strong> Enables systematic solutions to comple=
+x tasks.</p></li>
+<li>
+<p><strong>Automation:</strong> Computers perform repetitive tasks faster t=
+han humans.</p></li>
+<li>
+<p><strong>Scientific Modeling:</strong> Simulates real-world phenomena (we=
+ather, physics, biology).</p></li>
+<li>
+<p><strong>Decision Making:</strong> Helps in AI, business analytics, and e=
+ngineering.</p></li>
+</ul>
+<hr>
+<p>=F0=9F=92=A1 <strong>Key Idea:</strong><br>
+At its core, computation is <strong>input + algorithm =E2=86=92 output</str=
+ong>. Understanding this foundation is critical before diving into programm=
+ing, algorithms, or computational theory.</p>
+<hr>
+<p>If you want, I can also explain <strong>=E2=80=9Ctypes of computational =
+problems and complexity=E2=80=9D</strong> next, which is the natural contin=
+uation of this topic. Do you want me to do that?</p>
+<p></p>
+<ol start=3D"2">
+<li>
+<p>Early history of computing devices;</p></li>
+</ol>
+<p>Here=E2=80=99s a <strong>structured overview of the early history of com=
+puting devices</strong>, from simple tools to mechanical computers:</p>
+<hr>
+<h2 id=3D"IntroductiontoComputerSystems-1=EF=B8=8F=E2=83=A3Prehistoric&amp;=
+AncientTools">1=EF=B8=8F=E2=83=A3 Prehistoric &amp; Ancient Tools</h2>
+<p><strong>a) Counting Tools (Pre-3000 BCE)</strong></p>
+<ul>
+<li>
+<p><strong>Tally sticks:</strong> Marking notches to count objects.</p></li=
+>
+<li>
+<p><strong>Quipus (Inca):</strong> Knotted strings for numerical recording.=
+</p></li>
+</ul>
+<p><strong>b) Abacus (c. 2400 BCE =E2=80=93 China, Mesopotamia, Egypt)</str=
+ong></p>
+<ul>
+<li>
+<p>Early <strong>mechanical aid</strong> for arithmetic.</p></li>
+<li>
+<p>Uses beads on rods to represent numbers.</p></li>
+<li>
+<p>Still used in some regions today for quick calculations.</p></li>
+</ul>
+<hr>
+<h2 id=3D"IntroductiontoComputerSystems-2=EF=B8=8F=E2=83=A3MechanicalComput=
+ation">2=EF=B8=8F=E2=83=A3 Mechanical Computation</h2>
+<p><strong>a) Antikythera Mechanism (c. 100 BCE, Greece)</strong></p>
+<ul>
+<li>
+<p>Earliest known <strong>analog mechanical device</strong>.</p></li>
+<li>
+<p>Calculated positions of celestial bodies.</p></li>
+<li>
+<p>Precursor to clocks and astronomical calculators.</p></li>
+</ul>
+<p><strong>b) Napier=E2=80=99s Bones (1617, John Napier)</strong></p>
+<ul>
+<li>
+<p>Multiplication and division using rods marked with numbers.</p></li>
+</ul>
+<p><strong>c) Slide Rule (1620s, William Oughtred)</strong></p>
+<ul>
+<li>
+<p>Based on <strong>logarithms</strong> to perform multiplication, division=
+, and powers.</p></li>
+</ul>
+<p><strong>d) Pascaline (1642, Blaise Pascal)</strong></p>
+<ul>
+<li>
+<p><strong>Mechanical adding machine</strong> using gears.</p></li>
+<li>
+<p>Could add and subtract directly; multiplication/division done through re=
+peated addition/subtraction.</p></li>
+</ul>
+<p><strong>e) Leibniz=E2=80=99s Step Reckoner (1673)</strong></p>
+<ul>
+<li>
+<p>Advanced Pascaline with ability to multiply, divide, and calculate roots=
+.</p></li>
+</ul>
+<hr>
+<h2 id=3D"IntroductiontoComputerSystems-3=EF=B8=8F=E2=83=A3Early19thCentury=
+=E2=80=93TheAnalyticalEngine">3=EF=B8=8F=E2=83=A3 Early 19th Century =E2=80=
+=93 The Analytical Engine</h2>
+<p><strong>Charles Babbage (1791=E2=80=931871)</strong></p>
+<ul>
+<li>
+<p><strong>Difference Engine:</strong> Automatic calculation of polynomial =
+tables.</p></li>
+<li>
+<p><strong>Analytical Engine:</strong></p>
+<ul>
+<li>
+<p>First concept of a <strong>programmable mechanical computer</strong>.</p=
+></li>
+<li>
+<p>Components similar to modern computers:</p>
+<ul>
+<li>
+<p><strong>Input:</strong> Punched cards</p></li>
+<li>
+<p><strong>Processing:</strong> Arithmetic logic unit (ALU)</p></li>
+<li>
+<p><strong>Memory:</strong> Storage for numbers</p></li>
+<li>
+<p><strong>Output:</strong> Printed results</p></li>
+</ul></li>
+</ul></li>
+</ul>
+<p><strong>Ada Lovelace</strong></p>
+<ul>
+<li>
+<p>Considered the <strong>first computer programmer</strong>.</p></li>
+<li>
+<p>Wrote algorithms for the Analytical Engine.</p></li>
+</ul>
+<hr>
+<h2 id=3D"IntroductiontoComputerSystems-4=EF=B8=8F=E2=83=A3Late19th=E2=80=
+=93Early20thCentury">4=EF=B8=8F=E2=83=A3 Late 19th =E2=80=93 Early 20th Cen=
+tury</h2>
+<p><strong>a) Mechanical Calculators</strong></p>
+<ul>
+<li>
+<p>Devices like <strong>Comptometer (1887)</strong> and <strong>Arithmomete=
+r</strong> automated arithmetic for businesses and engineering.</p></li>
+</ul>
+<p><strong>b) Punched Card Systems</strong></p>
+<ul>
+<li>
+<p><strong>Herman Hollerith (1890)</strong></p>
+<ul>
+<li>
+<p>Developed a punched card tabulating machine for the U.S. Census.</p></li=
+>
+<li>
+<p>Precursor to IBM machines.</p></li>
+</ul></li>
+</ul>
+<p><strong>c) Analog Computers</strong></p>
+<ul>
+<li>
+<p>Used <strong>continuous physical quantities</strong> (like voltages or r=
+otating wheels) to solve equations.</p></li>
+<li>
+<p>Examples: differential analyzers for engineering calculations.</p></li>
+</ul>
+<hr>
+<h3 id=3D"IntroductiontoComputerSystems-=E2=9C=85KeyPoints">=E2=9C=85 Key P=
+oints</h3>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"c0=
+1c3bd0-c8e5-4114-b164-afda8a4cfb64" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Period</p></th>
+<th class=3D"confluenceTh">
+<p>Device/Concept</p></th>
+<th class=3D"confluenceTh">
+<p>Contribution</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Prehistoric</p></td>
+<td class=3D"confluenceTd">
+<p>Tally sticks</p></td>
+<td class=3D"confluenceTd">
+<p>Counting &amp; recording</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Ancient</p></td>
+<td class=3D"confluenceTd">
+<p>Abacus</p></td>
+<td class=3D"confluenceTd">
+<p>Arithmetic operations</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>17th c.</p></td>
+<td class=3D"confluenceTd">
+<p>Pascaline, Leibniz=E2=80=99s Engine</p></td>
+<td class=3D"confluenceTd">
+<p>Mechanical addition, multiplication</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>19th c.</p></td>
+<td class=3D"confluenceTd">
+<p>Babbage=E2=80=99s Analytical Engine</p></td>
+<td class=3D"confluenceTd">
+<p>Concept of programmable computer</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Late 19th</p></td>
+<td class=3D"confluenceTd">
+<p>Punched cards (Hollerith)</p></td>
+<td class=3D"confluenceTd">
+<p>Data processing &amp; automation</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p>=F0=9F=92=A1 <strong>Summary:</strong><br>
+The <strong>early history of computing</strong> shows a progression from <s=
+trong>manual counting</strong> =E2=86=92 <strong>mechanical devices</strong=
+> =E2=86=92 <strong>programmable machines</strong>, laying the foundation f=
+or <strong>modern electronic computers</strong>.</p>
+<hr>
+<p>If you want, I can next make a <strong>timeline of computing devices lea=
+ding up to electronic computers</strong>, which makes it very easy to remem=
+ber for exams. Do you want me to do that?</p>
+<p></p>
+<ol start=3D"3">
+<li>
+<p>Computers;</p></li>
+</ol>
+<p>Here=E2=80=99s a structured introduction to <strong>computers</strong>, =
+covering definition, types, and components:</p>
+<hr>
+<h2 id=3D"IntroductiontoComputerSystems-1=EF=B8=8F=E2=83=A3WhatisaComputer?=
+">1=EF=B8=8F=E2=83=A3 What is a Computer?</h2>
+<p><strong>Definition:</strong><br>
+A computer is an <strong>electronic device</strong> that can <strong>accept=
+ input, process data according to instructions, store information, and prod=
+uce output</strong>.</p>
+<p><strong>Key Characteristics:</strong></p>
+<ul>
+<li>
+<p><strong>Speed:</strong> Performs operations much faster than humans.</p>=
+</li>
+<li>
+<p><strong>Accuracy:</strong> High precision in calculations.</p></li>
+<li>
+<p><strong>Automation:</strong> Can execute instructions automatically.</p>=
+</li>
+<li>
+<p><strong>Storage:</strong> Can store vast amounts of data.</p></li>
+<li>
+<p><strong>Versatility:</strong> Can perform a variety of tasks (computatio=
+n, communication, graphics, etc.).</p></li>
+</ul>
+<hr>
+<h2 id=3D"IntroductiontoComputerSystems-2=EF=B8=8F=E2=83=A3BasicComponentso=
+faComputer">2=EF=B8=8F=E2=83=A3 Basic Components of a Computer</h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"6d=
+fee8d4-49c6-49e8-b225-a8bff19c31b1" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Component</p></th>
+<th class=3D"confluenceTh">
+<p>Function</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Input Devices</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Allow the user to enter data (keyboard, mouse, scanner).</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Output Devices</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Display processed information (monitor, printer, speakers).</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Central Processing Unit (CPU)</strong></p></td>
+<td class=3D"confluenceTd">
+<p>The =E2=80=9Cbrain=E2=80=9D of the computer; performs arithmetic, logic,=
+ and controls other parts.</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Memory / Storage</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Temporary (RAM) and permanent (hard drive, SSD) data storage.</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Motherboard &amp; Buses</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Connects all components for data and signal transfer.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id=3D"IntroductiontoComputerSystems-3=EF=B8=8F=E2=83=A3TypesofComputers=
+">3=EF=B8=8F=E2=83=A3 Types of Computers</h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"58=
+9b7555-ca11-4490-93ab-226217443083" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Type</p></th>
+<th class=3D"confluenceTh">
+<p>Description</p></th>
+<th class=3D"confluenceTh">
+<p>Example</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Supercomputer</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Extremely fast, handles complex computations (weather, simulations).</p>=
+</td>
+<td class=3D"confluenceTd">
+<p>IBM Summit, Fugaku</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Mainframe</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Large, powerful, multi-user machines for organizations.</p></td>
+<td class=3D"confluenceTd">
+<p>IBM Z series</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Minicomputer / Midrange</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Medium power, used for departmental tasks.</p></td>
+<td class=3D"confluenceTd">
+<p>DEC PDP series</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Personal Computer (PC)</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Desktop or laptop for individual use.</p></td>
+<td class=3D"confluenceTd">
+<p>Windows/Mac/Linux PCs</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Workstation</strong></p></td>
+<td class=3D"confluenceTd">
+<p>High-performance PC for engineering, graphics, scientific tasks.</p></td=
+>
+<td class=3D"confluenceTd">
+<p>CAD workstations</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Embedded Systems</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Computers integrated into devices for specific control tasks.</p></td>
+<td class=3D"confluenceTd">
+<p>Washing machines, cars, IoT devices</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id=3D"IntroductiontoComputerSystems-4=EF=B8=8F=E2=83=A3GenerationsofCom=
+puters">4=EF=B8=8F=E2=83=A3 Generations of Computers</h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"25=
+2aedc3-a929-423b-87c0-efab064cc8d0" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Generation</p></th>
+<th class=3D"confluenceTh">
+<p>Technology</p></th>
+<th class=3D"confluenceTh">
+<p>Key Features</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>1st (1940=E2=80=931956)</p></td>
+<td class=3D"confluenceTd">
+<p>Vacuum tubes</p></td>
+<td class=3D"confluenceTd">
+<p>Large, expensive, slow, consumed much power</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>2nd (1956=E2=80=931963)</p></td>
+<td class=3D"confluenceTd">
+<p>Transistors</p></td>
+<td class=3D"confluenceTd">
+<p>Smaller, more reliable, less heat</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>3rd (1964=E2=80=931971)</p></td>
+<td class=3D"confluenceTd">
+<p>Integrated Circuits</p></td>
+<td class=3D"confluenceTd">
+<p>More compact, faster, multi-programming</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>4th (1971=E2=80=93present)</p></td>
+<td class=3D"confluenceTd">
+<p>Microprocessors</p></td>
+<td class=3D"confluenceTd">
+<p>Personal computers, laptops, portable devices</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>5th (Present/Future)</p></td>
+<td class=3D"confluenceTd">
+<p>AI, Quantum</p></td>
+<td class=3D"confluenceTd">
+<p>Advanced parallel processing, AI, natural language processing</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id=3D"IntroductiontoComputerSystems-5=EF=B8=8F=E2=83=A3ApplicationsofCo=
+mputers">5=EF=B8=8F=E2=83=A3 Applications of Computers</h2>
+<ul>
+<li>
+<p><strong>Business &amp; Finance:</strong> Accounting, online banking, ERP=
+ systems</p></li>
+<li>
+<p><strong>Education:</strong> E-learning platforms, simulations, virtual l=
+abs</p></li>
+<li>
+<p><strong>Science &amp; Engineering:</strong> Simulations, modeling, calcu=
+lations</p></li>
+<li>
+<p><strong>Healthcare:</strong> Diagnostics, medical imaging, patient recor=
+ds</p></li>
+<li>
+<p><strong>Communication:</strong> Email, social media, video conferencing<=
+/p></li>
+</ul>
+<hr>
+<p>=F0=9F=92=A1 <strong>Summary:</strong><br>
+A computer is <strong>an intelligent machine</strong> capable of processing=
+, storing, and retrieving data efficiently. Over time, it has evolved from =
+massive vacuum-tube machines to powerful microprocessor-based systems, maki=
+ng computing <strong>fast, reliable, and accessible to everyone</strong>.</=
+p>
+<hr>
+<p>If you want, I can next explain <strong>=E2=80=9CComputer Architecture a=
+nd how it works internally=E2=80=9D</strong>, which is the natural continua=
+tion of this topic. Do you want me to do that?</p>
+<p></p>
+<ol start=3D"4">
+<li>
+<p>Major components of a computer; Hardware: processor, memory, I/O devices=
+ </p></li>
+</ol>
+<p>Here=E2=80=99s a <strong>detailed explanation of the major components of=
+ a computer</strong>, focusing on <strong>hardware</strong>:</p>
+<hr>
+<h2 id=3D"IntroductiontoComputerSystems-1=EF=B8=8F=E2=83=A3MajorComponentso=
+faComputer">1=EF=B8=8F=E2=83=A3 Major Components of a Computer</h2>
+<p>A computer consists of <strong>hardware</strong> and <strong>software</s=
+trong>, but the <strong>hardware</strong> forms the physical backbone. The =
+major hardware components are:</p>
+<ol start=3D"1">
+<li>
+<p><strong>Processor (CPU)</strong></p></li>
+<li>
+<p><strong>Memory (Primary and Secondary)</strong></p></li>
+<li>
+<p><strong>Input/Output (I/O) Devices</strong></p></li>
+</ol>
+<hr>
+<h2 id=3D"IntroductiontoComputerSystems-2=EF=B8=8F=E2=83=A3Processor(CPU)">=
+2=EF=B8=8F=E2=83=A3 Processor (CPU)</h2>
+<p><strong>Definition:</strong> The Central Processing Unit is the <strong>=
+brain of the computer</strong>, responsible for executing instructions and =
+controlling other components.</p>
+<p><strong>Key Parts of CPU:</strong></p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"bc=
+800dae-8305-43c6-9068-891f5fd2a87d" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Component</p></th>
+<th class=3D"confluenceTh">
+<p>Function</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>ALU (Arithmetic Logic Unit)</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Performs arithmetic (add, subtract, multiply) and logical operations (AN=
+D, OR, NOT).</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Control Unit (CU)</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Directs data flow between CPU, memory, and I/O devices; decodes instruct=
+ions.</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Registers</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Small, high-speed storage for temporary data and instructions.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Functioning:</strong></p>
+<ul>
+<li>
+<p>Fetch =E2=86=92 Decode =E2=86=92 Execute =E2=86=92 Store (classic <stron=
+g>instruction cycle</strong>)</p></li>
+</ul>
+<p><strong>Types of Processors:</strong></p>
+<ul>
+<li>
+<p>Single-core, multi-core, GPUs (for parallel computation), specialized AI=
+ processors.</p></li>
+</ul>
+<hr>
+<h2 id=3D"IntroductiontoComputerSystems-3=EF=B8=8F=E2=83=A3Memory">3=EF=B8=
+=8F=E2=83=A3 Memory</h2>
+<p><strong>Definition:</strong> Hardware that stores data and instructions =
+temporarily or permanently.</p>
+<h3 id=3D"IntroductiontoComputerSystems-a)PrimaryMemory(Volatile)">a) Prima=
+ry Memory (Volatile)</h3>
+<ul>
+<li>
+<p><strong>RAM (Random Access Memory):</strong> Temporary storage for runni=
+ng programs.</p></li>
+<li>
+<p><strong>Cache Memory:</strong> Small, super-fast memory inside or near C=
+PU for frequently used instructions/data.</p></li>
+<li>
+<p><strong>Registers:</strong> Extremely fast storage inside CPU.</p></li>
+</ul>
+<h3 id=3D"IntroductiontoComputerSystems-b)SecondaryMemory(Non-volatile)">b)=
+ Secondary Memory (Non-volatile)</h3>
+<ul>
+<li>
+<p>Stores data permanently.</p></li>
+<li>
+<p>Examples: Hard disk drives (HDD), Solid-state drives (SSD), optical disk=
+s.</p></li>
+</ul>
+<h3 id=3D"IntroductiontoComputerSystems-c)Tertiary/BackupStorage">c) Tertia=
+ry/Backup Storage</h3>
+<ul>
+<li>
+<p>Magnetic tapes, cloud storage=E2=80=94used for backup and archival.</p><=
+/li>
+</ul>
+<hr>
+<h2 id=3D"IntroductiontoComputerSystems-4=EF=B8=8F=E2=83=A3Input/Output(I/O=
+)Devices">4=EF=B8=8F=E2=83=A3 Input/Output (I/O) Devices</h2>
+<p><strong>Definition:</strong> Devices that allow the computer to interact=
+ with the external world.</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"43=
+4f0124-e063-4637-94aa-2f6dbcfd489b" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Type</p></th>
+<th class=3D"confluenceTh">
+<p>Examples</p></th>
+<th class=3D"confluenceTh">
+<p>Function</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Input Devices</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Keyboard, mouse, scanner, microphone</p></td>
+<td class=3D"confluenceTd">
+<p>Allow users to send data/instructions to the computer</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Output Devices</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Monitor, printer, speakers</p></td>
+<td class=3D"confluenceTd">
+<p>Display processed information to the user</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Input/Output Devices</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Touchscreen, network cards, USB devices</p></td>
+<td class=3D"confluenceTd">
+<p>Can send and receive data</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Note:</strong> I/O devices are often classified as <strong>human=
+-readable</strong> (keyboard, monitor) or <strong>machine-readable</strong>=
+ (sensors, network interfaces).</p>
+<hr>
+<h2 id=3D"IntroductiontoComputerSystems-5=EF=B8=8F=E2=83=A3HowTheyWorkToget=
+her">5=EF=B8=8F=E2=83=A3 How They Work Together</h2>
+<ol start=3D"1">
+<li>
+<p><strong>Input devices</strong> send data to <strong>CPU</strong> via bus=
+es.</p></li>
+<li>
+<p><strong>CPU</strong> fetches instructions from <strong>memory</strong>, =
+processes data using ALU/CU.</p></li>
+<li>
+<p><strong>Results</strong> are stored back in memory or sent to <strong>ou=
+tput devices</strong>.</p></li>
+</ol>
+<p>This <strong>flow of data</strong> is the core of every computer operati=
+on.</p>
+<hr>
+<p>=F0=9F=92=A1 <strong>Summary Table</strong></p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"de=
+e2e867-f1a9-4193-b87a-b97eea8b9b39" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Component</p></th>
+<th class=3D"confluenceTh">
+<p>Role</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>CPU</p></td>
+<td class=3D"confluenceTd">
+<p>Processes instructions and manages data flow</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Memory</p></td>
+<td class=3D"confluenceTd">
+<p>Stores instructions and data temporarily (RAM) or permanently (HDD/SSD)<=
+/p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>I/O</p></td>
+<td class=3D"confluenceTd">
+<p>Connects the computer with external world for input/output</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p>If you want, I can also explain <strong>=E2=80=9CTypes of memory and the=
+ir hierarchy=E2=80=9D</strong>, which goes deeper into how computers manage=
+ data efficiently. Do you want me to cover that next?</p>
+<p></p>
+<ol start=3D"5">
+<li>
+<p>Software: Operating system, application software</p></li>
+</ol>
+<p>Here=E2=80=99s a <strong>clear overview of software</strong>, focusing o=
+n <strong>operating systems</strong> and <strong>application software</stro=
+ng>:</p>
+<hr>
+<h2 id=3D"IntroductiontoComputerSystems-1=EF=B8=8F=E2=83=A3WhatisSoftware?"=
+>1=EF=B8=8F=E2=83=A3 What is Software?</h2>
+<p><strong>Definition:</strong><br>
+Software is a set of <strong>instructions or programs</strong> that tell th=
+e computer <strong>how to perform tasks</strong>. Unlike hardware, software=
+ is <strong>intangible</strong>.</p>
+<p><strong>Types of Software:</strong></p>
+<ol start=3D"1">
+<li>
+<p><strong>System Software</strong> =E2=80=93 Manages hardware and provides=
+ a platform for applications.</p></li>
+<li>
+<p><strong>Application Software</strong> =E2=80=93 Performs specific tasks =
+for users.</p></li>
+</ol>
+<hr>
+<h2 id=3D"IntroductiontoComputerSystems-2=EF=B8=8F=E2=83=A3OperatingSystem(=
+OS)">2=EF=B8=8F=E2=83=A3 Operating System (OS)</h2>
+<p><strong>Definition:</strong><br>
+The operating system is a <strong>system software</strong> that acts as an =
+<strong>interface between the user and the hardware</strong>. It <strong>ma=
+nages resources</strong> and provides services for applications.</p>
+<p><strong>Key Functions:</strong></p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"15=
+a8c713-3e60-47a5-937b-c88ee1cc6e72" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Function</p></th>
+<th class=3D"confluenceTh">
+<p>Description</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Process Management</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Creates, schedules, and terminates processes.</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Memory Management</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Allocates RAM to processes and manages virtual memory.</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>File System Management</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Organizes, stores, retrieves, and protects data on storage devices.</p><=
+/td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Device Management</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Controls input/output devices using drivers.</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>User Interface</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Provides CLI (Command Line Interface) or GUI (Graphical User Interface).=
+</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Examples:</strong></p>
+<ul>
+<li>
+<p>Windows, Linux, macOS, Android, iOS</p></li>
+</ul>
+<hr>
+<h2 id=3D"IntroductiontoComputerSystems-3=EF=B8=8F=E2=83=A3ApplicationSoftw=
+are">3=EF=B8=8F=E2=83=A3 Application Software</h2>
+<p><strong>Definition:</strong><br>
+Application software is designed to <strong>perform specific tasks for the =
+user</strong>, using the resources managed by the OS.</p>
+<p><strong>Categories and Examples:</strong></p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"a2=
+2c911d-ff8c-4470-a043-c4df82951fb5" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Category</p></th>
+<th class=3D"confluenceTh">
+<p>Examples</p></th>
+<th class=3D"confluenceTh">
+<p>Purpose</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Productivity</strong></p></td>
+<td class=3D"confluenceTd">
+<p>MS Office, Google Docs, Excel</p></td>
+<td class=3D"confluenceTd">
+<p>Word processing, spreadsheets, presentations</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Graphics &amp; Multimedia</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Photoshop, CorelDRAW, VLC</p></td>
+<td class=3D"confluenceTd">
+<p>Image/video editing, media playback</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Web Browsers</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Chrome, Firefox, Edge</p></td>
+<td class=3D"confluenceTd">
+<p>Access internet resources</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Educational</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Duolingo, Khan Academy</p></td>
+<td class=3D"confluenceTd">
+<p>Learning and training</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Enterprise</strong></p></td>
+<td class=3D"confluenceTd">
+<p>SAP, Oracle ERP</p></td>
+<td class=3D"confluenceTd">
+<p>Business process management</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Key Points:</strong></p>
+<ul>
+<li>
+<p>Application software <strong>requires OS to run</strong>.</p></li>
+<li>
+<p>Can be <strong>single-purpose</strong> (calculator) or <strong>multi-pur=
+pose</strong> (MS Office suite).</p></li>
+</ul>
+<hr>
+<h2 id=3D"IntroductiontoComputerSystems-4=EF=B8=8F=E2=83=A3RelationshipBetw=
+eenOSandApplicationSoftware">4=EF=B8=8F=E2=83=A3 Relationship Between OS an=
+d Application Software</h2>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">[User] =
+=E2=86=92 [Application Software] =E2=86=92 [Operating System] =E2=86=92 [Ha=
+rdware]
+</pre>
+</div>
+</div>
+<ul>
+<li>
+<p>The <strong>application software</strong> sends requests to the OS.</p><=
+/li>
+<li>
+<p>The <strong>OS translates</strong> these requests into hardware-level op=
+erations.</p></li>
+</ul>
+<hr>
+<p>=F0=9F=92=A1 <strong>Summary Table</strong></p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"9c=
+defeb7-bf00-4d2a-b48d-1078eca9956e" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Aspect</p></th>
+<th class=3D"confluenceTh">
+<p>OS</p></th>
+<th class=3D"confluenceTh">
+<p>Application Software</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Type</p></td>
+<td class=3D"confluenceTd">
+<p>System software</p></td>
+<td class=3D"confluenceTd">
+<p>User-oriented software</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Function</p></td>
+<td class=3D"confluenceTd">
+<p>Manages resources, provides interface</p></td>
+<td class=3D"confluenceTd">
+<p>Performs specific user tasks</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Examples</p></td>
+<td class=3D"confluenceTd">
+<p>Windows, Linux, Android</p></td>
+<td class=3D"confluenceTd">
+<p>MS Word, Photoshop, Chrome</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p>If you want, I can next explain <strong>=E2=80=9CTypes of Operating Syst=
+ems=E2=80=9D</strong> like batch, multitasking, real-time, and distributed =
+OS, which is the natural continuation. Do you want me to do that?</p>
+<p></p>
+<ol start=3D"6">
+<li>
+<p>Basic architecture of a computer</p></li>
+</ol>
+<p>Here=E2=80=99s a <strong>concise explanation of the basic architecture o=
+f a computer</strong>, covering all essential components and their interact=
+ions:</p>
+<hr>
+<h2 id=3D"IntroductiontoComputerSystems-1=EF=B8=8F=E2=83=A3WhatisComputerAr=
+chitecture?">1=EF=B8=8F=E2=83=A3 What is Computer Architecture?</h2>
+<p><strong>Definition:</strong><br>
+Computer architecture refers to the <strong>organization and interconnectio=
+n of the hardware components</strong> that define how a computer system fun=
+ctions.</p>
+<p>It determines how the CPU, memory, and I/O devices <strong>work together=
+</strong> to execute instructions efficiently.</p>
+<hr>
+<h2 id=3D"IntroductiontoComputerSystems-2=EF=B8=8F=E2=83=A3BasicComponentso=
+fComputerArchitecture">2=EF=B8=8F=E2=83=A3 Basic Components of Computer Arc=
+hitecture</h2>
+<h3 id=3D"IntroductiontoComputerSystems-a)CentralProcessingUnit(CPU)">a) <s=
+trong>Central Processing Unit (CPU)</strong></h3>
+<p>The CPU is the <strong>brain</strong> of the computer. It executes instr=
+uctions and controls all other components.</p>
+<p><strong>Main parts:</strong></p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"05=
+7b154b-b0c6-4e51-a4fa-efe355d8c0dc" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Part</p></th>
+<th class=3D"confluenceTh">
+<p>Function</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Arithmetic Logic Unit (ALU)</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Performs arithmetic operations (add, subtract, multiply, divide) and log=
+ical operations (AND, OR, NOT).</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Control Unit (CU)</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Fetches, decodes, and executes instructions; manages data flow between C=
+PU, memory, and I/O devices.</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Registers</strong></p></td>
+<td class=3D"confluenceTd">
+<p>High-speed storage for temporary data, instructions, and addresses used =
+by the CPU.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h3 id=3D"IntroductiontoComputerSystems-b)Memory">b) <strong>Memory</strong=
+></h3>
+<p>Stores instructions and data temporarily or permanently.</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"4c=
+3306d5-20b6-4996-8ac2-ddcb13653164" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Type</p></th>
+<th class=3D"confluenceTh">
+<p>Function</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Primary Memory (RAM, Cache)</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Stores data and instructions currently in use; volatile.</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Secondary Memory (HDD, SSD)</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Stores data permanently; non-volatile.</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Registers</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Ultra-fast storage inside CPU for immediate operations.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h3 id=3D"IntroductiontoComputerSystems-c)Input/Output(I/O)Devices">c) <str=
+ong>Input/Output (I/O) Devices</strong></h3>
+<ul>
+<li>
+<p><strong>Input Devices:</strong> Keyboard, mouse, scanner =E2=80=93 send =
+data to the CPU.</p></li>
+<li>
+<p><strong>Output Devices:</strong> Monitor, printer, speakers =E2=80=93 di=
+splay results to users.</p></li>
+<li>
+<p><strong>I/O Interfaces:</strong> Connect CPU and memory to external devi=
+ces.</p></li>
+</ul>
+<hr>
+<h3 id=3D"IntroductiontoComputerSystems-d)SystemBus">d) <strong>System Bus<=
+/strong></h3>
+<ul>
+<li>
+<p><strong>Definition:</strong> A set of parallel wires connecting CPU, mem=
+ory, and I/O devices.</p></li>
+<li>
+<p><strong>Types of Buses:</strong></p>
+<ol start=3D"1">
+<li>
+<p><strong>Data Bus:</strong> Transfers actual data.</p></li>
+<li>
+<p><strong>Address Bus:</strong> Specifies memory or I/O addresses.</p></li=
+>
+<li>
+<p><strong>Control Bus:</strong> Carries control signals like read/write, i=
+nterrupt.</p></li>
+</ol></li>
+</ul>
+<hr>
+<h2 id=3D"IntroductiontoComputerSystems-3=EF=B8=8F=E2=83=A3HowItWorks:Instr=
+uctionCycle">3=EF=B8=8F=E2=83=A3 How It Works: Instruction Cycle</h2>
+<p><strong>Step-by-step process of executing instructions:</strong></p>
+<ol start=3D"1">
+<li>
+<p><strong>Fetch:</strong> CU fetches the instruction from memory.</p></li>
+<li>
+<p><strong>Decode:</strong> CU decodes the instruction to understand requir=
+ed operation.</p></li>
+<li>
+<p><strong>Execute:</strong> ALU performs the operation or CPU accesses I/O=
+.</p></li>
+<li>
+<p><strong>Store/Write Back:</strong> Result is stored back in memory or se=
+nt to output.</p></li>
+</ol>
+<hr>
+<h2 id=3D"IntroductiontoComputerSystems-4=EF=B8=8F=E2=83=A3BlockDiagram(Bas=
+icView)">4=EF=B8=8F=E2=83=A3 Block Diagram (Basic View)</h2>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">       =
+    +----------------------+
+           |      CPU             |
+           |  +--------+          |
+           |  |  ALU   |          |
+           |  +--------+          |
+           |  |  CU    |          |
+           |  +--------+          |
+           |  |Registers|         |
+           +----------------------+
+                     |
+        -----------------------------
+        |           |               |
+    Memory        I/O Devices     System Bus
+</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"IntroductiontoComputerSystems-=E2=9C=85KeyPoints.1">=E2=9C=85 Key=
+ Points</h2>
+<ul>
+<li>
+<p>CPU, memory, and I/O are <strong>interconnected via buses</strong>.</p><=
+/li>
+<li>
+<p>CPU performs <strong>fetch-decode-execute</strong> cycle repeatedly.</p>=
+</li>
+<li>
+<p>Memory hierarchy (registers =E2=86=92 cache =E2=86=92 RAM =E2=86=92 seco=
+ndary storage) balances <strong>speed and capacity</strong>.</p></li>
+<li>
+<p>I/O devices allow interaction between <strong>computer and external worl=
+d</strong>.</p></li>
+</ul>
+<hr>
+<p>If you want, I can next explain <strong>=E2=80=9CVon Neumann Architectur=
+e vs Harvard Architecture=E2=80=9D</strong>, which builds directly on this =
+basic architecture. Do you want me to do that?</p>
+<p></p>
+<ol start=3D"7">
+<li>
+<p>Basic Information Technology</p></li>
+</ol>
+<p>Here=E2=80=99s a <strong>comprehensive overview of Basic Information Tec=
+hnology (IT)</strong>, covering its core concepts, components, and applicat=
+ions:</p>
+<hr>
+<h2 id=3D"IntroductiontoComputerSystems-1=EF=B8=8F=E2=83=A3WhatisInformatio=
+nTechnology(IT)?">1=EF=B8=8F=E2=83=A3 What is Information Technology (IT)?<=
+/h2>
+<p><strong>Definition:</strong><br>
+Information Technology is the <strong>use of computers, networks, storage, =
+and software to create, process, store, secure, and exchange all forms of e=
+lectronic data</strong>.</p>
+<p><strong>Key Idea:</strong><br>
+IT is not just computers; it includes <strong>hardware, software, networks,=
+ and people</strong> involved in information management.</p>
+<hr>
+<h2 id=3D"IntroductiontoComputerSystems-2=EF=B8=8F=E2=83=A3CoreComponentsof=
+IT">2=EF=B8=8F=E2=83=A3 Core Components of IT</h2>
+<ol start=3D"1">
+<li>
+<p><strong>Hardware</strong> =E2=80=93 Physical devices used to input, proc=
+ess, store, and output data.</p>
+<ul>
+<li>
+<p>Examples: CPU, RAM, hard drives, keyboards, printers.</p></li>
+</ul></li>
+<li>
+<p><strong>Software</strong> =E2=80=93 Programs and operating systems that =
+control hardware and perform tasks.</p>
+<ul>
+<li>
+<p><strong>System Software:</strong> OS (Windows, Linux, macOS)</p></li>
+<li>
+<p><strong>Application Software:</strong> Word processors, spreadsheets, we=
+b browsers</p></li>
+</ul></li>
+<li>
+<p><strong>Networks</strong> =E2=80=93 Systems that connect computers and d=
+evices to share information.</p>
+<ul>
+<li>
+<p>LAN (Local Area Network), WAN (Wide Area Network), Internet</p></li>
+</ul></li>
+<li>
+<p><strong>Data/Information</strong> =E2=80=93 Raw facts (data) that are pr=
+ocessed to produce meaningful <strong>information</strong>.</p></li>
+<li>
+<p><strong>People</strong> =E2=80=93 Users, IT professionals, and administr=
+ators who design, maintain, and operate IT systems.</p></li>
+</ol>
+<hr>
+<h2 id=3D"IntroductiontoComputerSystems-3=EF=B8=8F=E2=83=A3FunctionsofInfor=
+mationTechnology">3=EF=B8=8F=E2=83=A3 Functions of Information Technology</=
+h2>
+<ul>
+<li>
+<p><strong>Data Management:</strong> Collecting, storing, and retrieving in=
+formation.</p></li>
+<li>
+<p><strong>Communication:</strong> Email, video conferencing, and instant m=
+essaging.</p></li>
+<li>
+<p><strong>Automation:</strong> Performing tasks with minimal human interve=
+ntion.</p></li>
+<li>
+<p><strong>Decision Support:</strong> Data analytics and business intellige=
+nce help make decisions.</p></li>
+<li>
+<p><strong>Security:</strong> Protecting systems and data from unauthorized=
+ access.</p></li>
+</ul>
+<hr>
+<h2 id=3D"IntroductiontoComputerSystems-4=EF=B8=8F=E2=83=A3ApplicationsofIT=
+">4=EF=B8=8F=E2=83=A3 Applications of IT</h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"2a=
+eb171b-8732-404c-a794-25135d1f63de" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Sector</p></th>
+<th class=3D"confluenceTh">
+<p>Examples</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Business &amp; Finance</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Online banking, ERP, accounting software</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Education</strong></p></td>
+<td class=3D"confluenceTd">
+<p>E-learning platforms, online exams</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Healthcare</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Electronic health records, telemedicine</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Government</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Digital governance, citizen services</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Entertainment</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Streaming services, gaming</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Communication</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Social media, email, VoIP</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id=3D"IntroductiontoComputerSystems-5=EF=B8=8F=E2=83=A3ImportanceofIT">=
+5=EF=B8=8F=E2=83=A3 Importance of IT</h2>
+<ul>
+<li>
+<p><strong>Efficiency:</strong> Faster processing of data and tasks.</p></l=
+i>
+<li>
+<p><strong>Connectivity:</strong> Enables global communication and collabor=
+ation.</p></li>
+<li>
+<p><strong>Accessibility:</strong> Makes information available anytime, any=
+where.</p></li>
+<li>
+<p><strong>Innovation:</strong> Supports new technologies like AI, cloud co=
+mputing, and IoT.</p></li>
+<li>
+<p><strong>Decision-Making:</strong> Improves analysis and business intelli=
+gence.</p></li>
+</ul>
+<hr>
+<p>=F0=9F=92=A1 <strong>Key Takeaway:</strong><br>
+Information Technology combines <strong>hardware, software, networks, and p=
+eople</strong> to manage and process information effectively. It=E2=80=99s =
+the backbone of modern business, education, communication, and daily life.<=
+/p>
+<hr>
+<p>If you want, I can next explain <strong>=E2=80=9CTypes of Information Te=
+chnology and IT Infrastructure=E2=80=9D</strong>, which goes deeper into th=
+e IT ecosystem. Do you want me to cover that?</p>
+<p></p>
+<ol start=3D"8">
+<li>
+<p>The Internet</p></li>
+</ol>
+<p>Here=E2=80=99s a <strong>clear overview of the Internet</strong>, coveri=
+ng its definition, history, components, and uses:</p>
+<hr>
+<h2 id=3D"IntroductiontoComputerSystems-1=EF=B8=8F=E2=83=A3WhatistheInterne=
+t?">1=EF=B8=8F=E2=83=A3 What is the Internet?</h2>
+<p><strong>Definition:</strong><br>
+The Internet is a <strong>global network of interconnected computers and se=
+rvers</strong> that communicate using a common protocol (TCP/IP) to <strong=
+>share information and resources</strong>.</p>
+<p><strong>Key Idea:</strong><br>
+It=E2=80=99s not a single network but a <strong>network of networks</strong=
+>, allowing billions of devices worldwide to connect and exchange data.</p>
+<hr>
+<h2 id=3D"IntroductiontoComputerSystems-2=EF=B8=8F=E2=83=A3BriefHistory">2=
+=EF=B8=8F=E2=83=A3 Brief History</h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"2b=
+08c680-243a-4088-8724-4ad82904d8b2" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Year</p></th>
+<th class=3D"confluenceTh">
+<p>Milestone</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>1960s</p></td>
+<td class=3D"confluenceTd">
+<p><strong>ARPANET</strong> =E2=80=93 First packet-switching network by US =
+Department of Defense.</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>1970s</p></td>
+<td class=3D"confluenceTd">
+<p><strong>TCP/IP protocol developed</strong> =E2=80=93 standardized commun=
+ication across networks.</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>1983</p></td>
+<td class=3D"confluenceTd">
+<p>ARPANET switched to TCP/IP =E2=80=93 Internet=E2=80=99s official birth.<=
+/p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>1990</p></td>
+<td class=3D"confluenceTd">
+<p><strong>World Wide Web (WWW)</strong> invented by Tim Berners-Lee.</p></=
+td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>1990s</p></td>
+<td class=3D"confluenceTd">
+<p>Internet became publicly accessible, leading to email, browsers, and web=
+sites.</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>2000s=E2=80=93present</p></td>
+<td class=3D"confluenceTd">
+<p>Growth of broadband, wireless Internet, cloud computing, social media, I=
+oT.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id=3D"IntroductiontoComputerSystems-3=EF=B8=8F=E2=83=A3ComponentsoftheI=
+nternet">3=EF=B8=8F=E2=83=A3 Components of the Internet</h2>
+<ol start=3D"1">
+<li>
+<p><strong>Hardware</strong></p>
+<ul>
+<li>
+<p>Servers, routers, switches, cables, modems, and computers.</p></li>
+</ul></li>
+<li>
+<p><strong>Protocols</strong></p>
+<ul>
+<li>
+<p>Rules for communication between devices.</p></li>
+<li>
+<p><strong>TCP/IP:</strong> Transmission Control Protocol / Internet Protoc=
+ol (basic Internet protocol).</p></li>
+<li>
+<p><strong>HTTP/HTTPS:</strong> For web communication.</p></li>
+<li>
+<p><strong>FTP, SMTP, POP3, IMAP:</strong> For file transfer and email.</p>=
+</li>
+</ul></li>
+<li>
+<p><strong>Services</strong></p>
+<ul>
+<li>
+<p><strong>Web browsing</strong> (WWW)</p></li>
+<li>
+<p><strong>Email</strong> (Gmail, Outlook)</p></li>
+<li>
+<p><strong>File sharing</strong> (FTP, cloud storage)</p></li>
+<li>
+<p><strong>Streaming</strong> (YouTube, Netflix)</p></li>
+<li>
+<p><strong>Social networking</strong> (Facebook, Twitter)</p></li>
+</ul></li>
+</ol>
+<hr>
+<h2 id=3D"IntroductiontoComputerSystems-4=EF=B8=8F=E2=83=A3HowtheInternetWo=
+rks">4=EF=B8=8F=E2=83=A3 How the Internet Works</h2>
+<ol start=3D"1">
+<li>
+<p>Devices connect to <strong>ISPs (Internet Service Providers)</strong>.</=
+p></li>
+<li>
+<p>Data is divided into <strong>packets</strong>.</p></li>
+<li>
+<p>Packets travel through <strong>routers and switches</strong> using the f=
+astest path.</p></li>
+<li>
+<p>Packets are reassembled at the <strong>destination</strong> device.</p><=
+/li>
+<li>
+<p>Communication is managed using <strong>IP addresses</strong> and <strong=
+>domain names</strong>.</p></li>
+</ol>
+<hr>
+<h2 id=3D"IntroductiontoComputerSystems-5=EF=B8=8F=E2=83=A3AdvantagesoftheI=
+nternet">5=EF=B8=8F=E2=83=A3 Advantages of the Internet</h2>
+<ul>
+<li>
+<p><strong>Communication:</strong> Email, social media, messaging apps.</p>=
+</li>
+<li>
+<p><strong>Information Access:</strong> Search engines, online libraries, t=
+utorials.</p></li>
+<li>
+<p><strong>E-commerce:</strong> Online shopping, banking, digital payments.=
+</p></li>
+<li>
+<p><strong>Education:</strong> E-learning platforms, virtual classrooms.</p=
+></li>
+<li>
+<p><strong>Entertainment:</strong> Streaming, online gaming, social media.<=
+/p></li>
+</ul>
+<hr>
+<h2 id=3D"IntroductiontoComputerSystems-6=EF=B8=8F=E2=83=A3RisksandChalleng=
+es">6=EF=B8=8F=E2=83=A3 Risks and Challenges</h2>
+<ul>
+<li>
+<p>Cybersecurity threats: viruses, malware, hacking.</p></li>
+<li>
+<p>Privacy concerns: data collection, tracking.</p></li>
+<li>
+<p>Digital divide: not everyone has equal access.</p></li>
+<li>
+<p>Over-reliance: addiction, misinformation spread.</p></li>
+</ul>
+<hr>
+<p>=F0=9F=92=A1 <strong>Key Takeaway:</strong><br>
+The Internet is a <strong>global information and communication network</str=
+ong> that has transformed how we live, work, learn, and connect. Understand=
+ing its structure, protocols, and services is fundamental to modern IT lite=
+racy.</p>
+<hr>
+<p>If you want, I can next explain <strong>=E2=80=9CWorld Wide Web, website=
+s, and web browsers=E2=80=9D</strong>, which is the next step in understand=
+ing the Internet ecosystem. Do you want me to do that?</p>
+<p>Here=E2=80=99s a <strong>clear explanation of the World Wide Web (WWW), =
+websites, and web browsers</strong>:</p>
+<hr>
+<h2 id=3D"IntroductiontoComputerSystems-1=EF=B8=8F=E2=83=A3WhatistheWorldWi=
+deWeb(WWW)?">1=EF=B8=8F=E2=83=A3 What is the World Wide Web (WWW)?</h2>
+<p><strong>Definition:</strong><br>
+The World Wide Web is a <strong>system of interlinked hypertext documents a=
+nd resources</strong> accessed via the Internet using web browsers.</p>
+<p><strong>Key Points:</strong></p>
+<ul>
+<li>
+<p>Invented by <strong>Tim Berners-Lee</strong> in 1989.</p></li>
+<li>
+<p>Uses <strong>HTTP/HTTPS protocols</strong> for communication.</p></li>
+<li>
+<p>Allows users to <strong>view and navigate web pages</strong> through hyp=
+erlinks.</p></li>
+</ul>
+<hr>
+<h2 id=3D"IntroductiontoComputerSystems-2=EF=B8=8F=E2=83=A3Websites">2=EF=
+=B8=8F=E2=83=A3 Websites</h2>
+<p><strong>Definition:</strong><br>
+A website is a <strong>collection of related web pages</strong> hosted on a=
+ server and accessible via a <strong>domain name</strong>.</p>
+<p><strong>Components of a Website:</strong></p>
+<ol start=3D"1">
+<li>
+<p><strong>Web Pages:</strong> Individual HTML documents.</p></li>
+<li>
+<p><strong>Domain Name:</strong> Human-readable address (e.g., <a href=3D"h=
+ttp://www.example.com/" class=3D"external-link" rel=3D"nofollow">www.exampl=
+e.com</a>).</p></li>
+<li>
+<p><strong>Web Server:</strong> Stores and serves website content.</p></li>
+<li>
+<p><strong>Content:</strong> Text, images, videos, forms, links, scripts.</=
+p></li>
+<li>
+<p><strong>Navigation:</strong> Menus, links, and buttons to move between p=
+ages.</p></li>
+</ol>
+<p><strong>Types of Websites:</strong></p>
+<ul>
+<li>
+<p><strong>Static Websites:</strong> Fixed content, simple HTML/CSS.</p></l=
+i>
+<li>
+<p><strong>Dynamic Websites:</strong> Content changes based on user interac=
+tion (e.g., Facebook, Gmail).</p></li>
+<li>
+<p><strong>E-commerce Websites:</strong> Online shopping and transactions (=
+Amazon, eBay).</p></li>
+<li>
+<p><strong>Blogs/Portfolios:</strong> Personal or professional content shar=
+ing.</p></li>
+</ul>
+<hr>
+<h2 id=3D"IntroductiontoComputerSystems-3=EF=B8=8F=E2=83=A3WebBrowsers">3=
+=EF=B8=8F=E2=83=A3 Web Browsers</h2>
+<p><strong>Definition:</strong><br>
+A web browser is a <strong>software application</strong> that allows users =
+to <strong>access, retrieve, and display web pages</strong> from the Intern=
+et.</p>
+<p><strong>How It Works:</strong></p>
+<ol start=3D"1">
+<li>
+<p>User enters a <strong>URL</strong> or clicks a link.</p></li>
+<li>
+<p>Browser sends an <strong>HTTP/HTTPS request</strong> to the web server.<=
+/p></li>
+<li>
+<p>Server responds with <strong>HTML, CSS, JavaScript, images</strong>, etc=
+.</p></li>
+<li>
+<p>Browser <strong>renders the page</strong> and displays it to the user.</=
+p></li>
+</ol>
+<p><strong>Popular Web Browsers:</strong></p>
+<ul>
+<li>
+<p>Google Chrome</p></li>
+<li>
+<p>Mozilla Firefox</p></li>
+<li>
+<p>Microsoft Edge</p></li>
+<li>
+<p>Safari</p></li>
+<li>
+<p>Opera</p></li>
+</ul>
+<hr>
+<h2 id=3D"IntroductiontoComputerSystems-4=EF=B8=8F=E2=83=A3InteractionBetwe=
+enWWW,Website,andBrowser">4=EF=B8=8F=E2=83=A3 Interaction Between WWW, Webs=
+ite, and Browser</h2>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">[User] =
+=E2=86=92 [Web Browser] =E2=86=92 [Internet/HTTP] =E2=86=92 [Web Server] =
+=E2=86=92 [Website] =E2=86=92 [Browser renders content]
+</pre>
+</div>
+</div>
+<ul>
+<li>
+<p>The <strong>browser</strong> is the interface between the user and the <=
+strong>WWW</strong>.</p></li>
+<li>
+<p><strong>Websites</strong> are the content stored on <strong>servers</str=
+ong>.</p></li>
+<li>
+<p>The <strong>WWW</strong> is the platform connecting servers and browsers=
+ via the Internet.</p></li>
+</ul>
+<hr>
+<p>=F0=9F=92=A1 <strong>Key Takeaways:</strong></p>
+<ul>
+<li>
+<p><strong>WWW</strong> =3D System of interlinked web pages.</p></li>
+<li>
+<p><strong>Website</strong> =3D Collection of web pages under a domain.</p>=
+</li>
+<li>
+<p><strong>Web Browser</strong> =3D Tool to access and view websites via th=
+e <a href=3D"http://www/" class=3D"external-link" rel=3D"nofollow">WWW</a>.=
+</p></li>
+</ul>
+<hr>
+<p>If you want, I can next explain <strong>=E2=80=9CIP addresses, domain na=
+mes, and DNS=E2=80=9D</strong>, which explains how web browsers locate webs=
+ites on the Internet. Do you want me to cover that?</p>
+<ol start=3D"9">
+<li>
+<p>Number system: binary, octal, hexadecimal, binary arithmetic</p></li>
+</ol>
+<p>Here=E2=80=99s a <strong>comprehensive guide on Number Systems</strong> =
+including binary, octal, hexadecimal, and binary arithmetic:</p>
+<hr>
+<h2 id=3D"IntroductiontoComputerSystems-1=EF=B8=8F=E2=83=A3WhatisaNumberSys=
+tem?">1=EF=B8=8F=E2=83=A3 What is a Number System?</h2>
+<p>A <strong>number system</strong> is a way to represent numbers using a c=
+onsistent set of symbols (digits) and a <strong>base (radix)</strong>.</p>
+<ul>
+<li>
+<p><strong>Base (radix):</strong> Number of unique digits including zero.</=
+p></li>
+<li>
+<p>Common number systems: Binary (base 2), Octal (base 8), Decimal (base 10=
+), Hexadecimal (base 16).</p></li>
+</ul>
+<hr>
+<h2 id=3D"IntroductiontoComputerSystems-2=EF=B8=8F=E2=83=A3TypesofNumberSys=
+tems">2=EF=B8=8F=E2=83=A3 Types of Number Systems</h2>
+<h3 id=3D"IntroductiontoComputerSystems-a)Binary(Base2)">a) <strong>Binary =
+(Base 2)</strong></h3>
+<ul>
+<li>
+<p>Digits: 0, 1</p></li>
+<li>
+<p>Used in <strong>computers</strong> because digital circuits have two sta=
+tes (ON/OFF).</p></li>
+<li>
+<p>Example:</p></li>
+</ul>
+<p>10112=3D1=C3=9723+0=C3=9722+1=C3=9721+1=C3=9720=3D11101011_2 =3D 1=C3=97=
+2^3 + 0=C3=972^2 + 1=C3=972^1 + 1=C3=972^0 =3D 11_{10}</p>
+<h3 id=3D"IntroductiontoComputerSystems-b)Octal(Base8)">b) <strong>Octal (B=
+ase 8)</strong></h3>
+<ul>
+<li>
+<p>Digits: 0, 1, 2, =E2=80=A6, 7</p></li>
+<li>
+<p>Sometimes used as a <strong>compact representation of binary</strong> (3=
+ bits per octal digit).</p></li>
+<li>
+<p>Example:</p></li>
+</ul>
+<p>1578=3D1=C3=9782+5=C3=9781+7=C3=9780=3D11110157_8 =3D 1=C3=978^2 + 5=C3=
+=978^1 + 7=C3=978^0 =3D 111_{10}</p>
+<h3 id=3D"IntroductiontoComputerSystems-c)Decimal(Base10)">c) <strong>Decim=
+al (Base 10)</strong></h3>
+<ul>
+<li>
+<p>Digits: 0, 1, =E2=80=A6, 9</p></li>
+<li>
+<p>Standard number system for humans.</p></li>
+</ul>
+<h3 id=3D"IntroductiontoComputerSystems-d)Hexadecimal(Base16)">d) <strong>H=
+exadecimal (Base 16)</strong></h3>
+<ul>
+<li>
+<p>Digits: 0, 1, =E2=80=A6, 9, A, B, C, D, E, F (A=3D10, =E2=80=A6, F=3D15)=
+</p></li>
+<li>
+<p>Used in <strong>computing and memory addressing</strong> (compact repres=
+entation of 4 bits).</p></li>
+<li>
+<p>Example:</p></li>
+</ul>
+<p>2F16=3D2=C3=97161+15=C3=97160=3D47102F_{16} =3D 2=C3=9716^1 + 15=C3=9716=
+^0 =3D 47_{10}</p>
+<hr>
+<h2 id=3D"IntroductiontoComputerSystems-3=EF=B8=8F=E2=83=A3ConversionBetwee=
+nNumberSystems">3=EF=B8=8F=E2=83=A3 Conversion Between Number Systems</h2>
+<ol start=3D"1">
+<li>
+<p><strong>Decimal =E2=86=92 Binary:</strong> Divide by 2 repeatedly, recor=
+d remainders.</p></li>
+<li>
+<p><strong>Binary =E2=86=92 Decimal:</strong> Multiply each bit by 2n2^n an=
+d sum.</p></li>
+<li>
+<p><strong>Binary =E2=86=94 Octal:</strong> Group binary digits in sets of =
+3 (from right).</p></li>
+<li>
+<p><strong>Binary =E2=86=94 Hexadecimal:</strong> Group binary digits in se=
+ts of 4 (from right).</p></li>
+<li>
+<p><strong>Octal/Hex =E2=86=92 Decimal:</strong> Expand using their base po=
+wers.</p></li>
+</ol>
+<hr>
+<h2 id=3D"IntroductiontoComputerSystems-4=EF=B8=8F=E2=83=A3BinaryArithmetic=
+">4=EF=B8=8F=E2=83=A3 Binary Arithmetic</h2>
+<p>Binary arithmetic uses <strong>0 and 1 only</strong>.</p>
+<h3 id=3D"IntroductiontoComputerSystems-a)Addition">a) Addition</h3>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"71=
+734464-5e47-46f9-9ce0-60e5d020677b" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>+</p></th>
+<th class=3D"confluenceTh">
+<p>0</p></th>
+<th class=3D"confluenceTh">
+<p>1</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>0</p></td>
+<td class=3D"confluenceTd">
+<p>0</p></td>
+<td class=3D"confluenceTd">
+<p>1</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>1</p></td>
+<td class=3D"confluenceTd">
+<p>1</p></td>
+<td class=3D"confluenceTd">
+<p>10</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Example:</strong></p>
+<p>1012+112=3D10002101_2 + 11_2 =3D 1000_2</p>
+<h3 id=3D"IntroductiontoComputerSystems-b)Subtraction">b) Subtraction</h3>
+<p>Use <strong>borrowing</strong> (similar to decimal).</p>
+<p><strong>Example:</strong></p>
+<p>10102=E2=88=92112=3D11121010_2 - 11_2 =3D 111_2</p>
+<h3 id=3D"IntroductiontoComputerSystems-c)Multiplication">c) Multiplication=
+</h3>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"a3=
+d20e9a-c2de-4426-87f1-a8d5b86602d1" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>=C3=97</p></th>
+<th class=3D"confluenceTh">
+<p>0</p></th>
+<th class=3D"confluenceTh">
+<p>1</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>0</p></td>
+<td class=3D"confluenceTd">
+<p>0</p></td>
+<td class=3D"confluenceTd">
+<p>0</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>1</p></td>
+<td class=3D"confluenceTd">
+<p>0</p></td>
+<td class=3D"confluenceTd">
+<p>1</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Example:</strong></p>
+<p>1012=C3=97112=3D11112101_2 =C3=97 11_2 =3D 1111_2</p>
+<h3 id=3D"IntroductiontoComputerSystems-d)Division">d) Division</h3>
+<p>Use repeated <strong>subtraction and shifting</strong>, similar to decim=
+al division.</p>
+<hr>
+<h2 id=3D"IntroductiontoComputerSystems-5=EF=B8=8F=E2=83=A3KeyTips">5=EF=B8=
+=8F=E2=83=A3 Key Tips</h2>
+<ul>
+<li>
+<p>Binary =E2=86=92 Octal: Group 3 bits =E2=86=92 convert to 0=E2=80=937.</=
+p></li>
+<li>
+<p>Binary =E2=86=92 Hexadecimal: Group 4 bits =E2=86=92 convert to 0=E2=80=
+=93F.</p></li>
+<li>
+<p>Use binary arithmetic for <strong>digital logic and computing circuits</=
+strong>.</p></li>
+<li>
+<p>Hexadecimal is widely used in <strong>memory addresses and programming</=
+strong> because it=E2=80=99s compact.</p></li>
+</ul>
+<hr>
+<p>=F0=9F=92=A1 <strong>Summary Table</strong></p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"15=
+f66364-dd9d-4de7-88c2-23e651532f1a" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>System</p></th>
+<th class=3D"confluenceTh">
+<p>Base</p></th>
+<th class=3D"confluenceTh">
+<p>Digits</p></th>
+<th class=3D"confluenceTh">
+<p>Usage</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Binary</p></td>
+<td class=3D"confluenceTd">
+<p>2</p></td>
+<td class=3D"confluenceTd">
+<p>0,1</p></td>
+<td class=3D"confluenceTd">
+<p>Computers, logic circuits</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Octal</p></td>
+<td class=3D"confluenceTd">
+<p>8</p></td>
+<td class=3D"confluenceTd">
+<p>0=E2=80=937</p></td>
+<td class=3D"confluenceTd">
+<p>Compact binary representation</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Decimal</p></td>
+<td class=3D"confluenceTd">
+<p>10</p></td>
+<td class=3D"confluenceTd">
+<p>0=E2=80=939</p></td>
+<td class=3D"confluenceTd">
+<p>Everyday calculations</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Hex</p></td>
+<td class=3D"confluenceTd">
+<p>16</p></td>
+<td class=3D"confluenceTd">
+<p>0=E2=80=939, A=E2=80=93F</p></td>
+<td class=3D"confluenceTd">
+<p>Memory addressing, programming</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p>If you want, I can next explain <strong>=E2=80=9CLogic gates and Boolean=
+ algebra=E2=80=9D</strong>, which is the natural continuation after number =
+systems and binary arithmetic. Do you want me to cover that?</p>
+    </div>
+</body>
+</html>
+------=_Part_530_1687388221.1760785763235--

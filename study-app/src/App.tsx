@@ -4,15 +4,19 @@ import './index.css'
 interface Lesson {
   id: string
   title: string
+  titleBn?: string
   content: string
+  contentBn?: string
   code?: string
+  codeBn?: string
   takeaways: string[]
-  mistakes?: string[]
+  takeawaysBn?: string[]
   level: string
 }
 
 interface Module {
   title: string
+  titleBn?: string
   level: string
   lessons: Lesson[]
 }
@@ -45,18 +49,27 @@ const translations = {
 const modules: Module[] = [
   {
     title: "1. Basic Physics",
+    titleBn: "১. পদার্থবিদ্যার মূল ধারণা",
     level: "Beginner",
     lessons: [
       {
         id: "bp1",
         title: "Electromagnetism Basics",
+        titleBn: "তড়িৎচুম্বকত্বের মূল ধারণা",
         content: "Charge, Coulomb's law, electric field, Gauss's law, electric potential, magnetic field, Faraday's law, Maxwell's equations.\n\n⚡ Charge: Fundamental property of matter causing electromagnetic interaction. Types: Positive (+) and Negative (-). Unit: Coulomb (C). Conservation: Charge cannot be created/destroyed, only transferred.\n\n⚡ Coulomb's Law: Force between two electric charges: F = k(q1×q2)/r². Force is attractive for opposite charges, repulsive for like charges.\n\n⚡ Electric Field (E): Region around charged particle where it exerts force on other charges. E = F/q. Unit: N/C or V/m.\n\n⚡ Gauss's Law: Electric flux through closed surface = enclosed charge/ε₀. Used to calculate electric field of symmetric charge distributions.\n\n⚡ Electric Potential (V): Work done bringing unit positive charge from infinity to a point. V = W/q. Unit: Volt (V).\n\n🧲 Magnetic Field: Region around moving charge or magnet where magnetic forces act. Unit: Tesla (T). Created by moving charges and permanent magnets.\n\n🧲 Faraday's Law: Changing magnetic field induces EMF. EMF = -dΦB/dt.\n\n🌐 Maxwell's Equations: 4 fundamental laws describing all classical electromagnetism.",
+        contentBn: "আধান, কুলম্বের সূত্র, তড়িৎক্ষেত্র, গাউসের সূত্র, তড়িৎবিভব, চুম্বকক্ষেত্র, ফ্যারাডের সূত্র, ম্যাক্সওয়েলের সমীকরণ।\n\n⚡ আধান: পদার্থের একটি মৌলিক ধর্ম যা তড়িৎচুম্বকীয় মিথস্ক্রিয়া সৃষ্টি করে। প্রকার: ধনবাহী (+) এবং ঋণবাহী (-)। একক: কুলম্ব (C)। সংরক্ষণ: আধান তৈরি বা ধ্বংস করা যায় না, শুধু স্থানান্তর করা যায়।\n\n⚡ কুলম্বের সূত্র: দুটি তড়িৎআধানের মধ্যে বল: F = k(q1×q2)/r²। বল বিপরীত আধানের জন্য আকর্ষণকারক, একই রকম আধানের জন্য বিকর্ষণকারক।\n\n⚡ তড়িৎক্ষেত্র (E): চার্জযুক্ত কণার চারপাশে অঞ্চল যেখানে এটি অন্যান্য আধানের উপর বল প্রয়োগ করে। E = F/q। একক: N/C বা V/m।\n\n⚡ গাউসের সূত্র: বদ্ধ পৃষ্ঠের মধ্য দিয়ে তড়িৎফ্লাক্স = আবদ্ধ আধান/ε₀। প্রতিসম আধান বিতরণের তড়িৎক্ষেত্র গণনা করতে ব্যবহৃত হয়।\n\n⚡ তড়িৎবিভব (V): অসীম থেকে একটি বিন্দুতে একক ধনবাহী আধান আনতে করা কাজ। V = W/q। একক: ভোল্ট (V)।\n\n🧲 চুম্বকক্ষেত্র: চলমান আধান ব চুম্বকের চারপাশে অঞ্চল যেখানে চুম্বকীয় বল কাজ করে। একক: টেসলা (T)। চলমান আধান এবং স্থায়ী চুম্বক দ্বারা তৈরি।\n\n🧲 ফ্যারাডের সূত্র: পরিবর্তনশীল চুম্বকক্ষেত্র EMF প্রবর্তন করে। EMF = -dΦB/dt।\n\n🌐 ম্যাক্সওয়েলের সমীকরণ: সমস্ত ক্লাসিক্যাল তড়িৎচুম্বকত্ব বর্ণনা করে ৪টি মৌলিক সূত্র।",
         code: "F = k × (q1 × q2) / r²\nE = F/q\nV = W/q\nEMF = -dΦB/dt",
         takeaways: [
           "Charge is fundamental property with + and - types",
           "Coulomb's law defines force between charges",
           "Electric field = force per unit charge",
           "Maxwell's equations unify all electromagnetism"
+        ],
+        takeawaysBn: [
+          "আধান + এবং - প্রকার সহ মৌলিক ধর্ম",
+          "কুলম্বের সূত্র আধানের মধ্যে বল সংজ্ঞায়িত করে",
+          "তড়িৎক্ষেত্র = একক আধান প্রতি বল",
+          "ম্যাক্সওয়েলের সমীকরণ সমস্ত তড়িৎচুম্বকত্ব একত্রিত করে"
         ],
         level: "Beginner"
       },
@@ -878,7 +891,7 @@ function App() {
               className={`sidebar-item ${currentModule === idx ? 'active' : ''}`}
             >
               <span className="sidebar-number">{idx + 1}</span>
-              <span>{m.title}</span>
+              <span>{language === 'bn' && m.titleBn ? m.titleBn : m.title}</span>
             </div>
           ))}
         </div>
@@ -888,23 +901,23 @@ function App() {
       <main className="main-content">
         <div className="lesson-header animate-fade">
           <div className="lesson-meta">
-            <span className={`level-tag ${getLevelColor(lesson.level)}`}>{lesson.level}</span>
-            <span className="lesson-subtitle">{module.title} • Lesson {currentLesson + 1} of {module.lessons.length}</span>
+            <span className={`level-tag ${getLevelColor(lesson.level)}`}>{language === 'bn' && lesson.level === 'Beginner' ? 'শুরু' : language === 'bn' && lesson.level === 'Intermediate' ? 'মধ্যম' : language === 'bn' && lesson.level === 'Advanced' ? 'উন্নত' : lesson.level}</span>
+            <span className="lesson-subtitle">{language === 'bn' && module.titleBn ? module.titleBn : module.title} • {t.lesson} {currentLesson + 1} / {module.lessons.length}</span>
           </div>
-          <h1 className="lesson-title">{lesson.title}</h1>
+          <h1 className="lesson-title">{language === 'bn' && lesson.titleBn ? lesson.titleBn : lesson.title}</h1>
         </div>
 
         <div className="content-card animate-fade delay-1">
           <div className="content-text">
-            {lesson.content.split('\n').map((para, i) => (
+            {(language === 'bn' && lesson.contentBn ? lesson.contentBn : lesson.content).split('\n').map((para, i) => (
               <p key={i} className="mb-4">{para}</p>
             ))}
           </div>
         </div>
 
         <div className="takeaways-card animate-fade delay-2">
-          <h3 className="takeaways-title">Key Takeaways</h3>
-          {lesson.takeaways.map((takeaway, i) => (
+          <h3 className="takeaways-title">{t.keyTakeaways}</h3>
+          {(language === 'bn' && lesson.takeawaysBn ? lesson.takeawaysBn : lesson.takeaways).map((takeaway, i) => (
             <div key={i} className="takeaway-item">
               <span className="takeaway-dot" />
               <span>{takeaway}</span>
@@ -912,13 +925,13 @@ function App() {
           ))}
         </div>
 
-        {lesson.code && (
+        {(lesson.code || lesson.codeBn) && (
           <div className="code-block animate-fade delay-3">
             <div className="code-header">
-              <span className="code-label">Key Formula</span>
-              <button onClick={() => copyCode(lesson.code)} className="code-copy">Copy</button>
+              <span className="code-label">{t.keyFormula}</span>
+              <button onClick={() => copyCode(language === 'bn' && lesson.codeBn ? lesson.codeBn : lesson.code || '')} className="code-copy">{t.copy}</button>
             </div>
-            <pre className="code-content">{lesson.code}</pre>
+            <pre className="code-content">{language === 'bn' && lesson.codeBn ? lesson.codeBn : lesson.code}</pre>
           </div>
         )}
 

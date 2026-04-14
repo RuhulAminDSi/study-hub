@@ -1,0 +1,1432 @@
+Date: Sat, 18 Oct 2025 11:00:52 +0000 (UTC)
+Message-ID: <1697190182.647.1760785252991@f6355389a438>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_646_116397285.1760785252991"
+
+------=_Part_646_116397285.1760785252991
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Communication Theory</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Communication Theory</h1>
+    <div class=3D"Section1">
+        <ol start=3D"1">
+<li>
+<p>Spectral analysis: Fourier series, sampling function, power spectrum, Fo=
+urier transform, convolution, Parseval=E2=80=99s theorem;</p></li>
+<li>
+<p>Information theory: entropy, information rate, Shannon=E2=80=99s theorem=
+, channel capacity;</p></li>
+<li>
+<p>Analog communication system: different modulations, modulation circuits =
+and detectors;</p></li>
+<li>
+<p>Digital modulation: different standard modulation schemes;</p></li>
+<li>
+<p>Pulse and digital signals: pulse amplitude modulation (PAM), pulse code =
+modulation (PCM), delta modulation (DM), adaptive delta modulation (ADM);</=
+p></li>
+<li>
+<p>Multiplexing: time-division multiplexing (TDM) frequency-division multip=
+lexing (FDM), multiple-access network- time=C2=AD division multiple-access =
+(TDMA), frequency-division multiple access (FDMA); code-division multiple-a=
+ccess (CDMA).</p></li>
+</ol>
+<p></p>
+<p></p>
+<ol start=3D"1">
+<li>
+<p>Spectral analysis: Fourier series, sampling function, power spectrum, Fo=
+urier transform, convolution, Parseval=E2=80=99s theorem;</p></li>
+</ol>
+<p>Here=E2=80=99s a <strong>concise but detailed overview</strong> of <stro=
+ng>Spectral Analysis and related concepts</strong>:</p>
+<hr>
+<h2 id=3D"CommunicationTheory-1=EF=B8=8F=E2=83=A3IntroductiontoSpectralAnal=
+ysis"><strong>1=EF=B8=8F=E2=83=A3 Introduction to Spectral Analysis</strong=
+></h2>
+<ul>
+<li>
+<p><strong>Spectral Analysis</strong> studies <strong>signals in the freque=
+ncy domain</strong> rather than time domain.</p></li>
+<li>
+<p>Helps in understanding <strong>signal behavior, filtering, and system re=
+sponse</strong>.</p></li>
+</ul>
+<p><strong>Applications:</strong></p>
+<ul>
+<li>
+<p>Communication systems, audio processing, image processing, vibration ana=
+lysis.</p></li>
+</ul>
+<hr>
+<h2 id=3D"CommunicationTheory-2=EF=B8=8F=E2=83=A3FourierSeries"><strong>2=
+=EF=B8=8F=E2=83=A3 Fourier Series</strong></h2>
+<ul>
+<li>
+<p>Represents <strong>periodic signals</strong> as a sum of <strong>sines a=
+nd cosines</strong> (harmonics).</p></li>
+</ul>
+<p>x(t)=3Da0+=E2=88=91n=3D1=E2=88=9E[ancos=E2=81=A1(n=CF=890t)+bnsin=E2=81=
+=A1(n=CF=890t)]x(t) =3D a_0 + \sum_{n=3D1}^{\infty} [a_n \cos(n \omega_0 t)=
+ + b_n \sin(n \omega_0 t)]</p>
+<ul>
+<li>
+<p><strong>Key Points:</strong></p>
+<ul>
+<li>
+<p>Converts time-domain signals to frequency components</p></li>
+<li>
+<p>an,bna_n, b_n are Fourier coefficients</p></li>
+<li>
+<p>=CF=890=3D2=CF=80/T\omega_0 =3D 2 \pi / T (fundamental angular frequency=
+)</p></li>
+</ul></li>
+</ul>
+<hr>
+<h2 id=3D"CommunicationTheory-3=EF=B8=8F=E2=83=A3SamplingFunction"><strong>=
+3=EF=B8=8F=E2=83=A3 Sampling Function</strong></h2>
+<ul>
+<li>
+<p><strong>Sampling:</strong> Converting <strong>continuous-time signal</st=
+rong> to <strong>discrete-time signal</strong></p></li>
+<li>
+<p><strong>Nyquist Sampling Theorem:</strong></p></li>
+</ul>
+<p>fs=E2=89=A52fmaxf_s \geq 2 f_{max}</p>
+<ul>
+<li>
+<p>Ensures <strong>no information is lost</strong> (avoids aliasing)</p></l=
+i>
+</ul>
+<hr>
+<h2 id=3D"CommunicationTheory-4=EF=B8=8F=E2=83=A3PowerSpectrum"><strong>4=
+=EF=B8=8F=E2=83=A3 Power Spectrum</strong></h2>
+<ul>
+<li>
+<p>Represents <strong>distribution of signal power</strong> over frequency<=
+/p></li>
+<li>
+<p><strong>Power Spectrum P(f)P(f)</strong>:</p></li>
+</ul>
+<p>P(f)=3D=E2=88=A3X(f)=E2=88=A32P(f) =3D |X(f)|^2</p>
+<ul>
+<li>
+<p>Helps analyze <strong>signal energy at different frequencies</strong></p=
+></li>
+</ul>
+<hr>
+<h2 id=3D"CommunicationTheory-5=EF=B8=8F=E2=83=A3FourierTransform(FT)"><str=
+ong>5=EF=B8=8F=E2=83=A3 Fourier Transform (FT)</strong></h2>
+<ul>
+<li>
+<p>Converts <strong>time-domain signal x(t)x(t)</strong> into <strong>frequ=
+ency-domain representation X(f)X(f)</strong></p></li>
+</ul>
+<p>X(f)=3D=E2=88=AB=E2=88=92=E2=88=9E=E2=88=9Ex(t)e=E2=88=92j2=CF=80ftdtX(f=
+) =3D \int_{-\infty}^{\infty} x(t) e^{-j 2 \pi f t} dt</p>
+<ul>
+<li>
+<p><strong>Inverse Fourier Transform:</strong></p></li>
+</ul>
+<p>x(t)=3D=E2=88=AB=E2=88=92=E2=88=9E=E2=88=9EX(f)ej2=CF=80ftdfx(t) =3D \in=
+t_{-\infty}^{\infty} X(f) e^{j 2 \pi f t} df</p>
+<ul>
+<li>
+<p><strong>Discrete FT (DFT)</strong> used for <strong>digital signals</str=
+ong></p></li>
+</ul>
+<hr>
+<h2 id=3D"CommunicationTheory-6=EF=B8=8F=E2=83=A3Convolution"><strong>6=EF=
+=B8=8F=E2=83=A3 Convolution</strong></h2>
+<ul>
+<li>
+<p><strong>Convolution in time domain</strong>: Combines input signal and s=
+ystem response</p></li>
+</ul>
+<p>y(t)=3Dx(t)=E2=88=97h(t)=3D=E2=88=AB=E2=88=92=E2=88=9E=E2=88=9Ex(=CF=84)=
+h(t=E2=88=92=CF=84)d=CF=84y(t) =3D x(t) * h(t) =3D \int_{-\infty}^{\infty} =
+x(\tau) h(t-\tau) d\tau</p>
+<ul>
+<li>
+<p><strong>Frequency domain relation:</strong></p></li>
+</ul>
+<p>Convolution&nbsp;in&nbsp;time&nbsp;domain=E2=86=94Multiplication&nbsp;in=
+&nbsp;frequency&nbsp;domain\text{Convolution in time domain} \leftrightarro=
+w \text{Multiplication in frequency domain}</p>
+<hr>
+<h2 id=3D"CommunicationTheory-7=EF=B8=8F=E2=83=A3Parseval=E2=80=99sTheorem"=
+><strong>7=EF=B8=8F=E2=83=A3 Parseval=E2=80=99s Theorem</strong></h2>
+<ul>
+<li>
+<p>Relates <strong>total energy in time domain</strong> to <strong>total en=
+ergy in frequency domain</strong>:</p></li>
+</ul>
+<p>=E2=88=AB=E2=88=92=E2=88=9E=E2=88=9E=E2=88=A3x(t)=E2=88=A32dt=3D=E2=88=
+=AB=E2=88=92=E2=88=9E=E2=88=9E=E2=88=A3X(f)=E2=88=A32df\int_{-\infty}^{\inf=
+ty} |x(t)|^2 dt =3D \int_{-\infty}^{\infty} |X(f)|^2 df</p>
+<ul>
+<li>
+<p>Ensures <strong>energy conservation</strong> between domains</p></li>
+</ul>
+<hr>
+<h2 id=3D"CommunicationTheory-8=EF=B8=8F=E2=83=A3SummaryTable"><strong>8=EF=
+=B8=8F=E2=83=A3 Summary Table</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"17=
+c82ad8-e253-4779-b991-e129adf8bebf" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Concept</p></th>
+<th class=3D"confluenceTh">
+<p>Key Idea</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Fourier Series</p></td>
+<td class=3D"confluenceTd">
+<p>Represent periodic signals as sum of sines/cosines</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Sampling</p></td>
+<td class=3D"confluenceTd">
+<p>Convert continuous signal to discrete; Nyquist criterion</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Power Spectrum</p></td>
+<td class=3D"confluenceTd">
+<p>Distribution of signal power over frequency</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Fourier Transform</p></td>
+<td class=3D"confluenceTd">
+<p>Time =E2=86=92 Frequency domain representation</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Convolution</p></td>
+<td class=3D"confluenceTd">
+<p>Combines input &amp; system; multiplication in frequency domain</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Parseval=E2=80=99s Theorem</p></td>
+<td class=3D"confluenceTd">
+<p>Time-domain energy =3D Frequency-domain energy</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h3 id=3D"CommunicationTheory-=E2=9C=85Summary">=E2=9C=85 <strong>Summary</=
+strong></h3>
+<ul>
+<li>
+<p>Spectral analysis allows <strong>frequency-domain understanding</strong>=
+ of signals.</p></li>
+<li>
+<p><strong>Fourier series/transform</strong> decompose signals into frequen=
+cy components.</p></li>
+<li>
+<p><strong>Sampling</strong> ensures discrete representation without losing=
+ info.</p></li>
+<li>
+<p><strong>Power spectrum</strong> shows energy at each frequency.</p></li>
+<li>
+<p><strong>Convolution</strong> models system response; <strong>Parseval=E2=
+=80=99s theorem</strong> ensures energy equivalence.</p></li>
+</ul>
+<hr>
+<p>I can also create a <strong>diagram showing signal decomposition, Fourie=
+r transform, convolution, and power spectrum</strong> for visual clarity.</=
+p>
+<p>Do you want me to create that diagram?</p>
+<p></p>
+<ol start=3D"2">
+<li>
+<p>Information theory: entropy, information rate, Shannon=E2=80=99s theorem=
+, channel capacity;</p></li>
+</ol>
+<p>Here=E2=80=99s a <strong>concise and structured overview</strong> of <st=
+rong>Information Theory</strong>:</p>
+<hr>
+<h2 id=3D"CommunicationTheory-1=EF=B8=8F=E2=83=A3Introduction"><strong>1=EF=
+=B8=8F=E2=83=A3 Introduction</strong></h2>
+<ul>
+<li>
+<p><strong>Information Theory</strong> quantifies <strong>information in me=
+ssages</strong> and analyzes <strong>communication efficiency</strong>.</p>=
+</li>
+<li>
+<p>Developed by <strong>Claude Shannon (1948)</strong>, it forms the basis =
+of <strong>data compression and digital communication</strong>.</p></li>
+</ul>
+<hr>
+<h2 id=3D"CommunicationTheory-2=EF=B8=8F=E2=83=A3Entropy"><strong>2=EF=B8=
+=8F=E2=83=A3 Entropy</strong></h2>
+<ul>
+<li>
+<p><strong>Entropy (H):</strong> Measure of <strong>uncertainty or informat=
+ion content</strong> in a source.</p></li>
+<li>
+<p>For a discrete source with symbols xix_i with probability pip_i:</p></li=
+>
+</ul>
+<p>H(X)=3D=E2=88=92=E2=88=91ipilog=E2=81=A12pi[bits/symbol]H(X) =3D - \sum_=
+{i} p_i \log_2 p_i \quad \text{[bits/symbol]}</p>
+<ul>
+<li>
+<p><strong>High entropy:</strong> More uncertainty, more information per sy=
+mbol</p></li>
+<li>
+<p><strong>Low entropy:</strong> Predictable data, less information</p></li=
+>
+</ul>
+<hr>
+<h2 id=3D"CommunicationTheory-3=EF=B8=8F=E2=83=A3InformationRate"><strong>3=
+=EF=B8=8F=E2=83=A3 Information Rate</strong></h2>
+<ul>
+<li>
+<p><strong>Information rate (R):</strong> Average information produced per =
+<strong>unit time</strong> by a source</p></li>
+</ul>
+<p>R=3DH(X)=C3=97r[bits/sec]R =3D H(X) \times r \quad \text{[bits/sec]}</p>
+<p>where rr =3D symbol rate (symbols/sec)</p>
+<hr>
+<h2 id=3D"CommunicationTheory-4=EF=B8=8F=E2=83=A3Shannon=E2=80=99sTheorem">=
+<strong>4=EF=B8=8F=E2=83=A3 Shannon=E2=80=99s Theorem</strong></h2>
+<ul>
+<li>
+<p><strong>Noisy Channel Coding Theorem:</strong></p>
+<ul>
+<li>
+<p>Maximum rate of <strong>error-free communication</strong> over a noisy c=
+hannel is the <strong>channel capacity (C)</strong></p></li>
+<li>
+<p>There exists a coding scheme that can achieve this rate with arbitrarily=
+ low error</p></li>
+</ul></li>
+</ul>
+<p>R=E2=89=A4CR \leq C</p>
+<ul>
+<li>
+<p>Ensures <strong>reliable communication</strong> using proper coding</p><=
+/li>
+</ul>
+<hr>
+<h2 id=3D"CommunicationTheory-5=EF=B8=8F=E2=83=A3ChannelCapacity"><strong>5=
+=EF=B8=8F=E2=83=A3 Channel Capacity</strong></h2>
+<ul>
+<li>
+<p><strong>Definition:</strong> Maximum <strong>data rate</strong> at which=
+ information can be transmitted <strong>without error</strong>.</p></li>
+<li>
+<p>For a <strong>noisy channel with bandwidth B and SNR (signal-to-noise ra=
+tio)</strong>:</p></li>
+</ul>
+<p>C=3DBlog=E2=81=A12(1+SNR)[bits/sec]C =3D B \log_2 (1 + \text{SNR}) \quad=
+ \text{[bits/sec]}</p>
+<ul>
+<li>
+<p><strong>Interpretation:</strong></p>
+<ul>
+<li>
+<p>Higher bandwidth =E2=86=92 higher capacity</p></li>
+<li>
+<p>Higher SNR =E2=86=92 higher capacity</p></li>
+</ul></li>
+</ul>
+<hr>
+<h2 id=3D"CommunicationTheory-6=EF=B8=8F=E2=83=A3SummaryTable"><strong>6=EF=
+=B8=8F=E2=83=A3 Summary Table</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"e6=
+00817c-23c4-4ed9-8b7f-15e8e35c17fe" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Concept</p></th>
+<th class=3D"confluenceTh">
+<p>Key Idea</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Entropy (H)</p></td>
+<td class=3D"confluenceTd">
+<p>Measure of uncertainty/information content</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Information Rate (R)</p></td>
+<td class=3D"confluenceTd">
+<p>Bits transmitted per second (H =C3=97 symbol rate)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Shannon=E2=80=99s Theorem</p></td>
+<td class=3D"confluenceTd">
+<p>Maximum error-free rate =E2=89=A4 channel capacity</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Channel Capacity (C)</p></td>
+<td class=3D"confluenceTd">
+<p>Maximum achievable rate given bandwidth &amp; noise</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h3 id=3D"CommunicationTheory-=E2=9C=85Summary.1">=E2=9C=85 <strong>Summary=
+</strong></h3>
+<ul>
+<li>
+<p><strong>Information Theory</strong> quantifies <strong>information and u=
+ncertainty</strong> in messages.</p></li>
+<li>
+<p><strong>Entropy</strong> measures information per symbol; <strong>inform=
+ation rate</strong> gives bits/sec.</p></li>
+<li>
+<p><strong>Shannon=E2=80=99s theorem</strong> sets the <strong>upper limit =
+for error-free communication</strong>.</p></li>
+<li>
+<p><strong>Channel capacity</strong> depends on bandwidth and noise level.<=
+/p></li>
+</ul>
+<hr>
+<p>I can also create a <strong>diagram showing source =E2=86=92 encoder =E2=
+=86=92 channel =E2=86=92 decoder =E2=86=92 receiver with entropy, informati=
+on rate, and channel capacity</strong> to make it visually clear.</p>
+<p>Do you want me to create that diagram?</p>
+<p></p>
+<p></p>
+<ol start=3D"3">
+<li>
+<p>Analog communication system: different modulations, modulation circuits =
+and detectors;</p></li>
+</ol>
+<p>Here=E2=80=99s a <strong>concise yet informative overview</strong> of <s=
+trong>Analog Communication Systems</strong>:</p>
+<hr>
+<h2 id=3D"CommunicationTheory-1=EF=B8=8F=E2=83=A3Introduction.1"><strong>1=
+=EF=B8=8F=E2=83=A3 Introduction</strong></h2>
+<p><strong>Analog Communication:</strong> Transmission of <strong>continuou=
+s-time signals</strong> (like voice, audio, video) over a communication cha=
+nnel.</p>
+<p><strong>Purpose:</strong> Convey information from <strong>source</strong=
+> to <strong>destination</strong> efficiently and accurately.</p>
+<hr>
+<h2 id=3D"CommunicationTheory-2=EF=B8=8F=E2=83=A3TypesofModulation"><strong=
+>2=EF=B8=8F=E2=83=A3 Types of Modulation</strong></h2>
+<p><strong>Modulation:</strong> Process of <strong>imposing a low-frequency=
+ message signal</strong> onto a <strong>high-frequency carrier</strong> to =
+facilitate transmission.</p>
+<h3 id=3D"CommunicationTheory-A)AmplitudeModulation(AM)"><strong>A) Amplitu=
+de Modulation (AM)</strong></h3>
+<ul>
+<li>
+<p><strong>Carrier amplitude</strong> varies according to message signal; f=
+requency &amp; phase remain constant.</p></li>
+<li>
+<p><strong>Types:</strong></p>
+<ul>
+<li>
+<p><strong>DSB-AM:</strong> Double-sideband amplitude modulation</p></li>
+<li>
+<p><strong>SSB-AM:</strong> Single-sideband (efficient, only one sideband t=
+ransmitted)</p></li>
+<li>
+<p><strong>VSB-AM:</strong> Vestigial sideband</p></li>
+</ul></li>
+<li>
+<p><strong>Applications:</strong> AM radio, broadcasting</p></li>
+</ul>
+<h3 id=3D"CommunicationTheory-B)FrequencyModulation(FM)"><strong>B) Frequen=
+cy Modulation (FM)</strong></h3>
+<ul>
+<li>
+<p><strong>Carrier frequency</strong> varies according to message amplitude=
+; amplitude remains constant.</p></li>
+<li>
+<p><strong>Advantages:</strong> Less susceptible to noise than AM</p></li>
+<li>
+<p><strong>Applications:</strong> FM radio, audio transmission</p></li>
+</ul>
+<h3 id=3D"CommunicationTheory-C)PhaseModulation(PM)"><strong>C) Phase Modul=
+ation (PM)</strong></h3>
+<ul>
+<li>
+<p><strong>Carrier phase</strong> varies with message signal</p></li>
+<li>
+<p><strong>Applications:</strong> Some communication and digital transmissi=
+on systems</p></li>
+</ul>
+<hr>
+<h2 id=3D"CommunicationTheory-3=EF=B8=8F=E2=83=A3ModulationCircuits"><stron=
+g>3=EF=B8=8F=E2=83=A3 Modulation Circuits</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"fa=
+411265-8501-41fd-84a0-c793fd529547" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Modulation Type</p></th>
+<th class=3D"confluenceTh">
+<p>Typical Circuit</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>AM</p></td>
+<td class=3D"confluenceTd">
+<p><strong>Balanced modulator</strong> or <strong>transistor-based AM modul=
+ator</strong></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>FM</p></td>
+<td class=3D"confluenceTd">
+<p><strong>Varactor diode FM modulator</strong> or <strong>VCO-based FM mod=
+ulator</strong></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>PM</p></td>
+<td class=3D"confluenceTd">
+<p><strong>Phase modulator using VCO or mixer</strong></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<ul>
+<li>
+<p><strong>Function:</strong> Combine <strong>message signal</strong> with =
+<strong>carrier signal</strong> to generate modulated wave.</p></li>
+</ul>
+<hr>
+<h2 id=3D"CommunicationTheory-4=EF=B8=8F=E2=83=A3Detection/Demodulation"><s=
+trong>4=EF=B8=8F=E2=83=A3 Detection / Demodulation</strong></h2>
+<p><strong>Detection:</strong> Extract the <strong>original message signal<=
+/strong> from the modulated carrier at the receiver.</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"2a=
+909eb0-0b32-4c5e-aa8d-9a11f357872e" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Modulation Type</p></th>
+<th class=3D"confluenceTh">
+<p>Detector Circuit</p></th>
+<th class=3D"confluenceTh">
+<p>Description</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>AM</p></td>
+<td class=3D"confluenceTd">
+<p><strong>Envelope detector</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Rectifier + RC filter extracts amplitude variations</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>FM</p></td>
+<td class=3D"confluenceTd">
+<p><strong>Frequency discriminator / slope detector / PLL</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Converts frequency variations to voltage</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>PM</p></td>
+<td class=3D"confluenceTd">
+<p><strong>Phase-locked loop (PLL)</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Recovers original phase-modulated signal</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id=3D"CommunicationTheory-5=EF=B8=8F=E2=83=A3SummaryTable"><strong>5=EF=
+=B8=8F=E2=83=A3 Summary Table</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"93=
+159c0d-ce90-4750-883e-dc9c6c79ad31" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Concept</p></th>
+<th class=3D"confluenceTh">
+<p>Key Points</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>AM</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Carrier amplitude varies; simple, noise-sensitive</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>FM</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Carrier frequency varies; noise-resistant, wider bandwidth</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>PM</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Carrier phase varies; used in digital/analog comms</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Modulation Circuits</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Generate modulated carrier: balanced modulator, VCO, varactor circuits</=
+p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Detectors</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Recover message: envelope detector (AM), frequency discriminator/PLL (FM=
+/PM)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h3 id=3D"CommunicationTheory-=E2=9C=85Summary.2">=E2=9C=85 <strong>Summary=
+</strong></h3>
+<ul>
+<li>
+<p><strong>Analog communication</strong> conveys continuous signals using m=
+odulation.</p></li>
+<li>
+<p><strong>AM, FM, PM</strong> are primary modulation schemes.</p></li>
+<li>
+<p><strong>Modulation circuits</strong> generate modulated carrier signals.=
+</p></li>
+<li>
+<p><strong>Detectors</strong> extract the original message at the receiver.=
+</p></li>
+</ul>
+<hr>
+<p>I can create a <strong>diagram showing AM, FM, PM modulation and their r=
+espective detectors</strong> for visual clarity.</p>
+<p>Do you want me to create that diagram?</p>
+<p></p>
+<p></p>
+<ol start=3D"4">
+<li>
+<p>Digital modulation: different standard modulation schemes;</p></li>
+</ol>
+<p>Here=E2=80=99s a <strong>concise and structured overview</strong> of <st=
+rong>Digital Modulation Schemes</strong>:</p>
+<hr>
+<h2 id=3D"CommunicationTheory-1=EF=B8=8F=E2=83=A3Introduction.2"><strong>1=
+=EF=B8=8F=E2=83=A3 Introduction</strong></h2>
+<p><strong>Digital modulation:</strong> Process of transmitting <strong>dig=
+ital data</strong> by <strong>modifying a carrier signal</strong> (amplitud=
+e, frequency, or phase) according to the binary information.</p>
+<p><strong>Purpose:</strong> Reliable data transmission over noisy channels=
+, higher spectral efficiency.</p>
+<hr>
+<h2 id=3D"CommunicationTheory-2=EF=B8=8F=E2=83=A3TypesofDigitalModulation">=
+<strong>2=EF=B8=8F=E2=83=A3 Types of Digital Modulation</strong></h2>
+<h3 id=3D"CommunicationTheory-A)AmplitudeShiftKeying(ASK)"><strong>A) Ampli=
+tude Shift Keying (ASK)</strong></h3>
+<ul>
+<li>
+<p><strong>Carrier amplitude</strong> changes according to binary data (0 o=
+r 1).</p></li>
+<li>
+<p><strong>Simple but sensitive to noise</strong>.</p></li>
+<li>
+<p><strong>Applications:</strong> Low-speed data over fiber, optical commun=
+ication</p></li>
+</ul>
+<hr>
+<h3 id=3D"CommunicationTheory-B)FrequencyShiftKeying(FSK)"><strong>B) Frequ=
+ency Shift Keying (FSK)</strong></h3>
+<ul>
+<li>
+<p><strong>Carrier frequency</strong> changes according to binary data.</p>=
+</li>
+<li>
+<p><strong>More noise-resistant</strong> than ASK.</p></li>
+<li>
+<p><strong>Example:</strong></p>
+<ul>
+<li>
+<p>Binary FSK (BFSK) uses two frequencies</p></li>
+<li>
+<p>Multiple FSK (MFSK) uses multiple frequencies</p></li>
+</ul></li>
+<li>
+<p><strong>Applications:</strong> Modems, wireless communication</p></li>
+</ul>
+<hr>
+<h3 id=3D"CommunicationTheory-C)PhaseShiftKeying(PSK)"><strong>C) Phase Shi=
+ft Keying (PSK)</strong></h3>
+<ul>
+<li>
+<p><strong>Carrier phase</strong> changes according to binary data.</p></li=
+>
+<li>
+<p><strong>Types:</strong></p>
+<ul>
+<li>
+<p><strong>BPSK (Binary PSK):</strong> 0=C2=B0 or 180=C2=B0 phase shift</p>=
+</li>
+<li>
+<p><strong>QPSK (Quadrature PSK):</strong> 4 phase shifts, 2 bits per symbo=
+l</p></li>
+<li>
+<p><strong>8-PSK, 16-PSK:</strong> Higher-order PSK for more bits per symbo=
+l</p></li>
+</ul></li>
+<li>
+<p><strong>Applications:</strong> Satellite communication, Wi-Fi, digital T=
+V</p></li>
+</ul>
+<hr>
+<h3 id=3D"CommunicationTheory-D)QuadratureAmplitudeModulation(QAM)"><strong=
+>D) Quadrature Amplitude Modulation (QAM)</strong></h3>
+<ul>
+<li>
+<p>Combines <strong>ASK and PSK</strong> to transmit multiple bits per symb=
+ol.</p></li>
+<li>
+<p><strong>Higher spectral efficiency</strong> than pure ASK/PSK.</p></li>
+<li>
+<p><strong>Applications:</strong> DSL, cable modems, digital TV</p></li>
+</ul>
+<hr>
+<h3 id=3D"CommunicationTheory-E)OtherAdvancedModulation"><strong>E) Other A=
+dvanced Modulation</strong></h3>
+<ul>
+<li>
+<p><strong>MSK (Minimum Shift Keying):</strong> Continuous phase FSK, bandw=
+idth-efficient</p></li>
+<li>
+<p><strong>OFDM (Orthogonal Frequency Division Multiplexing):</strong> Para=
+llel transmission of sub-carriers, used in LTE, Wi-Fi, 5G</p></li>
+</ul>
+<hr>
+<h2 id=3D"CommunicationTheory-3=EF=B8=8F=E2=83=A3ComparisonTable"><strong>3=
+=EF=B8=8F=E2=83=A3 Comparison Table</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"c6=
+78d5ef-dc20-47ce-92d0-46b0d0b52491" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Modulation</p></th>
+<th class=3D"confluenceTh">
+<p>Signal Parameter Modified</p></th>
+<th class=3D"confluenceTh">
+<p>Noise Sensitivity</p></th>
+<th class=3D"confluenceTh">
+<p>Bits/Symbol</p></th>
+<th class=3D"confluenceTh">
+<p>Applications</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>ASK</p></td>
+<td class=3D"confluenceTd">
+<p>Amplitude</p></td>
+<td class=3D"confluenceTd">
+<p>High</p></td>
+<td class=3D"confluenceTd">
+<p>1</p></td>
+<td class=3D"confluenceTd">
+<p>Optical, low-speed data</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>FSK</p></td>
+<td class=3D"confluenceTd">
+<p>Frequency</p></td>
+<td class=3D"confluenceTd">
+<p>Moderate</p></td>
+<td class=3D"confluenceTd">
+<p>1 (BFSK)</p></td>
+<td class=3D"confluenceTd">
+<p>Modems, RF comms</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>PSK</p></td>
+<td class=3D"confluenceTd">
+<p>Phase</p></td>
+<td class=3D"confluenceTd">
+<p>Low</p></td>
+<td class=3D"confluenceTd">
+<p>1=E2=80=934 (BPSK/QPSK)</p></td>
+<td class=3D"confluenceTd">
+<p>Wi-Fi, satellite, digital TV</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>QAM</p></td>
+<td class=3D"confluenceTd">
+<p>Amplitude + Phase</p></td>
+<td class=3D"confluenceTd">
+<p>Low-Moderate</p></td>
+<td class=3D"confluenceTd">
+<p>2=E2=80=9316+</p></td>
+<td class=3D"confluenceTd">
+<p>DSL, cable, 4G/5G</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>OFDM</p></td>
+<td class=3D"confluenceTd">
+<p>Multiple subcarriers</p></td>
+<td class=3D"confluenceTd">
+<p>Low</p></td>
+<td class=3D"confluenceTd">
+<p>Multiple</p></td>
+<td class=3D"confluenceTd">
+<p>LTE, Wi-Fi, DVB</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h3 id=3D"CommunicationTheory-=E2=9C=85Summary.3">=E2=9C=85 <strong>Summary=
+</strong></h3>
+<ul>
+<li>
+<p><strong>Digital modulation</strong> encodes digital data on a carrier us=
+ing <strong>amplitude, frequency, phase, or combination</strong>.</p></li>
+<li>
+<p><strong>ASK:</strong> Simple but noise-prone</p></li>
+<li>
+<p><strong>FSK:</strong> Frequency-based, moderate robustness</p></li>
+<li>
+<p><strong>PSK:</strong> Phase-based, robust</p></li>
+<li>
+<p><strong>QAM:</strong> Combines amplitude and phase, high spectral effici=
+ency</p></li>
+<li>
+<p><strong>OFDM:</strong> Parallel multi-carrier, modern wireless systems</=
+p></li>
+</ul>
+<hr>
+<p>I can create a <strong>diagram showing carrier signals for ASK, FSK, BPS=
+K, QPSK, and QAM</strong> for a visual comparison of digital modulation sch=
+emes.</p>
+<p>Do you want me to create that diagram?</p>
+<p></p>
+<p></p>
+<ol start=3D"5">
+<li>
+<p>Pulse and digital signals: pulse amplitude modulation (PAM), pulse code =
+modulation (PCM), delta modulation (DM), adaptive delta modulation (ADM);</=
+p></li>
+</ol>
+<p>Here=E2=80=99s a <strong>concise and structured overview</strong> of <st=
+rong>Pulse and Digital Modulation Techniques</strong>:</p>
+<hr>
+<h2 id=3D"CommunicationTheory-1=EF=B8=8F=E2=83=A3Introduction.3"><strong>1=
+=EF=B8=8F=E2=83=A3 Introduction</strong></h2>
+<p><strong>Pulse modulation</strong> is a method of <strong>encoding analog=
+ signals into pulse signals</strong> for transmission.</p>
+<ul>
+<li>
+<p>Converts <strong>continuous-time signals</strong> into <strong>discrete-=
+time signals</strong>.</p></li>
+<li>
+<p>Enables <strong>digital communication, noise immunity, and multiplexing<=
+/strong>.</p></li>
+</ul>
+<hr>
+<h2 id=3D"CommunicationTheory-2=EF=B8=8F=E2=83=A3PulseAmplitudeModulation(P=
+AM)"><strong>2=EF=B8=8F=E2=83=A3 Pulse Amplitude Modulation (PAM)</strong><=
+/h2>
+<ul>
+<li>
+<p><strong>Concept:</strong> Analog signal <strong>sampled at regular inter=
+vals</strong>; <strong>amplitude of each pulse</strong> proportional to the=
+ signal at that instant.</p></li>
+<li>
+<p><strong>Characteristics:</strong></p>
+<ul>
+<li>
+<p>Simple but <strong>susceptible to noise</strong></p></li>
+<li>
+<p>Basis for <strong>PCM and other digital schemes</strong></p></li>
+</ul></li>
+<li>
+<p><strong>Applications:</strong> Baseband transmission, analog to digital =
+conversion</p></li>
+</ul>
+<hr>
+<h2 id=3D"CommunicationTheory-3=EF=B8=8F=E2=83=A3PulseCodeModulation(PCM)">=
+<strong>3=EF=B8=8F=E2=83=A3 Pulse Code Modulation (PCM)</strong></h2>
+<ul>
+<li>
+<p><strong>Concept:</strong> Analog signal =E2=86=92 sampled =E2=86=92 <str=
+ong>quantized</strong> =E2=86=92 converted to <strong>binary code</strong><=
+/p></li>
+<li>
+<p><strong>Steps:</strong></p>
+<ol start=3D"1">
+<li>
+<p><strong>Sampling:</strong> At Nyquist rate</p></li>
+<li>
+<p><strong>Quantization:</strong> Round samples to nearest level</p></li>
+<li>
+<p><strong>Encoding:</strong> Convert quantized value to binary code</p></l=
+i>
+</ol></li>
+<li>
+<p><strong>Advantages:</strong></p>
+<ul>
+<li>
+<p>Noise-resistant</p></li>
+<li>
+<p>Digital transmission possible</p></li>
+</ul></li>
+<li>
+<p><strong>Applications:</strong> Telephony, digital audio (CDs), digital T=
+V</p></li>
+</ul>
+<hr>
+<h2 id=3D"CommunicationTheory-4=EF=B8=8F=E2=83=A3DeltaModulation(DM)"><stro=
+ng>4=EF=B8=8F=E2=83=A3 Delta Modulation (DM)</strong></h2>
+<ul>
+<li>
+<p><strong>Concept:</strong> Transmit only <strong>difference between succe=
+ssive samples</strong></p></li>
+<li>
+<p><strong>Characteristics:</strong></p>
+<ul>
+<li>
+<p>Simple implementation</p></li>
+<li>
+<p>Uses <strong>1-bit code per sample</strong> (up/down)</p></li>
+<li>
+<p><strong>Drawbacks:</strong> Slope overload, granular noise</p></li>
+</ul></li>
+<li>
+<p><strong>Applications:</strong> Voice transmission, low-bit-rate systems<=
+/p></li>
+</ul>
+<hr>
+<h2 id=3D"CommunicationTheory-5=EF=B8=8F=E2=83=A3AdaptiveDeltaModulation(AD=
+M/ADPCM)"><strong>5=EF=B8=8F=E2=83=A3 Adaptive Delta Modulation (ADM / ADPC=
+M)</strong></h2>
+<ul>
+<li>
+<p><strong>Improvement over DM:</strong> Step size <strong>adapts to signal=
+ slope</strong></p></li>
+<li>
+<p><strong>Advantages:</strong></p>
+<ul>
+<li>
+<p>Reduces <strong>slope overload and granular noise</strong></p></li>
+<li>
+<p>More efficient for <strong>wide dynamic range signals</strong></p></li>
+</ul></li>
+<li>
+<p><strong>Applications:</strong> Mobile telephony, voice over IP (VoIP)</p=
+></li>
+</ul>
+<hr>
+<h2 id=3D"CommunicationTheory-6=EF=B8=8F=E2=83=A3SummaryTable.1"><strong>6=
+=EF=B8=8F=E2=83=A3 Summary Table</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"bc=
+73a134-17d9-44e1-8660-8236f2f8be0b" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Modulation</p></th>
+<th class=3D"confluenceTh">
+<p>Key Idea</p></th>
+<th class=3D"confluenceTh">
+<p>Advantages</p></th>
+<th class=3D"confluenceTh">
+<p>Applications</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>PAM</p></td>
+<td class=3D"confluenceTd">
+<p>Pulse amplitude proportional to signal</p></td>
+<td class=3D"confluenceTd">
+<p>Simple, basis for PCM</p></td>
+<td class=3D"confluenceTd">
+<p>Baseband transmission</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>PCM</p></td>
+<td class=3D"confluenceTd">
+<p>Quantized and binary-encoded pulses</p></td>
+<td class=3D"confluenceTd">
+<p>Noise-resistant, digital transmission</p></td>
+<td class=3D"confluenceTd">
+<p>Telephony, digital audio/TV</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>DM</p></td>
+<td class=3D"confluenceTd">
+<p>Transmit difference between samples</p></td>
+<td class=3D"confluenceTd">
+<p>Low bit rate, simple</p></td>
+<td class=3D"confluenceTd">
+<p>Voice, low-speed systems</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>ADM</p></td>
+<td class=3D"confluenceTd">
+<p>Adaptive step size DM</p></td>
+<td class=3D"confluenceTd">
+<p>Reduces slope overload, more efficient</p></td>
+<td class=3D"confluenceTd">
+<p>Mobile telephony, VoIP</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h3 id=3D"CommunicationTheory-=E2=9C=85Summary.4">=E2=9C=85 <strong>Summary=
+</strong></h3>
+<ul>
+<li>
+<p><strong>Pulse modulation</strong> converts analog signals into <strong>p=
+ulse/digital forms</strong>.</p></li>
+<li>
+<p><strong>PAM</strong> =E2=86=92 analog amplitude pulses</p></li>
+<li>
+<p><strong>PCM</strong> =E2=86=92 digital binary representation</p></li>
+<li>
+<p><strong>DM</strong> =E2=86=92 1-bit difference encoding</p></li>
+<li>
+<p><strong>ADM</strong> =E2=86=92 adaptive DM for efficient transmission</p=
+></li>
+</ul>
+<hr>
+<p>I can also create a <strong>diagram showing PAM, PCM, DM, and ADM wavefo=
+rm examples side by side</strong> for a clear visual comparison.</p>
+<p>Do you want me to create that diagram?</p>
+<p></p>
+<ol start=3D"6">
+<li>
+<p>Multiplexing: time-division multiplexing (TDM) frequency-division multip=
+lexing (FDM), multiple-access network- time=C2=AD division multiple-access =
+(TDMA), frequency-division multiple access (FDMA); code-division multiple-a=
+ccess (CDMA).</p></li>
+</ol>
+<p>Here=E2=80=99s a <strong>concise and structured overview</strong> of <st=
+rong>Multiplexing and Multiple Access Techniques</strong>:</p>
+<hr>
+<h2 id=3D"CommunicationTheory-1=EF=B8=8F=E2=83=A3Introduction.4"><strong>1=
+=EF=B8=8F=E2=83=A3 Introduction</strong></h2>
+<p><strong>Multiplexing:</strong> Technique to <strong>combine multiple sig=
+nals</strong> for transmission over a <strong>single communication channel<=
+/strong>.</p>
+<p><strong>Multiple Access:</strong> Technique to allow <strong>multiple us=
+ers to share the same communication medium</strong>.</p>
+<hr>
+<h2 id=3D"CommunicationTheory-2=EF=B8=8F=E2=83=A3TypesofMultiplexing"><stro=
+ng>2=EF=B8=8F=E2=83=A3 Types of Multiplexing</strong></h2>
+<h3 id=3D"CommunicationTheory-A)Frequency-DivisionMultiplexing(FDM)"><stron=
+g>A) Frequency-Division Multiplexing (FDM)</strong></h3>
+<ul>
+<li>
+<p><strong>Concept:</strong> Each signal is assigned a <strong>unique frequ=
+ency band</strong> within the channel.</p></li>
+<li>
+<p><strong>Key Features:</strong></p>
+<ul>
+<li>
+<p>Signals transmitted <strong>simultaneously</strong></p></li>
+<li>
+<p>Requires <strong>bandwidth separation (guard bands)</strong> to avoid in=
+terference</p></li>
+</ul></li>
+<li>
+<p><strong>Applications:</strong> Radio broadcasting, cable TV</p></li>
+</ul>
+<h3 id=3D"CommunicationTheory-B)Time-DivisionMultiplexing(TDM)"><strong>B) =
+Time-Division Multiplexing (TDM)</strong></h3>
+<ul>
+<li>
+<p><strong>Concept:</strong> Each signal is assigned a <strong>time slot</s=
+trong> in a periodic sequence.</p></li>
+<li>
+<p><strong>Key Features:</strong></p>
+<ul>
+<li>
+<p>Transmit signals <strong>one after another rapidly</strong></p></li>
+<li>
+<p>Uses <strong>synchronous or asynchronous TDM</strong></p></li>
+</ul></li>
+<li>
+<p><strong>Applications:</strong> Digital telephony, ISDN, data communicati=
+on</p></li>
+</ul>
+<hr>
+<h2 id=3D"CommunicationTheory-3=EF=B8=8F=E2=83=A3MultipleAccessTechniques">=
+<strong>3=EF=B8=8F=E2=83=A3 Multiple Access Techniques</strong></h2>
+<h3 id=3D"CommunicationTheory-A)Frequency-DivisionMultipleAccess(FDMA)"><st=
+rong>A) Frequency-Division Multiple Access (FDMA)</strong></h3>
+<ul>
+<li>
+<p>Each user assigned <strong>different frequency band</strong></p></li>
+<li>
+<p><strong>Simultaneous transmission possible</strong></p></li>
+<li>
+<p><strong>Applications:</strong> Analog cellular systems</p></li>
+</ul>
+<h3 id=3D"CommunicationTheory-B)Time-DivisionMultipleAccess(TDMA)"><strong>=
+B) Time-Division Multiple Access (TDMA)</strong></h3>
+<ul>
+<li>
+<p>Each user assigned <strong>different time slot</strong> on same frequenc=
+y</p></li>
+<li>
+<p><strong>Efficient for digital systems</strong></p></li>
+<li>
+<p><strong>Applications:</strong> GSM mobile communication</p></li>
+</ul>
+<h3 id=3D"CommunicationTheory-C)Code-DivisionMultipleAccess(CDMA)"><strong>=
+C) Code-Division Multiple Access (CDMA)</strong></h3>
+<ul>
+<li>
+<p>All users share <strong>same frequency and time</strong>, but use <stron=
+g>unique spreading codes</strong></p></li>
+<li>
+<p>Signals separated using <strong>correlation with user=E2=80=99s code</st=
+rong></p></li>
+<li>
+<p><strong>Advantages:</strong> High capacity, robust to interference</p></=
+li>
+<li>
+<p><strong>Applications:</strong> 3G cellular networks, GPS</p></li>
+</ul>
+<hr>
+<h2 id=3D"CommunicationTheory-4=EF=B8=8F=E2=83=A3ComparisonTable"><strong>4=
+=EF=B8=8F=E2=83=A3 Comparison Table</strong></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"f3=
+5199de-d6f4-4d78-9c6e-8ad2d4cddf25" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Technique</p></th>
+<th class=3D"confluenceTh">
+<p>How Users/Signals Share Channel</p></th>
+<th class=3D"confluenceTh">
+<p>Advantages</p></th>
+<th class=3D"confluenceTh">
+<p>Applications</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>FDM</p></td>
+<td class=3D"confluenceTd">
+<p>Different frequency bands</p></td>
+<td class=3D"confluenceTd">
+<p>Simultaneous, simple</p></td>
+<td class=3D"confluenceTd">
+<p>Radio, TV</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>TDM</p></td>
+<td class=3D"confluenceTd">
+<p>Different time slots</p></td>
+<td class=3D"confluenceTd">
+<p>Efficient digital usage</p></td>
+<td class=3D"confluenceTd">
+<p>Digital telephony</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>FDMA</p></td>
+<td class=3D"confluenceTd">
+<p>Frequency bands per user</p></td>
+<td class=3D"confluenceTd">
+<p>Continuous transmission</p></td>
+<td class=3D"confluenceTd">
+<p>Analog cellular</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>TDMA</p></td>
+<td class=3D"confluenceTd">
+<p>Time slots per user</p></td>
+<td class=3D"confluenceTd">
+<p>Efficient, easy to implement</p></td>
+<td class=3D"confluenceTd">
+<p>GSM</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>CDMA</p></td>
+<td class=3D"confluenceTd">
+<p>Same frequency &amp; time, unique codes</p></td>
+<td class=3D"confluenceTd">
+<p>High capacity, interference-resistant</p></td>
+<td class=3D"confluenceTd">
+<p>3G, GPS</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h3 id=3D"CommunicationTheory-=E2=9C=85Summary.5">=E2=9C=85 <strong>Summary=
+</strong></h3>
+<ul>
+<li>
+<p><strong>Multiplexing:</strong> Combines multiple signals over one channe=
+l =E2=86=92 <strong>FDM</strong> (frequency), <strong>TDM</strong> (time)</=
+p></li>
+<li>
+<p><strong>Multiple Access:</strong> Allows multiple users to share medium =
+=E2=86=92 <strong>FDMA, TDMA, CDMA</strong></p></li>
+<li>
+<p><strong>Applications:</strong> Telecommunication, mobile networks, broad=
+casting</p></li>
+</ul>
+<hr>
+<p>I can also create a <strong>diagram showing FDM, TDM, FDMA, TDMA, and CD=
+MA visually</strong> for easier understanding of how signals/users share th=
+e channel.</p>
+<p>Do you want me to create that diagram?</p>
+    </div>
+</body>
+</html>
+------=_Part_646_116397285.1760785252991--

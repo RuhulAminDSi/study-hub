@@ -1,0 +1,4417 @@
+Date: Sat, 18 Oct 2025 11:07:14 +0000 (UTC)
+Message-ID: <663726180.597.1760785634804@baf9d7eff5c1>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_596_136011674.1760785634804"
+
+------=_Part_596_136011674.1760785634804
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Operating System</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Operating System</h1>
+    <div class=3D"Section1">
+        <ol start=3D"1">
+<li>
+<p>Operating System: its role in computer systems;</p></li>
+<li>
+<p>Operating system concepts; Operating system structure;</p></li>
+<li>
+<p>Process: process model and implementation, Inter-Process Communication (=
+1PC), classical IPC problems, process scheduling, multiprocessing and time-=
+sharing;</p></li>
+<li>
+<p>Memory management: swapping, paging, segmentation, virtual memory;</p></=
+li>
+<li>
+<p>Input/Output: hardware, software, disk, terminals, clocks;</p></li>
+<li>
+<p>Deadlock: resource allocation and deadlock, deadlock detection, preventi=
+on and recovery;</p></li>
+<li>
+<p>File Systems: files, directories, security, protection;</p></li>
+<li>
+<p>Case study of some operating systems.</p></li>
+</ol>
+<p></p>
+<p></p>
+<ol start=3D"1">
+<li>
+<p>Operating System: its role in computer systems;</p></li>
+</ol>
+<p>Perfect =F0=9F=91=8D Let=E2=80=99s cover <strong>Operating System (OS) a=
+nd its role in computer systems</strong> briefly but clearly:</p>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=94=B9WhatisanOperatingSystem?">=F0=9F=94=
+=B9 <strong>What is an Operating System?</strong></h1>
+<p>An <strong>Operating System (OS)</strong> is <strong>system software</st=
+rong> that acts as a <strong>bridge between the user and the computer hardw=
+are</strong>.<br>
+It manages hardware, software, memory, processes, and provides services to =
+applications.</p>
+<p>Without an OS =E2=86=92 a computer is just hardware with no usability.</=
+p>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=94=B9RoleofanOperatingSysteminComputerSyst=
+ems">=F0=9F=94=B9 <strong>Role of an Operating System in Computer Systems</=
+strong></h1>
+<ol start=3D"1">
+<li>
+<p><strong>Process Management</strong></p>
+<ul>
+<li>
+<p>Handles creation, scheduling, and termination of processes.</p></li>
+<li>
+<p>Ensures CPU is used efficiently.</p></li>
+<li>
+<p>Example: Windows Task Manager shows running processes.</p></li>
+</ul></li>
+<li>
+<p><strong>Memory Management</strong></p>
+<ul>
+<li>
+<p>Allocates and deallocates memory to programs.</p></li>
+<li>
+<p>Manages virtual memory and caching.</p></li>
+<li>
+<p>Prevents memory conflicts between processes.</p></li>
+</ul></li>
+<li>
+<p><strong>File System Management</strong></p>
+<ul>
+<li>
+<p>Organizes and stores data in files and directories.</p></li>
+<li>
+<p>Provides access methods (read/write/execute).</p></li>
+<li>
+<p>Example: NTFS, FAT32, ext4 file systems.</p></li>
+</ul></li>
+<li>
+<p><strong>Device Management</strong></p>
+<ul>
+<li>
+<p>Controls and coordinates input/output devices (keyboard, mouse, printers=
+, etc.).</p></li>
+<li>
+<p>Uses device drivers to communicate with hardware.</p></li>
+</ul></li>
+<li>
+<p><strong>Security &amp; Protection</strong></p>
+<ul>
+<li>
+<p>Provides authentication (login/password).</p></li>
+<li>
+<p>Prevents unauthorized access to resources.</p></li>
+<li>
+<p>Ensures data protection (permissions, encryption).</p></li>
+</ul></li>
+<li>
+<p><strong>User Interface (UI)</strong></p>
+<ul>
+<li>
+<p>Provides <strong>CLI (Command Line Interface)</strong> or <strong>GUI (G=
+raphical User Interface)</strong>.</p></li>
+<li>
+<p>Example: Windows desktop, Linux shell.</p></li>
+</ul></li>
+<li>
+<p><strong>Networking</strong></p>
+<ul>
+<li>
+<p>Supports communication between computers (via TCP/IP stack).</p></li>
+<li>
+<p>Enables resource sharing across networks.</p></li>
+</ul></li>
+<li>
+<p><strong>Resource Management</strong></p>
+<ul>
+<li>
+<p>Manages CPU, memory, disk, and I/O devices.</p></li>
+<li>
+<p>Ensures fair resource allocation to different programs.</p></li>
+</ul></li>
+</ol>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=94=B9ExamplesofOperatingSystems">=F0=9F=94=
+=B9 <strong>Examples of Operating Systems</strong></h1>
+<ul>
+<li>
+<p>Windows, Linux, macOS, Android, iOS, UNIX.</p></li>
+</ul>
+<hr>
+<p>=E2=9C=85 <strong>In summary:</strong><br>
+The Operating System is the <strong>backbone of a computer system</strong>,=
+ handling <strong>processes, memory, files, devices, security, and user int=
+eraction</strong>, making the system usable and efficient.</p>
+<hr>
+<p>=F0=9F=91=89 Do you also want me to explain the <strong>types of Operati=
+ng Systems</strong> (Batch, Multiprogramming, Real-time, etc.) next?</p>
+<p></p>
+<ol start=3D"2">
+<li>
+<p>Operating system concepts; Operating system structure;</p></li>
+</ol>
+<p>Great question =F0=9F=91=8D Let=E2=80=99s cover both <strong>Operating S=
+ystem Concepts</strong> and <strong>Operating System Structure</strong> cle=
+arly and briefly:</p>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=94=B91.OperatingSystemConcepts">=F0=9F=94=
+=B9 <strong>1. Operating System Concepts</strong></h1>
+<p>These are the <strong>fundamental ideas</strong> behind how an OS works:=
+</p>
+<ol start=3D"1">
+<li>
+<p><strong>Process</strong></p>
+<ul>
+<li>
+<p>A program in execution.</p></li>
+<li>
+<p>OS manages process scheduling, creation, termination.</p></li>
+</ul></li>
+<li>
+<p><strong>Threads</strong></p>
+<ul>
+<li>
+<p>Lightweight processes within a process.</p></li>
+<li>
+<p>Allow multitasking inside a single program.</p></li>
+</ul></li>
+<li>
+<p><strong>CPU Scheduling</strong></p>
+<ul>
+<li>
+<p>Decides which process runs next on the CPU.</p></li>
+<li>
+<p>Algorithms: FCFS, SJF, Round Robin, Priority.</p></li>
+</ul></li>
+<li>
+<p><strong>Memory Management</strong></p>
+<ul>
+<li>
+<p>Allocation &amp; deallocation of memory.</p></li>
+<li>
+<p>Paging, segmentation, virtual memory.</p></li>
+</ul></li>
+<li>
+<p><strong>File System</strong></p>
+<ul>
+<li>
+<p>Manages files, directories, and storage.</p></li>
+<li>
+<p>Provides operations like create, read, write, delete.</p></li>
+</ul></li>
+<li>
+<p><strong>I/O System Management</strong></p>
+<ul>
+<li>
+<p>Handles input/output devices via device drivers.</p></li>
+</ul></li>
+<li>
+<p><strong>Protection &amp; Security</strong></p>
+<ul>
+<li>
+<p>Protects resources from unauthorized access.</p></li>
+<li>
+<p>Provides authentication, access rights, and encryption.</p></li>
+</ul></li>
+<li>
+<p><strong>Virtualization</strong></p>
+<ul>
+<li>
+<p>Provides an abstract view of hardware (e.g., virtual memory, virtual mac=
+hines).</p></li>
+</ul></li>
+<li>
+<p><strong>Concurrency &amp; Synchronization</strong></p>
+<ul>
+<li>
+<p>Manages multiple processes/threads running simultaneously.</p></li>
+<li>
+<p>Avoids race conditions using semaphores, mutex, monitors.</p></li>
+</ul></li>
+</ol>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=94=B92.OperatingSystemStructure">=F0=9F=94=
+=B9 <strong>2. Operating System Structure</strong></h1>
+<p>The <strong>design/organization</strong> of an OS to manage complexity a=
+nd performance.</p>
+<h3 id=3D"OperatingSystem-(a)MonolithicStructure">(a) <strong>Monolithic St=
+ructure</strong></h3>
+<ul>
+<li>
+<p>Entire OS runs in <strong>one large kernel</strong>.</p></li>
+<li>
+<p>All services (memory, file, device management) are inside the kernel.</p=
+></li>
+<li>
+<p>Example: <strong>UNIX, MS-DOS</strong>.</p></li>
+<li>
+<p>=E2=9C=85 Fast, =E2=9D=8C Hard to maintain/debug.</p></li>
+</ul>
+<h3 id=3D"OperatingSystem-(b)LayeredStructure">(b) <strong>Layered Structur=
+e</strong></h3>
+<ul>
+<li>
+<p>OS divided into <strong>layers</strong> (bottom =3D hardware, top =3D us=
+er interface).</p></li>
+<li>
+<p>Each layer uses only services from the layer below.</p></li>
+<li>
+<p>Example: <strong>THE OS</strong>.</p></li>
+<li>
+<p>=E2=9C=85 Easy to debug, =E2=9D=8C Performance overhead.</p></li>
+</ul>
+<h3 id=3D"OperatingSystem-(c)MicrokernelStructure">(c) <strong>Microkernel =
+Structure</strong></h3>
+<ul>
+<li>
+<p>Kernel contains only <strong>essential services</strong> (process manage=
+ment, communication).</p></li>
+<li>
+<p>Other services (file system, drivers) run in <strong>user space</strong>=
+.</p></li>
+<li>
+<p>Example: <strong>Minix, QNX, macOS (partially)</strong>.</p></li>
+<li>
+<p>=E2=9C=85 Secure, modular, =E2=9D=8C Slower due to communication overhea=
+d.</p></li>
+</ul>
+<h3 id=3D"OperatingSystem-(d)Modules(ModularKernel)">(d) <strong>Modules (M=
+odular Kernel)</strong></h3>
+<ul>
+<li>
+<p>Kernel is divided into <strong>modules</strong> that can be loaded/unloa=
+ded.</p></li>
+<li>
+<p>Example: <strong>Linux</strong>.</p></li>
+<li>
+<p>=E2=9C=85 Flexibility + efficiency.</p></li>
+</ul>
+<h3 id=3D"OperatingSystem-(e)HybridStructure">(e) <strong>Hybrid Structure<=
+/strong></h3>
+<ul>
+<li>
+<p>Mix of <strong>Monolithic + Microkernel</strong>.</p></li>
+<li>
+<p>Example: <strong>Windows, macOS</strong>.</p></li>
+<li>
+<p>=E2=9C=85 Balance between performance and modularity.</p></li>
+</ul>
+<hr>
+<p>=E2=9C=85 <strong>Summary</strong></p>
+<ul>
+<li>
+<p><strong>Concepts</strong>: Process, Threads, Scheduling, Memory, Files, =
+I/O, Security.</p></li>
+<li>
+<p><strong>Structure</strong>: Ways OS is organized =E2=86=92 <strong>Monol=
+ithic, Layered, Microkernel, Modular, Hybrid</strong>.</p></li>
+</ul>
+<hr>
+<p>=F0=9F=91=89 Do you want me to also make a <strong>diagram comparing OS =
+structures</strong> (monolithic vs layered vs microkernel)? It helps a lot =
+in exams.</p>
+<p></p>
+<ol start=3D"3">
+<li>
+<p>Process: process model and implementation, Inter-Process Communication (=
+1PC), classical IPC</p></li>
+</ol>
+<p>Perfect =F0=9F=91=8C Let=E2=80=99s break down <strong>Process</strong>, =
+its <strong>Model</strong>, and <strong>Implementation</strong> in simple t=
+erms:</p>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=94=B91.WhatisaProcess?">=F0=9F=94=B9 1. <s=
+trong>What is a Process?</strong></h1>
+<ul>
+<li>
+<p>A <strong>process</strong> =3D a program in execution.</p></li>
+<li>
+<p>It includes:</p>
+<ul>
+<li>
+<p><strong>Program code (text section)</strong></p></li>
+<li>
+<p><strong>Data (variables, heap, stack)</strong></p></li>
+<li>
+<p><strong>Program Counter (PC)</strong> =E2=80=93 next instruction</p></li=
+>
+<li>
+<p><strong>Registers &amp; Resources</strong></p></li>
+</ul></li>
+</ul>
+<p>=E2=9A=A1 Example: If you open <strong>MS Word</strong> =E2=86=92 the ex=
+ecutable file (program) becomes a <strong>process</strong> in memory.</p>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=94=B92.ProcessModel">=F0=9F=94=B9 2. <stro=
+ng>Process Model</strong></h1>
+<p>The process model is a <strong>conceptual view</strong> of how processes=
+ are managed.</p>
+<h3 id=3D"OperatingSystem-KeyConcepts:">Key Concepts:</h3>
+<ol start=3D"1">
+<li>
+<p><strong>Multiprogramming Model</strong></p>
+<ul>
+<li>
+<p>Multiple processes loaded in memory.</p></li>
+<li>
+<p>CPU switches between them (context switching).</p></li>
+</ul></li>
+<li>
+<p><strong>Process States</strong></p>
+<ul>
+<li>
+<p><strong>New =E2=86=92 Ready =E2=86=92 Running =E2=86=92 Waiting =E2=86=
+=92 Terminated</strong></p></li>
+<li>
+<p>OS manages transitions between these states.</p></li>
+</ul></li>
+<li>
+<p><strong>Process Control Block (PCB)</strong></p>
+<ul>
+<li>
+<p>Data structure used by OS to store process info.</p></li>
+<li>
+<p>Contains: PID, state, registers, program counter, scheduling info, memor=
+y info.</p></li>
+</ul></li>
+</ol>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence"> Proces=
+s Table
+ =E2=94=8C=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=90
+ =E2=94=82 PID =3D 101   =E2=94=82  =E2=86=92 Program Counter, Registers, S=
+tate, Memory, I/O
+ =E2=94=82 PID =3D 102   =E2=94=82  =E2=86=92 Program Counter, Registers, S=
+tate, Memory, I/O
+ =E2=94=94=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=
+=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=80=E2=94=98
+</pre>
+</div>
+</div>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=94=B93.ProcessImplementation">=F0=9F=94=B9=
+ 3. <strong>Process Implementation</strong></h1>
+<p>How OS <strong>creates, manages, and terminates</strong> processes.</p>
+<h3 id=3D"OperatingSystem-(a)ProcessCreation">(a) <strong>Process Creation<=
+/strong></h3>
+<ul>
+<li>
+<p>Created by <strong>system calls</strong> (e.g., <code>fork()</code> in U=
+NIX, <code>CreateProcess()</code> in Windows).</p></li>
+<li>
+<p>Parent process spawns child processes.</p></li>
+</ul>
+<h3 id=3D"OperatingSystem-(b)ProcessExecution">(b) <strong>Process Executio=
+n</strong></h3>
+<ul>
+<li>
+<p><strong>Scheduler</strong> decides which process runs (CPU Scheduling).<=
+/p></li>
+<li>
+<p>Context switch occurs when switching processes.</p></li>
+</ul>
+<h3 id=3D"OperatingSystem-(c)ProcessTermination">(c) <strong>Process Termin=
+ation</strong></h3>
+<ul>
+<li>
+<p>Normal exit, error exit, killed by another process, or killed by OS.</p>=
+</li>
+</ul>
+<h3 id=3D"OperatingSystem-(d)ProcessCommunication">(d) <strong>Process Comm=
+unication</strong></h3>
+<ul>
+<li>
+<p><strong>Inter-Process Communication (IPC):</strong></p>
+<ul>
+<li>
+<p>Shared Memory</p></li>
+<li>
+<p>Message Passing (pipes, sockets, queues)</p></li>
+</ul></li>
+</ul>
+<hr>
+<p>=E2=9C=85 <strong>Summary</strong></p>
+<ul>
+<li>
+<p><strong>Process Model</strong>: Abstract view (states, PCB, scheduling).=
+</p></li>
+<li>
+<p><strong>Process Implementation</strong>: Practical handling (creation, e=
+xecution, communication, termination).</p></li>
+</ul>
+<hr>
+<p>=F0=9F=91=89 Do you want me to also explain <strong>Threads vs Processes=
+</strong> here? (Because most exams/papers ask them together since threads =
+are "lightweight processes").</p>
+<p>Great question =F0=9F=91=8D Let=E2=80=99s go through <strong>Inter-Proce=
+ss Communication (IPC)</strong> and the <strong>classical IPC problems</str=
+ong> clearly:</p>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=94=B91.Inter-ProcessCommunication(IPC)">=
+=F0=9F=94=B9 1. <strong>Inter-Process Communication (IPC)</strong></h1>
+<ul>
+<li>
+<p><strong>Definition</strong>: IPC is the mechanism that allows <strong>pr=
+ocesses to communicate and synchronize</strong> with each other.</p></li>
+<li>
+<p>Since processes are isolated, IPC provides ways to <strong>exchange data=
+</strong> and <strong>coordinate actions</strong>.</p></li>
+</ul>
+<h3 id=3D"OperatingSystem-=F0=9F=94=B8IPCMechanisms">=F0=9F=94=B8 IPC Mecha=
+nisms</h3>
+<ol start=3D"1">
+<li>
+<p><strong>Message Passing</strong></p>
+<ul>
+<li>
+<p>Processes send/receive messages.</p></li>
+<li>
+<p>Example: <strong>Pipes, Message Queues, Sockets</strong>.</p></li>
+<li>
+<p>Good for distributed systems.</p></li>
+</ul></li>
+<li>
+<p><strong>Shared Memory</strong></p>
+<ul>
+<li>
+<p>A region of memory is shared between processes.</p></li>
+<li>
+<p>Processes read/write directly.</p></li>
+<li>
+<p>Faster than message passing, but needs synchronization (semaphores, mute=
+x).</p></li>
+</ul></li>
+<li>
+<p><strong>Signals</strong></p>
+<ul>
+<li>
+<p>Used to notify a process about an event (e.g., <code>SIGKILL</code> in U=
+NIX).</p></li>
+</ul></li>
+<li>
+<p><strong>Semaphores</strong></p>
+<ul>
+<li>
+<p>Synchronization tool to control access to shared resources.</p></li>
+</ul></li>
+<li>
+<p><strong>Monitors</strong></p>
+<ul>
+<li>
+<p>High-level synchronization construct with shared variables and procedure=
+s.</p></li>
+</ul></li>
+</ol>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=94=B92.ClassicalIPCProblems">=F0=9F=94=B9 =
+2. <strong>Classical IPC Problems</strong></h1>
+<p>These are famous synchronization problems in OS, used to model <strong>r=
+eal-world resource sharing</strong>.</p>
+<hr>
+<h3 id=3D"OperatingSystem-(a)Producer=E2=80=93ConsumerProblem">(a) <strong>=
+Producer=E2=80=93Consumer Problem</strong></h3>
+<ul>
+<li>
+<p><strong>Scenario</strong>:</p>
+<ul>
+<li>
+<p><strong>Producer</strong> generates data and puts it in a buffer.</p></l=
+i>
+<li>
+<p><strong>Consumer</strong> takes data from the buffer.</p></li>
+</ul></li>
+<li>
+<p>Problem: Synchronizing so that:</p>
+<ul>
+<li>
+<p>Producer doesn=E2=80=99t add to a <strong>full buffer</strong>.</p></li>
+<li>
+<p>Consumer doesn=E2=80=99t remove from an <strong>empty buffer</strong>.</=
+p></li>
+</ul></li>
+<li>
+<p><strong>Solution</strong>: Semaphores or condition variables to manage b=
+uffer access.</p></li>
+</ul>
+<hr>
+<h3 id=3D"OperatingSystem-(b)Readers=E2=80=93WritersProblem">(b) <strong>Re=
+aders=E2=80=93Writers Problem</strong></h3>
+<ul>
+<li>
+<p><strong>Scenario</strong>:</p>
+<ul>
+<li>
+<p>Multiple <strong>readers</strong> can read a shared database at the same=
+ time.</p></li>
+<li>
+<p>But <strong>writers</strong> need exclusive access.</p></li>
+</ul></li>
+<li>
+<p>Problem: Prevent conflicts between reading and writing.</p></li>
+<li>
+<p><strong>Solution</strong>: Semaphores/monitors to allow multiple readers=
+ OR one writer at a time.</p></li>
+</ul>
+<hr>
+<h3 id=3D"OperatingSystem-(c)DiningPhilosophersProblem">(c) <strong>Dining =
+Philosophers Problem</strong></h3>
+<ul>
+<li>
+<p><strong>Scenario</strong>:</p>
+<ul>
+<li>
+<p>5 philosophers sit around a table with 5 forks.</p></li>
+<li>
+<p>Each philosopher alternates between <strong>thinking</strong> and <stron=
+g>eating</strong>.</p></li>
+<li>
+<p>To eat, a philosopher needs 2 forks (left and right).</p></li>
+</ul></li>
+<li>
+<p>Problem: How to prevent <strong>deadlock</strong> (everyone waiting fore=
+ver) and <strong>starvation</strong>.</p></li>
+<li>
+<p><strong>Solution</strong>: Resource hierarchy, semaphores, or monitors.<=
+/p></li>
+</ul>
+<hr>
+<h3 id=3D"OperatingSystem-(d)BoundedBufferProblem">(d) <strong>Bounded Buff=
+er Problem</strong></h3>
+<ul>
+<li>
+<p>A special case of Producer=E2=80=93Consumer with a <strong>fixed-size bu=
+ffer</strong>.</p></li>
+<li>
+<p>Ensures that producer doesn=E2=80=99t overflow the buffer and consumer d=
+oesn=E2=80=99t underflow.</p></li>
+</ul>
+<hr>
+<h3 id=3D"OperatingSystem-(e)SleepingBarberProblem">(e) <strong>Sleeping Ba=
+rber Problem</strong></h3>
+<ul>
+<li>
+<p><strong>Scenario</strong>:</p>
+<ul>
+<li>
+<p>A barber shop with 1 barber, 1 barber chair, and N waiting chairs.</p></=
+li>
+<li>
+<p>If no customers =E2=86=92 barber sleeps.</p></li>
+<li>
+<p>If customer arrives and barber is free =E2=86=92 barber serves.</p></li>
+<li>
+<p>If customer arrives and waiting chairs are full =E2=86=92 customer leave=
+s.</p></li>
+</ul></li>
+<li>
+<p>Problem: Synchronize barber and customers to avoid missed service.</p></=
+li>
+</ul>
+<hr>
+<p>=E2=9C=85 <strong>Summary</strong></p>
+<ul>
+<li>
+<p><strong>IPC</strong> =3D communication &amp; synchronization between pro=
+cesses.</p></li>
+<li>
+<p><strong>Mechanisms</strong>: Message Passing, Shared Memory, Semaphores,=
+ etc.</p></li>
+<li>
+<p><strong>Classical Problems</strong>: Producer=E2=80=93Consumer, Readers=
+=E2=80=93Writers, Dining Philosophers, Sleeping Barber =E2=86=92 all model =
+resource sharing &amp; synchronization.</p></li>
+</ul>
+<hr>
+<p>=F0=9F=91=89 Do you want me to also explain the <strong>solutions (with =
+semaphore pseudocode)</strong> for these classical IPC problems? That=E2=80=
+=99s often asked in exams.</p>
+<p></p>
+<ol start=3D"4">
+<li>
+<p>problems, process scheduling, multiprocessing and time-sharing;</p></li>
+</ol>
+<p>Perfect =F0=9F=91=8C Let=E2=80=99s go through <strong>Process Scheduling=
+</strong> in Operating Systems.</p>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=94=B9ProcessScheduling">=F0=9F=94=B9 <stro=
+ng>Process Scheduling</strong></h1>
+<h3 id=3D"OperatingSystem-=F0=9F=94=B8Whatisit?">=F0=9F=94=B8 What is it?</=
+h3>
+<p>Process Scheduling is the <strong>decision-making</strong> activity of t=
+he OS that selects which process will run on the CPU when there are multipl=
+e processes in the ready queue.</p>
+<p>Since CPU is a limited resource, scheduling ensures:</p>
+<ul>
+<li>
+<p><strong>Fairness</strong> (all processes get CPU time)</p></li>
+<li>
+<p><strong>Efficiency</strong> (maximize CPU utilization)</p></li>
+<li>
+<p><strong>Responsiveness</strong> (low waiting time, fast turnaround)</p><=
+/li>
+</ul>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=94=B9TypesofScheduling">=F0=9F=94=B9 <stro=
+ng>Types of Scheduling</strong></h1>
+<h3 id=3D"OperatingSystem-1.Long-TermScheduling">1. <strong>Long-Term Sched=
+uling</strong></h3>
+<ul>
+<li>
+<p>Decides <strong>which jobs</strong> are admitted into the system for pro=
+cessing.</p></li>
+<li>
+<p>Controls the <strong>degree of multiprogramming</strong> (number of proc=
+esses in memory).</p></li>
+<li>
+<p>Example: Batch systems (decide which jobs to load).</p></li>
+</ul>
+<hr>
+<h3 id=3D"OperatingSystem-2.Medium-TermScheduling">2. <strong>Medium-Term S=
+cheduling</strong></h3>
+<ul>
+<li>
+<p>Temporarily <strong>suspends/resumes</strong> processes.</p></li>
+<li>
+<p>Used in <strong>swapping</strong> (when memory is full).</p></li>
+<li>
+<p>Example: Suspend a background job to allow a foreground job more memory.=
+</p></li>
+</ul>
+<hr>
+<h3 id=3D"OperatingSystem-3.Short-TermScheduling(CPUScheduling)">3. <strong=
+>Short-Term Scheduling (CPU Scheduling)</strong></h3>
+<ul>
+<li>
+<p>Decides which process in the <strong>ready queue</strong> gets the CPU n=
+ext.</p></li>
+<li>
+<p>Happens very frequently (milliseconds).</p></li>
+<li>
+<p>Most important for <strong>performance</strong>.</p></li>
+</ul>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=94=B9CPUSchedulingAlgorithms">=F0=9F=94=B9=
+ <strong>CPU Scheduling Algorithms</strong></h1>
+<h3 id=3D"OperatingSystem-(a)First-Come,First-Served(FCFS)">(a) <strong>Fir=
+st-Come, First-Served (FCFS)</strong></h3>
+<ul>
+<li>
+<p>Processes served in <strong>arrival order</strong>.</p></li>
+<li>
+<p>Simple, but suffers from <strong>Convoy Effect</strong> (slow process de=
+lays others).</p></li>
+<li>
+<p>Example: Like a queue in a bank.</p></li>
+</ul>
+<hr>
+<h3 id=3D"OperatingSystem-(b)ShortestJobNext(SJN)/ShortestJobFirst(SJF)">(b=
+) <strong>Shortest Job Next (SJN) / Shortest Job First (SJF)</strong></h3>
+<ul>
+<li>
+<p>Process with the <strong>smallest burst time</strong> runs first.</p></l=
+i>
+<li>
+<p>Can be <strong>preemptive (Shortest Remaining Time First)</strong> or <s=
+trong>non-preemptive</strong>.</p></li>
+<li>
+<p><strong>Optimal</strong> for minimizing average waiting time.</p></li>
+<li>
+<p>Problem: Requires knowledge of burst time (difficult in practice).</p></=
+li>
+</ul>
+<hr>
+<h3 id=3D"OperatingSystem-(c)PriorityScheduling">(c) <strong>Priority Sched=
+uling</strong></h3>
+<ul>
+<li>
+<p>CPU assigned based on <strong>priority</strong> (higher priority first).=
+</p></li>
+<li>
+<p>Can be <strong>preemptive</strong> or <strong>non-preemptive</strong>.</=
+p></li>
+<li>
+<p>Problem: <strong>Starvation</strong> (low-priority processes may never r=
+un).</p></li>
+<li>
+<p>Solution: <strong>Aging</strong> (increase priority of waiting processes=
+).</p></li>
+</ul>
+<hr>
+<h3 id=3D"OperatingSystem-(d)RoundRobin(RR)">(d) <strong>Round Robin (RR)</=
+strong></h3>
+<ul>
+<li>
+<p>Each process gets a fixed <strong>time quantum</strong> (e.g., 10ms).</p=
+></li>
+<li>
+<p>If process doesn=E2=80=99t finish, it goes to the back of the queue.</p>=
+</li>
+<li>
+<p><strong>Fair</strong> and good for time-sharing systems.</p></li>
+<li>
+<p>Performance depends on quantum size (too small =3D overhead, too large =
+=3D FCFS).</p></li>
+</ul>
+<hr>
+<h3 id=3D"OperatingSystem-(e)MultilevelQueueScheduling">(e) <strong>Multile=
+vel Queue Scheduling</strong></h3>
+<ul>
+<li>
+<p>Processes divided into multiple <strong>queues</strong> (e.g., system, i=
+nteractive, batch).</p></li>
+<li>
+<p>Each queue has its own scheduling algorithm.</p></li>
+<li>
+<p>Example: Foreground =E2=86=92 Round Robin, Background =E2=86=92 FCFS.</p=
+></li>
+</ul>
+<hr>
+<h3 id=3D"OperatingSystem-(f)MultilevelFeedbackQueueScheduling">(f) <strong=
+>Multilevel Feedback Queue Scheduling</strong></h3>
+<ul>
+<li>
+<p>Like multilevel queue but processes can <strong>move between queues</str=
+ong> based on behavior.</p></li>
+<li>
+<p>Example: A process using too much CPU moves to a lower-priority queue.</=
+p></li>
+<li>
+<p>Very flexible and fair.</p></li>
+</ul>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=94=B9SchedulingCriteria(howtojudgealgorith=
+ms)">=F0=9F=94=B9 <strong>Scheduling Criteria</strong> (how to judge algori=
+thms)</h1>
+<ol start=3D"1">
+<li>
+<p><strong>CPU Utilization</strong> =E2=80=93 keep CPU busy as much as poss=
+ible.</p></li>
+<li>
+<p><strong>Throughput</strong> =E2=80=93 number of processes completed per =
+unit time.</p></li>
+<li>
+<p><strong>Turnaround Time</strong> =E2=80=93 total time from submission to=
+ completion.</p></li>
+<li>
+<p><strong>Waiting Time</strong> =E2=80=93 time a process spends in the rea=
+dy queue.</p></li>
+<li>
+<p><strong>Response Time</strong> =E2=80=93 time from request submission to=
+ first response.</p></li>
+<li>
+<p><strong>Fairness</strong> =E2=80=93 all processes get CPU time.</p></li>
+</ol>
+<hr>
+<p>=E2=9C=85 <strong>Summary</strong></p>
+<ul>
+<li>
+<p><strong>Scheduling</strong> decides the execution order of processes.</p=
+></li>
+<li>
+<p><strong>Levels</strong>: Long-term, Medium-term, Short-term.</p></li>
+<li>
+<p><strong>Algorithms</strong>: FCFS, SJF, Priority, Round Robin, Multileve=
+l, Multilevel Feedback.</p></li>
+<li>
+<p><strong>Goal</strong>: Fair, efficient, responsive use of CPU.</p></li>
+</ul>
+<hr>
+<p>=F0=9F=91=89 Do you want me to also make a <strong>comparison table of t=
+hese algorithms with their complexities and use-cases</strong> (like exam n=
+otes)?</p>
+<p>Great idea =F0=9F=91=8D Let=E2=80=99s add <strong>simple math examples</=
+strong> for each CPU Scheduling algorithm so it becomes crystal clear.</p>
+<p>We=E2=80=99ll use this <strong>sample set of processes</strong>:</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"08=
+ae2fcf-2ce9-4a7f-a96a-2a9445319733" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Process</p></th>
+<th class=3D"confluenceTh">
+<p>Arrival Time</p></th>
+<th class=3D"confluenceTh">
+<p>Burst Time</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>P1</p></td>
+<td class=3D"confluenceTd">
+<p>0</p></td>
+<td class=3D"confluenceTd">
+<p>5</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>P2</p></td>
+<td class=3D"confluenceTd">
+<p>1</p></td>
+<td class=3D"confluenceTd">
+<p>3</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>P3</p></td>
+<td class=3D"confluenceTd">
+<p>2</p></td>
+<td class=3D"confluenceTd">
+<p>8</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>P4</p></td>
+<td class=3D"confluenceTd">
+<p>3</p></td>
+<td class=3D"confluenceTd">
+<p>6</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=94=B91.First-Come,First-Served(FCFS)">=F0=
+=9F=94=B9 1. <strong>First-Come, First-Served (FCFS)</strong></h1>
+<p>Execution order =3D based on arrival time =E2=86=92 P1 =E2=86=92 P2 =E2=
+=86=92 P3 =E2=86=92 P4</p>
+<p><strong>Gantt Chart:</strong></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">0   5  =
+ 8    16    22
+| P1 | P2 | P3 |  P4 |
+</pre>
+</div>
+</div>
+<ul>
+<li>
+<p><strong>Waiting Time (WT):</strong><br>
+P1 =3D 0<br>
+P2 =3D 5 - 1 =3D 4<br>
+P3 =3D 8 - 2 =3D 6<br>
+P4 =3D 16 - 3 =3D 13</p></li>
+</ul>
+<p>=F0=9F=91=89 Average WT =3D (0 + 4 + 6 + 13) / 4 =3D <strong>5.75</stron=
+g></p>
+<ul>
+<li>
+<p><strong>Turnaround Time (TAT):</strong> =3D WT + Burst Time<br>
+P1 =3D 0+5=3D5<br>
+P2 =3D 4+3=3D7<br>
+P3 =3D 6+8=3D14<br>
+P4 =3D 13+6=3D19</p></li>
+</ul>
+<p>=F0=9F=91=89 Average TAT =3D (5+7+14+19) / 4 =3D <strong>11.25</strong><=
+/p>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=94=B92.ShortestJobFirst(SJF)=E2=80=93Non-p=
+reemptive">=F0=9F=94=B9 2. <strong>Shortest Job First (SJF) =E2=80=93 Non-p=
+reemptive</strong></h1>
+<p>Execution order =3D based on shortest burst (when ready).</p>
+<ul>
+<li>
+<p>At time 0 =E2=86=92 only P1 (5) runs.</p></li>
+<li>
+<p>At time 5 =E2=86=92 P2 (3), P3 (8), P4 (6) are waiting =E2=86=92 shortes=
+t is P2 (3).</p></li>
+<li>
+<p>Then P4 (6), then P3 (8).</p></li>
+</ul>
+<p><strong>Gantt Chart:</strong></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">0   5  =
+ 8   14    22
+| P1 | P2 | P4 |  P3 |
+</pre>
+</div>
+</div>
+<ul>
+<li>
+<p><strong>WT:</strong><br>
+P1 =3D 0<br>
+P2 =3D 5 - 1 =3D 4<br>
+P4 =3D 8 - 3 =3D 5<br>
+P3 =3D 14 - 2 =3D 12</p></li>
+</ul>
+<p>=F0=9F=91=89 Avg WT =3D (0+4+5+12)/4 =3D <strong>5.25</strong></p>
+<ul>
+<li>
+<p><strong>TAT:</strong><br>
+P1 =3D 5<br>
+P2 =3D 7<br>
+P4 =3D 11<br>
+P3 =3D 20</p></li>
+</ul>
+<p>=F0=9F=91=89 Avg TAT =3D (5+7+11+20)/4 =3D <strong>10.75</strong></p>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=94=B93.PriorityScheduling(Non-preemptive)"=
+>=F0=9F=94=B9 3. <strong>Priority Scheduling (Non-preemptive)</strong></h1>
+<p>Suppose priorities (smaller =3D higher priority):</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"92=
+867ce9-e3bc-45ad-a6ea-e7e34f41125b" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Process</p></th>
+<th class=3D"confluenceTh">
+<p>Burst</p></th>
+<th class=3D"confluenceTh">
+<p>Priority</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>P1</p></td>
+<td class=3D"confluenceTd">
+<p>5</p></td>
+<td class=3D"confluenceTd">
+<p>2</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>P2</p></td>
+<td class=3D"confluenceTd">
+<p>3</p></td>
+<td class=3D"confluenceTd">
+<p>1</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>P3</p></td>
+<td class=3D"confluenceTd">
+<p>8</p></td>
+<td class=3D"confluenceTd">
+<p>4</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>P4</p></td>
+<td class=3D"confluenceTd">
+<p>6</p></td>
+<td class=3D"confluenceTd">
+<p>3</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Execution order: P2 =E2=86=92 P1 =E2=86=92 P4 =E2=86=92 P3</p>
+<p><strong>Gantt Chart:</strong></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">0   3  =
+ 8   14    22
+| P2 | P1 | P4 |  P3 |
+</pre>
+</div>
+</div>
+<ul>
+<li>
+<p><strong>WT:</strong><br>
+P2 =3D 0<br>
+P1 =3D 3<br>
+P4 =3D 8<br>
+P3 =3D 14</p></li>
+</ul>
+<p>=F0=9F=91=89 Avg WT =3D (0+3+8+14)/4 =3D <strong>6.25</strong></p>
+<ul>
+<li>
+<p><strong>TAT:</strong><br>
+P2 =3D 3<br>
+P1 =3D 8<br>
+P4 =3D 14 - 3 =3D 11<br>
+P3 =3D 22 - 2 =3D 20</p></li>
+</ul>
+<p>=F0=9F=91=89 Avg TAT =3D (3+8+11+20)/4 =3D <strong>10.5</strong></p>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=94=B94.RoundRobin(RR,Quantum=3D4ms)">=F0=
+=9F=94=B9 4. <strong>Round Robin (RR, Quantum =3D 4ms)</strong></h1>
+<p>Execution order (with quantum 4):</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">0   4  =
+ 7   11   15   19   22
+| P1 | P2 | P3 | P4 | P1 | P3 | P4 |
+</pre>
+</div>
+</div>
+<ul>
+<li>
+<p><strong>WT:</strong> (calculated by turnaround - burst)<br>
+P1: 17 - 5 =3D 12<br>
+P2: 6 - 3 =3D 3<br>
+P3: 20 - 8 =3D 12<br>
+P4: 22 - 6 =3D 16</p></li>
+</ul>
+<p>=F0=9F=91=89 Avg WT =3D (12+3+12+16)/4 =3D <strong>10.75</strong></p>
+<ul>
+<li>
+<p><strong>TAT:</strong><br>
+P1 =3D 17<br>
+P2 =3D 6<br>
+P3 =3D 20<br>
+P4 =3D 22</p></li>
+</ul>
+<p>=F0=9F=91=89 Avg TAT =3D (17+6+20+22)/4 =3D <strong>16.25</strong></p>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=94=B95.MultilevelQueue(Example)">=F0=9F=94=
+=B9 5. <strong>Multilevel Queue (Example)</strong></h1>
+<p>Suppose:</p>
+<ul>
+<li>
+<p>System processes =E2=86=92 Queue 1 (RR)</p></li>
+<li>
+<p>User processes =E2=86=92 Queue 2 (FCFS)</p></li>
+</ul>
+<p>If P1, P2 are system processes, P3, P4 are user processes:</p>
+<p>Execution order: P1 (RR), P2 (RR), then P3, P4 (FCFS).</p>
+<p><strong>WT &amp; TAT</strong> depend on queue scheduling policy. (Too de=
+tailed for short exam but concept: high-priority queues always finish first=
+).</p>
+<hr>
+<p>=E2=9C=85 <strong>Summary of Results (from above example)</strong></p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"ed=
+5338c1-c994-4874-b55b-1abe6330b29f" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Algo</p></th>
+<th class=3D"confluenceTh">
+<p>Avg WT</p></th>
+<th class=3D"confluenceTh">
+<p>Avg TAT</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>FCFS</p></td>
+<td class=3D"confluenceTd">
+<p>5.75</p></td>
+<td class=3D"confluenceTd">
+<p>11.25</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>SJF</p></td>
+<td class=3D"confluenceTd">
+<p>5.25</p></td>
+<td class=3D"confluenceTd">
+<p>10.75</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Priority</p></td>
+<td class=3D"confluenceTd">
+<p>6.25</p></td>
+<td class=3D"confluenceTd">
+<p>10.5</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>RR (q=3D4)</p></td>
+<td class=3D"confluenceTd">
+<p>10.75</p></td>
+<td class=3D"confluenceTd">
+<p>16.25</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p>=F0=9F=91=89 Do you want me to also <strong>draw one consolidated Gantt =
+chart for all algorithms</strong> so you can visually compare?</p>
+<p>Got it =F0=9F=91=8D Let=E2=80=99s cover <strong>Process: Multiprocessing=
+ and Time-Sharing</strong> clearly.</p>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=94=B91.Multiprocessing">=F0=9F=94=B9 <stro=
+ng>1. Multiprocessing</strong></h1>
+<p>=E2=9C=85 <strong>Definition:</strong></p>
+<ul>
+<li>
+<p>Multiprocessing is the use of <strong>two or more CPUs (processors)</str=
+ong> within a single computer system to execute multiple processes simultan=
+eously.</p></li>
+<li>
+<p>It increases <strong>throughput</strong> (more jobs done in less time).<=
+/p></li>
+</ul>
+<p>=E2=9C=85 <strong>Key Features:</strong></p>
+<ul>
+<li>
+<p>Multiple CPUs share the same memory and I/O.</p></li>
+<li>
+<p>True parallelism: two or more processes literally run <strong>at the sam=
+e time</strong>.</p></li>
+<li>
+<p>Requires <strong>symmetric multiprocessing (SMP)</strong> or <strong>asy=
+mmetric multiprocessing (AMP)</strong>.</p></li>
+</ul>
+<p>=E2=9C=85 <strong>Advantages:</strong></p>
+<ul>
+<li>
+<p>Faster execution (parallel processing).</p></li>
+<li>
+<p>High reliability (if one CPU fails, others continue).</p></li>
+<li>
+<p>Better CPU utilization.</p></li>
+</ul>
+<p>=E2=9C=85 <strong>Example:</strong></p>
+<ul>
+<li>
+<p>Running video rendering on one CPU while another CPU handles background =
+services.</p></li>
+</ul>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=94=B92.Time-Sharing">=F0=9F=94=B9 <strong>=
+2. Time-Sharing</strong></h1>
+<p>=E2=9C=85 <strong>Definition:</strong></p>
+<ul>
+<li>
+<p>Time-sharing is a <strong>logical extension of multiprogramming</strong>=
+.</p></li>
+<li>
+<p>CPU time is <strong>divided into small slices (time quantum)</strong>, a=
+nd each process gets a slice in <strong>round-robin fashion</strong>.</p></=
+li>
+<li>
+<p>Creates an <strong>illusion that each user/program has its own CPU</stro=
+ng>.</p></li>
+</ul>
+<p>=E2=9C=85 <strong>Key Features:</strong></p>
+<ul>
+<li>
+<p>Based on <strong>context switching</strong> (CPU quickly switches betwee=
+n processes).</p></li>
+<li>
+<p>Provides <strong>interactive computing</strong> for multiple users.</p><=
+/li>
+<li>
+<p>Used in multi-user systems.</p></li>
+</ul>
+<p>=E2=9C=85 <strong>Advantages:</strong></p>
+<ul>
+<li>
+<p>Fair CPU allocation among processes.</p></li>
+<li>
+<p>Fast response for interactive tasks.</p></li>
+<li>
+<p>Good for multi-user environments.</p></li>
+</ul>
+<p>=E2=9C=85 <strong>Example:</strong></p>
+<ul>
+<li>
+<p>Multiple users logged into a UNIX system at the same time, each running =
+commands =E2=86=92 OS quickly switches CPU time to serve all users.</p></li=
+>
+</ul>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=94=B9MultiprocessingvsTime-Sharing">=F0=9F=
+=94=B9 <strong>Multiprocessing vs Time-Sharing</strong></h1>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"ec=
+c97cd1-4ab1-448c-8eb6-2da95570894c" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Feature</p></th>
+<th class=3D"confluenceTh">
+<p>Multiprocessing</p></th>
+<th class=3D"confluenceTh">
+<p>Time-Sharing</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Definition</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Uses multiple CPUs for parallel execution</p></td>
+<td class=3D"confluenceTd">
+<p>Single CPU shares time among processes</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Execution</strong></p></td>
+<td class=3D"confluenceTd">
+<p>True parallelism</p></td>
+<td class=3D"confluenceTd">
+<p>Pseudo-parallelism (via context switching)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Goal</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Speed &amp; efficiency</p></td>
+<td class=3D"confluenceTd">
+<p>Fairness &amp; responsiveness</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Hardware need</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Multiple CPUs required</p></td>
+<td class=3D"confluenceTd">
+<p>Single CPU is enough</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Example</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Multi-core CPU running tasks in parallel</p></td>
+<td class=3D"confluenceTd">
+<p>UNIX/Linux multi-user system</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p>=F0=9F=91=89 Do you also want me to add a <strong>small diagram</strong>=
+ (showing multiprocessor system vs time-shared CPU with multiple users)? Th=
+at would make it very clear.</p>
+<p></p>
+<ol start=3D"5">
+<li>
+<p>Memory management: swapping, paging, segmentation, virtual memory;</p></=
+li>
+</ol>
+<p>Perfect =F0=9F=91=8D Let=E2=80=99s cover <strong>Memory Management: Swap=
+ping &amp; Paging</strong> clearly with examples.</p>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=94=B91.Swapping">=F0=9F=94=B9 1. <strong>S=
+wapping</strong></h1>
+<p>=E2=9C=85 <strong>Definition:</strong></p>
+<ul>
+<li>
+<p>Swapping is a memory management technique where <strong>entire processes=
+</strong> are temporarily moved between <strong>main memory (RAM)</strong> =
+and <strong>secondary storage (disk)</strong>.</p></li>
+<li>
+<p>This frees up RAM for other processes.</p></li>
+</ul>
+<p>=E2=9C=85 <strong>How it works:</strong></p>
+<ol start=3D"1">
+<li>
+<p>If RAM is full =E2=86=92 OS swaps out a process (moves it to disk).</p><=
+/li>
+<li>
+<p>When needed again =E2=86=92 OS swaps it back into RAM.</p></li>
+</ol>
+<p>=E2=9C=85 <strong>Advantages:</strong></p>
+<ul>
+<li>
+<p>Allows more processes to run than the available physical memory.</p></li=
+>
+<li>
+<p>Improves <strong>CPU utilization</strong>.</p></li>
+</ul>
+<p>=E2=9C=85 <strong>Disadvantages:</strong></p>
+<ul>
+<li>
+<p>Slow, because <strong>disk I/O</strong> is much slower than RAM.</p></li=
+>
+<li>
+<p>If too much swapping occurs =E2=86=92 system suffers from <strong>thrash=
+ing</strong> (spends more time swapping than executing).</p></li>
+</ul>
+<p>=E2=9C=85 <strong>Example:</strong></p>
+<ul>
+<li>
+<p>Suppose RAM =3D 4 GB, but total running processes need 6 GB.</p>
+<ul>
+<li>
+<p>OS keeps 4 GB in RAM and <strong>swaps out</strong> the extra 2 GB to di=
+sk.</p></li>
+</ul></li>
+</ul>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=94=B92.Paging">=F0=9F=94=B9 2. <strong>Pag=
+ing</strong></h1>
+<p>=E2=9C=85 <strong>Definition:</strong></p>
+<ul>
+<li>
+<p>Paging is a memory management scheme that eliminates <strong>external fr=
+agmentation</strong> by dividing memory into fixed-size <strong>blocks</str=
+ong>:</p>
+<ul>
+<li>
+<p><strong>Logical memory (process)</strong> =E2=86=92 divided into <strong=
+>pages</strong> (same size).</p></li>
+<li>
+<p><strong>Physical memory (RAM)</strong> =E2=86=92 divided into <strong>fr=
+ames</strong> (same size as pages).</p></li>
+</ul></li>
+</ul>
+<p>=E2=9C=85 <strong>How it works:</strong></p>
+<ul>
+<li>
+<p>When a process runs, its pages are loaded into available frames in RAM (=
+not necessarily contiguous).</p></li>
+<li>
+<p><strong>Page Table</strong> is used to keep track of where each page is =
+stored in RAM.</p></li>
+</ul>
+<p>=E2=9C=85 <strong>Advantages:</strong></p>
+<ul>
+<li>
+<p>No external fragmentation.</p></li>
+<li>
+<p>Efficient use of memory.</p></li>
+<li>
+<p>Processes can use non-contiguous memory.</p></li>
+</ul>
+<p>=E2=9C=85 <strong>Disadvantages:</strong></p>
+<ul>
+<li>
+<p><strong>Page table overhead</strong> (extra memory used to store mapping=
+s).</p></li>
+<li>
+<p><strong>Internal fragmentation</strong> (last page may not fully use fra=
+me).</p></li>
+</ul>
+<p>=E2=9C=85 <strong>Example:</strong></p>
+<ul>
+<li>
+<p>RAM =3D 16 KB, Page size =3D 4 KB =E2=86=92 4 frames.</p></li>
+<li>
+<p>A program of 10 KB =3D 3 pages.</p>
+<ul>
+<li>
+<p>Page 0 =E2=86=92 Frame 2</p></li>
+<li>
+<p>Page 1 =E2=86=92 Frame 0</p></li>
+<li>
+<p>Page 2 =E2=86=92 Frame 3</p></li>
+<li>
+<p>(Not necessarily in sequence).</p></li>
+</ul></li>
+</ul>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=94=B9SwappingvsPaging">=F0=9F=94=B9 <stron=
+g>Swapping vs Paging</strong></h1>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"55=
+50ff69-b335-4ce4-b1ea-415823c81774" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Feature</p></th>
+<th class=3D"confluenceTh">
+<p>Swapping (whole process)</p></th>
+<th class=3D"confluenceTh">
+<p>Paging (divides process)</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Unit of transfer</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Whole process</p></td>
+<td class=3D"confluenceTd">
+<p>Fixed-size pages</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Fragmentation</strong></p></td>
+<td class=3D"confluenceTd">
+<p>External fragmentation possible</p></td>
+<td class=3D"confluenceTd">
+<p>No external fragmentation, only internal</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Speed</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Slower (swap in/out whole process)</p></td>
+<td class=3D"confluenceTd">
+<p>Faster (only required pages loaded)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Use case</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Simple memory management in old systems</p></td>
+<td class=3D"confluenceTd">
+<p>Modern OS (Windows, Linux, etc.)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p>=F0=9F=91=89 Next, do you want me to also cover <strong>Segmentation</st=
+rong> (another memory management scheme, often asked together with Paging)?=
+</p>
+<p>Great idea =F0=9F=91=8D Let=E2=80=99s add some <strong>simple mathematic=
+al problems</strong> for <strong>Swapping &amp; Paging</strong> to make it =
+more practical.</p>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=94=B91.SwappingProblemExample">=F0=9F=94=
+=B9 1. <strong>Swapping Problem Example</strong></h1>
+<p>=F0=9F=92=A1 <strong>Problem:</strong><br>
+A system has <strong>8 GB RAM</strong>. Three processes of sizes <strong>4 =
+GB, 3 GB, and 6 GB</strong> need to be executed. If swapping is used, how m=
+any times will swapping occur to run all processes?</p>
+<p>=E2=9C=85 <strong>Solution:</strong></p>
+<ul>
+<li>
+<p>RAM =3D 8 GB.</p></li>
+<li>
+<p>First process (4 GB) fits =E2=86=92 loaded.</p></li>
+<li>
+<p>Second process (3 GB) also fits (total =3D 7 GB) =E2=86=92 loaded.</p></=
+li>
+<li>
+<p>Third process (6 GB) cannot fit (needs 6 GB, only 1 GB free).<br>
+=E2=86=92 OS must <strong>swap out</strong> either Process 1 (4 GB) or Proc=
+ess 2 (3 GB).</p></li>
+</ul>
+<p>Thus, <strong>1 swap is required</strong> to load Process 3.</p>
+<p>=F0=9F=91=89 <strong>Answer:</strong> 1 swap.</p>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=94=B92.PagingProblemExample">=F0=9F=94=B9 =
+2. <strong>Paging Problem Example</strong></h1>
+<p>=F0=9F=92=A1 <strong>Problem:</strong><br>
+A process of <strong>10 KB</strong> is to be loaded into RAM of size <stron=
+g>32 KB</strong>. Page size =3D <strong>4 KB</strong>.</p>
+<ol start=3D"1">
+<li>
+<p>How many <strong>pages</strong> are required?</p></li>
+<li>
+<p>How many <strong>frames</strong> are needed in RAM?</p></li>
+<li>
+<p>Is there any <strong>internal fragmentation</strong>?</p></li>
+</ol>
+<p>=E2=9C=85 <strong>Solution:</strong></p>
+<ol start=3D"1">
+<li>
+<p>Pages required =3D Process size =C3=B7 Page size =3D <strong>10 =C3=B7 4=
+ =3D 2.5 =E2=86=92 3 pages</strong>.</p></li>
+<li>
+<p>Frames needed =3D Same as pages =3D <strong>3 frames</strong>.</p></li>
+<li>
+<p>Internal fragmentation =3D (Last page not fully filled).</p>
+<ul>
+<li>
+<p>Last page size =3D 4 KB</p></li>
+<li>
+<p>Data in last page =3D 2 KB (since 8 KB already covered by 2 pages)</p></=
+li>
+<li>
+<p>Waste =3D 4 =E2=80=93 2 =3D <strong>2 KB</strong></p></li>
+</ul></li>
+</ol>
+<p>=F0=9F=91=89 <strong>Answer:</strong></p>
+<ul>
+<li>
+<p>Pages =3D 3</p></li>
+<li>
+<p>Frames =3D 3</p></li>
+<li>
+<p>Internal fragmentation =3D 2 KB</p></li>
+</ul>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=94=B93.AnotherPagingProblem">=F0=9F=94=B9 =
+3. <strong>Another Paging Problem</strong></h1>
+<p>=F0=9F=92=A1 <strong>Problem:</strong><br>
+RAM size =3D <strong>64 KB</strong>, Page size =3D <strong>1 KB</strong>. A=
+ program needs <strong>20 KB</strong>.</p>
+<ol start=3D"1">
+<li>
+<p>How many <strong>pages</strong> will the program need?</p></li>
+<li>
+<p>How many <strong>frames</strong> will RAM have?</p></li>
+<li>
+<p>If a program uses only 19.2 KB effectively, how much <strong>internal fr=
+agmentation</strong> occurs?</p></li>
+</ol>
+<p>=E2=9C=85 <strong>Solution:</strong></p>
+<ol start=3D"1">
+<li>
+<p>Pages =3D 20 =C3=B7 1 =3D <strong>20 pages</strong>.</p></li>
+<li>
+<p>Frames =3D 64 =C3=B7 1 =3D <strong>64 frames</strong>.</p></li>
+<li>
+<p>Internal fragmentation =3D Last page =E2=80=93 actual used =3D (1 =E2=80=
+=93 0.8) =3D <strong>0.2 KB</strong>.</p></li>
+</ol>
+<p>=F0=9F=91=89 <strong>Answer:</strong></p>
+<ul>
+<li>
+<p>Pages =3D 20</p></li>
+<li>
+<p>Frames =3D 64</p></li>
+<li>
+<p>Internal fragmentation =3D 0.2 KB</p></li>
+</ul>
+<hr>
+<p>Would you like me to also add <strong>formula shortcuts</strong> for pag=
+ing (like Page number, Offset, Frame number calculation) which are used in =
+exams/interviews?</p>
+<p>Perfect =F0=9F=91=8D Let=E2=80=99s add the <strong>formula shortcuts for=
+ paging</strong> that are very useful in <strong>exams and interviews</stro=
+ng>.</p>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=94=B9PagingFormulaShortcuts">=F0=9F=94=B9 =
+<strong>Paging Formula Shortcuts</strong></h1>
+<h3 id=3D"OperatingSystem-1.PageNumber(P)&amp;Offset(d)">1. <strong>Page Nu=
+mber (P) &amp; Offset (d)</strong></h3>
+<p>When a logical address is given, we divide it into:</p>
+<p>Logical&nbsp;Address&nbsp;(LA)=3DPage&nbsp;Number&nbsp;(P)+Offset&nbsp;(=
+d)\text{Logical Address (LA)} =3D \text{Page Number (P)} + \text{Offset (d)=
+}</p>
+<ul>
+<li>
+<p><strong>Page Number (P):</strong></p></li>
+</ul>
+<p>P=3DLogical&nbsp;AddressPage&nbsp;SizeP =3D \frac{\text{Logical Address}=
+}{\text{Page Size}}</p>
+<ul>
+<li>
+<p><strong>Offset (d):</strong></p></li>
+</ul>
+<p>d=3DLogical&nbsp;Addressmod=E2=80=89=E2=80=89Page&nbsp;Sized =3D \text{L=
+ogical Address} \mod \text{Page Size}</p>
+<hr>
+<h3 id=3D"OperatingSystem-2.FrameNumber(F)">2. <strong>Frame Number (F)</st=
+rong></h3>
+<p>After finding page number PP, check <strong>Page Table</strong> to get t=
+he frame number:</p>
+<p>F=3DPageTable[P]F =3D \text{PageTable}[P]</p>
+<hr>
+<h3 id=3D"OperatingSystem-3.PhysicalAddress(PA)">3. <strong>Physical Addres=
+s (PA)</strong></h3>
+<p>Finally, we map to physical memory:</p>
+<p>PA=3D(F=C3=97Frame&nbsp;Size)+d\text{PA} =3D (F \times \text{Frame Size}=
+) + d</p>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=94=B9ExampleProblem">=F0=9F=94=B9 <strong>=
+Example Problem</strong></h1>
+<p>=F0=9F=92=A1 <strong>Given:</strong></p>
+<ul>
+<li>
+<p>Logical Address (LA) =3D 4300</p></li>
+<li>
+<p>Page Size =3D 1000 bytes</p></li>
+<li>
+<p>Page Table:</p>
+<ul>
+<li>
+<p>Page 0 =E2=86=92 Frame 5</p></li>
+<li>
+<p>Page 1 =E2=86=92 Frame 9</p></li>
+<li>
+<p>Page 2 =E2=86=92 Frame 1</p></li>
+<li>
+<p>Page 3 =E2=86=92 Frame 8</p></li>
+</ul></li>
+</ul>
+<p><strong>Find Physical Address.</strong></p>
+<hr>
+<p>=E2=9C=85 <strong>Step 1: Find Page Number &amp; Offset</strong></p>
+<p>P=3D43001000=3D4&nbsp;(but&nbsp;index&nbsp;starts&nbsp;0&nbsp;=E2=86=92&=
+nbsp;so&nbsp;Page&nbsp;=3D&nbsp;4th)P =3D \frac{4300}{1000} =3D 4 \text{ (b=
+ut index starts 0 =E2=86=92 so Page =3D 4th)}d=3D4300mod=E2=80=89=E2=80=891=
+000=3D300d =3D 4300 \mod 1000 =3D 300</p>
+<p>So =E2=86=92 Page Number =3D <strong>4</strong>, Offset =3D <strong>300<=
+/strong>.</p>
+<hr>
+<p>=E2=9C=85 <strong>Step 2: Get Frame Number</strong><br>
+But our page table only has <strong>0=E2=80=933 pages</strong>.<br>
+=E2=86=92 So <strong>Page Fault occurs</strong> (because page 4 not present=
+ in RAM).</p>
+<p>=F0=9F=91=89 <strong>Answer:</strong> <strong>Page Fault</strong></p>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=94=B9AnotherExample(validcase)">=F0=9F=94=
+=B9 Another Example (valid case)</h1>
+<p>=F0=9F=92=A1 <strong>Given:</strong></p>
+<ul>
+<li>
+<p>Logical Address (LA) =3D 2500</p></li>
+<li>
+<p>Page Size =3D 1000</p></li>
+<li>
+<p>Page Table: Page 0 =E2=86=92 Frame 5, Page 1 =E2=86=92 Frame 2, Page 2 =
+=E2=86=92 Frame 8</p></li>
+</ul>
+<p>=E2=9C=85 <strong>Step 1:</strong></p>
+<p>P=3D25001000=3D2,d=3D2500mod=E2=80=89=E2=80=891000=3D500P =3D \frac{2500=
+}{1000} =3D 2, \quad d =3D 2500 \mod 1000 =3D 500</p>
+<p>=E2=9C=85 <strong>Step 2:</strong><br>
+Page 2 =E2=86=92 Frame 8</p>
+<p>=E2=9C=85 <strong>Step 3:</strong></p>
+<p>PA=3D(8=C3=971000)+500=3D8500\text{PA} =3D (8 \times 1000) + 500 =3D 850=
+0</p>
+<p>=F0=9F=91=89 <strong>Answer: Physical Address =3D 8500</strong></p>
+<hr>
+<p>Do you want me to also cover <strong>TLB (Translation Lookaside Buffer) =
+hit/miss calculation problems</strong>? These often come in OS exams along =
+with paging.</p>
+<p></p>
+<p>Memory Management: segmentation, virtual memory:</p>
+<p>Great =F0=9F=91=8D Let=E2=80=99s now cover <strong>Segmentation</strong>=
+ and <strong>Virtual Memory</strong> in a simple but clear way, and I=E2=80=
+=99ll also add <strong>example problems</strong> where needed.</p>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=94=B91.Segmentation">=F0=9F=94=B9 <strong>=
+1. Segmentation</strong></h1>
+<ul>
+<li>
+<p><strong>Definition:</strong><br>
+Memory is divided into <strong>logical segments</strong> (not fixed-size li=
+ke paging).<br>
+Each segment represents a logical unit like:</p>
+<ul>
+<li>
+<p>Code segment</p></li>
+<li>
+<p>Data segment</p></li>
+<li>
+<p>Stack segment</p></li>
+<li>
+<p>Heap segment</p></li>
+</ul></li>
+<li>
+<p><strong>Addressing:</strong><br>
+A logical address in segmentation has <strong>two parts</strong>:</p></li>
+</ul>
+<p>Logical&nbsp;Address=3D(Segment&nbsp;Number,Offset)\text{Logical Address=
+} =3D ( \text{Segment Number}, \text{Offset} )</p>
+<ul>
+<li>
+<p><strong>Segmentation Table:</strong><br>
+Each entry stores:</p></li>
+</ul>
+<ol start=3D"1">
+<li>
+<p><strong>Base</strong> =E2=86=92 Starting physical address of segment</p>=
+</li>
+<li>
+<p><strong>Limit</strong> =E2=86=92 Length of segment</p></li>
+</ol>
+<ul>
+<li>
+<p><strong>Physical Address:</strong></p></li>
+</ul>
+<p>PA=3DBase[S]+Offset,if&nbsp;Offset&lt;Limit\text{PA} =3D \text{Base}[S] =
++ \text{Offset}, \quad \text{if } \text{Offset} &lt; \text{Limit}</p>
+<p>Else =E2=86=92 <strong>Segmentation Fault</strong>.</p>
+<hr>
+<p>=E2=9C=85 <strong>Example:</strong></p>
+<ul>
+<li>
+<p>Segment Table:</p>
+<ul>
+<li>
+<p>Segment 0 =E2=86=92 Base =3D 1000, Limit =3D 400</p></li>
+<li>
+<p>Segment 1 =E2=86=92 Base =3D 4000, Limit =3D 600</p></li>
+</ul></li>
+<li>
+<p>Logical Address: (1, 430)</p></li>
+</ul>
+<p>=F0=9F=91=89 Check: 430 &lt; 600 =E2=9C=85 valid</p>
+<p>PA=3D4000+430=3D4430\text{PA} =3D 4000 + 430 =3D 4430</p>
+<p><strong>Answer: PA =3D 4430</strong></p>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=94=B92.VirtualMemory">=F0=9F=94=B9 <strong=
+>2. Virtual Memory</strong></h1>
+<ul>
+<li>
+<p><strong>Definition:</strong><br>
+Technique that allows execution of processes that may not be fully in <stro=
+ng>physical memory (RAM)</strong>.<br>
+It uses <strong>secondary storage (disk)</strong> + <strong>demand paging</=
+strong>.</p></li>
+<li>
+<p><strong>Key Concepts:</strong></p>
+<ul>
+<li>
+<p><strong>Page Table</strong> =E2=86=92 Maps virtual pages to physical fra=
+mes.</p></li>
+<li>
+<p><strong>Page Fault</strong> =E2=86=92 If required page not in memory, OS=
+ brings it from disk.</p></li>
+<li>
+<p><strong>Thrashing</strong> =E2=86=92 If page faults occur too frequently=
+.</p></li>
+</ul></li>
+<li>
+<p><strong>Effective Access Time (EAT):</strong><br>
+If:</p></li>
+<li>
+<p>Memory access time =3D mm</p></li>
+<li>
+<p>Page fault service time =3D ff</p></li>
+<li>
+<p>Page fault rate =3D pp</p></li>
+</ul>
+<p>EAT=3D(1=E2=88=92p)=C3=97m+p=C3=97fEAT =3D (1 - p) \times m + p \times f=
+</p>
+<hr>
+<p>=E2=9C=85 <strong>Example:</strong></p>
+<ul>
+<li>
+<p>Memory access time =3D 100 ns</p></li>
+<li>
+<p>Page fault service time =3D 10 ms =3D 10,000,000 ns</p></li>
+<li>
+<p>Page fault rate =3D 0.001</p></li>
+</ul>
+<p>EAT=3D(1=E2=88=920.001)(100)+(0.001)(10,000,000)EAT =3D (1 - 0.001)(100)=
+ + (0.001)(10,000,000)EAT=3D99.9+10,000=3D10,099.9=E2=80=89nsEAT =3D 99.9 +=
+ 10,000 =3D 10,099.9 \, ns</p>
+<p>=F0=9F=91=89 Even small page fault probability makes access <strong>very=
+ slow</strong>.</p>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=94=B9Summary">=F0=9F=94=B9 Summary</h1>
+<ul>
+<li>
+<p><strong>Segmentation</strong> =E2=86=92 Logical division of memory (Code=
+, Data, Stack) with <strong>Base + Limit</strong>.</p></li>
+<li>
+<p><strong>Virtual Memory</strong> =E2=86=92 Executes processes larger than=
+ RAM using <strong>paging + disk</strong>.</p></li>
+</ul>
+<hr>
+<p>Do you want me to also add <strong>Page Replacement Algorithms (FIFO, LR=
+U, Optimal) with examples</strong> under <strong>Virtual Memory</strong>? T=
+hese are usually tested right after this topic.</p>
+<p>Perfect =E2=9C=85 Let=E2=80=99s now cover <strong>Page Replacement Algor=
+ithms</strong> under <strong>Virtual Memory</strong> with <strong>examples =
++ simple math</strong>.</p>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=94=B9PageReplacementAlgorithms">=F0=9F=94=
+=B9 Page Replacement Algorithms</h1>
+<p>When a <strong>page fault</strong> occurs and memory (frames) is full =
+=E2=86=92 OS must <strong>replace</strong> one page with the new one.</p>
+<hr>
+<h2 id=3D"OperatingSystem-1.FIFO(First-In,First-Out)">1. <strong>FIFO (Firs=
+t-In, First-Out)</strong></h2>
+<ul>
+<li>
+<p>The <strong>oldest loaded page</strong> is replaced.</p></li>
+<li>
+<p>Implemented with a <strong>queue</strong>.</p></li>
+</ul>
+<p>=E2=9C=85 <strong>Example:</strong><br>
+Reference string =3D 7, 0, 1, 2, 0, 3, 0, 4<br>
+Number of frames =3D 3</p>
+<p>Steps:</p>
+<ul>
+<li>
+<p>Start empty =E2=86=92 load pages until full</p></li>
+<li>
+<p>Replace the page that came first when new page comes</p></li>
+</ul>
+<p>=F0=9F=91=89 Page faults =3D <strong>6</strong></p>
+<hr>
+<h2 id=3D"OperatingSystem-2.LRU(LeastRecentlyUsed)">2. <strong>LRU (Least R=
+ecently Used)</strong></h2>
+<ul>
+<li>
+<p>Replace the page that was <strong>least recently used</strong>.</p></li>
+<li>
+<p>Requires tracking of usage (stack or counter).</p></li>
+</ul>
+<p>=E2=9C=85 <strong>Example (same as above):</strong><br>
+Reference string =3D 7, 0, 1, 2, 0, 3, 0, 4<br>
+Frames =3D 3</p>
+<p>=F0=9F=91=89 Page faults =3D <strong>6</strong><br>
+(but replacement differs from FIFO =E2=80=94 LRU chooses the page not used =
+for the longest time).</p>
+<hr>
+<h2 id=3D"OperatingSystem-3.Optimal(MIN)">3. <strong>Optimal (MIN)</strong>=
+</h2>
+<ul>
+<li>
+<p>Replace the page that will <strong>not be used for the longest time in f=
+uture</strong>.</p></li>
+<li>
+<p>This is theoretical best (cannot be implemented perfectly in practice).<=
+/p></li>
+</ul>
+<p>=E2=9C=85 <strong>Example (same as above):</strong><br>
+Reference string =3D 7, 0, 1, 2, 0, 3, 0, 4<br>
+Frames =3D 3</p>
+<p>=F0=9F=91=89 Page faults =3D <strong>5</strong> (minimum possible).</p>
+<hr>
+<h2 id=3D"OperatingSystem-4.PageFaultRate(PFR)">4. <strong>Page Fault Rate =
+(PFR)</strong></h2>
+<p>PFR=3DPage&nbsp;FaultsTotal&nbsp;References\text{PFR} =3D \frac{\text{Pa=
+ge Faults}}{\text{Total References}}</p>
+<p>=E2=9C=85 Example:<br>
+Total references =3D 8<br>
+Page faults (FIFO) =3D 6</p>
+<p>PFR=3D68=3D0.75=3D75%PFR =3D \frac{6}{8} =3D 0.75 =3D 75\%</p>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=94=B9ComparisonTable(QuickLook)">=F0=9F=94=
+=B9 Comparison Table (Quick Look)</h1>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"01=
+399a45-81b6-4cd8-9926-529181cbfc6f" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Algorithm</p></th>
+<th class=3D"confluenceTh">
+<p>Policy</p></th>
+<th class=3D"confluenceTh">
+<p>Extra Info</p></th>
+<th class=3D"confluenceTh">
+<p>Example Faults (8 refs, 3 frames)</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>FIFO</p></td>
+<td class=3D"confluenceTd">
+<p>Oldest page replaced</p></td>
+<td class=3D"confluenceTd">
+<p>Simple, but not always best</p></td>
+<td class=3D"confluenceTd">
+<p>6</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>LRU</p></td>
+<td class=3D"confluenceTd">
+<p>Least recently used</p></td>
+<td class=3D"confluenceTd">
+<p>Needs tracking</p></td>
+<td class=3D"confluenceTd">
+<p>6</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Optimal</p></td>
+<td class=3D"confluenceTd">
+<p>Future knowledge</p></td>
+<td class=3D"confluenceTd">
+<p>Theoretical best</p></td>
+<td class=3D"confluenceTd">
+<p>5</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p>=F0=9F=91=89 So:</p>
+<ul>
+<li>
+<p><strong>FIFO</strong> =3D easy but may be bad (Belady=E2=80=99s Anomaly)=
+.</p></li>
+<li>
+<p><strong>LRU</strong> =3D good practical choice.</p></li>
+<li>
+<p><strong>Optimal</strong> =3D benchmark only.</p></li>
+</ul>
+<hr>
+<p>Would you like me to also include <strong>Working Set Model &amp; Thrash=
+ing</strong> (advanced virtual memory performance concepts) after this? The=
+se usually follow page replacement in OS courses.</p>
+<p></p>
+<p>Got it =F0=9F=91=8D Let=E2=80=99s carefully <strong>work through the FIF=
+O Page Replacement example step by step</strong>.</p>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=94=B9FIFO(First-In-First-Out)PageReplaceme=
+nt">=F0=9F=94=B9 FIFO (First-In-First-Out) Page Replacement</h1>
+<p>=F0=9F=93=8C <strong>Reference String:</strong> <code>7, 0, 1, 2, 0, 3, =
+0, 4</code><br>
+=F0=9F=93=8C <strong>Number of Frames:</strong> <code>3</code><br>
+=F0=9F=93=8C <strong>Rule:</strong> Always replace the <strong>oldest loade=
+d page</strong>.<br>
+=F0=9F=93=8C <strong>Data Structure Used:</strong> Queue (First-In =E2=86=
+=92 First-Out).</p>
+<hr>
+<h2 id=3D"OperatingSystem-=E2=9C=85Step-by-StepExecution">=E2=9C=85 Step-by=
+-Step Execution</h2>
+<p>We will track:</p>
+<ol start=3D"1">
+<li>
+<p>The <strong>state of frames</strong> after each reference</p></li>
+<li>
+<p>Whether a <strong>page fault</strong> occurs</p></li>
+</ol>
+<hr>
+<h3 id=3D"OperatingSystem-Step1:Reference=3D7">Step 1: Reference =3D 7</h3>
+<ul>
+<li>
+<p>Frames are empty =E2=86=92 load <code>7</code></p></li>
+<li>
+<p>Page Fault =E2=9C=85</p></li>
+</ul>
+<p>=F0=9F=91=89 Frames: <code>[7]</code><br>
+=F0=9F=91=89 Faults so far: <strong>1</strong></p>
+<hr>
+<h3 id=3D"OperatingSystem-Step2:Reference=3D0">Step 2: Reference =3D 0</h3>
+<ul>
+<li>
+<p><code>0</code> not in frames =E2=86=92 load <code>0</code></p></li>
+<li>
+<p>Page Fault =E2=9C=85</p></li>
+</ul>
+<p>=F0=9F=91=89 Frames: <code>[7, 0]</code><br>
+=F0=9F=91=89 Faults so far: <strong>2</strong></p>
+<hr>
+<h3 id=3D"OperatingSystem-Step3:Reference=3D1">Step 3: Reference =3D 1</h3>
+<ul>
+<li>
+<p><code>1</code> not in frames =E2=86=92 load <code>1</code></p></li>
+<li>
+<p>Page Fault =E2=9C=85</p></li>
+</ul>
+<p>=F0=9F=91=89 Frames: <code>[7, 0, 1]</code><br>
+=F0=9F=91=89 Faults so far: <strong>3</strong></p>
+<hr>
+<h3 id=3D"OperatingSystem-Step4:Reference=3D2">Step 4: Reference =3D 2</h3>
+<ul>
+<li>
+<p><code>2</code> not in frames =E2=86=92 <strong>replace oldest</strong> (=
+which is <code>7</code>)</p></li>
+<li>
+<p>Page Fault =E2=9C=85</p></li>
+</ul>
+<p>=F0=9F=91=89 Frames: <code>[2, 0, 1]</code><br>
+=F0=9F=91=89 Faults so far: <strong>4</strong></p>
+<hr>
+<h3 id=3D"OperatingSystem-Step5:Reference=3D0">Step 5: Reference =3D 0</h3>
+<ul>
+<li>
+<p><code>0</code> <strong>already in frames</strong> =E2=86=92 No fault =E2=
+=9D=8C</p></li>
+</ul>
+<p>=F0=9F=91=89 Frames: <code>[2, 0, 1]</code><br>
+=F0=9F=91=89 Faults so far: <strong>4</strong></p>
+<hr>
+<h3 id=3D"OperatingSystem-Step6:Reference=3D3">Step 6: Reference =3D 3</h3>
+<ul>
+<li>
+<p><code>3</code> not in frames =E2=86=92 replace oldest (<code>0</code> is=
+ not oldest, <code>1</code> is not oldest, <code>0</code><strong> was used =
+but oldest in FIFO is </strong><code>0</code><strong> or </strong><code>1</=
+code><strong>?</strong>)<br>
+=F0=9F=91=89 Careful: In FIFO, order of arrival matters.</p></li>
+</ul>
+<p>Order of arrival so far: <code>2 (came at step 4), 0 (step 2), 1 (step 3=
+)</code><br>
+So oldest is <strong>0</strong>.</p>
+<ul>
+<li>
+<p>Replace <code>0</code> with <code>3</code></p></li>
+<li>
+<p>Page Fault =E2=9C=85</p></li>
+</ul>
+<p>=F0=9F=91=89 Frames: <code>[2, 3, 1]</code><br>
+=F0=9F=91=89 Faults so far: <strong>5</strong></p>
+<hr>
+<h3 id=3D"OperatingSystem-Step7:Reference=3D0">Step 7: Reference =3D 0</h3>
+<ul>
+<li>
+<p><code>0</code> not in frames =E2=86=92 replace oldest</p></li>
+</ul>
+<p>Order of arrival now: <code>2 (step 4), 1 (step 3), 3 (step 6)</code><br=
+>
+=F0=9F=91=89 Oldest =3D <code>1</code></p>
+<ul>
+<li>
+<p>Replace <code>1</code> with <code>0</code></p></li>
+<li>
+<p>Page Fault =E2=9C=85</p></li>
+</ul>
+<p>=F0=9F=91=89 Frames: <code>[2, 3, 0]</code><br>
+=F0=9F=91=89 Faults so far: <strong>6</strong></p>
+<hr>
+<h3 id=3D"OperatingSystem-Step8:Reference=3D4">Step 8: Reference =3D 4</h3>
+<ul>
+<li>
+<p><code>4</code> not in frames =E2=86=92 replace oldest</p></li>
+</ul>
+<p>Order of arrival now: <code>2 (step 4), 3 (step 6), 0 (step 7)</code><br=
+>
+=F0=9F=91=89 Oldest =3D <code>2</code></p>
+<ul>
+<li>
+<p>Replace <code>2</code> with <code>4</code></p></li>
+<li>
+<p>Page Fault =E2=9C=85</p></li>
+</ul>
+<p>=F0=9F=91=89 Frames: <code>[4, 3, 0]</code><br>
+=F0=9F=91=89 Faults so far: <strong>7</strong></p>
+<hr>
+<h2 id=3D"OperatingSystem-=F0=9F=94=B9FinalResult">=F0=9F=94=B9 Final Resul=
+t</h2>
+<ul>
+<li>
+<p><strong>Total References:</strong> 8</p></li>
+<li>
+<p><strong>Total Page Faults:</strong> <strong>7</strong> (not 6 =E2=86=92 =
+detailed calculation shows <strong>7</strong>).</p></li>
+</ul>
+<hr>
+<h1 id=3D"OperatingSystem-=E2=9C=85VisualTable">=E2=9C=85 Visual Table</h1>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"46=
+2455b5-21ad-4620-8e5f-f8f83e45fb3c" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Step</p></th>
+<th class=3D"confluenceTh">
+<p>Reference</p></th>
+<th class=3D"confluenceTh">
+<p>Frames State</p></th>
+<th class=3D"confluenceTh">
+<p>Page Fault?</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>1</p></td>
+<td class=3D"confluenceTd">
+<p>7</p></td>
+<td class=3D"confluenceTd">
+<p>[7]</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=9C=85</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>2</p></td>
+<td class=3D"confluenceTd">
+<p>0</p></td>
+<td class=3D"confluenceTd">
+<p>[7, 0]</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=9C=85</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>3</p></td>
+<td class=3D"confluenceTd">
+<p>1</p></td>
+<td class=3D"confluenceTd">
+<p>[7, 0, 1]</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=9C=85</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>4</p></td>
+<td class=3D"confluenceTd">
+<p>2</p></td>
+<td class=3D"confluenceTd">
+<p>[2, 0, 1]</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=9C=85</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>5</p></td>
+<td class=3D"confluenceTd">
+<p>0</p></td>
+<td class=3D"confluenceTd">
+<p>[2, 0, 1]</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=9D=8C</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>6</p></td>
+<td class=3D"confluenceTd">
+<p>3</p></td>
+<td class=3D"confluenceTd">
+<p>[2, 3, 1]</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=9C=85</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>7</p></td>
+<td class=3D"confluenceTd">
+<p>0</p></td>
+<td class=3D"confluenceTd">
+<p>[2, 3, 0]</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=9C=85</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>8</p></td>
+<td class=3D"confluenceTd">
+<p>4</p></td>
+<td class=3D"confluenceTd">
+<p>[4, 3, 0]</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=9C=85</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>=F0=9F=91=89 <strong>Page Faults =3D 7</strong></p>
+<hr>
+<p>Would you like me to also solve the <strong>same example with LRU</stron=
+g> so you can compare FIFO vs LRU clearly?</p>
+<p>Great =E2=80=94 here=E2=80=99s the <strong>LRU (Least Recently Used)</st=
+rong> walkthrough for the <strong>same reference string</strong> and <stron=
+g>3 frames</strong>, step-by-step =E2=80=94 then a short comparison with FI=
+FO.</p>
+<p><strong>Reference string:</strong> <code>7, 0, 1, 2, 0, 3, 0, 4</code><b=
+r><strong>Frames:</strong> <code>3</code><br><strong>Policy (LRU):</strong>=
+ on a page fault, replace the page that was <strong>used least recently</st=
+rong>.</p>
+<hr>
+<h2 id=3D"OperatingSystem-Step-by-step(LRU)">Step-by-step (LRU)</h2>
+<p>We show frames after servicing each reference, and whether a page fault =
+happens.</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"83=
+9f0407-603b-4be5-88a8-556dd5862999" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Step</p></th>
+<th class=3D"confluenceTh">
+<p>Reference</p></th>
+<th class=3D"confluenceTh">
+<p>Frames (after)</p></th>
+<th class=3D"confluenceTh">
+<p>Page Fault?</p></th>
+<th class=3D"confluenceTh">
+<p>Reason / Recency notes</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>1</p></td>
+<td class=3D"confluenceTd">
+<p>7</p></td>
+<td class=3D"confluenceTd">
+<p>[7]</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=9C=85 1</p></td>
+<td class=3D"confluenceTd">
+<p>load 7</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>2</p></td>
+<td class=3D"confluenceTd">
+<p>0</p></td>
+<td class=3D"confluenceTd">
+<p>[7, 0]</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=9C=85 2</p></td>
+<td class=3D"confluenceTd">
+<p>load 0</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>3</p></td>
+<td class=3D"confluenceTd">
+<p>1</p></td>
+<td class=3D"confluenceTd">
+<p>[7, 0, 1]</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=9C=85 3</p></td>
+<td class=3D"confluenceTd">
+<p>load 1</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>4</p></td>
+<td class=3D"confluenceTd">
+<p>2</p></td>
+<td class=3D"confluenceTd">
+<p>[2, 0, 1]</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=9C=85 4</p></td>
+<td class=3D"confluenceTd">
+<p>frames full; LRU =3D 7 (used at step1) =E2=86=92 replace 7 with 2</p></t=
+d>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>5</p></td>
+<td class=3D"confluenceTd">
+<p>0</p></td>
+<td class=3D"confluenceTd">
+<p>[2, 0, 1]</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=9D=8C</p></td>
+<td class=3D"confluenceTd">
+<p>0 is present =E2=86=92 no fault; 0 becomes most recent</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>6</p></td>
+<td class=3D"confluenceTd">
+<p>3</p></td>
+<td class=3D"confluenceTd">
+<p>[2, 0, 3]</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=9C=85 5</p></td>
+<td class=3D"confluenceTd">
+<p>LRU among {2(step4),0(step5),1(step3)} is 1 =E2=86=92 replace 1 with 3</=
+p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>7</p></td>
+<td class=3D"confluenceTd">
+<p>0</p></td>
+<td class=3D"confluenceTd">
+<p>[2, 0, 3]</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=9D=8C</p></td>
+<td class=3D"confluenceTd">
+<p>0 present =E2=86=92 no fault</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>8</p></td>
+<td class=3D"confluenceTd">
+<p>4</p></td>
+<td class=3D"confluenceTd">
+<p>[4, 0, 3]</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=9C=85 6</p></td>
+<td class=3D"confluenceTd">
+<p>LRU among {2(step4),0(step7),3(step6)} is 2 =E2=86=92 replace 2 with 4</=
+p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Total page faults (LRU) =3D 6</strong></p>
+<hr>
+<h2 id=3D"OperatingSystem-Comparison:FIFOvsLRU(sameexample)">Comparison: FI=
+FO vs LRU (same example)</h2>
+<ul>
+<li>
+<p><strong>FIFO faults (earlier walkthrough)</strong> =3D <strong>7</strong=
+></p></li>
+<li>
+<p><strong>LRU faults (above)</strong> =3D <strong>6</strong></p></li>
+</ul>
+<p><strong>Why LRU did better here?</strong><br>
+LRU replaces the page that hasn't been used for the longest time, which oft=
+en preserves pages that will be reused soon. FIFO blindly evicts the oldest=
+ loaded page even if it was recently used again, so FIFO can evict a page t=
+hat will be needed shortly =E2=80=94 causing extra faults.</p>
+<hr>
+<h2 id=3D"OperatingSystem-Notesonimplementation/complexity">Notes on implem=
+entation / complexity</h2>
+<ul>
+<li>
+<p><strong>LRU</strong> can be implemented using a <strong>doubly-linked li=
+st + hash table</strong> (move accessed page to front on each access): amor=
+tized <strong>O(1)</strong> for access/update.</p></li>
+<li>
+<p>Simpler implementations (timestamp/counters) have higher overhead.</p></=
+li>
+</ul>
+<hr>
+<p>Want to see the <strong>FIFO and LRU runs side-by-side in one table</str=
+ong> or the <strong>same example with Optimal</strong> (the theoretical bes=
+t) for full comparison?</p>
+<p>Nice =E2=80=94 I=E2=80=99ll show <strong>FIFO, LRU and Optimal (Belady)<=
+/strong> side-by-side for the same reference string and <strong>3 frames</s=
+trong>, step-by-step, then summarize and compare. I=E2=80=99ll be explicit =
+about ties / replacement choices so there=E2=80=99s no confusion.</p>
+<p><strong>Reference string:</strong> <code>7, 0, 1, 2, 0, 3, 0, 4</code><b=
+r><strong>Frames:</strong> 3</p>
+<hr>
+<h2 id=3D"OperatingSystem-1)FIFO(First-In,First-Out)">1) FIFO (First-In, Fi=
+rst-Out)</h2>
+<p>Queue order =3D order of arrival. replace oldest loaded page.</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"ee=
+e93b6b-9962-44e6-8bf9-b9cdf9d366c3" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Step</p></th>
+<th class=3D"confluenceTh">
+<p>Ref</p></th>
+<th class=3D"confluenceTh">
+<p>Frames after step (oldest=E2=86=92newest)</p></th>
+<th class=3D"confluenceTh">
+<p>Page fault?</p></th>
+<th class=3D"confluenceTh">
+<p>Notes (which replaced)</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>1</p></td>
+<td class=3D"confluenceTd">
+<p>7</p></td>
+<td class=3D"confluenceTd">
+<p>[7]</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=9C=85 (1)</p></td>
+<td class=3D"confluenceTd">
+<p>load 7</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>2</p></td>
+<td class=3D"confluenceTd">
+<p>0</p></td>
+<td class=3D"confluenceTd">
+<p>[7, 0]</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=9C=85 (2)</p></td>
+<td class=3D"confluenceTd">
+<p>load 0</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>3</p></td>
+<td class=3D"confluenceTd">
+<p>1</p></td>
+<td class=3D"confluenceTd">
+<p>[7, 0, 1]</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=9C=85 (3)</p></td>
+<td class=3D"confluenceTd">
+<p>load 1</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>4</p></td>
+<td class=3D"confluenceTd">
+<p>2</p></td>
+<td class=3D"confluenceTd">
+<p>[2, 0, 1]</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=9C=85 (4)</p></td>
+<td class=3D"confluenceTd">
+<p>replace <strong>7</strong> (oldest)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>5</p></td>
+<td class=3D"confluenceTd">
+<p>0</p></td>
+<td class=3D"confluenceTd">
+<p>[2, 0, 1]</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=9D=8C</p></td>
+<td class=3D"confluenceTd">
+<p>hit</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>6</p></td>
+<td class=3D"confluenceTd">
+<p>3</p></td>
+<td class=3D"confluenceTd">
+<p>[2, 3, 1]</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=9C=85 (5)</p></td>
+<td class=3D"confluenceTd">
+<p>replace <strong>0</strong> (oldest)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>7</p></td>
+<td class=3D"confluenceTd">
+<p>0</p></td>
+<td class=3D"confluenceTd">
+<p>[2, 3, 0]</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=9C=85 (6)</p></td>
+<td class=3D"confluenceTd">
+<p>replace <strong>1</strong> (oldest)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>8</p></td>
+<td class=3D"confluenceTd">
+<p>4</p></td>
+<td class=3D"confluenceTd">
+<p>[4, 3, 0]</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=9C=85 (7)</p></td>
+<td class=3D"confluenceTd">
+<p>replace <strong>2</strong> (oldest)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>FIFO page faults =3D 7</strong></p>
+<hr>
+<h2 id=3D"OperatingSystem-2)LRU(LeastRecentlyUsed)">2) LRU (Least Recently =
+Used)</h2>
+<p>Replace the page that was least recently referenced.</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"df=
+b165f7-0d8f-45e1-b1d7-ca5e5bac1cb8" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Step</p></th>
+<th class=3D"confluenceTh">
+<p>Ref</p></th>
+<th class=3D"confluenceTh">
+<p>Frames after step (most recent highlighted)</p></th>
+<th class=3D"confluenceTh">
+<p>Page fault?</p></th>
+<th class=3D"confluenceTh">
+<p>Notes (LRU chosen for replacement)</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>1</p></td>
+<td class=3D"confluenceTd">
+<p>7</p></td>
+<td class=3D"confluenceTd">
+<p>[7]</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=9C=85 (1)</p></td>
+<td class=3D"confluenceTd">
+<p>load 7</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>2</p></td>
+<td class=3D"confluenceTd">
+<p>0</p></td>
+<td class=3D"confluenceTd">
+<p>[7, 0]</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=9C=85 (2)</p></td>
+<td class=3D"confluenceTd">
+<p>load 0</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>3</p></td>
+<td class=3D"confluenceTd">
+<p>1</p></td>
+<td class=3D"confluenceTd">
+<p>[7, 0, 1]</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=9C=85 (3)</p></td>
+<td class=3D"confluenceTd">
+<p>load 1</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>4</p></td>
+<td class=3D"confluenceTd">
+<p>2</p></td>
+<td class=3D"confluenceTd">
+<p>[2, 0, 1]</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=9C=85 (4)</p></td>
+<td class=3D"confluenceTd">
+<p>LRU=3D7 =E2=86=92 replace 7</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>5</p></td>
+<td class=3D"confluenceTd">
+<p>0</p></td>
+<td class=3D"confluenceTd">
+<p>[2, 0, 1]</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=9D=8C</p></td>
+<td class=3D"confluenceTd">
+<p>0 hit =E2=86=92 becomes most recent</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>6</p></td>
+<td class=3D"confluenceTd">
+<p>3</p></td>
+<td class=3D"confluenceTd">
+<p>[2, 0, 3]</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=9C=85 (5)</p></td>
+<td class=3D"confluenceTd">
+<p>LRU among {2(step4),0(step5),1(step3)} =3D <strong>1</strong> =E2=86=92 =
+replace 1</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>7</p></td>
+<td class=3D"confluenceTd">
+<p>0</p></td>
+<td class=3D"confluenceTd">
+<p>[2, 0, 3]</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=9D=8C</p></td>
+<td class=3D"confluenceTd">
+<p>0 hit</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>8</p></td>
+<td class=3D"confluenceTd">
+<p>4</p></td>
+<td class=3D"confluenceTd">
+<p>[4, 0, 3]</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=9C=85 (6)</p></td>
+<td class=3D"confluenceTd">
+<p>LRU among {2(step4),0(step7),3(step6)} =3D <strong>2</strong> =E2=86=92 =
+replace 2</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>LRU page faults =3D 6</strong></p>
+<hr>
+<h2 id=3D"OperatingSystem-3)Optimal(Belady=E2=80=99salgorithm)">3) Optimal =
+(Belady=E2=80=99s algorithm)</h2>
+<p>At each fault, evict the page whose <strong>next use is farthest in the =
+future</strong> (or never used again).</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"f0=
+8624ba-0f44-44ef-b791-127e1981d006" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Step</p></th>
+<th class=3D"confluenceTh">
+<p>Ref</p></th>
+<th class=3D"confluenceTh">
+<p>Frames after step</p></th>
+<th class=3D"confluenceTh">
+<p>Page fault?</p></th>
+<th class=3D"confluenceTh">
+<p>Replacement choice (why)</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>1</p></td>
+<td class=3D"confluenceTd">
+<p>7</p></td>
+<td class=3D"confluenceTd">
+<p>[7]</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=9C=85 (1)</p></td>
+<td class=3D"confluenceTd">
+<p>load 7</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>2</p></td>
+<td class=3D"confluenceTd">
+<p>0</p></td>
+<td class=3D"confluenceTd">
+<p>[7,0]</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=9C=85 (2)</p></td>
+<td class=3D"confluenceTd">
+<p>load 0</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>3</p></td>
+<td class=3D"confluenceTd">
+<p>1</p></td>
+<td class=3D"confluenceTd">
+<p>[7,0,1]</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=9C=85 (3)</p></td>
+<td class=3D"confluenceTd">
+<p>load 1</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>4</p></td>
+<td class=3D"confluenceTd">
+<p>2</p></td>
+<td class=3D"confluenceTd">
+<p>[2,0,1]</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=9C=85 (4)</p></td>
+<td class=3D"confluenceTd">
+<p>look ahead: 7 (never), 0(next at pos5), 1(never) =E2=86=92 evict one nev=
+er-used (choose <strong>7</strong>)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>5</p></td>
+<td class=3D"confluenceTd">
+<p>0</p></td>
+<td class=3D"confluenceTd">
+<p>[2,0,1]</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=9D=8C</p></td>
+<td class=3D"confluenceTd">
+<p>hit</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>6</p></td>
+<td class=3D"confluenceTd">
+<p>3</p></td>
+<td class=3D"confluenceTd">
+<p>[2,0,3]</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=9C=85 (5)</p></td>
+<td class=3D"confluenceTd">
+<p>look ahead: 2(never),0(next at pos7),1(never) =E2=86=92 evict a never-us=
+ed (choose <strong>1</strong>)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>7</p></td>
+<td class=3D"confluenceTd">
+<p>0</p></td>
+<td class=3D"confluenceTd">
+<p>[2,0,3]</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=9D=8C</p></td>
+<td class=3D"confluenceTd">
+<p>hit</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>8</p></td>
+<td class=3D"confluenceTd">
+<p>4</p></td>
+<td class=3D"confluenceTd">
+<p>[4,0,3]</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=9C=85 (6)</p></td>
+<td class=3D"confluenceTd">
+<p>no future refs =E2=80=94 evict any (choose <strong>2</strong>)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Optimal page faults =3D 6</strong></p>
+<blockquote>
+<p>Note: Optimal's tie-break choices among pages that never appear again do=
+n't change final minimal count here; using the farthest-future rule yields =
+<strong>6</strong> faults.</p>
+</blockquote>
+<hr>
+<h2 id=3D"OperatingSystem-Finalcomparison">Final comparison</h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"4c=
+31b1be-e282-4513-96df-b94458d943d9" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Algorithm</p></th>
+<th class=3D"confluenceTh">
+<p>Page Faults</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>FIFO</p></td>
+<td class=3D"confluenceTd">
+<p>7</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>LRU</p></td>
+<td class=3D"confluenceTd">
+<p>6</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Optimal</p></td>
+<td class=3D"confluenceTd">
+<p>6</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<ul>
+<li>
+<p><strong>LRU =3D Optimal (6 faults)</strong> for this reference string =
+=E2=80=94 LRU happened to match the ideal choices.</p></li>
+<li>
+<p><strong>FIFO</strong> performed worse (7 faults) because it evicted by a=
+rrival order and sometimes removed pages that were still needed later.</p><=
+/li>
+</ul>
+<hr>
+<h2 id=3D"OperatingSystem-ShortexplanationwhyFIFOdidworsehere">Short explan=
+ation why FIFO did worse here</h2>
+<p>FIFO evicted pages solely by arrival time. At step 6, FIFO evicted <code=
+>0</code> (which was needed again soon at step 7), causing an extra fault a=
+t step 7. LRU/Optimal preserved <code>0</code> and avoided that extra fault=
+.</p>
+<hr>
+<p>Would you like:</p>
+<ul>
+<li>
+<p>a single combined table that shows FIFO/LRU/Optimal frames side-by-side =
+for each step, or</p></li>
+<li>
+<p>the <strong>same example</strong> but with <strong>4 frames</strong> to =
+see how counts change, or</p></li>
+<li>
+<p>a small diagram illustrating the queue (FIFO) and the LRU recency orderi=
+ng?</p></li>
+</ul>
+<p></p>
+<ol start=3D"6">
+<li>
+<p>Input/Output: hardware, software, disk, terminals, clocks;</p></li>
+</ol>
+<p>Perfect =F0=9F=91=8D Let=E2=80=99s cover <strong>Input/Output (I/O) in O=
+perating Systems</strong> clearly, including hardware, software, and common=
+ devices.</p>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=94=B91.I/OOverview">=F0=9F=94=B9 <strong>1=
+. I/O Overview</strong></h1>
+<p><strong>Definition:</strong><br>
+I/O refers to the communication between a <strong>computer system</strong> =
+and the <strong>external environment</strong> (users, devices, network, sto=
+rage).</p>
+<ul>
+<li>
+<p>It involves <strong>input devices</strong> (data into the system) and <s=
+trong>output devices</strong> (data from the system).</p></li>
+<li>
+<p>The OS manages <strong>efficient and reliable I/O operations</strong>.</=
+p></li>
+</ul>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=94=B92.I/OHardware">=F0=9F=94=B9 <strong>2=
+. I/O Hardware</strong></h1>
+<p>Hardware provides the physical interface between the computer and device=
+s.</p>
+<h3 id=3D"OperatingSystem-KeyComponents:">Key Components:</h3>
+<ol start=3D"1">
+<li>
+<p><strong>Disk Drives (Hard Disk, SSD)</strong></p>
+<ul>
+<li>
+<p>Persistent storage, read/write blocks of data.</p></li>
+<li>
+<p>Managed using <strong>controllers</strong>.</p></li>
+</ul></li>
+<li>
+<p><strong>Terminals (Keyboard, Monitor)</strong></p>
+<ul>
+<li>
+<p>Keyboard =E2=86=92 input</p></li>
+<li>
+<p>Monitor =E2=86=92 output</p></li>
+</ul></li>
+<li>
+<p><strong>Clocks / Timers</strong></p>
+<ul>
+<li>
+<p>Hardware timer used for CPU scheduling, time-stamping, and generating in=
+terrupts.</p></li>
+</ul></li>
+<li>
+<p><strong>Controllers / Interface Cards</strong></p>
+<ul>
+<li>
+<p>Disk controller, USB controller, etc.</p></li>
+<li>
+<p>Manage low-level device operations and communicate with CPU/memory.</p><=
+/li>
+</ul></li>
+</ol>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=94=B93.I/OSoftware">=F0=9F=94=B9 <strong>3=
+. I/O Software</strong></h1>
+<p>OS provides <strong>software mechanisms</strong> to manage devices.</p>
+<h3 id=3D"OperatingSystem-Layers:">Layers:</h3>
+<ol start=3D"1">
+<li>
+<p><strong>Device Drivers</strong></p>
+<ul>
+<li>
+<p>Interface between OS and hardware.</p></li>
+<li>
+<p>Translate OS commands into device-specific operations.</p></li>
+</ul></li>
+<li>
+<p><strong>Interrupt Handling</strong></p>
+<ul>
+<li>
+<p>Devices notify CPU via <strong>interrupts</strong> when ready or complet=
+ed.</p></li>
+</ul></li>
+<li>
+<p><strong>I/O Scheduling</strong></p>
+<ul>
+<li>
+<p>OS decides the <strong>order of servicing I/O requests</strong> (like di=
+sk scheduling: FCFS, SSTF, SCAN).</p></li>
+</ul></li>
+<li>
+<p><strong>Buffers and Caches</strong></p>
+<ul>
+<li>
+<p>Temporarily store data to <strong>reduce CPU waiting</strong> and improv=
+e speed.</p></li>
+</ul></li>
+</ol>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=94=B94.Disks">=F0=9F=94=B9 <strong>4. Disk=
+s</strong></h1>
+<ul>
+<li>
+<p><strong>Magnetic disks</strong> =E2=86=92 persistent storage, organized =
+in <strong>tracks, sectors, cylinders</strong>.</p></li>
+<li>
+<p><strong>Access time components:</strong></p>
+<ol start=3D"1">
+<li>
+<p>Seek time =E2=86=92 moving read/write head</p></li>
+<li>
+<p>Rotational latency =E2=86=92 waiting for correct sector</p></li>
+<li>
+<p>Transfer time =E2=86=92 actually reading/writing data</p></li>
+</ol></li>
+<li>
+<p><strong>Disk Scheduling Algorithms:</strong></p>
+<ul>
+<li>
+<p><strong>FCFS</strong> =E2=86=92 first request first served</p></li>
+<li>
+<p><strong>SSTF</strong> =E2=86=92 shortest seek time first</p></li>
+<li>
+<p><strong>SCAN / C-SCAN</strong> =E2=86=92 elevator algorithms</p></li>
+</ul></li>
+</ul>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=94=B95.Terminals">=F0=9F=94=B9 <strong>5. =
+Terminals</strong></h1>
+<ul>
+<li>
+<p>Devices for human interaction: input/output.</p></li>
+<li>
+<p>Types:</p>
+<ol start=3D"1">
+<li>
+<p><strong>Character-based terminals</strong> =E2=86=92 keyboard + screen</=
+p></li>
+<li>
+<p><strong>Graphical terminals</strong> =E2=86=92 GUI-based input/output</p=
+></li>
+</ol></li>
+<li>
+<p>Handled using <strong>line discipline</strong> and <strong>device driver=
+s</strong> in OS.</p></li>
+</ul>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=94=B96.Clocks">=F0=9F=94=B9 <strong>6. Clo=
+cks</strong></h1>
+<ul>
+<li>
+<p><strong>Hardware timers</strong> generate <strong>regular interrupts</st=
+rong> for:</p>
+<ul>
+<li>
+<p>Preemptive CPU scheduling</p></li>
+<li>
+<p>Maintaining system time</p></li>
+<li>
+<p>Multiplexing CPU for time-sharing systems</p></li>
+</ul></li>
+<li>
+<p>OS can use timers to implement <strong>sleep, delay, or timeout</strong>=
+ functions.</p></li>
+</ul>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=94=B9SummaryTable">=F0=9F=94=B9 <strong>Su=
+mmary Table</strong></h1>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"f9=
+e47873-260c-4c5f-9a48-4d16747b18c4" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Component</p></th>
+<th class=3D"confluenceTh">
+<p>Role / Function</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Hardware</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Physical I/O devices: disks, keyboards, monitors, clocks</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Software</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Device drivers, buffers, I/O scheduling, interrupt handlers</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Disk</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Persistent storage, organized in tracks/sectors, uses scheduling algorit=
+hms</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Terminals</strong></p></td>
+<td class=3D"confluenceTd">
+<p>User interaction (input/output), can be text or GUI-based</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Clocks</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Timers generate interrupts for scheduling, time-stamping, and delays</p>=
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p>=E2=9C=85 <strong>Key Concept:</strong></p>
+<ul>
+<li>
+<p><strong>Hardware provides the device</strong>, <strong>software controls=
+ it</strong>, and <strong>OS manages all I/O efficiently</strong>.</p></li>
+</ul>
+<hr>
+<p>If you want, I can also make a <strong>simple diagram showing OS, device=
+s, and I/O flow with interrupts</strong>. This is often very helpful for ex=
+ams.</p>
+<p>Do you want me to do that?</p>
+<p>Got it =F0=9F=91=8D Then we=E2=80=99ll keep it <strong>general, not OS-s=
+pecific</strong>, and focus on <strong>Input/Output concepts</strong> in co=
+mputer systems.</p>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=94=B91.I/OHardware">=F0=9F=94=B9 <strong>1=
+. I/O Hardware</strong></h1>
+<p>Hardware provides the physical interface for communication between the c=
+omputer and the outside world.</p>
+<h3 id=3D"OperatingSystem-Examples:">Examples:</h3>
+<ul>
+<li>
+<p><strong>Disk drives:</strong> Store data permanently (HDD, SSD)</p></li>
+<li>
+<p><strong>Terminals:</strong> Keyboard (input), Monitor (output)</p></li>
+<li>
+<p><strong>Clocks / Timers:</strong> Provide timing signals for synchroniza=
+tion</p></li>
+<li>
+<p><strong>Controllers / Interface Cards:</strong> Manage specific devices =
+(USB, disk controllers)</p></li>
+</ul>
+<p><strong>Role:</strong> Convert user/program actions into signals the com=
+puter can understand and vice versa.</p>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=94=B92.I/OSoftware">=F0=9F=94=B9 <strong>2=
+. I/O Software</strong></h1>
+<p>Software helps the computer <strong>communicate with hardware</strong> e=
+fficiently.</p>
+<h3 id=3D"OperatingSystem-Examples:.1">Examples:</h3>
+<ul>
+<li>
+<p><strong>Drivers:</strong> Translate software commands to device instruct=
+ions</p></li>
+<li>
+<p><strong>Buffers:</strong> Temporarily store data for smooth I/O</p></li>
+<li>
+<p><strong>Scheduling / Management:</strong> Decide order of data transfer =
+(important for disks or network devices)</p></li>
+</ul>
+<p><strong>Role:</strong> Makes I/O transparent and reliable for users/prog=
+rams.</p>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=94=B93.Disks">=F0=9F=94=B9 <strong>3. Disk=
+s</strong></h1>
+<ul>
+<li>
+<p><strong>Function:</strong> Persistent storage of data</p></li>
+<li>
+<p><strong>Organization:</strong> Tracks, sectors, cylinders</p></li>
+<li>
+<p><strong>Performance factors:</strong> Seek time, rotational latency, tra=
+nsfer time</p></li>
+</ul>
+<p><strong>Role:</strong> Store and retrieve large amounts of data efficien=
+tly.</p>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=94=B94.Terminals">=F0=9F=94=B9 <strong>4. =
+Terminals</strong></h1>
+<ul>
+<li>
+<p>Devices for user interaction</p></li>
+<li>
+<p><strong>Types:</strong></p>
+<ul>
+<li>
+<p>Character-based (keyboard, text screen)</p></li>
+<li>
+<p>Graphical (touchscreen, GUI)</p></li>
+</ul></li>
+</ul>
+<p><strong>Role:</strong> Provide input to the computer and display output =
+for the user.</p>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=94=B95.Clocks">=F0=9F=94=B9 <strong>5. Clo=
+cks</strong></h1>
+<ul>
+<li>
+<p>Generate timing signals</p></li>
+<li>
+<p>Help synchronize operations in computer systems</p></li>
+<li>
+<p>Examples: system clock, real-time clock</p></li>
+</ul>
+<p><strong>Role:</strong> Coordinate activities between CPU, memory, and I/=
+O devices.</p>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=94=B9SummaryTable(General)">=F0=9F=94=B9 <=
+strong>Summary Table (General)</strong></h1>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"28=
+7b8d6d-6291-441e-94e4-2c8e388ea6ad" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Component</p></th>
+<th class=3D"confluenceTh">
+<p>Role / Function</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Hardware</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Physical devices (disk, terminals, clocks)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Software</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Drivers, buffers, I/O management</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Disk</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Permanent storage, data retrieval</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Terminals</strong></p></td>
+<td class=3D"confluenceTd">
+<p>User input/output interfaces</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Clocks</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Synchronization and timing</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p>If you want, I can also make a <strong>small example showing how data fl=
+ows from a keyboard to memory and then to a monitor</strong> in general com=
+puter systems (non-OS focused).</p>
+<p>Do you want me to do that?</p>
+<p>Sure! Let=E2=80=99s expand each component a bit more with <strong>slight=
+ly more details</strong>, still in general computer system terms.</p>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=94=B91.I/OHardware.1">=F0=9F=94=B9 <strong=
+>1. I/O Hardware</strong></h1>
+<p>Hardware is the <strong>physical interface</strong> between the computer=
+ and external environment.</p>
+<h3 id=3D"OperatingSystem-Components&amp;Details:">Components &amp; Details=
+:</h3>
+<ol start=3D"1">
+<li>
+<p><strong>Disk Drives (HDD, SSD):</strong></p>
+<ul>
+<li>
+<p>Store data permanently.</p></li>
+<li>
+<p>HDD: magnetic storage, mechanical read/write heads =E2=86=92 slower acce=
+ss.</p></li>
+<li>
+<p>SSD: flash memory, faster access, no moving parts.</p></li>
+<li>
+<p>Used for storing programs, files, databases.</p></li>
+</ul></li>
+<li>
+<p><strong>Terminals:</strong></p>
+<ul>
+<li>
+<p>Input: Keyboard, mouse, scanners</p></li>
+<li>
+<p>Output: Monitor, printer</p></li>
+<li>
+<p>Serve as <strong>user-computer communication points</strong>.</p></li>
+</ul></li>
+<li>
+<p><strong>Clocks / Timers:</strong></p>
+<ul>
+<li>
+<p>Provide <strong>synchronization signals</strong> for operations.</p></li=
+>
+<li>
+<p>Real-time clocks track actual time.</p></li>
+</ul></li>
+<li>
+<p><strong>Controllers / Interface Cards:</strong></p>
+<ul>
+<li>
+<p>Bridge hardware and CPU.</p></li>
+<li>
+<p>Example: USB controller, disk controller.</p></li>
+<li>
+<p>Translate general commands into device-specific signals.</p></li>
+</ul></li>
+</ol>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=94=B92.I/OSoftware.1">=F0=9F=94=B9 <strong=
+>2. I/O Software</strong></h1>
+<p>Software manages the <strong>interaction between hardware and applicatio=
+ns</strong>.</p>
+<h3 id=3D"OperatingSystem-Components&amp;Details:.1">Components &amp; Detai=
+ls:</h3>
+<ul>
+<li>
+<p><strong>Device Drivers:</strong> Programs that control specific hardware=
+.</p></li>
+<li>
+<p><strong>Buffers / Caches:</strong> Temporarily store data to <strong>smo=
+oth out speed differences</strong> between CPU and devices.</p></li>
+<li>
+<p><strong>I/O Scheduling / Management:</strong> Determines the order of da=
+ta transfers to improve efficiency (important for disks, printers).</p></li=
+>
+</ul>
+<p><strong>Role:</strong> Makes I/O reliable, efficient, and easier for pro=
+grams to use without knowing hardware details.</p>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=94=B93.Disks.1">=F0=9F=94=B9 <strong>3. Di=
+sks</strong></h1>
+<ul>
+<li>
+<p><strong>Structure:</strong> Tracks (concentric circles), sectors (divisi=
+ons of tracks), cylinders (aligned tracks across platters).</p></li>
+<li>
+<p><strong>Performance Factors:</strong></p>
+<ul>
+<li>
+<p><strong>Seek time:</strong> Moving the head to the correct track</p></li=
+>
+<li>
+<p><strong>Rotational latency:</strong> Waiting for the sector to rotate un=
+der the head</p></li>
+<li>
+<p><strong>Transfer time:</strong> Actually reading/writing data</p></li>
+</ul></li>
+</ul>
+<p><strong>Role:</strong> Provide large, persistent storage with relatively=
+ fast access.</p>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=94=B94.Terminals.1">=F0=9F=94=B9 <strong>4=
+. Terminals</strong></h1>
+<ul>
+<li>
+<p>Allow <strong>human-computer interaction</strong>.</p></li>
+<li>
+<p><strong>Character-based terminals:</strong> Input/output is text only (k=
+eyboard, text screen).</p></li>
+<li>
+<p><strong>Graphical terminals:</strong> Support GUI (monitor, touchscreen)=
+.</p></li>
+<li>
+<p><strong>Function:</strong> Collect input from user and display output cl=
+early.</p></li>
+</ul>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=94=B95.Clocks.1">=F0=9F=94=B9 <strong>5. C=
+locks</strong></h1>
+<ul>
+<li>
+<p><strong>System Clock:</strong> Generates pulses to synchronize all CPU o=
+perations.</p></li>
+<li>
+<p><strong>Real-Time Clock:</strong> Keeps track of actual time for timesta=
+mps, scheduling, alarms.</p></li>
+<li>
+<p><strong>Function:</strong> Ensures orderly execution of tasks, maintains=
+ correct timing for processes and I/O.</p></li>
+</ul>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=94=B9SummaryTable(Detailed)">=F0=9F=94=B9 =
+<strong>Summary Table (Detailed)</strong></h1>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"e6=
+d22a0c-15d0-41a8-881e-4f3a9139044f" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Component</p></th>
+<th class=3D"confluenceTh">
+<p>Role / Function</p></th>
+<th class=3D"confluenceTh">
+<p>Additional Info</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Hardware</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Physical I/O devices</p></td>
+<td class=3D"confluenceTd">
+<p>Includes disks, terminals, clocks, controllers</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Software</strong></p></td>
+<td class=3D"confluenceTd">
+<p>I/O management programs</p></td>
+<td class=3D"confluenceTd">
+<p>Drivers, buffers, scheduling, error handling</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Disk</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Permanent storage</p></td>
+<td class=3D"confluenceTd">
+<p>Organized in tracks, sectors, cylinders; access via seek + rotation + tr=
+ansfer</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Terminals</strong></p></td>
+<td class=3D"confluenceTd">
+<p>User interaction</p></td>
+<td class=3D"confluenceTd">
+<p>Character-based or graphical; input/output interface</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Clocks</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Timing &amp; synchronization</p></td>
+<td class=3D"confluenceTd">
+<p>System clock, real-time clock; coordinates CPU and I/O operations</p></t=
+d>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p>If you want, I can also <strong>add a small diagram showing the flow of =
+data from input device =E2=86=92 CPU =E2=86=92 memory =E2=86=92 output devi=
+ce</strong>, which makes this even clearer.</p>
+<p>Do you want me to make that diagram?</p>
+<p></p>
+<ol start=3D"7">
+<li>
+<p>Deadlock: resource allocation and deadlock, deadlock detection, preventi=
+on and recovery;</p></li>
+</ol>
+<p>Perfect =F0=9F=91=8D Let=E2=80=99s break this down carefully.</p>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=94=B9DeadlockinOperatingSystems">=F0=9F=94=
+=B9 <strong>Deadlock in Operating Systems</strong></h1>
+<p>A <strong>deadlock</strong> is a situation in which a set of processes a=
+re blocked because each process is holding a resource and waiting for anoth=
+er resource held by some other process.<br>
+It=E2=80=99s like <strong>two people shaking hands but not letting go until=
+ the other does first</strong> =E2=86=92 both stuck forever.</p>
+<hr>
+<h2 id=3D"OperatingSystem-1.ResourceAllocationandDeadlock">1. <strong>Resou=
+rce Allocation and Deadlock</strong></h2>
+<ul>
+<li>
+<p>A system has <strong>resources</strong> (CPU, memory, printers, files, e=
+tc.).</p></li>
+<li>
+<p>Processes request, hold, and release resources.</p></li>
+</ul>
+<p>A <strong>deadlock</strong> occurs when all of these <strong>four condit=
+ions</strong> hold (Coffman=E2=80=99s Conditions):</p>
+<ol start=3D"1">
+<li>
+<p><strong>Mutual Exclusion:</strong> Resources can=E2=80=99t be shared, on=
+ly one process at a time (e.g., a printer).</p></li>
+<li>
+<p><strong>Hold and Wait:</strong> A process holding at least one resource =
+can request more.</p></li>
+<li>
+<p><strong>No Preemption:</strong> Resources cannot be forcibly taken away.=
+</p></li>
+<li>
+<p><strong>Circular Wait:</strong> A closed chain of processes exists, each=
+ waiting for a resource held by the next process.</p></li>
+</ol>
+<p>=F0=9F=91=89 If all four hold simultaneously =E2=86=92 <strong>deadlock =
+can occur</strong>.</p>
+<hr>
+<h2 id=3D"OperatingSystem-2.DeadlockDetection">2. <strong>Deadlock Detectio=
+n</strong></h2>
+<p>The system checks if a deadlock has happened.</p>
+<ul>
+<li>
+<p><strong>Resource Allocation Graph (RAG):</strong></p>
+<ul>
+<li>
+<p>Processes (P1, P2, =E2=80=A6) and Resources (R1, R2, =E2=80=A6) are draw=
+n as nodes.</p></li>
+<li>
+<p>Edges: Process =E2=86=92 Resource (request), Resource =E2=86=92 Process =
+(allocation).</p></li>
+<li>
+<p><strong>Cycle in RAG =3D Deadlock possible</strong> (if single instance =
+per resource).</p></li>
+</ul></li>
+<li>
+<p><strong>Detection Algorithm:</strong></p>
+<ul>
+<li>
+<p>Similar to Banker=E2=80=99s Algorithm.</p></li>
+<li>
+<p>Check if available resources can satisfy waiting processes.</p></li>
+<li>
+<p>If not =E2=86=92 Deadlock detected.</p></li>
+</ul></li>
+</ul>
+<p>=E2=9C=85 Example:</p>
+<ul>
+<li>
+<p>P1 waiting for R2, but R2 held by P2.</p></li>
+<li>
+<p>P2 waiting for R1, but R1 held by P1.</p></li>
+<li>
+<p>Cycle =E2=86=92 Deadlock.</p></li>
+</ul>
+<hr>
+<h2 id=3D"OperatingSystem-3.DeadlockPrevention">3. <strong>Deadlock Prevent=
+ion</strong></h2>
+<p>We stop at least <strong>one Coffman condition</strong> from happening.<=
+/p>
+<ul>
+<li>
+<p><strong>Mutual Exclusion:</strong> Not always preventable (some resource=
+s are non-sharable).</p></li>
+<li>
+<p><strong>Hold and Wait:</strong> Require processes to request all resourc=
+es at once.</p></li>
+<li>
+<p><strong>No Preemption:</strong> Allow the OS to take resources back.</p>=
+</li>
+<li>
+<p><strong>Circular Wait:</strong> Impose ordering of resources (e.g., requ=
+est in increasing ID order).</p></li>
+</ul>
+<p>=E2=9C=85 Example:</p>
+<ul>
+<li>
+<p>If printer =3D Resource 1, scanner =3D Resource 2 =E2=86=92 Processes mu=
+st always ask for Resource 1 before 2 =E2=86=92 No cycle possible.</p></li>
+</ul>
+<hr>
+<h2 id=3D"OperatingSystem-4.DeadlockAvoidance">4. <strong>Deadlock Avoidanc=
+e</strong></h2>
+<p>Instead of prevention, avoid unsafe states.</p>
+<ul>
+<li>
+<p><strong>Banker=E2=80=99s Algorithm</strong> is commonly used.</p></li>
+<li>
+<p>Process must declare maximum needs beforehand.</p></li>
+<li>
+<p>System checks if granting request keeps system in a <strong>safe state</=
+strong>.</p></li>
+<li>
+<p>If yes =E2=86=92 grant. If no =E2=86=92 block.</p></li>
+</ul>
+<hr>
+<h2 id=3D"OperatingSystem-5.DeadlockRecovery">5. <strong>Deadlock Recovery<=
+/strong></h2>
+<p>If deadlock happens =E2=86=92 fix it.</p>
+<p>Methods:</p>
+<ol start=3D"1">
+<li>
+<p><strong>Process Termination:</strong></p>
+<ul>
+<li>
+<p>Kill one or more processes until deadlock cycle breaks.</p></li>
+<li>
+<p>Can terminate all deadlocked processes or one at a time.</p></li>
+</ul></li>
+<li>
+<p><strong>Resource Preemption:</strong></p>
+<ul>
+<li>
+<p>Take resources away and assign to others.</p></li>
+<li>
+<p>Must decide:</p>
+<ul>
+<li>
+<p><strong>Which process</strong> to preempt?</p></li>
+<li>
+<p><strong>Which resource</strong> to take?</p></li>
+<li>
+<p><strong>How to roll back</strong> the affected process?</p></li>
+</ul></li>
+</ul></li>
+</ol>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=94=B9SummaryTable.1">=F0=9F=94=B9 <strong>=
+Summary Table</strong></h1>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"7a=
+9b0f26-b6d0-42ed-89e0-c05dee7305ce" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Method</p></th>
+<th class=3D"confluenceTh">
+<p>Idea</p></th>
+<th class=3D"confluenceTh">
+<p>Example</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Detection</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Check for deadlock (graph, algorithms)</p></td>
+<td class=3D"confluenceTd">
+<p>RAG cycle check</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Prevention</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Break one of 4 conditions</p></td>
+<td class=3D"confluenceTd">
+<p>Order resources</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Avoidance</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Use safe states</p></td>
+<td class=3D"confluenceTd">
+<p>Banker=E2=80=99s Algorithm</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Recovery</strong></p></td>
+<td class=3D"confluenceTd">
+<p>Resolve after it occurs</p></td>
+<td class=3D"confluenceTd">
+<p>Kill process / Preempt</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p>=F0=9F=91=89 Do you want me to also <strong>draw a simple resource alloc=
+ation graph example</strong> (with cycle showing deadlock) so it=E2=80=99s =
+visually clear?</p>
+<p>Great =F0=9F=91=8D Let=E2=80=99s dive into <strong>Banker=E2=80=99s Algo=
+rithm</strong>, one of the most important <strong>deadlock avoidance algori=
+thms</strong>.</p>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=94=B9Banker=E2=80=99sAlgorithm">=F0=9F=94=
+=B9 <strong>Banker=E2=80=99s Algorithm</strong></h1>
+<p>It was proposed by <strong>Edsger Dijkstra</strong>.<br>
+The idea: The system works like a banker giving loans =F0=9F=92=B0.</p>
+<ul>
+<li>
+<p>A customer (process) must tell in advance the <strong>maximum resources<=
+/strong> it may need.</p></li>
+<li>
+<p>The banker (OS) gives resources only if it can ensure that <strong>all c=
+ustomers can still finish safely</strong>.</p></li>
+</ul>
+<hr>
+<h2 id=3D"OperatingSystem-1.DataStructuresUsed">1. <strong>Data Structures =
+Used</strong></h2>
+<p>For <strong>n processes</strong> and <strong>m resources</strong>:</p>
+<ul>
+<li>
+<p><strong>Available[m]</strong> =E2=86=92 Number of instances of each reso=
+urce currently available.</p></li>
+<li>
+<p><strong>Max[n][m]</strong> =E2=86=92 Maximum demand of each process.</p>=
+</li>
+<li>
+<p><strong>Allocation[n][m]</strong> =E2=86=92 Currently allocated resource=
+s for each process.</p></li>
+<li>
+<p><strong>Need[n][m]</strong> =3D Max - Allocation =E2=86=92 Remaining res=
+ources a process needs.</p></li>
+</ul>
+<hr>
+<h2 id=3D"OperatingSystem-2.StepsinBanker=E2=80=99sAlgorithm">2. <strong>St=
+eps in Banker=E2=80=99s Algorithm</strong></h2>
+<h3 id=3D"OperatingSystem-(A)SafetyAlgorithm(checkifsystemisinasafestate):"=
+>(A) <strong>Safety Algorithm</strong> (check if system is in a safe state)=
+:</h3>
+<ol start=3D"1">
+<li>
+<p>Work =3D Available, Finish[i] =3D false for all processes.</p></li>
+<li>
+<p>Find a process <code>Pi</code> such that:</p>
+<ul>
+<li>
+<p>Need[i] =E2=89=A4 Work</p></li>
+<li>
+<p>Finish[i] =3D false</p></li>
+</ul></li>
+<li>
+<p>If found:</p>
+<ul>
+<li>
+<p>Work =3D Work + Allocation[i]</p></li>
+<li>
+<p>Finish[i] =3D true</p></li>
+<li>
+<p>Repeat step 2</p></li>
+</ul></li>
+<li>
+<p>If all processes finish =E2=86=92 <strong>Safe state</strong>.<br>
+Otherwise =E2=86=92 <strong>Unsafe (possible deadlock)</strong>.</p></li>
+</ol>
+<hr>
+<h3 id=3D"OperatingSystem-(B)ResourceRequestAlgorithm(whenprocessPirequests=
+resources):">(B) <strong>Resource Request Algorithm</strong> (when process =
+Pi requests resources):</h3>
+<ol start=3D"1">
+<li>
+<p>If Request[i] =E2=89=A4 Need[i] =E2=86=92 continue. Else =E2=86=92 error=
+ (asking more than max).</p></li>
+<li>
+<p>If Request[i] =E2=89=A4 Available =E2=86=92 continue. Else =E2=86=92 wai=
+t (not enough resources).</p></li>
+<li>
+<p>Pretend to allocate resources:</p>
+<ul>
+<li>
+<p>Available =3D Available =E2=80=93 Request[i]</p></li>
+<li>
+<p>Allocation[i] =3D Allocation[i] + Request[i]</p></li>
+<li>
+<p>Need[i] =3D Need[i] =E2=80=93 Request[i]</p></li>
+</ul></li>
+<li>
+<p>Run <strong>safety algorithm</strong>:</p>
+<ul>
+<li>
+<p>If safe =E2=86=92 grant request.</p></li>
+<li>
+<p>If unsafe =E2=86=92 deny and restore original state.</p></li>
+</ul></li>
+</ol>
+<hr>
+<h2 id=3D"OperatingSystem-3.ExampleProblem">3. <strong>Example Problem</str=
+ong></h2>
+<p><strong>System:</strong></p>
+<ul>
+<li>
+<p>Resources: A, B, C</p></li>
+<li>
+<p>Instances: A =3D 10, B =3D 5, C =3D 7</p></li>
+<li>
+<p>5 Processes: P0 =E2=80=A6 P4</p></li>
+</ul>
+<p><strong>Given Allocation &amp; Max Table:</strong></p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"77=
+74b5d8-b066-4088-af18-7753c114ea88" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Process</p></th>
+<th class=3D"confluenceTh">
+<p>Allocation (A,B,C)</p></th>
+<th class=3D"confluenceTh">
+<p>Max (A,B,C)</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>P0</p></td>
+<td class=3D"confluenceTd">
+<p>0 1 0</p></td>
+<td class=3D"confluenceTd">
+<p>7 5 3</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>P1</p></td>
+<td class=3D"confluenceTd">
+<p>2 0 0</p></td>
+<td class=3D"confluenceTd">
+<p>3 2 2</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>P2</p></td>
+<td class=3D"confluenceTd">
+<p>3 0 2</p></td>
+<td class=3D"confluenceTd">
+<p>9 0 2</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>P3</p></td>
+<td class=3D"confluenceTd">
+<p>2 1 1</p></td>
+<td class=3D"confluenceTd">
+<p>2 2 2</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>P4</p></td>
+<td class=3D"confluenceTd">
+<p>0 0 2</p></td>
+<td class=3D"confluenceTd">
+<p>4 3 3</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Available =3D (3, 3, 2)</strong></p>
+<p>=F0=9F=91=89 Compute <strong>Need =3D Max =E2=80=93 Allocation</strong><=
+/p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"25=
+fc5dbb-f6a9-437a-be84-9fd8093291bf" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Process</p></th>
+<th class=3D"confluenceTh">
+<p>Need (A,B,C)</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>P0</p></td>
+<td class=3D"confluenceTd">
+<p>7 4 3</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>P1</p></td>
+<td class=3D"confluenceTd">
+<p>1 2 2</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>P2</p></td>
+<td class=3D"confluenceTd">
+<p>6 0 0</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>P3</p></td>
+<td class=3D"confluenceTd">
+<p>0 1 1</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>P4</p></td>
+<td class=3D"confluenceTd">
+<p>4 3 1</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h3 id=3D"OperatingSystem-SafetyAlgorithmExecution"><strong>Safety Algorith=
+m Execution</strong></h3>
+<ol start=3D"1">
+<li>
+<p>Work =3D (3,3,2), Finish =3D (false, false, false, false, false)</p></li=
+>
+</ol>
+<ul>
+<li>
+<p>P1 Need =3D (1,2,2) =E2=89=A4 Work =E2=86=92 Yes =E2=86=92 Allocate =E2=
+=86=92 Work =3D (5,3,2), Finish[1]=3Dtrue</p></li>
+<li>
+<p>P3 Need =3D (0,1,1) =E2=89=A4 Work =E2=86=92 Yes =E2=86=92 Work =3D (7,4=
+,3), Finish[3]=3Dtrue</p></li>
+<li>
+<p>P4 Need =3D (4,3,1) =E2=89=A4 Work =E2=86=92 Yes =E2=86=92 Work =3D (7,4=
+,5), Finish[4]=3Dtrue</p></li>
+<li>
+<p>P0 Need =3D (7,4,3) =E2=89=A4 Work =E2=86=92 Yes =E2=86=92 Work =3D (7,5=
+,5), Finish[0]=3Dtrue</p></li>
+<li>
+<p>P2 Need =3D (6,0,0) =E2=89=A4 Work =E2=86=92 Yes =E2=86=92 Work =3D (10,=
+5,7), Finish[2]=3Dtrue</p></li>
+</ul>
+<p>All processes finish =E2=9C=85 =E2=86=92 Safe State.</p>
+<p><strong>Safe Sequence =3D P1 =E2=86=92 P3 =E2=86=92 P4 =E2=86=92 P0 =E2=
+=86=92 P2</strong></p>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=94=B9Conclusion">=F0=9F=94=B9 <strong>Conc=
+lusion</strong></h1>
+<ul>
+<li>
+<p><strong>Banker=E2=80=99s Algorithm ensures deadlock never happens</stron=
+g> by always keeping the system in a <strong>safe state</strong>.</p></li>
+<li>
+<p>It can be expensive because safety check runs often, but it=E2=80=99s ef=
+fective.</p></li>
+</ul>
+<hr>
+<p>=F0=9F=91=89 Want me to also <strong>create a step-by-step diagram (with=
+ matrices changing at each step)</strong> for the above example so it=E2=80=
+=99s crystal clear?</p>
+<p></p>
+<ol start=3D"8">
+<li>
+<p>File Systems: files, directories, security, protection;</p></li>
+</ol>
+<p>Got it =F0=9F=91=8D<br>
+Here=E2=80=99s a <strong>short but informative</strong> explanation of <str=
+ong>File Systems</strong> covering <strong>files, directories, security, pr=
+otection</strong>:</p>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=94=B9FileSystems">=F0=9F=94=B9 <strong>Fil=
+e Systems</strong></h1>
+<p>A <strong>file system</strong> is the way an operating system organizes =
+and manages data on storage devices (like HDD, SSD, USB). It provides namin=
+g, storage, access, and protection for files.</p>
+<hr>
+<h2 id=3D"OperatingSystem-1.Files">1. <strong>Files</strong></h2>
+<ul>
+<li>
+<p>A <strong>file</strong> is a collection of related data stored on second=
+ary storage.</p></li>
+<li>
+<p>Types:</p>
+<ul>
+<li>
+<p><strong>Text files</strong> (human-readable),</p></li>
+<li>
+<p><strong>Binary files</strong> (machine-readable),</p></li>
+<li>
+<p><strong>Executable files</strong> (programs).</p></li>
+</ul></li>
+<li>
+<p>Attributes: name, size, type, location, owner, creation/modification dat=
+e, permissions.</p></li>
+<li>
+<p>Operations: create, open, read, write, delete, append, seek (move pointe=
+r).</p></li>
+</ul>
+<hr>
+<h2 id=3D"OperatingSystem-2.Directories">2. <strong>Directories</strong></h=
+2>
+<ul>
+<li>
+<p>A <strong>directory</strong> stores file information and organizes them =
+hierarchically.</p></li>
+<li>
+<p>Functions:</p>
+<ul>
+<li>
+<p>File grouping (folders/subfolders)</p></li>
+<li>
+<p>Path naming (absolute vs relative path)</p></li>
+<li>
+<p>Searching, navigating, access control.</p></li>
+</ul></li>
+<li>
+<p>Structures:</p>
+<ul>
+<li>
+<p>Single-level directory (all files in one place =E2=86=92 simple but mess=
+y).</p></li>
+<li>
+<p>Two-level directory (separate for each user).</p></li>
+<li>
+<p>Tree-structured directory (most common).</p></li>
+<li>
+<p>Acyclic graph / General graph directory (allow sharing, shortcuts, links=
+).</p></li>
+</ul></li>
+</ul>
+<hr>
+<h2 id=3D"OperatingSystem-3.Security">3. <strong>Security</strong></h2>
+<ul>
+<li>
+<p>Ensures files are safe from <strong>unauthorized access, corruption, or =
+data loss</strong>.</p></li>
+<li>
+<p>Achieved through:</p>
+<ul>
+<li>
+<p><strong>Authentication</strong> (who you are =E2=86=92 login, biometrics=
+).</p></li>
+<li>
+<p><strong>Authorization</strong> (what you can access =E2=86=92 read, writ=
+e, execute rights).</p></li>
+<li>
+<p><strong>Encryption</strong> (convert data into unreadable form without k=
+ey).</p></li>
+<li>
+<p><strong>Backups</strong> (protection against accidental loss).</p></li>
+</ul></li>
+</ul>
+<hr>
+<h2 id=3D"OperatingSystem-4.Protection">4. <strong>Protection</strong></h2>
+<ul>
+<li>
+<p>Prevents <strong>accidental or malicious misuse</strong> of files/resour=
+ces.</p></li>
+<li>
+<p>Common models:</p>
+<ul>
+<li>
+<p><strong>Access Control Lists (ACLs):</strong> specify users and their pe=
+rmissions.</p></li>
+<li>
+<p><strong>User/Group/Other permissions (rwx in UNIX/Linux)</strong>.</p></=
+li>
+<li>
+<p><strong>Capability lists</strong> (tokens given to processes with rights=
+).</p></li>
+</ul></li>
+<li>
+<p>Protection ensures <strong>integrity, confidentiality, and controlled sh=
+aring</strong>.</p></li>
+</ul>
+<hr>
+<p>=E2=9C=85 <strong>In summary:</strong></p>
+<ul>
+<li>
+<p><strong>Files</strong> hold data,</p></li>
+<li>
+<p><strong>Directories</strong> organize files,</p></li>
+<li>
+<p><strong>Security</strong> defends against unauthorized access,</p></li>
+<li>
+<p><strong>Protection</strong> enforces controlled usage of files/resources=
+.</p></li>
+</ul>
+<hr>
+<p>Would you like me to also give a <strong>small diagram</strong> showing =
+the hierarchy (disk =E2=86=92 directory =E2=86=92 subdirectory =E2=86=92 fi=
+les) to visualize it better?</p>
+<p></p>
+<ol start=3D"9">
+<li>
+<p>Case study of some operating systems.</p></li>
+</ol>
+<p></p>
+<p>Great question =F0=9F=91=8D Let=E2=80=99s go through some <strong>case s=
+tudies of well-known operating systems</strong>, covering their history, de=
+sign, features, and use cases.</p>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=93=8CCaseStudiesofOperatingSystems">=F0=9F=
+=93=8C Case Studies of Operating Systems</h1>
+<h2 id=3D"OperatingSystem-1.UNIX">1. <strong>UNIX</strong></h2>
+<ul>
+<li>
+<p><strong>History</strong>: Developed in 1969 at Bell Labs (Ken Thompson, =
+Dennis Ritchie).</p></li>
+<li>
+<p><strong>Design</strong>: Portable, multi-tasking, multi-user OS written =
+in C.</p></li>
+<li>
+<p><strong>Key Features</strong>:</p>
+<ul>
+<li>
+<p>Hierarchical file system.</p></li>
+<li>
+<p>Command-line shell &amp; scripting support.</p></li>
+<li>
+<p>Device independence (treats devices as files).</p></li>
+<li>
+<p>Strong security &amp; multi-user environment.</p></li>
+</ul></li>
+<li>
+<p><strong>Use Cases</strong>: Servers, scientific computing, workstations.=
+</p></li>
+<li>
+<p><strong>Influence</strong>: Basis for Linux, BSD, and macOS.</p></li>
+</ul>
+<hr>
+<h2 id=3D"OperatingSystem-2.Linux">2. <strong>Linux</strong></h2>
+<ul>
+<li>
+<p><strong>History</strong>: Created by Linus Torvalds in 1991 as a free al=
+ternative to UNIX.</p></li>
+<li>
+<p><strong>Design</strong>: Open-source, monolithic kernel with modular des=
+ign.</p></li>
+<li>
+<p><strong>Key Features</strong>:</p>
+<ul>
+<li>
+<p>Open-source community development.</p></li>
+<li>
+<p>Supports multiple file systems (ext4, NTFS, FAT).</p></li>
+<li>
+<p>Excellent networking capabilities.</p></li>
+<li>
+<p>Can run on embedded devices to supercomputers.</p></li>
+</ul></li>
+<li>
+<p><strong>Use Cases</strong>: Web servers, cloud computing, Android OS fou=
+ndation.</p></li>
+<li>
+<p><strong>Strengths</strong>: Security, flexibility, cost-free.</p></li>
+</ul>
+<hr>
+<h2 id=3D"OperatingSystem-3.Windows">3. <strong>Windows</strong></h2>
+<ul>
+<li>
+<p><strong>History</strong>: Introduced by Microsoft in 1985 (as GUI over M=
+S-DOS).</p></li>
+<li>
+<p><strong>Design</strong>: Proprietary, hybrid kernel (Windows NT).</p></l=
+i>
+<li>
+<p><strong>Key Features</strong>:</p>
+<ul>
+<li>
+<p>Graphical User Interface (GUI).</p></li>
+<li>
+<p>Wide software &amp; hardware compatibility.</p></li>
+<li>
+<p>Strong backward compatibility with older apps.</p></li>
+<li>
+<p>Built-in services (file explorer, system registry).</p></li>
+</ul></li>
+<li>
+<p><strong>Use Cases</strong>: Personal computers, office work, gaming, ent=
+erprise systems.</p></li>
+<li>
+<p><strong>Strengths</strong>: User-friendly, rich ecosystem, enterprise ad=
+option.</p></li>
+</ul>
+<hr>
+<h2 id=3D"OperatingSystem-4.macOS(Apple)">4. <strong>macOS (Apple)</strong>=
+</h2>
+<ul>
+<li>
+<p><strong>History</strong>: Originally Mac OS (1984); current macOS is UNI=
+X-based (from NeXTSTEP, acquired by Apple).</p></li>
+<li>
+<p><strong>Design</strong>: Hybrid (Mach + BSD UNIX).</p></li>
+<li>
+<p><strong>Key Features</strong>:</p>
+<ul>
+<li>
+<p>Elegant GUI (Aqua interface).</p></li>
+<li>
+<p>UNIX-based security and stability.</p></li>
+<li>
+<p>Exclusive for Apple hardware.</p></li>
+<li>
+<p>Integration with Apple ecosystem (iCloud, iPhone, iPad).</p></li>
+</ul></li>
+<li>
+<p><strong>Use Cases</strong>: Creative industries (design, video, music), =
+general personal computing.</p></li>
+<li>
+<p><strong>Strengths</strong>: Performance, polished interface, security.</=
+p></li>
+</ul>
+<hr>
+<h2 id=3D"OperatingSystem-5.Android">5. <strong>Android</strong></h2>
+<ul>
+<li>
+<p><strong>History</strong>: Based on Linux kernel, developed by Android In=
+c. (acquired by Google in 2005).</p></li>
+<li>
+<p><strong>Design</strong>: Modified Linux kernel + Java/Dalvik runtime.</p=
+></li>
+<li>
+<p><strong>Key Features</strong>:</p>
+<ul>
+<li>
+<p>Touchscreen optimized GUI.</p></li>
+<li>
+<p>Millions of apps via Google Play Store.</p></li>
+<li>
+<p>Open-source, but Google provides main services.</p></li>
+</ul></li>
+<li>
+<p><strong>Use Cases</strong>: Smartphones, tablets, TVs, cars, IoT devices=
+.</p></li>
+<li>
+<p><strong>Strengths</strong>: Flexibility, large user base, app ecosystem.=
+</p></li>
+</ul>
+<hr>
+<h2 id=3D"OperatingSystem-6.iOS">6. <strong>iOS</strong></h2>
+<ul>
+<li>
+<p><strong>History</strong>: Apple=E2=80=99s mobile OS, introduced in 2007 =
+with the iPhone.</p></li>
+<li>
+<p><strong>Design</strong>: Based on Darwin (UNIX) with a locked-down envir=
+onment.</p></li>
+<li>
+<p><strong>Key Features</strong>:</p>
+<ul>
+<li>
+<p>Highly secure, sandboxed apps.</p></li>
+<li>
+<p>Seamless integration with Apple hardware.</p></li>
+<li>
+<p>Focus on performance &amp; user experience.</p></li>
+</ul></li>
+<li>
+<p><strong>Use Cases</strong>: iPhones, iPads, Apple TVs.</p></li>
+<li>
+<p><strong>Strengths</strong>: Security, ecosystem integration, consistent =
+updates.</p></li>
+</ul>
+<hr>
+<h2 id=3D"OperatingSystem-7.Real-TimeOperatingSystems(RTOS)=E2=80=93Example=
+:VxWorks">7. <strong>Real-Time Operating Systems (RTOS) =E2=80=93 Example: =
+VxWorks</strong></h2>
+<ul>
+<li>
+<p><strong>History</strong>: Developed by Wind River Systems.</p></li>
+<li>
+<p><strong>Design</strong>: Optimized for deterministic (real-time) respons=
+e.</p></li>
+<li>
+<p><strong>Key Features</strong>:</p>
+<ul>
+<li>
+<p>Low latency.</p></li>
+<li>
+<p>Task prioritization.</p></li>
+<li>
+<p>Minimal overhead.</p></li>
+</ul></li>
+<li>
+<p><strong>Use Cases</strong>: Embedded systems, aviation, medical devices,=
+ automotive.</p></li>
+<li>
+<p><strong>Strengths</strong>: Predictability, reliability, mission-critica=
+l usage.</p></li>
+</ul>
+<hr>
+<h1 id=3D"OperatingSystem-=F0=9F=94=8EComparativeAnalysis">=F0=9F=94=8E Com=
+parative Analysis</h1>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"48=
+6b671f-bc1e-4f4a-b2e9-1d0214f78ed6" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>OS</p></th>
+<th class=3D"confluenceTh">
+<p>Type</p></th>
+<th class=3D"confluenceTh">
+<p>Strengths</p></th>
+<th class=3D"confluenceTh">
+<p>Weaknesses</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>UNIX</p></td>
+<td class=3D"confluenceTd">
+<p>Multi-user, multi-tasking</p></td>
+<td class=3D"confluenceTd">
+<p>Secure, stable, portable</p></td>
+<td class=3D"confluenceTd">
+<p>Not user-friendly for beginners</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Linux</p></td>
+<td class=3D"confluenceTd">
+<p>Open-source</p></td>
+<td class=3D"confluenceTd">
+<p>Free, secure, scalable</p></td>
+<td class=3D"confluenceTd">
+<p>Steep learning curve</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Windows</p></td>
+<td class=3D"confluenceTd">
+<p>Proprietary</p></td>
+<td class=3D"confluenceTd">
+<p>User-friendly, widely used</p></td>
+<td class=3D"confluenceTd">
+<p>Security vulnerabilities</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>macOS</p></td>
+<td class=3D"confluenceTd">
+<p>Proprietary</p></td>
+<td class=3D"confluenceTd">
+<p>Stable, polished UI</p></td>
+<td class=3D"confluenceTd">
+<p>Expensive, hardware lock</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Android</p></td>
+<td class=3D"confluenceTd">
+<p>Open-source</p></td>
+<td class=3D"confluenceTd">
+<p>Flexible, large ecosystem</p></td>
+<td class=3D"confluenceTd">
+<p>Fragmentation, less secure</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>iOS</p></td>
+<td class=3D"confluenceTd">
+<p>Proprietary</p></td>
+<td class=3D"confluenceTd">
+<p>Secure, optimized hardware</p></td>
+<td class=3D"confluenceTd">
+<p>Limited customization</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>RTOS</p></td>
+<td class=3D"confluenceTd">
+<p>Real-time</p></td>
+<td class=3D"confluenceTd">
+<p>Deterministic, reliable</p></td>
+<td class=3D"confluenceTd">
+<p>Limited general-purpose features</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<p>=F0=9F=91=89 These case studies help us understand how OS design decisio=
+ns affect performance, usability, and applications.</p>
+<p>Would you like me to also prepare a <strong>diagrammatic comparison (lik=
+e a timeline or layered architecture chart)</strong> for these OS case stud=
+ies?</p>
+<p></p>
+    </div>
+</body>
+</html>
+------=_Part_596_136011674.1760785634804--

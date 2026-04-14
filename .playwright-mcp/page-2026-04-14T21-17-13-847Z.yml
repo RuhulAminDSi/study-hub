@@ -1,0 +1,111 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - button [active] [ref=e5] [cursor=pointer]:
+      - img [ref=e6]
+    - heading "StudyHub" [level=1] [ref=e8]
+    - generic [ref=e9]:
+      - img [ref=e10]
+      - generic [ref=e13]: 2%
+  - complementary [ref=e14]:
+    - generic [ref=e15]:
+      - heading "Modules" [level=2] [ref=e16]
+      - generic [ref=e17] [cursor=pointer]:
+        - generic [ref=e18]: "1"
+        - generic [ref=e19]: 1. Basic Physics
+      - generic [ref=e20] [cursor=pointer]:
+        - generic [ref=e21]: "2"
+        - generic [ref=e22]: 2. Introduction to Computer Systems
+      - generic [ref=e23] [cursor=pointer]:
+        - generic [ref=e24]: "3"
+        - generic [ref=e25]: 3. Electrical Circuits
+      - generic [ref=e26] [cursor=pointer]:
+        - generic [ref=e27]: "4"
+        - generic [ref=e28]: 4. Digital Logic Design
+      - generic [ref=e29] [cursor=pointer]:
+        - generic [ref=e30]: "5"
+        - generic [ref=e31]: 5. Basic Electronics
+      - generic [ref=e32] [cursor=pointer]:
+        - generic [ref=e33]: "6"
+        - generic [ref=e34]: 6. Microprocessor and Interfacing
+      - generic [ref=e35] [cursor=pointer]:
+        - generic [ref=e36]: "7"
+        - generic [ref=e37]: 7. Computer Architecture
+      - generic [ref=e38] [cursor=pointer]:
+        - generic [ref=e39]: "8"
+        - generic [ref=e40]: 8. Communication Theory
+      - generic [ref=e41] [cursor=pointer]:
+        - generic [ref=e42]: "9"
+        - generic [ref=e43]: 9. Computer Networking and Security
+      - generic [ref=e44] [cursor=pointer]:
+        - generic [ref=e45]: "10"
+        - generic [ref=e46]: 10. Structured Programming Language (C)
+      - generic [ref=e47] [cursor=pointer]:
+        - generic [ref=e48]: "11"
+        - generic [ref=e49]: 11. Object Oriented Programming (OOP)
+      - generic [ref=e50] [cursor=pointer]:
+        - generic [ref=e51]: "12"
+        - generic [ref=e52]: 12. Discrete Mathematics
+      - generic [ref=e53] [cursor=pointer]:
+        - generic [ref=e54]: "13"
+        - generic [ref=e55]: 13. Graphs
+      - generic [ref=e56] [cursor=pointer]:
+        - generic [ref=e57]: "14"
+        - generic [ref=e58]: 14. Theory of Computation
+      - generic [ref=e59] [cursor=pointer]:
+        - generic [ref=e60]: "15"
+        - generic [ref=e61]: 15. Data Structures and Algorithms
+      - generic [ref=e62] [cursor=pointer]:
+        - generic [ref=e63]: "16"
+        - generic [ref=e64]: 16. Database Systems
+      - generic [ref=e65] [cursor=pointer]:
+        - generic [ref=e66]: "17"
+        - generic [ref=e67]: 17. Software Engineering
+      - generic [ref=e68] [cursor=pointer]:
+        - generic [ref=e69]: "18"
+        - generic [ref=e70]: 18. Operating System
+      - generic [ref=e71] [cursor=pointer]:
+        - generic [ref=e72]: "19"
+        - generic [ref=e73]: 19. Artificial Intelligence
+  - main [ref=e74]:
+    - generic [ref=e75]:
+      - generic [ref=e76]:
+        - generic [ref=e77]: Beginner
+        - generic [ref=e78]: 1. Basic Physics • Lesson 1 of 4
+      - heading "Electromagnetism Basics" [level=1] [ref=e79]
+    - generic [ref=e81]:
+      - paragraph [ref=e82]: Charge, Coulomb's law, electric field, Gauss's law, electric potential, magnetic field, Faraday's law, Maxwell's equations.
+      - paragraph
+      - paragraph [ref=e83]: "⚡ Charge: Fundamental property of matter causing electromagnetic interaction. Types: Positive (+) and Negative (-). Unit: Coulomb (C). Conservation: Charge cannot be created/destroyed, only transferred."
+      - paragraph
+      - paragraph [ref=e84]: "⚡ Coulomb's Law: Force between two electric charges: F = k(q1×q2)/r². Force is attractive for opposite charges, repulsive for like charges."
+      - paragraph
+      - paragraph [ref=e85]: "⚡ Electric Field (E): Region around charged particle where it exerts force on other charges. E = F/q. Unit: N/C or V/m."
+      - paragraph
+      - paragraph [ref=e86]: "⚡ Gauss's Law: Electric flux through closed surface = enclosed charge/ε₀. Used to calculate electric field of symmetric charge distributions."
+      - paragraph
+      - paragraph [ref=e87]: "⚡ Electric Potential (V): Work done bringing unit positive charge from infinity to a point. V = W/q. Unit: Volt (V)."
+      - paragraph
+      - paragraph [ref=e88]: "🧲 Magnetic Field: Region around moving charge or magnet where magnetic forces act. Unit: Tesla (T). Created by moving charges and permanent magnets."
+      - paragraph
+      - paragraph [ref=e89]: "🧲 Faraday's Law: Changing magnetic field induces EMF. EMF = -dΦB/dt."
+      - paragraph
+      - paragraph [ref=e90]: "🌐 Maxwell's Equations: 4 fundamental laws describing all classical electromagnetism."
+    - generic [ref=e91]:
+      - heading "Key Takeaways" [level=3] [ref=e92]
+      - generic [ref=e95]: Charge is fundamental property with + and - types
+      - generic [ref=e98]: Coulomb's law defines force between charges
+      - generic [ref=e101]: Electric field = force per unit charge
+      - generic [ref=e104]: Maxwell's equations unify all electromagnetism
+    - generic [ref=e105]:
+      - generic [ref=e106]:
+        - generic [ref=e107]: Key Formula
+        - button "Copy" [ref=e108] [cursor=pointer]
+      - generic [ref=e109]: F = k × (q1 × q2) / r² E = F/q V = W/q EMF = -dΦB/dt
+    - generic [ref=e110]:
+      - button "Previous" [disabled] [ref=e111]:
+        - img [ref=e112]
+        - text: Previous
+      - generic [ref=e114]: 1 / 50
+      - button "Next" [ref=e115] [cursor=pointer]:
+        - text: Next
+        - img [ref=e116]
