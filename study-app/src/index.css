@@ -19,11 +19,41 @@
   --bg-main: #f5f5f5;
   --bg-sidebar: #ffffff;
   --bg-card: #ffffff;
-  --bg-hover: #f0f0f0;
+  --bg-hover: #e8e8e8;
   --text-main: #1a1a1a;
-  --text-muted: #525252;
-  --text-dim: #a3a3a3;
-  --border: #e5e5e5;
+  --text-muted: #3f3f3f;
+  --text-dim: #737373;
+  --border: #d4d4d4;
+}
+
+.light-theme .app-bg {
+  background: 
+    radial-gradient(ellipse at 0% 0%, rgba(245, 158, 11, 0.08) 0%, transparent 50%),
+    radial-gradient(ellipse at 100% 100%, rgba(245, 158, 11, 0.06) 0%, transparent 50%),
+    #f5f5f5;
+}
+
+.light-theme .navbar {
+  background: rgba(255, 255, 255, 0.95);
+}
+
+.light-theme .sidebar {
+  background: #ffffff;
+}
+
+.light-theme .content-card,
+.light-theme .takeaways-card,
+.light-theme .code-block {
+  background: #ffffff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.light-theme .lesson-title {
+  color: #171717;
+}
+
+.light-theme .content-text {
+  color: #3f3f3f;
 }
 
 * {
