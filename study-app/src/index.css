@@ -1002,11 +1002,22 @@ body {
 @media (max-width: 640px) {
   .main-content {
     padding: 12px;
-    margin-top: 70px;
+    margin-top: 64px;
   }
   
   .sidebar {
     top: 64px;
+    width: 85%;
+    max-width: 300px;
+    right: 0;
+    left: auto;
+    transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+  }
+  
+  .sidebar.open {
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
   }
   
   .lesson-title {
