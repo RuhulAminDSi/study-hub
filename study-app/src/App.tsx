@@ -116,12 +116,15 @@ const modules: Module[] = [
   },
   {
     title: "2. Introduction to Computer Systems",
+    titleBn: "২. কম্পিউটার সিস্টেমের পরিচিতি",
     level: "Beginner",
     lessons: [
       {
         id: "cs1",
         title: "Introduction to Computation",
+        titleBn: "গণনার পরিচিতি",
         content: "Computation: Process of solving problems, performing calculations, or processing information using well-defined rules.\n\nKey Components:\n• Input: Data provided to computation\n• Process: Operations/algorithms applied\n• Output: Result produced\n\nTypes of Computation:\n• Exact: Precise, deterministic results\n• Approximate: Close to exact value\n• Symbolic: Manipulates symbols/expressions\n• Logical/Boolean: Uses true/false values\n\nModels of Computation:\n• Turing Machine: Abstract model defining computability\n• Finite Automata: Limited memory, pattern recognition\n• Lambda Calculus: Mathematical function model\n\nComputation is fundamental to programming, algorithms, and computational theory.",
+        contentBn: "গণনা: সুসংজ্ঞায়িত নিয়ম ব্যবহার করে সমস্যা সমাধান, গণনা বা তথ্য প্রক্রিয়াকরণের প্রক্রিয়া।\n\nমূল উপাদান:\n• ইনপুট: গণনায় প্রদত্ত তথ্য\n• প্রক্রিয়া: প্রয়োগকৃত অপারেশন/অ্যালগরিদম\n• আউটপুট: উৎপাদিত ফলাফল\n\nগণনার প্রকার:\n• সঠিক: নির্দিষ্ট, নির্ণায়ক ফলাফল\n• আসন্ন: সঠিক মানের কাছে\n• প্রতীকী: প্রতীক/অভিব্যক্তি হেরফের করে\n• যৌক্তিক/বুলিয়ান: সত্য/মিথ্যা মান ব্যবহার করে\n\nগণনার মডেল:\n• টিউরিং মেশিন: গণনাযোগ্যতা সংজ্ঞায়িত করে বিমূর্ত মডেল\n• ফাইনিট অটোমাটা: সীমিত স্মৃতি, প্যাটার্ন চেনাশোনা\n• ল্যাম্ডা ক্যালকুলাস: গাণিতিক ফাংশন মডেল\n\nগণনা প্রোগ্রামিং, অ্যালগরিদম এবং গণনা তত্ত্বের মূল ভিত্তি।",
         code: "Computation: Input → Algorithm → Output",
         takeaways: [
           "Computation transforms input to output via algorithm",
@@ -129,29 +132,51 @@ const modules: Module[] = [
           "Turing Machine defines what problems are computable",
           "Foundation for programming and algorithms"
         ],
+        takeawaysBn: [
+          "গণনা অ্যালগরিদমের মাধ্যমে ইনপুটকে আউটপুটে রূপান্তর করে",
+          "একাধিক প্রকার: সঠিক, আসন্ন, প্রতীকী, যৌক্ত���ক",
+          "টিউরিং মেশিন কোন সমস্যা গণনাযোগ্য তা সংজ্ঞায়িত করে",
+          "প্রোগ্রামিং এবং অ্যালগরিদমের ভিত্তি"
+        ],
         level: "Beginner"
       },
       {
         id: "cs2",
         title: "History of Computing Devices",
+        titleBn: "গণনা যন্ত্রের ইতিহাস",
         content: "Prehistoric & Ancient Tools:\n• Tally sticks: Notches for counting\n• Quipus (Inca): Knotted strings for numbers\n• Abacus (2400 BCE): Beads on rods for arithmetic\n\nMechanical Computation:\n• Antikythera Mechanism (100 BCE): Earliest analog device, calculated celestial positions\n• Napier's Bones (1617): Multiplication/division rods\n• Slide Rule (1620s): Logarithm-based calculations\n• Pascaline (1642): Mechanical adding machine\n• Leibniz's Step Reckoner (1673): Advanced calculator with multiplication/division\n\n19th Century - Analytical Engine:\n• Charles Babbage: Difference Engine, Analytical Engine\n• Components: Input (punched cards), Processing (ALU), Memory, Output\n• Ada Lovelace: First programmer, wrote algorithms\n\nLate 19th Century:\n• Punched Card Systems (Hollerith): U.S. Census, precursor to IBM\n• Analog Computers: Continuous physical quantities for solving equations",
+        contentBn: "প্রাচীন ও প্রাগৈতিহাসিক সরঞ্জাম:\n• ট্যালি স্টিক: গণনার জন্য খাঁজ।\n• কুইপুস (ইনকা): সংখ্যার জন্য গিঁট দেওয়া সুতা\n• অ্যাব্যাকাস (২৪০০ BCE): গাণিতিকের জন্য দণ্ডে পুঁতি\n\nযান্ত্রিক গণনা:\n• অ্যান্টিকিথেরা মেকানিজম (১০০ BCE): প্রাচীনতম অ্যানালগ যন্ত্র, গ্রহের অবস্থান গণনা করত\n• নেপিয়ারের হাড় (1617): গুণন/ভাগের দণ্ড\n• স্লাইড রুল (1620s): লগারিদম ভিত্তিক গণনা\n• পাস্কেলিন (1642): যান্ত্রিক যোগযন্ত্র\n• লাইবনিৎজের স্টেপ রেকনার (1673): গুণন/ভাগ সহ উন্নত ক্যালকুলেটর\n\n১৯শ শতাব্দী - অ্যানালিটিক্যাল ইঞ্জিন:\n• চার্লস ব্যাবেজ: ডিফারেন্স ইঞ্জিন, অ্যানালিটিক্যাল ইঞ্জিন\n• উপাদান: ইনপুট (পাঞ্চড কার্ড), প্রসেসিং (ALU), মেমরি, আউটপুট\n• অ্যাডা লাভলেস: প্রথম প্রোগ্রামার, অ্যালগরিদম লিখেছিলেন\n\nশেষ ১৯শ শতাব্দী:\n• পাঞ্চড কার্ড সিস্টেম (হলারিথ): যুক্তরাষ্ট্রের জনগণনা, IBM এর পূর্বসূরি\n• অ্যানালগ কম্পিউটার: সমীকরণ সমাধানে অবিচ্চিন্ন ভৌত পরিমাণ",
         takeaways: [
           "Progressed from manual counting to mechanical devices",
           "Babbage's Analytical Engine is precursor to modern computers",
           "Ada Lovelace wrote first computer program",
           "Punched cards enabled automation in data processing"
         ],
+        takeawaysBn: [
+          "ম্যানুয়াল গণনা থেকে যান্ত্রিক যন্ত্রে অগ্রগতি হয়েছে",
+          "ব্যাবেজের অ্যানালিটিক্যাল ইঞ্জিন আধুনিক কম্পিউটারের পূর্বসূরি",
+          "অ্যাডা লাভলেস প্রথম প্রোগ্রাম লিখেছিলেন",
+          "পাঞ্চড কার্ড ডেটা প্রসেসিংয়ে অটোমেশন সক্ষম করেছে"
+        ],
         level: "Beginner"
       },
       {
         id: "cs3",
         title: "Computer Basics",
+        titleBn: "কম্পিউটারের মৌলিক ধারণা",
         content: "Computer: Electronic device accepting input, processing data, storing information, producing output.\n\nKey Characteristics:\n• Speed: Much faster than humans\n• Accuracy: High precision\n• Automation: Executes instructions automatically\n• Storage: Stores vast data amounts\n• Versatility: Multiple tasks\n\nBasic Components:\n• Input Devices: Keyboard, mouse, scanner\n• Output Devices: Monitor, printer, speakers\n• CPU: Brain, executes instructions, controls components\n• Memory: RAM (temporary), HDD/SSD (permanent)\n• Motherboard & Buses: Connects components\n\nTypes of Computers:\n• Supercomputer: Complex computations (weather, simulations)\n• Mainframe: Large, multi-user for organizations\n• Minicomputer: Medium power, departmental\n• Personal Computer: Individual use\n• Workstation: High-performance for engineering\n• Embedded Systems: Integrated into devices",
+        contentBn: "কম্পিউটার: ইনপুট গ্রহণ, ডেটা প্রসেসিং, তথ্য সংরক্ষণ এবং আউটপুট উৎপাদনকারী ইলেকট্রনিক যন্ত্র।\n\nমূল বৈশিষ্ট��য:\n• গতি: মানুষের চেয়ে অনেক দ্রুত\n• নির্ভুলতা: উচ্চ সঠিকতা\n• অটোমেশন: স্বয়ংক্রিয়ভাবে নির্দেশনা বাস্তবায়ন করে\n• সংরক্ষণ: প্রচুর পরিমাণ ডেটা সংরক্ষণ করে\n• বহুমুখীতা: একাধিক কাজ\n\nমূল উপাদান:\n• ইনপুট ডিভাইস: কীবোর্ড, মাউস, স্ক্যানার\n• আউটপুট ডিভাইস: মনিটর, প্রিন্টার, স্পিকার\n• CPU: মস্তিষ্ক, নির্দেশনা বাস্তবায়ন ও উপাদান নিয়ন্ত্রণ করে\n• মেমরি: RAM (অস্থায়ী), HDD/SSD (স্থায়ী)\n• মাদারবোর্ড ও বাস: উপাদান সংযুক্ত করে\n\nকম্পিউটারের প্রকার:\n• সুপারকম্পিউটার: জটিল গণনা (আবহাওয়া, সিমুলেশন)\n• মেইনফ্রেম: বড়, সংস্থার জন্য বহু-ব্যবহারকারী\n• মিনিকম্পিউটার: মাঝারি শক্তি, বিভাগীয়\n• ব্যক্তিগত কম্পিউটার: একক ব্যবহার\n• ওয়ার্কস্টেশন: প্রকৌশলের জন্য উচ্চ-পারফরম্যান্স\n• এম্বেডেড সিস্টেম: যন্ত্রে সংহত",
         takeaways: [
           "Computer processes input to produce output",
           "CPU is the brain executing instructions",
           "Multiple computer types for different needs",
           "Generations: Vacuum tubes → Transistors → ICs → Microprocessors"
+        ],
+        takeawaysBn: [
+          "কম্পিউটার ইনপুট থেকে আউটপুট প্রসেস করে",
+          "CPU নির্দেশনা বাস্তবায়নকারী মস্তিষ্ক",
+          "বিভিন্ন প্রয়োজনে একাধিক কম্পিউটার প্রকার",
+          "প্রজন্ম: ভ্যাক্যুম টিউব → ট্রানজিস্টর → IC → মাইক্রোপ্রসেসর"
         ],
         level: "Beginner"
       },
@@ -196,6 +221,7 @@ const modules: Module[] = [
   },
   {
     title: "3. Electrical Circuits",
+    titleBn: "৩. তড়িৎ সার্কিট",
     level: "Beginner",
     lessons: [
       {
@@ -228,6 +254,7 @@ const modules: Module[] = [
   },
   {
     title: "4. Digital Logic Design",
+    titleBn: "৪. ডিজিটাল লজিক ডিজাইন",
     level: "Intermediate",
     lessons: [
       {
@@ -298,6 +325,7 @@ const modules: Module[] = [
   },
   {
     title: "5. Basic Electronics",
+    titleBn: "৫. মৌলিক ইলেকট্রনিক্স",
     level: "Beginner",
     lessons: [
       {
@@ -329,6 +357,7 @@ const modules: Module[] = [
   },
   {
     title: "6. Microprocessor and Interfacing",
+    titleBn: "৬. মাইক্রোপ্রসেসর ও ইন্টারফেসিং",
     level: "Intermediate",
     lessons: [
       {
@@ -359,6 +388,7 @@ const modules: Module[] = [
   },
   {
     title: "7. Computer Architecture",
+    titleBn: "৭. কম্পিউটার আর্কিটেকচার",
     level: "Intermediate",
     lessons: [
       {
@@ -389,6 +419,7 @@ const modules: Module[] = [
   },
   {
     title: "8. Communication Theory",
+    titleBn: "৮. যোগাযোগ তত্ত্ব",
     level: "Intermediate",
     lessons: [
       {
@@ -420,6 +451,7 @@ const modules: Module[] = [
   },
   {
     title: "9. Computer Networking and Security",
+    titleBn: "৯. কম্পিউটার নেটওয়ার্কিং ও নিরাপত্তা",
     level: "Intermediate",
     lessons: [
       {
@@ -451,6 +483,7 @@ const modules: Module[] = [
   },
   {
     title: "10. Structured Programming Language (C)",
+    titleBn: "১০. স্ট্রাকচার্ড প্রোগ্রামিং ল্যাংগুয়েজ (C)",
     level: "Intermediate",
     lessons: [
       {
@@ -509,6 +542,7 @@ const modules: Module[] = [
   },
   {
     title: "11. Object Oriented Programming (OOP)",
+    titleBn: "১১. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (OOP)",
     level: "Intermediate",
     lessons: [
       {
@@ -540,6 +574,7 @@ const modules: Module[] = [
   },
   {
     title: "12. Discrete Mathematics",
+    titleBn: "১২. ডিসক্রিট গণিত",
     level: "Intermediate",
     lessons: [
       {
@@ -571,6 +606,7 @@ const modules: Module[] = [
   },
   {
     title: "13. Graphs",
+    titleBn: "১৩. গ্রাফ তত্ত্ব",
     level: "Intermediate",
     lessons: [
       {
@@ -602,6 +638,7 @@ const modules: Module[] = [
   },
   {
     title: "14. Theory of Computation",
+    titleBn: "১৪. গণনার তত্ত্ব",
     level: "Advanced",
     lessons: [
       {
@@ -632,6 +669,7 @@ const modules: Module[] = [
   },
   {
     title: "15. Data Structures and Algorithms",
+    titleBn: "১৫. ডেটা স্ট্রাকচার ও অ্যালগরিদম",
     level: "Advanced",
     lessons: [
       {
@@ -662,6 +700,7 @@ const modules: Module[] = [
   },
   {
     title: "16. Database Systems",
+    titleBn: "১৬. ডেটাবেস সিস্টেম",
     level: "Advanced",
     lessons: [
       {
@@ -705,6 +744,7 @@ const modules: Module[] = [
   },
   {
     title: "17. Software Engineering",
+    titleBn: "১৭. সফটওয়্যার ইঞ্জিনিয়ারিং",
     level: "Advanced",
     lessons: [
       {
@@ -735,6 +775,7 @@ const modules: Module[] = [
   },
   {
     title: "18. Operating System",
+    titleBn: "১৮. অপারেটিং সিস্টেম",
     level: "Advanced",
     lessons: [
       {
@@ -765,6 +806,7 @@ const modules: Module[] = [
   },
   {
     title: "19. Artificial Intelligence",
+    titleBn: "১৯. আর্টিফিসিয়াল ইন্টেলিজেন্স",
     level: "Advanced",
     lessons: [
       {
@@ -837,7 +879,7 @@ function App() {
   }
 
   return (
-    <div className="min-h-screen">
+    <div className={`min-h-screen ${language === 'bn' ? 'bengali' : ''}`}>
       <div className="app-bg" />
       
       {/* Navbar */}
