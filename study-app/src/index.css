@@ -1,19 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=Noto+Sans+Bengali:wght@300;400;500;600;700&family=Noto+Sans:wght@300;400;500;600;700&display=swap');
 @import "tailwindcss";
 
-@font-face {
-  font-family: 'Kalpurush';
-  src: url('https://fonts.gstatic.com/s/notoSans/v39/oeljZmpCBV9dWRJ06u1WUIl1fT4.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 :root {
   --bg-main: #0d0d0d;
   --bg-sidebar: #111111;
@@ -33,13 +20,16 @@
   --bg-sidebar: #ffffff;
   --bg-card: #ffffff;
   --bg-hover: #f0f0f0;
-  --accent: #f59e0b;
-  --accent-dim: #d97706;
-  --accent-glow: rgba(245, 158, 11, 0.15);
-  --text-main: #171717;
+  --text-main: #1a1a1a;
   --text-muted: #525252;
   --text-dim: #a3a3a3;
   --border: #e5e5e5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -49,11 +39,6 @@ body {
   overflow-x: hidden;
 }
 
-body.bengali {
-  font-family: 'Noto Sans Bengali', 'Kalpurush', sans-serif;
-}
-
-/* Background */
 .app-bg {
   position: fixed;
   inset: 0;
@@ -65,15 +50,13 @@ body.bengali {
   z-index: 0;
 }
 
-/* Navbar */
 .navbar {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   height: 64px;
-  background: rgba(17, 17, 17, 0.9);
-  backdrop-filter: blur(12px);
+  background: var(--bg-sidebar);
   border-bottom: 1px solid var(--border);
   z-index: 100;
   display: flex;
@@ -107,87 +90,6 @@ body.bengali {
   transform-origin: 50% 50%;
 }
 
-.theme-toggle {
-  padding: 8px;
-  border-radius: 8px;
-  background: var(--bg-card);
-  color: var(--text-main);
-  cursor: pointer;
-  transition: all 0.2s;
-}
-
-.theme-toggle:hover {
-  background: var(--accent);
-  color: var(--bg-main);
-}
-
-.search-box {
-  position: relative;
-  width: 100%;
-  max-width: 400px;
-}
-
-.search-input {
-  width: 100%;
-  padding: 10px 16px 10px 40px;
-  border-radius: 12px;
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  color: var(--text-main);
-  font-size: 0.9rem;
-}
-
-.search-input::placeholder {
-  color: var(--text-dim);
-}
-
-.search-input:focus {
-  outline: none;
-  border-color: var(--accent);
-}
-
-.search-results {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  right: 0;
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: 12px;
-  margin-top: 8px;
-  max-height: 300px;
-  overflow-y: auto;
-  z-index: 1000;
-  box-shadow: 0 10px 40px rgba(0,0,0,0.3);
-}
-
-.search-result-item {
-  padding: 12px 16px;
-  cursor: pointer;
-  border-bottom: 1px solid var(--border);
-  transition: background 0.2s;
-}
-
-.search-result-item:last-child {
-  border-bottom: none;
-}
-
-.search-result-item:hover {
-  background: var(--bg-hover);
-}
-
-.search-result-title {
-  font-weight: 500;
-  color: var(--text-main);
-  margin-bottom: 4px;
-}
-
-.search-result-module {
-  font-size: 0.75rem;
-  color: var(--text-dim);
-}
-
-/* Sidebar */
 .sidebar {
   position: fixed;
   top: 64px;
@@ -264,7 +166,6 @@ body.bengali {
   color: var(--bg-main);
 }
 
-/* Main Content */
 .main-content {
   margin-left: 280px;
   margin-top: 64px;
@@ -274,7 +175,6 @@ body.bengali {
   z-index: 10;
 }
 
-/* Lesson Header */
 .lesson-header {
   margin-bottom: 40px;
 }
@@ -308,7 +208,6 @@ body.bengali {
   font-size: 0.95rem;
 }
 
-/* Content Card */
 .content-card {
   background: var(--bg-card);
   border: 1px solid var(--border);
@@ -324,7 +223,6 @@ body.bengali {
   white-space: pre-line;
 }
 
-/* Key Takeaways */
 .takeaways-card {
   background: linear-gradient(135deg, var(--bg-card) 0%, rgba(245, 158, 11, 0.05) 100%);
   border: 1px solid var(--border);
@@ -363,7 +261,6 @@ body.bengali {
   flex-shrink: 0;
 }
 
-/* Code Block */
 .code-block {
   background: var(--bg-card);
   border: 1px solid var(--border);
@@ -412,7 +309,6 @@ body.bengali {
   overflow-x: auto;
 }
 
-/* Navigation */
 .nav-buttons {
   display: flex;
   align-items: center;
@@ -465,13 +361,13 @@ body.bengali {
   font-weight: 500;
 }
 
-/* Mobile Menu Button */
 .mobile-menu-btn {
   display: none;
   padding: 8px;
   border-radius: 8px;
   background: var(--bg-card);
   cursor: pointer;
+  margin-right: 12px;
 }
 
 .language-toggle {
@@ -490,11 +386,53 @@ body.bengali {
   color: var(--bg-main);
 }
 
+.theme-toggle {
+  padding: 8px;
+  border-radius: 8px;
+  background: var(--bg-card);
+  color: var(--text-main);
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.theme-toggle:hover {
+  background: var(--accent);
+  color: var(--bg-main);
+}
+
 .navbar-actions {
   display: flex;
   align-items: center;
   gap: 12px;
   margin-left: auto;
+}
+
+.search-box {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px 16px 10px 40px;
+  border-radius: 12px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  color: var(--text-main);
+  font-size: 0.9rem;
+}
+
+.search-input::placeholder {
+  color: var(--text-dim);
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: var(--accent);
 }
 
 .search-icon {
@@ -507,6 +445,47 @@ body.bengali {
   color: var(--text-dim);
 }
 
+.search-results {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  margin-top: 8px;
+  max-height: 300px;
+  overflow-y: auto;
+  z-index: 1000;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+}
+
+.search-result-item {
+  padding: 12px 16px;
+  cursor: pointer;
+  border-bottom: 1px solid var(--border);
+  transition: background 0.2s;
+}
+
+.search-result-item:last-child {
+  border-bottom: none;
+}
+
+.search-result-item:hover {
+  background: var(--bg-hover);
+}
+
+.search-result-title {
+  font-weight: 500;
+  color: var(--text-main);
+  margin-bottom: 4px;
+}
+
+.search-result-module {
+  font-size: 0.75rem;
+  color: var(--text-dim);
+}
+
 @media (max-width: 640px) {
   .language-toggle {
     padding: 6px 12px;
@@ -514,7 +493,6 @@ body.bengali {
   }
 }
 
-/* Responsive */
 @media (max-width: 1024px) {
   .mobile-menu-btn {
     display: flex;
@@ -564,19 +542,6 @@ body.bengali {
     right: 0;
     width: 200px;
   }
-  
-  .navbar-brand {
-    font-size: 1.2rem;
-  }
-  
-  .lesson-title {
-    font-size: 1.8rem;
-  }
-  
-  .content-card, .takeaways-card, .code-block {
-    padding: 20px;
-    border-radius: 16px;
-  }
 }
 
 @media (max-width: 640px) {
@@ -599,7 +564,6 @@ body.bengali {
   }
 }
 
-/* Animations */
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(10px); }
   to { opacity: 1; transform: translateY(0); }
