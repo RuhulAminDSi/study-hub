@@ -115,19 +115,6 @@ function App() {
     setExpandedModule(expandedModule === idx ? null : idx)
   }
 
-  const getLevelColor = (_level: string) => {
-    return 'bg-amber-500 text-black'
-  }
-
-  const getLevelLabel = (level: string) => {
-    if (language === 'bn') {
-      if (level === 'Beginner') return 'শুরু'
-      if (level === 'Intermediate') return 'মধ্যম'
-      if (level === 'Advanced') return 'উন্নত'
-    }
-    return level
-  }
-
   const copyCode = (code?: string) => {
     if (code) navigator.clipboard.writeText(code)
   }
@@ -315,7 +302,6 @@ function App() {
       <main className="main-content">
         <div className="module-header animate-fade">
           <div className="module-meta">
-            <span className={`level-tag ${getLevelColor(module.level)}`}>{getLevelLabel(module.level)}</span>
             <span className="module-subtitle">{module.lessons.length} {module.lessons.length === 1 ? 'Lesson' : 'Lessons'}</span>
           </div>
           <h1 className="module-title">{language === 'bn' && module.titleBn ? module.titleBn : module.title}</h1>
@@ -328,7 +314,6 @@ function App() {
               <div className="lesson-header-inline">
                 <span className="lesson-number">{idx + 1}</span>
                 <h2 className="lesson-title-inline">{language === 'bn' && lesson.titleBn ? lesson.titleBn : lesson.title}</h2>
-                <span className={`level-tag-small ${getLevelColor(lesson.level)}`}>{getLevelLabel(lesson.level)}</span>
               </div>
 
               <div className="content-card">
