@@ -235,8 +235,8 @@ const modules: Module[] = [
       {
         id: "ec1",
         title: "Basic Circuit Concepts",
-        content: "Electric Circuit: Closed path for current flow.\n\nKey Concepts:\n• Current (I): Flow of charge. I = Q/t. Unit: Ampere (A)\n• Voltage (V): Potential difference. V = W/Q. Unit: Volt (V)\n• Resistance (R): Opposition to current flow. R = V/I. Unit: Ohm (Ω)\n\nOhm's Law: V = I × R\n\nPower: Rate of energy transfer. P = V × I = I²R = V²/R. Unit: Watt (W)\n\nCircuit Elements:\n• Resistor: Opposes current flow\n• Capacitor: Stores electrical energy in electric field\n• Inductor: Stores energy in magnetic field\n• Voltage Source: Provides potential difference\n• Current Source: Provides constant current\n\nKirchhoff's Laws:\n• KCL: Current entering = current leaving at junction\n• KVL: Sum of voltage drops = sum of voltage rises in loop",
-        code: "V = I × R\nP = V × I\nI = Q/t",
+        content: "Electric Circuit: Closed path for current flow.\n\nKey Concepts:\n• Current (I): Flow of charge. I = Q/t. Unit: Ampere (A). Types: DC (Direct), AC (Alternating)\n• Voltage (V): Potential difference. V = W/Q. Unit: Volt (V)\n• Resistance (R): Opposition to current flow. R = V/I. Unit: Ohm (Ω). Factors: Material, length, cross-section, temperature\n\nOhm's Law: V = I × R\n\nElectric Charge: Proton (+1.6×10⁻¹⁹ C), Electron (-1.6×10⁻¹⁹ C)\n\n\nPower: Rate of energy transfer. P = V × I = I²R = V²/R. Unit: Watt (W)\n\n\nCircuit Elements:\n• Resistor: Opposes current flow. Series: R_total = R₁ + R₂; Parallel: 1/R_total = 1/R₁ + 1/R₂\n• Capacitor: Stores electrical energy in electric field. C = Q/V. Unit: Farad (F). Types: Ceramic, Electrolytic, Film\n• Inductor: Stores energy in magnetic field. V = L(dI/dt). Unit: Henry (H)\n• Voltage Source: Provides constant potential difference\n• Current Source: Provides constant current\n\nDependent Sources:\n• VCVS: Voltage-controlled voltage source\n• CCVS: Current-controlled voltage source\n• VCCS: Voltage-controlled current source\n• CCCS: Current-controlled current source\n\nKirchhoff's Laws:\n• KCL: Total current entering = Total current leaving (ΣI_in = ΣI_out)\n• KVL: Total voltage around loop = 0 (ΣV = 0)",
+        code: "V = I × R\nP = V × I = I²R\nI = Q/t\nC = Q/V\nV = L(dI/dt)",
         takeaways: [
           "Ohm's Law: V = IR is fundamental circuit relationship",
           "Power is energy transfer rate: P = VI",
@@ -248,8 +248,8 @@ const modules: Module[] = [
       {
         id: "ec2",
         title: "Circuit Analysis Methods",
-        content: "Series Circuits:\n• Same current through all elements\n• Total resistance: Rtotal = R1 + R2 + ...\n• Voltage divides across elements\n\nParallel Circuits:\n• Same voltage across all branches\n• Total resistance: 1/Rtotal = 1/R1 + 1/R2 + ...\n• Current divides across branches\n\nNetwork Theorems:\n• Superposition: Sum responses from individual sources\n• Thevenin: Replace network with voltage source + resistance\n• Norton: Replace network with current source + resistance\n• Maximum Power Transfer: Load = Thevenin resistance\n\nCircuit Analysis:\n• Mesh Analysis: Apply KVL to loops\n• Nodal Analysis: Apply KCL to nodes\n• Delta-Wye Transformation: Simplify complex networks",
-        code: "Series: Rtotal = R1 + R2 + ...\nParallel: 1/Rtotal = 1/R1 + 1/R2 + ...",
+        content: "Series Circuits:\n• Same current through all elements\n• Total resistance: R_total = R₁ + R₂ + ...\n• Voltage divides across elements\n\nParallel Circuits:\n• Same voltage across all branches\n• Total resistance: 1/R_total = 1/R₁ + 1/R₂ + ...\n• Current divides across branches\n\nNetwork Theorems:\n• Superposition: Total response = Sum of responses from each source (for linear circuits)\n• Thevenin's Theorem: Replace network with V_th (open-circuit voltage) + R_th (input resistance with sources zeroed)\n• Norton's Theorem: Replace network with I_n (short-circuit current) + R_n (same as R_th)\n• Maximum Power Transfer: Maximum power when R_load = R_th. P_max = V_th² / (4R_th)\n• Millman's Theorem: Simplifies parallel voltage sources\n\nCircuit Analysis:\n• Mesh Analysis: Apply KVL to loops\n• Nodal Analysis: Apply KCL to nodes\n• Delta-Wye (Δ-Y) Transformation: Simplify complex networks\n\nAC Circuits:\n• V(t) = V_m sin(ωt), I(t) = I_m sin(ωt)\n• RMS Values: V_rms = V_m/√2, I_rms = I_m/√2\n• Impedance: Z = R + jX (complex)\n• RL: Z = √(R² + X_L²), X_L = ωL\n• RC: Z = √(R² + X_C²), X_C = 1/(ωC)\n• RLC Series: Z = √(R² + (X_L - X_C)²)\n\nAC Power:\n• Real Power (P): V_rms × I_rms × cos(φ)\n• Reactive Power (Q): V_rms × I_rms × sin(φ)\n• Apparent Power (S): V_rms × I_rms\n• Power Factor: pf = cos(φ) = P/S",
+        code: "Series: R_total = R1 + R2\nParallel: 1/R_total = 1/R1 + 1/R2\nV_th = Open-circuit voltage\nR_th = Input resistance\nZ = R + jX\nX_L = ωL\nX_C = 1/(ωC)\nf_r = 1/(2π√LC)",
         takeaways: [
           "Series: current same, voltage divides",
           "Parallel: voltage same, current divides",
@@ -268,8 +268,8 @@ const modules: Module[] = [
       {
         id: "dl1",
         title: "Number Systems",
-        content: "Number Systems:\n• Binary (Base 2): 0, 1\n• Octal (Base 8): 0-7\n• Decimal (Base 10): 0-9\n• Hexadecimal (Base 16): 0-9, A-F\n\nConversions:\n• Binary to Decimal: Sum of bit × 2^position\n• Decimal to Binary: Repeated division by 2\n• Binary to Hex: Group 4 bits\n• Binary to Octal: Group 3 bits\n\nBinary Arithmetic:\n• Addition: 0+0=0, 0+1=1, 1+0=1, 1+1=0 (carry 1)\n• Subtraction: 0-0=0, 1-0=1, 1-1=0, 0-1=1 (borrow)\n• Multiplication: Same as decimal\n\nSigned Numbers:\n• Sign-Magnitude: MSB is sign bit\n• 2's Complement: Invert bits and add 1\n• Range for n-bit: -2^(n-1) to +2^(n-1)-1",
-        code: "Binary to Decimal: 1011 = 1×2³ + 0×2² + 1×2¹ + 1×2⁰ = 11",
+        content: "Number Systems:\n• Binary (Base 2): 0, 1\n• Octal (Base 8): 0-7\n• Decimal (Base 10): 0-9\n• Hexadecimal (Base 16): 0-9, A-F\n\nConversions:\n• Binary to Decimal: Sum of bit × 2^position\n• Decimal to Binary: Repeated division by 2\n• Binary to Hex: Group 4 bits\n• Binary to Octal: Group 3 bits\n• Hex to Binary: Each hex digit = 4 bits\n\nBinary Arithmetic:\n• Addition: 0+0=0, 0+1=1, 1+0=1, 1+1=0 (carry 1)\n• Subtraction: 0-0=0, 1-0=1, 1-1=0, 0-1=1 (borrow)\n• Multiplication: Same as decimal\n\nBinary Codes:\n• BCD: Each decimal digit as 4-bit binary\n• Excess-3: BCD + 3\n• Gray Code: Only one bit changes between consecutive numbers\n\nSigned Numbers:\n• Sign-Magnitude: MSB is sign bit\n• 1's Complement: Flip all bits\n• 2's Complement: 1's complement + 1 (for negative numbers)\n• Range for n-bit: -2^(n-1) to +2^(n-1)-1",
+        code: "Binary to Decimal: 1011 = 1×2³ + 0×2² + 1×2¹ + 1×2⁰ = 11\n2's Comp: invert bits, add 1",
         takeaways: [
           "All number systems are positional",
           "Binary is base-2, Hex is base-16",
@@ -294,8 +294,8 @@ const modules: Module[] = [
       {
         id: "dl3",
         title: "Logic Gates",
-        content: "Basic Logic Gates:\n• NOT: Inverts input\n• AND: Output 1 when all inputs are 1\n• OR: Output 1 when any input is 1\n\nDerived Gates:\n• NAND: AND + NOT. Universal gate\n• NOR: OR + NOT. Universal gate\n• XOR: Output 1 when inputs differ\n• XNOR: Output 1 when inputs same\n\nTruth Table: Shows output for all input combinations.\n\nBoolean Expression from Truth Table:\n• Sum of Products (SOP): OR of AND terms for 1s\n• Product of Sums (POS): AND of OR terms for 0s\n\nKarnaugh Map (K-Map): Simplifies Boolean expressions visually.\n• Group adjacent 1s (powers of 2)\n• Eliminate variables that change in group",
-        code: "NAND = (A × B)'\nNOR = (A + B)'\nXOR = A ⊕ B",
+        content: "Basic Logic Gates:\n• NOT: Inverts input\n• AND: Output 1 when all inputs are 1\n• OR: Output 1 when any input is 1\n\nDerived Gates:\n• NAND: AND + NOT. Universal gate (can build any circuit)\n• NOR: OR + NOT. Universal gate\n• XOR: Output 1 when inputs differ (odd number of 1s)\n• XNOR: Output 1 when inputs same (even number of 1s)\n\nGate Symbols:\nAND: A ──●── Y\nOR: A ──≥1── Y\nNOT: A ──1── Y\nNAND: A ──●─○── Y\nNOR: A ──≥1─○── Y\nXOR: A ──=1── Y\nXNOR: A ──=1─○── Y\n\nTruth Table: Shows output for all input combinations.\n\nBoolean Expression from Truth Table:\n• Sum of Products (SOP): OR of AND terms for 1s\n• Product of Sums (POS): AND of OR terms for 0s\n• Canonical SOP: Each term includes all variables\n• Canonical POS: Each sum includes all variables\n\nKarnaugh Map (K-Map): Simplifies Boolean expressions visually.\n• Group adjacent 1s (powers of 2: 1, 2, 4, 8...)\n• Groups can wrap around edges\n• Eliminate variables that change in group\n• 2-var: AB\\00|01|11|10\n• 3-var: ABC\\000|001|011|010|100|101|111|110",
+        code: "NAND = (A × B)'\nNOR = (A + B)'\nXOR = A ⊕ B\nSOP: OR of AND terms\nPOS: AND of OR terms",
         takeaways: [
           "Basic gates: NOT, AND, OR",
           "NAND and NOR are universal gates",
@@ -320,7 +320,8 @@ const modules: Module[] = [
       {
         id: "dl5",
         title: "Sequential Circuits",
-        content: "Sequential Circuits: Output depends on current inputs and past history. Has memory.\n\nComponents:\n• Latches: Basic memory elements (SR, D, JK, T)\n• Flip-Flops: Edge-triggered latches\n\nTypes:\n• SR Latch: Set-Reset, with enable\n• D Flip-Flop: Data, transfers input on clock edge\n• JK Flip-Flop: Toggle, set, reset capabilities\n• T Flip-Flop: Toggle on each clock pulse\n\nCounters:\n• Ring Counter: Shift register feedback\n• Johnson Counter: Inverted feedback\n• Binary Counter: Counts in binary\n\nRegisters: Groups of flip-flops storing data.\n\nState Machines:\n• Mealy: Output depends on input and state\n• Moore: Output depends only on state",
+        content: "Sequential Circuits: Output depends on current inputs AND past history. Has memory.\n\nDifference from Combinational:\n• Combinational: Output = f(current input)\n• Sequential: Output = f(current input, previous state)\n\nComponents:\n• Combinational Logic: Gates\n• Memory Elements: Flip-flops\n• Feedback: Output fed back as input\n\nClock:\n• Synchronous: All flip-flops use common clock\n• Asynchronous: Flip-flops use different clocks\n\nFlip-Flops (Edge-triggered):\n• SR: Q* = S + R'Q, Set-Reset\n• D: Q* = D, Delay element\n• JK: Q* = JQ' + K'Q, Toggle when J=K=1\n• T: Q* = T ⊕ Q, Toggle on each pulse\n\nRace Around Condition: Problem in JK when J=K=1 and clock pulse width > propagation delay. Solution: Master-slave or edge-triggered flip-flop.\n\nEdge Triggering:\n• Positive Edge: Triggered on rising edge (0→1)\n• Negative Edge: Triggered on falling edge (1→0)\n\nCounters:\n• Asynchronous (Ripple): Output of one FF clocks the next. Slow due to propagation delay.\n• Synchronous: All FFs clocked simultaneously. Faster.\n• MOD-n: Counts from 0 to n-1 states\n• Ring Counter: Shift register feedback\n• Johnson Counter: Inverted feedback\n\nRegisters: Groups of flip-flops storing data.\n• SISO: Serial In, Serial Out\n• SIPO: Serial In, Parallel Out\n• PISO: Parallel In, Serial Out\n• PIPO: Parallel In, Parallel Out\n\nState Machines:\n• Mealy: Output depends on input AND state\n• Moore: Output depends only on state",
+        code: "Q* = S + R'Q (SR)\nQ* = D (D FF)\nQ* = JQ' + K'Q (JK)\nQ* = T ⊕ Q (T FF)",
         takeaways: [
           "Sequential circuits have memory (flip-flops)",
           "Flip-flops trigger on clock edge",
@@ -336,10 +337,11 @@ const modules: Module[] = [
     titleBn: "৫. মৌলিক ইলেকট্রনিক্স",
     level: "Beginner",
     lessons: [
-      {
+{
         id: "be1",
         title: "Semiconductor Basics",
-        content: "Semiconductor: Material with conductivity between conductor and insulator.\n\nTypes:\n• Intrinsic: Pure semiconductor (Si, Ge)\n• Extrinsic: Doped with impurities\n  - N-type: Doped with donor (extra electrons)\n  - P-type: Doped with acceptor (holes)\n\nPN Junction: Interface between P and N regions.\n\nForward Bias: P connected to positive, N to negative. Current flows.\n\nReverse Bias: P to negative, N to positive. Small reverse saturation current.\n\nBreakdown:\n• Zener: Reverse bias at specific voltage\n• Avalanche: High reverse voltage\n\nDiodes: Allow current one direction.\n• Rectifier: AC to DC\n• Zener: Voltage regulation\n• LED: Emits light\n• Photodiode: Converts light to current",
+        content: "Semiconductor: Material with conductivity between conductor and insulator.\n\nMaterial Types:\n• Conductor: Low resistance (copper, gold)\n• Insulator: High resistance (glass, rubber)\n• Semiconductor: Between conductor and insulator\n\nSemiconductor Materials:\n• Silicon (Si): Most common\n• Germanium (Ge): Used in older devices\n\nEnergy Bands:\n• Valence Band: Electrons bound to atoms\n• Conduction Band: Free electrons\n• Band Gap: Energy gap between bands\n\nIntrinsic Semiconductor:\n• Pure semiconductor\n• Equal electrons and holes\n• ni = 1.5 × 10¹⁰ cm⁻³ at 300K (Silicon)\n\nExtrinsic Semiconductor (Doped):\n• N-type: Pentavalent dopants (P, As). Majority: Electrons\n• P-type: Trivalent dopants (B, Ga). Majority: Holes\n\nPN Junction:\n• Interface between P and N regions\n• Forward Bias: P to positive, N to negative. Current flows when V > 0.7V (Si)\n• Reverse Bias: P to negative, N to positive. Small reverse saturation current.\n\nBreakdown:\n• Zener: Reverse bias at specific voltage (voltage regulation)\n• Avalanche: High reverse voltage breakdown\n\nDiode Types:\n• Rectifier Diode: Power supply (AC to DC)\n• Zener Diode: Voltage regulation (constant voltage in reverse bias)\n• LED: Light emission\n• Photodiode: Converts light to current\n• Schottky Diode: Fast switching\n• Varactor: Voltage-controlled capacitor",
+        code: "Forward: V > 0.7V (Si)\nI = I_s(e^(V/nVT) - 1)",
         takeaways: [
           "Semiconductors are doped to create N and P types",
           "PN junction allows current forward, blocks reverse",
@@ -351,8 +353,8 @@ const modules: Module[] = [
       {
         id: "be2",
         title: "Transistors",
-        content: "Transistor: Semiconductor device to amplify or switch signals.\n\nBJT (Bipolar Junction Transistor):\n• NPN: Emitter to Collector current\n• PNP: Opposite direction\n\nRegions:\n• Active: Amplifier mode\n• Saturation: Fully ON\n• Cutoff: Fully OFF\n\nConfigurations: Common Emitter, Common Base, Common Collector\n\nParameters: α (alpha), β (beta)\n\nFET (Field Effect Transistor):\n• MOSFET: Metal-Oxide-Semiconductor\n• JFET: Junction FET\n\nModes:\n• Depletion: Normally on\n• Enhancement: Normally off\n\nApplications: Amplifiers, switches, digital circuits, oscillators",
-        code: "β = Ic / Ib\nIc = β × Ib",
+        content: "Transistor: Three-terminal semiconductor device to amplify or switch signals.\n\nBJT (Bipolar Junction Transistor):\n• NPN: Current flows from Collector to Emitter\n• PNP: Opposite direction\n• Three regions: Emitter (heavily doped), Base (thin, lightly doped), Collector (moderately doped)\n\nBJT Modes of Operation:\n• Active: BE forward biased, BC reverse biased. For amplification.\n• Cutoff: BE reverse biased. Fully OFF.\n• Saturation: BE forward, BC forward. Fully ON.\n\nCurrent Relations:\n• I_E = I_B + I_C\n• I_C = β × I_B (β = current gain, typically 100)\n• α = I_C / I_E = β / (β+1)\n\nBJT Configurations:\n• Common Emitter: Voltage gain, phase shift 180°\n• Common Base: Current gain (α ≈ 1)\n• Common Collector: Voltage follower (impedance matching)\n\nFET (Field Effect Transistor):\n• Voltage-controlled (not current-controlled like BJT)\n• JFET: Junction FET\n• MOSFET: Metal-Oxide-Semiconductor. Types: N-channel (NMOS), P-channel (PMOS)\n\nFET Modes:\n• Depletion: Normally ON at Vgs=0\n• Enhancement: Normally OFF at Vgs=0. Most common in digital circuits.\n\nAmplifier Classes:\n• Class A: Conducts 360°\n• Class B: Conducts 180°\n• Class AB: 180° to 360°\n• Class C: <180° (for oscillators)\n\n\nOp-Amp (Operational Amplifier):\n• High-gain differential amplifier\n• Very high input impedance (MΩ)\n• Low output impedance (Ω)\n• Open-loop gain: 100,000+\n\nOp-Amp Configurations:\n• Inverting: V_out = -(R_f/R_in) × V_in\n• Non-inverting: V_out = (1 + R_f/R_in) × V_in\n• Voltage Follower: V_out = V_in (buffer)\n• Summing: V_out = -(R_f/R₁)V₁ - (R_f/R₂)V₂ - ...\n• Integrator: V_out = -(1/RC)∫V_in dt\n• Differentiator: V_out = -RC(dV_in/dt)",
+        code: "β = Ic / Ib\nIc = α × I_E\nAv = R_f / R_in (inverting)",
         takeaways: [
           "BJT uses current, FET uses voltage to control",
           "Transistors can amplify or switch",
@@ -848,7 +850,7 @@ const modules: Module[] = [
 
 function App() {
   const [currentModule, setCurrentModule] = useState(0)
-  const [currentLesson, setCurrentLesson] = useState(0)
+  const [expandedModule, setExpandedModule] = useState<number | null>(0)
   const [sidebarOpen, setSidebarOpen] = useState(false)
   const [language, setLanguage] = useState<'en' | 'bn'>('bn')
   const [theme, setTheme] = useState<'dark' | 'light'>('dark')
@@ -870,31 +872,43 @@ function App() {
   const t = translations[language]
 
   const module = modules[currentModule]
-  const lesson = module.lessons[currentLesson]
   const totalLessons = modules.reduce((acc, m) => acc + m.lessons.length, 0)
-  const currentPosition = modules.slice(0, currentModule).reduce((acc, m) => acc + m.lessons.length, 0) + currentLesson + 1
+  const currentPosition = modules.slice(0, currentModule).reduce((acc, m) => acc + m.lessons.length, 0) + 1
   const progress = Math.round((currentPosition / totalLessons) * 100)
 
   const navigate = (dir: 'prev' | 'next') => {
     if (dir === 'next') {
-      if (currentLesson < module.lessons.length - 1) {
-        setCurrentLesson(currentLesson + 1)
-      } else if (currentModule < modules.length - 1) {
-        setCurrentModule(currentModule + 1)
-        setCurrentLesson(0)
+      if (currentModule < modules.length - 1) {
+        const next = currentModule + 1
+        setCurrentModule(next)
+        setExpandedModule(next)
+        window.scrollTo({ top: 0, behavior: 'smooth' })
       }
     } else {
-      if (currentLesson > 0) {
-        setCurrentLesson(currentLesson - 1)
-      } else if (currentModule > 0) {
-        setCurrentModule(currentModule - 1)
-        setCurrentLesson(modules[currentModule - 1].lessons.length - 1)
+      if (currentModule > 0) {
+        const prev = currentModule - 1
+        setCurrentModule(prev)
+        setExpandedModule(prev)
+        window.scrollTo({ top: 0, behavior: 'smooth' })
       }
     }
   }
 
+  const toggleModuleExpand = (idx: number) => {
+    setExpandedModule(expandedModule === idx ? null : idx)
+  }
+
   const getLevelColor = (_level: string) => {
     return 'bg-amber-500 text-black'
+  }
+
+  const getLevelLabel = (level: string) => {
+    if (language === 'bn') {
+      if (level === 'Beginner') return 'শুরু'
+      if (level === 'Intermediate') return 'মধ্যম'
+      if (level === 'Advanced') return 'উন্নত'
+    }
+    return level
   }
 
   const copyCode = (code?: string) => {
@@ -938,7 +952,7 @@ function App() {
                     <div
                       key={i}
                       className="search-result-item"
-                      onClick={() => { setCurrentModule(result.moduleIndex); setCurrentLesson(result.lessonIndex); setSearchQuery(''); setShowSearch(false); }}
+                      onClick={() => { setCurrentModule(result.moduleIndex); setExpandedModule(result.moduleIndex); setSearchQuery(''); setShowSearch(false); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
                     >
                       <div className="search-result-title">{language === 'bn' && result.titleBn ? result.titleBn : result.title}</div>
                       <div className="search-result-module">{result.moduleTitle}</div>
@@ -990,77 +1004,149 @@ function App() {
         </div>
       </nav>
 
-      {/* Sidebar */}
+      {/* Sidebar with Sub-menu */}
       <aside className={`sidebar ${sidebarOpen ? 'open' : ''}`}>
         <div className="sidebar-section">
           <h2 className="sidebar-title">{t.modules}</h2>
           {modules.map((m, idx) => (
-            <div
-              key={idx}
-              onClick={() => { setCurrentModule(idx); setCurrentLesson(0); setSidebarOpen(false) }}
-              className={`sidebar-item ${currentModule === idx ? 'active' : ''}`}
-            >
-              <span className="sidebar-number">{idx + 1}</span>
-              <span>{language === 'bn' && m.titleBn ? m.titleBn : m.title}</span>
+            <div key={idx} className="sidebar-module">
+              <div
+                onClick={() => { setCurrentModule(idx); setExpandedModule(idx); setSidebarOpen(false); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
+                className={`sidebar-item ${currentModule === idx ? 'active' : ''}`}
+              >
+                <span className="sidebar-number">{idx + 1}</span>
+                <span>{language === 'bn' && m.titleBn ? m.titleBn : m.title}</span>
+                <button 
+                  className="sidebar-expand-btn"
+                  onClick={(e) => { e.stopPropagation(); toggleModuleExpand(idx); }}
+                >
+                  <svg className={`w-4 h-4 transform ${expandedModule === idx ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </button>
+              </div>
+              {expandedModule === idx && (
+                <div className="sidebar-submenu">
+                  {m.lessons.map((l, lIdx) => (
+                    <div
+                      key={lIdx}
+                      className="sidebar-subitem"
+                      onClick={() => { 
+                        setCurrentModule(idx); 
+                        setSidebarOpen(false); 
+                        const lessonEl = document.getElementById(`lesson-${idx}-${lIdx}`);
+                        if (lessonEl) {
+                          const navbarHeight = 64;
+                          const top = lessonEl.offsetTop - navbarHeight;
+                          window.scrollTo({ top: top, behavior: 'smooth' });
+                        }
+                      }}
+                    >
+                      <span className="subitem-number">{lIdx + 1}.</span>
+                      <span>{language === 'bn' && l.titleBn ? l.titleBn : l.title}</span>
+                    </div>
+                  ))}
+                </div>
+              )}
             </div>
           ))}
         </div>
       </aside>
 
-      {/* Main Content */}
+      {/* Main Content - Module Page with All Lessons */}
       <main className="main-content">
-        <div className="lesson-header animate-fade">
-          <div className="lesson-meta">
-            <span className={`level-tag ${getLevelColor(lesson.level)}`}>{language === 'bn' && lesson.level === 'Beginner' ? 'শুরু' : language === 'bn' && lesson.level === 'Intermediate' ? 'মধ্যম' : language === 'bn' && lesson.level === 'Advanced' ? 'উন্নত' : lesson.level}</span>
-            <span className="lesson-subtitle">{language === 'bn' && module.titleBn ? module.titleBn : module.title} • {t.lesson} {currentLesson + 1} / {module.lessons.length}</span>
+        <div className="module-header animate-fade">
+          <div className="module-meta">
+            <span className={`level-tag ${getLevelColor(module.level)}`}>{getLevelLabel(module.level)}</span>
+            <span className="module-subtitle">{module.lessons.length} {module.lessons.length === 1 ? 'Lesson' : 'Lessons'}</span>
           </div>
-          <h1 className="lesson-title">{language === 'bn' && lesson.titleBn ? lesson.titleBn : lesson.title}</h1>
+          <h1 className="module-title">{language === 'bn' && module.titleBn ? module.titleBn : module.title}</h1>
         </div>
 
-        <div className="content-card animate-fade delay-1">
-          <div className="content-text">
-            {(language === 'bn' && lesson.contentBn ? lesson.contentBn : lesson.content).split('\n').map((para, i) => (
-              <p key={i} className="mb-4">{para}</p>
-            ))}
-          </div>
-        </div>
+        {/* All Lessons in this Module */}
+        <div className="module-lessons-container">
+          {module.lessons.map((lesson, idx) => (
+            <div key={idx} id={`lesson-${currentModule}-${idx}`} className="lesson-section animate-fade">
+              <div className="lesson-header-inline">
+                <span className="lesson-number">{idx + 1}</span>
+                <h2 className="lesson-title-inline">{language === 'bn' && lesson.titleBn ? lesson.titleBn : lesson.title}</h2>
+                <span className={`level-tag-small ${getLevelColor(lesson.level)}`}>{getLevelLabel(lesson.level)}</span>
+              </div>
 
-        <div className="takeaways-card animate-fade delay-2">
-          <h3 className="takeaways-title">{t.keyTakeaways}</h3>
-          {(language === 'bn' && lesson.takeawaysBn ? lesson.takeawaysBn : lesson.takeaways).map((takeaway, i) => (
-            <div key={i} className="takeaway-item">
-              <span className="takeaway-dot" />
-              <span>{takeaway}</span>
+              <div className="content-card">
+                <div className="content-text">
+                  {(language === 'bn' && lesson.contentBn ? lesson.contentBn : lesson.content).split('\n').map((para, i) => (
+                    <p key={i} className="mb-3">{para}</p>
+                  ))}
+                </div>
+              </div>
+
+              <div className="takeaways-card">
+                <h3 className="takeaways-title">{t.keyTakeaways}</h3>
+                <div className="takeaways-grid">
+                  {(language === 'bn' && lesson.takeawaysBn ? lesson.takeawaysBn : lesson.takeaways).map((takeaway, i) => (
+                    <div key={i} className="takeaway-item">
+                      <span className="takeaway-dot" />
+                      <span>{takeaway}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              {(lesson.code || lesson.codeBn) && (
+                <div className="code-block">
+                  <div className="code-header">
+                    <span className="code-label">{t.keyFormula}</span>
+                    <button onClick={() => copyCode(language === 'bn' && lesson.codeBn ? lesson.codeBn : lesson.code || '')} className="code-copy">{t.copy}</button>
+                  </div>
+                  <pre className="code-content">{language === 'bn' && lesson.codeBn ? lesson.codeBn : lesson.code}</pre>
+                </div>
+              )}
             </div>
           ))}
         </div>
 
-        {(lesson.code || lesson.codeBn) && (
-          <div className="code-block animate-fade delay-3">
-            <div className="code-header">
-              <span className="code-label">{t.keyFormula}</span>
-              <button onClick={() => copyCode(language === 'bn' && lesson.codeBn ? lesson.codeBn : lesson.code || '')} className="code-copy">{t.copy}</button>
-            </div>
-            <pre className="code-content">{language === 'bn' && lesson.codeBn ? lesson.codeBn : lesson.code}</pre>
-          </div>
-        )}
-
-        <div className="nav-buttons animate-fade delay-4">
+        {/* Navigation */}
+        <div className="nav-buttons animate-fade">
           <button 
             onClick={() => navigate('prev')} 
-            disabled={currentModule === 0 && currentLesson === 0}
+            disabled={currentModule === 0}
             className="nav-btn nav-btn-secondary"
           >
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
             </svg>
-            Previous
+            Previous Module
           </button>
-          <span className="nav-counter">{currentPosition} / {totalLessons}</span>
+          <span className="nav-counter">{currentModule + 1} / {modules.length}</span>
           <button onClick={() => navigate('next')} className="nav-btn nav-btn-primary">
-            Next
+            Next Module
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            </svg>
+          </button>
+        </div>
+
+        {/* Go Top / Go Bottom Buttons */}
+        <div className="scroll-buttons scroll-buttons-top">
+          <button 
+            onClick={() => window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })} 
+            className="scroll-btn"
+            title="Go to bottom"
+          >
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+            </svg>
+          </button>
+        </div>
+        <div className="scroll-buttons scroll-buttons-bottom">
+          <button 
+            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} 
+            className="scroll-btn"
+            title="Go to top"
+          >
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 15l7-7 7 7" />
             </svg>
           </button>
         </div>

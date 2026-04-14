@@ -97,6 +97,229 @@
   color: var(--accent);
 }
 
+/* Module Page Styles */
+.module-header {
+  margin-bottom: 2rem;
+}
+
+.module-meta {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.module-subtitle {
+  font-size: 0.875rem;
+  color: var(--text-dim);
+}
+
+.module-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--text-main);
+}
+
+.module-lessons-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.lesson-section {
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 2rem;
+}
+
+.lesson-section:last-child {
+  border-bottom: none;
+}
+
+.lesson-header-inline {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.lesson-number {
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--accent);
+  color: black;
+  font-weight: 600;
+  border-radius: 0.5rem;
+}
+
+.lesson-title-inline {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-main);
+  flex: 1;
+}
+
+.level-tag-small {
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.takeaways-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.75rem;
+}
+
+@media (max-width: 768px) {
+  .takeaways-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .module-title {
+    font-size: 1.75rem;
+  }
+  
+  .lesson-title-inline {
+    font-size: 1.125rem;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .lesson-header-inline {
+    flex-wrap: wrap;
+  }
+}
+
+/* Sidebar Submenu */
+.sidebar-module {
+  margin-bottom: 0.25rem;
+}
+
+.sidebar-expand-btn {
+  margin-left: auto;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  color: var(--text-dim);
+  transition: all 0.2s;
+}
+
+.sidebar-expand-btn:hover {
+  background: var(--bg-hover);
+  color: var(--accent);
+}
+
+.sidebar-submenu {
+  margin-left: 1.5rem;
+  padding-left: 0.75rem;
+  border-left: 2px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.sidebar-subitem {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  border-radius: 0.375rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.sidebar-subitem:hover {
+  background: var(--bg-hover);
+  color: var(--text-main);
+}
+
+.sidebar-subitem.active {
+  background: var(--accent-glow);
+  color: var(--accent);
+}
+
+.subitem-number {
+  color: var(--accent);
+  font-weight: 500;
+}
+
+.scroll-buttons {
+  position: fixed;
+  right: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  z-index: 30;
+}
+
+.scroll-buttons-top {
+  position: fixed;
+  top: 5rem;
+}
+
+.scroll-buttons-bottom {
+  position: fixed;
+  bottom: 2rem;
+}
+
+.scroll-btn {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: var(--accent);
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.scroll-btn:hover {
+  background: var(--accent-dim);
+  transform: scale(1.1);
+}
+
+.light-theme .scroll-buttons {
+  right: 1rem;
+}
+
+
+
+.scroll-btn {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: var(--accent);
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.scroll-btn:hover {
+  background: var(--accent-dim);
+  transform: scale(1.1);
+}
+
+.light-theme .scroll-buttons {
+  bottom: 1rem;
+  right: 1rem;
+}
+
+.light-theme .scroll-btn {
+  background: var(--accent);
+}
+
 .light-theme .language-toggle,
 .light-theme .theme-toggle {
   background: var(--bg-hover);
