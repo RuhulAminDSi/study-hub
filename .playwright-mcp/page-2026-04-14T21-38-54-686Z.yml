@@ -1,0 +1,119 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - button [active] [ref=e126] [cursor=pointer]:
+      - img [ref=e127]
+    - heading "StudyHub" [level=1] [ref=e5]
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - img [ref=e8]
+        - textbox "পাঠ খুজুন..." [ref=e10]
+      - button [ref=e11] [cursor=pointer]:
+        - img [ref=e12]
+      - button "লাইট" [ref=e14] [cursor=pointer]:
+        - img [ref=e15]
+      - button "English" [ref=e17] [cursor=pointer]
+      - img [ref=e18]
+      - generic [ref=e21]: 2%
+  - complementary [ref=e22]:
+    - generic [ref=e23]:
+      - heading "মডিউল" [level=2] [ref=e24]
+      - generic [ref=e25] [cursor=pointer]:
+        - generic [ref=e26]: "1"
+        - generic [ref=e27]: ১. পদার্থবিদ্যার মূল ধারণা
+      - generic [ref=e28] [cursor=pointer]:
+        - generic [ref=e29]: "2"
+        - generic [ref=e30]: ২. কম্পিউটার সিস্টেমের পরিচিতি
+      - generic [ref=e31] [cursor=pointer]:
+        - generic [ref=e32]: "3"
+        - generic [ref=e33]: ৩. তড়িৎ সার্কিট
+      - generic [ref=e34] [cursor=pointer]:
+        - generic [ref=e35]: "4"
+        - generic [ref=e36]: ৪. ডিজিটাল লজিক ডিজাইন
+      - generic [ref=e37] [cursor=pointer]:
+        - generic [ref=e38]: "5"
+        - generic [ref=e39]: ৫. মৌলিক ইলেকট্রনিক্স
+      - generic [ref=e40] [cursor=pointer]:
+        - generic [ref=e41]: "6"
+        - generic [ref=e42]: ৬. মাইক্রোপ্রসেসর ও ইন্টারফেসিং
+      - generic [ref=e43] [cursor=pointer]:
+        - generic [ref=e44]: "7"
+        - generic [ref=e45]: ৭. কম্পিউটার আর্কিটেকচার
+      - generic [ref=e46] [cursor=pointer]:
+        - generic [ref=e47]: "8"
+        - generic [ref=e48]: ৮. যোগাযোগ তত্ত্ব
+      - generic [ref=e49] [cursor=pointer]:
+        - generic [ref=e50]: "9"
+        - generic [ref=e51]: ৯. কম্পিউটার নেটওয়ার্কিং ও নিরাপত্তা
+      - generic [ref=e52] [cursor=pointer]:
+        - generic [ref=e53]: "10"
+        - generic [ref=e54]: ১০. স্ট্রাকচার্ড প্রোগ্রামিং ল্যাংগুয়েজ (C)
+      - generic [ref=e55] [cursor=pointer]:
+        - generic [ref=e56]: "11"
+        - generic [ref=e57]: ১১. অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং (OOP)
+      - generic [ref=e58] [cursor=pointer]:
+        - generic [ref=e59]: "12"
+        - generic [ref=e60]: ১২. ডিসক্রিট গণিত
+      - generic [ref=e61] [cursor=pointer]:
+        - generic [ref=e62]: "13"
+        - generic [ref=e63]: ১৩. গ্রাফ তত্ত্ব
+      - generic [ref=e64] [cursor=pointer]:
+        - generic [ref=e65]: "14"
+        - generic [ref=e66]: ১৪. গণনার তত্ত্ব
+      - generic [ref=e67] [cursor=pointer]:
+        - generic [ref=e68]: "15"
+        - generic [ref=e69]: ১৫. ডেটা স্ট্রাকচার ও অ্যালগরিদম
+      - generic [ref=e70] [cursor=pointer]:
+        - generic [ref=e71]: "16"
+        - generic [ref=e72]: ১৬. ডেটাবেস সিস্টেম
+      - generic [ref=e73] [cursor=pointer]:
+        - generic [ref=e74]: "17"
+        - generic [ref=e75]: ১৭. সফটওয়্যার ইঞ্জিনিয়ারিং
+      - generic [ref=e76] [cursor=pointer]:
+        - generic [ref=e77]: "18"
+        - generic [ref=e78]: ১৮. অপারেটিং সিস্টেম
+      - generic [ref=e79] [cursor=pointer]:
+        - generic [ref=e80]: "19"
+        - generic [ref=e81]: ১৯. আর্টিফিসিয়াল ইন্টেলিজেন্স
+  - main [ref=e82]:
+    - generic [ref=e83]:
+      - generic [ref=e84]:
+        - generic [ref=e85]: শুরু
+        - generic [ref=e86]: ১. পদার্থবিদ্যার মূল ধারণা • পাঠ 1 / 4
+      - heading "তড়িৎচুম্বকত্বের মূল ধারণা" [level=1] [ref=e87]
+    - generic [ref=e89]:
+      - paragraph [ref=e90]: আধান, কুলম্বের সূত্র, তড়িৎক্ষেত্র, গাউসের সূত্র, তড়িৎবিভব, চুম্বকক্ষেত্র, ফ্যারাডের সূত্র, ম্যাক্সওয়েলের সমীকরণ।
+      - paragraph
+      - paragraph [ref=e91]: "⚡ আধান: পদার্থের একটি মৌলিক ধর্ম যা তড়িৎচুম্বকীয় মিথস্ক্রিয়া সৃষ্টি করে। প্রকার: ধনবাহী (+) এবং ঋণবাহী (-)। একক: কুলম্ব (C)। সংরক্ষণ: আধান তৈরি বা ধ্বংস করা যায় না, শুধু স্থানান্তর করা যায়।"
+      - paragraph
+      - paragraph [ref=e92]: "⚡ কুলম্বের সূত্র: দুটি তড়িৎআধানের মধ্যে বল: F = k(q1×q2)/r²। বল বিপরীত আধানের জন্য আকর্ষণকারক, একই রকম আধানের জন্য বিকর্ষণকারক।"
+      - paragraph
+      - paragraph [ref=e93]: "⚡ তড়িৎক্ষেত্র (E): চার্জযুক্ত কণার চারপাশে অঞ্চল যেখানে এটি অন্যান্য আধানের উপর বল প্রয়োগ করে। E = F/q। একক: N/C বা V/m।"
+      - paragraph
+      - paragraph [ref=e94]: "⚡ গাউসের সূত্র: বদ্ধ পৃষ্ঠের মধ্য দিয়ে তড়িৎফ্লাক্স = আবদ্ধ আধান/ε₀। প্রতিসম আধান বিতরণের তড়িৎক্ষেত্র গণনা করতে ব্যবহৃত হয়।"
+      - paragraph
+      - paragraph [ref=e95]: "⚡ তড়িৎবিভব (V): অসীম থেকে একটি বিন্দুতে একক ধনবাহী আধান আনতে করা কাজ। V = W/q। একক: ভোল্ট (V)।"
+      - paragraph
+      - paragraph [ref=e96]: "🧲 চুম্বকক্ষেত্র: চলমান আধান ব চুম্বকের চারপাশে অঞ্চল যেখানে চুম্বকীয় বল কাজ করে। একক: টেসলা (T)। চলমান আধান এবং স্থায়ী চুম্বক দ্বারা তৈরি।"
+      - paragraph
+      - paragraph [ref=e97]: "🧲 ফ্যারাডের সূত্র: পরিবর্তনশীল চুম্বকক্ষেত্র EMF প্রবর্তন করে। EMF = -dΦB/dt।"
+      - paragraph
+      - paragraph [ref=e98]: "🌐 ম্যাক্সওয়েলের সমীকরণ: সমস্ত ক্লাসিক্যাল তড়িৎচুম্বকত্ব বর্ণনা করে ৪টি মৌলিক সূত্র।"
+    - generic [ref=e99]:
+      - heading "গুরুত্বপূর্ণ বিষয়" [level=3] [ref=e100]
+      - generic [ref=e103]: আধান + এবং - প্রকার সহ মৌলিক ধর্ম
+      - generic [ref=e106]: কুলম্বের সূত্র আধানের মধ্যে বল সংজ্ঞায়িত করে
+      - generic [ref=e109]: তড়িৎক্ষেত্র = একক আধান প্রতি বল
+      - generic [ref=e112]: ম্যাক্সওয়েলের সমীকরণ সমস্ত তড়িৎচুম্বকত্ব একত্রিত করে
+    - generic [ref=e113]:
+      - generic [ref=e114]:
+        - generic [ref=e115]: গুরুত্বপূর্ণ সূত্র
+        - button "কপি" [ref=e116] [cursor=pointer]
+      - generic [ref=e117]: F = k × (q1 × q2) / r² E = F/q V = W/q EMF = -dΦB/dt
+    - generic [ref=e118]:
+      - button "Previous" [disabled] [ref=e119]:
+        - img [ref=e120]
+        - text: Previous
+      - generic [ref=e122]: 1 / 50
+      - button "Next" [ref=e123] [cursor=pointer]:
+        - text: Next
+        - img [ref=e124]

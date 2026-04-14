@@ -527,12 +527,14 @@ body.bengali {
     bottom: 0;
     width: 280px;
     transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
     transition: transform 0.3s ease;
     z-index: 90;
   }
   
   .sidebar.open {
     transform: translateX(0);
+    -webkit-transform: translateX(0);
   }
   
   .main-content {
@@ -540,6 +542,27 @@ body.bengali {
     margin-top: 64px;
     padding: 24px;
     width: 100%;
+  }
+
+  .navbar-actions {
+    gap: 6px;
+  }
+  
+  .language-toggle, .theme-toggle {
+    padding: 6px 8px;
+    font-size: 0.7rem;
+  }
+
+  .search-input {
+    display: none;
+  }
+  
+  .search-box:hover .search-input,
+  .search-box:focus-within .search-input {
+    display: block;
+    position: absolute;
+    right: 0;
+    width: 200px;
   }
   
   .navbar-brand {
