@@ -1008,7 +1008,7 @@ function App() {
               strokeDasharray={`${progress}, 100`}
               d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
             />
-            <text x="18" y="20.5" textAnchor="middle" fill="var(--text-main)" fontSize="8" fontWeight="600" dominantBaseline="middle">{progress}%</text>
+            <text x="18" y="20.5" textAnchor="middle" fill="var(--text-main)" fontSize="9" fontWeight="600" dominantBaseline="middle">{progress}%</text>
           </svg>
         </div>
       </nav>
