@@ -32,6 +32,10 @@ const translations = {
     copy: "Copy",
     copied: "Copied!",
     progress: "Progress",
+    search: "Search lessons...",
+    darkMode: "Dark",
+    lightMode: "Light",
+    noResults: "No results found",
   },
   bn: {
     modules: "মডিউল",
@@ -43,6 +47,10 @@ const translations = {
     copy: "কপি",
     copied: "কপি হয়েছে!",
     progress: "অগ্রগতি",
+    search: "পাঠ খুজুন...",
+    darkMode: "ডার্ক",
+    lightMode: "লাইট",
+    noResults: "কোনো ফলাফল পাওয়া যায়নি",
   }
 }
 
@@ -843,6 +851,21 @@ function App() {
   const [currentLesson, setCurrentLesson] = useState(0)
   const [sidebarOpen, setSidebarOpen] = useState(false)
   const [language, setLanguage] = useState<'en' | 'bn'>('bn')
+  const [theme, setTheme] = useState<'dark' | 'light'>('dark')
+  const [searchQuery, setSearchQuery] = useState('')
+  const [showSearch, setShowSearch] = useState(false)
+
+  const searchResults = searchQuery.length >= 2 ? modules.flatMap(m => 
+    m.lessons.filter(l => 
+      (language === 'bn' && l.titleBn ? l.titleBn : l.title).toLowerCase().includes(searchQuery.toLowerCase()) ||
+      (language === 'bn' && l.contentBn ? l.contentBn : l.content).toLowerCase().includes(searchQuery.toLowerCase())
+    ).map(l => ({
+      ...l,
+      moduleTitle: language === 'bn' && m.titleBn ? m.titleBn : m.title,
+      moduleIndex: modules.indexOf(m),
+      lessonIndex: m.lessons.indexOf(l)
+    }))
+  ).slice(0, 10) : []
 
   const t = translations[language]
 
@@ -879,7 +902,7 @@ function App() {
   }
 
   return (
-    <div className={`min-h-screen ${language === 'bn' ? 'bengali' : ''}`}>
+    <div className={`min-h-screen ${language === 'bn' ? 'bengali' : ''} ${theme === 'light' ? 'light-theme' : ''}`}>
       <div className="app-bg" />
       
       {/* Navbar */}
@@ -893,7 +916,58 @@ function App() {
           </svg>
         </button>
         <h1 className="navbar-brand">StudyHub</h1>
-        <div className="navbar-progress">
+        <div className="navbar-actions">
+          <div className="search-box">
+            <svg className="search-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+            </svg>
+            <input
+              type="text"
+              className="search-input"
+              placeholder={t.search}
+              value={searchQuery}
+              onChange={(e) => { setSearchQuery(e.target.value); setShowSearch(true); }}
+              onFocus={() => setShowSearch(true)}
+            />
+            {showSearch && searchQuery.length >= 2 && (
+              <div className="search-results">
+                {searchResults.length > 0 ? searchResults.map((result, i) => (
+                  <div
+                    key={i}
+                    className="search-result-item"
+                    onClick={() => { setCurrentModule(result.moduleIndex); setCurrentLesson(result.lessonIndex); setSearchQuery(''); setShowSearch(false); }}
+                  >
+                    <div className="search-result-title">{language === 'bn' && result.titleBn ? result.titleBn : result.title}</div>
+                    <div className="search-result-module">{result.moduleTitle}</div>
+                  </div>
+                )) : (
+                  <div className="search-result-item">
+                    <div className="search-result-title">{t.noResults}</div>
+                  </div>
+                )}
+              </div>
+            )}
+          </div>
+          <button onClick={() => setShowSearch(false)} className="theme-toggle">
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              {showSearch ? (
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+              ) : (
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+              )}
+            </svg>
+          </button>
+          <button onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')} className="theme-toggle" title={theme === 'dark' ? t.lightMode : t.darkMode}>
+            {theme === 'dark' ? (
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+              </svg>
+            ) : (
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20.354 15.354A9 9 0 018.646 3.646 9.75 9.75 0 0012 21.75 9.75 9.75 0 0020.354 15.354z" />
+              </svg>
+            )}
+          </button>
           <button
             onClick={() => setLanguage(language === 'en' ? 'bn' : 'en')}
             className="language-toggle"
