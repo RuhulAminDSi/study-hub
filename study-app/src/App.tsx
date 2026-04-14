@@ -856,7 +856,6 @@ function App() {
   const [language, setLanguage] = useState<'en' | 'bn'>('bn')
   const [theme, setTheme] = useState<'dark' | 'light'>('dark')
   const [searchQuery, setSearchQuery] = useState('')
-  const [showSearch, setShowSearch] = useState(false)
 
   const searchResults = searchQuery.length >= 2 ? modules.flatMap(m => 
     m.lessons.filter(l => 
@@ -969,42 +968,25 @@ function App() {
               value={searchQuery}
               onChange={(e) => { setSearchQuery(e.target.value); }}
             />
+            {searchQuery.length >= 2 && (
+              <div className="search-results-mobile">
+                {searchResults.length > 0 ? searchResults.map((result, i) => (
+                  <div
+                    key={i}
+                    className="search-result-item"
+                    onClick={() => { setCurrentModule(result.moduleIndex); setCurrentLesson(result.lessonIndex); setExpandedModule(result.moduleIndex); setSearchQuery(''); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
+                  >
+                    <div className="search-result-title">{language === 'bn' && result.titleBn ? result.titleBn : result.title}</div>
+                    <div className="search-result-module">{result.moduleTitle}</div>
+                  </div>
+                )) : (
+                  <div className="search-result-item">
+                    <div className="search-result-title">{t.noResults}</div>
+                  </div>
+                )}
+              </div>
+            )}
           </div>
-          <button onClick={() => setShowSearch(!showSearch)} className="theme-toggle" title="Search">
-            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-            </svg>
-          </button>
-          {showSearch && (
-            <div className="search-dropdown">
-              <input
-                type="text"
-                className="search-input"
-                placeholder={t.search}
-                value={searchQuery}
-                onChange={(e) => { setSearchQuery(e.target.value); }}
-                autoFocus
-              />
-              {searchQuery.length >= 2 && (
-                <div className="search-results">
-                  {searchResults.length > 0 ? searchResults.map((result, i) => (
-                    <div
-                      key={i}
-                      className="search-result-item"
-                      onClick={() => { setCurrentModule(result.moduleIndex); setCurrentLesson(result.lessonIndex); setExpandedModule(result.moduleIndex); setSearchQuery(''); setShowSearch(false); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
-                    >
-                      <div className="search-result-title">{language === 'bn' && result.titleBn ? result.titleBn : result.title}</div>
-                      <div className="search-result-module">{result.moduleTitle}</div>
-                    </div>
-                  )) : (
-                    <div className="search-result-item">
-                      <div className="search-result-title">{t.noResults}</div>
-                    </div>
-                  )}
-                </div>
-              )}
-            </div>
-          )}
           <button onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')} className="theme-toggle" title={theme === 'dark' ? t.lightMode : t.darkMode}>
             {theme === 'dark' ? (
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -1022,24 +1004,27 @@ function App() {
           >
             {language === 'en' ? 'বাংলা' : 'English'}
           </button>
-          <svg className="progress-ring" viewBox="0 0 36 36">
-            <path
-              stroke="var(--text-dim)"
-              strokeWidth="3"
-              fill="none"
-              d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
-            />
-            <path
-              className="progress-ring-circle"
-              stroke="var(--accent)"
-              strokeWidth="3"
-              fill="none"
-              strokeLinecap="round"
-              strokeDasharray={`${progress}, 100`}
-              d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
-            />
-            <text x="18" y="20.5" textAnchor="middle" fill="var(--text-main)" fontSize="9" fontWeight="600" dominantBaseline="middle">{progress}%</text>
-          </svg>
+          <div className="navbar-progress">
+            <svg className="progress-ring" viewBox="0 0 36 36">
+              <path
+                stroke="var(--text-dim)"
+                strokeWidth="3"
+                fill="none"
+                d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
+              />
+              <path
+                className="progress-ring-circle"
+                stroke="var(--accent)"
+                strokeWidth="3"
+                fill="none"
+                strokeLinecap="round"
+                strokeDasharray={`${progress}, 100`}
+                d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
+              />
+              <text x="18" y="20.5" textAnchor="middle" fill="var(--text-main)" fontSize="9" fontWeight="600" dominantBaseline="middle">{progress}%</text>
+            </svg>
+            <span className="progress-text-mobile">{progress}%</span>
+          </div>
         </div>
       </nav>
 

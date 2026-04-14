@@ -921,6 +921,7 @@ body {
   .search-box-mobile {
     order: 2;
     display: block;
+    position: relative;
   }
 
   .search-input-mobile {
@@ -930,8 +931,33 @@ body {
     font-size: 0.7rem;
   }
 
+  .search-results-mobile {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    margin-top: 4px;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1000;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+  }
+
   .navbar-progress {
-    display: none;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-left: auto;
+  }
+
+  .progress-text-mobile {
+    display: block;
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: var(--accent);
   }
 
   .language-toggle, .theme-toggle {
@@ -945,6 +971,16 @@ body {
 
   .progress-ring {
     display: none;
+  }
+
+  .scroll-buttons {
+    right: 0.5rem;
+    bottom: 1rem;
+  }
+
+  .scroll-btn {
+    width: 40px;
+    height: 40px;
   }
 }
 
