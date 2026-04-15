@@ -404,9 +404,9 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  height: 64px;
-  background: var(--bg-sidebar);
-  border-bottom: 1px solid var(--border);
+  height: 53px;
+  background: #0d0d0d;
+  border-bottom: 1px solid #262626;
   z-index: 100;
   display: flex;
   align-items: center;
@@ -1047,6 +1047,7 @@ body {
     max-width: 300px;
     transform: translateX(-100%);
     -webkit-transform: translateX(-100%);
+    background: #0d0d0d;
   }
   
   .sidebar.open {
@@ -1110,9 +1111,10 @@ body {
   .navbar {
     padding: 8px 12px;
     gap: 8px;
-    height: auto;
-    min-height: auto;
+    height: 53px;
+    min-height: 53px;
     position: fixed;
+    background: #0d0d0d;
   }
 
   .navbar-brand {
