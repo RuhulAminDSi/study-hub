@@ -26,6 +26,16 @@
   --border: #d4d4d4;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg-main);
+}
+
+.light-theme body {
+  background: #f5f5f5;
+}
+
 .light-theme .app-bg {
   background: 
     radial-gradient(ellipse at 0% 0%, rgba(245, 158, 11, 0.08) 0%, transparent 50%),
@@ -347,6 +357,22 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg-main);
+}
+
+#root {
+  margin: 0;
+  padding: 0;
 }
 
 body {
