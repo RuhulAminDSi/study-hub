@@ -1,39 +1,7 @@
 import { useState, useEffect } from 'react'
 import './index.css'
-import { modules } from './data/modules'
-
-const translations = {
-  en: {
-    modules: "Modules",
-    lesson: "Lesson",
-    previous: "Previous",
-    next: "Next",
-    keyTakeaways: "Key Takeaways",
-    keyFormula: "Key Formula",
-    copy: "Copy",
-    copied: "Copied!",
-    progress: "Progress",
-    search: "Search lessons...",
-    darkMode: "Dark",
-    lightMode: "Light",
-    noResults: "No results found",
-  },
-  bn: {
-    modules: "মডিউল",
-    lesson: "পাঠ",
-    previous: "আগে",
-    next: "পরে",
-    keyTakeaways: "গুরুত্বপূর্ণ বিষয়",
-    keyFormula: "গুরুত্বপূর্ণ সূত্র",
-    copy: "কপি",
-    copied: "কপি হয়েছে!",
-    progress: "অগ্রগতি",
-    search: "পাঠ খুজুন...",
-    darkMode: "ডার্ক",
-    lightMode: "লাইট",
-    noResults: "কোনো ফলাফল পাওয়া যায়নি",
-  }
-}
+import { modules } from './data/modules/index'
+import { translations } from './data/translations'
 
 function App() {
   const [currentModule, setCurrentModule] = useState(0)
@@ -302,7 +270,7 @@ function App() {
       <main className="main-content">
         <div className="module-header animate-fade">
           <div className="module-meta">
-            <span className="module-subtitle">{module.lessons.length} {module.lessons.length === 1 ? 'Lesson' : 'Lessons'}</span>
+            <span className="module-subtitle">{module.lessons.length} {module.lessons.length === 1 ? t.lesson : t.lessons}</span>
           </div>
           <h1 className="module-title">{language === 'bn' && module.titleBn ? module.titleBn : module.title}</h1>
         </div>
@@ -359,11 +327,11 @@ function App() {
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
             </svg>
-            Previous Module
+            {t.previousModule}
           </button>
           <span className="nav-counter">{currentModule + 1} / {modules.length}</span>
           <button onClick={() => navigate('next')} className="nav-btn nav-btn-primary">
-            Next Module
+            {t.nextModule}
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
             </svg>
@@ -375,7 +343,7 @@ function App() {
           <button 
             onClick={() => window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })} 
             className="scroll-btn"
-            title="Go to bottom"
+            title={t.goToBottom}
             style={{ width: 48, height: 48, borderRadius: '50%', background: '#f59e0b', color: '#000', display: 'flex', alignItems: 'center', justifyContent: 'center', cursor: 'pointer', boxShadow: '0 4px 12px rgba(0,0,0,0.3)' }}
           >
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -387,7 +355,7 @@ function App() {
           <button 
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} 
             className="scroll-btn"
-            title="Go to top"
+            title={t.goToTop}
             style={{ width: 48, height: 48, borderRadius: '50%', background: '#f59e0b', color: '#000', display: 'flex', alignItems: 'center', justifyContent: 'center', cursor: 'pointer', boxShadow: '0 4px 12px rgba(0,0,0,0.3)' }}
           >
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
