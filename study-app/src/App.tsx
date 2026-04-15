@@ -1,72 +1,131 @@
-import { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 import './index.css'
 import { modules } from './data/modules/index'
 import { translations } from './data/translations'
 
-function renderContent(content: string) {
-  const lines = content.split('\n').filter(line => line.trim())
-  
-  return lines.map((line, i) => {
+function parseTable(lines: string[]): React.ReactNode | null {
+  const rows: string[][] = []
+  const borderChars = /[┌┬┐├┤└┘┴┤┬┼╋╰╮╯╭░▒▓╔╗╚╝╠╣╦╩━▀▄▌▐╫╬┄┆]/g
+
+  for (const line of lines) {
     const trimmed = line.trim()
-    
+    if (!trimmed) continue
+    if (/^[─┑▒▓│┃]{3,}$/.test(trimmed)) continue
+
+    let processed = line
+      .replace(borderChars, '')
+      .replace(/║/g, '│')
+      .replace(/▕/g, '│')
+
+    if (processed.includes('│') || processed.includes('┃')) {
+      const cells = processed.split(/[│┃]+/)
+        .map(s => s.trim())
+        .filter(s => s && s.length > 0)
+
+      if (cells.length > 0) rows.push(cells)
+    }
+  }
+
+  if (rows.length < 2) return null
+
+  return (
+    <div className="table-container">
+      <table className="styled-table">
+        <thead>
+          <tr>
+            {rows[0].map((cell, idx) => (
+              <th key={idx} dangerouslySetInnerHTML={{ __html: cell }} />
+            ))}
+          </tr>
+        </thead>
+        <tbody>
+          {rows.slice(1).map((row, rowIdx) => (
+            <tr key={rowIdx}>
+              {row.map((cell, cellIdx) => (
+                <td key={cellIdx} dangerouslySetInnerHTML={{ __html: cell }} />
+              ))}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  )
+}
+
+function isTableLine(line: string): boolean {
+  const trimmed = line.trim()
+  if (!trimmed || trimmed.length < 3) return false
+  return trimmed.includes('│') || /[┌┬┐├┤└┘┄┆─]/.test(trimmed)
+}
+
+function renderContent(content: string): React.ReactNode[] {
+  const allLines = content.split('\n')
+  const result: React.ReactNode[] = []
+  let i = 0
+
+  while (i < allLines.length) {
+    const line = allLines[i]
+
+    if (isTableLine(line)) {
+      const tableLines: string[] = [line]
+      i++
+      while (i < allLines.length && isTableLine(allLines[i])) {
+        tableLines.push(allLines[i])
+        i++
+      }
+
+      if (tableLines.length >= 2) {
+        const table = parseTable(tableLines)
+        if (table) result.push(table)
+      }
+      continue
+    }
+
+    const trimmed = line.trim()
+    if (!trimmed) { i++; continue }
+
     if (trimmed.startsWith('<table>')) {
       const tableMatch = trimmed.match(/<table>.*?<\/table>/s)
       if (tableMatch) {
-        return <div key={i} className="lesson-table-container" dangerouslySetInnerHTML={{ __html: tableMatch[0] }} />
+        result.push(<div key={i} className="lesson-table-container" dangerouslySetInnerHTML={{ __html: tableMatch[0] }} />)
       }
-    }
-    
-    if (trimmed.match(/^[🔬⚡🌊📐🧲🌐✅⚠️✅]$/)) {
-      return <div key={i} className="section-emoji">{trimmed}</div>
-    }
-    
-    if (trimmed.match(/^🔹\s*\d+\.\s*.+/)) {
+    } else if (trimmed.match(/^[🔬⚡🌊📐🧲🌐✅⚠️]$/)) {
+      result.push(<div key={i} className="section-emoji">{trimmed}</div>)
+    } else if (trimmed.match(/^🔹\s*\d+\.\s*.+/)) {
       const match = trimmed.match(/^🔹\s*(\d+\.\s*.+)/)
-      return <h3 key={i} className="section-title">{match?.[1]}</h3>
-    }
-    
-    if (trimmed.match(/^[⚡🧲🌐🔬🌊📐✅⚠️✅]\s*\d+\.\s*.+/)) {
-      const match = trimmed.match(/^[⚡🧲🌐🔬🌊📐✅⚠️✅]\s*(\d+\.\s*.+)/)
-      return <h3 key={i} className="section-title">{match?.[1]}</h3>
-    }
-    
-    if (trimmed.startsWith('•') || trimmed.startsWith('- ')) {
+      result.push(<h3 key={i} className="section-title">{match?.[1]}</h3>)
+    } else if (trimmed.match(/^[⚡🧲🌐🔬🌊📐✅⚠️]\s*\d+\.\s*.+/)) {
+      const match = trimmed.match(/^[⚡🧲🌐🔬🌊📐✅⚠️]\s*(\d+\.\s*.+)/)
+      result.push(<h3 key={i} className="section-title">{match?.[1]}</h3>)
+    } else if (trimmed.startsWith('•') || trimmed.startsWith('- ')) {
       const items = trimmed.split('\n').filter(l => l.trim().startsWith('•') || l.trim().startsWith('- '))
-      return (
+      result.push(
         <ul key={i} className="bullet-list">
-          {items.map((item, j) => <li key={j}>{item.replace(/^[•-]\s*/, '').replace(/^[⚡🧲🌐🔬🌊📐✅⚠️✅]\s*/, '')}</li>)}
+          {items.map((item, j) => <li key={j}>{item.replace(/^[•-]\s*/, '').replace(/^[⚡🧲🌐🔬🌊📐✅⚠️]\s*/, '')}</li>)}
         </ul>
       )
-    }
-    
-    if (trimmed.match(/^যেখানে:$|^Where:$/i)) {
-      return <h4 key={i} className="subsection-title">{trimmed}</h4>
-    }
-    
-    if (trimmed.match(/^[⚡🧲🌐🔬🌊📐✅⚠️✅]\s+.+:$/) || trimmed.match(/^মূল বৈশিষ্ট্য:$|^Key Properties:$/i)) {
-      return <h4 key={i} className="subsection-title">{trimmed.replace(/^[⚡🧲🌐🔬🌊📐✅⚠️✅]\s+/, '')}</h4>
-    }
-    
-    if (trimmed.match(/^[⚡🧲🌐🔬🌊📐✅⚠️✅]\s+[A-Zঅ-ঔ].+/) && !trimmed.includes('=')) {
-      const match = trimmed.match(/^[⚡🧲🌐🔬🌊📐✅⚠️✅]\s+(.+)/)
-      return <h4 key={i} className="subsection-title">{match?.[1]}</h4>
-    }
-    
-    if (trimmed.match(/^[📐🔹⚡🌊]\s*\d+\.\s*.+/)) {
+    } else if (trimmed.match(/^যেখানে:$|^Where:$/i)) {
+      result.push(<h4 key={i} className="subsection-title">{trimmed}</h4>)
+    } else if (trimmed.match(/^[⚡🧲🌐🔬🌊📐✅⚠️]\s+.+:$/) || trimmed.match(/^মূল বৈশিষ্ট্য:$|^Key Properties:$/i)) {
+      result.push(<h4 key={i} className="subsection-title">{trimmed.replace(/^[⚡🧲🌐🔬🌊📐✅⚠️]\s+/, '')}</h4>)
+    } else if (trimmed.match(/^[⚡🧲🌐🔬🌊📐✅⚠️]\s+[A-Zঅ-ঔ].+/) && !trimmed.includes('=')) {
+      const match = trimmed.match(/^[⚡🧲🌐🔬🌊📐✅⚠️]\s+(.+)/)
+      result.push(<h4 key={i} className="subsection-title">{match?.[1]}</h4>)
+    } else if (trimmed.match(/^[📐🔹⚡🌊]\s*\d+\.\s*.+/)) {
       const match = trimmed.match(/^[📐🔹⚡🌊]\s*(\d+\.\s*.+)/)
-      return <h3 key={i} className="section-title">{match?.[1]}</h3>
+      result.push(<h3 key={i} className="section-title">{match?.[1]}</h3>)
+    } else if (trimmed.match(/^[A-Za-z].+=\s*.+$/) || trimmed.match(/^[a-z].+=\s*.+$/)) {
+      result.push(<div key={i} className="formula-line">{trimmed}</div>)
+    } else if (trimmed.match(/^✅\s*সংক্ষেপে:|^✅\s*In Short:$/i)) {
+      result.push(<h4 key={i} className="summary-title">{trimmed}</h4>)
+    } else {
+      result.push(<p key={i} className="content-paragraph">{trimmed}</p>)
     }
-    
-    if (trimmed.match(/^[A-Za-z].+=\s*.+$/) || trimmed.match(/^[a-z].+=\s*.+$/)) {
-      return <div key={i} className="formula-line">{trimmed}</div>
-    }
-    
-    if (trimmed.match(/^✅\s*সংক্ষেপে:|^✅\s*In Short:$/i)) {
-      return <h4 key={i} className="summary-title">{trimmed}</h4>
-    }
-    
-    return <p key={i} className="content-paragraph">{trimmed}</p>
-  })
+
+i++
+  }
+
+  return result
 }
 
 function App() {
@@ -99,229 +158,141 @@ function App() {
   const progress = Math.round(((lessonsBefore + currentLesson + 1) / totalLessons) * 100)
 
   useEffect(() => {
-    const handleScroll = () => {
-      const lessonElements = document.querySelectorAll('[id^="lesson-"]')
-      const navbarHeight = 70
-      
-      for (let i = lessonElements.length - 1; i >= 0; i--) {
-        const el = lessonElements[i] as HTMLElement
-        const rect = el.getBoundingClientRect()
-        if (rect.top <= navbarHeight) {
-          const id = el.id.match(/lesson-(\d+)-(\d+)/)
-          if (id) {
-            const modIdx = parseInt(id[1])
-            const lesIdx = parseInt(id[2])
-            if (modIdx !== currentModule || lesIdx !== currentLesson) {
-              setCurrentModule(modIdx)
-              setCurrentLesson(lesIdx)
-              setExpandedModule(modIdx)
-            }
-          }
-          break
-        }
-      }
-    }
-    window.addEventListener('scroll', handleScroll)
-    return () => window.removeEventListener('scroll', handleScroll)
+    document.documentElement.classList.toggle('light-theme', theme === 'light')
+  }, [theme])
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
   }, [currentModule, currentLesson])
 
-  const navigate = (dir: 'prev' | 'next') => {
-    if (dir === 'next') {
-      if (currentModule < modules.length - 1) {
-        const next = currentModule + 1
-        setCurrentModule(next)
-        setCurrentLesson(0)
-        setExpandedModule(next)
-        window.scrollTo({ top: 0, behavior: 'smooth' })
-      }
-    } else {
-      if (currentModule > 0) {
-        const prev = currentModule - 1
-        setCurrentModule(prev)
-        setCurrentLesson(0)
-        setExpandedModule(prev)
-        window.scrollTo({ top: 0, behavior: 'smooth' })
-      }
-    }
+  const goToModule = (moduleIndex: number, lessonIndex: number = 0) => {
+    setCurrentModule(moduleIndex)
+    setCurrentLesson(lessonIndex)
+    setExpandedModule(moduleIndex)
   }
 
-  const toggleModuleExpand = (idx: number) => {
-    setExpandedModule(expandedModule === idx ? null : idx)
+  const handleSearch = (e: React.FormEvent) => {
+    e.preventDefault()
   }
 
-  const copyCode = (code?: string) => {
-    if (code) navigator.clipboard.writeText(code)
-  }
+  const lesson = module?.lessons[currentLesson]
+  const lessonTitle = language === 'bn' && lesson?.titleBn ? lesson.titleBn : lesson?.title
 
   return (
-    <div className={`min-h-screen ${language === 'bn' ? 'bengali' : ''} ${theme === 'light' ? 'light-theme' : ''}`}>
-      <div className="app-bg" />
-      
-      {/* Navbar */}
+    <div className={`app-bg ${theme}`}>
       <nav className="navbar">
         <div className="navbar-top">
-          <button 
-            className="mobile-menu-btn"
-            onClick={() => setSidebarOpen(!sidebarOpen)}
-          >
+          <button className="mobile-menu-btn" onClick={() => setSidebarOpen(!sidebarOpen)}>
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
             </svg>
           </button>
           <h1 className="navbar-brand">StudyHub</h1>
-          <div className="navbar-search-desktop">
-            <input
-              type="text"
-              className="search-input-desktop"
-              placeholder={t.search}
-              value={searchQuery}
-              onChange={(e) => { setSearchQuery(e.target.value); }}
-            />
-            {searchQuery.length >= 2 && (
-              <div className="search-results-desktop">
-                {searchResults.length > 0 ? searchResults.map((result, i) => (
-                  <div
-                    key={i}
-                    className="search-result-item"
-                    onClick={() => { setCurrentModule(result.moduleIndex); setCurrentLesson(result.lessonIndex); setExpandedModule(result.moduleIndex); setSearchQuery(''); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
-                  >
-                    <div className="search-result-title">{language === 'bn' && result.titleBn ? result.titleBn : result.title}</div>
-                    <div className="search-result-module">{result.moduleTitle}</div>
-                  </div>
-                )) : (
-                  <div className="search-result-item">
-                    <div className="search-result-title">{t.noResults}</div>
-                  </div>
-                )}
-              </div>
-            )}
+          
+          <div className="navbar-search-container">
+            <form onSubmit={handleSearch} className="search-box" style={{ flex: 1 }}>
+              <input
+                type="text"
+                className="search-input"
+                placeholder={t.search}
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                onFocus={() => setSearchOpen(true)}
+                onBlur={() => setTimeout(() => setSearchOpen(false), 200)}
+              />
+              {searchOpen && searchResults.length > 0 && (
+                <div className="search-results">
+                  {searchResults.map((result, i) => (
+                    <div key={i} className="search-result-item" onMouseDown={() => {
+                      goToModule(result.moduleIndex, result.lessonIndex)
+                      setSearchQuery('')
+                    }}>
+                      <div className="search-result-title">{language === 'bn' && result.titleBn ? result.titleBn : result.title}</div>
+                      <div className="search-result-module">{result.moduleTitle}</div>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </form>
           </div>
+
           <div className="navbar-actions">
-            <button onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')} className="theme-toggle" title={theme === 'dark' ? t.lightMode : t.darkMode}>
+            <button className="theme-toggle" onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}>
               {theme === 'dark' ? (
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
                 </svg>
               ) : (
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20.354 15.354A9 9 0 018.646 3.646 9.75 9.75 0 0012 21.75 9.75 9.75 0 0020.354 15.354z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
                 </svg>
               )}
             </button>
-            <button
-              onClick={() => setLanguage(language === 'en' ? 'bn' : 'en')}
-              className="language-toggle"
-            >
-              {language === 'en' ? 'বাংলা' : 'English'}
-            </button>
-            <button 
-              className="search-toggle-btn"
-              onClick={() => setSearchOpen(!searchOpen)}
-            >
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-              </svg>
+            <button className="language-toggle" onClick={() => setLanguage(language === 'en' ? 'bn' : 'en')}>
+              {language === 'en' ? 'বাং' : 'EN'}
             </button>
             <div className="navbar-progress">
-              <svg className="progress-ring" viewBox="0 0 36 36">
-                <path
-                  stroke="var(--text-dim)"
-                  strokeWidth="3"
-                  fill="none"
-                  d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
-                />
-                <path
-                  className="progress-ring-circle"
-                  stroke="var(--accent)"
-                  strokeWidth="3"
-                  fill="none"
-                  strokeLinecap="round"
-                  strokeDasharray={`${progress}, 100`}
-                  d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
-                />
-                <text x="18" y="20.5" textAnchor="middle" fill="var(--text-main)" fontSize="9" fontWeight="600" dominantBaseline="middle">{progress}%</text>
-              </svg>
+              <div className="progress-circle-container">
+                <svg className="progress-ring" viewBox="0 0 36 36">
+                  <path
+                    className="progress-ring-circle-bg"
+                    d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="3"
+                  />
+                  <path
+                    className="progress-ring-circle"
+                    strokeDasharray={`${progress}, 100`}
+                    d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
+                    fill="none"
+                    stroke="var(--accent)"
+                    strokeWidth="3"
+                  />
+                </svg>
+                <span className="progress-percentage">{progress}%</span>
+              </div>
             </div>
           </div>
-          {searchOpen && (
-            <div className="navbar-search-container">
-              <input
-                type="text"
-                className="navbar-search-input"
-                placeholder={t.search}
-                value={searchQuery}
-                onChange={(e) => { setSearchQuery(e.target.value); }}
-                autoFocus
-              />
-              <button className="search-close-btn" onClick={() => { setSearchOpen(false); setSearchQuery(''); }}>
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                </svg>
-              </button>
-              {searchQuery.length >= 2 && (
-                <div className="search-results-dropdown">
-                  {searchResults.length > 0 ? searchResults.map((result, i) => (
-                    <div
-                      key={i}
-                      className="search-result-item"
-                      onClick={() => { setCurrentModule(result.moduleIndex); setCurrentLesson(result.lessonIndex); setExpandedModule(result.moduleIndex); setSearchQuery(''); setSearchOpen(false); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
-                    >
-                      <div className="search-result-title">{language === 'bn' && result.titleBn ? result.titleBn : result.title}</div>
-                      <div className="search-result-module">{result.moduleTitle}</div>
-                    </div>
-                  )) : (
-                    <div className="search-result-item">
-                      <div className="search-result-title">{t.noResults}</div>
-                    </div>
-                  )}
-                </div>
-              )}
-            </div>
-          )}
-        </div>
-      </nav>
+          </div>
+        </nav>
 
-      {/* Sidebar with Sub-menu */}
       <aside className={`sidebar ${sidebarOpen ? 'open' : ''}`}>
         <div className="sidebar-section">
           <h2 className="sidebar-title">{t.modules}</h2>
-          {modules.map((m, idx) => (
-            <div key={idx} className="sidebar-module">
-              <div
-                onClick={() => { setCurrentModule(idx); setCurrentLesson(0); setExpandedModule(idx); setSidebarOpen(false); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
-                className={`sidebar-item ${currentModule === idx ? 'active' : ''}`}
+          {modules.map((m, moduleIndex) => (
+            <div key={moduleIndex} className="sidebar-module">
+              <div 
+                className={`sidebar-item ${currentModule === moduleIndex ? 'active' : ''}`}
+                onClick={() => {
+                  setCurrentModule(moduleIndex)
+                  setCurrentLesson(0)
+                  setExpandedModule(expandedModule === moduleIndex ? null : moduleIndex)
+                }}
               >
-                <span className="sidebar-number">{idx + 1}</span>
+                <span className="sidebar-number">{moduleIndex + 1}</span>
                 <span>{language === 'bn' && m.titleBn ? m.titleBn : m.title}</span>
-                <button 
-                  className="sidebar-expand-btn"
-                  onClick={(e) => { e.stopPropagation(); toggleModuleExpand(idx); }}
-                >
-                  <svg className={`w-4 h-4 transform ${expandedModule === idx ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                  </svg>
-                </button>
+                {expandedModule === moduleIndex && (
+                  <button className="sidebar-expand-btn">
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                    </svg>
+                  </button>
+                )}
               </div>
-              {expandedModule === idx && (
+              {expandedModule === moduleIndex && (
                 <div className="sidebar-submenu">
-                  {m.lessons.map((l, lIdx) => (
-                    <div
-                      key={lIdx}
-                      className="sidebar-subitem"
-                      onClick={() => { 
-                        setCurrentModule(idx); 
-                        setCurrentLesson(lIdx);
-                        setExpandedModule(idx);
-                        setSidebarOpen(false); 
-                        const lessonEl = document.getElementById(`lesson-${idx}-${lIdx}`);
-                        if (lessonEl) {
-                          const navbarHeight = 64;
-                          const top = lessonEl.offsetTop - navbarHeight;
-                          window.scrollTo({ top: top, behavior: 'smooth' });
-                        }
+                  {m.lessons.map((l, lessonIndex) => (
+                    <div 
+                      key={lessonIndex}
+                      className={`sidebar-subitem ${currentModule === moduleIndex && currentLesson === lessonIndex ? 'active' : ''}`}
+                      onClick={() => {
+                        setCurrentModule(moduleIndex)
+                        setCurrentLesson(lessonIndex)
+                        setSidebarOpen(false)
                       }}
                     >
-                      <span className="subitem-number">{lIdx + 1}.</span>
+                      <span className="subitem-number">{lessonIndex + 1}</span>
                       <span>{language === 'bn' && l.titleBn ? l.titleBn : l.title}</span>
                     </div>
                   ))}
@@ -332,110 +303,97 @@ function App() {
         </div>
       </aside>
 
-      {/* Main Content - Module Page with All Lessons */}
       <main className="main-content">
-        <div className="module-header animate-fade">
-          <div className="module-meta">
-            <span className="module-subtitle">{module.lessons.length} {module.lessons.length === 1 ? t.lesson : t.lessons}</span>
-          </div>
-          <h1 className="module-title">{language === 'bn' && module.titleBn ? module.titleBn : module.title}</h1>
-        </div>
-
-        {/* All Lessons in this Module */}
-        <div className="module-lessons-container">
-          {module.lessons.map((lesson, idx) => (
-            <div key={idx} id={`lesson-${currentModule}-${idx}`} className="lesson-section animate-fade">
-              <div className="lesson-header-inline">
-                <span className="lesson-number">{idx + 1}</span>
-                <h2 className="lesson-title-inline">{language === 'bn' && lesson.titleBn ? lesson.titleBn : lesson.title}</h2>
+        {module && lesson && (
+          <>
+            <div className="lesson-header">
+              <div className="lesson-meta">
+                <span className={`level-tag ${lesson.level === 'Beginner' ? 'bg-green-500' : lesson.level === 'Intermediate' ? 'bg-amber-500' : 'bg-red-500'} text-black`}>
+                  {lesson.level === 'Beginner' ? (language === 'bn' ? 'শুরু' : 'Beginner') : 
+                   lesson.level === 'Intermediate' ? (language === 'bn' ? 'মধ্যম' : 'Intermediate') : 
+                   (language === 'bn' ? 'উন্নত' : 'Advanced')}
+                </span>
+                <span className="lesson-subtitle">{t.lesson} {currentLesson + 1} / {module.lessons.length}</span>
               </div>
-
-              <div className="content-card">
-                <div className="content-rendered">
-                  {renderContent(language === 'bn' && lesson.contentBn ? lesson.contentBn : lesson.content)}
-                </div>
-              </div>
-
-              <div className="takeaways-card">
-                <h3 className="takeaways-title">{t.keyTakeaways}</h3>
-                <div className="takeaways-grid">
-                  {(language === 'bn' && lesson.takeawaysBn ? lesson.takeawaysBn : lesson.takeaways).map((takeaway, i) => (
-                    <div key={i} className="takeaway-item">
-                      <span className="takeaway-dot" />
-                      <span>{takeaway}</span>
-                    </div>
-                  ))}
-                </div>
-              </div>
-
-              {(lesson.code || lesson.codeBn) && (
-                <div className="code-block">
-                  <div className="code-header">
-                    <span className="code-label">{t.keyFormula}</span>
-                    <button onClick={() => copyCode(language === 'bn' && lesson.codeBn ? lesson.codeBn : lesson.code || '')} className="code-copy">{t.copy}</button>
-                  </div>
-                  <pre className="code-content">{language === 'bn' && lesson.codeBn ? lesson.codeBn : lesson.code}</pre>
-                </div>
-              )}
+              <h1 className="lesson-title">{lessonTitle}</h1>
             </div>
-          ))}
-        </div>
 
-        {/* Navigation */}
-        <div className="nav-buttons animate-fade">
+            <div className="content-rendered">
+              {renderContent(language === 'bn' && lesson.contentBn ? lesson.contentBn : lesson.content)}
+            </div>
+
+            <div className="takeaways-card">
+              <h3 className="takeaways-title">{t.keyTakeaways}</h3>
+              <ul className="bullet-list">
+                {(language === 'bn' && lesson.takeawaysBn ? lesson.takeawaysBn : lesson.takeaways).map((takeaway, i) => (
+                  <li key={i}>{takeaway}</li>
+                ))}
+              </ul>
+            </div>
+
+            {lesson.code && (
+              <div className="code-block">
+                <div className="code-header">
+                  <span className="code-label">{t.keyFormula}</span>
+                  <button className="code-copy" onClick={() => navigator.clipboard.writeText(lesson.code || '')}>{t.copy}</button>
+                </div>
+                <pre className="code-content">{lesson.code}</pre>
+              </div>
+            )}
+          </>
+        )}
+
+        <div className="nav-buttons">
           <button 
-            onClick={() => navigate('prev')} 
-            disabled={currentModule === 0}
-            className="nav-btn nav-btn-secondary"
+            className="nav-btn nav-btn-secondary" 
+            onClick={() => {
+              if (currentLesson > 0) {
+                setCurrentLesson(currentLesson - 1)
+              } else if (currentModule > 0) {
+                setCurrentModule(currentModule - 1)
+                setCurrentLesson(modules[currentModule - 1].lessons.length - 1)
+              }
+            }}
+            disabled={currentModule === 0 && currentLesson === 0}
           >
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
             </svg>
-            {t.previousModule}
+            {t.previous}
           </button>
           <span className="nav-counter">{currentModule + 1} / {modules.length}</span>
-          <button onClick={() => navigate('next')} className="nav-btn nav-btn-primary">
-            {t.nextModule}
+          <button 
+            className="nav-btn nav-btn-primary" 
+            onClick={() => {
+              if (currentLesson < module.lessons.length - 1) {
+                setCurrentLesson(currentLesson + 1)
+              } else if (currentModule < modules.length - 1) {
+                setCurrentModule(currentModule + 1)
+                setCurrentLesson(0)
+              }
+            }}
+            disabled={currentModule === modules.length - 1 && currentLesson === module.lessons.length - 1}
+          >
+            {t.next}
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7-7" />
             </svg>
           </button>
         </div>
 
-        {/* Go Top / Go Bottom Buttons */}
-        <div className="scroll-buttons scroll-buttons-top" style={{ position: 'fixed', top: '5rem', right: '1rem', zIndex: 30, display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
-          <button 
-            onClick={() => window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })} 
-            className="scroll-btn"
-            title={t.goToBottom}
-            style={{ width: 48, height: 48, borderRadius: '50%', background: '#f59e0b', color: '#000', display: 'flex', alignItems: 'center', justifyContent: 'center', cursor: 'pointer', boxShadow: '0 4px 12px rgba(0,0,0,0.3)' }}
-          >
+        <div className="scroll-buttons">
+          <button className="scroll-btn scroll-btn-top" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} title={t.goToTop}>
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 15l7-7 7 7" />
+            </svg>
+          </button>
+          <button className="scroll-btn scroll-btn-bottom" onClick={() => window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })} title={t.goToBottom}>
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
             </svg>
           </button>
         </div>
-        <div className="scroll-buttons scroll-buttons-bottom" style={{ position: 'fixed', bottom: '2rem', right: '1rem', zIndex: 30, display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
-          <button 
-            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} 
-            className="scroll-btn"
-            title={t.goToTop}
-            style={{ width: 48, height: 48, borderRadius: '50%', background: '#f59e0b', color: '#000', display: 'flex', alignItems: 'center', justifyContent: 'center', cursor: 'pointer', boxShadow: '0 4px 12px rgba(0,0,0,0.3)' }}
-          >
-            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 15l7-7 7 7" />
-            </svg>
-          </button>
-        </div>
       </main>
-
-      {/* Mobile Overlay */}
-      {sidebarOpen && (
-        <div 
-          className="fixed inset-0 bg-black/50 z-40 md:hidden"
-          onClick={() => setSidebarOpen(false)}
-        />
-      )}
     </div>
   )
 }
