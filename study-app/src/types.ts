@@ -32,4 +32,10 @@ export interface Translations {
   darkMode: string
   lightMode: string
   noResults: string
+  studyHub: string
+  previousModule: string
+  nextModule: string
+  lessons: string
+  goToBottom: string
+  goToTop: string
 }

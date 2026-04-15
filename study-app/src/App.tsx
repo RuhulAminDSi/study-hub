@@ -3,6 +3,72 @@ import './index.css'
 import { modules } from './data/modules/index'
 import { translations } from './data/translations'
 
+function renderContent(content: string) {
+  const lines = content.split('\n').filter(line => line.trim())
+  
+  return lines.map((line, i) => {
+    const trimmed = line.trim()
+    
+    if (trimmed.startsWith('<table>')) {
+      const tableMatch = trimmed.match(/<table>.*?<\/table>/s)
+      if (tableMatch) {
+        return <div key={i} className="lesson-table-container" dangerouslySetInnerHTML={{ __html: tableMatch[0] }} />
+      }
+    }
+    
+    if (trimmed.match(/^[🔬⚡🌊📐🧲🌐✅⚠️✅]$/)) {
+      return <div key={i} className="section-emoji">{trimmed}</div>
+    }
+    
+    if (trimmed.match(/^🔹\s*\d+\.\s*.+/)) {
+      const match = trimmed.match(/^🔹\s*(\d+\.\s*.+)/)
+      return <h3 key={i} className="section-title">{match?.[1]}</h3>
+    }
+    
+    if (trimmed.match(/^[⚡🧲🌐🔬🌊📐✅⚠️✅]\s*\d+\.\s*.+/)) {
+      const match = trimmed.match(/^[⚡🧲🌐🔬🌊📐✅⚠️✅]\s*(\d+\.\s*.+)/)
+      return <h3 key={i} className="section-title">{match?.[1]}</h3>
+    }
+    
+    if (trimmed.startsWith('•') || trimmed.startsWith('- ')) {
+      const items = trimmed.split('\n').filter(l => l.trim().startsWith('•') || l.trim().startsWith('- '))
+      return (
+        <ul key={i} className="bullet-list">
+          {items.map((item, j) => <li key={j}>{item.replace(/^[•-]\s*/, '').replace(/^[⚡🧲🌐🔬🌊📐✅⚠️✅]\s*/, '')}</li>)}
+        </ul>
+      )
+    }
+    
+    if (trimmed.match(/^যেখানে:$|^Where:$/i)) {
+      return <h4 key={i} className="subsection-title">{trimmed}</h4>
+    }
+    
+    if (trimmed.match(/^[⚡🧲🌐🔬🌊📐✅⚠️✅]\s+.+:$/) || trimmed.match(/^মূল বৈশিষ্ট্য:$|^Key Properties:$/i)) {
+      return <h4 key={i} className="subsection-title">{trimmed.replace(/^[⚡🧲🌐🔬🌊📐✅⚠️✅]\s+/, '')}</h4>
+    }
+    
+    if (trimmed.match(/^[⚡🧲🌐🔬🌊📐✅⚠️✅]\s+[A-Zঅ-ঔ].+/) && !trimmed.includes('=')) {
+      const match = trimmed.match(/^[⚡🧲🌐🔬🌊📐✅⚠️✅]\s+(.+)/)
+      return <h4 key={i} className="subsection-title">{match?.[1]}</h4>
+    }
+    
+    if (trimmed.match(/^[📐🔹⚡🌊]\s*\d+\.\s*.+/)) {
+      const match = trimmed.match(/^[📐🔹⚡🌊]\s*(\d+\.\s*.+)/)
+      return <h3 key={i} className="section-title">{match?.[1]}</h3>
+    }
+    
+    if (trimmed.match(/^[A-Za-z].+=\s*.+$/) || trimmed.match(/^[a-z].+=\s*.+$/)) {
+      return <div key={i} className="formula-line">{trimmed}</div>
+    }
+    
+    if (trimmed.match(/^✅\s*সংক্ষেপে:|^✅\s*In Short:$/i)) {
+      return <h4 key={i} className="summary-title">{trimmed}</h4>
+    }
+    
+    return <p key={i} className="content-paragraph">{trimmed}</p>
+  })
+}
+
 function App() {
   const [currentModule, setCurrentModule] = useState(0)
   const [currentLesson, setCurrentLesson] = useState(0)
@@ -285,10 +351,8 @@ function App() {
               </div>
 
               <div className="content-card">
-                <div className="content-text">
-                  {(language === 'bn' && lesson.contentBn ? lesson.contentBn : lesson.content).split('\n').map((para, i) => (
-                    <p key={i} className="mb-3">{para}</p>
-                  ))}
+                <div className="content-rendered">
+                  {renderContent(language === 'bn' && lesson.contentBn ? lesson.contentBn : lesson.content)}
                 </div>
               </div>
 

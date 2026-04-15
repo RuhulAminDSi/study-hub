@@ -687,11 +687,120 @@ body {
   margin-bottom: 32px;
 }
 
-.content-text {
+.content-rendered {
   color: var(--text-muted);
-  line-height: 1.8;
+  line-height: 1.9;
+  font-size: 1.05rem;
+}
+
+.content-rendered .section-emoji {
+  font-size: 1.5rem;
+  margin: 1.5rem 0 0.5rem;
+}
+
+.content-rendered .section-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--text-main);
+  margin: 1.5rem 0 0.75rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--accent);
+  display: inline-block;
+}
+
+.content-rendered .subsection-title {
   font-size: 1rem;
-  white-space: pre-line;
+  font-weight: 600;
+  color: var(--accent);
+  margin: 1.25rem 0 0.5rem;
+}
+
+.content-rendered .summary-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--accent);
+  margin: 1.5rem 0 0.75rem;
+  padding: 0.75rem 1rem;
+  background: rgba(245, 158, 11, 0.1);
+  border-radius: 8px;
+  border-left: 3px solid var(--accent);
+}
+
+.content-rendered .bullet-list {
+  margin: 0.75rem 0;
+  padding-left: 1.25rem;
+}
+
+.content-rendered .bullet-list li {
+  margin: 0.5rem 0;
+  list-style-type: disc;
+  color: var(--text-muted);
+}
+
+.content-rendered .bullet-list li::marker {
+  color: var(--accent);
+}
+
+.content-rendered .formula-line {
+  font-family: 'JetBrains Mono', monospace;
+  color: var(--accent);
+  background: rgba(0, 0, 0, 0.3);
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  margin: 0.5rem 0;
+  font-size: 0.95rem;
+  overflow-x: auto;
+}
+
+.content-rendered .content-paragraph {
+  margin: 0.6rem 0;
+}
+
+.content-rendered .lesson-table-container {
+  margin: 1rem 0;
+  overflow-x: auto;
+}
+
+.content-rendered .lesson-table-container table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.content-rendered .lesson-table-container table th,
+.content-rendered .lesson-table-container table td {
+  border: 1px solid var(--border);
+  padding: 12px 16px;
+  text-align: left;
+}
+
+.content-rendered .lesson-table-container table th {
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.2) 0%, rgba(245, 158, 11, 0.1) 100%);
+  color: var(--accent);
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.5px;
+}
+
+.content-rendered .lesson-table-container table tr:nth-child(even) {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.content-rendered .lesson-table-container table tr:hover {
+  background: rgba(245, 158, 11, 0.05);
+}
+
+.content-text table th {
+  background: rgba(245, 158, 11, 0.1);
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.content-text table tr:nth-child(even) {
+  background: rgba(255, 255, 255, 0.02);
 }
 
 .takeaways-card {
