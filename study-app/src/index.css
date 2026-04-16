@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=Noto+Sans+Bengali:wght@300;400;500;600;700&family=Noto+Sans:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&family=Playfair+Display:wght@400;500;600;700&family=Noto+Sans+Bengali:wght@300;400;500;600;700&family=Noto+Sans:wght@300;400;500;600;700&display=swap');
 @import "tailwindcss";
 
 :root {
@@ -41,9 +41,9 @@ body {
     radial-gradient(ellipse at 0% 0%, rgba(245, 158, 11, 0.08) 0%, transparent 50%),
     radial-gradient(ellipse at 100% 100%, rgba(245, 158, 11, 0.06) 0%, transparent 50%),
     #f5f5f5;
-  position: fixed;
-  inset: 0;
-  z-index: 0;
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
 }
 
 .light-theme .navbar {
@@ -384,7 +384,7 @@ body {
 }
 
 body {
-  font-family: 'Outfit', 'Noto Sans', 'Noto Sans Bengali', sans-serif;
+  font-family: 'Ubuntu', 'Noto Sans', 'Noto Sans Bengali', sans-serif;
   background: var(--bg-main);
   color: var(--text-main);
   overflow-x: hidden;
@@ -407,6 +407,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
+  width: 100%;
   height: 53px;
   background: #0d0d0d;
   border-bottom: 1px solid #262626;
@@ -415,6 +416,7 @@ body {
   align-items: center;
   padding: 0 24px;
   gap: 12px;
+  box-sizing: border-box;
 }
 
 .navbar-top {
@@ -713,8 +715,8 @@ body {
 
 .content-rendered {
   color: var(--text-muted);
-  line-height: 1.9;
-  font-size: 1.05rem;
+  line-height: 1.8;
+  font-size: 0.95rem;
 }
 
 .content-rendered .section-emoji {
@@ -1131,7 +1133,7 @@ body {
   
   .sidebar {
     position: fixed;
-    top: 53px;
+    top: 50px;
     left: 0;
     bottom: 0;
     width: 280px;
@@ -1148,7 +1150,7 @@ body {
   
   .main-content {
     margin-left: 0;
-    margin-top: 53px;
+    margin-top: 50px;
     padding: 24px;
     width: 100%;
   }
@@ -1170,7 +1172,16 @@ body {
 @media (max-width: 640px) {
   .main-content {
     padding: 12px;
-    margin-top: 56px;
+    margin-top: 64px;
+    font-size: 0.9rem;
+  }
+  
+  .lesson-title {
+    font-size: 1.25rem;
+  }
+  
+  .sidebar {
+    top: 56px;
   }
   
   .sidebar {
@@ -1203,7 +1214,7 @@ body {
   }
   
   .lesson-title {
-    font-size: 1.5rem;
+    font-size: 1.35rem;
   }
   
   .nav-buttons {
@@ -1265,7 +1276,7 @@ body {
   }
 
   .navbar-brand {
-    font-size: 1.1rem;
+    font-size: 1rem;
     flex: 1;
     min-width: 0;
   }
@@ -2089,4 +2100,146 @@ body {
 
 .spacer {
   height: 0.5rem;
+}
+
+/* Mobile Navbar */
+.navbar-search-mobile {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .navbar {
+    padding: 8px 12px;
+    gap: 8px;
+    height: 56px;
+    min-height: 56px;
+    position: fixed;
+    width: 100%;
+    max-width: 100%;
+    background: #0d0d0d;
+    box-sizing: border-box;
+    left: 0;
+    right: 0;
+  }
+
+  .app-bg {
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+  }
+
+  #root {
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .navbar-top {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex: 1;
+    min-width: 0;
+  }
+
+  .navbar-brand {
+    font-size: 0.85rem;
+    flex-shrink: 0;
+  }
+  
+  .navbar-search-mobile {
+    display: block;
+    flex: 1;
+    min-width: 0;
+    position: relative;
+  }
+  
+  .search-input-mobile {
+    width: 100%;
+    padding: 6px 10px;
+    border-radius: 6px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    color: var(--text-main);
+    font-size: 0.8rem;
+  }
+  
+  .search-results-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    margin-top: 4px;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 101;
+  }
+  
+  .navbar-actions {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    flex-shrink: 0;
+  }
+  
+  .theme-toggle, .language-toggle {
+    padding: 4px 6px;
+    font-size: 0.65rem;
+  }
+
+  .main-content {
+    padding: 12px;
+    margin-top: 50px;
+    font-size: 0.9rem;
+  }
+  
+  .lesson-title {
+    font-size: 1.25rem;
+  }
+  
+  .sidebar {
+    top: 50px;
+  }
+  
+  .sidebar.open {
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+  }
+}
+
+/* Sidebar Overlay */
+.sidebar-overlay {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .sidebar-overlay {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 85;
+  }
 }

@@ -153,9 +153,6 @@ function App() {
   const t = translations[language]
 
   const module = modules[currentModule]
-  const totalLessons = modules.reduce((acc, m) => acc + m.lessons.length, 0)
-  const lessonsBefore = modules.slice(0, currentModule).reduce((acc, m) => acc + m.lessons.length, 0)
-  const progress = Math.round(((lessonsBefore + currentLesson + 1) / totalLessons) * 100)
 
   useEffect(() => {
     document.documentElement.classList.toggle('light-theme', theme === 'light')
@@ -171,15 +168,12 @@ function App() {
     setExpandedModule(moduleIndex)
   }
 
-  const handleSearch = (e: React.FormEvent) => {
-    e.preventDefault()
-  }
-
   const lesson = module?.lessons[currentLesson]
   const lessonTitle = language === 'bn' && lesson?.titleBn ? lesson.titleBn : lesson?.title
 
   return (
     <div className={`app-bg ${theme}`}>
+      {sidebarOpen && <div className="sidebar-overlay" onClick={() => setSidebarOpen(false)} />}
       <nav className="navbar">
         <div className="navbar-top">
           <button className="mobile-menu-btn" onClick={() => setSidebarOpen(!sidebarOpen)}>
@@ -189,77 +183,52 @@ function App() {
           </button>
           <h1 className="navbar-brand">StudyHub</h1>
           
-          <div className="navbar-search-container">
-            <form onSubmit={handleSearch} className="search-box" style={{ flex: 1 }}>
-              <input
-                type="text"
-                className="search-input"
-                placeholder={t.search}
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                onFocus={() => setSearchOpen(true)}
-                onBlur={() => setTimeout(() => setSearchOpen(false), 200)}
-              />
-              {searchOpen && searchResults.length > 0 && (
-                <div className="search-results">
-                  {searchResults.map((result, i) => (
-                    <div key={i} className="search-result-item" onMouseDown={() => {
-                      goToModule(result.moduleIndex, result.lessonIndex)
-                      setSearchQuery('')
-                    }}>
-                      <div className="search-result-title">{language === 'bn' && result.titleBn ? result.titleBn : result.title}</div>
-                      <div className="search-result-module">{result.moduleTitle}</div>
-                    </div>
-                  ))}
-                </div>
-              )}
-            </form>
-          </div>
-
-          <div className="navbar-actions">
-            <button className="theme-toggle" onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}>
-              {theme === 'dark' ? (
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
-                </svg>
-              ) : (
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
-                </svg>
-              )}
-            </button>
-            <button className="language-toggle" onClick={() => setLanguage(language === 'en' ? 'bn' : 'en')}>
-              {language === 'en' ? 'বাং' : 'EN'}
-            </button>
-            <div className="navbar-progress">
-              <div className="progress-circle-container">
-                <svg className="progress-ring" viewBox="0 0 36 36">
-                  <path
-                    className="progress-ring-circle-bg"
-                    d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="3"
-                  />
-                  <path
-                    className="progress-ring-circle"
-                    strokeDasharray={`${progress}, 100`}
-                    d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
-                    fill="none"
-                    stroke="var(--accent)"
-                    strokeWidth="3"
-                  />
-                </svg>
-                <span className="progress-percentage">{progress}%</span>
+          <div className="navbar-search-mobile">
+            <input
+              type="text"
+              className="search-input-mobile"
+              placeholder={t.search}
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              onFocus={() => setSearchOpen(true)}
+            />
+            {searchOpen && searchResults.length > 0 && (
+              <div className="search-results-dropdown">
+                {searchResults.slice(0, 5).map((result, i) => (
+                  <div key={i} className="search-result-item" onClick={() => {
+                    goToModule(result.moduleIndex, result.lessonIndex)
+                    setSearchQuery('')
+                    setSearchOpen(false)
+                  }}>
+                    <div className="search-result-title">{language === 'bn' && result.titleBn ? result.titleBn : result.title}</div>
+                  </div>
+                ))}
               </div>
-            </div>
+            )}
           </div>
-          </div>
-        </nav>
+        </div>
+
+        <div className="navbar-actions">
+          <button className="theme-toggle" onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}>
+            {theme === 'dark' ? (
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+              </svg>
+            ) : (
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+              </svg>
+            )}
+          </button>
+          <button className="language-toggle" onClick={() => setLanguage(language === 'en' ? 'bn' : 'en')}>
+            {language === 'en' ? 'বাং' : 'EN'}
+          </button>
+        </div>
+      </nav>
 
       <aside className={`sidebar ${sidebarOpen ? 'open' : ''}`}>
         <div className="sidebar-section">
-          <h2 className="sidebar-title">{t.modules}</h2>
+          
           {modules.map((m, moduleIndex) => (
             <div key={moduleIndex} className="sidebar-module">
               <div 
@@ -270,7 +239,6 @@ function App() {
                   setExpandedModule(expandedModule === moduleIndex ? null : moduleIndex)
                 }}
               >
-                <span className="sidebar-number">{moduleIndex + 1}</span>
                 <span>{language === 'bn' && m.titleBn ? m.titleBn : m.title}</span>
                 {expandedModule === moduleIndex && (
                   <button className="sidebar-expand-btn">
@@ -292,7 +260,6 @@ function App() {
                         setSidebarOpen(false)
                       }}
                     >
-                      <span className="subitem-number">{lessonIndex + 1}</span>
                       <span>{language === 'bn' && l.titleBn ? l.titleBn : l.title}</span>
                     </div>
                   ))}
@@ -361,7 +328,7 @@ function App() {
             </svg>
             {t.previous}
           </button>
-          <span className="nav-counter">{currentModule + 1} / {modules.length}</span>
+          
           <button 
             className="nav-btn nav-btn-primary" 
             onClick={() => {
