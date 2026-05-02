@@ -87,42 +87,42 @@ function renderContent(content: string): React.ReactNode[] {
     if (trimmed.startsWith('<table>')) {
       const tableMatch = trimmed.match(/<table>.*?<\/table>/s)
       if (tableMatch) {
-        result.push(<div key={i} className="table-container" dangerouslySetInnerHTML={{ __html: tableMatch[0] }} />)
+        result.push(<div key={i} className="lesson-table-container" dangerouslySetInnerHTML={{ __html: tableMatch[0] }} />)
       }
     } else if (trimmed.match(/^[🔬⚡🌊📐🧲🌐✅⚠️]$/)) {
-      result.push(<div key={i} className="eyebrow">{trimmed}</div>)
+      result.push(<div key={i} className="section-emoji">{trimmed}</div>)
     } else if (trimmed.match(/^🔹\s*\d+\.\s*.+/)) {
       const match = trimmed.match(/^🔹\s*(\d+\.\s*.+)/)
-      result.push(<h3 key={i} className="headline">{match?.[1]}</h3>)
+      result.push(<h3 key={i} className="section-title">{match?.[1]}</h3>)
     } else if (trimmed.match(/^[⚡🧲🌐🔬🌊📐✅⚠️]\s*\d+\.\s*.+/)) {
       const match = trimmed.match(/^[⚡🧲🌐🔬🌊📐✅⚠️]\s*(\d+\.\s*.+)/)
-      result.push(<h3 key={i} className="headline">{match?.[1]}</h3>)
+      result.push(<h3 key={i} className="section-title">{match?.[1]}</h3>)
     } else if (trimmed.startsWith('•') || trimmed.startsWith('- ')) {
       const items = trimmed.split('\n').filter(l => l.trim().startsWith('•') || l.trim().startsWith('- '))
       result.push(
-        <ul key={i} className="toc-lessons">
-          {items.map((item, j) => <li key={j} className="toc-lesson">{item.replace(/^[•-]\s*/, '').replace(/^[⚡🧲🌐🔬🌊📐✅⚠️]\s*/, '')}</li>)}
+        <ul key={i} className="bullet-list">
+          {items.map((item, j) => <li key={j}>{item.replace(/^[•-]\s*/, '').replace(/^[⚡🧲🌐🔬🌊📐✅⚠️]\s*/, '')}</li>)}
         </ul>
       )
     } else if (trimmed.match(/^যেখানে:$|^Where:$/i)) {
-      result.push(<h4 key={i} className="subhead">{trimmed}</h4>)
-    } else if (trimmed.match(/^[⚡🧲🌐🔬🌊📐✅⚠️]\s*.+:$/) || trimmed.match(/^মূল বৈশিষ্ট্য:$|^Key Properties:$/i)) {
-      result.push(<h4 key={i} className="subhead">{trimmed.replace(/^[⚡🧲🌐🔬🌊📐✅⚠️]\s+/, '')}</h4>)
+      result.push(<h4 key={i} className="subsection-title">{trimmed}</h4>)
+    } else if (trimmed.match(/^[⚡🧲🌐🔬🌊📐✅⚠️]\s+.+:$/) || trimmed.match(/^মূল বৈশিষ্ট্য:$|^Key Properties:$/i)) {
+      result.push(<h4 key={i} className="subsection-title">{trimmed.replace(/^[⚡🧲🌐🔬🌊📐✅⚠️]\s+/, '')}</h4>)
     } else if (trimmed.match(/^[⚡🧲🌐🔬🌊📐✅⚠️]\s+[A-Zঅ-ঔ].+/) && !trimmed.includes('=')) {
       const match = trimmed.match(/^[⚡🧲🌐🔬🌊📐✅⚠️]\s+(.+)/)
-      result.push(<h4 key={i} className="subhead">{match?.[1]}</h4>)
+      result.push(<h4 key={i} className="subsection-title">{match?.[1]}</h4>)
     } else if (trimmed.match(/^[📐🔹⚡🌊]\s*\d+\.\s*.+/)) {
       const match = trimmed.match(/^[📐🔹⚡🌊]\s*(\d+\.\s*.+)/)
-      result.push(<h3 key={i} className="headline">{match?.[1]}</h3>)
+      result.push(<h3 key={i} className="section-title">{match?.[1]}</h3>)
     } else if (trimmed.match(/^[A-Za-z].+=\s*.+$/) || trimmed.match(/^[a-z].+=\s*.+$/)) {
       result.push(<div key={i} className="formula-line">{trimmed}</div>)
     } else if (trimmed.match(/^✅\s*সংক্ষেপে:|^✅\s*In Short:$/i)) {
-      result.push(<h4 key={i} className="subhead">{trimmed}</h4>)
+      result.push(<h4 key={i} className="summary-title">{trimmed}</h4>)
     } else {
-      result.push(<p key={i} className="body">{trimmed}</p>)
+      result.push(<p key={i} className="content-paragraph">{trimmed}</p>)
     }
 
-  i++
+i++
   }
 
   return result
@@ -172,51 +172,41 @@ function App() {
   const lesson = module?.lessons[currentLesson]
   const lessonTitle = language === 'bn' && lesson?.titleBn ? lesson.titleBn : lesson?.title
 
-  const getLevelClass = (level: string) => {
-    if (level === 'Beginner') return 'beginner'
-    if (level === 'Intermediate') return 'intermediate'
-    return 'advanced'
-  }
-
-  const getLevelText = (level: string) => {
-    if (level === 'Beginner') return language === 'bn' ? 'শুরু' : 'Beginner'
-    if (level === 'Intermediate') return language === 'bn' ? 'মধ্যম' : 'Intermediate'
-    return language === 'bn' ? 'উন্নত' : 'Advanced'
-  }
-
   return (
     <div className={`app-bg ${theme}`}>
       {sidebarOpen && <div className="sidebar-overlay" onClick={() => setSidebarOpen(false)} />}
       <nav className="navbar">
-        <button className="mobile-menu-btn" onClick={() => setSidebarOpen(!sidebarOpen)}>
-          <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-          </svg>
-        </button>
-        <h1 className="navbar-brand">StudyHub</h1>
-        
-        <div className="navbar-search-mobile">
-          <input
-            type="text"
-            className="search-input-mobile"
-            placeholder={t.search}
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-            onFocus={() => setSearchOpen(true)}
-          />
-          {searchOpen && searchResults.length > 0 && (
-            <div className="search-results-dropdown">
-              {searchResults.slice(0, 5).map((result, i) => (
-                <div key={i} className="search-result-item" onClick={() => {
-                  goToModule(result.moduleIndex, result.lessonIndex)
-                  setSearchQuery('')
-                  setSearchOpen(false)
-                }}>
-                  <div className="search-result-title">{language === 'bn' && result.titleBn ? result.titleBn : result.title}</div>
-                </div>
-              ))}
-            </div>
-          )}
+        <div className="navbar-top">
+          <button className="mobile-menu-btn" onClick={() => setSidebarOpen(!sidebarOpen)}>
+            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+          <h1 className="navbar-brand">StudyHub</h1>
+          
+          <div className="navbar-search-mobile">
+            <input
+              type="text"
+              className="search-input-mobile"
+              placeholder={t.search}
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              onFocus={() => setSearchOpen(true)}
+            />
+            {searchOpen && searchResults.length > 0 && (
+              <div className="search-results-dropdown">
+                {searchResults.slice(0, 5).map((result, i) => (
+                  <div key={i} className="search-result-item" onClick={() => {
+                    goToModule(result.moduleIndex, result.lessonIndex)
+                    setSearchQuery('')
+                    setSearchOpen(false)
+                  }}>
+                    <div className="search-result-title">{language === 'bn' && result.titleBn ? result.titleBn : result.title}</div>
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
         </div>
 
         <div className="navbar-actions">
@@ -254,7 +244,7 @@ function App() {
           </div>
 
           {modules.map((m, moduleIndex) => (
-            <div key={moduleIndex}>
+            <div key={moduleIndex} className="sidebar-module">
               <div 
                 className={`sidebar-item ${!showTOC && currentModule === moduleIndex ? 'active' : ''}`}
                 onClick={() => {
@@ -266,9 +256,11 @@ function App() {
               >
                 <span>{language === 'bn' && m.titleBn ? m.titleBn : m.title}</span>
                 {expandedModule === moduleIndex && (
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                  </svg>
+                  <button className="sidebar-expand-btn">
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                    </svg>
+                  </button>
                 )}
               </div>
               {expandedModule === moduleIndex && (
@@ -329,8 +321,10 @@ function App() {
             <>
               <div className="lesson-header">
                 <div className="lesson-meta">
-                  <span className={`level-tag ${getLevelClass(lesson.level)}`}>
-                    {getLevelText(lesson.level)}
+                  <span className={`level-tag ${lesson.level === 'Beginner' ? 'bg-green-500' : lesson.level === 'Intermediate' ? 'bg-amber-500' : 'bg-red-500'} text-black`}>
+                    {lesson.level === 'Beginner' ? (language === 'bn' ? 'শুরু' : 'Beginner') : 
+                     lesson.level === 'Intermediate' ? (language === 'bn' ? 'মধ্যম' : 'Intermediate') : 
+                     (language === 'bn' ? 'উন্নত' : 'Advanced')}
                   </span>
                   <span className="lesson-subtitle">{t.lesson} {currentLesson + 1} / {module.lessons.length}</span>
                 </div>
@@ -343,7 +337,7 @@ function App() {
 
               <div className="takeaways-card">
                 <h3 className="takeaways-title">{t.keyTakeaways}</h3>
-                <ul className="toc-lessons">
+                <ul className="bullet-list">
                   {(language === 'bn' && lesson.takeawaysBn ? lesson.takeawaysBn : lesson.takeaways).map((takeaway, i) => (
                     <li key={i}>{takeaway}</li>
                   ))}
@@ -396,7 +390,7 @@ function App() {
           >
             {t.next}
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7-7" />
             </svg>
           </button>
         </div>
