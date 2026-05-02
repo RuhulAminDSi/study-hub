@@ -1,12 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "./index.css";
-import hljs from "highlight.js/lib/core";
-import "highlight.js/lib/languages/javascript";
-import "highlight.js/lib/languages/python";
-import "highlight.js/lib/languages/cpp";
-import "highlight.js/lib/languages/java";
-import "highlight.js/lib/languages/css";
-import "highlight.js/lib/languages/xml";
 import { modules } from "./data/modules/index";
 import { translations } from "./data/translations";
 
@@ -64,15 +57,6 @@ function isTableLine(line: string): boolean {
   const trimmed = line.trim();
   if (!trimmed || trimmed.length < 3) return false;
   return trimmed.includes("│") || /[┌┬┐├┤└┘┄┆─]/.test(trimmed);
-}
-
-function formatCode(code: string): string {
-  try {
-    const result = hljs.highlightAuto(code);
-    return result.value;
-  } catch {
-    return code;
-  }
 }
 
 function renderContent(content: string): React.ReactNode[] {
@@ -626,7 +610,7 @@ function App() {
                       {t.copy}
                     </button>
                   </div>
-                  <pre className="code-content" dangerouslySetInnerHTML={{ __html: formatCode(lesson.code || '') }} />
+                  <pre className="code-content">{lesson.code}</pre>
                 </div>
               )}
             </>
