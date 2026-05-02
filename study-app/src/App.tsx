@@ -134,12 +134,12 @@ function App() {
   const [expandedModule, setExpandedModule] = useState<number | null>(0)
   const [sidebarOpen, setSidebarOpen] = useState(false)
   const [searchOpen, setSearchOpen] = useState(false)
+  const [desktopSearchFocused, setDesktopSearchFocused] = useState(false)
   const [language, setLanguage] = useState<'en' | 'bn'>('bn')
   const [theme, setTheme] = useState<'dark' | 'light'>('dark')
   const [searchQuery, setSearchQuery] = useState('')
-  const [showTOC, setShowTOC] = useState(false)
 
-  const searchResults = searchQuery.length >= 2 ? modules.flatMap(m =>
+  const searchResults = searchQuery.length >= 2 ? modules.flatMap(m => 
     m.lessons.filter(l => 
       (language === 'bn' && l.titleBn ? l.titleBn : l.title).toLowerCase().includes(searchQuery.toLowerCase()) ||
       (language === 'bn' && l.contentBn ? l.contentBn : l.content).toLowerCase().includes(searchQuery.toLowerCase())
@@ -183,16 +183,57 @@ function App() {
             </svg>
           </button>
           <h1 className="navbar-brand">StudyHub</h1>
-          
-          <div className="navbar-search-mobile">
+           
+          <div className="navbar-search-desktop">
             <input
               type="text"
-              className="search-input-mobile"
+              className="search-input-desktop"
               placeholder={t.search}
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              onFocus={() => setSearchOpen(true)}
+              onFocus={() => setDesktopSearchFocused(true)}
+              onBlur={() => setTimeout(() => setDesktopSearchFocused(false), 200)}
             />
+            {desktopSearchFocused && searchQuery.length >= 2 && searchResults.length > 0 && (
+              <div className="search-results-desktop">
+                {searchResults.slice(0, 10).map((result, i) => (
+                  <div key={i} className="search-result-item" onClick={() => {
+                    goToModule(result.moduleIndex, result.lessonIndex)
+                    setSearchQuery('')
+                    setDesktopSearchFocused(false)
+                  }}>
+                    <div className="search-result-title">{language === 'bn' && result.titleBn ? result.titleBn : result.title}</div>
+                    <div className="search-result-module">{result.moduleTitle}</div>
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
+
+          <button className="search-toggle-btn" onClick={() => setSearchOpen(!searchOpen)}>
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+            </svg>
+          </button>
+           
+          <div className={`navbar-search-mobile ${searchOpen ? 'open' : ''}`}>
+            <div className="navbar-search-container">
+              <input
+                type="text"
+                className="search-input-mobile"
+                placeholder={t.search}
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                onFocus={() => setSearchOpen(true)}
+              />
+              {searchOpen && (
+                <button className="search-close-btn" onClick={() => setSearchOpen(false)}>
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                </button>
+              )}
+            </div>
             {searchOpen && searchResults.length > 0 && (
               <div className="search-results-dropdown">
                 {searchResults.slice(0, 5).map((result, i) => (
@@ -230,25 +271,11 @@ function App() {
       <aside className={`sidebar ${sidebarOpen ? 'open' : ''}`}>
         <div className="sidebar-section">
           
-          <div 
-            className={`sidebar-item ${showTOC ? 'active' : ''}`}
-            onClick={() => {
-              setShowTOC(true)
-              setCurrentModule(0)
-              setCurrentLesson(0)
-              setExpandedModule(null)
-              setSidebarOpen(false)
-            }}
-          >
-            <span>{t.tableOfContents}</span>
-          </div>
-
           {modules.map((m, moduleIndex) => (
             <div key={moduleIndex} className="sidebar-module">
               <div 
-                className={`sidebar-item ${!showTOC && currentModule === moduleIndex ? 'active' : ''}`}
+                className={`sidebar-item ${currentModule === moduleIndex ? 'active' : ''}`}
                 onClick={() => {
-                  setShowTOC(false)
                   setCurrentModule(moduleIndex)
                   setCurrentLesson(0)
                   setExpandedModule(expandedModule === moduleIndex ? null : moduleIndex)
@@ -286,75 +313,43 @@ function App() {
       </aside>
 
       <main className="main-content">
-        {showTOC ? (
-          <div className="toc-container">
-            <h1 className="lesson-title">{t.tableOfContents}</h1>
-            <div className="toc-modules">
-              {modules.map((m, moduleIndex) => (
-                <div key={moduleIndex} className="toc-module">
-                  <h2 className="toc-module-title" onClick={() => {
-                    setShowTOC(false)
-                    goToModule(moduleIndex, 0)
-                  }}>
-                    {language === 'bn' && m.titleBn ? m.titleBn : m.title}
-                  </h2>
-                  <ul className="toc-lessons">
-                    {m.lessons.map((l, lessonIndex) => (
-                      <li 
-                        key={lessonIndex}
-                        className="toc-lesson"
-                        onClick={() => {
-                          setShowTOC(false)
-                          goToModule(moduleIndex, lessonIndex)
-                        }}
-                      >
-                        {language === 'bn' && l.titleBn ? l.titleBn : l.title}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              ))}
+        {module && lesson && (
+          <>
+            <div className="lesson-header">
+              <div className="lesson-meta">
+                <span className={`level-tag ${lesson.level === 'Beginner' ? 'bg-green-500' : lesson.level === 'Intermediate' ? 'bg-amber-500' : 'bg-red-500'} text-black`}>
+                  {lesson.level === 'Beginner' ? (language === 'bn' ? 'শুরু' : 'Beginner') : 
+                   lesson.level === 'Intermediate' ? (language === 'bn' ? 'মধ্যম' : 'Intermediate') : 
+                   (language === 'bn' ? 'উন্নত' : 'Advanced')}
+                </span>
+                <span className="lesson-subtitle">{t.lesson} {currentLesson + 1} / {module.lessons.length}</span>
+              </div>
+              <h1 className="lesson-title">{lessonTitle}</h1>
             </div>
-          </div>
-        ) : (
-          module && lesson && (
-            <>
-              <div className="lesson-header">
-                <div className="lesson-meta">
-                  <span className={`level-tag ${lesson.level === 'Beginner' ? 'bg-green-500' : lesson.level === 'Intermediate' ? 'bg-amber-500' : 'bg-red-500'} text-black`}>
-                    {lesson.level === 'Beginner' ? (language === 'bn' ? 'শুরু' : 'Beginner') : 
-                     lesson.level === 'Intermediate' ? (language === 'bn' ? 'মধ্যম' : 'Intermediate') : 
-                     (language === 'bn' ? 'উন্নত' : 'Advanced')}
-                  </span>
-                  <span className="lesson-subtitle">{t.lesson} {currentLesson + 1} / {module.lessons.length}</span>
+
+            <div className="content-rendered">
+              {renderContent(language === 'bn' && lesson.contentBn ? lesson.contentBn : lesson.content)}
+            </div>
+
+            <div className="takeaways-card">
+              <h3 className="takeaways-title">{t.keyTakeaways}</h3>
+              <ul className="bullet-list">
+                {(language === 'bn' && lesson.takeawaysBn ? lesson.takeawaysBn : lesson.takeaways).map((takeaway, i) => (
+                  <li key={i}>{takeaway}</li>
+                ))}
+              </ul>
+            </div>
+
+            {lesson.code && (
+              <div className="code-block">
+                <div className="code-header">
+                  <span className="code-label">{t.keyFormula}</span>
+                  <button className="code-copy" onClick={() => navigator.clipboard.writeText(lesson.code || '')}>{t.copy}</button>
                 </div>
-                <h1 className="lesson-title">{lessonTitle}</h1>
+                <pre className="code-content">{lesson.code}</pre>
               </div>
-
-              <div className="content-rendered">
-                {renderContent(language === 'bn' && lesson.contentBn ? lesson.contentBn : lesson.content)}
-              </div>
-
-              <div className="takeaways-card">
-                <h3 className="takeaways-title">{t.keyTakeaways}</h3>
-                <ul className="bullet-list">
-                  {(language === 'bn' && lesson.takeawaysBn ? lesson.takeawaysBn : lesson.takeaways).map((takeaway, i) => (
-                    <li key={i}>{takeaway}</li>
-                  ))}
-                </ul>
-              </div>
-
-              {lesson.code && (
-                <div className="code-block">
-                  <div className="code-header">
-                    <span className="code-label">{t.keyFormula}</span>
-                    <button className="code-copy" onClick={() => navigator.clipboard.writeText(lesson.code || '')}>{t.copy}</button>
-                  </div>
-                  <pre className="code-content">{lesson.code}</pre>
-                </div>
-              )}
-            </>
-          )
+            )}
+          </>
         )}
 
         <div className="nav-buttons">
