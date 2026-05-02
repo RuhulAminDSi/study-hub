@@ -169,8 +169,10 @@ function renderContent(content: string): React.ReactNode[] {
         </h3>,
       );
     } else if (
-      trimmed.match(/^[A-Za-z].+=\s*.+$/) ||
-      trimmed.match(/^[a-z].+=\s*.+$/)
+      // Only treat as formula if has = with actual value (not just declaration)
+      // e.g., "F = ma" or "x = 5" but NOT "String name;" or "int age;"
+      trimmed.match(/^[A-Za-z_]\w*\s*=\s*[^;\s]/) ||
+      trimmed.match(/^[a-z_]\w*\s*=\s*[^;\s]/)
     ) {
       result.push(
         <div key={i} className="formula-line">
