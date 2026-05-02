@@ -79,6 +79,7 @@ function renderContent(content: string): React.ReactNode[] {
         const table = parseTable(tableLines);
         if (table) result.push(table);
       }
+      i++; // increment for the line we already processed
       continue;
     }
 
@@ -134,7 +135,7 @@ function renderContent(content: string): React.ReactNode[] {
           ))}
         </ul>,
       );
-    } else if (trimmed.match(/^যেখানে:$|^Where:$/i)) {
+    } else if (trimmed.match(/^যেখানে:$/i) || trimmed.match(/^Where:$/i)) {
       result.push(
         <h4 key={i} className="subsection-title">
           {trimmed}
@@ -142,7 +143,8 @@ function renderContent(content: string): React.ReactNode[] {
       );
     } else if (
       trimmed.match(/^[⚡🧲🌐🔬🌊📐✅⚠️]\s+.+:$/) ||
-      trimmed.match(/^মূল বৈশিষ্ট্য:$|^Key Properties:$/i)
+      trimmed.match(/^মূল বৈশিষ্ট্য:$/i) ||
+      trimmed.match(/^Key Properties:$/i)
     ) {
       result.push(
         <h4 key={i} className="subsection-title">
@@ -150,7 +152,7 @@ function renderContent(content: string): React.ReactNode[] {
         </h4>,
       );
     } else if (
-      trimmed.match(/^[⚡🧲🌐🔬🌊📐✅⚠️]\s+[A-Zঅ-ঔ].+/) &&
+      trimmed.match(/^[⚡🧲🌐🔬🌊📐✅⚠️]\s+[A-Za-zঅ-ঔ].+/) &&
       !trimmed.includes("=")
     ) {
       const match = trimmed.match(/^[⚡🧲🌐🔬🌊📐✅⚠️]\s+(.+)/);
@@ -175,7 +177,7 @@ function renderContent(content: string): React.ReactNode[] {
           {trimmed}
         </div>,
       );
-    } else if (trimmed.match(/^✅\s*সংক্ষেপে:|^✅\s*In Short:$/i)) {
+    } else if (trimmed.match(/^✅\s*সংক্ষেপে:$/i) || trimmed.match(/^✅\s*In Short:$/i)) {
       result.push(
         <h4 key={i} className="summary-title">
           {trimmed}
@@ -292,36 +294,32 @@ function App() {
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               onFocus={() => setDesktopSearchFocused(true)}
-              onBlur={() =>
-                setTimeout(() => setDesktopSearchFocused(false), 200)
-              }
+              onBlur={() => setTimeout(() => setDesktopSearchFocused(false), 200)}
             />
-            {desktopSearchFocused &&
-              searchQuery.length >= 2 &&
-              searchResults.length > 0 && (
-                <div className="search-results-desktop">
-                  {searchResults.slice(0, 10).map((result, i) => (
-                    <div
-                      key={i}
-                      className="search-result-item"
-                      onClick={() => {
-                        goToModule(result.moduleIndex, result.lessonIndex);
-                        setSearchQuery("");
-                        setDesktopSearchFocused(false);
-                      }}
-                    >
-                      <div className="search-result-title">
-                        {language === "bn" && result.titleBn
-                          ? result.titleBn
-                          : result.title}
-                      </div>
-                      <div className="search-result-module">
-                        {result.moduleTitle}
-                      </div>
+            {desktopSearchFocused && searchQuery.length >= 2 && searchResults.length > 0 && (
+              <div className="search-results-desktop">
+                {searchResults.slice(0, 10).map((result, i) => (
+                  <div
+                    key={i}
+                    className="search-result-item"
+                    onClick={() => {
+                      goToModule(result.moduleIndex, result.lessonIndex);
+                      setSearchQuery("");
+                      setDesktopSearchFocused(false);
+                    }}
+                  >
+                    <div className="search-result-title">
+                      {language === "bn" && result.titleBn
+                        ? result.titleBn
+                        : result.title}
                     </div>
-                  ))}
-                </div>
-              )}
+                    <div className="search-result-module">
+                      {result.moduleTitle}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            )}
           </div>
 
           <button
@@ -338,7 +336,7 @@ function App() {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth={2}
-                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 01 14 0z"
               />
             </svg>
           </button>
@@ -414,7 +412,7 @@ function App() {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth={2}
-                  d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"
+                  d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 01 8 0z"
                 />
               </svg>
             ) : (
@@ -428,7 +426,7 @@ function App() {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth={2}
-                  d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
+                  d="M20.354 15.354A9 9 0 01 8.646 3.646 9.003 9.003 0 00 12 21a9.003 9.003 0 00 8.354-5.646z"
                 />
               </svg>
             )}
@@ -444,6 +442,7 @@ function App() {
 
       <aside className={`sidebar ${sidebarOpen ? "open" : ""}`}>
         <div className="sidebar-section">
+
           <div
             className={`sidebar-item ${showTOC ? "active" : ""}`}
             onClick={() => {
@@ -504,7 +503,9 @@ function App() {
                       }}
                     >
                       <span>
-                        {language === "bn" && l.titleBn ? l.titleBn : l.title}
+                        {language === "bn" && l.titleBn
+                          ? l.titleBn
+                          : l.title}
                       </span>
                     </div>
                   ))}
@@ -541,7 +542,9 @@ function App() {
                           goToModule(moduleIndex, lessonIndex);
                         }}
                       >
-                        {language === "bn" && l.titleBn ? l.titleBn : l.title}
+                        {language === "bn" && l.titleBn
+                          ? l.titleBn
+                          : l.title}
                       </li>
                     ))}
                   </ul>
@@ -550,25 +553,30 @@ function App() {
             </div>
           </div>
         ) : (
-          module &&
-          lesson && (
+          module && lesson && (
             <>
               <div className="lesson-header">
                 <div className="lesson-meta">
                   <span
-                    className={`level-tag ${lesson.level === "Beginner" ? "bg-green-500" : lesson.level === "Intermediate" ? "bg-amber-500" : "bg-red-500"} text-black`}
+                    className={`level-tag ${
+                      lesson.level === "Beginner"
+                        ? "beginner"
+                        : lesson.level === "Intermediate"
+                        ? "intermediate"
+                        : "advanced"
+                    }`}
                   >
                     {lesson.level === "Beginner"
                       ? language === "bn"
                         ? "শুরু"
                         : "Beginner"
                       : lesson.level === "Intermediate"
-                        ? language === "bn"
-                          ? "মধ্যম"
-                          : "Intermediate"
-                        : language === "bn"
-                          ? "উন্নত"
-                          : "Advanced"}
+                      ? language === "bn"
+                        ? "মধ্যম"
+                        : "Intermediate"
+                      : language === "bn"
+                      ? "উন্নত"
+                      : "Advanced"}
                   </span>
                   <span className="lesson-subtitle">
                     {t.lesson} {currentLesson + 1} / {module.lessons.length}
@@ -704,8 +712,7 @@ function App() {
               window.scrollTo({
                 top: document.body.scrollHeight,
                 behavior: "smooth",
-              })
-            }
+              })}
             title={t.goToBottom}
           >
             <svg
