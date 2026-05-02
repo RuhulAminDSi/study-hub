@@ -138,8 +138,9 @@ function App() {
   const [language, setLanguage] = useState<'en' | 'bn'>('bn')
   const [theme, setTheme] = useState<'dark' | 'light'>('dark')
   const [searchQuery, setSearchQuery] = useState('')
+  const [showTOC, setShowTOC] = useState(false)
 
-  const searchResults = searchQuery.length >= 2 ? modules.flatMap(m => 
+  const searchResults = searchQuery.length >= 2 ? modules.flatMap(m =>
     m.lessons.filter(l => 
       (language === 'bn' && l.titleBn ? l.titleBn : l.title).toLowerCase().includes(searchQuery.toLowerCase()) ||
       (language === 'bn' && l.contentBn ? l.contentBn : l.content).toLowerCase().includes(searchQuery.toLowerCase())
@@ -271,11 +272,25 @@ function App() {
       <aside className={`sidebar ${sidebarOpen ? 'open' : ''}`}>
         <div className="sidebar-section">
           
+          <div 
+            className={`sidebar-item ${showTOC ? 'active' : ''}`}
+            onClick={() => {
+              setShowTOC(true)
+              setCurrentModule(0)
+              setCurrentLesson(0)
+              setExpandedModule(null)
+              setSidebarOpen(false)
+            }}
+          >
+            <span>{t.tableOfContents}</span>
+          </div>
+
           {modules.map((m, moduleIndex) => (
             <div key={moduleIndex} className="sidebar-module">
               <div 
-                className={`sidebar-item ${currentModule === moduleIndex ? 'active' : ''}`}
+                className={`sidebar-item ${!showTOC && currentModule === moduleIndex ? 'active' : ''}`}
                 onClick={() => {
+                  setShowTOC(false)
                   setCurrentModule(moduleIndex)
                   setCurrentLesson(0)
                   setExpandedModule(expandedModule === moduleIndex ? null : moduleIndex)
@@ -313,43 +328,75 @@ function App() {
       </aside>
 
       <main className="main-content">
-        {module && lesson && (
-          <>
-            <div className="lesson-header">
-              <div className="lesson-meta">
-                <span className={`level-tag ${lesson.level === 'Beginner' ? 'bg-green-500' : lesson.level === 'Intermediate' ? 'bg-amber-500' : 'bg-red-500'} text-black`}>
-                  {lesson.level === 'Beginner' ? (language === 'bn' ? 'শুরু' : 'Beginner') : 
-                   lesson.level === 'Intermediate' ? (language === 'bn' ? 'মধ্যম' : 'Intermediate') : 
-                   (language === 'bn' ? 'উন্নত' : 'Advanced')}
-                </span>
-                <span className="lesson-subtitle">{t.lesson} {currentLesson + 1} / {module.lessons.length}</span>
-              </div>
-              <h1 className="lesson-title">{lessonTitle}</h1>
-            </div>
-
-            <div className="content-rendered">
-              {renderContent(language === 'bn' && lesson.contentBn ? lesson.contentBn : lesson.content)}
-            </div>
-
-            <div className="takeaways-card">
-              <h3 className="takeaways-title">{t.keyTakeaways}</h3>
-              <ul className="bullet-list">
-                {(language === 'bn' && lesson.takeawaysBn ? lesson.takeawaysBn : lesson.takeaways).map((takeaway, i) => (
-                  <li key={i}>{takeaway}</li>
-                ))}
-              </ul>
-            </div>
-
-            {lesson.code && (
-              <div className="code-block">
-                <div className="code-header">
-                  <span className="code-label">{t.keyFormula}</span>
-                  <button className="code-copy" onClick={() => navigator.clipboard.writeText(lesson.code || '')}>{t.copy}</button>
+        {showTOC ? (
+          <div className="toc-container">
+            <h1 className="lesson-title">{t.tableOfContents}</h1>
+            <div className="toc-modules">
+              {modules.map((m, moduleIndex) => (
+                <div key={moduleIndex} className="toc-module">
+                  <h2 className="toc-module-title" onClick={() => {
+                    setShowTOC(false)
+                    goToModule(moduleIndex, 0)
+                  }}>
+                    {language === 'bn' && m.titleBn ? m.titleBn : m.title}
+                  </h2>
+                  <ul className="toc-lessons">
+                    {m.lessons.map((l, lessonIndex) => (
+                      <li 
+                        key={lessonIndex}
+                        className="toc-lesson"
+                        onClick={() => {
+                          setShowTOC(false)
+                          goToModule(moduleIndex, lessonIndex)
+                        }}
+                      >
+                        {language === 'bn' && l.titleBn ? l.titleBn : l.title}
+                      </li>
+                    ))}
+                  </ul>
                 </div>
-                <pre className="code-content">{lesson.code}</pre>
+              ))}
+            </div>
+          </div>
+        ) : (
+          module && lesson && (
+            <>
+              <div className="lesson-header">
+                <div className="lesson-meta">
+                  <span className={`level-tag ${lesson.level === 'Beginner' ? 'bg-green-500' : lesson.level === 'Intermediate' ? 'bg-amber-500' : 'bg-red-500'} text-black`}>
+                    {lesson.level === 'Beginner' ? (language === 'bn' ? 'শুরু' : 'Beginner') : 
+                     lesson.level === 'Intermediate' ? (language === 'bn' ? 'মধ্যম' : 'Intermediate') : 
+                     (language === 'bn' ? 'উন্নত' : 'Advanced')}
+                  </span>
+                  <span className="lesson-subtitle">{t.lesson} {currentLesson + 1} / {module.lessons.length}</span>
+                </div>
+                <h1 className="lesson-title">{lessonTitle}</h1>
               </div>
-            )}
-          </>
+
+              <div className="content-rendered">
+                {renderContent(language === 'bn' && lesson.contentBn ? lesson.contentBn : lesson.content)}
+              </div>
+
+              <div className="takeaways-card">
+                <h3 className="takeaways-title">{t.keyTakeaways}</h3>
+                <ul className="bullet-list">
+                  {(language === 'bn' && lesson.takeawaysBn ? lesson.takeawaysBn : lesson.takeaways).map((takeaway, i) => (
+                    <li key={i}>{takeaway}</li>
+                  ))}
+                </ul>
+              </div>
+
+              {lesson.code && (
+                <div className="code-block">
+                  <div className="code-header">
+                    <span className="code-label">{t.keyFormula}</span>
+                    <button className="code-copy" onClick={() => navigator.clipboard.writeText(lesson.code || '')}>{t.copy}</button>
+                  </div>
+                  <pre className="code-content">{lesson.code}</pre>
+                </div>
+              )}
+            </>
+          )
         )}
 
         <div className="nav-buttons">
