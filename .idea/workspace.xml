@@ -1,7 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c73d1c9-a6a6-4298-bef7-7625506ae4fc" name="Changes" comment="" />
+    <list default="true" id="4c73d1c9-a6a6-4298-bef7-7625506ae4fc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Basic_Physics/1_Basic+Physics.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Basic_Physics/Basic_Physics_100_MCQ.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Basic_Physics/Basic_Physics_Detailed_Questions.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_Basic_Physics/Basic_Physics_Notes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Introduction_to_Computer_Systems/2_Introduction+to+Computer+Systems.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Introduction_to_Computer_Systems/Introduction_to_Computer_Systems_100_MCQ.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Introduction_to_Computer_Systems/Introduction_to_Computer_Systems_Detailed_Questions.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Introduction_to_Computer_Systems/Introduction_to_Computer_Systems_Notes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_Electrical_Circuits/3_Electrical+Circuits.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_Electrical_Circuits/Electrical_Circuits_100_MCQ.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_Electrical_Circuits/Electrical_Circuits_Detailed_Questions.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_Electrical_Circuits/Electrical_Circuits_Notes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_Digital_Logic_Design/4_Digital+Logic+Design.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_Digital_Logic_Design/Digital_Logic_Design_100_MCQ.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_Digital_Logic_Design/Digital_Logic_Design_Detailed_Questions.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_Digital_Logic_Design/Digital_Logic_Design_Notes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5_Basic_Electronics/5_Basic+Electronics.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5_Basic_Electronics/Basic_Electronics_100_MCQ.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5_Basic_Electronics/Basic_Electronics_Detailed_Questions.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5_Basic_Electronics/Basic_Electronics_Notes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/6_Microprocessor_and_Interfacing/6_Microprocessor+and+Interfacing.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/6_Microprocessor_and_Interfacing/Microprocessor_and_Interfacing_100_MCQ.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/6_Microprocessor_and_Interfacing/Microprocessor_and_Interfacing_Detailed_Questions.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/6_Microprocessor_and_Interfacing/Microprocessor_and_Interfacing_Notes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7_Computer_Architecture/7_Computer+Architecture.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7_Computer_Architecture/Computer_Architecture_100_MCQ.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7_Computer_Architecture/Computer_Architecture_Detailed_Questions.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7_Computer_Architecture/Computer_Architecture_Notes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8_Communication_Theory/8_Communication+Theory.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8_Communication_Theory/Communication_Theory_100_MCQ.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8_Communication_Theory/Communication_Theory_Detailed_Questions.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8_Communication_Theory/Communication_Theory_Notes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/9_Computer_Networking_and_Security/9_Computer+Networking+and+Security.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/9_Computer_Networking_and_Security/Computer_Networking_and_Security_100_MCQ.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/9_Computer_Networking_and_Security/Computer_Networking_and_Security_Detailed_Questions.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/9_Computer_Networking_and_Security/Computer_Networking_and_Security_Notes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A_Structured_programming_language/A_Structured+programming+language.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A_Structured_programming_language/Structured_Programming_Language_100_MCQ.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A_Structured_programming_language/Structured_Programming_Language_Detailed_Questions.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A_Structured_programming_language/Structured_Programming_Notes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/B_Object_Oriented_Programming_OOP/B_Object+Oriented+Programming+(OOP).doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/B_Object_Oriented_Programming_OOP/Object_Oriented_Programming_100_MCQ.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/B_Object_Oriented_Programming_OOP/Object_Oriented_Programming_Detailed_Questions.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/B_Object_Oriented_Programming_OOP/Object_Oriented_Programming_Notes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C_Discrete_Mathematics/C_Discrete+Mathematics.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C_Discrete_Mathematics/Discrete_Mathematics_100_MCQ.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C_Discrete_Mathematics/Discrete_Mathematics_Detailed_Questions.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C_Discrete_Mathematics/Discrete_Mathematics_Notes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/D_Graphs/D_Graphs.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/D_Graphs/Graphs_100_MCQ.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/D_Graphs/Graphs_Detailed_Questions.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/D_Graphs/Graphs_Notes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/E_Theory_of_Computation/E_Theory+of+Computation.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/E_Theory_of_Computation/Theory_of_Computation_100_MCQ.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/E_Theory_of_Computation/Theory_of_Computation_Detailed_Questions.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/E_Theory_of_Computation/Theory_of_Computation_Notes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/F_Data_Structures_and_Algorithms/Data_Structures_and_Algorithms_100_MCQ.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/F_Data_Structures_and_Algorithms/Data_Structures_and_Algorithms_Detailed_Questions.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/F_Data_Structures_and_Algorithms/Data_Structures_and_Algorithms_Notes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/F_Data_Structures_and_Algorithms/F_Data+Structures+and+Algorithms.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/G_Database_Systems/Database_Systems_100_MCQ.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/G_Database_Systems/Database_Systems_Detailed_Questions.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/G_Database_Systems/Database_Systems_Notes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/G_Database_Systems/G_Database+Systems.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/H_Software_Engineering_and_Information_System_Design/H_Software+Engineering+and+Information+System+Design.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/H_Software_Engineering_and_Information_System_Design/Software_Engineering_100_MCQ.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/H_Software_Engineering_and_Information_System_Design/Software_Engineering_Detailed_Questions.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/H_Software_Engineering_and_Information_System_Design/Software_Engineering_Notes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/I_Operating_System/I_Operating+System.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/I_Operating_System/Operating_System_100_MCQ.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/I_Operating_System/Operating_System_Detailed_Questions.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/I_Operating_System/Operating_System_Notes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/J_Artificial_Intelligence/Artificial_Intelligence_100_MCQ.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/J_Artificial_Intelligence/Artificial_Intelligence_Detailed_Questions.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/J_Artificial_Intelligence/Artificial_Intelligence_Notes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/J_Artificial_Intelligence/J_Artificial+Intelligence.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/check-layout.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content-check.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/desktop-portfolio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final-theme-test.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixed-layout.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixed-ui.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/light-fixed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/light-theme-test.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-final-test.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-fresh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-hamburger-test.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-menu-open.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-portfolio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-screenshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-test-fixed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-test-result.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-ui-test.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-view.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-design.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-app-full.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-app-screenshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme-test.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-issue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-test.png" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,12 +123,16 @@
     &quot;assignee&quot;: &quot;RuhulAminDSi&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/RuhulAminDSi/study-hub.git",
-    "accountId": "5933206a-6472-4043-8ef9-2a6e0dbf0c35"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/RuhulAminDSi/study-hub.git&quot;,
+    &quot;accountId&quot;: &quot;5933206a-6472-4043-8ef9-2a6e0dbf0c35&quot;
   }
-}]]></component>
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -30,36 +141,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\DSi\\Desktop\\New folder\\COACH\\opencode-plugins-study-app\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Users\\DSi\\Desktop\\PROJECTS\\COACH\\study-app\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="COACH" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="COACH" />
-      <option name="filePath" />
-      <method v="2" />
-    </configuration>
-  </component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -78,6 +178,7 @@
       <workItem from="1772902012110" duration="1046000" />
       <workItem from="1772903085514" duration="3084000" />
       <workItem from="1776198761453" duration="7451000" />
+      <workItem from="1777730032234" duration="958000" />
     </task>
     <servers />
   </component>
