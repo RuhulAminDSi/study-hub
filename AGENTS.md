@@ -16,9 +16,14 @@ npm run preview  # Preview production build
 
 ## Key Files
 
-- `study-app/src/main.tsx` - Entry point
-- `study-app/src/App.tsx` - Main app with hardcoded lesson content
+- `study-app/src/main.tsx` - App entry point
+- `study-app/src/App.tsx` - Main app, imports lesson modules from `data/modules/`
+- `study-app/src/data/modules/` - CS curriculum modules (1-19) with lessons and MCQs
 - `study-app/vite.config.ts` - Vite + React + Tailwind v4 config
+
+## Branch Convention
+
+- Always work on `dev` branch; `master` is protected/deployment branch
 
 ## Notes
 

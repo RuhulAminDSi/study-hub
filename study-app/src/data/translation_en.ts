@@ -20,4 +20,5 @@ export const translation_en: Translations = {
   lessons: "Lessons",
   goToBottom: "Go to bottom",
   goToTop: "Go to top",
+  tableOfContents: "Table of Contents",
 }

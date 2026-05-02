@@ -20,4 +20,5 @@ export const translation_bn: Translations = {
   lessons: "পাঠসমূহ",
   goToBottom: "নিচে যান",
   goToTop: "উপরে যান",
+  tableOfContents: "সূচিপত্র",
 }

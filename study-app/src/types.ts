@@ -38,4 +38,5 @@ export interface Translations {
   lessons: string
   goToBottom: string
   goToTop: string
+  tableOfContents: string
 }
